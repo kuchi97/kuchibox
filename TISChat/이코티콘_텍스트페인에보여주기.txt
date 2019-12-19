@@ -1,0 +1,99 @@
+public void setStyle(JLabel lb, String msg, SimpleAttributeSet attr){
+    	int caretPos=doc.getEndPosition().getOffset()-1;    	
+    	tpMsg.setCaretPosition(caretPos);
+    	int offset=tpMsg.getCaretPosition();
+
+    	//텍스트페인에 라벨 끼워넣기
+	   //(JLabel은 문자열형태,아이콘 형태등 다양하게 표현 가능.)
+    	tpMsg.insertComponent(lb);
+    	try {
+    		String sg="\r\n";//엔터값 끼워넣기(줄바꿈하도록)
+    		
+			doc.insertString(offset, sg, attr);
+		} catch (BadLocationException e) {
+			e.printStackTrace();
+		}
+    	//정렬방식 문단속성 적용
+    	doc.setParagraphAttributes(offset+2,msg.length() , attr, true);
+    	tpMsg.setCaretPosition(offset+2);
+    	//커릿의 위치를 엔터값 2바이트 더해서 위치시킴
+
+	}
+    
+    public synchronized void showCacaoStyle(String who,Color bgCr, 
+    		Color fgCr, String msg) {
+    	JLabel lb=new JLabel(msg);
+    	lb.setOpaque(true);//라벨 배경색이 적용되려면 투명하게
+    	lb.setPreferredSize(new Dimension(700,50)); 
+    	//lb의 높이를 50으로 줌. 폭은 문자열 내용만큼 차지함
+    	lb.setForeground(fgCr);
+    	lb.setBackground(bgCr);
+    	
+    	if(who.equals("Me")) {
+    		//내가 귓속말 보낼 경우
+    		//보낸이가 나라면 오른쪽에 라벨 보여주기(노란색)
+    		attr=new SimpleAttributeSet();
+    		StyleConstants.setAlignment(attr, StyleConstants.ALIGN_RIGHT);
+    	}else {
+    		//내가 귓속말을 받을 경우
+    		attr=new SimpleAttributeSet();
+    		StyleConstants.setAlignment(attr, StyleConstants.ALIGN_LEFT);
+    	}
+    	
+    	setStyle(lb,msg,attr);	
+    }
+    public synchronized void showCacaoStyle(String chatId, String foRgb,String msg) {
+    	
+    	String msg2="   "+chatId+">>"+msg+"  \n";
+    	JLabel lb=new JLabel(msg2);
+    	lb.setOpaque(true);//라벨 배경색이 적용되려면 투명하게
+    	lb.setPreferredSize(new Dimension(700,50)); 
+    	//lb의 높이를 40으로 줌. 폭은 문자열 내용만큼 차지함
+    	lb.setForeground(new Color(Integer.parseInt(foRgb)));
+    	
+    	if(chatId.equals(id)) {
+    		//보낸이가 나라면 오른쪽에 라벨 보여주기(노란색)
+    		attr=new SimpleAttributeSet();
+    		StyleConstants.setAlignment(attr, StyleConstants.ALIGN_RIGHT);
+    		lb.setBackground(Color.YELLOW);
+    	}else {
+    		//보낸이가 다른이라면 왼쪽에 라벨 보여주기(핑크색)
+    		attr=new SimpleAttributeSet();
+    		StyleConstants.setAlignment(attr, StyleConstants.ALIGN_LEFT);
+    		lb.setBackground(Color.pink);
+    	}
+    	setStyle(lb,msg2,attr);
+    	
+    }//-------------------------------
+
+    public synchronized void showEmoticon(String chatId, ImageIcon icon) {
+        tpMsg.setCaretPosition(doc.getEndPosition().getOffset() - 1);
+        int end = tpMsg.getCaretPosition();
+
+        String msg2 = "[" + chatId + "]님" + "\r\n";
+        
+        JLabel lb=new JLabel(msg2,icon,JLabel.CENTER);
+        
+    	//lb.setOpaque(true);
+        //라벨 배경색이 적용되려면 투명하게 true준다.
+        //이모티콘 보낼 때는 불투명하게 false
+    	lb.setPreferredSize(new Dimension(700,90)); 
+    	//lb의 높이를 90으로 줌. 폭은 문자열 내용만큼 차지함
+    	lb.setHorizontalTextPosition(JLabel.CENTER);
+    	lb.setVerticalTextPosition(JLabel.BOTTOM);
+    	
+    	if(chatId.equals(id)) {
+    		//보낸이가 나라면 오른쪽에 라벨 보여주기(노란색)
+    		attr=new SimpleAttributeSet();
+    		StyleConstants.setAlignment(attr, StyleConstants.ALIGN_RIGHT);
+    		
+    	}else {
+    		//보낸이가 다른이라면 왼쪽에 라벨 보여주기(핑크색)
+    		attr=new SimpleAttributeSet();
+    		StyleConstants.setAlignment(attr, StyleConstants.ALIGN_LEFT);
+    		
+    	}
+    	setStyle(lb,msg2,attr);
+    }//----------------------
+    
+    

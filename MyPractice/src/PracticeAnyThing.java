@@ -1,84 +1,65 @@
-interface PhoneInterface
+import java.awt.*;
+import java.util.Timer;
+
+import javax.swing.*;
+
+class TimerThread extends Thread
 {
-	final int TIMEOUT= 10000;
-	void sendCall();
-	void receiveCall();
+	private JLabel timer;
 	
-	default void printLogo()
+	public TimerThread(JLabel timer)
 	{
-		System.out.println("***Phone***");
+		this.timer= timer;		//타이머카운트 출력
 	}
-}//.PhoneInterface
-
-interface MobilePhoneInterface extends PhoneInterface
-{
-	void sendSMS();			//public 생략됨
-	void receiveSMS();
-}
-
-interface MP3Interface
-{
-	public void play();
-	public void stop();
-}
-
-class PDA
-{
-	public int calculate(int x, int y)
-	{
-		return x+y;
-	}
-}
-
-//Smartphone 클래스는 pda 상속받고,
-//mobilephoneinterface와 mp3interface 인터페이스에 선언된 추상메소드 모두 구현
-class SmartPhone extends PDA implements MobilePhoneInterface, MP3Interface
-{
+	
+	//thread
 	@Override
-	public void sendCall()
+	public void run()
 	{
-		System.out.println("전화함");
-	}
-	public void receiveCall()
-	{
-		System.out.println("전화옴");
-	}
-	public void sendSMS()
-	{
-		System.out.println("문자를 발송하였습니다");
-	}
-	public void receiveSMS()
-	{
-		System.out.println("문자가 도착하였습니다");
-	}
-	public void play()
-	{
-		System.out.println("재생시작");
-	}
-	public void stop()
-	{
-		System.out.println("정지");
-	}
-	
-	//.smartphone에서 추가로 작성하는 메소드
-	public void schedule()
-	{
-		System.out.println("오늘 이거해야지");
+		int n=0;
+		
+		while(true)
+		{
+			timer.setText(Integer.toString(n));
+			n++;
+			
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+				return;
+			}
+		}
 	}
 }
 
-public class PracticeAnyThing
+public class PracticeAnyThing extends JFrame
 {
+	//constructor
+	public PracticeAnyThing()
+	{
+		setTitle("Thread 상속 타이머 예제");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		Container c= getContentPane();
+		c.setLayout(new FlowLayout());
+		
+		//타이머값 출력할 라벨
+		JLabel timer= new JLabel();
+		timer.setFont(new Font("Gothic", Font.ITALIC, 80));
+		c.add(timer);
+		
+		//타이머 스레드 생성
+		TimerThread thrd= new TimerThread(timer);
+		
+		setSize(300,170);
+		setVisible(true);
+		
+		thrd.start();
+	}
+	
 	public static void main(String[] args) {
 		
-		SmartPhone sp= new SmartPhone();
-		
-		sp.printLogo();
-		sp.sendCall();
-		sp.play();
-		
-		System.out.println
-		("3+5: "+sp.calculate(3, 5));
-		sp.schedule();
+		new PracticeAnyThing();
 	}
 }
