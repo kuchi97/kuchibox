@@ -62,17 +62,20 @@ public class Intra extends JFrame {
         		// System.out.println("board on");
         	}
         }));
-        lbEmpno.addMouseListener((new MouseAdapter() {
-        	@Override
-        	public void mousePressed(MouseEvent e)
-        	{
-        		String str;
-        		str=JOptionPane.showInputDialog("input");
-        		
-        		lbEmpno.setText(str);
-        		// System.out.println("set ID "+str);
-        	}
-        }));
+//        lbEmpno.addMouseListener((new MouseAdapter() {
+//        	@Override
+//        	public void mousePressed(MouseEvent e)
+//        	{
+//        		String str;
+//        		str=JOptionPane.showInputDialog("input");
+//        		
+//        		lbEmpno.setText(str);
+//        		// System.out.println("set ID "+str);
+//        	}
+//        }));
+        lbEmpno.setText(String.valueOf(empid));
+        nw_tfEmpid.setText(String.valueOf(empid));
+        nw_tfEmpid.setEnabled(false);
         
         tfSearch.addActionListener((new ActionListener() {
         	@Override
@@ -1530,7 +1533,8 @@ public class Intra extends JFrame {
 		}
     }
     private void lbLogoutMouseClicked(java.awt.event.MouseEvent evt) {                                      
-    	this.dispose();
+//    	this.dispose();
+    	System.exit(0);
 //    	login.pack();
 //    	login.setLocation(0,0);
 //    	login.setVisible(true);
