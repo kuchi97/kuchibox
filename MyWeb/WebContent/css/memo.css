@@ -1,0 +1,36 @@
+body,th,td,input
+{
+	font-size:15px;
+	font-family:verdana,sans-serif;
+	color:navy;
+	padding:5px;
+}
+table
+{
+	margin:auto;
+	margin-top:50px;
+	border-collapse: collapse;
+}
+table th {
+	background-color:#FADDFA;
+}
+table td.label{
+	text-align:center;
+}
+.box {
+	border: 1px solid blue;
+}
+.writer {
+	width:50%;
+}
+.memo {
+	width:90%;
+}
+#wrap button {
+	border:1px solid black;
+	background-color:#CCCCFF;
+	padding:6px, 8px, 6px;
+}
+a:link {
+	text-decoration:none;
+}

@@ -118,7 +118,10 @@ public class TabAndThreadEx extends JFrame{
 			@Override
 			public void keyPressed(KeyEvent e)
 			{
+//				System.out.println(e);
+				if(e.getKeyCode()==KeyEvent.VK_RIGHT)
 				bar.fill();					//키를 누를때마다 바가 1씩 늘어남   <<<중요!>>>
+				
 			}
 		});
 		
