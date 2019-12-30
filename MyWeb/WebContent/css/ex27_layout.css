@@ -1,0 +1,125 @@
+/* ex27.layout.css */
+/* UTF-8 한글주석 달수있다 */
+@charset "UTF-8";
+
+body {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size:16px;
+    color:gray;
+
+}
+
+/* template.html에서 layout.css 참조하도록 처리하기
+    <link> 태그 이용하기
+*/
+
+#wrap {
+    width:1024px;
+    height:auto;
+    margin:0 auto;
+    /* margin 상하:0 좌우:auto; */
+}
+
+div.clear {
+    clear:both;
+    /* 불필요하게 교차된 박스를 분리해주는 역할 */
+}
+/* header--------------------------------------------------------- */
+/* 나중에 영역 찾아서 수정해주기 쉬움 */
+
+header {
+    margin-top:10px;
+    padding:20px;
+    border:1px solid rgba(255,0,0,1.0);
+    border-radius:10px;
+    align-items: center;
+}
+
+/* nav에대해
+안쪽여백 5px
+바깥여백 상하5px 좌우0px
+높이 30px
+배경색 알아서
+모서리 둥글게 */
+nav {
+    margin: 5px 0px;
+    padding:5px;
+    height:30px;
+    background-color:skyblue;
+    border-radius:20px;
+}
+nav ul {
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+}
+nav ul li {
+    float:left;
+    padding:0 5px 0 5px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    /* 링크 언더라인 없애기 */
+    padding:4px 20px 3px 20px;
+    display:block;
+    /* block 지정해서 공간확보하는 효과 */
+    color:hotpink;
+}
+
+nav ul li a:hover {
+    background-color:rgb(122, 255, 34);
+    color:purple;
+}
+
+/* article------------------------------------------------- */
+article {
+    width:75%;
+    /* 1024px(바디에서 잡은)의 75%가 됨 */
+    height:auto;
+    border:1px solid orangered;
+    margin:5px 0px;
+    padding:5px;
+    float:left;
+    border-radius:5px;
+}
+
+/* aside--------------------------------------- */
+aside {
+    float:right;
+    width:20%;
+    height:450px;
+    border:1px solid;
+    margin:5px 0;
+    padding:7px;
+    border-radius:5px;
+}
+aside nav {
+    border:none;
+    background:none;
+}
+aside nav ul {
+    list-style-type:none;
+}
+aside nav ul li {
+    padding:0 5px;
+}
+aside nav ul li a {
+    width:170px;
+    padding:5px 0;
+}
+aside nav ul li a:hover {
+    background-color:transparent;
+    font-family:sans-serif;
+    font-weight:bold;
+}
+
+/* footer------------------------- */
+footer {
+    border:1px solid orangered;
+    border-radius:5px;
+    padding: 10px 20px;
+    font-size:10px;
+    margin 5px 0;
+    box-shadow: 5px 5px 10px 10px navy;
+}
