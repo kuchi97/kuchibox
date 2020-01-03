@@ -9,20 +9,24 @@
 	String email= request.getParameter("email");
 	String products= request.getParameter("products");
 	int price=0;
+	String item="";
 	String ea= request.getParameter("ea");
 	
 	switch(products)
 	{
 		case "product1":
 			price=500;
+			item="축구공";
 			break;
 		
 		case "product2":
 			price=600;
+			item="농구공";
 			break;
 		
 		case "product3":
 			price=700;
+			item="배구공";
 			break;
 	}
 	
@@ -54,7 +58,7 @@
 		</tr>
 		<tr>
 			<th>상품</th>
-			<td><%=products %></td>
+			<td><%=item %></td>
 		</tr>
 		<tr>
 			<th>수량</th>

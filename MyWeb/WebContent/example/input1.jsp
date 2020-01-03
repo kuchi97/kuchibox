@@ -74,6 +74,8 @@
 			alert("상품을 선택해주세요");
 			return;
 		}
+		
+		//isNaN(): 숫자가 아니면 true 반환
 		if(!isEa(f.ea))
 		{
 			alert("정확한 수량을 입력해주세요");
