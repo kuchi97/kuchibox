@@ -1,16 +1,92 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Insert title here</title>
-	<style>
-		h1 {
-			color: red;
-		}
-	
-	</style>
+<title>폼필터,상태필터 선택자</title>
+<!--jQuery Google CDN-------------------------->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<!-------------------------------------------->
+<script>
+    $(function(){
+        /* #폼 필터 선택자
+        [1] 선택자:input  : 모든 input요소를 선택한다.
+                        <input><select><button><textarea>...등
+        [2] 선택자:radio  : radio요소를 선택
+        [3] 선택자:checkbox: checkbox요소를 선택
+        [4] 선택자:text
+        [5] 선택자:file
+        [6] 선택자:password
+        [7] 선택자:button : 모든 버튼 유형(submit,reset,button)
+        [8] 선택자:submit
+        [9] 선택자:reset
+        [10]선택자:image : (input type속성값이 image인 요소 선택)
+        
+        #상태 필터 선택자
+        [1] 선택자:selected : (select태그)에서 선택된 요소를 찾아준다.
+        [2] 선택자:checked (radio,checkbox)에서 체크된 요소를 찾아준다.
+        [3] 선택자:focus : 현재 포커스가 온 요소를 선택
+        [4] 선택자:enabled : 활성화되어 있는 요소를 선택
+        [4] 선택자:disabled : 비활성화되어 있는 요소를 선택
+        
+            
+        */
+        
+        //radio와 checkbox요소를 선택해서 테두리를 1px dotted pink로 주세요
+        $(":radio, :checkbox").css({
+            // borderWidth:"1px",
+            // borderStyle:"dotted",
+            // borderColor:"pink",
+            border:"1px dotted pink"
+        })
+
+
+
+        //모든 버튼 요소를 선택해서 배경색 주기
+        
+        /*[문제1] select박스에서 선택한 값을 id가 msg인 곳에        
+        텍스트형태로 출력해보세요.
+          [문제2] 선택한 색상으로 body의 배경색을 변경하세요        
+        */
+        //radio버튼에서 선택한 성별 값을 id가 result인 곳에 보여주세요
+        //:checked 필터
+        //checkbox버튼에서 선택한 언어 값을  id가 result인 곳에 보여주세요
+        //api문서 : http://api.jquery.com
+        
+        
+    });//$()end    
+    
+</script>
+
 </head>
 <body>
-	<h1>Hello MyWeb!</h1>
+    <h1>jQuery 폼필터,상태필터 선택자</h1>
+    <h2>form 엘리먼트의 현재 상태를 검사하여 거르는 선택자</h2>
+    <form name="f">
+        <select>
+            <option value="">::배경색::</option>
+            <option value="yellow">노랑</option>
+            <option value="lime">라임</option>
+            <option value="skyblue">하늘색</option>
+        </select>        
+        <span id="msg"></span>
+        <p></p>
+        이름: <input type="text" name="name" disabled><p></p>
+        <!--disabled속성을 가지면 서버로 데이터 전송이 되지 않음-->
+        성별: <input type="radio" name="gender" value="남">남자
+        <input type="radio" name="gender" value="여" checked>여자
+        <p></p>
+        언어:
+        <input type="checkbox" name="lang" value="Kor">한국어
+        <input type="checkbox" name="lang" value="Eng">영어
+        <input type="checkbox" name="lang" value="JS">JavaScript
+        <input type="checkbox" name="lang" value="HTML">HTML
+        <p></p>
+        <button type="button" class='btn'>결과보기</button>
+        <button type="reset" class='btn'>다시쓰기</button>
+        <button>전송하기</button>
+    </form>
+    <div id="result"></div>
 </body>
 </html>
+
+
+<!--ex09selector.html-->
