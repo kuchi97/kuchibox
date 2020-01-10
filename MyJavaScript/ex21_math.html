@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var num= 23.5567;
+        var roundNum= Math.round(num);      //반올림
+        print(roundNum);
+        var floorNum= Math.floor(num);      //버림
+        print(floorNum);
+        var ceilNum= Math.ceil(num);        //올림
+        print(ceilNum);
+        print(Math.PI);
+
+        var rnum=Math.random()*6+1;             //0.0~1.0
+        print(rnum);
+
+        var mx= Math.max(10,5,78,45);
+        print(mx);
+        var mn= Math.min(10,5,78,45);
+        print(mn);
+
+        //실습 0< rnum2 <10 임의의 정수 ㄱㄱ
+        var rnum2=Math.random()*10;
+        print(Math.floor(rnum2));
+
+        //실습 45<= rnum3 <68 임의의정수 ㄱㄱ
+        var rnum3= Math.floor(Math.random()*23+45); 
+        print(rnum3);
+
+
+
+
+        function print(val)
+        {
+            document.write(`<h1>${val}</h1>`);
+        }
+    
+    </script>
+</head>
+<body>
+    <h1>내장객체 - MATH</h1>
+
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    </style>
+    <script>
+        var obj1= null;
+        var obj2= null;
+        var obj3= null;
+        var obj4= null;
+        var win= null;
+
+        window.onload=function()
+        {
+            // var url="https://naver.com";
+            var url="ex20_calendar.html"
+            
+            obj1= document.getElementById("b1");
+
+            obj1.onclick= function()
+            {
+                var attr="width=400, height=400, left=50, top=100, scrollbars=yes"+
+                        "menubar=yes, toolbar=yes, resizable=no";
+
+                if(win==null)
+                {
+                win=window.open(url, "calendar", attr);
+
+                }
+            }
+
+            //팝업창 닫기: window.close();
+            obj2= document.getElementById("b2");
+
+            obj2.onclick= function()
+            {
+                if(win!=null)
+                {
+                    win.close();
+                    win=null;
+                }
+            }
+
+            //위치변경: window.moveTo(x, y);
+            //  제약조건: 동일한 도메인일 경우에만 동작함
+            obj3= document.getElementById("b3");
+
+            obj3.onclick= function()
+            {
+                if(win!=null)
+                {
+                    win.moveTo(100,500);
+                }
+                else
+                    alert("팝업이 없어요");
+            }
+
+            //크기변경: window.resizeTo(width, height)
+            obj4= document.getElementById("b4");
+
+            obj4.onclick= function() {
+                if(win!=null)
+                {
+                  win.resizeTo(600,600);
+                }
+                else
+                    alert("팝업이 없어요");
+            }
+            //prompt(), alert(), confirm(), setTimeout(), setInterval()...
+        }//--onload()
+        //이렇게 밑작업을 해줘야 미리 불러옴
+
+    </script>
+</head>
+<body>
+    <h1>BOM: Browser Object Model</h1>
+    <h3>브라우저에 내장되어있는 객체</h3>
+    <p>window, document, location, history, form...</p>
+    <button id='b1'> 팝업창 열기</button>
+    <button id='b2'> 팝업창 닫기</button>
+    <button id='b3'> 팝업창 위치변경</button>
+    <button id='b4'> 팝업창 크기변경</button>
+
+    <hr color='red'>
+    <h3>MoveCircle 버튼을 누르면 공의 x좌표를 증가시키세요</h3>
+    <h3>Stop 버튼을 누르면 중지시키세요</h3>
+    <div id='circle' style='width:100px; height:100px; background-color:magenta;
+                            border-radius:50px; margin:20px;'></div>
+
+    <button onclick='goOnce()'>move 50px</button>
+    <button onclick='w= window.setTimeout(goOnce,3000)'>3초뒤 move 50px</button>
+    <button onclick='window.clearTimeout(w)'>3초뒤 move 중지</button>
+    <button onclick='dow=window.setInterval(gogogo,100)'>moveCircle</button>
+    <button onclick='stop()'>stop</button>
+
+    <hr color='blue'>
+    <button onclick='yn=window.confirm("닫을래?");if(yn)window.close()'>창닫기</button>
+
+
+    <script>
+        var cobj= document.getElementById("circle");
+        //cobj를 style객체를 사용하여 이동시키기
+
+        function goOnce()
+        {
+            cobj.style.position="relative";
+            cobj.style.left+=50+"px";
+        }
+
+        go=0;
+        var sw=0;
+        function gogogo()
+        {
+            cobj.style.position="relative";
+            cobj.style.left=go+"px";
+           
+            if(sw==0)
+            {
+                go+=5;
+                if(go>300)
+                    sw=1;
+            }
+            else if(sw==1)
+            {
+                go-=5;
+                if(go<=0)
+                    sw=0;
+            }
+
+        }
+        //setInterval()을 일종의 반복문이라고 생각하면 쉬움
+
+        function stop()
+        {
+            window.clearInterval(dow);
+        }
+    
+    
+    </script>
+
+</body>
+</html>

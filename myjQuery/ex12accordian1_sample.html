@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/
+xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html;
+charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type"
+content="text/javascript" />
+<title> 아코디언판넬 </title>
+<script type="text/javascript"
+src="http://ajax.googleapis.com/ajax/libs/
+jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+    $(function(){
+        //alert('a');
+        //[1] dd 요소 중 첫번째 요소가 아닌 요소들은 감추기
+        // $("dd").not(:first).hide();
+        $("dd").hide();
+
+        
+        //[2] dl의 자식 dt를 클릭했을 때 이벤트 처리 코드 완성
+        //    이 코드 안에서 구현
+		// 클릭한 요소 옆의 형제 dd 가 안보인다면 등장시키기
+        $("dl>dt").click(function(){
+            if($(this).next().css("display")=="none")
+            {
+                $(this).next().show(300);
+                // 또는 $("+dd", this).show(); 로 참조할 수 있다
+            }
+            else
+                $("+dd",this).hide(300);
+        });
+        
+    });
+</script>
+<style type="text/css">
+*{
+	margin:0;
+	padding:0;
+	font-family:'verdana';
+	font-size:9pt;
+	color:navy;
+}
+dl{
+	width:400px;
+	margin:50px auto;
+}
+dl dt{
+	background:#ffccff;
+	border-bottom:1px solid #FFFFFF;
+	cursor:pointer;
+	padding:8px;
+	font-size:1.5em;
+	font-style:bold;
+}
+dl dd{
+	border:1px solid #7CADB6;
+	border-top:none;
+	height:300px;
+}
+dl dd p{
+  padding: 7px;
+}
+</style>
+</head>
+<body>
+<div id="container">
+<dl>
+    <dt> 텍스트1</dt>
+    <dd>
+        <p> 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트
+            텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 
+       </p>
+    </dd>
+    <dt> 텍스트 2</dt>
+    <dd>
+        <p> 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트
+        텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 
+        </p>
+    </dd>
+    <dt> 텍스트 3</dt>
+    <dd>
+        <p> 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트
+        텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 </p>
+    </dd> 
+</dl>
+</div>
+</body>
+</html>

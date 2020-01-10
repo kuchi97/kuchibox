@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>제이쿼리 초짜에여 ㅎㅎ</title>
+
+    <!-- http://jquery.com 에서 jquery 라이브러리를 다운로드받아 js 폴더에 둔다 -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <script>
+        // jquery 라이브러리의 함수 하나 써보기
+        //jQuery()로 타이틀의 텍스트값을 반환해주기
+        // alert(jQuery("title").text());
+
+        window.onload=function()
+        {
+        //1. #a div에 h1으로 hello javascript 삽입
+            var aval=document.getElementById("a");
+            aval.innerHTML="<h1>hello javascript</h1>";
+
+            //글자색빨강
+            aval.style.color="red";
+
+
+        }
+
+        //2. #b div에 hello jquery 삽입
+        // jQuery 의 축약형: $
+        // jQuery(document).ready(function(){
+        $(document).ready(function(){
+            //window.onload=function(){}랑 비슷하다
+            $("#b").html("<h1>Hello jQuery</h1>");
+                // == var aval=document.getElementById("a");
+                //   + aval.innerHTML="<h1>hello javascript</h1>";
+
+            //글자색 파랑
+            //  css("속성명","속성값")
+            $("#b").css("color","blue");
+
+        });
+
+        //$(document).ready()까지 줄이기
+        $(function(){
+            // alert("띠용");
+            
+            //#c 에 goodbye 문자열을 넣고 글자색 아쿠아로
+            //배경색 yellow로
+            $("#c").html("<h1>Good Bye~</h1>");
+            $("#c").css("color","aqua");
+            $("#c").css("backgroundColor","yellow");
+
+            //또는 - chaining 기법 - 아래처럼 작성가능하다
+            $("#c").html("<h1>Good Bye~</h1>")
+                    .css("color","cyan")
+                    .css("backgroundColor","magenta");
+
+            //.d에 배경색 핑크 폭100px 높이100px주세요
+            $(".d").css({"background-color":"pink",
+                        "width":"100px",
+                        "height":"100px"});
+            //.e에 접근
+            $(".e").css({
+                backgroundColor:"skyblue",
+                width:"100px",
+                height:"100px",
+                marginTop:"10px"
+            });
+
+
+        });
+
+
+    </script>
+
+
+</head>
+<body>
+    <h1>jQuery 사용하기</h1>
+    <!-- 1. 다운로드 http://jquery.com
+                    http://jqueryui.com (확장된 기능)
+         2. CDN 참조방식
+    -->
+
+    <div id="a"></div>
+    <div id="b"></div>
+    <div id="c"></div>
+    <div class='d'></div>
+    <div class='e'></div>
+
+    
+</body>
+</html>

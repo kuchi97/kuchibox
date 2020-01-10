@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>배열의 함수</h1>
+    <script>
+        var fruits=['Banana','Grape','Apple', 'Kiwi'];
+        //[1] join(연결문자): 배열 요소들을 연결문자를 붙여 한개의 문자열
+        //                  로 만들어 반환함
+        var str=fruits.join('~');
+        print(str);
+        //[2] sort() : 배열에 저장된 요소들을 오름차순으로 정렬한다.
+        //[3] reverse(): 데이터 순서를 거꾸로 바꾼후 반환
+        fruits.sort();
+        print(fruits);
+        //내림차순으로 출력해보기
+        print(fruits.sort().reverse());
+
+        var grade=[55,78,32,92];
+        //위 성적을 오름차순으로 정렬해서 출력해보기
+       // print(grade.sort());//32 55 78 92
+        //sort()는 배열 요소를 문자열로 간주하여 오름차순 정렬을 함
+        grade.sort(function(a, b){
+            //return a-b;//오름차순 정렬
+            console.log(`a:${a}, b:${b} , a-b: ${a-b}`)
+            return a-b;//내림차순 정렬
+        });
+        print(grade);
+        print("1등 점수: "+grade[0]+"점");
+
+        function print(val){
+            document.write("<h3>"+val+"</h3>");
+        }
+    </script>
+</body>
+</html>
+<!-- ex27_Array.html -->

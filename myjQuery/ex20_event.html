@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--jQuery Google CDN-------------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-------------------------------------------->
+
+<script>
+    $(function(){
+
+        $("#bt1").click(function(){
+            $("body").append("<h2>Hello bt1</h2>");
+
+            //선택자.trigger("이벤트종류")
+            $("#bt2").trigger("click");
+        })
+        $("#bt2").click(function(){
+            $("body").append("<h2>Hi bt2</h2>");
+        })
+
+
+
+    })    
+</script>
+
+
+</head>
+<body>
+    <h1>jQuery 이벤트 강제발생</h1>
+    <h2>trigger()함수를 이용하여 강제발동</h2>
+
+    <button id='bt1'>click on trigger bt2</button>
+    <button id='bt2'>bt2</button>
+</body>
+</html>

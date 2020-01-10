@@ -1,0 +1,110 @@
+﻿<html>
+<head><title>계층 선택자</title>
+    <style>
+      body *{
+         border: thin solid gray; 
+         margin: 5px;
+         padding: 8px;
+         font-size: 18px;
+         font-weight:bold;  
+        }
+    </style>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            /* 계층 선택자
+            [1] 선택자 > 자식선택자: 특정 요소 바로 밑에 있는 자식 요소를 선택
+            [2] 선택자  자손선택자: 특정 요소 안에 포함된 '모든' 자손 요소를 선택
+            [3] 선택자 + 형제선택자: 특정 요소의 다음(바로옆) 형제 요소 1개 선택
+            [4] 선택자 ~ 형제선택자: 특정 요소의 다음에 오는 '모든' 형제요소를 선택
+            */
+        //[문제1] 아이디가 div0인 요소의 자식 p요소를 선택해서
+        //배경색을 노랑색으로 주세요
+            $("#div0>p").css("backgroundColor","yellow");
+        
+        /*[문제2]  div0의 자손p요소를 선택해서 글자색을 blue로 주세요*/
+            $("#div0 p").css("color","blue");
+            
+        /*[문제3] 아이디가 p1인 요소 바로 뒤에 오는 p요소를 선택해서
+               배경색을 maroon으로, 글자색은 흰색으로 주세요*/
+            $("#p1+p").css({
+                backgroundColor:"maroon",
+                color:"white"
+            });
+            
+        /*[문제4] 아이디가 span1인 요소의 모든 형제 요소를 선택해서
+               배경색을 navy, 글자색은 흰색으로 주세요
+        */     
+            $("#span1~").css({
+                backgroundColor:"navy",
+                color:"white"
+            });
+        
+            
+            /* [문제5] 아이디가 div2의 자식 요소 중 클래스가 class1인
+           요소를 찾아서 테두리를 thick solid skyblue로 주세요*/
+            $("#div2>.class1").css({
+                borderColor:"skyblue",
+                borderStyle:"solid",
+                borderWidth:"thick"
+            });
+
+           
+        /*[문제6] div0의 자식 중 첫째 자식을 찾아서
+          테두리를 thick dotted pink로 주세요*/
+            $("#div0>:first").css({
+                // :xxx  = 필터선택자
+                border:"thick dotted pink"
+            });
+            
+        /*[문제7] div0의 자식 중 막내 자식을 찾아서
+        배경색을 orange로 주세요.*/
+            $("#div0>:last")
+            .css({
+                backgroundColor:"orange"
+            })
+            .html("<h4>rap SSuregi</h4>");         //innerHTML("")
+
+        /* html(), text() 함수
+        
+            - setter로 사용되고         ex> 선택자.html("값...");
+            - getter로도 사용된다       ex> var 변수= 선택자.html();
+            
+         */
+
+        //#div2 안의 html태그들을 alert()로 찍어보기
+        var str=$("#div2").html();
+        // alert(str);
+
+            
+        });//ready
+        
+       
+    </script>
+    
+</head>
+<body>
+    <h1>jQuery 계층 선택자</h1>
+    
+    <div id='div0'>div0
+       <div id="div1">div1
+           <span id="span1">span1</span>
+           <span id="span2">span2</span>
+           <span id="span3">span3</span>
+           <span>span4</span>
+       </div>
+       <div id="div2">div2
+           <p id='p1'>p1</p>
+           <p id='p2' class='class1 class2'>p2 class1 class2</p>
+           <p id='p3' class='class1'>p3 class1</p>
+           <p id='p4'>p4</p>
+       </div>
+       <div id='div3' class='class2'>div3 class2</div>
+       <p>p</p>        
+       <p></p>        
+    </div>
+    
+</body>
+</html>
+ex04selector.html

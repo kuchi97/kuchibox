@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var win=null;
+        function openWin(){
+            var url="ex20_Calendar.html";
+            win=window.open(url,"cal","width=400, height=400");
+                            //url,창이름,속성들
+        }
+        function closeWin(){
+            if(win!=null){ //win=>팝업창(window객체)
+                win.close();//창닫기
+                win=null;
+            }
+        }
+        function checkPwd(obj){
+            //alert(obj);
+            var pwd=obj.value;
+            var err=document.getElementById('errMsg');//span
+            if(pwd.length<4||pwd.length>6){
+               // alert('비밀번호는 4자이상 6자 이내여야 해요');
+                err.style.visibility='';
+                obj.focus();
+                return;
+            }else{
+                err.style.visibility='hidden';
+            }
+        }
+    </script>
+</head>
+<body onload="openWin()" onunload="alert('Bye Bye~');closeWin()">
+
+    <h1>Event처리</h1>
+    아이디: <input type="text" name="userid"
+                 onfocus="this.style.border='3px dashed red'"
+                 onblur="this.style.border=''"
+                 onchange="document.bgColor='cyan'"
+                 oninput="console.log('input')"><p></p>
+    <!-- onfocus : 입력 포커스가 온 경우
+         onblur  : 입력 포커스가 옮겨진 경우
+         onchange : 입력 필드값을 변경했을 때. tab키 눌러 테스트하기
+         oninput : 입력할 때
+    -->
+    비밀번호:<input type="password" name="userPwd" onchange="checkPwd(this)">
+    <span 
+     id="errMsg" style="color:red;visibility: hidden;">비밀번호는 4자이상 6자 이내여야 해요</span>
+    <p></p>
+    이  름: <input type="text" name="userName"
+    onkeydown="console.log('keydown')"
+     onkeypress="console.log('keypress')"
+      onkeyup="console.log('keyup')"
+      onmouseenter="this.style.backgroundColor='silver'"
+       onmouseleave="this.style.backgroundColor=''"><p></p>
+    <!-- 
+        onkeydown : 키를 누를 때 (모든 키를 인식함)
+        onkeypress: 타이핑 할 때 (shift, ctrl키는 인식못함) 
+        onkeyup : 키를 눌렀다 뗄때  
+        onmouseenter : 마우스가 영역안에 들어올 때
+        onmouseleave : 마우스가 영역밖으로 나갈 때
+        [실습] 마우스가 텍스트박스안에 들어오면 배경색을 silver로
+                나가면 원래색으로 돌아오도록 하세요
+    -->
+
+    <table style="width:80%;border:1px darkgreen solid;margin: auto;">
+        <tr>
+            <td width="33%" onclick="this.style.backgroundColor='orange'">클릭</td>
+            <td width="33%" ondblclick="this.style.backgroundColor='#66ddee'">더블클릭</td>
+            <td width="33%">
+        <textarea rows="7" cols="20"
+         onselect="this.style.border='thick dotted blue'">이곳에 쓴 내용을 select하세요</textarea>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
+<!-- ex30_event.html -->

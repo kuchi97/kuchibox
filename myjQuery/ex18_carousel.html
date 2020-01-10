@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<!--jQuery Google CDN-------------------------->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-------------------------------------------->
+    <style>
+        img {
+            width:130px;
+            height:170px;
+        }
+    </style>
+    <script>
+        $(function(){
+            //1. prepend img중 마지막요소 찾아서 #panel의 맨앞에
+            $("#prepend").click(function(){
+                $("img").last().prependTo("#panel");
+            })
+
+            //2. append
+            $("#append").click(function(){
+                $("img").first().appendTo("#panel");
+            })
+
+            //3. 이미지가 자동으로 순환하기: setInterval()
+            var playInterval=null;      //interval switch
+
+            $("#auto").click(function(){
+                if(playInterval==null)
+                {
+                    playInterval=setInterval(function(){
+                        $("img").first().appendTo("#panel");
+                    },300)
+                }
+            })
+
+            //4. 이미지 순환 중지
+            $("#stop").click(function(){
+                if(playInterval!=null)
+                {
+                    clearInterval(playInterval);
+                    playInterval=null;
+                }
+            })
+
+
+        })
+    </script>
+
+
+
+</head>
+<body>
+    <h1>append, prepend 를 활용한 이미지 순환</h1>
+    <div id='panel' align='center'>
+        
+        <img src='images/a.png' alt='a.png'>
+        <img src='images/b.png' alt='b.png'>
+        <img src='images/c.png' alt='c.png'>
+        <img src='images/d.png' alt='d.png'>
+        <img src='images/ca1.jpg' alt='e.png'>
+    </div>
+    <div style='margin-top:30px' align='center'>
+        <button id='prepend'>prepend</button>
+        <button id='append'>append</button>
+        <button id='auto'>auto moving</button>
+        <button id='stop'>stop moving</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>for~in loop</h1>
+    <pre>
+    for 변수 in 객체(또는 배열, Collection)
+    {
+        변수는 객체의 속성(property)을 참조한다
+    }
+    </pre>
+    
+    <script>
+        var tv= new Object();
+        tv.color="cyan";
+        tv.price="1500000";
+        tv.model="HellG";
+        tv.info=function(){
+            document.write("Model: "+this.model+", Price: "+this.price+", Color: "+this.color+"<br>");
+        }
+        document.write("<hr color='blue'");
+        
+        tv.info();
+
+        for(var k in tv)
+        {
+            document.write(tv[k]+"<br>");
+        }
+
+        document.write("<hr color='red'>");
+
+
+        //window.location 객체의 속성을 출력
+        for(var l in window.location)
+        {
+            document.write(l+"<br>");
+        }
+
+        //값넣기
+        var arr=[10,20,30];             //자바스크립트의 배열
+        for(var i in arr)
+        {
+            document.write(i+"<br>");   //i는 배열의 인덱스를 나타냄
+            document.write(arr[i]+"<br>");  //배열 안의 값을 나타냄
+        }
+
+
+    </script>
+</body>
+</html>

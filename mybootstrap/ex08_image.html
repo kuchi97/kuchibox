@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class='container'>
+        <h4>Align Image [.float-left/right]</h4>
+        <img src='/images/pengsu.png' class='rounded float-left' width=100 height=120>
+        <img src='/images/diablo2.gif' class='rounded float-right' width=100 height=100>
+
+        <div style='clear:both;'></div>
+        <!-- floating 해제하기 -->
+
+        <h4>Centered Image [.mx-auto(margin:auto) d-block(display:block)]</h4>
+        <img src='/images/cat.PNG' class='img-thumbnail mx-auto d-block' width=100 height-100>
+
+        <hr color=red>
+
+        <h4>responsible Image [.img-fluid]</h4>
+        <p>.img-fluid: width=100%, height=auto 효과<br>
+        스크린 크기에 따라 자동으로 이미지를 조정함(반응형 이미지)
+        </p>
+        <img src='images/joker_org.jpg' class='img-fluid'>
+
+
+    </div>
+</body>
+</html>

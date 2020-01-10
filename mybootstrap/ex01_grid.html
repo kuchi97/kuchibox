@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        .col, .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+          border: 1px solid red;
+          padding: 10px;
+        }
+        .row{
+          margin-bottom: 4px;
+          margin-top: 4px;
+          }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Bootstrap Grid System</h1>
+        
+        <!-- 1행 12열이 default -->
+        <div class='row'>
+            <div class='col'>.col</div>
+            <div class='col'>.col</div>
+            <div class='col'>.col</div>
+            <div class='col'>.col</div>
+            <div class='col'>.col</div>
+            <div class='col'>.col</div>
+            <div class='col'>.col</div>
+            <div class='col'>.col</div>
+            <div class='col'>.col</div>
+            <div class='col'>.col</div>
+            <div class='col'>.col</div>
+            <div class='col'>.col</div>
+        </div>
+        <!-- 1행 2열 만들기 & 데스크탑일때는(lg,md) 2열, 모바일에서는(xs) 1열로 보이게-->
+        <!-- 태블릿일때(sm) 
+            default: 12컬럼
+            해상도에 따라 컬럼을 달리 지정하고자 할때 
+            
+            큰 데스크탑: col-lg-n
+            데스크탑   : col-md-n
+            태블릿     : col-sm-n
+            스마트폰   : col-xs-n
+        -->
+            
+            
+        <div class='row'>
+            <div class='col-lg-6 col-xs-12'>1열</div class='col'>
+            <div class='col-lg-6 col-xs-12'>2열</div class='col'>
+        </div>
+
+        <!-- lg일때는 4컬럼, md일때 3컬럼, sm일때 2컬럼, xs일때 1컬럼으로 짜보기 -->
+        <div class='row'>
+            <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'>1열</div>
+            <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'>2열</div>
+            <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'>3열</div>
+            <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'>4열</div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+    
+    <div class='container'>
+        <h1>responsible 테이블 [.table]</h1>
+
+        <div class='table-responsible'>
+            <table class='table'>
+                <p>width 992px 이하인 스크린일때 <br>
+                수평스크롤바가 추가되면서 테이블 전체를 볼수있도록 한다<br>
+                992px 이상일때는 별 차이가 없음
+                
+                주의: .table-responsible 은 table태그를 감싸는 부모컨테이너에 달아줘야한다
+                </p>
+                <tr>
+                    <td>Firstname</td>
+                    <td>Lastname</td>
+                    <td>Email</td>
+                    <td>Firstname</td>
+                    <td>Lastname</td>
+                    <td>Email</td>
+                </tr>
+                <tr>
+                    <td>Barbara</td>
+                    <td>Arian</td>
+                    <td>barbarian@naver.com</td>
+                    <td>Barbara</td>
+                    <td>Arian</td>
+                    <td>barbarian@naver.com</td>
+                </tr>
+                <tr>
+                    <td>Alexandra</td>
+                    <td>Holyshit</td>
+                    <td>Holymoly@gmail.com</td>
+                    <td>Alexandra</td>
+                    <td>Holyshit</td>
+                    <td>Holymoly@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jaina</td>
+                    <td>Proudmoore</td>
+                    <td>elsa@blizzard.com</td>
+                    <td>Jaina</td>
+                    <td>Proudmoore</td>
+                    <td>elsa@blizzard.com</td>
+                </tr>
+                
+            </table>
+        </div>
+        
+        <hr color='red'>
+
+        <h1>Contextual Classes 테이블[.table table-hover]</h1>
+        <!-- 마우스오버한 지점에 백그라운드가 생김 -->
+        <table class='table table-hover'>
+            <tr class='table-primary'>
+                <td>Firstname</td>
+                <td>Lastname</td>
+                <td>Email</td>
+            </tr>
+            <tr class='table-success'>
+                <td>Barbara</td>
+                <td>Arian</td>
+                <td>barbarian@naver.com</td>
+            </tr>
+            <tr class='table-warning'>
+                <td>Alexandra</td>
+                <td>Holyshit</td>
+                <td>Holymoly@gmail.com</td>
+            </tr>
+            <tr class='table-danger'>
+                <td>Jaina</td>
+                <td>Proudmoore</td>
+                <td>elsa@blizzard.com</td>
+            </tr>
+
+        </table>
+
+        <hr color='blue'>
+
+        <h1>dark small 테이블 [.table table-dark table-sm]</h1>
+
+        <table class='table table-striped table-dark table-hover table-sm'>
+            <tr>
+                <td>Firstname</td>
+                <td>Lastname</td>
+                <td>Email</td>
+            </tr>
+            <tr>
+                <td>Barbara</td>
+                <td>Arian</td>
+                <td>barbarian@naver.com</td>
+            </tr>
+            <tr>
+                <td>Alexandra</td>
+                <td>Holyshit</td>
+                <td>Holymoly@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jaina</td>
+                <td>Proudmoore</td>
+                <td>elsa@blizzard.com</td>
+            </tr>
+
+        </table>
+
+
+    </div>
+    
+</body>
+</html>

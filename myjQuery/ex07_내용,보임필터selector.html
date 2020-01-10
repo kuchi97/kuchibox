@@ -1,0 +1,107 @@
+<html>
+<head><title>내용필터,보임필터 선택자</title>
+<!--jQuery Google CDN-------------------------->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-------------------------------------------->
+<script>
+    $(function(){
+        /*내용 필터
+          [1] 요소:contains('값'): 내용 중에 '값'을 포함하고 있는 요소 선택
+          [2] 요소:has('요소'): 내용중에 '요소(태그)'를 가지고 있는 요소 선택
+
+          [3] 요소:empty : 내용이 비어있는 요소를 선택     
+          
+          보임 필터
+          [4] 요소:hidden: 화면에 보이지 않는 요소를 선택
+          [5] 요소:visible: 화면에 보이는 요소를 선택
+            - 보이지 않는 경우 (:hidden)
+              1) display:none
+              2) input type이 hidden인 경우
+              3) 부모 요소가 보이지 않거나 숨겨져 있을 경우
+              cf>참고로 visibility:hidden이거나 opacity:0 
+                width나 height가 0인 경우
+                 인 요소는 선택되지 않는다.          
+        */
+       /* [문제1] li요소 중에 'ap'라는 값을 포함하고 있는 요소를
+        선택해서 글자색을 red로 주세요*/
+        $("li:contains('ap')").css("color","red");
+        
+        
+        /*[문제2] li태그를 자식 요소로 가지고 있는 ul요소를 찾아서
+            테두리를 3px inset green으로 주세요
+        */
+        $("ul:has('li')").css({
+            borderColor:"green",
+            borderWidth:"3px",
+            borderStyle:"inset"
+        });
+        
+        
+        /*[문제3] li요소 중 비어있는 요소를 찾아서 "비어있어요"라는
+        텍스트를 주세요*/
+         $('li:empty').html('비어있어요');
+        
+
+       /*선택자.html(str): html태그를 포함한 문자열을 넣어준다. setter역할
+       선택자.html(); 선택한 요소안의 html태그를 반환한다. getter역할
+        */
+        
+        
+        /*
+        text(str): 문자열을 선택자 안에 넣어줌.
+        text(): 선택자 안의 텍스트를 반환함
+        */
+        /*[문제4] 비어있는 li요소에 마우스를 갖다대면 
+        이미지[ca3.jpg]를 넣어주고, 마우스가 영역을 벗어나면 비워주세요.
+        */
+        // $("li:empty").on("focus",function(){
+        //     $("li:empty").html("<img src='images/pengsu.png'>");
+        // })
+
+        //li요소중 감춰진요소를 찾아 3초내로 등장시키기
+        $("li:hidden").show(3000);
+
+        //감춰진 ul요소를 찾아서 3초내로 등장시키세요
+        //그런 뒤 5초내로 다시 감춰보기
+        $("ul:hidden").show(3000, function(){
+            $(this).hide(5000);
+        });
+        //또는
+        $("ul:hidden").show(3000).hide(5000);
+
+        setTimeout(function(){
+            //type속성을 text로 바꿔보기 (그냥은 안나옴)
+                //prop("속성명","속성값")   :   주로 기능적인 속성을 바꿀때 사용
+                //attr("속성명","속성값")   :   기능없이 html속성값을 바꿀때
+            $("input:hidden").prop("type","text");
+        },3000);
+        
+
+        
+    });//$()end
+</script>
+
+</head>
+<body>
+    <h1>jQuery 내용필터,보임필터 선택자</h1>
+    <div id="panel">
+        <ul class="navi1">
+            <li>apple</li>
+            <li style="display: none">banana</li>
+            <li>grape</li>
+            <li></li>
+        </ul>
+        
+        <ul class="navi2"  style="display: none">
+            <li>tiger</li>
+            <li>lion</li>
+            <li>fox</li>
+            <li></li>
+        </ul>
+
+        <input type='hidden' style='border:thick solid saddlebrown'>
+        <span style='width:0; height:0;'></span>
+    </div>
+</body>
+</html>
+<!--ex08selector.html-->

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>내장객체-String</h1>
+    <script>
+        // 생성자 함수를 이용한 String객체 생성
+        var s=new String("Hello");//object유형
+        var s2='Hello';//기본자료형 string
+        print(typeof(s));
+        print(typeof(s2));
+        print(s == s2);//true
+        print(s === s2);//값은 물론 타입까지 비교 false
+
+        var str="JavaScript-jQuery-Ajax-VueJS-React";
+        //[6] split(구분자): 구분자를 기준으로 문자열을 쪼개어 배열로 반환한다.
+        var arr=str.split('-');
+        //반복문 이용해 arr에 있는값 출력하기
+        for(var i=0;i<arr.length;i++){
+            print(arr[i]);
+        }
+        var str2='   javascript   ';
+        print('str2의 문자열 길이: '+str2.length);
+        str2=str2.trim(); //앞뒤 공백 제거
+        print('str2의 문자열 길이: '+str2.length);
+
+        print(str2.toUpperCase()+", "+str2.toLowerCase());
+        print(str2.replace('j','J'));
+        function print(val){
+            document.write("<h3>"+val+"</h3>");
+        }
+    </script>
+</body>
+</html>
+<!-- ex25_string.html -->

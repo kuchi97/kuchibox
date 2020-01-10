@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table {
+            width:500px;
+            height:400px;
+            margin:0,auto;
+            border-collapse: collapse;
+
+        }
+        table>tr>th,td{
+            font-size:0.8em;
+            height:auto;
+            text-align:center;
+
+        }
+        th {
+            background-color:#b6b6f5;
+            color:dimgray;
+        }
+        .sun {
+            color:red;
+            background-color:rgb(255, 100, 89);
+            font-weight:bolder;
+        }
+        .sat {
+            color:blue;
+            background-color:rgb(71, 71, 252);
+            font-weight:bolder;
+        }
+        
+
+    </style>
+    <script>
+        var obj=null;
+        var arr=["일","월","화","수","목","금","토"];
+        window.onload= function()
+        {
+            //윈도우가 다 로드되고 난 후에 함수를 실행하라는 의미
+            obj= document.getElementById("cal");
+            //이렇게하면 obj가 전역변수가 됨
+            // alert(obj);              //for test
+        }
+        
+        function showCal(yy, mm)
+        {
+            // alert(yy+"/"+mm+"월 ");  //for test
+
+            var firstDate=null;
+            if(!yy || !mm)
+            {
+                firstDate= new Date();          //시스템의 현재 연월
+                yy= firstDate.getFullYear();    //현재연월 구해서 넣어줌
+                mm= firstDate.getMonth()+1;
+                firstDate= new Date(yy,mm-1,1); //해당월의 1일 구하기
+            }
+            else
+            {
+                //특정년도 특정월의 1일
+                firstDate= new Date(yy, mm-1, 1);
+            }
+
+            var str="";
+
+            //각월의 1일의 요일 알아내기
+            var firstDay=firstDate.getDay();
+            //각월의 마지막일자 구하기
+            var totalDays= lastDate(yy,mm);
+
+            str+="<table border='2'>";
+            
+            str+="<tr><th colspan='7'>"+yy+"년 "+mm+"월";
+            str+="</th></tr>";
+            
+            //요일헤더
+            str+="<tr>";
+            for(var i=0; i<arr.length; i++)
+            {
+                str+="<th>"+arr[i]+"</th>";
+                col++;
+            }
+            str+="</tr>";
+            
+            //날짜출력
+            var col=0;              //현재 몇번째 컬럼을 출력하는지 보관할 변수
+            //매월의 첫번째 1일의 요일에 해당할때까지 공백컬럼 채우기
+            str+="<tr>";
+            for(var i=0; i<firstDay; i++)
+            {
+                str+="<td>&nbsp;</td>";
+                col++;
+            }
+            //1일부터 마지막일까지 출력
+            for(var i=0; i<totalDays; i++)
+            {
+                switch(col)
+                {
+                    case 0:             //일요일
+                        str+="<td class='sun'>"+(i+1)+"</td>";
+                        break;
+                    case 6:             //토요일
+                        str+="<td class='sat'>"+(i+1)+"</td>";
+                        break;
+                    default:
+                        str+="<td>"+(i+1)+"</td>";
+
+                }
+                col++;
+
+                //7단위로 줄바꿈
+                if(col==7)
+                {
+                    str+="</tr><tr>";
+                    col=0;
+
+                }
+            }
+            str+="</tr>";
+            
+
+
+            str+="</table>";
+
+            obj.innerHTML=str;
+        }
+    
+    //각월의 마지막일자 구하기
+    function lastDate(yy, mm)
+    {
+        /* 28일, 29일, 30일, 31일 인경우
+            4 6 9 11
+            1 3 5 7 8 10 12
+            2
+            2윤년: 기원년수를 4로 나누어 떨어지는 해를 우선윤년(29일)
+                그중에서 100으로 나누어떨어지는 해는 평년
+                다만 400으로 나누어 떨어지는 해는 윤년
+        */
+
+        var days=31;
+        switch(mm)
+        {
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                days=30;
+                break;
+            case 2:
+            {
+                //윤년인 경우와 평년인 경우로 나눠서 계산
+
+                //윤년
+                if(yy%4==0)
+                {
+                    days=29;
+                    //평년
+                    if(yy%4%100==0)
+                        days=28;
+                    //윤년
+                    if(yy%4%400==0)
+                        days=29;
+                }
+                else
+                    days=28;
+
+            }break;
+            default:
+                days=31;
+                break;
+        }//---switch
+
+        return days;
+
+    }
+    
+    </script>
+</head>
+<body>
+    <button onclick='showCal()'>이달의 달력보기</button>
+    <button onclick='showCal(2020,1)'>2020-1월 달력보기</button>
+    <button onclick='showCal(2020,2)'>2020-2월 달력보기</button>
+    <button onclick='showCal(2018,2)'>2018-2월 달력보기</button>
+
+    <div id='cal' style='margin-top:50px'></div>
+</body>
+</html>

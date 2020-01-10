@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 외부에있는 jsp파일 참조하기 -->
+    <script src= "validate.js"> </script>
+
+    <script>
+        function check()
+        {
+            if(!f.userId.value)
+            {
+                alert("아이디를 입력해");
+                f.userId.focus();
+                return false;
+            }
+            if(!isUserid(f.userId))
+            {
+                alert("아이디 형식에 안맞는데요");
+                f.userId.select();
+                return false;
+            }
+
+            return true;
+
+        }
+    </script>
+</head>
+<body>
+    <h1>회원가입</h1>
+    <form name='f' action='join.jsp' method='post' onsubmit='return check()'>
+        <!-- onsubmit='return check()': true반환하면 submit 하고
+                                        false 반환이면 submit하지 않는다 -->
+        <label for='userId'>아이디</label>
+        <input type='text' name='userId' id='userId' placeholder='User ID'>
+        아이디는 영문자, 숫자 섞어서 5~12자 이내로 작성
+        <p></p>
+        <button type='submit'>전송</button>
+        
+    </form>
+
+</body>
+</html>

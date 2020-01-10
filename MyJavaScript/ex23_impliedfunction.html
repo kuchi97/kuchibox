@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Document</title>
+    <style>
+        #body {
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size:small;
+
+        }
+    </style>
+    <script>
+        
+        function show()
+        {
+            alert("꽝ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ");
+        }
+    
+    
+    </script>
+</head>
+<body id='body'>
+    <h1>내장함수 - window 객체의 setTimeout(), setInterval()</h1>
+    window.setTimeout(함수이름, milisec): 밀리초가 지나면 그 안에 있는 함수를 한번 호출한다<br>
+    window.clearTimeout(var setTimeout): window.setTimeout을 중지시킨다<br>
+    <br>
+    <button onclick='win= window.setTimeout(show,3000)'>Click to setTimeOut!</button>
+    <button onclick='window.clearTimeout(win)'>Click to clearTimeout!</button>
+    <hr color='red'>
+    window.setInterval(함수이름, milisec): 밀리초가 지나면 주기적으로 호출한다<br>
+    window.clearInterval: 중지시킨다<br>
+    <br>
+    <button onclick='dow= window.setInterval(show,2000)'>Click to setInterval!</button>
+    <button onclick='window.clearInterval(dow)'>Click to clearInterval!</button>
+
+    <hr color='blue'>
+    <div id='clock'>여기에 시계가 나올거야</div>
+    <button onclick='start()'>Clock Start</button>
+    <button onclick='stop()'>Clock Stop</button>
+
+    <script>
+        function start()
+        {
+            temp=window.setInterval(function(){
+            var date= new Date();
+            var str="";
+            var obj= document.getElementById("clock");
+
+            str+=date.getHours()+"시 "+date.getMinutes()+"분 "+date.getSeconds()+"초";
+            obj.innerHTML= "<h2>"+str+"</h2>";},1000);
+
+
+        }
+        
+        function stop()
+        {
+            window.clearInterval(temp);
+        }
+    
+    </script>
+
+</body>
+</html>

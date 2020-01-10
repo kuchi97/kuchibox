@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+
+        
+        var input= prompt("가위 바위 보 하나를 입력하셈", "가위");
+        var inputVal;
+        var inputImg;
+        var cpuImg;
+
+        switch(input)
+        {
+            case "가위":
+                inputVal=1;
+                inputImg=1;
+                break;
+            case "바위":
+                inputVal=2;
+                inputImg=2;
+                break;
+            case "보":
+                inputVal=3;
+                inputImg=3;
+                break;
+            default:
+                document.write("넌 잘못된 입력을 했어");
+                windows.location.reload();
+        }
+        // document.write("당신의 선택: "+input+"<img src='"+inputImg+".gif'>"+inputVal+"<br>");
+        var str="<div class='you'> 당신: "+input+"<img src='"+inputImg+".gif'></div>";
+
+        //컴퓨터가 랜덤하게 가위바위보 발생
+        var cpu= Math.floor(Math.random()*3+1);
+        switch(cpu)
+        {
+            case 1:
+                cpuImg=1;
+                break;
+            case 2:
+                cpuImg=2;
+                break;
+            case 3:
+                cpuImg=3;
+                break;
+            default:
+        }
+        // document.write("컴퓨터의 선택: "+cpu+"<img src='"+cpuImg+".gif'><br>");
+        str+="<div class='cpu'> 컴퓨터: <img src='"+cpuImg+".gif'></div>";
+
+        //컴퓨터와 나를 비교하여
+        //비김 내가이김 컴퓨터가이김 출력
+
+        //내가이김
+        if(inputVal>cpu)
+        {
+            if(inputval==3 && cpu==1)
+                str+="컴퓨터가 이김";
+            else
+                str+="내가 이김";
+        }
+        //컴퓨터가 이김
+        else if(inputVal<cpu)
+        {
+            if(cpu==3 && inputVal==1)
+                str+="내가 이김";
+            else
+                str+="컴퓨터가 이김";
+        }
+        //비김
+        else if(inputVal==cpu)
+        {
+            str+="비김";
+        }
+
+        document.write(str);
+    </script>
+</head>
+<body>
+    <h1>가위 바위 보 가위 바위 보 또 가위 바위 보 또 또 또 또가위 또바위 또보</h1>
+
+</body>
+</html>

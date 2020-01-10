@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        button {
+            font-family: 궁서체;
+            font-size:2em;
+            background-color:darkturquoise;
+        }
+        h1 {
+            text-align: center;
+            font-family:궁서체;
+            font-size:3em;
+            font-style: italic;
+            color:deeppink;
+        }
+        h2 {
+            text-align:center;
+        }
+        #buttons {
+            align-content: center;
+        }
+    </style>
+
+<!-- JavaScript -->
+    <script>
+        //배열을 이용해서 현재 상영중인 영화이미지파일명을
+        //배열에 저장하기
+        var movies=["clementain.png","mandate.png","matchseller.png","real.png","scaryhouse.png",
+                    "alert19.png","dwar.png","fantastic4.png","greenlantern.png","justiceleague.png",
+                    "multicell.png","pansori.png"];
+        var cur=null;
+        var play=null;
+        var stop=null;
+        var shuffle=null;
+
+        window.onload= function()
+        {
+            //현재상영작 버튼을 누르면 저장된 5가지 영화이미지가
+            //id가 movies인 곳이 나란히 나오도록 하세요
+            cur= document.getElementById("current");
+            var paint= document.getElementById("movies");
+            var curSw=0;
+            cur.onclick= function()
+            {
+                if(curSw==0)
+                {
+                    paint.innerHTML="";
+                    for(var i=0; i<movies.length; i++)
+                    {
+                        paint.innerHTML+="<img src='images/"+movies[i]+"' width=150 height=200>&nbsp";
+                    }
+                    curSw=1;
+                }
+                else if(curSw==1)
+                {
+                    paint.innerHTML="";
+                    curSw=0;
+                }
+            }
+
+            //▶ 버튼을 누르면 영화이미지들이 오른쪽으로 이동하도록
+            //오른쪽으로 다 이동하면 왼쪽으로 다시 이동
+            //왼쪽으로 다 이동하면 다시 오른쪽으로 이동
+            var onoff=null;         //중복방지를 위한 스위치
+            var moving=0;           //움직이게 할 X좌표
+            var sw=0;               //방향전환에 사용할 스위치
+
+            play= document.getElementById("play");
+            function goPlay()
+            {
+                var move= document.getElementById("movies");
+
+                move.style.position="relative";
+                move.style.left=moving+"px";
+
+                if(sw==0)
+                {
+                    moving+=5;
+                    
+                    if(moving>=200)
+                        sw=1;
+                }
+                else if(sw==1)
+                {
+                    moving-=5;
+
+                    if(moving<=0)
+                        sw=0;
+                }
+            }
+
+            //중복실행방지
+            play.onclick= function()
+            {
+                if(onoff==null)
+                {
+                    onoff=setInterval(function(){
+                        goPlay();
+                    },100);
+                }
+            }
+
+            //■ 누르면 이동 중지
+            stop= document.getElementById("stop");
+
+            function stopPlay()
+            {
+                if(onoff!=null)
+                {
+                    clearInterval(onoff);
+                    onoff=null;
+                }
+            }
+            stop.onclick= function()
+            {
+                stopPlay();
+            }
+
+            //셔플하기
+            shuffle=document.getElementById("shuffle");
+            var list= [];
+            var shflSw=0;       //중복방지 스위치
+            shuffle.onclick= function()
+            {
+                //list배열 초기화
+                for(var i=0; i<movies.length; i++)
+                {
+                    list[i]=i;
+                }
+
+                //list[]에 중복방지 랜덤값넣기
+                for(var i=0; i<list.length; i++)
+                {
+                    list[i]=Math.round(Math.random()*11);
+
+                    for(var j=0; j<i; j++)
+                    {
+                        if(list[i]==list[j])
+                            i--;
+                    }
+                }
+                //test
+                // for(var i=0; i<movies.length; i++)
+                // {
+                //     document.write(list[i]+" ");
+                // }
+                
+                //중복방지
+                if(shflSw==0)
+                {
+                    paint.innerHTML="";
+                    for(var i=0; i<movies.length; i++)
+                    {
+                        paint.innerHTML+="<img src='images/"+movies[list[i]]+"' width=150 height=200>&nbsp";
+                    }
+                    shflSw=1;
+                }
+                else if(shflSw==1)
+                {
+                    paint.innerHTML="";
+                    for(var i=0; i<movies.length; i++)
+                    {
+                        paint.innerHTML+="<img src='images/"+movies[list[i]]+"' width=150 height=200>&nbsp";
+                    }
+                    shflSw=0;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>$ 망 작 영 화 상 영 관 $</h1>
+    <h2 style='font-family: 궁서체;'>버-튼을 누르씨오</h2>
+    <h2 id='buttons'>
+    <button id='current' >현재 상영작</button>
+    <button id='play'>▶</button>
+    <button id='stop'>■</button id='stop'>
+    <button id='shuffle'>무작위 보기</button>
+    </h2>
+    <hr color='red'>
+    <div id='movies'></div>
+</body>
+</html>

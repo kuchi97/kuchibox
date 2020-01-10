@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex12_dom탐색.html</title>
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		//DOM탐색 메소드
+		/*[1] $().find(): 선택된 엘리먼트 중 조건을 만족하는
+						  모든 자손 엘리먼트를 반환
+		  [2] $().children(): 선택된 엘리먼트 중 조건을 만족하는
+						  모든 자식 엘리먼트를 반환
+						  
+		  [3] next() : 이후의 형제 요소를 찾는다.
+		  [4] prev() : 이전의 형제 요소를 찾는다.
+		  [5] nextAll(): 이후의 모든 형제 요소를 찾는다.
+		  [6] prevAll(): 이전의 모든 형제 요소를 찾는다.
+		  [7] parent() : 부모 요소를 찾는다.
+		  [8] parents() : 조상 요소를 찾는다.
+		  [9] siblings() : 자신을 제외한 모든 형제 요소를 찾는다.
+		 */
+        /*
+        [1] 아이디가 panel 자식 요소 중 div 요소를 찾아서
+            폭: 80px 높이: 80  배경색:알아서 주세요 */
+			$("#panel").find("div").css({
+				height:"80px",
+				width:"80px",
+				backgroundColor:"cyan"
+			})
+		
+        /*[2] #p1 의 바로 다음 형제 요소를 찾아서
+            글자크기 30pt 이탤릭체 색상 blue로 주세요*/
+			$("#p1").next().css({
+				fontSize:"30pt",
+				fontStyle:"italic",
+				color:"blue"
+			})
+            
+        /*[3] #p1의 이전의 모든 형제를 찾아서 배경색과 테두리
+            알아서 주세요*/ 
+			$("#p1").prevAll().css({
+				color:"magenta",
+				border:"2px dotted yellow"
+			})       
+        
+        /*[4]#p1의 부모요소를 찾아서 배경색 주세요*/
+			$("#p1").parent().css("backgroundColor","orange");
+
+        
+        /*[5]#p1의 조상 요소를 찾아서
+        테두리를 10px inset skyblue로 주세요
+        안쪽 여백을 20px로 주세요*/
+			$("#p1").parents().css({
+				border:"10px inset skyblue",
+				padding:"20px"
+			})
+
+        
+        /*[6] body 자식중 클래스가 test인 요소를 찾아서
+        테두리를 3px solid gold 
+        border-radius 30px주세요*/
+		$("body").children().find(".test").css({
+			border:"3px solid red",
+			borderRadius:"30px"
+		})
+        
+        /*[7] .test의 모든 형제요소를 찾아서
+             배경색을 주세요*/      
+		$(".test").siblings().css("backgroundColor","green");
+        
+        
+	});
+</script>
+<style>
+    body *{
+        border: 1px solid silver;
+        padding: 5px;
+        margin: 5px;
+    }
+        
+</style>
+</head>
+<body>
+	<h1>jQuery DOM 탐색</h1>
+	<h2>Document Object Model</h2>
+	<div id="panel">div#panel
+		<div class="middle">div.middle
+			<p id="subp">div #subp</p>
+		</div>
+		<p>p</p>
+		<p>p</p>
+		<p id="p1">#p1</p>
+		<p>p</p>
+		<div id="sub">div#sub
+			<p class="middle">div#sub>p</p>
+		</div>
+	</div>
+
+	<div>div
+	    <p>p</p>
+		<p class='test'>another div p.test</p>
+        <p>p</p>		
+        <div>div</div>
+	</div>
+</body>
+</html>
+
+
+
+

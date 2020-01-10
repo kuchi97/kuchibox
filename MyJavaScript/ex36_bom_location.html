@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>BOM - location 객체</h1>
+    
+    <div id="msg"></div>
+    <button id="b1">location 객체 속성 살펴보기</button><br><br>
+
+    <button id="b2">페이지 이동</button>
+    <button onclick='newPage()'>새로운 페이지</button>
+    <button onclick='refresh()'>새로고침</button>
+    <button onclick='go()'>3초 후 페이지 이동</button>
+
+
+    <script>
+        var obj1= document.getElementById("b1");
+        var obj2= document.getElementById("b2");
+        var objMsg= document.getElementById("msg");
+
+        //location 객체의 속성
+        //1. href: 현재페이지의 url 반환
+        //2. hostname: 웹호스트의 도메인명 반환
+        //3. pathname: 현재페이지의 경로와 파일명 반환
+        //4. protocol: 현재페이지의 프로토콜 반환
+
+        obj1.onclick= function()
+        {
+            objMsg.innerHTML="<h3>href: "+window.location.href+"</h3>";
+            objMsg.innerHTML+="<h3>hostname: "+window.location.hostname+"</h3>";
+            objMsg.innerHTML+="<h3>pathname: "+window.location.pathname+"</h3>";
+            objMsg.innerHTML+="<h3>protocol: "+window.location.protocol+"</h3>";
+            
+        }
+
+        //페이지이동 버튼을 누르면 location의 href속성을 이용하여 google로 이동하게 하기
+        /*
+        obj2.onclick= function()
+        {
+            window.location.href="https://google.com";
+        }
+        */
+        obj2.addEventListener("click", function(){
+            window.location.href="https://google.com";
+        });
+
+        //새로운페이지 버튼
+        //assign('파일명'): 새로운 문서를 로드해줌(같은창)
+        var newPage= function()
+        {
+            window.location.assign("ex29_style.html");
+        }
+
+        //새로고침 버튼
+        function refresh()
+        {
+            console.log("reload() executed");
+            window.location.reload();
+        }
+
+
+        //3초후 페이지이동 버튼
+        var go= function()
+        {
+            objMsg.innerHTML="<img src='images/diablo2.gif'>";
+            objMsg.innerHTML+="<br><h2>N O W   L O A D I N G . . .</h2>";
+
+            window.setTimeout(go3sec,3000);
+        }
+        var go3sec= function()
+        {
+            window.location.href="https://naver.com";
+        }
+
+/*
+        //선생님답
+        var go= function()
+        {
+            objMsg.innerHTML="<img src='images/diablo2.gif'>";
+
+            setTimeout(function(){
+                //location.href="https://naver.com";
+                location.assign("https://google.com");
+            }, 3000);
+        }
+*/
+    
+    </script>
+</body>
+</html>

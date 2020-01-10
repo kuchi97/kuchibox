@@ -1,0 +1,37 @@
+<!-- ex07.operator.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>연산자</h1>
+    == : 값을 비교한다 <br>
+    ===: 값과 자료형을 둘다 비교하여 같으면 true, 다르면 false <br>
+    != : 값이 다르면 true <br>
+    !==: 값과 자료형이 둘다 다르면 true, 같으면 false <br>
+    <hr color="red">
+       
+    <script>
+        var a=5;
+        var b='5.0';
+        document.write("a==b: "+(a==b),"<br>");
+        document.write("a===b: "+(a===b),"<br>");
+
+        document.write(''==false,"<br>");
+        document.write(''===false,"<br>");
+
+        document.write("<hr color='blue'>");
+
+        //javascript에서 0은 false, 1은 true
+        document.write(0!=true,"<br>");
+        document.write(0!==true,"<br>");
+
+    </script>
+
+    
+</body>
+</html>

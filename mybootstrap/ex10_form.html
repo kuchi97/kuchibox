@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <!-- 부트스트랩 폼 레이아웃
+        1. Stacked Form (default) 
+        2. Inline Form
+    -->
+
+<div class='container'>
+
+    <h1>Stacked form</h1>
+    <!-- 아래로 차곡차곡 쌓아가는 폼 -->
+    
+    <form action='signUpEnd.jsp' method='post'>
+
+        <div class='form-group'>
+            <label for='name'>이름</label>
+            <input type='text' name='name' id='name' placeholder='Name' class='form-control'>
+            
+        </div>
+        
+        <div class='form-group'>
+            <label for='userid'>아이디</label>
+            <input type='text' name='userid' id='userid' placeholder='ID' class='form-control'>
+        </div> 
+
+        <button class='btn btn-primary'>submit</button>
+
+    </form>
+
+    <hr>
+
+    <h1>Inline Form</h1>
+    <h4>form 태그에 .form-inline을 지정한다</h4>
+
+    <form action='join.jsp' method='post' class='form-inline'>
+
+        <label for="email" class='mr-sm-3'>E-mail</label>
+        <input type="text" name='email' id='email' placeholder='email' class='form-control mr-sm-3'>
+
+        <label for="pwd" class='mr-sm-3'>비밀번호</label>
+            <!-- mr-sm-2
+                : mr: 오른쪽마진 2크기 정도 -->
+        <input type="password" name='pwd' id='pwd' placeholder='Password' class='form-control mr-sm-3'>
+
+        <!-- email 기억하기 체크박스 넣기 : bootstrap에서는 checkbox를 <label>로 감싼다 -->
+        <div class="form-check mr-sm-3">
+            <label class='form-check-label'>
+                <input type='checkbox' class='form-check-input mr-sm-2'>이메일은 기억할것입니다
+            </label>
+        </div>
+
+
+        <button class='btn btn-info'>submit</button>
+    </form>
+
+    <hr>
+
+    <h1>form Row/Grid</h1>
+    
+    <form>
+        <div class='row mt-5'>
+            <label for='' class='col-md-2 text-right mr-sm-2'>연락처</label>
+            <div class="col-md-2">
+                <input type="text" class='form-control' placeholder='hp1'>
+            </div>
+            <div class="col-md-2">
+                <input type="text" class='form-control' placeholder='hp2'>
+            </div>
+            <div class="col-md-2">
+                <input type="text" class='form-control' placeholder='hp3'>
+            </div>
+        </div>
+
+    </form>
+    
+</div>
+</body>
+
+</html>

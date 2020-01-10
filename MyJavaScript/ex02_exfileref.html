@@ -1,0 +1,34 @@
+<!-- ex02.외부파일참조.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <!-- 외부 js 파일 참조하기 -->
+    <script src="ex02_1.js"></script>
+    <script src="ex02_2.js"></script>
+    
+    <script>
+        //내부에서 스크립트로 작성하기
+        function hello ()
+        {
+            window.alert('Hello');
+        }
+    </script>
+</head>
+<body>
+    <h1 onclick="hello()">자바스크립트에서 내부함수를 이용하기</h1>
+    <h2 onmouseover="hi(this)"
+        onmouseout="foo(this)">MouseOver하세요</h2>
+    <!-- hi()함수는 외부파일에 작성합니다 ex02_1.js 
+    
+        1. 마우스아웃시 원래색으로 돌아오도록 ex02_2.js 파일에
+        foo() 작성후 호출해보시오
+    -->
+    
+</body>
+</html>

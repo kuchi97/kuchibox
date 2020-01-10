@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>내장객체-String</h1>
+    <!-- 1. 리터럴을 이용한 string
+         2. 생성자 함수를 이용한 String 객체 생성
+    -->
+    <script>
+        var str="Hello JavaScript";
+        console.log(typeof str);//string
+        //property(속성)=> length
+        print('문자열 길이: '+str.length);
+        //[1] slice(start,[end]) : 시작 인덱스부터 끝 인덱스 직전까지 조각내어 반환
+        print(str.slice(0,5));// Hello
+        print(str.slice(6));//JavaScript
+        print(str.slice(-10))//JavaScript  뒤에서부터 -10인 곳
+        print(str.slice(-10, -6));//Java
+        //[2] substring(start,[end]): slice와 동일하나, 음수값일 경우
+        //                            index를 0으로 간주한다.
+        var str2="R과 Python을 활용한 Data Science";
+        //Python을 추출하여 출력해보기
+        print(str2.substring(3,9));//Python
+        //Science를 추출하여 출력해보기
+        print(str2.slice(-7));//Science
+        print(str2.substring(-7)); //R과 Python을 활용한 Data Science
+        print(str2.substring(str2.length-7));//Science
+        document.write("<hr color='red'>");
+        //[3] substr(start, count): 시작인덱스에서 count만큼 문자열을 추출한다.
+        //str2에서 Data를 추출해보기
+        print(str2.substr(15,4));//Data
+        var str3="어머님은 짜장면을 싫다고 하셨어. 짜장면을...";
+        //[4] indexOf(str,[position]) : str이 위치한 곳의 인덱스번호를 반환한다.
+        //"짜장면"이라는 문자열이 시작되는 인덱스번호를 추출하세요
+        //str을 검색해서 있으면 해당 index번호를 반환하고 없으면 -1을 반환
+        print(str3.substr(str3.indexOf("짜장면"), 3));
+        print(str3.indexOf("짬뽕")); //-1
+        print(str3.indexOf("짜장면", 10));
+        //[5] lastIndexOf(str,[position]): 뒤에서부터 문자열을 검색하여
+        //              해당 위치 인덱스를 반환한다.
+        print(str3.lastIndexOf("짜장면"));
+
+        function print(val){
+            document.write("<h3>"+val+"</h3>");
+        }
+    </script>
+</body>
+</html>
+<!-- ex24_string.html -->

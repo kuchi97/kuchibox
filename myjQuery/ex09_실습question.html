@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+  <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>ex_sample.html</title>
+	<style>
+		body{
+			font-size:18px;
+		}
+		span{
+             width:100px;
+             float:left;
+             text-align: center;
+             margin: 5px;
+             border: 2px solid green;
+             font-weight: bold;
+        }
+	</style> 
+<!-- CDN jquery------------------------------------------------- -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- -------------------------------------------------------------------- -->
+<script type="text/javascript">
+//html(), text(), attr(), show(), hide(), hover(), click()
+    $(function(){
+        //[1]p요소는 모두 감추기
+        $("p").hide();
+               
+        
+        //[2] span.books 를 클릭했을 때 이벤트 처리
+        //    메뉴와 관련되 내용을 등장시키기
+        //    다른 내용들은 감추기
+        /*
+        $("span.books").on("click", function(){
+          $("p").hide();
+          $("p.books").show(2000);
+        });
+        
+        $("span.movies").on("click", function(){
+          $("span.books").attr("p.books",$("p.books").hide());
+          $("span.music").attr("p.music",$("p.music").hide());
+          $("p.movies").show(2000);
+        })
+
+        $("span.music").on("click", function(){
+          $("p").hide();
+          $("p.music").show(2000);
+        })
+        */
+        
+        //코드 다이어트
+        $("#menu>span").on("click", function(){
+          //클릭한 span 태그의 class속성값 알아내기:  attr(), prop()    >>getter의 역할
+          var cls= $(this).attr("class");
+          $("p").hide();
+          $("p."+cls).show("slow");
+
+
+        });
+
+    
+    });//$()end
+
+</script>
+	       
+  </head>
+<body>
+<div id="menu">
+<span class="books" id="booksbutton"> Books </span>
+<span class="movies" id="moviesbutton"> Movies  </span>
+<span class="music" id="musicbutton"> Music </span><br><br>
+</div>
+<p class="books">
+Books of different subjects available at reasonable prices. Ranging from web 
+development, programming languages and text books all are available at heavy discount. 
+Shipping is free. Also available in stock the popular Magazines, E-books and Tutoriasl CDs at 
+affordable price
+</p>
+<p class="movies">
+Find new movie reviews & latest hollywood movie news. Includes new movie trailers, latest hollywood releases, movie showtimes, entertainment news, celebrity interviews 
+etc. Also find Hollywood actress, actor, videos biography, filmography, photos, wallpapers, 
+music, jokes live tv channels at your doorsteps</p>
+<p class="music">
+Find music videos, internet radio, music downloads and all the latest music 
+news and information. We have a large collection of music and songs classified by type, 
+language and region. All downloads are streamed through RealAudio. You can also watch free 
+music videos, tune in to AOL Radio, and search for your favorite music artists.</p>
+</body>
+</html>

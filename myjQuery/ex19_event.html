@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--jQuery Google CDN-------------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-------------------------------------------->
+
+    <script>
+        function hi()
+        {
+            alert("쀅! 훼장님 미태서 이라고이찌");
+        }
+        $(function(){
+
+            //jquery에서 이벤트처리하는방법
+
+            //1. 일반이벤트 등록: .on("이벤트 종류", 함수(이벤트핸들러))
+            // $("#bt1").on("click", hi)
+            $("#bt1").on("focusin", function(){
+                $(this).css("backgroundColor","cyan");
+            })
+
+            //2. 단축이벤트 등록: .click(), .focus(), .mouseover()...
+            $("#bt1").focusout(function(){
+                $(this).css("backgroundColor","");
+            })
+
+            //3. #bt2 클릭하면 <h2> hellow </h2> 를 body 맨처음요소로 덧붙이자
+            //한번만
+
+            //one("이벤트종류",함수())
+            $("#bt2").one("click", function(){
+                $("body").prepend("<h2> hellow </h2>");
+            })
+
+            // #bt3클릭시 #bt1에 적용된 focusin 이벤트 제거
+
+            //off(): 등록된 모든 이벤트를 제거
+            //off(이벤트): 특정 이벤트 제거
+            //off(이벤트, 핸들러) 특정 이벤트와 핸들러를 제거
+            $("#bt3").click(function(){
+                $("#bt1").off("focusin");
+            })
+
+
+            //5. #a1 클릭하면 텍스트글자색을 흰색, 배경은 navy
+
+            //onclick -> href 의 연쇄적인 이벤트(bubbling) 를 막는 방법
+            //  1. onclick 안에서 return false;
+            //  2. 이벤트객체의 preventDefault()를 호출  *****
+            $("#a1").click(function(){
+                $(this).css({
+                    color:"white",
+                    backgroundColor:"navy"
+                })
+            })
+            $("#a2").click(function(stopEvent){           //매개변수로 이벤트객체를 받는다
+                $(this).css({
+                    color:"white",
+                    backgroundColor:"tomato"
+                });
+                stopEvent.preventDefault();                 //기본동작을 중지시키는 함수
+                //즉, 연쇄적인 trigger 행동이 중지된다
+            })
+
+
+            //6. #panel 클릭시 #panel 의 배경색을 노랑으로 변경
+            $("#panel").click(function(){
+                $(this).css("backgroundColor","yellow");
+            })
+
+            //7. #a3을 클릭하면 배경색을 green
+
+            //버블링 #a1 클릭하면 부모컨테이너인 div의 이벤트도 발동
+            //이는 이벤트객체의 stopPropagation()함수 호출
+            $("#a3").click(function(stopTrigger){
+                $(this).css("backgroundColor","green");
+                stopTrigger.preventDefault();
+                stopTrigger.stopPropagation();
+            })
+
+        })
+    </script>
+
+</head>
+<body>
+    <h1>EE! vent</h1>
+
+    <button id='bt1'>click</button>
+    <button id='bt2'>one click(one)</button>
+    <button id='bt3'>kill event(off)</button>
+
+    <hr>
+
+    <div id="panel" style='border:1px solid red'>
+        <h1><a href='https://google.com' id='a1'>go google</a></h1>
+        <h1><a href='https://namu.wiki' id='a2'>go naver</a></h1>
+        <h1><a href='https://naver.com' id='a3'>go REAL naver</a></h1>
+
+    </div>
+
+</body>
+</html>

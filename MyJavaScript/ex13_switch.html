@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>switch</h1>
+    <script>
+        var portal= prompt("네이버, 구글, 다음, 꺼라");
+        var url, cr;
+        switch(portal)
+        {
+            case "네이버":
+                cr="cyan";
+                url="https://naver.com";
+                break;
+            case "구글":
+                cr="magenta";
+                url="https://google.com";
+                break;
+            case "다음":
+                cr="yellow";
+                url="https://daum.net";
+                break;
+            case "꺼라":
+                cr="navy";
+                url="https://namu.wiki";
+                break;
+            default:
+                url="컴퓨터 꺼라";
+        }
+        document.write(`<h1 style="color:${cr}">${url}</h1>`);
+        window.location.href=url;
+            //location 내장객체를 이용해서 해당 url로 이동
+            //window 는 인터넷 창 자체
+            //document 는 페이지가 나타나는 부분
+            //location은 url주소를 입력하는 부분에 해당함 
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!-- ex05.operator.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>자바스크립트 연산자</h1>
+    <script>
+        var num1 = window.prompt("정수1을 입력하세요",0);
+        var num2 = prompt("정수2를 입력하세요",0);
+        document.write("<h1>num1: "+num1+"</h1>");
+        document.write("<h1>num2: "+num2+"</h1>");
+
+        /* 산술연산 (+ - * / %) 
+
+            입력받은값으로 덧셈식 출력하고 그 결과 출력
+        */
+       document.write(num1+" + "+num2+" = "+(num1+num2),"<br>");    //num1+num2가 문자열결합이 일어남
+       document.write(num1+" - "+num2+" = "+(num1-num2),"<br>");
+       
+       var n1= parseInt(num1);
+       var n2= parseInt(num2);
+       document.write(n1+" + "+n2+" = "+(n1+n2),"<br>");
+       document.write(n1+" - "+n2+" = "+(n1-n2));
+    
+    </script>
+    
+</body>
+</html>

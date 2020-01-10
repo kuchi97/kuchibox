@@ -1,0 +1,76 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DOM삭제</title>
+<!--jQuery Google CDN-------------------------->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-------------------------------------------->
+<style>
+    body{
+     font-size: 9pt;
+     font-family: 'sans-serif'
+    }
+    ul li{
+        border: 1px #eee solid;
+        margin: 10px;
+        padding: 10px;
+        list-style: none;
+        width: 50%
+    }
+    ul li.selected{
+         background: #ccc;   
+    }
+</style>
+
+<script>
+
+    $(function(){
+        
+        //ul li 요소를 클릭하면 클릭한 li요소를 삭제하세요
+        //this와   remove()함수 활용 
+        $('ul li').click(function(){
+            // $(this).remove();
+            //클릭한 li요소에 selected클래스를 추가하세요
+            $("ul li").removeClass();
+            $(this).addClass("selected");
+
+        });
+        $('#b1').click(function(){
+            //[1] selected클래스가 있는 요소를 삭제시키기
+            $(".selected").remove();
+
+        });
+        
+        $('#b2').click(function(){
+            //[2] li요소 인덱스 중 짝수 인덱스 목록만 삭제시키기
+            $("ul>li:even").remove();
+
+        });
+        $('#b3').click(function(){
+            //[3] ul.menu 의 전체 자식요소를 모두 삭제시키기
+            $("ul.menu").children().remove();
+
+        });
+        
+    }); //$()end------------   
+</script>
+</head>
+<body>
+    <h1>DOM삭제</h1>
+    
+    <button id='b1'>삭제1(remove)</button>
+    <button id='b2'>삭제2(even)</button>
+    <button id='b3'>삭제3(child)</button>
+    
+    <ul class="menu">
+        <li>menu1</li>
+        <li>menu2</li>
+        <li class="selected">menu3</li>
+        <li>menu4</li>
+        <li>menu5</li>
+        <li>menu6</li>
+    </ul>
+    
+</body>
+</html>
+<!--ex17dom.html-->

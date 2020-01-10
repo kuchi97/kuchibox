@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>3행 5열의 테이블을 출력</h1>
+    <script>
+        
+        var str="<table border=1>";
+        for(var i=0; i<3; i++)
+        {
+            str+="<tr>";
+            for(var j=0; j<5; j++)
+            {
+                // str+="<td>"+(i+1)+","+(j+1)+"</td>";
+                str+=`<td style='background-color:pink'>${i}행 ${k}열</td>`;        //나중에는 얘를 쓸듯 지금은 브라우저버전에 따라서 되다말다함
+            }
+            str+="</tr>";
+        }
+        str+="</table>";
+        document.write(str);
+        
+    </script>
+</body>
+</html>

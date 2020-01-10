@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div id='print'>여기에 메시지 출력</div>
+    <button onclick="say()">click!</button>
+    <button onclick="hello()">hello!</button>
+    <!-- 버튼을 클릭하면 함수를 호출하여
+        함수안에서는 prompt호출 "메시지를 입력하세요"
+        사용자가 입력하는 메시지를 받아서
+        document.write()하세요 -->
+
+    <script>
+    function say()
+    {
+        var str= prompt("메시지를 입력하세요");
+
+        if(str)
+        {
+            // document.write(str);
+
+            //id가 print인 div엘리먼트를 참조하는 방법
+            var divObj=document.getElementById('print');
+            // alert(divObj);
+            divObj.innerHTML=str;
+                //innerText: text는 써진 문자 그대로 반환함 
+                //innerHTML: html은 태그를 해석해서 표현해줌
+            
+            //div엘리먼트에 스타일을 주고싶을때
+            //html객체.style.속성명='값';
+            //  단, 이때 속성명은 하이픈'-' 이 들어가면 안된다
+            //  JavaScript 에서는 '-'를 변수로 사용 불가
+            
+            // divObj.style.background-color='skyblue';        //'-' 때문에 안됨
+            // 따라서 자바스크립트에서는 camel표기로 속성명을 사용한다
+            divObj.style.backgroundColor='skyblue';
+            divObj.style.color='white';
+        }
+    }
+
+    var hello= function() {
+        var str= prompt("메시지를 입력하세요");
+        if(str)
+        {
+            document.write(str);
+        }
+    }
+    
+
+    </script>
+</body>
+</html>

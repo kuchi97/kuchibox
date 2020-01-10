@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function check()
+        {
+            //form 내에 name 속성을 주면 접근이 쉽다
+            //name을 주지 않았을 경우, 아래와 같이 접근한다
+            var uname=document.forms[0].name.value;
+            
+            if(!uname)
+            {
+                alert("이름을 입력해야 아이디를 찾지 멍충아");
+                document.forms[0].name.focus();
+                return;
+            }
+            document.forms[0].submit();
+        }
+
+        //비번찾기
+        function check2()
+        {
+            var uname=document.frm.name.value;          //이름으로 접근할경우
+            var uid=document.frm.uid.value;     //id로 접근할경우
+
+            if(!uname || !uid)
+            {
+                alert("이름 혹은 아이디가 누락되었습니다. 입력해주세요")
+                if(!uname)
+                {
+                    document.frm.name.focus();
+                    return;
+                }
+                if(!uid)
+                {
+                    document.frm.uid.focus();
+                    return;
+                }
+            }
+            alert(frm.action);
+            alert(frm.method);
+            frm.action="https://google.com";    //action 속성
+            frm.method="post";                  //method 속성
+            document.frm.submit();
+        }
+
+    
+    </script>
+</head>
+<body>
+    <form action="findId.jsp">
+        <h1>아이디 찾기</h1>
+        이름 : <input type='text' name='name'>
+        <p></p>
+        <button type='button' onclick='check()'>submit</button>
+    </form action="findId.jsp">
+
+    <hr color='red'>
+
+    <form action="findPwd.jsp" name='frm'>
+        <h1>비밀번호 찾기</h1>
+        이름 : <input type='text' name='name'>
+        아이디 : <input type='text' name='uid' id='uid'>
+        <p></p>
+        <button type='button' onclick='check2()'>submit</button>
+    </form action="findPwd.jsp">
+</body>
+</html>

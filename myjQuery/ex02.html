@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <script>
+        $(function(){
+            // alert("와썹");
+
+            //h1태그로 배경purple, 글자색 white
+            //p태그로 border 2px dashed navy, padding 10px, margin 10px
+            $("h1").css({
+                backgroundColor:"purple",
+                color:"white"
+            });
+
+            $("p").css({
+                border:"2px dashed navy",
+                padding:"10px",
+                margin:"10px",
+                fontSize:"2em"
+            });
+        });
+    
+    </script>
+
+</head>
+<body>
+    <h1>jQuery CDN방식으로 참조하기</h1>
+    <p>Content Delivery Network: 원격의 jQuery 라이브러리를 참조</p>
+    
+</body>
+</html>

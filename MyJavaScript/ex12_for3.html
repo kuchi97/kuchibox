@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>중첩 for loop</h1>
+    <script>
+        var row=prompt("행의 수를 입력하세오");
+        var col=prompt("열의 수를 입력하세오");
+        var cr= prompt("배경색을 넣어볼까?","yellow");
+
+        document.write(`row: ${row} col: ${col} cr: ${cr} <br>`);
+
+        //입력받은 값의 테이블 구현
+        //딸기 내용 들어가게
+        //배경색은 입력받은 색으로
+        var str="<table border=1>";
+        for(var i=0; i<row; i++)
+        {
+            str+="<tr>";
+            for(var j=0; j<col; j++)
+            {
+                str+=`<td style='background-color:${cr}'> 딸기 </td>`;
+
+            }
+            str+="</tr>";
+        }
+        str+="</table>";
+        document.write(str);
+    
+    </script>
+</body>
+</html>

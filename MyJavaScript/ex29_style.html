@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      #flayer1 {
+        position: absolute;
+          /* absolute: 부모위치를 기준으로 좌표를 잡는다 */
+        left:300px;
+          /* x좌표 */
+        top: 250px;
+          /* y좌표 */
+        width:200px;
+        height:200px;
+        background-color:cyan;
+        z-index: 1;
+          /* z-index: 값이 클수록 위에 깔림 */
+
+      }
+      #flayer2 {
+        position: absolute;
+          /* absolute: 부모위치를 기준으로 좌표를 잡는다 */
+        left:400px;
+          /* x좌표 */
+        top: 350px;
+          /* y좌표 */
+        width:200px;
+        height:200px;
+        background-color:magenta;
+        z-index: 2;
+          /* z-index: 값이 클수록 위에 깔림 */
+      }
+    
+    </style>
+    <script>
+      
+      //global var.
+      var obj1;     //flayer1
+      var obj2;     //flayer2
+
+      //전역변수를 사용할수있게 해주는 메소드
+      window.onload= function(){
+        obj1= document.getElementById("flayer1");
+        obj2= document.getElementById("flayer2");
+        // alert(obj1+"/"+obj2);
+      }
+
+      /*
+      모든 html요소는 style객체를 갖는다
+      style객체를 다루기위해서는  ~style.속성명="값"~ 의 형태로 저장된다
+      단, css에서는 background-color:'yellow'
+        JavaScript 에서는 backgroundColor: 'yellow'
+
+      */
+
+
+      //method
+
+      //초기화하기
+      var freset= function()
+      {
+        //obj1 setting
+        obj1.style.backgroundColor='';     //초기화는 빈문자열
+
+        obj1.style.color="";
+
+        obj1.style.width='';
+        obj1.style.height='';
+
+        obj1.style.position="";
+        obj1.style.left="";
+        obj1.style.top="";
+
+        obj1.style.zIndex="";
+
+        //obj2 setting
+        obj2.style.backgroundColor='';
+
+        obj2.style.color="";
+
+        obj2.style.width='';
+        obj2.style.height='';
+
+        obj2.style.zIndex="";
+
+        obj2.style.backgroundImage="";
+
+        obj2.style.border="";
+
+        obj2.style.visibility="";
+        
+      }
+      //배경색 바꾸기
+      var fbgColor=function()
+      {
+        obj1.style.backgroundColor='navy';
+        obj2.style.backgroundColor='brown';
+
+      }
+      //글자색바꾸기
+      var fcolor= function()
+      {
+        obj1.style.color="yellow";
+        obj2.style.color="yellow";
+      }
+      //레이어크기 바꾸기
+      var fsize= function()
+      {
+        obj1.style.width='500px';
+        obj1.style.height='500px';
+
+        obj2.style.width='150px';
+        obj2.style.height='450px';
+      }
+      //레이어 절대좌표 바꾸기
+      var fpos= function()
+      {
+        obj1.style.position="absolute";
+        obj1.style.left="600px";
+      }
+      //레이어 상대좌표 바꾸기
+      var fpos2= function()
+      {
+        obj1.style.position="relative";
+          //인접요소를 기준으로 좌표를 잡는다
+          //  : body에서 보면 레이어감추기 버튼 아래쪽에 div가 있다
+        obj1.style.left="60px";
+        obj1.style.top="60px";
+      }
+      //레이어 순서바꾸기
+      var fzindex= function()
+      {
+        obj1.style.zIndex="2";
+        obj2.style.zIndex="1";
+      }
+      //레이어에 배경그림 넣기
+      var fimg= function()
+      {
+        obj2.style.backgroundImage="url('1.gif')";
+        obj2.style.backgroundRepeat="no-repeat";
+        obj2.style.backgroundPosition="50% 50%";
+      }
+      //레이어에 경계선 넣기
+      var fborder= function()
+      {
+        obj2.style.border="2px dashed black";
+      }
+      //레이어 감추기
+      var fhide= function()
+      {
+        obj2.style.visibility="hidden";
+      }
+
+    
+    
+    </script>
+</head>
+<body>
+        <h1>style객체</h1>
+        1. 화면의 레이어를 두 장 만들고 레이어의 다양한
+        속성을 바꿀 수 있는 버튼을 만들어보자<p>
+        <input type="button" value="레이어 초기상태" onclick="freset()"><p>
+        <input type="button" value="레이어 배경색 바꾸기" onclick="fbgColor()"><p>
+        <input type="button" value="레이어 글자색 바꾸기" onclick="fcolor()"><p>
+        <input type="button" value="레이어 크기 바꾸기"
+                                   onclick="fsize()"><p>
+                                      <!-- width:400px -->
+        <input type="button" value="레이어 절대적 위치 바꾸기" onclick="fpos()"><p>
+                                      <!-- position: absolute; left:600px -->
+        <input type="button" value="레이어 상대적 위치 바꾸기" onclick="fpos2()"><p>
+                                      <!-- position: relative;left:60; top:60 -->
+        <input type="button" value="레이어 순서 바꾸기" onclick="fzindex()"><p>
+      <!-- z-index: 1~9  값이 높을 수록 위에 올라감  -->
+        <input type="button" value="레이어 배경그림 넣기" onclick="fimg()"><p>
+      <!-- background-image:url('파일명'); -->
+        <input type="button" value="레이어 경계선 넣기" onclick="fborder()"><p>
+      <!-- border: 1px dashed red -->
+       <input type="button" value="레이어 감추기" onclick="fhide()">
+      <!-- visibility : hidden 반대는 visible-->
+          
+      
+        <div id="flayer1">첫번째 레이어</div>
+        <div id="flayer2">두번째 레이어</div>
+        <!-- 레이어 지정시 id로 구분되도록 한다.
+        class로 지정하면 자바스크립트로 제어할 수 없다.-->
+      
+</body>
+</html>

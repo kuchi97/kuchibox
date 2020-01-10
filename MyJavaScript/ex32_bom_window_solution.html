@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var obj1=null;
+        var obj2=null, obj3=null, obj4=null;
+        var win=null;
+        window.onload=function(){
+            obj1=document.getElementById('b1');
+            obj2=document.getElementById('b2');
+            obj3=document.getElementById('b3');
+            obj4=document.getElementById('b4');
+
+            obj1.onclick=function(){
+                //alert('a');
+                var url="ex20_Calendar.html";
+               var url2="http://www.google.com";
+        var attr
+    ="width=400, height=400, left=50, top=100, scrollbars=yes, menubar=no"
+    +", toolbar=yes, resizable=yes";
+                if(win==null)
+                    win=window.open(url,"google",attr);
+            }//--------------------
+
+            //팝업창 닫기: window객체의 close()함수 활용
+            obj2.onclick=function(){
+                if(win!=null){
+                    win.close();
+                    win=null;
+                }
+            }
+
+            //위치 변경: window객체의 moveTo(x,y)
+            //제약조건: 동일한 도메인일 경우 동작함
+            obj3.onclick=function(){
+                if(win!=null){
+                    win.moveTo(500,500);
+                }
+            }
+
+            //크기 변경: window객체의 resizeTo(w,h)
+            obj4.onclick=function(){
+                if(win!=null){
+                    win.resizeTo(800,800);
+                }
+            }
+            //prompt(), alert(), confirm(), setTimeout(), setInterval()
+    }//onload()-------------------
+    </script>
+</head>
+<body>
+    <h1>BOM-Browser Object Model</h1>
+    <h3>브라우저에 내장되어 있는 객체</h3>
+    <p>window, document, location, history, form..</p>
+    <button id="b1">팝업창 열기</button>
+    <button id="b2">팝업창 닫기</button>
+    <button id="b3">팝업창 위치 변경</button>
+    <button id="b4">팝업창 크기 변경</button>
+    <hr color='red'>
+    Move Circle버튼을 누르면 공의  x좌표를 증가시키세요.<br>
+    Stop Circle버튼을 누르면 중지시키세요<br>
+    <div id="circle" 
+    style="width:100px;height:100px;background-color:dodgerblue;border-radius: 50px;margin:20px;"></div>
+    <!--window객체의 setTimeout(함수,millis) <=> clearTimeout(w)-->
+    <button onclick="goOnce()">50px 이동시키기(1번만)</button>
+    <button onclick="w=window.setTimeout(goOnce,3000)">50px 이동시키기(3초 뒤에)</button>
+    <button onclick="window.clearTimeout(w)">3초뒤 이동 중지하기</button>
+
+    <!-- window객체의 setInterval(함수,mills) : 주기적으로 함수를 호출함
+                   <=> clearInterval(w)
+    -->
+    <button onclick="moveCircle()">Move Circle</button>
+    <button onclick="stopCircle()">Stop Circle</button>
+
+    <script>
+        var cobj=document.getElementById('circle');
+        //style객체 이용해서 이동시키기
+        var inc=1;
+        function goOnce(){
+            if(inc>=30) inc=1;
+            cobj.style.position='relative';
+            cobj.style.left=inc*50+"px";
+            inc++;
+            console.log(cobj.style.left);
+        }
+        var w2=null;
+        function moveCircle(){
+            if(w2==null){
+                //w2=setInterval(goOnce,100);
+                w2=setInterval(function(){
+                    goOnce();
+                },100);
+            }//if----
+        }//moveCircle()-----------
+        function stopCircle(){
+            if(w2!=null){
+                clearInterval(w2);
+                w2=null;
+            }
+        }
+    </script>
+</body>
+</html>
+
+<!-- ex32_bom_window.html -->

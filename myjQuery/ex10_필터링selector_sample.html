@@ -1,0 +1,89 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>필터링</title>
+<!--jQuery Google CDN-------------------------->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-------------------------------------------->
+<script>
+    $(function(){
+        /* filter선택자: ':'을 붙여서 형식을 걸러냄
+           filtering : 함수(메소드) 형식으로 걸러냄           
+        */
+        /*[1] $().first() : 선택된 요소 중 첫번째 요소를 반환
+          [2] $().last() : 선택된 요소 중 마지막 요소를 반환    
+          [3] $().eq(n) : 인덱스가 n번째 요소를 반환
+          [4] $().has() : 선택된 요소 중에 자손 요소를 갖는 요소를 반환
+          [5] $().not() : 특정 조건을 만족하지 않는 요소를 반환
+          [6] $().is() : 특정 조건을 만족하는 요소가 있으면 true를 반환 
+          [7] $().filter(): 선택된 요소 중 필터링 조건을 충족하는 요소를 반환
+          [8] $().slice(시작인덱스,[종료인덱스])
+                :선택된 요소 중에서 시작 인덱스부터 종료 인덱스 이전까지의
+                 요소를 반환
+        */
+        
+        //[1]id가 panel인 요소의 자식 중 첫번째p요소를 찾아서
+        // 배경색을 노랑색으로 주세요=> 필터선택자로 구현
+        $("#panel>p:first").css("backgroundColor", "yellow");    //필터선택자
+        $("#panel>p").first().css("border","2px dotted hotpink");      //필터링
+        
+//        [2] div p요소 중 인덱스가 2번째 요소를 찾아
+//            글자색을 blue, 크기 20pt주세요 - 필터 선택자
+        $("div>p:eq(2)").css({
+            color:"blue",
+            fontSize:"20pt"
+        })
+
+         /*   배경색을 라임색으로 -필터링*/
+         $("div>p").eq(2).css("backgroundColor","lime");
+
+        //[3] 클래스가 middle인 요소를 찾아서 배경색을 purple, 글작색은 흰색
+        $("div.middle").css({
+            backgroundColor:"purple",
+            color:"white"
+        })
+        
+        
+        //[4] 클래스가 middle이 아닌 div요소를 찾아서 테두리 2px solid yellow
+        //$('*:not(.middle)')
+        $("div").not(".middle").css({
+            borderWidth:"2px",
+            borderStyle:"solid",
+            borderColor:"yellow"
+        })
+        
+        //[5] div요소 중 p요소를 자손으로 가진 div를 선택해서
+        //    글자색을 aqua 글자크기를 24pt로 주세요
+        $("div").has("p").css({
+            color:"aqua",
+            fontSize:"24pt"
+        })
+
+        
+        
+    });//$()end
+</script>
+<style>
+    body *{
+        border:1px solid silver;
+        padding: 5px;
+        margin: 5px;
+    }
+</style>
+</head>
+<body>
+    <h1>jQuery 필터링(filtering)</h1>
+    <div id="panel">
+       <div class="middle">div.middle</div>
+       <p>p</p>
+       <p>p</p>
+       <p>p</p>
+       <p>p</p>
+       <div id="sub">
+           <p>div#sub p</p>
+       </div>
+        
+    </div>
+</body>
+</html>
+<!--ex11selector.html-->

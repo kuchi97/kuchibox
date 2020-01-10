@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body id='body'>
+    <h1>function 실습</h1>
+    <button onclick='change()'>Change Background</button>
+
+    <script>
+        var color=["cyan","magenta","yellow","navy","green"];
+        //함수명: change
+        //버튼 클릭하면 body의 배경색을 누를때마다 배열 color에 있는색으로 변경하는 함수
+
+        var count=0;
+        var change= function()
+        {
+            var bgObj=document.getElementById('body');
+            bgObj.style.backgroundColor=color[count];
+            count++;
+            if(count==5)
+            {
+                count=0;
+            }
+        }
+    </script>
+</body>
+</html>

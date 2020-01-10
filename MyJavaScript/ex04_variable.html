@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>변수의 scope</h1>
+    <h2>전역변수, 지역변수(매개변수)</h2>
+
+    <script>
+        var global="전역변수";
+
+        function hello()
+        {
+            var local="지역변수";
+
+            //var 를 생략하고 변수선언하고 초기화하기
+            aaa=100;        //이것은 ***전역변수*** 임
+            
+            alert('global= '+global);
+            alert('local= '+local);
+            alert('aaa= '+aaa)
+        }
+        function hi()
+        {
+            alert('global: '+global);
+            // alert('local: '+local);
+            alert('aaa: '+aaa);
+        }
+        function bye(name)
+        {
+            //name: 지역변수(매개변수)
+            //매개변수에는 var를 붙이면 안됨
+            document.write("<h1> bye! "+name+"</h1>")
+        }
+
+        hello();             //함수호출
+        hi();
+        bye("김명중");
+        bye();              //매개변수에 undefined가 뜸
+        bye('Peter','Susan');   //Peter만 뜸
+    </script>
+</body>
+</html>

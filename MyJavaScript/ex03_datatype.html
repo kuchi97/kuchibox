@@ -1,0 +1,58 @@
+<!-- ex03.datatype.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript 자료형</h1>
+    <h2>기본자료형: number, boolean, string, undefined, null</h2>
+    <script>
+        //1. number: 정수형, 실수형
+        var a=10;
+        // alert(a);
+        console.log(a);     //IE에서는 사용불가
+
+        //typeof 연산자: 자료형을 알수있다
+        console.log(typeof(a));
+
+        var b=45.78;
+        console.log('b='+b, typeof b);  //실수형도 number
+
+        var c=2>0;
+        console.log("c="+c, typeof c);
+
+        var d;
+        console.log("d="+d, typeof d);  //undefined
+
+        var e=null;
+        console.log("e="+e, typeof e);  //undefined 와 null은 다르다
+
+        var str="이건 문자열";
+        var str2="나도 문자열";
+        window.document.write(str);     //윈도우의 문서영역에 문자열을 출력하라
+        document.write("<h3>"+str2+"</h3");     //h3태그를 안에 둘러줄수도 있다
+        
+    </script>
+
+    <hr color=red>
+    <h2>참조형: object(배열포함), function</h2>
+    <script>
+        var obj= new Object();          //객체: 속성(변수), 행동양식(함수)이 있다
+        obj.cr='blue';                  //cr은 객체의 속성
+        obj.volume='2000cc';
+        obj.run=function()
+        {
+            document.write("<h1>obj.cr="+obj.cr+", obj.volume="+obj.volume+"자동차가달려요~~</h2>")
+        }
+        obj.run();
+        console.log(typeof obj);
+        console.dir(obj);               //obj의 세부사항정보를 볼수있다
+
+    </script>
+    
+</body>
+</html>

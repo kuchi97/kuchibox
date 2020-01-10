@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+    
+        function showToday()
+        {
+            //alert("a");
+
+            //내장객체 Date 사용하여 날짜출력
+            var mdate= new Date();
+            var str="";
+            // str+=mdate.getYear();           //getYear(): 1900년 1월 1일을 기준으로 한 연도 정보
+                                            //          따라서 2019 현재는 119가 나옴
+
+            str+=mdate.getFullYear()+"년 ";
+
+            //아이디가 result인 div요소를 찾아서 그 안에 str을 출력하기
+            var divObj= document.getElementById("result");
+
+            //월정보 추출해서 출력
+            //일정보 추출해서 출력
+            //요일정보 추출해서 출력
+            //getMonth(), getDate(), getDay()
+
+            str+=(mdate.getMonth()+1)+"월 ";
+            //1월=0 ... 12월=11
+            str+=mdate.getDate()+"일 ";
+            var arr=["일","월","화","수","목","금","토"];
+            str+=arr[mdate.getDay()]+"요일 ";
+            //Sun=0, Mon=1... Sat=6
+            str+="이상입니닷!";
+            
+            divObj.innerHTML= "<h3>"+str+"</h3>";
+            divObj.style.color="cyan";
+        }
+
+        var showTime= function()
+        {
+            var tdate= new Date();
+            var str="";
+
+            //시간정보 getHours()
+            str+=tdate.getHours()+"시 ";
+            //분정보 getMinutes()
+            str+=tdate.getMinutes()+"분 ";
+            //초정보 getSeconds()
+            str+=tdate.getSeconds()+"초";
+
+            var divObj=document.getElementById("result");
+            divObj.innerHTML="<h3>"+str+"</h3>";
+            divObj.style.color="magenta";
+            
+        }
+
+        var showInfo= function()
+        {
+            var arr=["일","월","화","수","목","금","토"];
+            var str="";
+            //특정연월일의 정보구하기
+            //참조변수= new Date(yy,MM,dd)
+            //2019-12-25가 무슨요일인지
+            var xMas= new Date(2019,12-1,25);
+            // alert(xMas);
+            str+="크리스마스는 "+arr[xMas.getDay()]+"요일 이고 ";
+
+
+            //오늘날짜와 2019-12-25까지 며칠 남았는지
+            var today= new Date();
+            var dDay=xMas.getTime()-today.getTime();
+
+
+                //getTime() 단위시간으로부터 현재까지를 miliseconds로 나타냄
+            //1초= 1000 milSec
+            //1분= 1000*60 sec
+            //1시간= 1000*60*60 min
+            //하루=1000*60*60*24 hour
+            // alert(dDay);
+            var day=Math.ceil(dDay/(1000*60*60*24));
+            var hour=Math.ceil(day/(1000*60*60));
+            var min=Math.ceil(hour/(1000*60));
+            var sec=Math.ceil(min/(1000));
+
+
+            str+=day+"일 "+hour+"시 "+min+"분 "+sec+"초 남았습니다";
+            
+            //최종출력
+            document.getElementById("result").innerHTML
+                ="<h2 style='color:red'>"+str+"</h2>";
+        }
+    
+    
+    </script>
+</head>
+<body>
+    <h1>내장객체</h1>
+    <h2>String, Date, Array, Math, RegExp(정규식객체)</h2>
+    <h3>참조변수= new 생성함수()</h3>
+    <button onclick="showToday()">오늘날짜 보기</button>
+    <button onclick="showTime()">현재시간 보기</button>
+    <button onclick="showInfo()">2019-12-25 정보보기</button>
+    <hr color='red'>
+    <div id="result">
+
+    </div>
+</body>
+</html>

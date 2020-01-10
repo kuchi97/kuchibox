@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>적정체중을 구하는 프로그램</h1>
+    [실습] 이름, 키, 몸무게 입력받아 적정체중 구한 뒤,
+        이를 비교하여 적정체중을 초과하면 '과체중red'
+                                미만이면 '체중미달blue'
+                                그외에는 적정체중입니다'green'를 출력하세요
+    <br>
+    적정체중= (신장 - 100) * 0.9
+    <br>
+    <hr color='blue'>
+
+    <script>
+        //prompt로 이름 키 몸무게를 입력후 출력하기
+
+        var name= prompt("이름입력");
+        var height= prompt("키입력");
+        var weight= prompt("몸무게입력");
+
+        var stdWgt=(height - 100) * 0.9;
+
+        if(weight>=(stdWgt*0.9) && weight<=(stdWgt*1.1))
+        {
+            document.write("이름: "+name+"<br>키: "+height+"<br>몸무게: "+weight+"<br>적정체중: "+stdWgt+"<br>");
+            document.write("<h2 style=\"color:green;\">적정체중입니다</h2>");
+        }
+        else if(weight<(stdWgt*0.9))
+        {
+            document.write("이름: "+name+"<br>키: "+height+"<br>몸무게: "+weight+"<br>적정체중: "+stdWgt+"<br>");
+            document.write("<h2 style='color:blue;''>체중미달입니다</h2>");
+        }
+        else
+        {
+            // document.fgColor='red'
+            document.write("이름: "+name+"<br>키: "+height+"<br>몸무게: "+weight+"<br>적정체중: "+stdWgt+"<br>");
+            document.write('<h2 style="color:red;">과체중입니다</h2>');
+        }
+
+
+    </script>
+    
+</body>
+</html>

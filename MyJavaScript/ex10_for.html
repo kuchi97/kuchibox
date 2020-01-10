@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        
+        var dan=prompt("구구단의 단을 입력하세여");
+
+        document.write("<h1>"+dan+"단</h1>");
+
+        //for루프로 구구단을 출력하기
+
+        for(var i=1; i<=9; i++)
+        {
+            document.write(dan+" x "+i+" = "+(dan*i)+"<br>");
+        }
+        
+
+
+        //구구단을 출력하되 테이블형태로 출력할것
+        // 짝수단일 경우 td의 배경색을 노란색으로 주고 홀수단이면 라임색으로
+        
+        /*
+        document.write("<table border=2>");
+        for(var i=1; i<=9; i++)
+        {
+            document.write("<tr>");
+            for(var j=0; j<2; j++)
+            {
+                document.write("<td>"+dan+" x "+i+" = "+(dan*i)+"<br>");
+            }
+            document.write("</tr>")
+        }
+        document.write("</table>");
+        */
+
+        //선생님답          이쪽이 좀더 경제적
+        if(dan%2==0)
+        {
+            bgColor="yellow";
+        }
+        else
+        {
+            bgColor="lime";
+        }
+
+        var str="<table border=2>";
+
+        for(var i=1; i<=9; i++)
+        {
+            str+="<tr>";
+                str+="<td style='background-color:"+bgColor+"'>"+dan+" x "+i+" = "+(dan*i)+"<br></td>";
+            str+="</tr>";
+        }
+
+        str+="</table>";
+        document.write(str);
+    
+    </script>
+</body>
+</html>

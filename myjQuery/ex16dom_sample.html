@@ -1,0 +1,96 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DOM생성</title>
+<!--jQuery Google CDN-------------------------->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-------------------------------------------->
+<style>
+    body{
+     font-size: 9pt;
+     font-family: 'sans-serif'
+    }
+    ul li{
+        border: 1px #eee solid;
+        margin: 10px;
+        padding: 10px;
+        list-style: none;
+        width: 50%
+    }
+    ul li.selected{
+         background: #ccc;   
+    }
+</style>
+
+<script>
+    /*
+    [1] 선택자.append(새로생성된요소)
+    : 새로생성된 요소를 선택자 뒤에 붙인다.
+    [2] $(새로생성될요소).appendTo(선택자)
+    
+    [3] 선택자.prepend(새로생성될요소)
+    : 새로생성된 요소를 선택자 앞에 붙인다.
+    [4] $(새로생성될요소).prependTo(선택자)
+    
+    [5] before() : 특정한 요소 앞에 새로운 요소를 붙인다.
+    [6] insertBefore() : 
+    
+    [7] after() : 특정한 요소 뒤에 새로운 요소를 붙인다.
+    [8] insertAfter()
+    
+    */
+    $(function(){
+        $('#b1').click(function(){
+            //새 엘리먼트를 생성해서 ul.menu에 덧붙이기
+            var str="<li>new menu</li>";
+            //글자색을 blue로
+            //$()로 str을 wrapping 한다
+            // $("ul.menu").append($(str).css("color","blue"));
+            $(str).css("color","green").appendTo("ul.menu");
+        });
+        
+        //새로운메뉴를 앞에 추가해보기
+        $('#b2').click(function(){
+            var str="<li>new menu</li>";
+            // $("ul.menu").prepend($(str).css("color","cyan"));
+            $(str).css("color","magenta").prependTo("ul.menu");
+        });
+        //문제1] 클래스가 selected 인 요소 앞에 새로운 메뉴를 추가하세요
+        //단 글자색은 green, bold 로 주세요
+        $('#b3').click(function(){
+            $(".selected").before($("<li>new menu</li>").css({
+                color:"green",
+                fontWeight:"bold"
+            }))
+        });
+        
+        //문제2] 클래스가 selected 인 요소 뒤에 새로운 메뉴를 추가하세요
+        //단 글자색은 purple, bold 로 주세요
+        $('#b4').click(function(){
+            $("<li>new menu</li>").css({
+                color:"purple",
+                fontStyle:"italic"
+            }).insertAfter(".selected");
+            
+        });
+    });    
+</script>
+</head>
+<body>
+    <h1>DOM생성</h1>
+    
+    <button id='b1'>추가1(append)</button>
+    <button id='b2'>추가2(prepend)</button>
+    <button id='b3'>추가3(before)</button>
+    <button id='b4'>추가4(after)</button>
+    
+    <ul class="menu">
+        <li>menu1</li>
+        <li>menu2</li>
+        <li class="selected">menu3</li>
+        <li>menu4</li>
+    </ul>
+    
+</body>
+</html>
+<!--ex17dom.html-->
