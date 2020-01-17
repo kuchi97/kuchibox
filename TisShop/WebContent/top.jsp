@@ -81,6 +81,10 @@
 						<li class='active'><a href="<%=myctx %>/dbcp/dbcpTest.jsp">DBCP</a></li>
 						<li class='active'><a href="<%=myctx %>/fileup/fileUpload.jsp">upload1</a></li>
 						<li class='active'><a href="<%=myctx %>/fileup/fileUpload2.jsp">upload2</a></li>
+						<li class='active'><a href="<%=myctx %>/ajaxPizza/pizza.jsp">PizzaOrder</a></li>
+						<li class='active'><a href="<%=myctx %>/ajaxPizza/pizza2.jsp">PizzaOrder2</a></li>
+						<li class='active'><a href="<%=myctx %>/ajaxBook/book.jsp">Book</a></li>
+						<li class='active'><a href="<%=myctx %>/ajaxBook/book.jsp">AJAX Open API</a></li>
 					</ul>
 				</div>
 			</div>
