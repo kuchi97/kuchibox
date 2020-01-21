@@ -5,7 +5,14 @@
 <jsp:useBean id="bookDao" class="ajax.book.BookDAO" scope="session" />
 
 <%
-	List<BookDTO> arr= bookDao.getAllBook();
+	//검색어 받기 (단일검색)
+	String title= request.getParameter("title");
+
+	List<BookDTO> arr= null;
+	if(title==null)
+		arr= bookDao.getAllBook();					//검색어가 없으면 다가져오기
+	else
+		arr= bookDao.getFindBook(title.trim());		//검색한 도서정보 가져오기
 	//out.println(arr);
 	
 	//숫자포맷

@@ -22,6 +22,33 @@ public class BookDAO {
 		ds=(DataSource)ctx.lookup("java:comp/env/myoracle/myshop");
 	}
 	
+	public List<String> getTitle(String key) throws SQLException
+	{
+		try {
+			
+			con=ds.getConnection();
+			
+			String sql="select title from book where title like upper(?)";
+			
+			ps=con.prepareStatement(sql);
+			
+			ps.setString(1, "%"+key+"%");
+			
+			List<String> arr= new ArrayList<>();
+			
+			rs=ps.executeQuery();
+			while(rs.next())
+			{
+				arr.add(rs.getString("title"));
+			}
+			
+			return arr;
+		}
+		finally {
+			close();
+		}
+	}//--------------------------------------------------------------
+	
 	public List<BookDTO> getPublishList() throws SQLException{
 		try{
 			con=ds.getConnection();

@@ -20,6 +20,25 @@
 <!-- ------------------------------------------------- -->
 <style type="text/css">
 
+	.listbox {
+		position:absolute;			/* 부모기준 포지션 */
+		left:15px;
+		margin:0px;
+		width:100%;
+		color:blue;
+		border:1px solid silver;
+		background-color:#efffff;
+	}
+	.blist {
+		margin:0px;
+		padding:2px;
+	}
+	.blist>a {
+		text-decoration:none;
+	}
+	li {
+		list-style:none;	
+	}
 
 </style>
 
@@ -29,6 +48,61 @@
 	$(function(){
 		getAllBook();
 	})
+	
+	function autoComp(val)
+	{
+		$.ajax({
+			type:"POST",
+			url:"autocomplete.jsp",
+			data:"title="+val,			//POST방식일때 data속성으로 데이터 넘겨주기
+			dataType:"html",
+			cache:false,
+			success:function(res)
+			{
+				$("#lst1").show();
+				$("#lst2").show();
+				$("#lst2").html(res);
+			},
+			error:function(err)
+			{
+				alert(err.status);
+			}
+		});
+	}//--autoComp()
+	
+	function autoSet(val)	{
+		$("#books").val(val);
+		$("#lst1").hide();
+		$("#lst2").hide();
+	}
+	
+	function getBook()
+	{
+		var val=$("#books").val();	//검색어
+		
+		if(!val)
+		{
+			alert("검색어를 입력하세요");
+			$("#books").focus();
+			return;
+		}
+		
+		$.ajax({
+			type:"GET",
+			url:"bookAll.jsp?title="+encodeURIComponent(val),		//javascript에서의 인코딩처리
+			dataType:"html",			//bookAll.jsp는 html형식이라 text, html 가능
+			cache:false,
+			success:function(res)
+			{
+				$("#book_data").html(res);
+			},
+			error:function(err)
+			{
+				alert(err.status);
+			}
+		});
+		
+	}
 	
 	function goDel(visbn)
 	{
@@ -159,9 +233,7 @@
 <div class='form-group'>
 	<label for="books" class="control-label col-sm-2" id="msg1">도서검색</label>
 	<div class="col-sm-6">
-	<input type="text" name="books" id="books"
-	 onkeyup="autoComp(this.value)"
-	 class="form-control" >
+	<input type="text" name="books" id="books" onkeyup="autoComp(this.value)" class="form-control" >
 	 <!-- ---------------------------- -->
 	 <div id="lst1" class="listbox"
 	  style="display:none">
@@ -175,9 +247,7 @@
 </form>
 <div>
  
- <button type="button"
-  onclick="getBook()"
-  class="btn btn-primary">검색</button>
+ <button type="button" onclick="getBook()" class="btn btn-primary">검색</button>
  
  <button type="button" onclick="getAllBook()" class="btn btn-success">모두보기</button>
  <button type="button" id="openBtn"
