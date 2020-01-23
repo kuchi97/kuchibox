@@ -69,11 +69,10 @@
 	</div>
 --%>
 <%-- 탑 예정------------------------------------------------------ --%>
-	
 	<div class="">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-sm-12">
 					<table class="table table-striped">
 						<thead>
 							<tr>
@@ -84,18 +83,20 @@
 								<th>나이</th>
 								<th>포인트</th>
 								<th>상태</th>
+								<th>업로드</th>
 							</tr>
 						</thead>
 						<tbody>
 							<core:forEach var="list" items="${listMember}">
 								<tr>
-									<td>${list.idx}</td>
+									<td>#</td>
 									<td>${list.email}</td>
 									<td>${list.name}</td>
 									<td>${list.pwd}</td>
 									<td>${list.age}</td>
 									<td>${list.point}</td>
 									<td>${list.state}</td>
+									<td><a href='userContent.do?email=${list.email}'>[컨텐츠]</a></td>
 								</tr>
 							</core:forEach>
 						</tbody>

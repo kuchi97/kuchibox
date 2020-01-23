@@ -6,7 +6,7 @@ public class ContentVO {
 	String title;
 	String director;
 	String release;
-	String intro;
+	String info;
 	String url;
 	
 	public ContentVO()
@@ -14,13 +14,13 @@ public class ContentVO {
 		
 	}
 
-	public ContentVO(String idx, String title, String director, String release, String intro, String url) {
+	public ContentVO(String idx, String title, String director, String release, String info, String url) {
 		super();
 		this.idx = idx;
 		this.title = title;
 		this.director = director;
 		this.release = release;
-		this.intro = intro;
+		this.info = info;
 		this.url = url;
 	}
 
@@ -56,12 +56,12 @@ public class ContentVO {
 		this.release = release;
 	}
 
-	public String getIntro() {
-		return intro;
+	public String getinfo() {
+		return info;
 	}
 
-	public void setIntro(String intro) {
-		this.intro = intro;
+	public void setinfo(String info) {
+		this.info = info;
 	}
 
 	public String getUrl() {

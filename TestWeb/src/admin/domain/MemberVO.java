@@ -1,7 +1,6 @@
 package admin.domain;
 
 public class MemberVO {
-	Integer idx;
 	String email;
 	String name;
 	String pwd;
@@ -14,23 +13,14 @@ public class MemberVO {
 		
 	}
 
-	public MemberVO(Integer idx, String email, String name, String pwd, int age, int point, int state) {
+	public MemberVO(String email, String name, String pwd, int age, int point, int state) {
 		super();
-		this.idx= idx;
 		this.email = email;
 		this.name = name;
 		this.pwd = pwd;
 		this.age = age;
 		this.point = point;
 		this.state = state;
-	}
-
-	public int getIdx() {
-		return idx;
-	}
-
-	public void setIdx(int idx) {
-		this.idx = idx;
 	}
 
 	public String getEmail() {

@@ -5,23 +5,25 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import admin.domain.ContentVO;
+import admin.domain.UserContentVO;
 import admin.persistence.ContentDAO;
 import common.controller.AbstractAction;
 
-public class ContentListController extends AbstractAction {
+public class UserContentController extends AbstractAction {
 
 	@Override
 	public void execute(HttpServletRequest req, HttpServletResponse res) throws Exception {
-		
-		System.out.println("ContentListController executed ####");
+
+		System.out.println("UserContentController executed ####");
+		String email= req.getParameter("email");
+		System.out.println(email);
 		
 		ContentDAO contentDAO= new ContentDAO();
-		List<ContentVO> arr= contentDAO.listContent();
+		List<UserContentVO> arr= contentDAO.listUserContent(email);
 		
-		req.setAttribute("listContent", arr);
-		
-		this.setViewPage("/contentList.jsp");
+		req.setAttribute("listUserContent", arr);
+
+		this.setViewPage("/userContentList.jsp");
 		this.setRedirect(false);
 
 	}

@@ -12,21 +12,23 @@
 					<table class="table table-striped">
 						<thead>
 							<tr>
-								<th>#</th>
-								<th>제목</th>
-								<th>감독</th>
-								<th>개봉일</th>
+								<th>IDX</th>
+								<th>이메일</th>
+								<th>이름</th>
+								<th>영화명</th>
+								<th>리뷰제목</th>
 								<th>소개</th>
 								<th>URL</th>
 							</tr>
 						</thead>
 						<tbody>
-							<core:forEach var="list" items="${listContent}">
+							<core:forEach var="list" items="${listUserContent}">
 								<tr>
 									<td>${list.idx}</td>
-									<td>${list.title}</td>
-									<td>${list.director}</td>
-									<td>${list.release}</td>
+									<td>${list.email}</td>
+									<td>${list.name}</td>
+									<td>${list.contentTitle}</td>
+									<td>${list.reviewTitle}</td>
 							<core:if test='${function:length(list.info)<=40}'>	<!-- 너무길면 줄이기 -->
 									<td title='${list.info}'>${list.info}</td>
 							</core:if>

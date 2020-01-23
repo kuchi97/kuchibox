@@ -2,7 +2,9 @@ package admin.persistence;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -10,6 +12,7 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import admin.domain.ContentVO;
+import admin.domain.UserContentVO;
 
 public class ContentDAO {
 	
@@ -58,6 +61,37 @@ public class ContentDAO {
 		}
 	}
 	
+/* 모든 유저컨텐츠를 보여주는 메소드 */
+	public List<UserContentVO> listAllUserContent(){
+		try {
+			sqlSession=this.getSessionFactory().openSession(true);
+			List<UserContentVO> arr= sqlSession.selectList(NS+".listAllUserContent");
+			
+			return arr;
+		}
+		finally {
+			close();
+		}
+	}
+	
+/* 지정한 사용자가 올린 컨텐츠를 보여주는 메소드 */
+	public List<UserContentVO> listUserContent(String email) {
+		
+		try {
+			
+			sqlSession= this.getSessionFactory().openSession(true);
+			
+			List<UserContentVO> arr= sqlSession.selectList(NS+".listUserContent", email);
+			
+			return arr;
+		}
+		finally {
+			close();
+		}
+		
+		
+	}
+	
 	
 
 /* 닫기 메소드 */
@@ -65,6 +99,8 @@ public class ContentDAO {
 	{
 		if(sqlSession!=null) sqlSession.close();
 	}
+
+
 	
 	
 }

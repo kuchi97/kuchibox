@@ -6,17 +6,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <script type="text/javascript"
 	src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript"
-	src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	src="http://netdna.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <link
 	href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
 	rel="stylesheet" type="text/css">
 <link
 	href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css"
 	rel="stylesheet" type="text/css">
-	
+
 <style>
 #header {
 	margin-top: 20px;
@@ -42,7 +43,7 @@
 	<div id="header" class="">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-sm-8">
 					<div class="btn-toolbar" role="toolbar">
 						<div class="btn-group">
 							<a type="button" href="<%=myctx %>/testMember.do" class="btn btn-default">회원정보</a> 
@@ -59,6 +60,16 @@
 							<a type="button" class="btn btn-default">8</a>
 						</div>
 					</div>
+				</div>
+				<div class='col-sm-2'>
+					<select class='form-control'>
+						<option value='idx'>번호</option>
+						<option value='email'>이메일</option>
+						<option value='name'>이름</option>
+					</select>
+				</div>
+				<div class='col-sm-2'>
+					<input type='text' class='form-control'>
 				</div>
 			</div>
 		</div>

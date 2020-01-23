@@ -7,12 +7,36 @@
 
 	<!-- 멤버리스트 보여주기 -->
 	<select id="listMember" resultType="admin.domain.MemberVO">
-		select * from member order by idx
+		select email, pwd, name, age, point, state from member order by email
 	</select>
 	
 	<!-- 컨텐츠리스트 보여주기 -->
 	<select id="listContent" resultType="admin.domain.ContentVO">
 		select * from content order by idx
+	</select>
+	
+	<!-- 모든 유저컨텐츠리스트 보여주기 -->
+	<select id="listAllUserContent" resultType="admin.domain.UserContentVO">
+		select a.idx idx, m.email email, m.name name, a.title1 contentTitle, a.title2 reviewTitle, a.info info, a.url url from
+			(select uc.idx, c.title title1, uc.email email, uc.title title2, uc.info, uc.url
+			from content c join userContent uc
+			on c.idx=uc.contentIdx) a join member m
+		on m.email=a.email
+	</select>
+	
+	<!-- 특정유저의 컨텐츠리스트 보여주기 -->
+	<select id="listUserContent" resultType="admin.domain.UserContentVO" parameterType="string">
+		select a.idx idx, m.email email, m.name name, a.title1 contentTitle, a.title2 reviewTitle, a.info info, a.url url  
+			from (select uc.idx, c.title title1, uc.email email, uc.title title2, uc.info, uc.url 
+				from content c join userContent uc 
+				on c.idx=uc.contentIdx) a join member m 
+				on m.email=a.email 
+			where m.email=#{email}
+	</select>
+	
+	<!-- 공지사항 보여주기 -->
+	<select id="getNoticeList" resultType="admin.domain.NoticeVO">
+		select * from notice order by idx
 	</select>
 
 </mapper>
