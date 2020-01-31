@@ -1,0 +1,45 @@
+/* 채널 메인 이미지 */
+.channelImage {
+    max-width: 99.8%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+/* 채널 메뉴 버튼 */
+.channelMenu {
+    background-color: #444;
+    padding: 0.3em;
+}
+
+/* 메뉴 헤더 */
+.myChannelHead {
+    margin-top: 1em;
+}
+.myChannelHead div {
+    border: 1px solid red;
+}
+
+.myChannelHead div ul li select {
+    float: left;
+    border: 2px solid yellow;
+    margin: 0;
+}
+
+.myChannelHead div ul li input {
+}
+.channelSearch {
+}
+
+/* 슬라이더 */
+.carousel-inner img {
+    position: relative;
+    max-width: 100%; 
+    height: auto;
+}
+#cslide{
+    max-width: 100%;
+    position: relative;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}

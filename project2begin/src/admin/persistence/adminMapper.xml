@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="admin.persistence.adminMapper">
+
+	<!-- 조건마다 다르게 검색하기 조각 sql -->
+	<sql id="whereClause">
+		<if test="selectBox != null and searchInput != ''"><!-- if는 mybatis에서 지원한다 -->
+			<where><!-- if를 통과하면 where절(sql의)을 삽입한다 -->
+				<choose><!-- switch와 비슷 -->
+					<!-- 컨텐츠리스트에서 검색했을때 -->
+					<when test="selectBox==idx">
+						idx like '%'||#{searchInput}||'%'
+					</when>
+					<when test="selectBox==email">
+						email like '%'||#{searchInput}||'%'
+					</when>
+					<when test="selectBox==name">
+						name like '%'||#{searchInput}||'%'
+					</when>
+					<when test="selectBox==state">
+						state like '%'||#{searchInput}||'%'
+					</when>
+					<otherwise><!-- 디폴트로 넣어줄 셀렉트값 -->
+						email like '%'||#{searchInput}||'%'						
+					</otherwise>
+				</choose>
+			</where>
+		</if>
+	</sql>
+	<!-- /조각sql=============================== -->
+	
+	<!-- 멤버리스트 보여주기 -->
+	<select id="listMember" resultType="admin.domain.MemberVO">
+		select email, pwd, name, age, point, state from member order by email
+	</select>
+	
+	<!-- 검색한 멤버만 보여주기 -->
+	<select id="searchMember" resultType="admin.domain.MemberVO" parameterType="Map">
+		select * from member
+		<include refid="whereClause"/>
+		order by email
+	</select>
+	
+	<!-- 컨텐츠리스트 보여주기 -->
+ 	<select id="listContent" resultType="admin.domain.ContentVO">
+		select * from content order by wdate desc
+	</select>
+	
+	<!-- 검색한 컨텐츠만 보여주기 -->
+	<select id="searchContent" resultType="admin.domain.ContentVO" parameterType="Map">
+		select * from content 
+		<include refid="whereClause"/>
+		order by idx 
+	</select>
+
+	<!-- 모든 유저컨텐츠리스트 보여주기 -->
+ 	<select id="listAllMemberContent" resultType="admin.domain.MemberContentVO">
+		select a.idx idx, m.email email, m.name name, a.title1 contentTitle, a.title2 reviewTitle, a.info info, a.url url from
+			(select uc.idx, c.title title1, uc.email email, uc.title title2, uc.info, uc.url
+			from content c join userContent uc
+			on c.idx=uc.contentIdx) a join member m
+		on m.email=a.email
+	</select>
+	
+	<!-- 특정유저의 컨텐츠리스트 보여주기 -->
+	<select id="listMemberContent" resultType="admin.domain.MemberContentVO" parameterType="string">
+		select a.idx idx, m.email email, m.name name, a.title1 contentTitle, a.title2 reviewTitle, a.info info, a.url url  
+			from (select uc.idx, c.title title1, uc.email email, uc.title title2, uc.info, uc.url 
+				from content c join userContent uc 
+				on c.idx=uc.contentIdx) a join member m 
+				on m.email=a.email 
+			where m.email=#{email}
+	</select>
+	
+	
+	<!-- 공지사항 보여주기 -->
+ 	<select id="getNoticeList" resultType="admin.domain.NoticeVO">
+		select * from notice order by idx
+	</select>
+
+</mapper>

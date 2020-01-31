@@ -2,8 +2,45 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="core" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<script>
+<%
+	String myctx= request.getContextPath();
+	System.out.println(myctx);
+%>
+</script>
 <%-- <jsp:include page="/top.jsp"/> --%>
-
+	<div class="">
+		<div class="">
+			<div class="">관리자페이지</div>
+		</div>
+	</div>
+	<div id="" class="">
+		<div class="">
+			<div class="">
+				<div class="">
+					<div class="" role="">
+						<div class="">
+							<a type="button" href="<%=myctx %>/testMember.do" class=" ">회원정보</a> 
+							<a type="button" href="<%=myctx %>/contentList.do" class=" ">컨텐츠목록</a> 
+							<a type="button" class="">포인트</a> 
+							<a type="button" class="">결제내역</a>
+						</div>
+					</div>
+				</div>
+				<div class=''>
+					<select class=''>
+						<option value='idx'>번호</option>
+						<option value='email'>이메일</option>
+						<option value='name'>이름</option>
+					</select>
+				</div>
+				<div class=''>
+					<input type='text' class=''>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- -------------------------------------------------------- -->
 
 <div id='outer'>
 	<table style='border:1px solid blue; border-collapse:collapse'>

@@ -1,0 +1,191 @@
+.sideNav {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    
+	left: 0;
+	width: 250px;
+    height: 100%;
+	/* 메뉴 배경색 */	background: #222;
+	/* 메뉴 그림자 */	box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
+	/* 글자 색상 */		color: #fff;
+	/* 스크롤바 */		overflow-y: auto;
+	/* 좌측 고정 */		position: fixed;
+    /* 글자 정렬 */		text-align: right;
+    /* 우선순위 */	    z-index: 10009;
+}
+
+/* 회원 로고============================================ */
+/* 위치 */
+.sideNavInfo {
+    flex-grow: 0.1;
+}
+
+/* 회원 로고 위치 */
+.sideNavInfo span {
+    position: relative;
+	margin: 1em 1em 1em 1em;
+	min-height: 48px;
+    cursor: default;
+}
+
+/* 회원 로고 크기 */
+.sideNavInfo span {
+	position: absolute;
+	left: 0;
+    top: 0;
+    width: 45px;
+    height: 45px;
+}
+.sideNavInfo span img {
+    width: 45px;
+    height: 45px;
+    border: 1px #444 solid;
+    border-radius: 0.2em;
+}
+
+/* 회원 이름 h1태그 */
+.sideNavInfo h1 {
+	position: relative;
+	color: #fff;
+	font-weight: 600;
+	font-size: 1em;
+    line-height: 1em;
+    margin-top: 1.3em;
+    margin-right: 1em;
+    
+    /* 이름 길 때 말줄임 */
+    margin-left: 4.5em;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+
+/* 회원 상태 p태그 : 일반회원,특별회원 */
+.sideNavInfo p {
+	position: relative;
+	display: block;
+	font-size: 0.7em;
+	color: rgba(255, 255, 255, 0.5);
+	line-height: 1.25em;
+    margin: 0.5em 1.5em 0 0;
+}
+
+/* 메뉴================================== */
+/* 위치 */
+.sideNavMenu {
+    flex-grow: 2;
+}
+
+/* 메뉴 ul, li, a, span */
+.sideNavMenu ul {
+	padding-left: 0;
+    margin-bottom: 0;
+}
+.sideNavMenu ul li {
+    padding-left: 0;
+}
+.sideNavMenu ul li a {
+	display: block;
+	padding: 0.5em 1.25em 0.5em 1.25em;
+	color: rgba(255, 255, 255, 0.5);
+	outline: 0;
+	border: 0;
+    transition: none;
+}
+.sideNavMenu ul li a span {
+	position: relative;
+    display: block;
+}
+
+/* 메뉴 아이콘 */
+.sideNavMenu ul li a span img {
+    /* 우측정렬 */          float: right;
+    /* 이미지 높이 */       height: 1.5em;
+    /* 메뉴 텍스트와 간격 */ margin-left: 0.8em;
+    /* 투명도 */            opacity: 0.5;
+}
+
+/* 메뉴 마우스 오버 */
+.sideNavMenu ul li:hover {
+    background-color: #333;
+    box-shadow: inset 0 0 0.5em 0 rgba(0, 0, 0, 0.125);
+}
+.sideNavMenu ul li a:hover {
+    color: #fff;
+}
+/* 메뉴 클릭시 */
+.sideNavMenu ul li a:active {
+	color: #fff;
+    background: rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 0 0.5em 0 rgba(0, 0, 0, 0.125);
+}
+/* 메뉴 클릭시 아이콘 색상 */
+.sideNavMenu ul li a:active span:before {
+    color:darkred
+}
+
+/* 구분선 */
+.sideNavMenu hr {
+    width: 88%;
+    opacity: 0.1;
+}
+
+/* 구독리스트(테이블)======================== */
+/* 위치 */
+.subscribe {
+    flex-grow: 0.1;
+}
+
+.subscribe {
+    position: relative;
+    margin: 1em 1em 1em 1em;
+    cursor: pointer;
+    width: 90%;
+}
+.subscribe tr td {
+    padding-top: 0.3em;
+	color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+
+.subscribe tr td img{
+    display: block;
+    height: 1em;
+    width: 1em;
+}
+
+/* 메뉴 마우스 오버 */
+.subscribe tr:hover {
+    background-color: #333;
+    box-shadow: inset 0 0 0.5em 0 rgba(0, 0, 0, 0.125);
+}
+/* 메뉴 클릭시 */
+.subscribe tr:active {
+	color: #fff;
+    background: rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 0 0.5em 0 rgba(0, 0, 0, 0.125);
+}
+
+/* 하단 메뉴=============================== */
+/* 위치 */
+.sideNavBottom {
+    flex-grow: 0.5;
+}
+
+/* 여백 */
+.sideNavBottom ul{
+    margin-right: 1.25em;
+}
+.sideNavBottom ul li{
+    margin-right: 1.25em;
+}
+
+/* 포인트 충전 버튼 스타일 */
+.sideNavBottom ul li button {
+    width: 100%;
+    height: 3em;
+    float: center;
+    font-size: 1em;
+    font-weight: 600;
+}
