@@ -20,6 +20,7 @@ public class MemberDAO {
 	
 	private SqlSession sqlSession;
 	
+	/* 공장터잡는 메소드 */
 	public SqlSessionFactory getSessionFactory()
 	{
 		SqlSessionFactoryBuilder builder=null; 		//건축가
@@ -40,6 +41,16 @@ public class MemberDAO {
 			return null;		//고장났을때 null 반환
 		}
 	}//-- SqlSessionFactory 공장터잡았다
+	
+	
+	/* 닫기 메소드 */
+	public void close()
+	{
+		if(sqlSession!=null) sqlSession.close();
+	}
+	
+/*------------------------------------------------------------------------*/
+	
 	
 	/* 전체회원목록 나타내는 메소드 */
 	public List<MemberVO> listMember()
@@ -80,10 +91,35 @@ public class MemberDAO {
 		}
 	}
 
-	
-	public void close()
-	{
-		if(sqlSession!=null) sqlSession.close();
+	/* 회원 한명의 정보를 가져오는 메소드 */
+	public MemberVO listOneMember(String email) {
+		try {
+		sqlSession=this.getSessionFactory().openSession(true);
+		
+		MemberVO member =sqlSession.selectOne(NS+".listOneMember", email);
+		
+		return member;
+		}
+		finally {
+			close();
+		}
 	}
+
+	/* 회원정보를 수정하는 메소드 */
+	public int updateMember(MemberVO member) {
+		try {
+			sqlSession=this.getSessionFactory().openSession(true);
+			
+			int n= sqlSession.update(NS+".updateMember", member);
+			
+			return n;
+		}
+		finally {
+			close();
+		}
+	}
+	
+	
+
 
 }

@@ -159,7 +159,7 @@ iframe {
 				</div>
 			</div>
 			<div class="ma" style = "color : white" class='item2' > <!--  본문-->
-				<h3><c:out value="${mvo.mov_name}"/></h3><p>
+				<h3><c:out value="${title}"/></h3><p>
 				감독  <c:out value="${director}"/><br>
 				줄거리<br><pre><c:out value="${info}"/></pre><br>
 				개봉일 <c:out value="${release}"/><br>

@@ -10,6 +10,7 @@ label {
 	border: 0;
 	cursor: pointer;
 }
+
 .head {
 	color: white;
 }
@@ -46,6 +47,8 @@ label {
 }
 .tableContainer table {
 	display: inline-block;
+	overflow-x: hidden;
+	border: 1px solid green;
 }
 .tableContainer table tbody tr td{
 	overflow-y: hidden;

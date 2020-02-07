@@ -11,25 +11,29 @@
 			<where><!-- if를 통과하면 where절(sql의)을 삽입한다 -->
 				<choose><!-- switch와 비슷 -->
 					<!-- 컨텐츠리스트에서 검색했을때 -->
-					<when test="selectBox==idx">
+					<when test="selectBox=='idx'">
 						idx like '%'||#{searchInput}||'%'
 					</when>
-					<when test="selectBox==email">
+					<when test="selectBox=='email'">
 						email like '%'||#{searchInput}||'%'
 					</when>
-					<when test="selectBox==name">
+					<when test="selectBox=='name'">
 						name like '%'||#{searchInput}||'%'
 					</when>
-					<when test="selectBox==state">
+					<when test="selectBox=='state'">
 						state like '%'||#{searchInput}||'%'
 					</when>
-					<otherwise><!-- 디폴트로 넣어줄 셀렉트값 -->
-						email like '%'||#{searchInput}||'%'						
+					<when test="selectBox=='title'">
+						title like '%'||#{searchInput}||'%'
+					</when>
+  					<otherwise><!-- 디폴트로 넣어줄 셀렉트값 -->
+						name like '%'||#{searchInput}||'%'						
 					</otherwise>
 				</choose>
 			</where>
 		</if>
 	</sql>
+
 	<!-- /조각sql=============================== -->
 	
 	<!-- 멤버리스트 보여주기 -->
@@ -37,16 +41,32 @@
 		select email, pwd, name, age, point, state from member order by email
 	</select>
 	
+	<!-- 회원 한명의 정보 보여주기 -->
+	<select id="listOneMember" resultType="admin.domain.MemberVO" parameterType="string">
+		select email, pwd, name, year, age, point ,state from member where email=#{email}
+	</select>
+
 	<!-- 검색한 멤버만 보여주기 -->
 	<select id="searchMember" resultType="admin.domain.MemberVO" parameterType="Map">
-		select * from member
+		select email, name, pwd, age, point, state from member
 		<include refid="whereClause"/>
 		order by email
 	</select>
 	
+	<!-- 회원정보 수정하기 -->
+	<update id="updateMember" parameterType="admin.domain.MemberVO">
+		update member set name=#{name}, year=#{year}, age=#{age}, point=#{point}, state=#{state} where email=#{email}
+	</update>
+	
+	
 	<!-- 컨텐츠리스트 보여주기 -->
  	<select id="listContent" resultType="admin.domain.ContentVO">
 		select * from content order by wdate desc
+	</select>
+	
+	<!-- 특정 컨텐츠만 보여주기 (수정할때) -->
+	<select id="selectOneContent" resultType="admin.domain.ContentVO" parameterType="string">
+		select * from content where idx=#{idx}
 	</select>
 	
 	<!-- 검색한 컨텐츠만 보여주기 -->
@@ -58,27 +78,44 @@
 
 	<!-- 모든 유저컨텐츠리스트 보여주기 -->
  	<select id="listAllMemberContent" resultType="admin.domain.MemberContentVO">
-		select a.idx idx, m.email email, m.name name, a.title1 contentTitle, a.title2 reviewTitle, a.info info, a.url url from
-			(select uc.idx, c.title title1, uc.email email, uc.title title2, uc.info, uc.url
-			from content c join userContent uc
-			on c.idx=uc.contentIdx) a join member m
-		on m.email=a.email
+		select * from memberContent_view order by idx
+	</select>
+	
+	<!-- 검색한 유저의 컨텐츠리스트 보여주기 -->
+	<select id="searchMemberContent" resultType="admin.domain.MemberContentVO" parameterType="Map">
+		select * from memberContent_view
+		<include refid="whereClause"/>
+		order by idx
 	</select>
 	
 	<!-- 특정유저의 컨텐츠리스트 보여주기 -->
 	<select id="listMemberContent" resultType="admin.domain.MemberContentVO" parameterType="string">
-		select a.idx idx, m.email email, m.name name, a.title1 contentTitle, a.title2 reviewTitle, a.info info, a.url url  
-			from (select uc.idx, c.title title1, uc.email email, uc.title title2, uc.info, uc.url 
-				from content c join userContent uc 
-				on c.idx=uc.contentIdx) a join member m 
-				on m.email=a.email 
-			where m.email=#{email}
+		select * from memberContent_view
+		where email=#{email} order by idx	
 	</select>
 	
 	
 	<!-- 공지사항 보여주기 -->
  	<select id="getNoticeList" resultType="admin.domain.NoticeVO">
-		select * from notice order by idx
+		select * from notice order by idx desc
 	</select>
+	<!-- 검색한 공지사항 보여주기 -->
+	<select id="selectNotice" resultType="admin.domain.NoticeVO" parameterType="Map">
+		select * from notice
+		<include refid="whereClause"/>
+		order by idx desc
+	</select>
+	<!-- 공지사항 한개 가져오기 idx로-->
+	<select id="selectOneNotice" resultType="admin.domain.NoticeVO" parameterType="string">
+		select * from notice where idx=#{idx}
+	</select>
+	<!-- 공지사항 등록 -->
+	<insert id="insertNotice" parameterType="admin.domain.NoticeVO">
+		insert into notice values(notice_seq.nextval,#{title},#{info},sysdate,#{name})
+	</insert>
+	<!-- 공지사항 수정 -->
+	<update id="updateNotice" parameterType="admin.domain.NoticeVO">
+		update notice set title=#{title}, info=#{info} where idx=#{idx}
+	</update>
 
 </mapper>

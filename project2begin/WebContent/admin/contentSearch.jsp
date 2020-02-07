@@ -13,31 +13,31 @@
 	<div class='box'>
 		<select class='' name="selectBox">
 			<option value='idx'>번호</option>
-			<option value='email'>이메일</option>
-			<option value='name'>이름</option>
+			<option value='title'>제목</option>
 		</select>
 		<input type='text' name="searchInput" class=''>
 		<button type='button' onclick='goSearch()'>검색</button>
 	</div>
 </form>
 <!-- ----------------------------------------------------- -->
-<div class="box">
+<div class="outer">
 	<div class='tableContainer'>
 		<table class="table">
 			<thead>
 				<tr>
 					<th>#</th>
+					<th>인덱스</th>
 					<th>제목</th>
 					<th>감독</th>
 					<th>개봉일</th>
 					<th>소개</th>
-					<th>URL</th>
 				</tr>
 			</thead>
 			<tbody>
 				<core:forEach var="search" items="${searchContent}">
 					<tr>
-						<td><a href='index.do'>${search.idx}</a></td>
+						<td><a href='contentEdit.do?idx=${search.idx}'><i class="fa fa-edit fa-2x"></i></a></td>
+						<td>${search.idx}</td>
 						<td>${search.title}</td>
 						<td>${search.director}</td>
 						<td>${search.release}</td>
@@ -47,7 +47,6 @@
 				<core:if test='${function:length(search.info)>40}'>
 						<td title='${search.info}'>${function:substring(search.info,0,40)}...</td>
 				</core:if>
-						<td>${search.url}</td>
 					</tr>
 				</core:forEach>
 			</tbody>

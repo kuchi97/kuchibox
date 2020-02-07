@@ -2,75 +2,74 @@ package admin.domain;
 
 public class MemberVO {
 	String email;
-	String name;
 	String pwd;
-	int age;
-	int point;
-	int state;
+	String name;
+	String year;
+	String age;
+	String point;
+	String state;
 	
+	/*constructor*/
 	public MemberVO()
 	{
 		
 	}
-
-	public MemberVO(String email, String name, String pwd, int age, int point, int state) {
+	public MemberVO(String email, String pwd, String name, String year, String age, String point, String state) {
 		super();
 		this.email = email;
-		this.name = name;
 		this.pwd = pwd;
+		this.name = name;
+		this.year = year;
 		this.age = age;
 		this.point = point;
 		this.state = state;
 	}
-
+	
+	/* setter, getter */
 	public String getEmail() {
 		return email;
 	}
-
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
 	public String getPwd() {
 		return pwd;
 	}
-
 	public void setPwd(String pwd) {
 		this.pwd = pwd;
 	}
-
-	public int getAge() {
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getYear() {
+		return year;
+	}
+	public void setYear(String year) {
+		this.year = year;
+	}
+	public String getAge() {
 		return age;
 	}
-
-	public void setAge(int age) {
+	public void setAge(String age) {
 		this.age = age;
 	}
-
-	public int getPoint() {
+	public String getPoint() {
 		return point;
 	}
-
-	public void setPoint(int point) {
+	public void setPoint(String point) {
 		this.point = point;
 	}
-
-	public int getState() {
+	public String getState() {
 		return state;
 	}
-
-	public void setState(int state) {
+	public void setState(String state) {
 		this.state = state;
 	}
-	
-	
+
+
+
 
 }

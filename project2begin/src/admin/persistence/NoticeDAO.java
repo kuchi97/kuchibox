@@ -3,7 +3,9 @@ package admin.persistence;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -44,6 +46,12 @@ public class NoticeDAO {
 		}
 	}// 공장세웠다--------------------------------------------------
 	
+	/* 닫기메소드 */
+	public void close() {
+		if(sqlSession!=null) sqlSession.close();
+	}
+	
+	/* 모든 공지사항 가져오는 메소드 */
 	public List<NoticeVO> getNoticeList() {
 		try {
 			sqlSession=this.getSessionFactory().openSession(true);
@@ -56,13 +64,70 @@ public class NoticeDAO {
 		finally {
 			close();
 		}
+	}//--getNoticeList();
+	
+	/* 검색한 공지사항리스트 가져오는 메소드 */
+	public List<NoticeVO> selectNotice(String selectBox, String searchInput) {
+		try {
+			sqlSession= this.getSessionFactory().openSession(true);
+			
+			Map<String, String> map= new HashMap<>();
+			map.put("selectBox", selectBox);
+			map.put("searchInput", searchInput);
+			
+			List<NoticeVO> arr= sqlSession.selectList(NS+".selectNotice", map);
+			
+			return arr;
+		}
+		finally {
+			close();
+		}
+	}
+	
+	/* 공지사항 하나의 내용 가져오기 */
+	public NoticeVO selectOneNotice(String idx) {
+		try {
+			sqlSession= this.getSessionFactory().openSession(true);
+			
+			NoticeVO notice= sqlSession.selectOne(NS+".selectOneNotice",idx);
+			
+			return notice;
+		}
+		finally {
+			close();
+		}
+	}
+	
+	/* 공지사항 작성 메소드 */
+	public int insertNotice(NoticeVO vo) {
+		try {
+			sqlSession= this.getSessionFactory().openSession(true);
+			
+			int n= sqlSession.insert(NS+".insertNotice", vo);
+			
+			return n;
+		}
+		finally {
+			close();
+		}
+	}
+	
+	/* 공지사항 수정 */
+	public int updateNotice(NoticeVO vo) {
+		try {
+			sqlSession= this.getSessionFactory().openSession(true);
+			
+			int n= sqlSession.update(NS+".updateNotice",vo);
+			
+			return n;
+		}
+		finally {
+			close();
+		}
 	}
 	
 	
 	
-	/* 닫기메소드 */
-	public void close() {
-		if(sqlSession!=null) sqlSession.close();
-	}
+	
 
 }

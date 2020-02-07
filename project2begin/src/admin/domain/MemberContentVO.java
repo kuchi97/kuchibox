@@ -5,7 +5,7 @@ public class MemberContentVO {
 	String idx;
 	String email;
 	String name;
-	String contentTitle;
+	String title;
 	String reviewTitle;
 	String info;
 	String url;
@@ -15,13 +15,13 @@ public class MemberContentVO {
 	{
 		
 	}
-	public MemberContentVO(String idx, String email, String name, String contentTitle, String reviewTitle, String info,
+	public MemberContentVO(String idx, String email, String name, String title, String reviewTitle, String info,
 			String url, String contentIdx) {
 		super();
 		this.idx = idx;
 		this.email = email;
 		this.name = name;
-		this.contentTitle = contentTitle;
+		this.title = title;
 		this.reviewTitle = reviewTitle;
 		this.info = info;
 		this.url = url;
@@ -45,11 +45,11 @@ public class MemberContentVO {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getcontentTitle() {
-		return contentTitle;
+	public String gettitle() {
+		return title;
 	}
-	public void setcontentTitle(String contentTitle) {
-		this.contentTitle = contentTitle;
+	public void settitle(String title) {
+		this.title = title;
 	}
 	public String getReviewTitle() {
 		return reviewTitle;

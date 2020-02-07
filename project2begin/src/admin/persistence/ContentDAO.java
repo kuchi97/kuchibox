@@ -45,6 +45,11 @@ public class ContentDAO {
 		}
 	}//-- getSessionFactory();
 
+	/* 닫기 메소드 */
+	public void close()
+	{
+		if(sqlSession!=null) sqlSession.close();
+	}
 	
 /* 모든 컨텐츠를 보여주는 메소드 */
 	public List<ContentVO> listContent() {
@@ -53,6 +58,45 @@ public class ContentDAO {
 			
 			sqlSession= this.getSessionFactory().openSession(true);
 			List<ContentVO> arr= sqlSession.selectList(NS+".listContent");
+			
+			return arr;
+		}
+		finally {
+			close();
+		}
+	}
+	
+	/* 특정 컨텐츠 내용을 가져오는 메소드 (수정할때) */
+	public ContentVO selectOneContent(String idx) {
+		try {
+			sqlSession= this.getSessionFactory().openSession(true);
+			
+			ContentVO content= sqlSession.selectOne(NS+".selectOneContent", idx);
+			
+			return content;
+		}
+		finally {
+			close();
+		}
+	}
+	
+	/* 검색한 컨텐츠 보여주는 메소드 */
+	public List<ContentVO> searchContent(String selectBox, String searchInput) {
+		
+		try {
+			sqlSession=this.getSessionFactory().openSession(true);
+			
+			//매개변수 저장해둘 맵
+			Map<String, String> map= new HashMap<>();
+			map.put("selectBox", selectBox);
+			map.put("searchInput", searchInput);
+			if(searchInput==null || searchInput.trim().isEmpty()) {
+				List<ContentVO> arr= listContent();
+				
+				return arr;
+			}
+			
+			List<ContentVO> arr= sqlSession.selectList(NS+".searchContent", map);
 			
 			return arr;
 		}
@@ -92,24 +136,16 @@ public class ContentDAO {
 		
 	}
 	
-	
-	/* 검색내용 보여주는 메소드 */
-	public List<ContentVO> searchContent(String selectBox, String searchInput) {
-		
+	/* 검색한 사용자컨텐츠 보여주는 메소드 */
+	public List<ContentVO> searchMemberContent(String selectBox, String searchInput) {
 		try {
-			sqlSession=this.getSessionFactory().openSession(true);
+			sqlSession= this.getSessionFactory().openSession(true);
 			
-			//매개변수 저장해둘 맵
-			Map<String, String> map= new HashMap<>();
+			Map<String,String> map= new HashMap<>();
 			map.put("selectBox", selectBox);
 			map.put("searchInput", searchInput);
-			if(searchInput==null || searchInput.trim().isEmpty()) {
-				List<ContentVO> arr= listContent();
-				
-				return arr;
-			}
 			
-			List<ContentVO> arr= sqlSession.selectList(NS+".searchContent", map);
+			List<ContentVO> arr= sqlSession.selectList(NS+".searchMemberContent", map);
 			
 			return arr;
 		}
@@ -117,13 +153,10 @@ public class ContentDAO {
 			close();
 		}
 	}
+	
+	
 
 	
-/* 닫기 메소드 */
-	public void close()
-	{
-		if(sqlSession!=null) sqlSession.close();
-	}
 
 
 

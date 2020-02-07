@@ -21,7 +21,7 @@
 	</div>
 </form>
 <!-- ----------------------------------------------------- -->
-<div class="box">
+<div class="outer">
 <div class="tableContainer">
 	<table class="table">
 		<thead>
@@ -39,14 +39,14 @@
 		<tbody>
 			<core:forEach var="list" items="${listMember}">
 				<tr>
-					<td>#</td>
+					<td><a href='memberEdit.do?email=${list.email}'><i class="fa fa-edit fa-2x"></i></a></td>
 					<td>${list.email}</td>
 					<td>${list.name}</td>
 					<td>${list.pwd}</td>
 					<td>${list.age}</td>
 					<td>${list.point}</td>
 					<td>${list.state}</td>
-					<td><a href='memberContent.do?email=${list.email}'>[컨텐츠]</a></td>
+					<td><a href='memberContent.do?email=${list.email}'><i class="fa fa-eye fa-2x"></i></a></td>
 				</tr>
 			</core:forEach>
 		</tbody>

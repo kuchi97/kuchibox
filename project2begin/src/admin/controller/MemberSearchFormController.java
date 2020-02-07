@@ -17,11 +17,20 @@ public class MemberSearchFormController extends AbstractAction {
 		System.out.println("[MemberSearchFormController] executed ####");
 		
 		String selectBox= req.getParameter("selectBox");
-//		System.out.println("MemberSearchForm:"+selectBox);
+		System.out.println("MemberSearchForm/selectBox:"+selectBox);
 		String searchInput= req.getParameter("searchInput");
-//		System.out.println("MemberSearchForm:"+searchInput);
+		System.out.println("MemberSearchForm/searchInput:"+searchInput);
 		
 		MemberDAO dao= new MemberDAO();
+		
+		/* input값이 없을때 */
+		if(searchInput==null || searchInput.trim().isEmpty()) {
+			this.setViewPage("memberList.do");
+			this.setRedirect(false);
+			
+			return;
+		}
+		
 		List<MemberVO> arr= dao.searchMember(selectBox, searchInput);
 		
 		req.setAttribute("searchMember", arr);

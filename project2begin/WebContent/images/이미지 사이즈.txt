@@ -1,0 +1,10 @@
+#상단바 리튤릭스 로고 이미지
+height: 20px;
+
+#좌측바 회원 개인 이미지
+width: 45px;
+height: 45px;
+
+#좌측바 구독 업로더 이미지
+width: 25px;
+height: 25px;

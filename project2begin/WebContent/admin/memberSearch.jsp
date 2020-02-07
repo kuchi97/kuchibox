@@ -22,7 +22,7 @@
 	</div>
 </form>
 <!-- ----------------------------------------------------- -->
-<div class="box">
+<div class="outer">
 <div class="tableContainer">
 	<table class="table">
 		<thead>
@@ -40,14 +40,14 @@
 		<tbody>
 			<core:forEach var="search" items="${searchMember}">
 				<tr>
-					<td>#</td>
+					<td><a href='memberEdit.do?email=${search.email}'><i class="fa fa-edit fa-2x"></i></a></td>
 					<td>${search.email}</td>
 					<td>${search.name}</td>
 					<td>${search.pwd}</td>
 					<td>${search.age}</td>
 					<td>${search.point}</td>
 					<td>${search.state}</td>
-					<td><a href='memberContent.do?email=${search.email}'>[컨텐츠]</a></td>
+					<td><a href='memberContent.do?email=${list.email}'><i class="fa fa-eye fa-2x"></i></a></td>
 				</tr>
 			</core:forEach>
 		</tbody>
@@ -55,11 +55,16 @@
 </div>
 </div>
 
+<!-- -------------------------------------------------------------- -->
 <script>
+
 function goSearch() {
 	searchForm.submit();
 }
+
+
 </script>
+<!-- -------------------------------------------------------------- -->
 
 
 <jsp:include page="/foot.jsp"/>
