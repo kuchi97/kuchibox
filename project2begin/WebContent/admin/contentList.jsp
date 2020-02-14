@@ -6,7 +6,7 @@
 <jsp:include page="/admin/adminTop.jsp"/>
 <!-- ------------------------------------------------------- -->
 <div class='box'>
-		<h2 class='head'>Content List</h2>
+		<h2 class='head'>컨텐츠 목록</h2>
 </div>
 <form action="contentSearch.do" name="searchForm" method="POST">
 	<div class='box'>
@@ -35,8 +35,9 @@
 			<tbody>
 				<core:forEach var="list" items="${listContent}">
 					<tr>
-						<td><a href='contentEdit.do?idx=${list.idx}'><i class="fa fa-edit fa-2x"></i></a></td>
-						<td>${list.idx}</td>
+						<td><a href='contentEdit.do?idx=${list.idx}'><i class="fa fa-edit"></i></a></td>
+						<!-- 컨텐츠 세부내용 보기는 저쪽으로 링크 이어줄거 -->
+						<td><a href='contentView.do?idx=${list.idx}'>${list.idx}</a></td>
 						<td>${list.title}</td>
 						<td>${list.director}</td>
 						<td>${list.release}</td>
@@ -50,6 +51,9 @@
 				</core:forEach>
 			</tbody>
 		</table>
+		<div class='box'>
+			${pageNavi}
+		</div>
 	</div>
 </div>
 

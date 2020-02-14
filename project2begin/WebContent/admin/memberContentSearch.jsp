@@ -7,7 +7,7 @@
 
 <!-- ------------------------------------------------------- -->
 <div class='box'>
-		<h2 class='head'>업로드 목록 검색어=${keyword }</h2>
+		<h2 class='head'>회원 업로드 목록 [검색어 : ${paging.searchInput}]</h2>
 </div>
 <form action="memberContentSearch.do" name="searchForm" method="POST">
 	<div class='box'>
@@ -37,24 +37,27 @@
 			</tr>
 		</thead>
 		<tbody>
-			<core:forEach var="search" items="${searchMemberContent}">
-				<tr>
-					<td>${search.idx}</td>
-					<td>${search.email}</td>
-					<td>${search.name}</td>
-					<td>${search.title}</td>
-					<td>${search.reviewTitle}</td>
-			<core:if test='${function:length(search.info)<=40}'>	<!-- 너무길면 줄이기 -->
-					<td title='${search.info}'>${search.info}</td>
-			</core:if>
-			<core:if test='${function:length(search.info)>40}'>
-					<td title='${search.info}'>${function:substring(search.info,0,40)}...</td>
-			</core:if>
-					<td><i class="fa fa-edit fa-2x"></i></td>
-				</tr>
-			</core:forEach>
+		<core:forEach var="search" items="${searchMemberContent}">
+			<tr>
+				<td>${search.idx}</td>
+				<td>${search.email}</td>
+				<td>${search.name}</td>
+				<td>${search.title}</td>
+				<td>${search.reviewTitle}</td>
+		<core:if test='${function:length(search.info)<=40}'>	<!-- 너무길면 줄이기 -->
+				<td title='${search.info}'>${search.info}</td>
+		</core:if>
+		<core:if test='${function:length(search.info)>40}'>
+				<td title='${search.info}'>${function:substring(search.info,0,40)}...</td>
+		</core:if>
+				<td><i class="fa fa-edit"></i></td>
+			</tr>
+		</core:forEach>
 		</tbody>
 	</table>
+	<div class='box'>
+		${pageNavi}
+	</div>
 </div>
 </div>
 <!-- ----------------------------------------------------------------- -->

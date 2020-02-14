@@ -7,7 +7,7 @@
 
 <!-- ------------------------------------------------------- -->
 <div class='box'>
-		<h2 class='head'>회원 전체 업로드 목록</h2>
+		<h2 class='head'>회원 업로드 목록</h2>
 </div>
 <form action="memberContentSearch.do" name="searchForm" method="POST">
 	<div class='box'>
@@ -50,11 +50,14 @@
 			<core:if test='${function:length(all.info)>40}'>
 					<td title='${all.info}'>${function:substring(all.info,0,40)}...</td>
 			</core:if>
-					<td><i class="fa fa-edit fa-2x"></i></td>
+					<td><i class="fa fa-edit"></i></td>
 				</tr>
 			</core:forEach>
 		</tbody>
 	</table>
+	<div class='box'>
+		${pageNavi}
+	</div>
 </div>
 </div>
 <!-- ----------------------------------------------------------------- -->

@@ -13,7 +13,14 @@ public class ContentVO {
 	{
 		
 	}
-
+	public ContentVO(String idx, String title, String director, String release, String info) {
+		super();
+		this.idx = idx;
+		this.title = title;
+		this.director = director;
+		this.release = release;
+		this.info = info;
+	}
 	public ContentVO(String idx, String title, String director, String release, String info, String url) {
 		super();
 		this.idx = idx;

@@ -142,7 +142,7 @@ iframe {
 	
 		 	<div class="iframe" style="position:relative; display:none " >
 			<iframe id ='players'src="${mvo.url}" width = "100%" height="600px"  ></iframe>
-			<a src='#'>
+			<a href='#'>
 			<img class='imbt4' src="./images/exit2.png">
 			<img class='imbt3' src="./images/exit.png">
 			</a>
@@ -159,12 +159,19 @@ iframe {
 				</div>
 			</div>
 			<div class="ma" style = "color : white" class='item2' > <!--  본문-->
+				<label class='button'>${idx }</label>
 				<h3><c:out value="${title}"/></h3><p>
 				감독  <c:out value="${director}"/><br>
 				줄거리<br><pre><c:out value="${info}"/></pre><br>
 				개봉일 <c:out value="${release}"/><br>
 			</div>
-
+			<!-- 폼 전송용 히든인풋 -->
+				<input type="hidden" name='idx' value='${idx}'readonly>
+				<input type="hidden" name='title' value='${title}' readonly>
+				<input type="hidden" name='director' value='${director}'  readonly>
+				<input type="hidden" name='info' value='${info}'  readonly>
+				<input type="hidden" name='release' value='${release}' readonly>
+			<!-- /////폼 전송용 히든인풋 -->
 		</div>
 
 		<p></p>
@@ -189,15 +196,26 @@ iframe {
 	</div>
 
 	<div class='box right'>
+	<c:if test='${idx eq null or idx eq ""}'>
 		<button type='button' onclick='insertContent()'>등  록</button>
+	</c:if>
+	<c:if test='${idx ne null}'>
+		<button type='button' onclick='editContent()'>수  정</button>
+	</c:if>
 		<button type='button' onclick='javascript:history.back()'>취  소</button>
 	</div>
 </form>
 	
 <script>
 	function insertContent(){
+		previewForm.action="contentInsertEnd.do";
 		previewForm.submit();
 	}
+	function editContent(){
+		previewForm.action="contentEditEnd.do";
+		previewForm.submit();
+	}
+	
 </script>
 	
 <jsp:include page="/foot.jsp" />

@@ -16,8 +16,11 @@ public class NoticeController extends AbstractAction {
 
 		System.out.println("[NoticeController] Executed####");
 		
+		String start= req.getParameter("start");
+		String end= req.getParameter("end");
+		
 		NoticeDAO noticeDAO= new NoticeDAO();
-		List<NoticeVO> arr= noticeDAO.getNoticeList();
+		List<NoticeVO> arr= noticeDAO.getNoticeList(Integer.parseInt(start), Integer.parseInt(end));
 		
 		req.setAttribute("noticeList", arr);
 		

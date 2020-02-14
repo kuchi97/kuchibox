@@ -15,8 +15,6 @@ public class ContentInsertPreviewController extends AbstractAction {
 		String release= req.getParameter("release");
 		String info= req.getParameter("info");
 		
-		
-		
 		req.setAttribute("title", title);
 		req.setAttribute("director", director);
 		req.setAttribute("release", release);

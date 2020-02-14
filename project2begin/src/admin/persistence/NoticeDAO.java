@@ -51,13 +51,46 @@ public class NoticeDAO {
 		if(sqlSession!=null) sqlSession.close();
 	}
 	
+	/* 공지사항 총 개수 가져오기(페이징) */
+	public int getTotalNotice() {
+		try {
+			sqlSession= this.getSessionFactory().openSession(true);
+			
+			int n= sqlSession.selectOne(NS+".totalNotice");
+			
+			return n;
+		}
+		finally {
+			close();
+		}
+	}
+	/* 검색한 공지사항 수(페이징) */
+	public int getTotalSearchNotice(String selectBox, String searchInput) {
+		try {
+			sqlSession= this.getSessionFactory().openSession(true);
+			Map<String,String> map= new HashMap<>();
+			map.put("selectBox", selectBox);
+			map.put("searchInput", searchInput);
+			
+			int n= sqlSession.selectOne(NS+".totalSearchNotice", map);
+			return n;
+		}
+		finally {
+			close();
+		}
+	}
+	
 	/* 모든 공지사항 가져오는 메소드 */
-	public List<NoticeVO> getNoticeList() {
+	public List<NoticeVO> getNoticeList(int start, int end) {
 		try {
 			sqlSession=this.getSessionFactory().openSession(true);
+			Map<String,String> map= new HashMap<>();
+			
+			map.put("start",String.valueOf(start));
+			map.put("end",String.valueOf(end));
 			
 			List<NoticeVO> arr= new ArrayList<>();
-			arr= sqlSession.selectList("getNoticeList");
+			arr= sqlSession.selectList("getNoticeList", map);
 			
 			return arr;
 		}
@@ -66,14 +99,38 @@ public class NoticeDAO {
 		}
 	}//--getNoticeList();
 	
-	/* 검색한 공지사항리스트 가져오는 메소드 */
-	public List<NoticeVO> selectNotice(String selectBox, String searchInput) {
+	/* 검색한 공지사항 개수 가져오기 */
+	public int getSearchTotalCount(String selectBox, String searchInput) {
 		try {
+			sqlSession= this.getSessionFactory().openSession(true);
+			Map<String, String> map= new HashMap<>();
+			map.put("selectBox", selectBox);
+			map.put("searchInput", searchInput);
+			
+			int n= sqlSession.selectOne(NS+".searchTotalCount", map);
+			
+			return n;
+		}
+		finally {
+			close();
+		}
+	}
+	
+	/* 검색한 공지사항리스트 가져오는 메소드 */
+	public List<NoticeVO> selectNotice(String selectBox, String searchInput, int start, int end) {
+		try {
+			//검색값이 없으면 전체공지사항리스트 나오게
+			if(searchInput==null || searchInput.trim().isEmpty()) {
+				List<NoticeVO> arr= getNoticeList(start, end);
+				return arr;
+			}
 			sqlSession= this.getSessionFactory().openSession(true);
 			
 			Map<String, String> map= new HashMap<>();
 			map.put("selectBox", selectBox);
 			map.put("searchInput", searchInput);
+			map.put("start", String.valueOf(start));
+			map.put("end", String.valueOf(end));
 			
 			List<NoticeVO> arr= sqlSession.selectList(NS+".selectNotice", map);
 			
@@ -126,7 +183,19 @@ public class NoticeDAO {
 		}
 	}
 	
-	
+	/* 공지사항 삭제 */
+	public int deleteNotice(String idx) {
+		try {
+			sqlSession= this.getSessionFactory().openSession(true);
+			
+			int n= sqlSession.delete(NS+".deleteNotice", idx);
+			
+			return n;
+		}
+		finally {
+			close();
+		}
+	}
 	
 	
 

@@ -10,6 +10,20 @@ label {
 	border: 0;
 	cursor: pointer;
 }
+input[type="button"].label {
+	position: relative;
+	display: inline-block;
+	border-radius: 0.2em;
+	color: #fff !important;
+	text-decoration: none;
+	padding: 0.5em 1em 0.5em 1em;
+	background-color: #333;
+	border: 0;
+	cursor: pointer;
+}
+input.label:not:hover, input.label:focus {
+	background:
+}
 
 .head {
 	color: white;
@@ -52,4 +66,21 @@ label {
 }
 .tableContainer table tbody tr td{
 	overflow-y: hidden;
+}
+.page {
+	position: relative;
+	display: inline-block;
+	border-radius: 0.2em;
+	color: #fff !important;
+	text-decoration: none;
+	padding: 0.2em 1em 0.2em 1em;
+	background-color: #333;
+	border: 0;
+	cursor: pointer;
+}
+.active {
+	background-color: darkred;
+}
+.page:hover {
+	background-color: darkred;
 }

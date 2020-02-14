@@ -1,0 +1,2 @@
+mapper를 adminMapper로만 두지 말고 memberMapper, noticeMapper등으로 세분화 시키면???
+???: db 이제 계획세워서 세분화해서 제대로 보내야함

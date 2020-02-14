@@ -1,0 +1,50 @@
+.do >> controller >> DAO >> jsp >> .do
+
+dynamic web project 생성할때
+WEB-INF 폴더 경로 classes 중간에 끼워넣고
+web.xml파일 만들기 체크
+
+1. webcontent/WEB-INF/lib 아래 
+mybatis 3.x.x.jar
+taglibs-..jar 4개 파일 붙여넣기
+
+2. webcontent/WEB-INF 아래
+command.properties 파일 생성
+
+3. java resources/src/아래
+command.config 패키지 생성
+
+4. 3에서 db.properties 파일과 mybatis-config.xml파일 생성
+db.properties에서는 오라클 드라이버와 계정세팅
+mybatis-config 에서는 DBCP와 mapper 세팅
+
+5. java resources/src/아래
+command.controller 패키지 생성
+여기에는 공통으로 쓰일 추상클래스와 추상메소드가 들어갈거임
+.Command 에는 execute()라는 추상메소드가 들어가있음
+.AbstractAction 은 일종의 VO임. Command 인터페이스를 상속받아 가지고있음
+.Front Controller는 Servlet 파일임
+	@WebServlet 아노테이션에서 urlPattern과 initParams를 지정해준다
+	initParams의 value는 현재 프로젝트의 command.properties파일의 경로를 지정한다
+Servlet파일 만들때 doGet, doPost, init까지 체크하고 만든다
+생성자 지운다
+init()에서 하는일은 @WebServlet 어노테이션의 @WebInitParam의 키값과 밸류값을 맵핑하는것임
+command.properties를 사용하기위해 해주는거
+FrontController는 파일을 다시 읽어보면서 이해하기바람
+FrontController에서 보낸 index.do는 command.properties를 따라 IndexController로 감. 클래스 생성해줘서 jsp로 보내줘야됨
+
+6. java resources/src/아래
+common.db 패키지 생성
+DBUtil.java가 여기 들어가는데 아마 DBCP풀을 쓰면 이거 안쓸거임 아.마.도.
+
+7. java resources/src/아래
+common.file 패키지 생성
+FileDownloadServlet.java 는 파일다운로드할때 쓰는 servlet 파일인데 아마 이거도 안쓸거임
+대신 파일다운로드 코드 흐름 볼수있음
+
+8. java resources/src/아래
+common.filter 패키지 생성
+post방식일때의 한글인코딩을 일괄적으로 해줌
+
+
+Servers 폴더에 context.xml, server.xml의 DBCP setting 확인

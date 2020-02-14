@@ -51,14 +51,44 @@ public class MemberDAO {
 	
 /*------------------------------------------------------------------------*/
 	
+	/* 전체 회원 수 가져오기(페이징처리용) */
+	public int getTotalMember() {
+		try {
+			sqlSession= this.getSessionFactory().openSession(true);
+			int n= sqlSession.selectOne(NS+".totalMember");
+			return n;
+		}
+		finally {
+			close();
+		}
+	}
+	/* 검색한 회원 수 가져오기(페이징처리용) */
+	public int getTotalSearchMember(String selectBox, String searchInput) {
+		try {
+			sqlSession= this.getSessionFactory().openSession(true);
+			Map<String,String> map= new HashMap<>();
+			map.put("selectBox", selectBox);
+			map.put("searchInput", searchInput);
+			
+			int n= sqlSession.selectOne(NS+".totalSearchMember", map);
+			return n;
+		}
+		finally {
+			close();
+		}
+	}
 	
 	/* 전체회원목록 나타내는 메소드 */
-	public List<MemberVO> listMember()
+	public List<MemberVO> listMember(int start, int end)
 	{
 		try {
 			sqlSession=this.getSessionFactory().openSession(true);
 			
-			List<MemberVO> arr= sqlSession.selectList(NS+".listMember");
+			Map<String,String> map= new HashMap<>();
+			map.put("start",String.valueOf(start));
+			map.put("end",String.valueOf(end));
+			
+			List<MemberVO> arr= sqlSession.selectList(NS+".listMember", map);
 			
 			return arr;
 		}
@@ -69,18 +99,21 @@ public class MemberDAO {
 	
 	
 	/* 검색한 회원만 나타내는 메소드 */
-	public List<MemberVO> searchMember(String selectBox, String searchInput) {
+	public List<MemberVO> searchMember(String selectBox, String searchInput, int start, int end) {
 		try {
+			if(searchInput==null || searchInput.trim().isEmpty()) {
+				List<MemberVO> arr= listMember(start, end);
+				
+				return arr;
+			}
+			
 			sqlSession=getSessionFactory().openSession(true);
 			
 			Map<String,String> map= new HashMap<>();
 			map.put("selectBox",selectBox);
 			map.put("searchInput",searchInput);
-			if(searchInput==null || searchInput.trim().isEmpty()) {
-				List<MemberVO> arr= listMember();
-				
-				return arr;
-			}
+			map.put("start", String.valueOf(start));
+			map.put("end", String.valueOf(end));
 			
 			List<MemberVO> arr= sqlSession.selectList(NS+".searchMember",map);
 			

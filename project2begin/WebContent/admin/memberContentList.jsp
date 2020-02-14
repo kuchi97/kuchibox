@@ -7,9 +7,9 @@
 
 <!-- ------------------------------------------------------- -->
 <div class='box'>
-		<h2 class='head'>회원 업로드 목록</h2>
+		<h2 class='head'>[${email}] 의 업로드 목록</h2>
 </div>
-<form action="memberContentSearch.do" name="searchForm" method="POST">
+<form action="memberContent.do?email=${email}" name="searchForm" method="POST">
 	<div class='box'>
 		<select class='' name="selectBox">
 			<option value='idx'>번호</option>
@@ -50,13 +50,22 @@
 			<core:if test='${function:length(member.info)>40}'>
 					<td title='${member.info}'>${function:substring(member.info,0,40)}...</td>
 			</core:if>
-					<td><i class="fa fa-edit fa-2x"></i></td>
+					<td><i class="fa fa-edit"></i></td>
 				</tr>
 			</core:forEach>
 		</tbody>
 	</table>
+	<div class='box'>
+		${pageNavi}
+	</div>
 </div>
 </div>
 
+<script>
+
+goSearch= function(){
+	searchForm.submit();
+}
+</script>
 
 <jsp:include page="/foot.jsp"/>

@@ -1,16 +1,20 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <jsp:include page="/admin/adminTop.jsp"/>
 <!-- ------------------------------------------------------- -->
 
 <div class='box'>
-	<h1 class='head'>업로드 수정</h1>
+	<h1 class='head'>컨텐츠 수정 [${content.title}]</h1>
 </div>
 
 <div class='box'>
 
-	<form name='insertForm' action='contentInsertPreview.do' method='POST' >
+	<form name='editForm' action='contentEditPreview.do?idx=${content.idx}' method='POST' >
+	<div class='box'>
+		<span name='idx' class='button'>${content.idx}</span>
+	</div>
 	<div class='box'>
 		<label>제  목</label>
 		<input type='text' name='title' value='${content.title }'>
@@ -27,9 +31,7 @@
 	</div>
 	<div class='box'>
 		<label>소  개</label>
-		<textarea name='info' style='resize: none; width: 95%; height: 15em; margin:0em 1em; overflow-x:auto;' >
-			${content.info }
-		</textarea>
+		<textarea name='info' style='resize: none; width: 95%; height: 15em; margin:0em 1em; overflow-x:auto;'><c:out value="${content.info }"/></textarea>
 	</div>
 	<div class='box'>
 		<label>포스터</label>
@@ -49,7 +51,7 @@
 
 <script>
 	function goPreview(){
-		insertForm.submit();
+		editForm.submit();
 	}
 </script>
 

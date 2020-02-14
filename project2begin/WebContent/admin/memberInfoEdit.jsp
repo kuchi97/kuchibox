@@ -64,6 +64,7 @@
 
 //동적으로 회원상태 할당하기
 $(function(){
+});
 	var stateName=['일반','특별','정지','탈퇴','관리자'];
 	var stateVal=[0,1,-1,-2,99];
 	var str=``;
@@ -77,7 +78,6 @@ $(function(){
 	}
 	
 	$('#state').html(str);
-});
 
 //기존회원정보 저장
 //input 아래 히든 input에다 저장해둠(각 항목)

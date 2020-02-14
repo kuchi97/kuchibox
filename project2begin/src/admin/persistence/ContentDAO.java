@@ -51,13 +51,88 @@ public class ContentDAO {
 		if(sqlSession!=null) sqlSession.close();
 	}
 	
-/* 모든 컨텐츠를 보여주는 메소드 */
-	public List<ContentVO> listContent() {
-		
+	/* 총 컨텐츠 수(페이징처리용) */
+	public int getTotalContent() {
 		try {
-			
 			sqlSession= this.getSessionFactory().openSession(true);
-			List<ContentVO> arr= sqlSession.selectList(NS+".listContent");
+			
+			int n= sqlSession.selectOne(NS+".totalContent");
+			
+			return n;
+		}
+		finally {
+			close();
+		}
+	}
+
+	/* 검색한 컨텐츠 수(페이징) */
+	public int getTotalSearchContent(String selectBox, String searchInput) {
+		try {
+			sqlSession= this.getSessionFactory().openSession(true);
+			Map<String,String> map= new HashMap<>();
+			map.put("selectBox",selectBox);
+			map.put("searchInput", searchInput);
+			
+			int n= sqlSession.selectOne(NS+".totalSearchContent",map);
+			
+			return n;
+		}
+		finally {
+			close();
+		}
+	}
+	/* 총 멤버컨텐츠 수(페이징처리용) */
+	public int getTotalMemberAllContent() {
+		try {
+			sqlSession= this.getSessionFactory().openSession(true);
+			
+			int n= sqlSession.selectOne(NS+".totalMemberAllContent");
+			
+			return n;
+		}
+		finally {
+			close();
+		}
+	}
+	/* 검색한 멤버컨텐츠 수(페이징) */
+	public int getTotalSearchMemberContent(String selectBox, String searchInput) {
+		try {
+			sqlSession= this.getSessionFactory().openSession(true);
+			Map<String,String> map= new HashMap<>();
+			map.put("selectBox", selectBox);
+			map.put("searchInput", searchInput);
+			
+			int n= sqlSession.selectOne(NS+".totalSearchMemberContent", map);
+			return n;
+		}
+		finally {
+			close();
+		}
+	}
+	/* 특정 멤버의 총 컨텐츠 수(페이징처리용) */
+	public int getTotalMemberContent(String email) {
+		try {
+			sqlSession= this.getSessionFactory().openSession(true);
+			
+			int n= sqlSession.selectOne(NS+".totalMemberContent", email);
+			
+			return n;
+		}
+		finally {
+			close();
+		}
+	}
+	
+/* 모든 컨텐츠를 보여주는 메소드 */
+	public List<ContentVO> listContent(int start, int end) {
+		try {
+			sqlSession= this.getSessionFactory().openSession(true);
+			
+			Map<String,String> map= new HashMap<>();
+			map.put("start", String.valueOf(start));
+			map.put("end", String.valueOf(end));
+			
+			List<ContentVO> arr= sqlSession.selectList(NS+".listContent", map);
 			
 			return arr;
 		}
@@ -81,7 +156,7 @@ public class ContentDAO {
 	}
 	
 	/* 검색한 컨텐츠 보여주는 메소드 */
-	public List<ContentVO> searchContent(String selectBox, String searchInput) {
+	public List<ContentVO> searchContent(String selectBox,String searchInput,int start,int end) {
 		
 		try {
 			sqlSession=this.getSessionFactory().openSession(true);
@@ -90,9 +165,12 @@ public class ContentDAO {
 			Map<String, String> map= new HashMap<>();
 			map.put("selectBox", selectBox);
 			map.put("searchInput", searchInput);
+			map.put("start", String.valueOf(start));
+			map.put("end",String.valueOf(end));
+			
+			//검색이 공란이면 전체리스트 반환
 			if(searchInput==null || searchInput.trim().isEmpty()) {
-				List<ContentVO> arr= listContent();
-				
+				List<ContentVO> arr= listContent(start, end);
 				return arr;
 			}
 			
@@ -106,10 +184,15 @@ public class ContentDAO {
 	}
 	
 /* 모든 유저컨텐츠를 보여주는 메소드 */
-	public List<MemberContentVO> listAllMemberContent(){
+	public List<MemberContentVO> listAllMemberContent(int start, int end){
 		try {
 			sqlSession=this.getSessionFactory().openSession(true);
-			List<MemberContentVO> arr= sqlSession.selectList(NS+".listAllMemberContent");
+			
+			Map<String,String> map= new HashMap<>();
+			map.put("start", String.valueOf(start));
+			map.put("end",String.valueOf(end));
+			
+			List<MemberContentVO> arr= sqlSession.selectList(NS+".listAllMemberContent", map);
 			
 			return arr;
 		}
@@ -119,13 +202,17 @@ public class ContentDAO {
 	}
 	
 /* 지정한 사용자가 올린 컨텐츠를 보여주는 메소드 */
-	public List<MemberContentVO> listMemberContent(String email) {
+	public List<MemberContentVO> listMemberContent(String email, int start, int end) {
 		
 		try {
-			
 			sqlSession= this.getSessionFactory().openSession(true);
 			
-			List<MemberContentVO> arr= sqlSession.selectList(NS+".listMemberContent", email);
+			Map<String,String> map= new HashMap<>();
+			map.put("email", email);
+			map.put("start", String.valueOf(start));
+			map.put("end", String.valueOf(end));
+			
+			List<MemberContentVO> arr= sqlSession.selectList(NS+".listMemberContent", map);
 			
 			return arr;
 		}
@@ -137,17 +224,36 @@ public class ContentDAO {
 	}
 	
 	/* 검색한 사용자컨텐츠 보여주는 메소드 */
-	public List<ContentVO> searchMemberContent(String selectBox, String searchInput) {
+	public List<MemberContentVO> searchMemberContent(String selectBox, String searchInput, int start, int end) {
 		try {
+			//검색어가 없을경우- 전체리스트 가져가게
+			if(searchInput==null || searchInput.trim().isEmpty()) {
+				List<MemberContentVO> arr= listAllMemberContent(start, end);
+				return arr;
+			}
 			sqlSession= this.getSessionFactory().openSession(true);
 			
 			Map<String,String> map= new HashMap<>();
 			map.put("selectBox", selectBox);
 			map.put("searchInput", searchInput);
+			map.put("start",String.valueOf(start));
+			map.put("end",String.valueOf(end));
 			
-			List<ContentVO> arr= sqlSession.selectList(NS+".searchMemberContent", map);
+			List<MemberContentVO> arr= sqlSession.selectList(NS+".searchMemberContent", map);
 			
 			return arr;
+		}
+		finally {
+			close();
+		}
+	}
+	
+	/* 컨텐츠 수정(idx) */
+	public int updateContent(ContentVO content) {
+		try {
+			sqlSession= this.getSessionFactory().openSession(true);
+			int n= sqlSession.update(NS+".updateContent", content);
+			return n;
 		}
 		finally {
 			close();

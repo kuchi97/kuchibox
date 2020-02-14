@@ -1,0 +1,31 @@
+/* 즐거운 수학나라: 페이지 블록을 구해보자
+
+	[1][2][3][4][5] | [6][7][8][9][10] | [11][12][13][14][15] | ...
+	
+	cpage					pagingBlock			prevBlock			nextBlock
+	1 2 3 4 5					5					x					6
+	6 7 8 9 10					5					5					11
+	11 12 13 14 15					5					10					16
+	16...						...					...					...
+	
+	(cpage-1)/pagingBlock
+		0
+		1
+		2
+		3
+		...
+	
+	따라서, 법칙을 찾아보면
+	prevBlock= ((cpage-1)/pagingBlock)*pagingBlock
+	nextBlock= prevBlock+(pagingBlock+1)
+	
+	= 기타 페이징처리 공식들
+	
+	pageCount=(totalCount-1)/pageSize+1;	//페이지 수 구하는 공식
+	if(cpage<=0) {
+		cpage=1;			//페이지가 1보다 작을때 무조건 1페이지 보임
+	}
+	if(cpage>pageCount) {
+		cpage=pageCount;	//페이지 최대수보다 많게 입력될때 무조건 마지막페이지 보임
+	}
+*/

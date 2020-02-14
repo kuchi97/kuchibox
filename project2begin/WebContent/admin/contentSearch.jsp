@@ -7,7 +7,7 @@
 
 <!-- ------------------------------------------------------- -->
 <div class='box'>
-		<h2 class='head'>검색 결과</h2>
+		<h2 class='head'>검색 결과 [검색어 : ${paging.searchInput }]</h2>
 </div>
 <form action="contentSearch.do" name="searchForm" method="POST">
 	<div class='box'>
@@ -36,7 +36,7 @@
 			<tbody>
 				<core:forEach var="search" items="${searchContent}">
 					<tr>
-						<td><a href='contentEdit.do?idx=${search.idx}'><i class="fa fa-edit fa-2x"></i></a></td>
+						<td><a href='contentEdit.do?idx=${search.idx}'><i class="fa fa-edit"></i></a></td>
 						<td>${search.idx}</td>
 						<td>${search.title}</td>
 						<td>${search.director}</td>
@@ -51,6 +51,9 @@
 				</core:forEach>
 			</tbody>
 		</table>
+		<div class='box'>
+			${pageNavi}
+		</div>
 	</div>
 </div>
 

@@ -42,7 +42,8 @@
 		</table>		
 	</div>
 	<div class='box'>
-		<button type='button' class='button' onclick='goMemberList()'>목록</button>
+		<button type='button' class='button' onclick='goMemberList()'>목록으로</button>
+		<button type='button' class='button' onclick='goBack()'>이전으로</button>		
 	</div>
 	
 </div>
@@ -52,6 +53,9 @@
 
 function goMemberList() {
 	location.href="memberList.do";
+}
+function goBack(){
+	history.back();
 }
 
 </script>

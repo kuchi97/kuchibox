@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import admin.domain.MemberContentVO;
+import admin.domain.PagingVO;
 import admin.persistence.ContentDAO;
 import common.controller.AbstractAction;
 
@@ -13,46 +14,41 @@ public class MemberContentController extends AbstractAction {
 
 	@Override
 	public void execute(HttpServletRequest req, HttpServletResponse res) throws Exception {
-
-		System.out.println("[MemberContentController] executed ####");
+		System.out.println("[MemberContentController] ## FROM. memberContent.do");
+		
 		String email= req.getParameter("email");
-//		System.out.println(email);
+		String cpageStr= req.getParameter("cpage");
+		if(cpageStr==null) {
+			cpageStr="1";
+		}
+		int cpage= Integer.parseInt(cpageStr);
 		
-		ContentDAO contentDAO= new ContentDAO();
-		List<MemberContentVO> memberContent;
+		ContentDAO dao= new ContentDAO();
+		PagingVO paging= new PagingVO(dao.getTotalMemberContent(email), cpage, 10, 5);
+		List<MemberContentVO> memberContent= dao.listMemberContent(email, paging.getStart(), paging.getEnd());
 		
-		/* 파라미터로 email을 받아오지 않으면 전체 유저컨텐츠 목록을 보여주는 페이지로 이동 */
-		if(email==null || email.trim().isEmpty()) {
-			memberContent=contentDAO.listAllMemberContent();
+		
+		//작성한 내역이 없을때
+		if(memberContent==null || memberContent.size()==0) {
+			String msg="해당 회원이 작성한 내역은 존재하지 않습니다";
+			String loc="javascript:history.back()";
 			
-			req.setAttribute("listAllMemberContent", memberContent);
+			req.setAttribute("msg", msg);
+			req.setAttribute("loc", loc);
 			
-			this.setViewPage("/admin/memberAllContentList.jsp");
+			this.setViewPage("message.jsp");
 			this.setRedirect(false);
 			
+			return;
 		}
-		/* email을 파라미터로 받아오면 특정유저 컨텐츠만 보여주는 페이지로 이동 */
-		else {
-			memberContent= contentDAO.listMemberContent(email);
-			//작성한 내역이 없을때
-			if(memberContent==null || memberContent.size()==0) {
-				String msg="해당 회원이 작성한 내역은 존재하지 않습니다";
-				String loc="javascript:history.back()";
-				
-				req.setAttribute("msg", msg);
-				req.setAttribute("loc", loc);
-				
-				this.setViewPage("message.jsp");
-				this.setRedirect(false);
-				
-				return;
-			}
-			
-			req.setAttribute("listMemberContent", memberContent);
-	
-			this.setViewPage("/admin/memberContentList.jsp");
-			this.setRedirect(false);
-		}
+		
+		req.setAttribute("email", email);
+		req.setAttribute("listMemberContent", memberContent);
+		req.setAttribute("paging", paging);
+		req.setAttribute("pageNavi", paging.getPageNavi(req.getContextPath(), "memberContent.do?email="+email,true));
+
+		this.setViewPage("/admin/memberContentList.jsp");
+		this.setRedirect(false);
 
 	}
 

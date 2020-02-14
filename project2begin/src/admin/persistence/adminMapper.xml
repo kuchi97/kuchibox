@@ -12,7 +12,7 @@
 				<choose><!-- switch와 비슷 -->
 					<!-- 컨텐츠리스트에서 검색했을때 -->
 					<when test="selectBox=='idx'">
-						idx like '%'||#{searchInput}||'%'
+						idx like upper('%'||#{searchInput}||'%')
 					</when>
 					<when test="selectBox=='email'">
 						email like '%'||#{searchInput}||'%'
@@ -36,32 +36,71 @@
 
 	<!-- /조각sql=============================== -->
 	
-	<!-- 멤버리스트 보여주기 -->
-	<select id="listMember" resultType="admin.domain.MemberVO">
-		select email, pwd, name, age, point, state from member order by email
+	<!-- MEMBER======================================== -->
+	<!-- 전체 회원수(페이징) -->
+	<select id="totalMember" resultType="int">
+		select count(email) from member_view
+	</select>
+	<!-- 검색한 회원수(페이징) -->
+	<select id="totalSearchMember" resultType="int" parameterType="Map">
+		select count(email) from member_view
+		<include refid="whereClause"/>
 	</select>
 	
+	<!-- 멤버리스트 보여주기 -->
+	<select id="listMember" resultType="admin.domain.MemberVO" parameterType="Map">
+		select * from (
+		select rownum rn, member.* from
+		(select email, pwd, name, year, age, point, state
+		  from member_view order by email) member)
+		where rn between #{start} and #{end}
+	</select>
 	<!-- 회원 한명의 정보 보여주기 -->
 	<select id="listOneMember" resultType="admin.domain.MemberVO" parameterType="string">
 		select email, pwd, name, year, age, point ,state from member where email=#{email}
 	</select>
-
 	<!-- 검색한 멤버만 보여주기 -->
 	<select id="searchMember" resultType="admin.domain.MemberVO" parameterType="Map">
-		select email, name, pwd, age, point, state from member
+		select * from(
+		select rownum rn, member.* from
+		(select email, pwd, name, year, age, point, state from member_view
+		<include refid="whereClause"/> order by email) member)
+		where rn between #{start} and #{end}
+		<!-- select email, name, pwd, age, point, state from member
 		<include refid="whereClause"/>
-		order by email
+		order by email -->
 	</select>
-	
 	<!-- 회원정보 수정하기 -->
 	<update id="updateMember" parameterType="admin.domain.MemberVO">
 		update member set name=#{name}, year=#{year}, age=#{age}, point=#{point}, state=#{state} where email=#{email}
 	</update>
+	<!-- //MEMBER end======================================== -->
 	
+	<!-- CONTENT ================================================ -->
+	<!-- 총 컨텐츠 수 -->
+	<select id="totalContent" resultType="int">
+		select count(idx) from content
+	</select>
+	<!-- 검색한 컨텐츠 수 -->
+	<select id="totalSearchContent" resultType="int" parameterType="Map">
+		select count(idx) from content
+		<include refid="whereClause"/>
+	</select>
 	
 	<!-- 컨텐츠리스트 보여주기 -->
- 	<select id="listContent" resultType="admin.domain.ContentVO">
-		select * from content order by wdate desc
+ 	<select id="listContent" resultType="admin.domain.ContentVO" parameterType="Map">
+		select * from (
+		select rownum rn, content.* from
+		(select * from content order by idx) content)
+		where rn between #{start} and #{end}
+	</select>
+	<!-- 검색한 컨텐츠만 보여주기 -->
+	<select id="searchContent" resultType="admin.domain.ContentVO" parameterType="Map">
+		select * from (
+		select rownum rn, content.* from
+		(select * from content
+		<include refid="whereClause"/> order by idx) content)
+		where rn between #{start} and #{end}
 	</select>
 	
 	<!-- 특정 컨텐츠만 보여주기 (수정할때) -->
@@ -69,41 +108,80 @@
 		select * from content where idx=#{idx}
 	</select>
 	
-	<!-- 검색한 컨텐츠만 보여주기 -->
-	<select id="searchContent" resultType="admin.domain.ContentVO" parameterType="Map">
-		select * from content 
-		<include refid="whereClause"/>
-		order by idx 
-	</select>
+	<!-- 컨텐츠 수정 -->
+	<update id="updateContent" parameterType="admin.domain.ContentVO">
+		update content set title=#{title}, director=#{director},
+		 info=#{info}, release=#{release}
+		 where idx=#{idx}
+	</update>
+	
+	<!-- //CONTENT end================================================ -->
 
-	<!-- 모든 유저컨텐츠리스트 보여주기 -->
- 	<select id="listAllMemberContent" resultType="admin.domain.MemberContentVO">
-		select * from memberContent_view order by idx
+	<!-- MEMBERCONTENT ================================================ -->
+	<!-- 총 멤버컨텐츠 수-->
+	<select id="totalMemberAllContent" resultType="int">
+		select count(idx) from memberContent_view
+	</select>
+	<!-- 검색한 멤버컨텐츠 수 -->
+	<select id="totalSearchMemberContent" resultType="int" parameterType="Map">
+		select count(idx) from memberContent_view
+		<include refid="whereClause"/>
+	</select>
+	<!-- 특정 멤버의 총 컨텐츠 수 -->
+	<select id="totalMemberContent" resultType="int" parameterType="String">
+		select count(idx) from memberContent_view where email=#{email}
 	</select>
 	
+	<!-- 모든 멤버컨텐츠리스트 보여주기 -->
+ 	<select id="listAllMemberContent" resultType="admin.domain.MemberContentVO" parameterType="Map">
+		select * from (
+		select rownum rn, memberContent.* from
+		(select * from memberContent_view order by idx) memberContent)
+		where rn between #{start} and #{end}
+	</select>
 	<!-- 검색한 유저의 컨텐츠리스트 보여주기 -->
 	<select id="searchMemberContent" resultType="admin.domain.MemberContentVO" parameterType="Map">
-		select * from memberContent_view
-		<include refid="whereClause"/>
-		order by idx
+		select * from (
+		select rownum rn, mContent.* from
+		(select * from memberContent_view
+		<include refid="whereClause"/> order by idx) mContent)
+		where rn between #{start} and #{end}
 	</select>
-	
 	<!-- 특정유저의 컨텐츠리스트 보여주기 -->
-	<select id="listMemberContent" resultType="admin.domain.MemberContentVO" parameterType="string">
-		select * from memberContent_view
-		where email=#{email} order by idx	
+	<select id="listMemberContent" resultType="admin.domain.MemberContentVO" parameterType="Map">
+		select * from (
+		select rownum rn, mContent.* from
+		(select * from memberContent_view
+		where email=#{email} order by idx) mContent)
+		where rn between #{start} and #{end}
+	</select>	
+	
+	<!-- //MEMBERCONTENT end ================================================ -->
+	
+	<!-- NOTICE =========================================================== -->
+	
+	<!-- 총 공지사항 개수(페이징) -->
+	<select id="totalNotice" resultType="int">
+		select count(idx) from notice
 	</select>
-	
-	
-	<!-- 공지사항 보여주기 -->
+	<!-- 검색한 공지사항 개수(페이징) -->
+	<select id="totalSearchNotice" resultType="int" parameterType="Map">
+		select count(idx) from notice
+		<include refid="whereClause"/>
+	</select>
+	<!-- 공지사항 보여주기(페이징) -->
  	<select id="getNoticeList" resultType="admin.domain.NoticeVO">
-		select * from notice order by idx desc
+		select * from (select rownum rn, notice.* from 
+		 (select * from notice order by wdate desc) notice)
+		  where rn between #{start} and #{end}
 	</select>
 	<!-- 검색한 공지사항 보여주기 -->
 	<select id="selectNotice" resultType="admin.domain.NoticeVO" parameterType="Map">
-		select * from notice
-		<include refid="whereClause"/>
-		order by idx desc
+		select * from (
+		select rownum rn, notice.* from
+		(select * from notice
+		<include refid="whereClause"/> order by wdate desc) notice)
+		where rn between #{start} and #{end}
 	</select>
 	<!-- 공지사항 한개 가져오기 idx로-->
 	<select id="selectOneNotice" resultType="admin.domain.NoticeVO" parameterType="string">
@@ -117,5 +195,9 @@
 	<update id="updateNotice" parameterType="admin.domain.NoticeVO">
 		update notice set title=#{title}, info=#{info} where idx=#{idx}
 	</update>
+	<!-- 공지사항 삭제 -->
+	<delete id="deleteNotice" parameterType="string">
+		delete from notice where idx=#{idx}
+	</delete>
 
 </mapper>

@@ -8,7 +8,7 @@
 
 <!-- ------------------------------------------------------- -->
 <div class='box'>
-		<h2 class='head'>회원 목록</h2>
+		<h2 class='head'>회원 목록 [검색어 : ${paging.searchInput}]</h2>
 </div>
 <form action="memberSearch.do" name="searchForm" method="POST">
 	<div class='box'>
@@ -40,18 +40,21 @@
 		<tbody>
 			<core:forEach var="search" items="${searchMember}">
 				<tr>
-					<td><a href='memberEdit.do?email=${search.email}'><i class="fa fa-edit fa-2x"></i></a></td>
+					<td><a href='memberEdit.do?email=${search.email}'><i class="fa fa-edit"></i></a></td>
 					<td>${search.email}</td>
 					<td>${search.name}</td>
 					<td>${search.pwd}</td>
 					<td>${search.age}</td>
 					<td>${search.point}</td>
 					<td>${search.state}</td>
-					<td><a href='memberContent.do?email=${list.email}'><i class="fa fa-eye fa-2x"></i></a></td>
+					<td><a href='memberContent.do?email=${list.email}'><i class="fa fa-eye"></i></a></td>
 				</tr>
 			</core:forEach>
 		</tbody>
 	</table>
+	<div class='box'>
+		${pageNavi}
+	</div>
 </div>
 </div>
 

@@ -39,18 +39,21 @@
 		<tbody>
 			<core:forEach var="list" items="${listMember}">
 				<tr>
-					<td><a href='memberEdit.do?email=${list.email}'><i class="fa fa-edit fa-2x"></i></a></td>
+					<td><a href='memberEdit.do?email=${list.email}'><i class="fa fa-edit"></i></a></td>
 					<td>${list.email}</td>
 					<td>${list.name}</td>
 					<td>${list.pwd}</td>
 					<td>${list.age}</td>
 					<td>${list.point}</td>
 					<td>${list.state}</td>
-					<td><a href='memberContent.do?email=${list.email}'><i class="fa fa-eye fa-2x"></i></a></td>
+					<td><a href='memberContent.do?email=${list.email}'><i class="fa fa-eye"></i></a></td>
 				</tr>
 			</core:forEach>
 		</tbody>
 	</table>
+	<div class='box'>
+		${pageNavi}
+	</div>
 </div>
 </div>
 

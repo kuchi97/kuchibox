@@ -5,7 +5,7 @@
 
 <jsp:include page="/admin/adminTop.jsp"/>
 <div class='box'>
-	<h1 class='head'>공지사항 - 검색어 ${selectNotice }</h1>
+	<h1 class='head'>공지사항 [검색어 - ${paging.searchInput}]</h1>
 </div>
 <div class='outer'>
 
@@ -18,28 +18,37 @@
 			</select>
 			<input type='text' name="searchInput" class=''>
 			<button type='button' onclick='goSearch()'>검색</button>
+			<a href='noticeInsert.do' class='button' style='margin-left:10px; background:#111;'>등 록</a>
 		</div>
 	</form>
-		<table>
-			<tr>
-				<th>글번호</th>
-				<th>제목</th>
-				<th>작성자</th>
-				<th>작성일</th>				
-			</tr>
-		<core:forEach var='list' items='${selectNotice}'>
-			<tr>
-				<td>${list.idx }</td>
-				<td><a href='noticeView.do?idx=${list.idx}'>${list.title} &nbsp;<i class="fa fa-edit"></i></a></td>
-				<td>${list.name}</td>
-				<td>${list.wdate }</td>
-			</tr>
-		</core:forEach>
+		<table style='margin-bottom:0.5em;'>
+			<thead>
+				<tr>
+					<th>글번호</th>
+					<th>제목</th>
+					<th>작성자</th>
+					<th>작성일</th>		
+					<th>수정</th>
+					<th>삭제</th>		
+				</tr>
+			</thead>
+			<tbody>
+			<core:forEach var='list' items='${selectNotice}'>
+				<tr>
+					<td>${list.idx }</td>
+					<td><a href='noticeView.do?idx=${list.idx}'>${list.title} &nbsp;<i class="fa fa-edit"></i></a></td>
+					<td>${list.name}</td>
+					<td>${list.wdate }</td>
+					<td><a href='noticeEdit.do?idx=${list.idx}'><i class="fa fa-edit"></i></a></td>
+					<td><a href='noticeDelete.do?idx=${list.idx}'><i class="fa fa-trash"></i></a></td>
+				</tr>
+			</core:forEach>
+			</tbody>
 		</table>
-		
-		<div class='box right'>
-			<a href='noticeInsert.do' class='button'>등록</a>
+		<div class='box'>
+			${pageNavi}
 		</div>
+		
 	</div>
 </div>
 

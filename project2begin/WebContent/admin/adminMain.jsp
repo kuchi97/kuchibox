@@ -12,16 +12,19 @@
 <div class='outer'>
 	<div class='left'>
 	<!-- 컨텐츠 테이블 -->
-	<table class='innerTable'>
+	<table>
 		<tr>
-			<th colspan='3'>Content</th>
+			<th colspan='3' style='text-align:right; padding-right:7em;'>Content</th>
+			<th style='text-align:right;'><a href="contentList.do">
+				<i class="fa fa-info-circle"></i></a></th>
 		</tr>
 		<!-- 반복문 -->
 	<core:forEach var='content' items='${contentList}' begin='0' end='3'>
 		<tr>
 			<td>${content.idx}</td>
 			<td>${content.title}</td>
-			<td>상세보기</td>
+			<td>${content.director }</td>
+			<td>${content.release }</td>
 		</tr>
 	</core:forEach>
 		<!-- ------ -->
@@ -33,7 +36,9 @@
 	<!-- 회원관리 테이블 -->
 	<table>
 		<tr>
-			<th colspan='4'>회원관리</th>
+			<th colspan='3' style='text-align:right; padding-right:8em;'>회원</th>
+			<th style='text-align:right;'><a href="memberList.do">
+				<i class="fa fa-info-circle"></i></a></th>
 		</tr>
 		<!-- 반복문 -->
 	<core:forEach var='member' items='${memberList}' begin='0' end='3'>
@@ -55,14 +60,17 @@
 		<!-- 사용자컨텐츠 테이블 -->
 		<table>
 			<tr>
-				<th colspan='3'>컨텐츠</th>
+			<th colspan='3' style='text-align:right; padding-right:7em;'>회원업로드</th>
+			<th style='text-align:right;'><a href="memberAllContent.do">
+				<i class="fa fa-info-circle"></i></a></th>
 			</tr>
 			<!-- 반복문 -->
 		<core:forEach var='userContent' items='${userContentList}' begin='0' end='3'>
 			<tr>
 				<td>${userContent.idx}</td>
-				<td style='width:60%;'>${userContent.reviewTitle}</td>
-				<td>상세보기</td>
+				<td style='width:50%;'>${userContent.reviewTitle}</td>
+				<td>${userContent.title }</td>
+				<td>${userContent.name }</td>
 			</tr>
 		</core:forEach>
 			<!-- ------ -->
@@ -73,13 +81,16 @@
 		<!-- 공지사항 테이블 -->
 		<table>
 			<tr>
-				<th colspan='3'>공지사항</th>
+			<th colspan='3' style='text-align:right; padding-right:7em;'>공지사항</th>
+			<th style='text-align:right;'><a href="noticeMain.do">
+			<i class="fa fa-info-circle"></i></a></th>
 			</tr>
 			<!-- 반복문 -->
 		<core:forEach var='notice' items='${noticeList}' begin='0' end='3'>
 			<tr>
 				<td>${notice.idx }</td>
-				<td>${notice.title }</td>
+				<td style='width:50%;'>${notice.title }</td>
+				<td>${notice.name }</td>
 				<td>${notice.wdate }</td>
 			</tr>
 		</core:forEach>

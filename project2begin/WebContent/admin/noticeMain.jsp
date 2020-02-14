@@ -21,26 +21,33 @@
 			<a href='noticeInsert.do' class='button' style='margin-left:10px; background:#111;'>등 록</a>
 		</div>
 	</form>
-		<table>
-			<tr>
-				<th>글번호</th>
-				<th>제목</th>
-				<th>작성자</th>
-				<th>작성일</th>
-				<th>수정</th>
-				<th>삭제</th>
-			</tr>
-		<core:forEach var='list' items='${noticeList}'>
-			<tr>
-				<td>${list.idx }</td>
-				<td><a href='noticeView.do?idx=${list.idx}'>${list.title}</a></td>
-				<td>${list.name}</td>
-				<td>${list.wdate }</td>
-				<td><a href='noticeEdit.do?idx=${list.idx}'><i class="fa fa-edit"></i></a></td>
-				<td><a href='noticeDelete.do?idx=${list.idx}'><i class="fa fa-trash"></i></a></td>
-			</tr>
-		</core:forEach>
+		<table style='margin-bottom:0.5em;'>
+			<thead>
+				<tr>
+					<th>글번호</th>
+					<th>제목</th>
+					<th>작성자</th>
+					<th>작성일</th>
+					<th>수정</th>
+					<th>삭제</th>
+				</tr>
+			</thead>
+			<tbody>
+			<core:forEach var='list' items='${noticeList}'>
+				<tr>
+					<td>${list.idx }</td>
+					<td><a href='noticeView.do?idx=${list.idx}'>${list.title}</a></td>
+					<td>${list.name}</td>
+					<td>${list.wdate }</td>
+					<td><a href='noticeEdit.do?idx=${list.idx}'><i class="fa fa-edit"></i></a></td>
+					<td><a href='noticeDelete.do?idx=${list.idx}'><i class="fa fa-trash"></i></a></td>
+				</tr>
+			</core:forEach>
+			</tbody>
 		</table>
+		<div class='box'><!-- 페이지 -->
+			${pageNavi}
+		</div>
 	</div>
 </div>
 
