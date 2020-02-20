@@ -25,6 +25,15 @@ public class MemberListController extends AbstractAction {
 		MemberDAO dao= new MemberDAO();
 		PagingVO paging= new PagingVO(dao.getTotalMember(), cpage, 10, 5);
 		List<MemberVO> arr= dao.listMember(paging.getStart(), paging.getEnd());
+		//유효성
+		if(arr.size()<=0) {
+			String msg="회원목록을 가져오는데 실패했습니다 [result:none]";
+			String loc="index.do";
+			req.setAttribute("msg", msg);
+			req.setAttribute("loc", loc);
+			this.setViewPage("/message.jsp");
+			return;
+		}
 		
 		req.setAttribute("listMember", arr);
 		req.setAttribute("paging", paging);

@@ -11,15 +11,27 @@ public class NoticeEditEndController extends AbstractAction {
 
 	@Override
 	public void execute(HttpServletRequest req, HttpServletResponse res) throws Exception {
-		System.out.println("[NoticeEditEndController] executed ####");
+		System.out.println("[NoticeEditEndController] ## FROM.. noticeEditEnd.do");
 		
 		String idx= req.getParameter("idx");
 		String title= req.getParameter("title");
 		String info= req.getParameter("info");
+		String click= req.getParameter("click");
 		String name= req.getParameter("name");
 		
 		NoticeDAO dao= new NoticeDAO();
-		NoticeVO notice= new NoticeVO(idx,title,info,null,name);
+		//유효성
+		NoticeVO isNotice= dao.selectOneNotice(idx);
+		if(isNotice==null) {
+			String msg="잘못된 접근입니다 [parameter:none]";
+			String loc="index.do";
+			req.setAttribute("msg", msg);
+			req.setAttribute("loc", loc);
+			this.setViewPage("/message.jsp");
+			return;
+		}
+
+		NoticeVO notice= new NoticeVO(idx,title,info,null,Integer.parseInt(click),name);
 		
 		int n= dao.updateNotice(notice);
 

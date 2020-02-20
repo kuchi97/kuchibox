@@ -20,6 +20,7 @@ public class ContentInsertPreviewController extends AbstractAction {
 		req.setAttribute("release", release);
 		req.setAttribute("info", info);
 		
+		/* 컨텐츠등록 수정해야함 */
 		this.setRedirect(false);
 		this.setViewPage("admin/contentPreview.jsp");
 	}

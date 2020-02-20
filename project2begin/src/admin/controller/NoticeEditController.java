@@ -14,10 +14,27 @@ public class NoticeEditController extends AbstractAction {
 		System.out.println("[NoticeEditController] executed ####");
 		
 		String idx= req.getParameter("idx");
+		//유효성
+		if(idx==null || idx.trim().isEmpty()) {
+			String msg="목록을 찾을 수 없습니다 [result:none]";
+			String loc="javascript:history.back()";
+			req.setAttribute("msg", msg);
+			req.setAttribute("loc", loc);
+			this.setViewPage("/message.jsp");
+			return;
+		}
 		
 		NoticeDAO dao= new NoticeDAO();
 		NoticeVO notice= dao.selectOneNotice(idx);
-		
+		//유효성
+		if(notice==null) {
+			String msg="잘못된 접근입니다 [parameter:none]";
+			String loc="index.do";
+			req.setAttribute("msg", msg);
+			req.setAttribute("loc", loc);
+			this.setViewPage("/message.jsp");
+			return;
+		}
 		req.setAttribute("notice", notice);
 
 		this.setViewPage("/admin/noticeEdit.jsp");

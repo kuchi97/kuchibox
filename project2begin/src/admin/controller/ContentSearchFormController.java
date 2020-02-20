@@ -30,6 +30,11 @@ public class ContentSearchFormController extends AbstractAction {
 		paging.init();
 		
 		//검색이 공란이면 전체리스트로 돌아간다
+		if(paging.getSelectBox()==null || paging.getSelectBox().trim().isEmpty()) {
+			this.setViewPage("contentList.do");
+			this.setRedirect(true);
+			return;
+		}
 		if(paging.getSearchInput()==null || paging.getSearchInput().trim().isEmpty()) {
 			this.setViewPage("contentList.do");
 			this.setRedirect(true);
@@ -37,6 +42,15 @@ public class ContentSearchFormController extends AbstractAction {
 		}
 		
 		List<ContentVO> arr= dao.searchContent(paging.getSelectBox(),paging.getSearchInput(),paging.getStart(),paging.getEnd());
+		//유효성-파라미터조작
+		if(arr.size()<=0) {
+			String msg="목록을 찾을 수 없습니다 [result:none]";
+			String loc="javascript:history.back()";
+			req.setAttribute("msg", msg);
+			req.setAttribute("loc", loc);
+			this.setViewPage("/message.jsp");
+			return;
+		}
 		
 		req.setAttribute("paging", paging);
 		req.setAttribute("pageNavi", paging.getPageNavi(req.getContextPath(), "contentSearch.do", false));

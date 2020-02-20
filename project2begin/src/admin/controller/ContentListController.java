@@ -26,6 +26,15 @@ public class ContentListController extends AbstractAction {
 		PagingVO paging= new PagingVO(dao.getTotalContent(), cpage, 10, 10);
 		
 		List<ContentVO> arr= dao.listContent(paging.getStart(), paging.getEnd());
+		//유효성
+		if(arr.size()<=0) {
+			String msg="목록을 찾을 수 없습니다 [result:none]";
+			String loc="javascript:history.back()";
+			req.setAttribute("msg", msg);
+			req.setAttribute("loc", loc);
+			this.setViewPage("/message.jsp");
+			return;
+		}
 		
 		req.setAttribute("listContent", arr);
 		req.setAttribute("paging", paging);

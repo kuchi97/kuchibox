@@ -25,6 +25,15 @@ public class NoticeMainController extends AbstractAction{
 		NoticeDAO dao= new NoticeDAO();
 		PagingVO paging= new PagingVO(dao.getTotalNotice(), cpage, 10, 5);
 		List<NoticeVO> arr= dao.getNoticeList(paging.getStart(), paging.getEnd());
+		//유효성
+		if(arr.size()<=0) {
+			String msg="목록을 찾을 수 없습니다 [result:none]";
+			String loc="javascript:history.back()";
+			req.setAttribute("msg", msg);
+			req.setAttribute("loc", loc);
+			this.setViewPage("/message.jsp");
+			return;
+		}
 		
 		req.setAttribute("noticeList", arr);
 		req.setAttribute("paging", paging);

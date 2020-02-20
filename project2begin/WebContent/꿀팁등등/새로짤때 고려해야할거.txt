@@ -1,2 +1,9 @@
+tip:
+ajax할때는 백엔드쪽부터 처리
+
+spring 변환할때 ajax같은거 다 써서 구현
 mapper를 adminMapper로만 두지 말고 memberMapper, noticeMapper등으로 세분화 시키면???
 ???: db 이제 계획세워서 세분화해서 제대로 보내야함
+
+수정삭제 성공실패처리할 페이지 모듈화하는 방법 궁리 >> spring의 commonUtil처럼 만들고
+HttpServletRequest를 매개변수 주면 됨 model 대신

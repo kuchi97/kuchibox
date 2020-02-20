@@ -37,7 +37,7 @@
 				<td>상태</td>
 				<td>${oldMember.state }</td>
 				<td><b> → </b></td>
-				<td>${member.state }</td>
+				<td>${newState}</td>
 			</tr>
 		</table>		
 	</div>

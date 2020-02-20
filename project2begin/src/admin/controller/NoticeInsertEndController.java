@@ -17,7 +17,7 @@ public class NoticeInsertEndController extends AbstractAction {
 		String name= req.getParameter("name");
 		String info= req.getParameter("info");
 		
-		NoticeVO vo= new NoticeVO(null,title,info,null,name);
+		NoticeVO vo= new NoticeVO(null,title,info,null,0,name);
 		NoticeDAO dao= new NoticeDAO();
 		
 		int n= dao.insertNotice(vo);

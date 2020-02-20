@@ -33,7 +33,7 @@
 				<th>영화명</th>
 				<th>리뷰제목</th>
 				<th>소개</th>
-				<th>URL</th>
+				<th>작성일</th>
 			</tr>
 		</thead>
 		<tbody>

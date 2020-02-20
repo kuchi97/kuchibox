@@ -14,6 +14,15 @@ public class ContentEditEndController extends AbstractAction {
 		System.out.println("[ContentEditEndController] ## FROM. contentEditEnd.do");
 		
 		String idx= req.getParameter("idx");
+		//유효성
+		if(idx==null || idx.trim().isEmpty()) {
+			String msg="잘못된 접근입니다 [result:none]";
+			String loc="index.do";
+			req.setAttribute("msg", msg);
+			req.setAttribute("loc", loc);
+			this.setViewPage("/message.jsp");
+			return;
+		}
 		String title= req.getParameter("title");
 		String director= req.getParameter("director");
 		String info= req.getParameter("info");

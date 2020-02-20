@@ -6,22 +6,24 @@ public class NoticeVO {
 	String title;
 	String info;
 	String wdate;
+	int click;
 	String name;
 	
 	public NoticeVO()
 	{
 		
 	}
-	public NoticeVO(String idx, String title, String info, String wdate, String name) {
+	public NoticeVO(String idx, String title, String info, String wdate, int click, String name) {
 		super();
 		this.idx = idx;
 		this.title = title;
 		this.info = info;
 		this.wdate = wdate;
+		this.click= click;
 		this.name = name;
 	}
 	
-	
+	/* getter, setter */
 	public String getIdx() {
 		return idx;
 	}
@@ -46,14 +48,20 @@ public class NoticeVO {
 	public void setWdate(String wdate) {
 		this.wdate = wdate;
 	}
-	public String getname() {
+	public int getClick() {
+		return click;
+	}
+	public void setClick(int click) {
+		this.click = click;
+	}
+	public String getName() {
 		return name;
 	}
-	public void setname(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
-
 	
+
 	
 
 }

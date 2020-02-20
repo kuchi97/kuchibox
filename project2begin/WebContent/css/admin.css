@@ -84,3 +84,9 @@ input.label:not:hover, input.label:focus {
 .page:hover {
 	background-color: darkred;
 }
+.bg-warning {
+	background-color:darkred;
+}
+.bg-list {
+	background-color:#009f00;
+}

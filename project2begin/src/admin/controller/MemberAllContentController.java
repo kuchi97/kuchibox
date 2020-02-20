@@ -24,9 +24,18 @@ public class MemberAllContentController extends AbstractAction {
 		
 		ContentDAO dao= new ContentDAO();
 		PagingVO paging= new PagingVO(dao.getTotalMemberAllContent(), cpage, 10, 5);
-		List<MemberContentVO> memberContent=dao.listAllMemberContent(paging.getStart(), paging.getEnd());
+		List<MemberContentVO> arr=dao.listAllMemberContent(paging.getStart(), paging.getEnd());
+		//유효성
+		if(arr.size()<=0) {
+			String msg="목록을 찾을 수 없습니다 [result:none]";
+			String loc="javascript:history.back()";
+			req.setAttribute("msg", msg);
+			req.setAttribute("loc", loc);
+			this.setViewPage("/message.jsp");
+			return;
+		}
 		
-		req.setAttribute("listAllMemberContent", memberContent);
+		req.setAttribute("listAllMemberContent", arr);
 		req.setAttribute("paging", paging);
 		req.setAttribute("pageNavi", paging.getPageNavi(req.getContextPath(), "memberAllContent.do",false));
 		

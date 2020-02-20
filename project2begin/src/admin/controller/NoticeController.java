@@ -13,7 +13,6 @@ public class NoticeController extends AbstractAction {
 
 	@Override
 	public void execute(HttpServletRequest req, HttpServletResponse res) throws Exception {
-
 		System.out.println("[NoticeController] Executed####");
 		
 		String start= req.getParameter("start");

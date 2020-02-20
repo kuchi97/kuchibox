@@ -154,6 +154,18 @@ public class NoticeDAO {
 			close();
 		}
 	}
+	/* 공지사항 볼때 조회수 1 증가 */
+	public int updateClick(String idx) {
+		try {
+			sqlSession= this.getSessionFactory().openSession(true);
+			int n= sqlSession.update(NS+".updateClick", idx);
+			
+			return n;
+		}
+		finally {
+			close();
+		}
+	}
 	
 	/* 공지사항 작성 메소드 */
 	public int insertNotice(NoticeVO vo) {

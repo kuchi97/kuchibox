@@ -18,7 +18,8 @@
 			</select>
 			<input type='text' name="searchInput" class=''>
 			<button type='button' onclick='goSearch()'>검색</button>
-			<a href='noticeInsert.do' class='button' style='margin-left:10px; background:#111;'>등 록</a>
+			<%-- name파라미터 나중에 관리자 아이디 받아와야함 --%>
+			<a href='noticeInsert.do?name=admin' class='button' style='margin-left:10px;'>등 록</a>
 		</div>
 	</form>
 		<table style='margin-bottom:0.5em;'>
@@ -28,6 +29,7 @@
 					<th>제목</th>
 					<th>작성자</th>
 					<th>작성일</th>
+					<th>조회수</th>
 					<th>수정</th>
 					<th>삭제</th>
 				</tr>
@@ -39,8 +41,9 @@
 					<td><a href='noticeView.do?idx=${list.idx}'>${list.title}</a></td>
 					<td>${list.name}</td>
 					<td>${list.wdate }</td>
+					<td>${list.click }</td>
 					<td><a href='noticeEdit.do?idx=${list.idx}'><i class="fa fa-edit"></i></a></td>
-					<td><a href='noticeDelete.do?idx=${list.idx}'><i class="fa fa-trash"></i></a></td>
+					<td><a href='javascript:goDel(${list.idx})'><i class="fa fa-trash"></i></a></td>
 				</tr>
 			</core:forEach>
 			</tbody>
@@ -54,6 +57,16 @@
 <script>
 function goSearch(){
 	searchForm.submit();
+}
+function goDel(idx){
+	var check= confirm("공지사항을 정말로 삭제하시겠습니까?");
+	if(check){
+		location.href="noticeDelete.do?idx="+idx;		
+	}
+	else {
+		alert("삭제가 취소되었습니다");
+		return;
+	}
 }
 
 </script>

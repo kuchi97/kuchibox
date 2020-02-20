@@ -29,7 +29,7 @@ public class MemberContentController extends AbstractAction {
 		
 		
 		//작성한 내역이 없을때
-		if(memberContent==null || memberContent.size()==0) {
+		if(memberContent==null || memberContent.size()<=0) {
 			String msg="해당 회원이 작성한 내역은 존재하지 않습니다";
 			String loc="javascript:history.back()";
 			

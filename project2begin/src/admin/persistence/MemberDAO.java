@@ -152,7 +152,17 @@ public class MemberDAO {
 		}
 	}
 	
-	
+	/* 회원삭제 */
+	public int deleteMember(String email) {
+		try {
+			sqlSession= this.getSessionFactory().openSession(true);
+			int n= sqlSession.delete(NS+".deleteMember", email);
+			return n;
+		}
+		finally {
+			close();
+		}
+	}
 
 
 }

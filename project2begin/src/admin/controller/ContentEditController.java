@@ -14,6 +14,7 @@ public class ContentEditController extends AbstractAction {
 		System.out.println("[ContentEditController] executed ####");
 		
 		String idx= req.getParameter("idx");
+		//유효성
 		if(idx==null || idx.trim().isEmpty()) {
 			String msg="잘못된 경로입니다";
 			String loc="javascript:history.back()";
@@ -28,6 +29,15 @@ public class ContentEditController extends AbstractAction {
 		
 		ContentDAO dao= new ContentDAO();
 		ContentVO content= dao.selectOneContent(idx);
+		//유효성-파라미터조작
+		if(content==null) {
+			String msg="잘못된 접근입니다 [parameter:none]";
+			String loc="index.do";
+			req.setAttribute("msg", msg);
+			req.setAttribute("loc", loc);
+			this.setViewPage("/message.jsp");
+			return;
+		}
 		
 		req.setAttribute("content", content);
 		
