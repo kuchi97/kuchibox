@@ -1,50 +1,50 @@
 .do >> controller >> DAO >> jsp >> .do
 
-dynamic web project »ı¼ºÇÒ¶§
-WEB-INF Æú´õ °æ·Î classes Áß°£¿¡ ³¢¿ö³Ö°í
-web.xmlÆÄÀÏ ¸¸µé±â Ã¼Å©
+dynamic web project ìƒì„±í• ë•Œ
+WEB-INF í´ë” ê²½ë¡œ classes ì¤‘ê°„ì— ë¼ì›Œë„£ê³ 
+web.xmlíŒŒì¼ ë§Œë“¤ê¸° ì²´í¬
 
-1. webcontent/WEB-INF/lib ¾Æ·¡ 
+1. webcontent/WEB-INF/lib ì•„ë˜ 
 mybatis 3.x.x.jar
-taglibs-..jar 4°³ ÆÄÀÏ ºÙ¿©³Ö±â
+taglibs-..jar 4ê°œ íŒŒì¼ ë¶™ì—¬ë„£ê¸°
 
-2. webcontent/WEB-INF ¾Æ·¡
-command.properties ÆÄÀÏ »ı¼º
+2. webcontent/WEB-INF ì•„ë˜
+command.properties íŒŒì¼ ìƒì„±
 
-3. java resources/src/¾Æ·¡
-command.config ÆĞÅ°Áö »ı¼º
+3. java resources/src/ì•„ë˜
+command.config íŒ¨í‚¤ì§€ ìƒì„±
 
-4. 3¿¡¼­ db.properties ÆÄÀÏ°ú mybatis-config.xmlÆÄÀÏ »ı¼º
-db.properties¿¡¼­´Â ¿À¶óÅ¬ µå¶óÀÌ¹ö¿Í °èÁ¤¼¼ÆÃ
-mybatis-config ¿¡¼­´Â DBCP¿Í mapper ¼¼ÆÃ
+4. 3ì—ì„œ db.properties íŒŒì¼ê³¼ mybatis-config.xmlíŒŒì¼ ìƒì„±
+db.propertiesì—ì„œëŠ” ì˜¤ë¼í´ ë“œë¼ì´ë²„ì™€ ê³„ì •ì„¸íŒ…
+mybatis-config ì—ì„œëŠ” DBCPì™€ mapper ì„¸íŒ…
 
-5. java resources/src/¾Æ·¡
-command.controller ÆĞÅ°Áö »ı¼º
-¿©±â¿¡´Â °øÅëÀ¸·Î ¾²ÀÏ Ãß»óÅ¬·¡½º¿Í Ãß»ó¸Ş¼Òµå°¡ µé¾î°¥°ÅÀÓ
-.Command ¿¡´Â execute()¶ó´Â Ãß»ó¸Ş¼Òµå°¡ µé¾î°¡ÀÖÀ½
-.AbstractAction Àº ÀÏÁ¾ÀÇ VOÀÓ. Command ÀÎÅÍÆäÀÌ½º¸¦ »ó¼Ó¹Ş¾Æ °¡Áö°íÀÖÀ½
-.Front Controller´Â Servlet ÆÄÀÏÀÓ
-	@WebServlet ¾Æ³ëÅ×ÀÌ¼Ç¿¡¼­ urlPattern°ú initParams¸¦ ÁöÁ¤ÇØÁØ´Ù
-	initParamsÀÇ value´Â ÇöÀç ÇÁ·ÎÁ§Æ®ÀÇ command.propertiesÆÄÀÏÀÇ °æ·Î¸¦ ÁöÁ¤ÇÑ´Ù
-ServletÆÄÀÏ ¸¸µé¶§ doGet, doPost, init±îÁö Ã¼Å©ÇÏ°í ¸¸µç´Ù
-»ı¼ºÀÚ Áö¿î´Ù
-init()¿¡¼­ ÇÏ´ÂÀÏÀº @WebServlet ¾î³ëÅ×ÀÌ¼ÇÀÇ @WebInitParamÀÇ Å°°ª°ú ¹ë·ù°ªÀ» ¸ÊÇÎÇÏ´Â°ÍÀÓ
-command.properties¸¦ »ç¿ëÇÏ±âÀ§ÇØ ÇØÁÖ´Â°Å
-FrontController´Â ÆÄÀÏÀ» ´Ù½Ã ÀĞ¾îº¸¸é¼­ ÀÌÇØÇÏ±â¹Ù¶÷
-FrontController¿¡¼­ º¸³½ index.do´Â command.properties¸¦ µû¶ó IndexController·Î °¨. Å¬·¡½º »ı¼ºÇØÁà¼­ jsp·Î º¸³»Áà¾ßµÊ
+5. java resources/src/ì•„ë˜
+command.controller íŒ¨í‚¤ì§€ ìƒì„±
+ì—¬ê¸°ì—ëŠ” ê³µí†µìœ¼ë¡œ ì“°ì¼ ì¶”ìƒí´ë˜ìŠ¤ì™€ ì¶”ìƒë©”ì†Œë“œê°€ ë“¤ì–´ê°ˆê±°ì„
+.Command ì—ëŠ” execute()ë¼ëŠ” ì¶”ìƒë©”ì†Œë“œê°€ ë“¤ì–´ê°€ìˆìŒ
+.AbstractAction ì€ ì¼ì¢…ì˜ VOì„. Command ì¸í„°í˜ì´ìŠ¤ë¥¼ ìƒì†ë°›ì•„ ê°€ì§€ê³ ìˆìŒ
+.Front ControllerëŠ” Servlet íŒŒì¼ì„
+	@WebServlet ì•„ë…¸í…Œì´ì…˜ì—ì„œ urlPatternê³¼ initParamsë¥¼ ì§€ì •í•´ì¤€ë‹¤
+	initParamsì˜ valueëŠ” í˜„ì¬ í”„ë¡œì íŠ¸ì˜ command.propertiesíŒŒì¼ì˜ ê²½ë¡œë¥¼ ì§€ì •í•œë‹¤
+ServletíŒŒì¼ ë§Œë“¤ë•Œ doGet, doPost, initê¹Œì§€ ì²´í¬í•˜ê³  ë§Œë“ ë‹¤
+ìƒì„±ì ì§€ìš´ë‹¤
+init()ì—ì„œ í•˜ëŠ”ì¼ì€ @WebServlet ì–´ë…¸í…Œì´ì…˜ì˜ @WebInitParamì˜ í‚¤ê°’ê³¼ ë°¸ë¥˜ê°’ì„ ë§µí•‘í•˜ëŠ”ê²ƒì„
+command.propertiesë¥¼ ì‚¬ìš©í•˜ê¸°ìœ„í•´ í•´ì£¼ëŠ”ê±°
+FrontControllerëŠ” íŒŒì¼ì„ ë‹¤ì‹œ ì½ì–´ë³´ë©´ì„œ ì´í•´í•˜ê¸°ë°”ëŒ
+FrontControllerì—ì„œ ë³´ë‚¸ index.doëŠ” command.propertiesë¥¼ ë”°ë¼ IndexControllerë¡œ ê°. í´ë˜ìŠ¤ ìƒì„±í•´ì¤˜ì„œ jspë¡œ ë³´ë‚´ì¤˜ì•¼ë¨
 
-6. java resources/src/¾Æ·¡
-common.db ÆĞÅ°Áö »ı¼º
-DBUtil.java°¡ ¿©±â µé¾î°¡´Âµ¥ ¾Æ¸¶ DBCPÇ®À» ¾²¸é ÀÌ°Å ¾È¾µ°ÅÀÓ ¾Æ.¸¶.µµ.
+6. java resources/src/ì•„ë˜
+common.db íŒ¨í‚¤ì§€ ìƒì„±
+DBUtil.javaê°€ ì—¬ê¸° ë“¤ì–´ê°€ëŠ”ë° ì•„ë§ˆ DBCPí’€ì„ ì“°ë©´ ì´ê±° ì•ˆì“¸ê±°ì„ ì•„.ë§ˆ.ë„.
 
-7. java resources/src/¾Æ·¡
-common.file ÆĞÅ°Áö »ı¼º
-FileDownloadServlet.java ´Â ÆÄÀÏ´Ù¿î·ÎµåÇÒ¶§ ¾²´Â servlet ÆÄÀÏÀÎµ¥ ¾Æ¸¶ ÀÌ°Åµµ ¾È¾µ°ÅÀÓ
-´ë½Å ÆÄÀÏ´Ù¿î·Îµå ÄÚµå Èå¸§ º¼¼öÀÖÀ½
+7. java resources/src/ì•„ë˜
+common.file íŒ¨í‚¤ì§€ ìƒì„±
+FileDownloadServlet.java ëŠ” íŒŒì¼ë‹¤ìš´ë¡œë“œí• ë•Œ ì“°ëŠ” servlet íŒŒì¼ì¸ë° ì•„ë§ˆ ì´ê±°ë„ ì•ˆì“¸ê±°ì„
+ëŒ€ì‹  íŒŒì¼ë‹¤ìš´ë¡œë“œ ì½”ë“œ íë¦„ ë³¼ìˆ˜ìˆìŒ
 
-8. java resources/src/¾Æ·¡
-common.filter ÆĞÅ°Áö »ı¼º
-post¹æ½ÄÀÏ¶§ÀÇ ÇÑ±ÛÀÎÄÚµùÀ» ÀÏ°ıÀûÀ¸·Î ÇØÁÜ
+8. java resources/src/ì•„ë˜
+common.filter íŒ¨í‚¤ì§€ ìƒì„±
+postë°©ì‹ì¼ë•Œì˜ í•œê¸€ì¸ì½”ë”©ì„ ì¼ê´„ì ìœ¼ë¡œ í•´ì¤Œ
 
 
-Servers Æú´õ¿¡ context.xml, server.xmlÀÇ DBCP setting È®ÀÎ
+Servers í´ë”ì— context.xml, server.xmlì˜ DBCP setting í™•ì¸
