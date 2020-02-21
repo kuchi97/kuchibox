@@ -5,7 +5,7 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import admin.domain.ContentVO;
+import admin.domain.TrailerVO;
 import admin.domain.PagingVO;
 import admin.persistence.ContentDAO;
 import common.controller.AbstractAction;
@@ -29,7 +29,7 @@ public class ContentSearchFormController extends AbstractAction {
 		paging.setTotalCount(dao.getTotalSearchContent(paging.getSelectBox(),paging.getSearchInput()));
 		paging.init();
 		
-		//°Ë»öÀÌ °ø¶õÀÌ¸é ÀüÃ¼¸®½ºÆ®·Î µ¹¾Æ°£´Ù
+		//ê²€ìƒ‰ì´ ê³µë€ì´ë©´ ì „ì²´ë¦¬ìŠ¤íŠ¸ë¡œ ëŒì•„ê°„ë‹¤
 		if(paging.getSelectBox()==null || paging.getSelectBox().trim().isEmpty()) {
 			this.setViewPage("contentList.do");
 			this.setRedirect(true);
@@ -41,10 +41,10 @@ public class ContentSearchFormController extends AbstractAction {
 			return;
 		}
 		
-		List<ContentVO> arr= dao.searchContent(paging.getSelectBox(),paging.getSearchInput(),paging.getStart(),paging.getEnd());
-		//À¯È¿¼º-ÆÄ¶ó¹ÌÅÍÁ¶ÀÛ
+		List<TrailerVO> arr= dao.searchContent(paging.getSelectBox(),paging.getSearchInput(),paging.getStart(),paging.getEnd());
+		//ìœ íš¨ì„±-íŒŒë¼ë¯¸í„°ì¡°ì‘
 		if(arr.size()<=0) {
-			String msg="¸ñ·ÏÀ» Ã£À» ¼ö ¾ø½À´Ï´Ù [result:none]";
+			String msg="ëª©ë¡ì„ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤ [result:none]";
 			String loc="javascript:history.back()";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);

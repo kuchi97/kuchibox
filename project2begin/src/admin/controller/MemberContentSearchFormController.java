@@ -29,7 +29,7 @@ public class MemberContentSearchFormController extends AbstractAction {
 		paging.setTotalCount(dao.getTotalSearchMemberContent(paging.getSelectBox(),paging.getSearchInput()));
 		paging.init();
 		
-		/* ÀÎÇ²ÀÌ ³ÎÀÏ¶§-È¸¿ø¾÷·Îµå ÀüÃ¼¸ñ·ÏÀ» º¸¿©ÁØ´Ù */
+		/* ì¸í’‹ì´ ë„ì¼ë•Œ-íšŒì›ì—…ë¡œë“œ ì „ì²´ëª©ë¡ì„ ë³´ì—¬ì¤€ë‹¤ */
 		if(paging.getSelectBox()==null || paging.getSelectBox().trim().isEmpty()) {
 			this.setViewPage("memberAllContent.do");
 			this.setRedirect(true);
@@ -42,9 +42,9 @@ public class MemberContentSearchFormController extends AbstractAction {
 		}
 		
 		List<MemberContentVO> arr= dao.searchMemberContent(paging.getSelectBox(),paging.getSearchInput(),paging.getStart(),paging.getEnd());
-		//À¯È¿¼º
+		//ìœ íš¨ì„±
 		if(arr.size()<=0) {
-			String msg="°Ë»ö°á°ú¸¦ Ã£À» ¼ö ¾ø½À´Ï´Ù [result:none]";
+			String msg="ê²€ìƒ‰ê²°ê³¼ë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤ [result:none]";
 			String loc="javascript:history.back()";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);

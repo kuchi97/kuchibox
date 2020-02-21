@@ -1,6 +1,6 @@
 package admin.domain;
 
-/* Áñ°Å¿î ¼öÇĞ³ª¶ó: ÆäÀÌÁö ºí·ÏÀ» ±¸ÇØº¸ÀÚ
+/* ì¦ê±°ìš´ ìˆ˜í•™ë‚˜ë¼: í˜ì´ì§€ ë¸”ë¡ì„ êµ¬í•´ë³´ì
 
 	[1][2][3][4][5] | [6][7][8][9][10] | [11][12][13][14][15] | ...
 	
@@ -17,39 +17,39 @@ package admin.domain;
 		3
 		...
 	
-	µû¶ó¼­, ¹ıÄ¢À» Ã£¾Æº¸¸é
+	ë”°ë¼ì„œ, ë²•ì¹™ì„ ì°¾ì•„ë³´ë©´
 	prevBlock= ((cpage-1)/pagingBlock)*pagingBlock
 	nextBlock= prevBlock+(pagingBlock+1)
 	
-	= ±âÅ¸ ÆäÀÌÂ¡Ã³¸® °ø½Äµé
+	= ê¸°íƒ€ í˜ì´ì§•ì²˜ë¦¬ ê³µì‹ë“¤
 	
-	pageCount=(totalCount-1)/pageSize+1;	//ÆäÀÌÁö ¼ö ±¸ÇÏ´Â °ø½Ä
+	pageCount=(totalCount-1)/pageSize+1;	//í˜ì´ì§€ ìˆ˜ êµ¬í•˜ëŠ” ê³µì‹
 	if(cpage<=0) {
-		cpage=1;			//ÆäÀÌÁö°¡ 1º¸´Ù ÀÛÀ»¶§ ¹«Á¶°Ç 1ÆäÀÌÁö º¸ÀÓ
+		cpage=1;			//í˜ì´ì§€ê°€ 1ë³´ë‹¤ ì‘ì„ë•Œ ë¬´ì¡°ê±´ 1í˜ì´ì§€ ë³´ì„
 	}
 	if(cpage>pageCount) {
-		cpage=pageCount;	//ÆäÀÌÁö ÃÖ´ë¼öº¸´Ù ¸¹°Ô ÀÔ·ÂµÉ¶§ ¹«Á¶°Ç ¸¶Áö¸·ÆäÀÌÁö º¸ÀÓ
+		cpage=pageCount;	//í˜ì´ì§€ ìµœëŒ€ìˆ˜ë³´ë‹¤ ë§ê²Œ ì…ë ¥ë ë•Œ ë¬´ì¡°ê±´ ë§ˆì§€ë§‰í˜ì´ì§€ ë³´ì„
 	}
 */
 
 public class PagingVO {
 
 	/* property */
-	//ÆäÀÌÂ¡ Ã³¸® °ü·Ã ÇÁ·ÎÆÛÆ¼
-	private int cpage= 1;			//ÇöÀçÆäÀÌÁö
-	private int pageSize= 10;		//ÇÑÆäÀÌÁö´ç °Ô½Ã±Û ¼ö
-	private int totalCount;			//ÃÑ °Ô½Ã±Û
-	private int pageCount;			//ÆäÀÌÁö ¼ö
+	//í˜ì´ì§• ì²˜ë¦¬ ê´€ë ¨ í”„ë¡œí¼í‹°
+	private int cpage= 1;			//í˜„ì¬í˜ì´ì§€
+	private int pageSize= 10;		//í•œí˜ì´ì§€ë‹¹ ê²Œì‹œê¸€ ìˆ˜
+	private int totalCount;			//ì´ ê²Œì‹œê¸€
+	private int pageCount;			//í˜ì´ì§€ ìˆ˜
 	
-	//DB¿¡¼­ ·¹ÄÚµå ²÷¾î¿Ã start, end
+	//DBì—ì„œ ë ˆì½”ë“œ ëŠì–´ì˜¬ start, end
 	private int start, end;
 	
-	//ÆäÀÌÁö ºí·°Ã³¸®¿ë ÇÁ·ÎÆÛÆ¼
-	private int pagingBlock= 10;		//ÇÑ ºí·°¿¡ º¸¿©ÁÙ ÆäÀÌÁö °³¼ö
+	//í˜ì´ì§€ ë¸”ëŸ­ì²˜ë¦¬ìš© í”„ë¡œí¼í‹°
+	private int pagingBlock= 10;		//í•œ ë¸”ëŸ­ì— ë³´ì—¬ì¤„ í˜ì´ì§€ ê°œìˆ˜
 	private int prevBlock;
 	private int nextBlock;
 	
-	//°Ë»ö°ü·Ã ÇÁ·ÎÆÛÆ¼
+	//ê²€ìƒ‰ê´€ë ¨ í”„ë¡œí¼í‹°
 	private String selectBox;
 	private String searchInput;
 	
@@ -68,15 +68,15 @@ public class PagingVO {
 		this.pageSize= pageSize;
 		this.pagingBlock= pagingBlock;
 
-		//ÆäÀÌÂ¡Ã³¸® ¿¬»ê¼öÇàÇÒ ¸Ş¼Òµå
+		//í˜ì´ì§•ì²˜ë¦¬ ì—°ì‚°ìˆ˜í–‰í•  ë©”ì†Œë“œ
 		init();
 	}
 
-	/* ÆäÀÌÂ¡ ·ÎÁ÷¼öÇàÇÏ´Â ¸Ş¼Òµå */
+	/* í˜ì´ì§• ë¡œì§ìˆ˜í–‰í•˜ëŠ” ë©”ì†Œë“œ */
 	public void init() {
 		
-		pageCount= (totalCount-1)/pageSize+1;		//ÆäÀÌÁö ¼ö¸¦ ±¸ÇÏ´Â °ø½Ä
-		//ÆäÀÌÁö°¡ 0º¸´Ù ÀÛ°Å³ª ÃÖ´ëÆäÀÌÁö¸¦ ³Ñ¾î°¥¶§ Ã³¸®
+		pageCount= (totalCount-1)/pageSize+1;		//í˜ì´ì§€ ìˆ˜ë¥¼ êµ¬í•˜ëŠ” ê³µì‹
+		//í˜ì´ì§€ê°€ 0ë³´ë‹¤ ì‘ê±°ë‚˜ ìµœëŒ€í˜ì´ì§€ë¥¼ ë„˜ì–´ê°ˆë•Œ ì²˜ë¦¬
 		if(cpage<1) {
 			cpage=1;
 		}
@@ -87,73 +87,73 @@ public class PagingVO {
 		end= cpage * pageSize;
 		start= end - (pageSize - 1);
 		
-		//ÆäÀÌÁöºí·° ±¸ÇÏ´Â °ø½Ä
+		//í˜ì´ì§€ë¸”ëŸ­ êµ¬í•˜ëŠ” ê³µì‹
 		prevBlock= ((cpage - 1) / pagingBlock) * pagingBlock;
 		nextBlock= prevBlock + (pagingBlock + 1);
 	}//--init();
 	
-	/* ÆäÀÌÁö ³»ºñ°ÔÀÌ¼Ç ÀÛ¼ºÇÏ´Â ¸Ş¼Òµå */
+	/* í˜ì´ì§€ ë‚´ë¹„ê²Œì´ì…˜ ì‘ì„±í•˜ëŠ” ë©”ì†Œë“œ */
 	public String getPageNavi(String myctx, String loc, boolean isParam) {
-		//myctx: ÄÁÅØ½ºÆ®
-		//loc: °æ·Î
-		//qStr: Äõ¸®½ºÆ®¸µ(°Ë»öÇÒ¶§ ÇÊ¿ä
+		//myctx: ì»¨í…ìŠ¤íŠ¸
+		//loc: ê²½ë¡œ
+		//qStr: ì¿¼ë¦¬ìŠ¤íŠ¸ë§(ê²€ìƒ‰í• ë•Œ í•„ìš”
 		
 		selectBox= (selectBox==null)?"":selectBox;
 		searchInput= (searchInput==null)?"":searchInput;
 		
 		String qStr="?selectBox="+selectBox+"&searchInput="+searchInput;
 		String qStr2="&selectBox="+selectBox+"&searchInput="+searchInput;
-		//StringÀÇ ºÒº¯¼º¶§¹®¿¡ StringBuffer ¶Ç´Â StringBuilder¸¦ ÀÌ¿ëÇÑ´Ù
+		//Stringì˜ ë¶ˆë³€ì„±ë•Œë¬¸ì— StringBuffer ë˜ëŠ” StringBuilderë¥¼ ì´ìš©í•œë‹¤
 		
 		StringBuffer buffer= new StringBuffer();
 		String str= null;
-		//¹®ÀÚ¿­À» ÆíÁıÇÒ ¹öÆÛ
+		//ë¬¸ìì—´ì„ í¸ì§‘í•  ë²„í¼
 		
-		if(isParam==false) {		//Äõ¸®½ºÆ®¸µÀ¸·Î ÆÄ¶ó¹ÌÅÍ¸¦ ³Ñ°ÜÁØ°ÍÀÌ ¾Æ´Ò¶§
-			//html ÀÛ¼º ½ÃÀÛ----
-			if(prevBlock>0) {	//ÀÌÀü 5°³
+		if(isParam==false) {		//ì¿¼ë¦¬ìŠ¤íŠ¸ë§ìœ¼ë¡œ íŒŒë¼ë¯¸í„°ë¥¼ ë„˜ê²¨ì¤€ê²ƒì´ ì•„ë‹ë•Œ
+			//html ì‘ì„± ì‹œì‘----
+			if(prevBlock>0) {	//ì´ì „ 5ê°œ
 				buffer.append("<a href='"+myctx+"/"+loc+qStr+"&cpage="+prevBlock+"' class='page' style='margin-right:20px;'>Prev</a>");
 			}
 			
 			for(int i=prevBlock+1; i<=nextBlock-1 && i<=pageCount; i++) {
 				if(i==cpage) {
 					buffer.append("<a href='#' class='page active'>"+i+"</a>");
-					//ÇöÀç È°¼ºÈ­µÈ ÆäÀÌÁö. href¸¦ ¸·¾ÆµÒ
+					//í˜„ì¬ í™œì„±í™”ëœ í˜ì´ì§€. hrefë¥¼ ë§‰ì•„ë‘ 
 				}
 				else {
 					buffer.append("<a href='"+myctx+"/"+loc+qStr+"&cpage="+i+"' class='page'>"+i+"</a>");
 				}
 			}
 			
-			if(nextBlock<=pageCount) {		//ÀÌÈÄ 5°³
+			if(nextBlock<=pageCount) {		//ì´í›„ 5ê°œ
 				buffer.append("<a href='"+myctx+"/"+loc+qStr+"&cpage="+nextBlock+"' class='page' style='margin-left:20px;'>Next</a>");
 			}
-			//---html ÀÛ¼º ³¡
+			//---html ì‘ì„± ë
 			
 			str= buffer.toString();
 //			System.out.println(str);
 			
 		}
 		else {
-			//html ÀÛ¼º ½ÃÀÛ----
-			if(prevBlock>0) {	//ÀÌÀü 5°³
+			//html ì‘ì„± ì‹œì‘----
+			if(prevBlock>0) {	//ì´ì „ 5ê°œ
 				buffer.append("<a href='"+myctx+"/"+loc+qStr2+"&cpage="+prevBlock+"' class='page' style='margin-right:20px;'>Prev</a>");
 			}
 			
 			for(int i=prevBlock+1; i<=nextBlock-1 && i<=pageCount; i++) {
 				if(i==cpage) {
 					buffer.append("<a href='#' class='page active'>"+i+"</a>");
-					//ÇöÀç È°¼ºÈ­µÈ ÆäÀÌÁö. href¸¦ ¸·¾ÆµÒ
+					//í˜„ì¬ í™œì„±í™”ëœ í˜ì´ì§€. hrefë¥¼ ë§‰ì•„ë‘ 
 				}
 				else {
 					buffer.append("<a href='"+myctx+"/"+loc+qStr2+"&cpage="+i+"' class='page'>"+i+"</a>");
 				}
 			}
 			
-			if(nextBlock<=pageCount) {		//ÀÌÈÄ 5°³
+			if(nextBlock<=pageCount) {		//ì´í›„ 5ê°œ
 				buffer.append("<a href='"+myctx+"/"+loc+qStr2+"&cpage="+nextBlock+"' class='page' style='margin-left:20px;'>Next</a>");
 			}
-			//---html ÀÛ¼º ³¡
+			//---html ì‘ì„± ë
 			
 			str= buffer.toString();
 //			System.out.println(str);

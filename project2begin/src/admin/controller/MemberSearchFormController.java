@@ -32,7 +32,7 @@ public class MemberSearchFormController extends AbstractAction {
 //		System.out.println("MemberSearchForm/searchInput:"+searchInput);
 		
 		
-		/* selectbox/input°ªÀÌ ¾øÀ»¶§- ÀüÃ¼¸®½ºÆ®·Î µ¹¾Æ°£´Ù */
+		/* selectbox/inputê°’ì´ ì—†ì„ë•Œ- ì „ì²´ë¦¬ìŠ¤íŠ¸ë¡œ ëŒì•„ê°„ë‹¤ */
 		if(paging.getSelectBox()==null || paging.getSelectBox().trim().isEmpty()) {
 			this.setViewPage("memberList.do");
 			this.setRedirect(false);
@@ -46,7 +46,7 @@ public class MemberSearchFormController extends AbstractAction {
 		
 		List<MemberVO> arr= dao.searchMember(paging.getSelectBox(), paging.getSearchInput(), paging.getStart(), paging.getEnd());
 		if(arr.size()<=0) {
-			String msg="°Ë»ö°á°ú¸¦ Ã£À» ¼ö ¾ø½À´Ï´Ù [result=none]";
+			String msg="ê²€ìƒ‰ê²°ê³¼ë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤ [result=none]";
 			String loc="javascript:history.back()";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);

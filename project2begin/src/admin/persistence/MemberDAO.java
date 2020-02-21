@@ -16,34 +16,34 @@ import admin.domain.MemberVO;
 public class MemberDAO {
 	
 	private final String NS="admin.persistence.adminMapper";
-	/* NameSpace°ªÀ» °¡Áú »ó¼ö: adminMapper.xmlÀÇ <namespace> ¼Ó¼º°ª°ú °°¾Æ¾ßÇÑ´Ù */
+	/* NameSpaceê°’ì„ ê°€ì§ˆ ìƒìˆ˜: adminMapper.xmlì˜ <namespace> ì†ì„±ê°’ê³¼ ê°™ì•„ì•¼í•œë‹¤ */
 	
 	private SqlSession sqlSession;
 	
-	/* °øÀåÅÍÀâ´Â ¸Ş¼Òµå */
+	/* ê³µì¥í„°ì¡ëŠ” ë©”ì†Œë“œ */
 	public SqlSessionFactory getSessionFactory()
 	{
-		SqlSessionFactoryBuilder builder=null; 		//°ÇÃà°¡
+		SqlSessionFactoryBuilder builder=null; 		//ê±´ì¶•ê°€
 		
-		String resource="common/config/mybatis-config.xml";	//¼³°èµµ
+		String resource="common/config/mybatis-config.xml";	//ì„¤ê³„ë„
 		
 		try {
 			InputStream is= Resources.getResourceAsStream(resource);
-			builder= new SqlSessionFactoryBuilder();		//°ÇÃà°¡ ±¸ÇÔ
+			builder= new SqlSessionFactoryBuilder();		//ê±´ì¶•ê°€ êµ¬í•¨
 			
-			SqlSessionFactory factory= builder.build(is);	//°ÇÃà°¡°¡ °øÀåÅÍ ÀâÀ½
+			SqlSessionFactory factory= builder.build(is);	//ê±´ì¶•ê°€ê°€ ê³µì¥í„° ì¡ìŒ
 			
 			if(is!=null) is.close();
-			return factory;		//Á¤»óµ¿ÀÛ
+			return factory;		//ì •ìƒë™ì‘
 		}
 		catch (IOException e) {
 			e.printStackTrace();
-			return null;		//°íÀå³µÀ»¶§ null ¹İÈ¯
+			return null;		//ê³ ì¥ë‚¬ì„ë•Œ null ë°˜í™˜
 		}
-	}//-- SqlSessionFactory °øÀåÅÍÀâ¾Ò´Ù
+	}//-- SqlSessionFactory ê³µì¥í„°ì¡ì•˜ë‹¤
 	
 	
-	/* ´İ±â ¸Ş¼Òµå */
+	/* ë‹«ê¸° ë©”ì†Œë“œ */
 	public void close()
 	{
 		if(sqlSession!=null) sqlSession.close();
@@ -51,7 +51,7 @@ public class MemberDAO {
 	
 /*------------------------------------------------------------------------*/
 	
-	/* ÀüÃ¼ È¸¿ø ¼ö °¡Á®¿À±â(ÆäÀÌÂ¡Ã³¸®¿ë) */
+	/* ì „ì²´ íšŒì› ìˆ˜ ê°€ì ¸ì˜¤ê¸°(í˜ì´ì§•ì²˜ë¦¬ìš©) */
 	public int getTotalMember() {
 		try {
 			sqlSession= this.getSessionFactory().openSession(true);
@@ -62,7 +62,7 @@ public class MemberDAO {
 			close();
 		}
 	}
-	/* °Ë»öÇÑ È¸¿ø ¼ö °¡Á®¿À±â(ÆäÀÌÂ¡Ã³¸®¿ë) */
+	/* ê²€ìƒ‰í•œ íšŒì› ìˆ˜ ê°€ì ¸ì˜¤ê¸°(í˜ì´ì§•ì²˜ë¦¬ìš©) */
 	public int getTotalSearchMember(String selectBox, String searchInput) {
 		try {
 			sqlSession= this.getSessionFactory().openSession(true);
@@ -78,7 +78,7 @@ public class MemberDAO {
 		}
 	}
 	
-	/* ÀüÃ¼È¸¿ø¸ñ·Ï ³ªÅ¸³»´Â ¸Ş¼Òµå */
+	/* ì „ì²´íšŒì›ëª©ë¡ ë‚˜íƒ€ë‚´ëŠ” ë©”ì†Œë“œ */
 	public List<MemberVO> listMember(int start, int end)
 	{
 		try {
@@ -98,7 +98,7 @@ public class MemberDAO {
 	}
 	
 	
-	/* °Ë»öÇÑ È¸¿ø¸¸ ³ªÅ¸³»´Â ¸Ş¼Òµå */
+	/* ê²€ìƒ‰í•œ íšŒì›ë§Œ ë‚˜íƒ€ë‚´ëŠ” ë©”ì†Œë“œ */
 	public List<MemberVO> searchMember(String selectBox, String searchInput, int start, int end) {
 		try {
 			if(searchInput==null || searchInput.trim().isEmpty()) {
@@ -124,7 +124,7 @@ public class MemberDAO {
 		}
 	}
 
-	/* È¸¿ø ÇÑ¸íÀÇ Á¤º¸¸¦ °¡Á®¿À´Â ¸Ş¼Òµå */
+	/* íšŒì› í•œëª…ì˜ ì •ë³´ë¥¼ ê°€ì ¸ì˜¤ëŠ” ë©”ì†Œë“œ */
 	public MemberVO listOneMember(String email) {
 		try {
 		sqlSession=this.getSessionFactory().openSession(true);
@@ -138,7 +138,7 @@ public class MemberDAO {
 		}
 	}
 
-	/* È¸¿øÁ¤º¸¸¦ ¼öÁ¤ÇÏ´Â ¸Ş¼Òµå */
+	/* íšŒì›ì •ë³´ë¥¼ ìˆ˜ì •í•˜ëŠ” ë©”ì†Œë“œ */
 	public int updateMember(MemberVO member) {
 		try {
 			sqlSession=this.getSessionFactory().openSession(true);
@@ -152,7 +152,7 @@ public class MemberDAO {
 		}
 	}
 	
-	/* È¸¿ø»èÁ¦ */
+	/* íšŒì›ì‚­ì œ */
 	public int deleteMember(String email) {
 		try {
 			sqlSession= this.getSessionFactory().openSession(true);

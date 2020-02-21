@@ -17,41 +17,41 @@ import admin.domain.NoticeVO;
 public class NoticeDAO {
 	
 	private final String NS="admin.persistence.adminMapper";
-	/* NameSpace »ó¼ö°ª adminMapper.xmlÀÇ namespace¼Ó¼º°ª°ú °°À»°Í*/
+	/* NameSpace ìƒìˆ˜ê°’ adminMapper.xmlì˜ namespaceì†ì„±ê°’ê³¼ ê°™ì„ê²ƒ*/
 	
-	private SqlSession sqlSession;			//sql¹®À» ½ÇÇàÇÒ ¼¼¼ÇÀ» »ı¼º
+	private SqlSession sqlSession;			//sqlë¬¸ì„ ì‹¤í–‰í•  ì„¸ì…˜ì„ ìƒì„±
 	
-	//°øÀåÀ» ¸¸µå´Â ¸Ş¼Òµå »ı¼º
+	//ê³µì¥ì„ ë§Œë“œëŠ” ë©”ì†Œë“œ ìƒì„±
 	public SqlSessionFactory getSessionFactory() {
 		
-		SqlSessionFactoryBuilder builder=null;			//ºó °ÇÃà°¡ ½½·ÔÀÓ
+		SqlSessionFactoryBuilder builder=null;			//ë¹ˆ ê±´ì¶•ê°€ ìŠ¬ë¡¯ì„
 		
-		String resource="common/config/mybatis-config.xml";		//¼³°èµµ mybatis¸¦ ÀÌ¿ë
+		String resource="common/config/mybatis-config.xml";		//ì„¤ê³„ë„ mybatisë¥¼ ì´ìš©
 		
 		try {
 			
-		InputStream is= Resources.getResourceAsStream(resource);	//¼³°èµµ¸¦ ÀĞÀ» inputstream
-		builder= new SqlSessionFactoryBuilder();					//°ÇÃà°¡ Ã¤¿ëÇÔ
+		InputStream is= Resources.getResourceAsStream(resource);	//ì„¤ê³„ë„ë¥¼ ì½ì„ inputstream
+		builder= new SqlSessionFactoryBuilder();					//ê±´ì¶•ê°€ ì±„ìš©í•¨
 		
-		SqlSessionFactory factory=builder.build(is);			//builder°¡ isµé°í factory °Ç¼³
+		SqlSessionFactory factory=builder.build(is);			//builderê°€ isë“¤ê³  factory ê±´ì„¤
 		
-		//´İ±â
+		//ë‹«ê¸°
 		if(is!=null) is.close();
 		
-		return factory;			//´Ù ÁöÀ¸¸é °øÀå¹İÈ¯
+		return factory;			//ë‹¤ ì§€ìœ¼ë©´ ê³µì¥ë°˜í™˜
 		}
 		catch (IOException e) {
 			e.printStackTrace();
-			return null;		//°øÀå ¸øÁöÀ¸¸é ³Î ¹İÈ¯
+			return null;		//ê³µì¥ ëª»ì§€ìœ¼ë©´ ë„ ë°˜í™˜
 		}
-	}// °øÀå¼¼¿ü´Ù--------------------------------------------------
+	}// ê³µì¥ì„¸ì› ë‹¤--------------------------------------------------
 	
-	/* ´İ±â¸Ş¼Òµå */
+	/* ë‹«ê¸°ë©”ì†Œë“œ */
 	public void close() {
 		if(sqlSession!=null) sqlSession.close();
 	}
 	
-	/* °øÁö»çÇ× ÃÑ °³¼ö °¡Á®¿À±â(ÆäÀÌÂ¡) */
+	/* ê³µì§€ì‚¬í•­ ì´ ê°œìˆ˜ ê°€ì ¸ì˜¤ê¸°(í˜ì´ì§•) */
 	public int getTotalNotice() {
 		try {
 			sqlSession= this.getSessionFactory().openSession(true);
@@ -64,7 +64,7 @@ public class NoticeDAO {
 			close();
 		}
 	}
-	/* °Ë»öÇÑ °øÁö»çÇ× ¼ö(ÆäÀÌÂ¡) */
+	/* ê²€ìƒ‰í•œ ê³µì§€ì‚¬í•­ ìˆ˜(í˜ì´ì§•) */
 	public int getTotalSearchNotice(String selectBox, String searchInput) {
 		try {
 			sqlSession= this.getSessionFactory().openSession(true);
@@ -80,7 +80,7 @@ public class NoticeDAO {
 		}
 	}
 	
-	/* ¸ğµç °øÁö»çÇ× °¡Á®¿À´Â ¸Ş¼Òµå */
+	/* ëª¨ë“  ê³µì§€ì‚¬í•­ ê°€ì ¸ì˜¤ëŠ” ë©”ì†Œë“œ */
 	public List<NoticeVO> getNoticeList(int start, int end) {
 		try {
 			sqlSession=this.getSessionFactory().openSession(true);
@@ -99,7 +99,7 @@ public class NoticeDAO {
 		}
 	}//--getNoticeList();
 	
-	/* °Ë»öÇÑ °øÁö»çÇ× °³¼ö °¡Á®¿À±â */
+	/* ê²€ìƒ‰í•œ ê³µì§€ì‚¬í•­ ê°œìˆ˜ ê°€ì ¸ì˜¤ê¸° */
 	public int getSearchTotalCount(String selectBox, String searchInput) {
 		try {
 			sqlSession= this.getSessionFactory().openSession(true);
@@ -116,10 +116,10 @@ public class NoticeDAO {
 		}
 	}
 	
-	/* °Ë»öÇÑ °øÁö»çÇ×¸®½ºÆ® °¡Á®¿À´Â ¸Ş¼Òµå */
+	/* ê²€ìƒ‰í•œ ê³µì§€ì‚¬í•­ë¦¬ìŠ¤íŠ¸ ê°€ì ¸ì˜¤ëŠ” ë©”ì†Œë“œ */
 	public List<NoticeVO> selectNotice(String selectBox, String searchInput, int start, int end) {
 		try {
-			//°Ë»ö°ªÀÌ ¾øÀ¸¸é ÀüÃ¼°øÁö»çÇ×¸®½ºÆ® ³ª¿À°Ô
+			//ê²€ìƒ‰ê°’ì´ ì—†ìœ¼ë©´ ì „ì²´ê³µì§€ì‚¬í•­ë¦¬ìŠ¤íŠ¸ ë‚˜ì˜¤ê²Œ
 			if(searchInput==null || searchInput.trim().isEmpty()) {
 				List<NoticeVO> arr= getNoticeList(start, end);
 				return arr;
@@ -141,7 +141,7 @@ public class NoticeDAO {
 		}
 	}
 	
-	/* °øÁö»çÇ× ÇÏ³ªÀÇ ³»¿ë °¡Á®¿À±â */
+	/* ê³µì§€ì‚¬í•­ í•˜ë‚˜ì˜ ë‚´ìš© ê°€ì ¸ì˜¤ê¸° */
 	public NoticeVO selectOneNotice(String idx) {
 		try {
 			sqlSession= this.getSessionFactory().openSession(true);
@@ -154,7 +154,7 @@ public class NoticeDAO {
 			close();
 		}
 	}
-	/* °øÁö»çÇ× º¼¶§ Á¶È¸¼ö 1 Áõ°¡ */
+	/* ê³µì§€ì‚¬í•­ ë³¼ë•Œ ì¡°íšŒìˆ˜ 1 ì¦ê°€ */
 	public int updateClick(String idx) {
 		try {
 			sqlSession= this.getSessionFactory().openSession(true);
@@ -167,7 +167,7 @@ public class NoticeDAO {
 		}
 	}
 	
-	/* °øÁö»çÇ× ÀÛ¼º ¸Ş¼Òµå */
+	/* ê³µì§€ì‚¬í•­ ì‘ì„± ë©”ì†Œë“œ */
 	public int insertNotice(NoticeVO vo) {
 		try {
 			sqlSession= this.getSessionFactory().openSession(true);
@@ -181,7 +181,7 @@ public class NoticeDAO {
 		}
 	}
 	
-	/* °øÁö»çÇ× ¼öÁ¤ */
+	/* ê³µì§€ì‚¬í•­ ìˆ˜ì • */
 	public int updateNotice(NoticeVO vo) {
 		try {
 			sqlSession= this.getSessionFactory().openSession(true);
@@ -195,7 +195,7 @@ public class NoticeDAO {
 		}
 	}
 	
-	/* °øÁö»çÇ× »èÁ¦ */
+	/* ê³µì§€ì‚¬í•­ ì‚­ì œ */
 	public int deleteNotice(String idx) {
 		try {
 			sqlSession= this.getSessionFactory().openSession(true);

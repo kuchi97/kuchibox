@@ -4,24 +4,28 @@ public class MemberVO {
 	String email;
 	String pwd;
 	String name;
-	String year;
 	String age;
-	String point;
-	String state;
+	int point;
+	int subs;
+	String icon;
+	String chimg;
+	int state;
 	
 	/*constructor*/
-	public MemberVO()
-	{
+	public MemberVO() {
 		
 	}
-	public MemberVO(String email, String pwd, String name, String year, String age, String point, String state) {
+	public MemberVO(String email, String pwd, String name, String age, int point, int subs, String icon, String chimg,
+			int state) {
 		super();
 		this.email = email;
 		this.pwd = pwd;
 		this.name = name;
-		this.year = year;
 		this.age = age;
 		this.point = point;
+		this.subs = subs;
+		this.icon = icon;
+		this.chimg = chimg;
 		this.state = state;
 	}
 	
@@ -44,32 +48,45 @@ public class MemberVO {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getYear() {
-		return year;
-	}
-	public void setYear(String year) {
-		this.year = year;
-	}
 	public String getAge() {
 		return age;
 	}
 	public void setAge(String age) {
 		this.age = age;
 	}
-	public String getPoint() {
+	public int getPoint() {
 		return point;
 	}
-	public void setPoint(String point) {
+	public void setPoint(int point) {
 		this.point = point;
 	}
-	public String getState() {
+	public int getSubs() {
+		return subs;
+	}
+	public void setSubs(int subs) {
+		this.subs = subs;
+	}
+	public String getIcon() {
+		return icon;
+	}
+	public void setIcon(String icon) {
+		this.icon = icon;
+	}
+	public String getChimg() {
+		return chimg;
+	}
+	public void setChimg(String chimg) {
+		this.chimg = chimg;
+	}
+	public int getState() {
 		return state;
 	}
-	public void setState(String state) {
+	public void setState(int state) {
 		this.state = state;
 	}
 
-
+	
+	
 
 
 }

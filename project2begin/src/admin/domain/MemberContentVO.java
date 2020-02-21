@@ -5,27 +5,25 @@ public class MemberContentVO {
 	String idx;
 	String email;
 	String name;
-	String title;
+	String trailerTitle;
 	String reviewTitle;
 	String info;
 	String url;
-//	String contentIdx;
 	
 	public MemberContentVO()
 	{
 		
 	}
-	public MemberContentVO(String idx, String email, String name, String title, String reviewTitle, String info,
+	public MemberContentVO(String idx, String email, String name, String trailerTitle, String reviewTitle, String info,
 			String url, String contentIdx) {
 		super();
 		this.idx = idx;
 		this.email = email;
 		this.name = name;
-		this.title = title;
+		this.trailerTitle = trailerTitle;
 		this.reviewTitle = reviewTitle;
 		this.info = info;
 		this.url = url;
-//		this.contentIdx = contentIdx;
 	}
 	public String getIdx() {
 		return idx;
@@ -45,11 +43,11 @@ public class MemberContentVO {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String gettitle() {
-		return title;
+	public String getTrailerTitle() {
+		return trailerTitle;
 	}
-	public void settitle(String title) {
-		this.title = title;
+	public void setTrailerTitle(String trailerTitle) {
+		this.trailerTitle = trailerTitle;
 	}
 	public String getReviewTitle() {
 		return reviewTitle;
@@ -69,12 +67,6 @@ public class MemberContentVO {
 	public void setUrl(String url) {
 		this.url = url;
 	}
-//	public String getContentIdx() {
-//		return contentIdx;
-//	}
-//	public void setContentIdx(String contentIdx) {
-//		this.contentIdx = contentIdx;
-//	}
 	
 
 }

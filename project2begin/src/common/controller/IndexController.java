@@ -3,7 +3,7 @@ package common.controller;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-//index.jsp·Î °¡±âÀ§ÇÑ Ã¹°ÉÀ½
+//index.jspë¡œ ê°€ê¸°ìœ„í•œ ì²«ê±¸ìŒ
 public class IndexController extends AbstractAction {
 
 	@Override

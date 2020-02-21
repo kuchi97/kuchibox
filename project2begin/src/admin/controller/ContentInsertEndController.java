@@ -5,7 +5,7 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import admin.domain.ContentVO;
+import admin.domain.TrailerVO;
 import admin.domain.PagingVO;
 import admin.persistence.ContentDAO;
 import common.controller.AbstractAction;
@@ -17,10 +17,10 @@ public class ContentInsertEndController extends AbstractAction {
 		System.out.println("[ContentInsertEndController] ## FROM. contentInsertEnd.do");
 
 			
-		/* ¿©±â¿¡ ÀÎ¼­Æ®¹® ÀÛ¼ºÇÏ°í setAttribute()ÇÑ ÈÄ¿¡ µ¹¾Æ°£´Ù */
+		/* ì—¬ê¸°ì— ì¸ì„œíŠ¸ë¬¸ ì‘ì„±í•˜ê³  setAttribute()í•œ í›„ì— ëŒì•„ê°„ë‹¤ */
 		
 		
-		//ÀÌ°Å´Â ÀÓ½Ã·Î contentList º¸ÀÌ°Ô ÇØ³õÀº°Å---------
+		//ì´ê±°ëŠ” ì„ì‹œë¡œ contentList ë³´ì´ê²Œ í•´ë†“ì€ê±°---------
 //		List<ContentVO> arr= contentDAO.listContent(start, end);
 //		
 //		req.setAttribute("listContent", arr);

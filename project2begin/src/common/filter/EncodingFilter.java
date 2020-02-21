@@ -19,9 +19,9 @@ public class EncodingFilter implements Filter{
 
 	/*
 	doFilter()
-	: request¸¦ º¸³»±â Àü¿¡ »çÀüÃ³¸®ÇÒ ÄÚµå°¡ ÀÖ´Ù¸é ÀÌ°÷¿¡¼­ ±¸ÇöÇÑ´Ù
-	¶ÇÇÑ, response¸¦ º¸³½ ÈÄ¿¡ »çÈÄÃ³¸®ÇÒ ÄÚµå°¡ ÀÖ´Ù¸é ¿ª½Ã ¿©±â¼­ ±¸ÇöÇÑ´Ù
-	¿ì¸®´Â ¸ðµç ¿äÃ»À» Ã³¸®ÇÏ±â Àü¿¡ ÇÑ±Û ÀÎÄÚµùÃ³¸®¸¦ ÇÊÅÍ¿¡¼­ ÇÒ ¿¹Á¤
+	: requestë¥¼ ë³´ë‚´ê¸° ì „ì— ì‚¬ì „ì²˜ë¦¬í•  ì½”ë“œê°€ ìžˆë‹¤ë©´ ì´ê³³ì—ì„œ êµ¬í˜„í•œë‹¤
+	ë˜í•œ, responseë¥¼ ë³´ë‚¸ í›„ì— ì‚¬í›„ì²˜ë¦¬í•  ì½”ë“œê°€ ìžˆë‹¤ë©´ ì—­ì‹œ ì—¬ê¸°ì„œ êµ¬í˜„í•œë‹¤
+	ìš°ë¦¬ëŠ” ëª¨ë“  ìš”ì²­ì„ ì²˜ë¦¬í•˜ê¸° ì „ì— í•œê¸€ ì¸ì½”ë”©ì²˜ë¦¬ë¥¼ í•„í„°ì—ì„œ í•  ì˜ˆì •
 	
 	*/
 	

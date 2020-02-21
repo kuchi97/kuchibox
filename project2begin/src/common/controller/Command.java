@@ -3,10 +3,10 @@ package common.controller;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-//ÀÎÅÍÆäÀÌ½º: Ãß»ó¸Ş¼Òµå¿Í »ó¼öµîÀ» ³ª¿­¸¸ ÇØµÑ°ÅÀÓ
+//ì¸í„°í˜ì´ìŠ¤: ì¶”ìƒë©”ì†Œë“œì™€ ìƒìˆ˜ë“±ì„ ë‚˜ì—´ë§Œ í•´ë‘˜ê±°ì„
 public interface Command {
 	
-	//Ãß»óxxx ¿¡´Â public abstract°¡ ÀÚµ¿À¸·Î ºÙ´Â´Ù±¸
+	//ì¶”ìƒxxx ì—ëŠ” public abstractê°€ ìë™ìœ¼ë¡œ ë¶™ëŠ”ë‹¤êµ¬
 	void execute(HttpServletRequest req, HttpServletResponse res) throws Exception;
 
 }

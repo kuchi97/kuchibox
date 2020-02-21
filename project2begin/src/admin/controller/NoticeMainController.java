@@ -14,7 +14,7 @@ public class NoticeMainController extends AbstractAction{
 
 	@Override
 	public void execute(HttpServletRequest req, HttpServletResponse res) throws Exception {
-		System.out.println("[NoticeMainController] ## noticeMain.doø°º≠ ≥—æÓø»");
+		System.out.println("[NoticeMainController] ## noticeMain.doÏóêÏÑú ÎÑòÏñ¥Ïò¥");
 		
 		String cpageStr= req.getParameter("cpage");
 		if(cpageStr==null) {
@@ -25,9 +25,9 @@ public class NoticeMainController extends AbstractAction{
 		NoticeDAO dao= new NoticeDAO();
 		PagingVO paging= new PagingVO(dao.getTotalNotice(), cpage, 10, 5);
 		List<NoticeVO> arr= dao.getNoticeList(paging.getStart(), paging.getEnd());
-		//¿Ø»øº∫
+		//Ïú†Ìö®ÏÑ±
 		if(arr.size()<=0) {
-			String msg="∏Ò∑œ¿ª √£¿ª ºˆ æ¯Ω¿¥œ¥Ÿ [result:none]";
+			String msg="Î™©Î°ùÏùÑ Ï∞æÏùÑ Ïàò ÏóÜÏäµÎãàÎã§ [result:none]";
 			String loc="javascript:history.back()";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);

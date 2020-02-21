@@ -1,12 +1,12 @@
 package common.controller;
 
-//Ãß»óÅ¬·¡½ºÀÓ: execute()¶ó´Â Ãß»ó¸Ş¼Òµå¸¦ »ó¼Ó¹Ş¾Æ °¡Áö°íÀÖ´Ù
+//ì¶”ìƒí´ë˜ìŠ¤ì„: execute()ë¼ëŠ” ì¶”ìƒë©”ì†Œë“œë¥¼ ìƒì†ë°›ì•„ ê°€ì§€ê³ ìˆë‹¤
 public abstract class AbstractAction implements Command{
 	
 	private String msg;
 	private String loc;
-	private String viewPage;			//ºäÆäÀÌÁö°ª
-	private boolean isRedirect;			//¸®´ÙÀÌ·ºÆ® ¿©ºÎ
+	private String viewPage;			//ë·°í˜ì´ì§€ê°’
+	private boolean isRedirect;			//ë¦¬ë‹¤ì´ë ‰íŠ¸ ì—¬ë¶€
 	
 	/* setter, getter */
 	public String getMsg() {

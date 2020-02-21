@@ -30,40 +30,40 @@ public class FileDownloadServlet extends HttpServlet {
 	
 	private void download(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		
-		//1. ´Ù¿î·ÎµåÇÒ ÆÄÀÏ¸í ¹Ş±â
-		String filename= req.getParameter("filename");		//¹°¸®Àû ÆÄÀÏ¸í
-		String originFilename=req.getParameter("origin");	//¿øº» ÆÄÀÏ¸í
+		//1. ë‹¤ìš´ë¡œë“œí•  íŒŒì¼ëª… ë°›ê¸°
+		String filename= req.getParameter("filename");		//ë¬¼ë¦¬ì  íŒŒì¼ëª…
+		String originFilename=req.getParameter("origin");	//ì›ë³¸ íŒŒì¼ëª…
 		System.out.println("filename: "+filename+", origin: "+originFilename);
 		
-		//2. ¾÷·Îµå µğ·ºÅä¸®ÀÇ Àı´ë°æ·Î ¾ò±â
-		ServletContext app= req.getServletContext();		//**ÀÌ°Å Áß¿ä**
+		//2. ì—…ë¡œë“œ ë””ë ‰í† ë¦¬ì˜ ì ˆëŒ€ê²½ë¡œ ì–»ê¸°
+		ServletContext app= req.getServletContext();		//**ì´ê±° ì¤‘ìš”**
 		String upDir=app.getRealPath("/upload");
 		System.out.println("upDir: "+upDir);
 		
-		//3. ´Ù¿î·ÎµåÃ¢À» ½ÇÇà½ÃÅ°±âÀ§ÇØ response Çì´õ¿¡
-		// ÄÁÅÙÆ®³ªÀÔÀ» ºê¶ó¿ìÀú°¡ ÆÄ½ÌÇÏ±â ¾î·Á¿î Å¸ÀÔÀ¸·Î ÁöÁ¤ÇÏÀÚ
-		// ºê¶ó¿ìÀú´Â ¾Ë¼öÀÖ´ÂÇü½ÄÀÌ¸é º¸¿©ÁÖ°í ¸ğ¸£´ÂÅ¸ÀÔÀÌ¸é ´Ù¿î·ÎµåÃ¢À» ½ÇÇà½ÃÅ²´Ù
+		//3. ë‹¤ìš´ë¡œë“œì°½ì„ ì‹¤í–‰ì‹œí‚¤ê¸°ìœ„í•´ response í—¤ë”ì—
+		// ì»¨í…íŠ¸ë‚˜ì…ì„ ë¸Œë¼ìš°ì €ê°€ íŒŒì‹±í•˜ê¸° ì–´ë ¤ìš´ íƒ€ì…ìœ¼ë¡œ ì§€ì •í•˜ì
+		// ë¸Œë¼ìš°ì €ëŠ” ì•Œìˆ˜ìˆëŠ”í˜•ì‹ì´ë©´ ë³´ì—¬ì£¼ê³  ëª¨ë¥´ëŠ”íƒ€ì…ì´ë©´ ë‹¤ìš´ë¡œë“œì°½ì„ ì‹¤í–‰ì‹œí‚¨ë‹¤
 		res.setContentType("application/octet-stream");
 		
-		//ÆÄÀÏ¸íÀÇ ÇÑ±ÛÃ³¸®¸¦ À§ÇØ charsetÀ» ISO-8859-1·Î Ã³¸®ÇÑ´Ù
+		//íŒŒì¼ëª…ì˜ í•œê¸€ì²˜ë¦¬ë¥¼ ìœ„í•´ charsetì„ ISO-8859-1ë¡œ ì²˜ë¦¬í•œë‹¤
 		String filename_en= new String(originFilename.getBytes(), "ISO-8859-1");
 		
-		//4. Çì´õ¿¡ Content-Disposition ÀúÀå (´Ù¿î·Îµå Ã¢¿¡ ÇØ´ç ÆÄÀÏ¸íÀÌ ¶ß°ÔÇÏ±â)
-		// Áßº¹ÆÄÀÏÀÏ°æ¿ì ¹°¸®Àû°æ·ÎÀÏ¶§ µÚ¿¡ Áßº¹¹æÁö ÀÎµ¦½º ºÙ´Â°Í±îÁö Ãâ·ÂµÈ´Ù
-		// ÀÌ¸¦ ¹æÁöÇÏ±â À§ÇØ ¹°¸®Àû ÆÄÀÏ¸íº¸´Ù´Â ¿øº»ÆÄÀÏ¸íÀÌ Ãâ·ÂµÇµµ·Ï ÇÑ´Ù
+		//4. í—¤ë”ì— Content-Disposition ì €ì¥ (ë‹¤ìš´ë¡œë“œ ì°½ì— í•´ë‹¹ íŒŒì¼ëª…ì´ ëœ¨ê²Œí•˜ê¸°)
+		// ì¤‘ë³µíŒŒì¼ì¼ê²½ìš° ë¬¼ë¦¬ì ê²½ë¡œì¼ë•Œ ë’¤ì— ì¤‘ë³µë°©ì§€ ì¸ë±ìŠ¤ ë¶™ëŠ”ê²ƒê¹Œì§€ ì¶œë ¥ëœë‹¤
+		// ì´ë¥¼ ë°©ì§€í•˜ê¸° ìœ„í•´ ë¬¼ë¦¬ì  íŒŒì¼ëª…ë³´ë‹¤ëŠ” ì›ë³¸íŒŒì¼ëª…ì´ ì¶œë ¥ë˜ë„ë¡ í•œë‹¤
 		String arg1="attachment; filename="+filename_en;
 		res.setHeader("Content-Disposition", arg1);
 		
-		//5. ½ºÆ®¸² ¿¬°áÇÏ¿© ÀĞ°í ºê¶ó¿ìÀú¸¦ ÅëÇØ ³»º¸³»±â
-		String path=upDir+"/"+filename;	//µ¥ÀÌÅÍ ¼Ò½º(ÆÄÀÏ)
-		//½ÇÁ¦·Î ´Ù¿î·ÎµåÇÒ¶§´Â ¹°¸®ÀûÆÄÀÏ°ú ½ºÆ®¸²À» ¿¬°áÇÑ´Ù
+		//5. ìŠ¤íŠ¸ë¦¼ ì—°ê²°í•˜ì—¬ ì½ê³  ë¸Œë¼ìš°ì €ë¥¼ í†µí•´ ë‚´ë³´ë‚´ê¸°
+		String path=upDir+"/"+filename;	//ë°ì´í„° ì†ŒìŠ¤(íŒŒì¼)
+		//ì‹¤ì œë¡œ ë‹¤ìš´ë¡œë“œí• ë•ŒëŠ” ë¬¼ë¦¬ì íŒŒì¼ê³¼ ìŠ¤íŠ¸ë¦¼ì„ ì—°ê²°í•œë‹¤
 		
-		//¿©±âµµ BufferedInputStreamÀ¸·Î ÇÊÅÍ¸µ
+		//ì—¬ê¸°ë„ BufferedInputStreamìœ¼ë¡œ í•„í„°ë§
 		BufferedInputStream in= new BufferedInputStream(new FileInputStream(path));
 
-		//µ¥ÀÌÅÍ ¸ñÀûÁö >> Å¬¶óÀÌ¾ğÆ®(ºê¶ó¿ìÀú)ÂÊÀ¸·Î Ãâ·Â
+		//ë°ì´í„° ëª©ì ì§€ >> í´ë¼ì´ì–¸íŠ¸(ë¸Œë¼ìš°ì €)ìª½ìœ¼ë¡œ ì¶œë ¥
 		ServletOutputStream sos= res.getOutputStream();
-		//BufferedOutputStream À¸·Î ÇÊÅÍ¸µ
+		//BufferedOutputStream ìœ¼ë¡œ í•„í„°ë§
 		BufferedOutputStream out= new BufferedOutputStream(sos);
 		
 		int n;

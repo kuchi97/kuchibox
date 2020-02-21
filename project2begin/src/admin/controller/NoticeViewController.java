@@ -15,7 +15,7 @@ public class NoticeViewController extends AbstractAction {
 		
 		String idx= req.getParameter("idx");
 		if(idx==null || idx.trim().isEmpty()) {
-			String msg="Àß¸øµÈ Á¢±ÙÀÔ´Ï´Ù [parameter:none]";
+			String msg="ì˜ëª»ëœ ì ‘ê·¼ì…ë‹ˆë‹¤ [parameter:none]";
 			String loc="javascript:history.back()";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);
@@ -24,13 +24,13 @@ public class NoticeViewController extends AbstractAction {
 		}
 		
 		NoticeDAO dao= new NoticeDAO();
-		//Á¶È¸¼ö 1Áõ°¡
+		//ì¡°íšŒìˆ˜ 1ì¦ê°€
 		dao.updateClick(idx);
 		
 		NoticeVO notice= dao.selectOneNotice(idx);
-		//À¯È¿¼º
+		//ìœ íš¨ì„±
 		if(notice==null) {
-			String msg="Àß¸øµÈ Á¢±ÙÀÔ´Ï´Ù [parameter:none]";
+			String msg="ì˜ëª»ëœ ì ‘ê·¼ì…ë‹ˆë‹¤ [parameter:none]";
 			String loc="index.do";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);

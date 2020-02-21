@@ -1,4 +1,4 @@
--- ½Ï´Ù ³¯¸®±â ------------------------------
+-- ì‹¹ë‹¤ ë‚ ë¦¬ê¸° ------------------------------
 drop table good_review;
 drop table history;
 drop table member;

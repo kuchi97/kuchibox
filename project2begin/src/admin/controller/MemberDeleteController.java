@@ -14,9 +14,9 @@ public class MemberDeleteController extends AbstractAction {
 		System.out.println("[MemberDeleteController] ## FROM. memberDelete.do");
 		
 		String email= req.getParameter("email");
-		//À¯È¿¼º
+		//ìœ íš¨ì„±
 		if(email==null || email.trim().isEmpty()) {
-			String msg="Àß¸øµÈ °æ·ÎÀÔ´Ï´Ù [parameter:none]";
+			String msg="ìž˜ëª»ëœ ê²½ë¡œìž…ë‹ˆë‹¤ [parameter:none]";
 			String loc="javascript:history.back()";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);
@@ -25,10 +25,10 @@ public class MemberDeleteController extends AbstractAction {
 		}
 		
 		MemberDAO dao= new MemberDAO();
-		//À¯È¿¼º-Äõ¸®Á¶ÀÛ¹æÁö
+		//ìœ íš¨ì„±-ì¿¼ë¦¬ì¡°ìž‘ë°©ì§€
 		MemberVO isMember= dao.listOneMember(email);
 		if(isMember==null) {
-			String msg="Àß¸øµÈ Á¢±ÙÀÔ´Ï´Ù [result:none]";
+			String msg="ìž˜ëª»ëœ ì ‘ê·¼ìž…ë‹ˆë‹¤ [result:none]";
 			String loc="index.do";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);
@@ -38,7 +38,7 @@ public class MemberDeleteController extends AbstractAction {
 		
 		int n= dao.deleteMember(email);
 		
-		String msg= (n>0)? email+" ´ÔÀÇ °³ÀÎÁ¤º¸ »èÁ¦ ¿Ï·á":"»èÁ¦ ½ÇÆÐ";
+		String msg= (n>0)? email+" ë‹˜ì˜ ê°œì¸ì •ë³´ ì‚­ì œ ì™„ë£Œ":"ì‚­ì œ ì‹¤íŒ¨";
 		String loc= (n>0)? "memberList.do":"javascript:history.back()";
 		
 		req.setAttribute("msg", msg);

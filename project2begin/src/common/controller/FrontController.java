@@ -26,23 +26,23 @@ public class FrontController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
 	private Map<String, Object> cmdMap= new HashMap<>();
-	//command.propertiesÆÄÀÏÀÇ key¿Í value°ªÀ» °¡Á®¿Í¼­ ÀúÀåÇØÁÙ map°´Ã¼
+	//command.propertiesíŒŒì¼ì˜ keyì™€ valueê°’ì„ ê°€ì ¸ì™€ì„œ ì €ì¥í•´ì¤„ mapê°ì²´
        
 	@Override
 	public void init(ServletConfig config) throws ServletException {
 		super.init(config);
 		
-		/* @WebInitParam¿¡ ÀÖ´Â init-param config°ªÀ» ÀĞ¾î¿Â´Ù */
+		/* @WebInitParamì— ìˆëŠ” init-param configê°’ì„ ì½ì–´ì˜¨ë‹¤ */
 		String props= config.getInitParameter("config");
-		//@WebInitParamÀÇ Å°°ª configÀÇ ¹ë·ù°ªÀ» props¿¡ ÀúÀåÇÔ
-		System.out.println("°æ·Îprops:"+props);
+		//@WebInitParamì˜ í‚¤ê°’ configì˜ ë°¸ë¥˜ê°’ì„ propsì— ì €ì¥í•¨
+		System.out.println("ê²½ë¡œprops:"+props);
 		
 		
-		/* Properties°´Ã¼ »ı¼º */
+		/* Propertiesê°ì²´ ìƒì„± */
 		Properties pr= new Properties();
 		/*
-		command.properties ÆÄÀÏÀÇ °æ·Î¸¦ Properties °´Ã¼¿¡ ÀúÀåÇÑ´Ù 
-		ÀúÀåÇÏ·Á¸é input streamÀÌ ÇÊ¿äÇÑ°¡º½
+		command.properties íŒŒì¼ì˜ ê²½ë¡œë¥¼ Properties ê°ì²´ì— ì €ì¥í•œë‹¤ 
+		ì €ì¥í•˜ë ¤ë©´ input streamì´ í•„ìš”í•œê°€ë´„
 		*/
 		try {
 			FileInputStream fis= new FileInputStream(props);
@@ -51,11 +51,11 @@ public class FrontController extends HttpServlet {
 			fis.close();
 			System.out.println(pr.getProperty("/index.do"));
 			
-			//prÀÇ Å°°ªµé¸¸ ÃßÃâÇØº¸±â
+			//prì˜ í‚¤ê°’ë“¤ë§Œ ì¶”ì¶œí•´ë³´ê¸°
 			Enumeration<Object> en= pr.keys();
 			while(en.hasMoreElements()) {
 				Object key= en.nextElement();
-				String cmd= key.toString();				//index.do°¡ µé¾î¿È
+				String cmd= key.toString();				//index.doê°€ ë“¤ì–´ì˜´
 				String className=pr.getProperty(cmd);	//xxxIndexAction
 				
 				System.out.println("[FrontController] cmd: "+cmd);
@@ -65,20 +65,20 @@ public class FrontController extends HttpServlet {
 					className=className.trim();
 				}
 				
-				/*ÇØ´ç Å¬·¡½º¸¦ °´Ã¼È­ÇÏ¿© ¸Ş¸ğ¸®¿¡ ¿Ã¸°´Ù*/
+				/*í•´ë‹¹ í´ë˜ìŠ¤ë¥¼ ê°ì²´í™”í•˜ì—¬ ë©”ëª¨ë¦¬ì— ì˜¬ë¦°ë‹¤*/
 				Class cls= Class.forName(className);
-				Object cmdObj= cls.newInstance();		//°´Ã¼¸¦ ¸Ş¸ğ¸®¿¡ ¿Ã·ÁÁÜ
+				Object cmdObj= cls.newInstance();		//ê°ì²´ë¥¼ ë©”ëª¨ë¦¬ì— ì˜¬ë ¤ì¤Œ
 				
-				cmdMap.put(cmd,  cmdObj);			//¸¸µé¾îµĞ ¸Ê¿¡ ÀúÀå
+				cmdMap.put(cmd,  cmdObj);			//ë§Œë“¤ì–´ë‘” ë§µì— ì €ì¥
 			}//--while
 		}
 		catch (Exception e) {
 			e.printStackTrace();
-			throw new ServletException(e);				//ºê¶ó¿ìÀú¿¡ ¿¹¿Ü Ãâ·ÂÇØÁÖ±â
+			throw new ServletException(e);				//ë¸Œë¼ìš°ì €ì— ì˜ˆì™¸ ì¶œë ¥í•´ì£¼ê¸°
 		}
 	}
 
-	/* getÀÌ³ª post³ª °ü°è¾øÀÌ process¶ó´Â ¸Ş¼Òµå·Î Àü¼ÛÇØÁÙ°ÅÀÓ */
+	/* getì´ë‚˜ postë‚˜ ê´€ê³„ì—†ì´ processë¼ëŠ” ë©”ì†Œë“œë¡œ ì „ì†¡í•´ì¤„ê±°ì„ */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		process(request, response);
@@ -95,37 +95,37 @@ public class FrontController extends HttpServlet {
 		System.out.println("[FrontController] obj: "+obj);
 		
 		if(obj==null) {
-			System.out.println("[FrontController] ¾×¼ÇÀÌ null");
+			System.out.println("[FrontController] ì•¡ì…˜ì´ null");
 			return;
 		}
 		
 		AbstractAction action= (AbstractAction)obj;
-		//obj´Â pathÀÇ value°ª. Çüº¯È¯ ÇØÁà¾ßµÊ
-		//AbstractAction¿¡´Â viewPage¿Í isRedirect°¡ µé¾îÀÖ°í Command¸¦ »ó¼Ó¹Ş°íÀÖ´Ù
+		//objëŠ” pathì˜ valueê°’. í˜•ë³€í™˜ í•´ì¤˜ì•¼ë¨
+		//AbstractActionì—ëŠ” viewPageì™€ isRedirectê°€ ë“¤ì–´ìˆê³  Commandë¥¼ ìƒì†ë°›ê³ ìˆë‹¤
 		
 		try {
-			action.execute(req, res);			//¼­ºêÄÁÆ®·Ñ·¯ÀÇ ÀÏÀ» ¼öÇàÇÑ´Ù
+			action.execute(req, res);			//ì„œë¸Œì»¨íŠ¸ë¡¤ëŸ¬ì˜ ì¼ì„ ìˆ˜í–‰í•œë‹¤
 			
-			//ÀÌµ¿ÇÒ ºäÆäÀÌÁö ÁöÁ¤
+			//ì´ë™í•  ë·°í˜ì´ì§€ ì§€ì •
 			String viewPage= action.getViewPage();
 			if(viewPage==null) {
-				System.out.println("[FrontController] ºäÆäÀÌÁö°¡ null");
+				System.out.println("[FrontController] ë·°í˜ì´ì§€ê°€ null");
 				viewPage="index.jsp";
 			}
 			
-			//ÀÌµ¿¹æ½Ä¿¡ µû¶ó ÇØ´ç ºäÆäÀÌÁö·Î ÀÌµ¿
+			//ì´ë™ë°©ì‹ì— ë”°ë¼ í•´ë‹¹ ë·°í˜ì´ì§€ë¡œ ì´ë™
 			if(action.isRedirect()) {
 				res.sendRedirect(viewPage);
 			}
 			else {
-				//isRedirect°¡ falseÀÏ °æ¿ì °æ·ÎÁöÁ¤
+				//isRedirectê°€ falseì¼ ê²½ìš° ê²½ë¡œì§€ì •
 				RequestDispatcher disp= req.getRequestDispatcher(viewPage);
 				disp.forward(req, res);
 			}
 		}
 		catch (Exception e) {
 			e.printStackTrace();
-			throw new ServletException(e);			//¿¡·¯¸¦ È­¸é¿¡ ¶ç¿öÁÖ¼¼¿ä
+			throw new ServletException(e);			//ì—ëŸ¬ë¥¼ í™”ë©´ì— ë„ì›Œì£¼ì„¸ìš”
 		}
 	}
 	

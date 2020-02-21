@@ -14,9 +14,9 @@ public class NoticeEditController extends AbstractAction {
 		System.out.println("[NoticeEditController] executed ####");
 		
 		String idx= req.getParameter("idx");
-		//À¯È¿¼º
+		//ìœ íš¨ì„±
 		if(idx==null || idx.trim().isEmpty()) {
-			String msg="¸ñ·ÏÀ» Ã£À» ¼ö ¾ø½À´Ï´Ù [result:none]";
+			String msg="ëª©ë¡ì„ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤ [result:none]";
 			String loc="javascript:history.back()";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);
@@ -26,9 +26,9 @@ public class NoticeEditController extends AbstractAction {
 		
 		NoticeDAO dao= new NoticeDAO();
 		NoticeVO notice= dao.selectOneNotice(idx);
-		//À¯È¿¼º
+		//ìœ íš¨ì„±
 		if(notice==null) {
-			String msg="Àß¸øµÈ Á¢±ÙÀÔ´Ï´Ù [parameter:none]";
+			String msg="ì˜ëª»ëœ ì ‘ê·¼ì…ë‹ˆë‹¤ [parameter:none]";
 			String loc="index.do";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);

@@ -11,47 +11,47 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
-import admin.domain.ContentVO;
+import admin.domain.TrailerVO;
 import admin.domain.MemberContentVO;
 
 public class ContentDAO {
 	
 	private final String NS="admin.persistence.adminMapper";
-	/* NameSpace°ªÀ» °¡Áú »ó¼ö: contentMapper.xmlÀÇ <namespace>¼Ó¼º°ª°ú °°¾Æ¾ß ÇÑ´Ù */
+	/* NameSpaceê°’ì„ ê°€ì§ˆ ìƒìˆ˜: contentMapper.xmlì˜ <namespace>ì†ì„±ê°’ê³¼ ê°™ì•„ì•¼ í•œë‹¤ */
 	
-	private SqlSession sqlSession;		//sql¹®À» ½ÇÇàÇÒ ¼¼¼Ç »ı¼º
+	private SqlSession sqlSession;		//sqlë¬¸ì„ ì‹¤í–‰í•  ì„¸ì…˜ ìƒì„±
 	
-	//°øÀå¸¸µå´Â ¸Ş¼Òµå »ı¼º
+	//ê³µì¥ë§Œë“œëŠ” ë©”ì†Œë“œ ìƒì„±
 	public SqlSessionFactory getSessionFactory()
 	{
-		SqlSessionFactoryBuilder builder=null;		//ºó °ÇÃà°¡ ½½·Ô
+		SqlSessionFactoryBuilder builder=null;		//ë¹ˆ ê±´ì¶•ê°€ ìŠ¬ë¡¯
 		
-		String resource="common/config/mybatis-config.xml";		//¼³°èµµ >> mybatis-config¸¦ Âü°íÇÒ°ÅÀÓ
+		String resource="common/config/mybatis-config.xml";		//ì„¤ê³„ë„ >> mybatis-configë¥¼ ì°¸ê³ í• ê±°ì„
 		
 		try {
 			
-			InputStream is= Resources.getResourceAsStream(resource);	//¼³°èµµ¸¦ ÀĞ¾îµéÀÏ inputstream »ı¼º
-			builder= new SqlSessionFactoryBuilder();	//°ÇÃà°¡ Ã¤¿ë
+			InputStream is= Resources.getResourceAsStream(resource);	//ì„¤ê³„ë„ë¥¼ ì½ì–´ë“¤ì¼ inputstream ìƒì„±
+			builder= new SqlSessionFactoryBuilder();	//ê±´ì¶•ê°€ ì±„ìš©
 			
-			SqlSessionFactory factory= builder.build(is);		//°ÇÃà°¡°¡ ¼³°èµµ µé°í °øÀåÅÍ Àâ¾Ò´Ù
+			SqlSessionFactory factory= builder.build(is);		//ê±´ì¶•ê°€ê°€ ì„¤ê³„ë„ ë“¤ê³  ê³µì¥í„° ì¡ì•˜ë‹¤
 			
 			if(is!=null) is.close();
 			
-			return factory;		//°øÀå ¼¼ÁØ´Ù
+			return factory;		//ê³µì¥ ì„¸ì¤€ë‹¤
 		}
 		catch(IOException e) {
 			e.printStackTrace();
-			return null;		//°øÀå ¸øÁöÀ¸¸é ³Î
+			return null;		//ê³µì¥ ëª»ì§€ìœ¼ë©´ ë„
 		}
 	}//-- getSessionFactory();
 
-	/* ´İ±â ¸Ş¼Òµå */
+	/* ë‹«ê¸° ë©”ì†Œë“œ */
 	public void close()
 	{
 		if(sqlSession!=null) sqlSession.close();
 	}
 	
-	/* ÃÑ ÄÁÅÙÃ÷ ¼ö(ÆäÀÌÂ¡Ã³¸®¿ë) */
+	/* ì´ ì»¨í…ì¸  ìˆ˜(í˜ì´ì§•ì²˜ë¦¬ìš©) */
 	public int getTotalContent() {
 		try {
 			sqlSession= this.getSessionFactory().openSession(true);
@@ -65,7 +65,7 @@ public class ContentDAO {
 		}
 	}
 
-	/* °Ë»öÇÑ ÄÁÅÙÃ÷ ¼ö(ÆäÀÌÂ¡) */
+	/* ê²€ìƒ‰í•œ ì»¨í…ì¸  ìˆ˜(í˜ì´ì§•) */
 	public int getTotalSearchContent(String selectBox, String searchInput) {
 		try {
 			sqlSession= this.getSessionFactory().openSession(true);
@@ -81,7 +81,7 @@ public class ContentDAO {
 			close();
 		}
 	}
-	/* ÃÑ ¸â¹öÄÁÅÙÃ÷ ¼ö(ÆäÀÌÂ¡Ã³¸®¿ë) */
+	/* ì´ ë©¤ë²„ì»¨í…ì¸  ìˆ˜(í˜ì´ì§•ì²˜ë¦¬ìš©) */
 	public int getTotalMemberAllContent() {
 		try {
 			sqlSession= this.getSessionFactory().openSession(true);
@@ -94,7 +94,7 @@ public class ContentDAO {
 			close();
 		}
 	}
-	/* °Ë»öÇÑ ¸â¹öÄÁÅÙÃ÷ ¼ö(ÆäÀÌÂ¡) */
+	/* ê²€ìƒ‰í•œ ë©¤ë²„ì»¨í…ì¸  ìˆ˜(í˜ì´ì§•) */
 	public int getTotalSearchMemberContent(String selectBox, String searchInput) {
 		try {
 			sqlSession= this.getSessionFactory().openSession(true);
@@ -109,7 +109,7 @@ public class ContentDAO {
 			close();
 		}
 	}
-	/* Æ¯Á¤ ¸â¹öÀÇ ÃÑ ÄÁÅÙÃ÷ ¼ö(ÆäÀÌÂ¡Ã³¸®¿ë) */
+	/* íŠ¹ì • ë©¤ë²„ì˜ ì´ ì»¨í…ì¸  ìˆ˜(í˜ì´ì§•ì²˜ë¦¬ìš©) */
 	public int getTotalMemberContent(String email) {
 		try {
 			sqlSession= this.getSessionFactory().openSession(true);
@@ -123,8 +123,8 @@ public class ContentDAO {
 		}
 	}
 	
-/* ¸ğµç ÄÁÅÙÃ÷¸¦ º¸¿©ÁÖ´Â ¸Ş¼Òµå */
-	public List<ContentVO> listContent(int start, int end) {
+/* ëª¨ë“  ì»¨í…ì¸ ë¥¼ ë³´ì—¬ì£¼ëŠ” ë©”ì†Œë“œ */
+	public List<TrailerVO> listContent(int start, int end) {
 		try {
 			sqlSession= this.getSessionFactory().openSession(true);
 			
@@ -132,7 +132,7 @@ public class ContentDAO {
 			map.put("start", String.valueOf(start));
 			map.put("end", String.valueOf(end));
 			
-			List<ContentVO> arr= sqlSession.selectList(NS+".listContent", map);
+			List<TrailerVO> arr= sqlSession.selectList(NS+".listContent", map);
 			
 			return arr;
 		}
@@ -141,12 +141,12 @@ public class ContentDAO {
 		}
 	}
 	
-	/* Æ¯Á¤ ÄÁÅÙÃ÷ ³»¿ëÀ» °¡Á®¿À´Â ¸Ş¼Òµå (¼öÁ¤ÇÒ¶§) */
-	public ContentVO selectOneContent(String idx) {
+	/* íŠ¹ì • ì»¨í…ì¸  ë‚´ìš©ì„ ê°€ì ¸ì˜¤ëŠ” ë©”ì†Œë“œ (ìˆ˜ì •í• ë•Œ) */
+	public TrailerVO selectOneContent(String idx) {
 		try {
 			sqlSession= this.getSessionFactory().openSession(true);
 			
-			ContentVO content= sqlSession.selectOne(NS+".selectOneContent", idx);
+			TrailerVO content= sqlSession.selectOne(NS+".selectOneContent", idx);
 			
 			return content;
 		}
@@ -155,26 +155,26 @@ public class ContentDAO {
 		}
 	}
 	
-	/* °Ë»öÇÑ ÄÁÅÙÃ÷ º¸¿©ÁÖ´Â ¸Ş¼Òµå */
-	public List<ContentVO> searchContent(String selectBox,String searchInput,int start,int end) {
+	/* ê²€ìƒ‰í•œ ì»¨í…ì¸  ë³´ì—¬ì£¼ëŠ” ë©”ì†Œë“œ */
+	public List<TrailerVO> searchContent(String selectBox,String searchInput,int start,int end) {
 		
 		try {
 			sqlSession=this.getSessionFactory().openSession(true);
 			
-			//¸Å°³º¯¼ö ÀúÀåÇØµÑ ¸Ê
+			//ë§¤ê°œë³€ìˆ˜ ì €ì¥í•´ë‘˜ ë§µ
 			Map<String, String> map= new HashMap<>();
 			map.put("selectBox", selectBox);
 			map.put("searchInput", searchInput);
 			map.put("start", String.valueOf(start));
 			map.put("end",String.valueOf(end));
 			
-			//°Ë»öÀÌ °ø¶õÀÌ¸é ÀüÃ¼¸®½ºÆ® ¹İÈ¯
+			//ê²€ìƒ‰ì´ ê³µë€ì´ë©´ ì „ì²´ë¦¬ìŠ¤íŠ¸ ë°˜í™˜
 			if(searchInput==null || searchInput.trim().isEmpty()) {
-				List<ContentVO> arr= listContent(start, end);
+				List<TrailerVO> arr= listContent(start, end);
 				return arr;
 			}
 			
-			List<ContentVO> arr= sqlSession.selectList(NS+".searchContent", map);
+			List<TrailerVO> arr= sqlSession.selectList(NS+".searchContent", map);
 			
 			return arr;
 		}
@@ -183,7 +183,7 @@ public class ContentDAO {
 		}
 	}
 	
-/* ¸ğµç À¯ÀúÄÁÅÙÃ÷¸¦ º¸¿©ÁÖ´Â ¸Ş¼Òµå */
+/* ëª¨ë“  ìœ ì €ì»¨í…ì¸ ë¥¼ ë³´ì—¬ì£¼ëŠ” ë©”ì†Œë“œ */
 	public List<MemberContentVO> listAllMemberContent(int start, int end){
 		try {
 			sqlSession=this.getSessionFactory().openSession(true);
@@ -201,7 +201,7 @@ public class ContentDAO {
 		}
 	}
 	
-/* ÁöÁ¤ÇÑ »ç¿ëÀÚ°¡ ¿Ã¸° ÄÁÅÙÃ÷¸¦ º¸¿©ÁÖ´Â ¸Ş¼Òµå */
+/* ì§€ì •í•œ ì‚¬ìš©ìê°€ ì˜¬ë¦° ì»¨í…ì¸ ë¥¼ ë³´ì—¬ì£¼ëŠ” ë©”ì†Œë“œ */
 	public List<MemberContentVO> listMemberContent(String email, int start, int end) {
 		
 		try {
@@ -223,10 +223,10 @@ public class ContentDAO {
 		
 	}
 	
-	/* °Ë»öÇÑ »ç¿ëÀÚÄÁÅÙÃ÷ º¸¿©ÁÖ´Â ¸Ş¼Òµå */
+	/* ê²€ìƒ‰í•œ ì‚¬ìš©ìì»¨í…ì¸  ë³´ì—¬ì£¼ëŠ” ë©”ì†Œë“œ */
 	public List<MemberContentVO> searchMemberContent(String selectBox, String searchInput, int start, int end) {
 		try {
-			//°Ë»ö¾î°¡ ¾øÀ»°æ¿ì- ÀüÃ¼¸®½ºÆ® °¡Á®°¡°Ô
+			//ê²€ìƒ‰ì–´ê°€ ì—†ì„ê²½ìš°- ì „ì²´ë¦¬ìŠ¤íŠ¸ ê°€ì ¸ê°€ê²Œ
 			if(searchInput==null || searchInput.trim().isEmpty()) {
 				List<MemberContentVO> arr= listAllMemberContent(start, end);
 				return arr;
@@ -248,8 +248,8 @@ public class ContentDAO {
 		}
 	}
 	
-	/* ÄÁÅÙÃ÷ ¼öÁ¤(idx) */
-	public int updateContent(ContentVO content) {
+	/* ì»¨í…ì¸  ìˆ˜ì •(idx) */
+	public int updateContent(TrailerVO content) {
 		try {
 			sqlSession= this.getSessionFactory().openSession(true);
 			int n= sqlSession.update(NS+".updateContent", content);

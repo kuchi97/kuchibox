@@ -1,5 +1,5 @@
 --------------------------------------------------------
---  ÆÄÀÏÀÌ »ı¼ºµÊ - ¼ö¿äÀÏ-2¿ù-19-2020   
+--  íŒŒì¼ì´ ìƒì„±ë¨ - ìˆ˜ìš”ì¼-2ì›”-19-2020   
 --------------------------------------------------------
 --------------------------------------------------------
 --  DDL for Table TRAILER
@@ -130,749 +130,749 @@
   TABLESPACE "SYSTEM" ;
 REM INSERTING into RETULIX.TRAILER
 SET DEFINE OFF;
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','A','001','DA001',null,'https://www.youtube.com/embed/EpQVbvJ3TFo','Æú¶ó',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','A','002','DA002',null,'https://www.youtube.com/embed/gyzcOT6OqPE','ÆÛ´Ï¼Å',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','A','003','DA003',null,'https://www.youtube.com/embed/VknygXeeGnc','Á¦½ÃÄ« Á¸½º',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','A','004','DA004',null,'https://www.youtube.com/embed/I7jl4T2crGE','¾Ö·Î¿ì',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','A','005','DA005',null,'https://www.youtube.com/embed/JGhAJuxl_nU','¹è°¡º»µå',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','A','006','DA006',null,'https://www.youtube.com/embed/Z-TxS18HHns','ÅÂ¾çÀÇ ÈÄ¿¹',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','C','001','DC001',null,'https://www.youtube.com/embed/_y5UbAs6j-k','»ç¶ûÀÇ ºÒ½ÃÂø',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','C','002','DC002',null,'https://www.youtube.com/embed/gEDuUBkv-qc','½ÎÀÌÄÚÆĞ½º ´ÙÀÌ¾î¸®',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','C','003','DC003',null,'https://www.youtube.com/embed/JZbjJZWggSM','µ¥ÀÌºê·¹ÀÌÅ©',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','C','004','DC004',null,'https://www.youtube.com/embed/W1y0RNDnpJQ','À¸¶óÂ÷Â÷ ¿ÍÀÌÅ°Å°',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','C','005','DC005',null,'https://www.youtube.com/embed/UWTuGvLIW2E','°Ë»ç³»Àü',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','C','006','DC006',null,'https://www.youtube.com/embed/EXJdwEtqaSs','±Â °É½º',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','C','007','DC007',null,'https://www.youtube.com/embed/RfBgT5djaQw','±Â ÇÃ·¹ÀÌ½º',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','H','001','DH001',null,'https://www.youtube.com/embed/Sx9bjEfzV_s','ÇÑ´Ï¹ß',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','H','002','DH002',null,'https://www.youtube.com/embed/x-YJTJsVQ_0','Å·´ı',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','H','003','DH003',null,'https://www.youtube.com/embed/AZR9143LSoo','±â¹¦ÇÑ ÀÌ¾ß±â',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','H','004','DH004',null,'https://www.youtube.com/embed/Cd79LUQE7-0','¸¶ÀÎµåÇåÅÍ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','H','005','DH005',null,'https://www.youtube.com/embed/4Afm7QucvQs','Èú ÇÏ¿ì½ºÀÇ À¯·É',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','R','001','DR001',null,'https://www.youtube.com/embed/n-zpdgYFRe4','°¡½Ê°É',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','R','002','DR002',null,'https://www.youtube.com/embed/VwRBeMbf-L0','µµ±úºñ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','R','003','DR003',null,'https://www.youtube.com/embed/pHY8AdAZg4g','¹Ì½ºÅÍ ¼±»şÀÎ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','R','004','DR004',null,'https://www.youtube.com/embed/a5XfzDGQPpw','³ªÀÇ ¾ÆÀú¾¾',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','R','005','DR005',null,'https://www.youtube.com/embed/cRgyTsy5jp8','¸á·Î°¡ Ã¼Áú',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','S','001','DS001',null,'https://www.youtube.com/embed/ThGwRfBw6Cs','·Î½ºÆ® ÀÎ ½ºÆäÀÌ½º',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','S','002','DS002',null,'https://www.youtube.com/embed/5aIgt7d1pT4','¾î³ª´õ ¶óÀÌÇÁ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','S','003','DS003',null,'https://www.youtube.com/embed/1VQrJsvYxPg','¸¶½º',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','S','004','DS004',null,'https://www.youtube.com/embed/aE8tkxjueoE','ºí·¢¹Ì·¯',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','S','005','DS005',null,'https://www.youtube.com/embed/AZR9143LSoo','±â¹¦ÇÑ ÀÌ¾ß±â',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','001','MA001',null,'https://www.youtube.com/embed/mck3JCl2uwQ','¾îº¥Á®½º',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','002','MA002',null,'https://www.youtube.com/embed/5dRExhvuGnI','¾îº¥Á®½º-¿¡ÀÌÁö ¿Àºê ¿ïÆ®·Ğ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','003','MA003',null,'https://www.youtube.com/embed/xUDhdCsLkjU','¾îº¥Á®½º-ÀÎÇÇ´ÏÆ¼ ¿ö',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','004','MA004',null,'https://www.youtube.com/embed/PVP5ZJuI57c','¾îº¥Á®½º-¿£µå°ÔÀÓ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','005','MA005',null,'https://www.youtube.com/embed/SW6EKneLyCI','Å·½º¸Ç-½ÃÅ©¸´ ¿¡ÀÌÀüÆ®',25,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','006','MA006',null,'https://www.youtube.com/embed/fuwE3Lvysvs','Å·½º¸Ç-°ñµç ¼­Å¬',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','007','MA007',null,'https://www.youtube.com/embed/FMxbzIThWNA','Á¸ À¨',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','008','MA008',null,'https://www.youtube.com/embed/ux-kWYfEuZM','Á¸ À¨-¸®·Îµå',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','009','MA009',null,'https://www.youtube.com/embed/cs_takIhPxc','Á¸ À¨-ÆÄ¶óº§·ë',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','010','MA010',null,'https://www.youtube.com/embed/cs_takIhPxc','Å×ÀÌÅ«',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','011','MA011',null,'https://www.youtube.com/embed/rylE3y_QFLU','º» ¾óÆ¼¸ŞÀÌÅÒ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','012','MA012',null,'https://www.youtube.com/embed/p-fDEhVBnv4','¸Åµå¸Æ½º-ºĞ³ëÀÇ µµ·Î',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','013','MA013',null,'https://www.youtube.com/embed/9VNfau-s6Ys','Æú¸®½º ½ºÅä¸®',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','014','MA014',null,'https://www.youtube.com/embed/VLiAEXZK0qY','¹Ì¼Ç ÀÓÆÄ¼­ºí-°í½ºÆ® ÇÁ·ÎÅäÄİ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','015','MA015',null,'https://www.youtube.com/embed/cdEtgloxhso','¹Ì¼Ç ÀÓÆÄ¼­ºí-·Î±×³×ÀÌ¼Ç',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','016','MA016',null,'https://www.youtube.com/embed/gNJgMo14XWU','¹Ì¼Ç ÀÓÆÄ¼­ºí-Æú¾Æ¿ô',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','017','MA017',null,'https://www.youtube.com/embed/a6EOkza6fAA','·¹Áö´øÆ® ÀÌºí-ÆÄ¸êÀÇ ³¯',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','018','MA018',null,'https://www.youtube.com/embed/D5y3bOWc938','·¹Áö´øÆ® ÀÌºí-ÃÖÈÄÀÇ ½ÉÆÇ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','019','MA019',null,'https://www.youtube.com/embed/cOxYjISc9tI','¶÷º¸ : ¶ó½ºÆ® ¿ö',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','020','MA020',null,'https://www.youtube.com/embed/N7uu8v34HU8','¾ÆÄí¾Æ ¸Ç',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','001','MC001',null,'https://www.youtube.com/embed/0uC2FaZ4h1I','°¡Àå º¸ÅëÀÇ ¿¬¾Ö',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','002','MC002',null,'https://www.youtube.com/embed/4QyKCokEZXM','±Â¸ğ´× ¿¡ºê¸®¿ø',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','003','MC003',null,'https://www.youtube.com/embed/BaIRaKXrLPk','±ØÇÑÁ÷¾÷',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','004','MC004',null,'https://www.youtube.com/embed/sLZ8PRLWyKs','³ª»Û ÀÌ¿ôµé',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','005','MC005',null,'https://www.youtube.com/embed/fDhYGAIv4V8','³» ¾Æ³»ÀÇ ¸ğµç °Í',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','006','MC006',null,'https://www.youtube.com/embed/guug8ToBMwM','·±¾î¿şÀÌ ¹öÄÉÀÌ¼Ç',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','007','MC007',null,'https://www.youtube.com/embed/d6sA47lpfIc','·Ñ·¯ÄÚ½ºÅÍ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','008','MC008',null,'https://www.youtube.com/embed/Ez5Kvs_cnFQ','º£ÄÉÀÌ¼Ç',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','009','MC009',null,'https://www.youtube.com/embed/SribMKGqDAk','¼­È«½Ã¼öºÎ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','010','MC010',null,'https://www.youtube.com/embed/1_m4nB7tscA','¼¼ ¾ó°£ÀÌ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','011','MC011',null,'https://www.youtube.com/embed/jH6-ZBUbg-M','½º¹°',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','012','MC012',null,'https://www.youtube.com/embed/gg4HdbARFTg','½ºÆÄÀÌ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','013','MC013',null,'https://www.youtube.com/embed/-pkNFb9CVj4','½Ã½Ç¸® 2km',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','014','MC014',null,'https://www.youtube.com/embed/li4jOV5j7SI','¿¢½ÃÆ®',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','015','MC015',null,'https://www.youtube.com/embed/8ABOCiwhJI4','¿¬¾ÖÀÇ ¿Âµµ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','016','MC016',null,'https://www.youtube.com/embed/N0mlAk4_DWw','¿±±âÀûÀÎ ±×³à',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','017','MC017',null,'https://www.youtube.com/embed/8d7irFlE4WQ','À§´ëÇÑ ¼Ò¿ø',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','018','MC018',null,'https://www.youtube.com/embed/2m8Ehtb09vo','Á·±¸¿Õ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','019','MC019',null,'https://www.youtube.com/embed/qT_YhXsEhqg','ÄôÇª Çã½½',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','020','MC020',null,'https://www.youtube.com/embed/VgqnQspA29M','È²´çÇÑ ¿Ü°èÀÎ: Æú',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','001','MH001',null,'https://www.youtube.com/embed/tDeiSe0RDWs','ÀÎ½Ã´øÆ®',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','002','MH002',null,'https://www.youtube.com/embed/HeHx0lRvbYE','47 ¹ÌÅÍ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','003','MH003',null,'https://www.youtube.com/embed/Ej25zrnaTXk','°î¼º',50,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','004','MH004',null,'https://www.youtube.com/embed/upT8PqyRkNQ','°ËÀº »çÁ¦µé',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','005','MH005',null,'https://www.youtube.com/embed/hx2wUzYh5EE','»ç¹ÙÇÏ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','006','MH006',null,'https://www.youtube.com/embed/x8r2YvJC0Us','¾çµéÀÇ Ä§¹¬',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','007','MH007',null,'https://www.youtube.com/embed/qecwZJFpO0k','ÆÄ¶ó³ë¸» ¾×Æ¼ºñÆ¼',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','008','MH008',null,'https://www.youtube.com/embed/EDD5p7scmhk','ºÎ»êÇà',45,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','009','MH009',null,'https://www.youtube.com/embed/T1hCa35W34M','±×°Í',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','010','MH010',null,'https://www.youtube.com/embed/j8tK11xvs54','¿ÀÅ§·¯½º',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','011','MH011',null,'https://www.youtube.com/embed/Oo1p1yBvMHo','È­Â÷',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','012','MH012',null,'https://www.youtube.com/embed/0DXxZwlvjsg','¼¼ºìµ¥ÀÌÁî',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','013','MH013',null,'https://www.youtube.com/embed/cuY_BGtnU9Y','¿¢¼Ò½Ã½ºÆ®',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','014','MH014',null,'https://www.youtube.com/embed/xG4EEVZy9nE','À¯ÁÖ¾ó ¼­½ºÆåÆ®',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','015','MH015',null,'https://www.youtube.com/embed/5q-EqZGA03A','28ÁÖ ÈÄ',20,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','016','MH016',null,'https://www.youtube.com/embed/0Ww2LQsG07c','¿ùµå¿öZ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','017','MH017',null,'https://www.youtube.com/embed/M7UUg2qiJkM','¾ËÀÌ¾¾',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','018','MH018',null,'https://www.youtube.com/embed/fb7_v7FKtng','¾ËÆ÷ÀÎÆ®',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','019','MH019',null,'https://www.youtube.com/embed/w3NMBvSo7j4','Á»ºñ·£µå',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','020','MH020',null,'https://www.youtube.com/embed/ckSgdhThuys','³ª´Â Àü¼³ÀÌ´Ù',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','001','MR001',null,'https://www.youtube.com/embed/L9y9aJ13oCI','·¯ºê·¹ÅÍ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','002','MR002',null,'https://www.youtube.com/embed/J-in1bhVyaY','Áö±İ ¸¸³ª·¯ °©´Ï´Ù',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','003','MR003',null,'https://www.youtube.com/embed/7OIFdWk83no','¾î¹Ù¿ô Å¸ÀÓ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','004','MR004',null,'https://www.youtube.com/embed/07-QBnEkgXU','ÀÌÅÍ³Î ¼±»şÀÎ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','005','MR005',null,'https://www.youtube.com/embed/hlUSgRkkgtw','¶ó¶ó·£µå',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','006','MR006',null,'https://www.youtube.com/embed/VFwHs7fEUNs','¿Ó À§¹Î ¿øÆ®',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','007','MR007',null,'https://www.youtube.com/embed/ndtX6dtsQ0A','³» ¸Ó¸® ¼ÓÀÇ Áö¿ì°³',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','008','MR008',null,'https://www.youtube.com/embed/mUpJ18MRe8s','°ÇÃàÇĞ°³·Ğ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','009','MR009',null,'https://www.youtube.com/embed/H9Z3_ifFheQ','·¯ºê ¾×Ãò¾ó¸®',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','010','MR010',null,'https://www.youtube.com/embed/dstjxwURKxU','½Ã°£ ¿©ÇàÀÚÀÇ ¾Æ³»',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','011','MR011',null,'https://www.youtube.com/embed/wG9G4zVyAME','º¥ÀÚ¹Î ¹öÆ°ÀÇ ½Ã°£Àº °Å²Ù·Î °£´Ù',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','012','MR012',null,'https://www.youtube.com/embed/TkEpOvE24NQ','³ÊÀÇ °áÈ¥½Ä',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','013','MR013',null,'https://www.youtube.com/embed/ESPFTY8Y-xM','ºäÆ¼ ÀÎ»çÀÌµå',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','014','MR014',null,'https://www.youtube.com/embed/gPhXjrDANGk','³ëÆÃÈú',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','015','MR015',null,'https://www.youtube.com/embed/40Ahmsbae94','ÀÌÇÁ ¿Â¸®',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','016','MR016',null,'https://www.youtube.com/embed/NhHbprenFdw','¹Ì ºñÆ÷ À¯',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','017','MR017',null,'https://www.youtube.com/embed/AF4IzD6aVU4','³ëÆ®ºÏ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','018','MR018',null,'https://www.youtube.com/embed/f7-7PnEGfwM','Àå³­½º·± Å°½º',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','019','MR019',null,'https://www.youtube.com/embed/OVKamFhP4xQ','±× ½ÃÀı, ¿ì¸®°¡ ÁÁ¾ÆÇß´ø ¼Ò³à',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','020','MR020',null,'https://www.youtube.com/embed/nU7QQbCxa5I','Ã¹ Å°½º¸¸ 50¹øÂ°',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','001','MS001',null,'https://www.youtube.com/embed/7Rz-_40Qf_Y','¿¤¸®½Ã¿ò',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','002','MS002',null,'https://www.youtube.com/embed/hRhyJPmfoNg','ÀÎÅÍ½ºÅÚ¶ó',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','003','MS003',null,'https://www.youtube.com/embed/o_jF3T1DfiY','¹èÆ²½±',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','004','MS004',null,'https://www.youtube.com/embed/LIQrhm2qk-k','·¹µğ ÇÃ·¹ÀÌ¾î ¿ø',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','005','MS005',null,'https://www.youtube.com/embed/MtWXBWuiwVo','ÇÁ·Î¸ŞÅ×¿ì½º',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','006','MS006',null,'https://www.youtube.com/embed/Ku_IseK3xTc','Åõ¸ğ·Î¿ì',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','007','MS007',null,'https://www.youtube.com/embed/he21BE70f1Y','¿§Áö ¿Àºê Åõ¸ğ·Î¿ì',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','008','MS008',null,'https://www.youtube.com/embed/mNezVsOX9N8','ÅÍ¹Ì³×ÀÌÅÍ ´ÙÅ© ÆäÀÌÆ®',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','009','MS009',null,'https://www.youtube.com/embed/QVk-PU1xMjQ','ÆÛ½ºÆ®¸Ç',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','010','MS010',null,'https://www.youtube.com/embed/XNSNti8q_UQ','¾Öµå ¾Æ½ºÆ®¶ó',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','011','MS011',null,'https://www.youtube.com/embed/90cqM3_Bfvs','¸¶¼Ç',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','012','MS012',null,'https://www.youtube.com/embed/HuA0SChqiBg','ÇÈ¼¿',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','013','MS013',null,'https://www.youtube.com/embed/rL6RRIOZyCM','¾ÆÀÌ ·Îº¿',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','014','MS014',null,'https://www.youtube.com/embed/w0Cii08vz1w','ÀÎÅ¸ÀÓ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','015','MS015',null,'https://www.youtube.com/embed/yHIZFeKWd1I','È¤¼ºÅ»Ãâ Á¾ÀÇ ÀüÀï',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','016','MS016',null,'https://www.youtube.com/embed/efZRXYFkIcA','2001 ½ºÆäÀÌ½º ¿Àµğ¼¼ÀÌ',5,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','017','MS017',null,'https://www.youtube.com/embed/aYxwHwB6TAw','±×·¡ºñÆ¼',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','018','MS018',null,'https://www.youtube.com/embed/wACNe5jpLGw','ÀÎµğÆæ´ø½º µ¥ÀÌ ¸®½áÀü½º',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','019','MS019',null,'https://www.youtube.com/embed/a1G9EJU4llA','¿Àºí¸®ºñ¾ğ',null,null,null,'admin@admin.com');
-Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','020','MS020',null,'https://www.youtube.com/embed/CBw3tM2CcMM','ÆĞ½ÅÀú½º',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','A','001','DA001',null,'https://www.youtube.com/embed/EpQVbvJ3TFo','í´ë¼',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','A','002','DA002',null,'https://www.youtube.com/embed/gyzcOT6OqPE','í¼ë‹ˆì…”',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','A','003','DA003',null,'https://www.youtube.com/embed/VknygXeeGnc','ì œì‹œì¹´ ì¡´ìŠ¤',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','A','004','DA004',null,'https://www.youtube.com/embed/I7jl4T2crGE','ì• ë¡œìš°',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','A','005','DA005',null,'https://www.youtube.com/embed/JGhAJuxl_nU','ë°°ê°€ë³¸ë“œ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','A','006','DA006',null,'https://www.youtube.com/embed/Z-TxS18HHns','íƒœì–‘ì˜ í›„ì˜ˆ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','C','001','DC001',null,'https://www.youtube.com/embed/_y5UbAs6j-k','ì‚¬ë‘ì˜ ë¶ˆì‹œì°©',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','C','002','DC002',null,'https://www.youtube.com/embed/gEDuUBkv-qc','ì‹¸ì´ì½”íŒ¨ìŠ¤ ë‹¤ì´ì–´ë¦¬',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','C','003','DC003',null,'https://www.youtube.com/embed/JZbjJZWggSM','ë°ì´ë¸Œë ˆì´í¬',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','C','004','DC004',null,'https://www.youtube.com/embed/W1y0RNDnpJQ','ìœ¼ë¼ì°¨ì°¨ ì™€ì´í‚¤í‚¤',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','C','005','DC005',null,'https://www.youtube.com/embed/UWTuGvLIW2E','ê²€ì‚¬ë‚´ì „',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','C','006','DC006',null,'https://www.youtube.com/embed/EXJdwEtqaSs','êµ¿ ê±¸ìŠ¤',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','C','007','DC007',null,'https://www.youtube.com/embed/RfBgT5djaQw','êµ¿ í”Œë ˆì´ìŠ¤',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','H','001','DH001',null,'https://www.youtube.com/embed/Sx9bjEfzV_s','í•œë‹ˆë°œ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','H','002','DH002',null,'https://www.youtube.com/embed/x-YJTJsVQ_0','í‚¹ë¤',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','H','003','DH003',null,'https://www.youtube.com/embed/AZR9143LSoo','ê¸°ë¬˜í•œ ì´ì•¼ê¸°',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','H','004','DH004',null,'https://www.youtube.com/embed/Cd79LUQE7-0','ë§ˆì¸ë“œí—Œí„°',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','H','005','DH005',null,'https://www.youtube.com/embed/4Afm7QucvQs','í í•˜ìš°ìŠ¤ì˜ ìœ ë ¹',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','R','001','DR001',null,'https://www.youtube.com/embed/n-zpdgYFRe4','ê°€ì‹­ê±¸',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','R','002','DR002',null,'https://www.youtube.com/embed/VwRBeMbf-L0','ë„ê¹¨ë¹„',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','R','003','DR003',null,'https://www.youtube.com/embed/pHY8AdAZg4g','ë¯¸ìŠ¤í„° ì„ ìƒ¤ì¸',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','R','004','DR004',null,'https://www.youtube.com/embed/a5XfzDGQPpw','ë‚˜ì˜ ì•„ì €ì”¨',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','R','005','DR005',null,'https://www.youtube.com/embed/cRgyTsy5jp8','ë©œë¡œê°€ ì²´ì§ˆ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','S','001','DS001',null,'https://www.youtube.com/embed/ThGwRfBw6Cs','ë¡œìŠ¤íŠ¸ ì¸ ìŠ¤í˜ì´ìŠ¤',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','S','002','DS002',null,'https://www.youtube.com/embed/5aIgt7d1pT4','ì–´ë‚˜ë” ë¼ì´í”„',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','S','003','DS003',null,'https://www.youtube.com/embed/1VQrJsvYxPg','ë§ˆìŠ¤',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','S','004','DS004',null,'https://www.youtube.com/embed/aE8tkxjueoE','ë¸”ë™ë¯¸ëŸ¬',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('D','S','005','DS005',null,'https://www.youtube.com/embed/AZR9143LSoo','ê¸°ë¬˜í•œ ì´ì•¼ê¸°',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','001','MA001',null,'https://www.youtube.com/embed/mck3JCl2uwQ','ì–´ë²¤ì ¸ìŠ¤',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','002','MA002',null,'https://www.youtube.com/embed/5dRExhvuGnI','ì–´ë²¤ì ¸ìŠ¤-ì—ì´ì§€ ì˜¤ë¸Œ ìš¸íŠ¸ë¡ ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','003','MA003',null,'https://www.youtube.com/embed/xUDhdCsLkjU','ì–´ë²¤ì ¸ìŠ¤-ì¸í”¼ë‹ˆí‹° ì›Œ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','004','MA004',null,'https://www.youtube.com/embed/PVP5ZJuI57c','ì–´ë²¤ì ¸ìŠ¤-ì—”ë“œê²Œì„',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','005','MA005',null,'https://www.youtube.com/embed/SW6EKneLyCI','í‚¹ìŠ¤ë§¨-ì‹œí¬ë¦¿ ì—ì´ì „íŠ¸',25,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','006','MA006',null,'https://www.youtube.com/embed/fuwE3Lvysvs','í‚¹ìŠ¤ë§¨-ê³¨ë“  ì„œí´',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','007','MA007',null,'https://www.youtube.com/embed/FMxbzIThWNA','ì¡´ ìœ…',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','008','MA008',null,'https://www.youtube.com/embed/ux-kWYfEuZM','ì¡´ ìœ…-ë¦¬ë¡œë“œ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','009','MA009',null,'https://www.youtube.com/embed/cs_takIhPxc','ì¡´ ìœ…-íŒŒë¼ë²¨ë£¸',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','010','MA010',null,'https://www.youtube.com/embed/cs_takIhPxc','í…Œì´í°',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','011','MA011',null,'https://www.youtube.com/embed/rylE3y_QFLU','ë³¸ ì–¼í‹°ë©”ì´í…€',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','012','MA012',null,'https://www.youtube.com/embed/p-fDEhVBnv4','ë§¤ë“œë§¥ìŠ¤-ë¶„ë…¸ì˜ ë„ë¡œ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','013','MA013',null,'https://www.youtube.com/embed/9VNfau-s6Ys','í´ë¦¬ìŠ¤ ìŠ¤í† ë¦¬',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','014','MA014',null,'https://www.youtube.com/embed/VLiAEXZK0qY','ë¯¸ì…˜ ì„íŒŒì„œë¸”-ê³ ìŠ¤íŠ¸ í”„ë¡œí† ì½œ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','015','MA015',null,'https://www.youtube.com/embed/cdEtgloxhso','ë¯¸ì…˜ ì„íŒŒì„œë¸”-ë¡œê·¸ë„¤ì´ì…˜',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','016','MA016',null,'https://www.youtube.com/embed/gNJgMo14XWU','ë¯¸ì…˜ ì„íŒŒì„œë¸”-í´ì•„ì›ƒ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','017','MA017',null,'https://www.youtube.com/embed/a6EOkza6fAA','ë ˆì§€ë˜íŠ¸ ì´ë¸”-íŒŒë©¸ì˜ ë‚ ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','018','MA018',null,'https://www.youtube.com/embed/D5y3bOWc938','ë ˆì§€ë˜íŠ¸ ì´ë¸”-ìµœí›„ì˜ ì‹¬íŒ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','019','MA019',null,'https://www.youtube.com/embed/cOxYjISc9tI','ëŒë³´ : ë¼ìŠ¤íŠ¸ ì›Œ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','A','020','MA020',null,'https://www.youtube.com/embed/N7uu8v34HU8','ì•„ì¿ ì•„ ë§¨',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','001','MC001',null,'https://www.youtube.com/embed/0uC2FaZ4h1I','ê°€ì¥ ë³´í†µì˜ ì—°ì• ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','002','MC002',null,'https://www.youtube.com/embed/4QyKCokEZXM','êµ¿ëª¨ë‹ ì—ë¸Œë¦¬ì›',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','003','MC003',null,'https://www.youtube.com/embed/BaIRaKXrLPk','ê·¹í•œì§ì—…',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','004','MC004',null,'https://www.youtube.com/embed/sLZ8PRLWyKs','ë‚˜ìœ ì´ì›ƒë“¤',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','005','MC005',null,'https://www.youtube.com/embed/fDhYGAIv4V8','ë‚´ ì•„ë‚´ì˜ ëª¨ë“  ê²ƒ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','006','MC006',null,'https://www.youtube.com/embed/guug8ToBMwM','ëŸ°ì–´ì›¨ì´ ë²„ì¼€ì´ì…˜',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','007','MC007',null,'https://www.youtube.com/embed/d6sA47lpfIc','ë¡¤ëŸ¬ì½”ìŠ¤í„°',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','008','MC008',null,'https://www.youtube.com/embed/Ez5Kvs_cnFQ','ë² ì¼€ì´ì…˜',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','009','MC009',null,'https://www.youtube.com/embed/SribMKGqDAk','ì„œí™ì‹œìˆ˜ë¶€',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','010','MC010',null,'https://www.youtube.com/embed/1_m4nB7tscA','ì„¸ ì–¼ê°„ì´',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','011','MC011',null,'https://www.youtube.com/embed/jH6-ZBUbg-M','ìŠ¤ë¬¼',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','012','MC012',null,'https://www.youtube.com/embed/gg4HdbARFTg','ìŠ¤íŒŒì´',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','013','MC013',null,'https://www.youtube.com/embed/-pkNFb9CVj4','ì‹œì‹¤ë¦¬ 2km',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','014','MC014',null,'https://www.youtube.com/embed/li4jOV5j7SI','ì—‘ì‹œíŠ¸',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','015','MC015',null,'https://www.youtube.com/embed/8ABOCiwhJI4','ì—°ì• ì˜ ì˜¨ë„',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','016','MC016',null,'https://www.youtube.com/embed/N0mlAk4_DWw','ì—½ê¸°ì ì¸ ê·¸ë…€',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','017','MC017',null,'https://www.youtube.com/embed/8d7irFlE4WQ','ìœ„ëŒ€í•œ ì†Œì›',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','018','MC018',null,'https://www.youtube.com/embed/2m8Ehtb09vo','ì¡±êµ¬ì™•',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','019','MC019',null,'https://www.youtube.com/embed/qT_YhXsEhqg','ì¿µí‘¸ í—ˆìŠ¬',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','C','020','MC020',null,'https://www.youtube.com/embed/VgqnQspA29M','í™©ë‹¹í•œ ì™¸ê³„ì¸: í´',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','001','MH001',null,'https://www.youtube.com/embed/tDeiSe0RDWs','ì¸ì‹œë˜íŠ¸',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','002','MH002',null,'https://www.youtube.com/embed/HeHx0lRvbYE','47 ë¯¸í„°',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','003','MH003',null,'https://www.youtube.com/embed/Ej25zrnaTXk','ê³¡ì„±',50,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','004','MH004',null,'https://www.youtube.com/embed/upT8PqyRkNQ','ê²€ì€ ì‚¬ì œë“¤',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','005','MH005',null,'https://www.youtube.com/embed/hx2wUzYh5EE','ì‚¬ë°”í•˜',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','006','MH006',null,'https://www.youtube.com/embed/x8r2YvJC0Us','ì–‘ë“¤ì˜ ì¹¨ë¬µ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','007','MH007',null,'https://www.youtube.com/embed/qecwZJFpO0k','íŒŒë¼ë…¸ë§ ì•¡í‹°ë¹„í‹°',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','008','MH008',null,'https://www.youtube.com/embed/EDD5p7scmhk','ë¶€ì‚°í–‰',45,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','009','MH009',null,'https://www.youtube.com/embed/T1hCa35W34M','ê·¸ê²ƒ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','010','MH010',null,'https://www.youtube.com/embed/j8tK11xvs54','ì˜¤í˜ëŸ¬ìŠ¤',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','011','MH011',null,'https://www.youtube.com/embed/Oo1p1yBvMHo','í™”ì°¨',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','012','MH012',null,'https://www.youtube.com/embed/0DXxZwlvjsg','ì„¸ë¸ë°ì´ì¦ˆ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','013','MH013',null,'https://www.youtube.com/embed/cuY_BGtnU9Y','ì—‘ì†Œì‹œìŠ¤íŠ¸',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','014','MH014',null,'https://www.youtube.com/embed/xG4EEVZy9nE','ìœ ì£¼ì–¼ ì„œìŠ¤í™íŠ¸',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','015','MH015',null,'https://www.youtube.com/embed/5q-EqZGA03A','28ì£¼ í›„',20,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','016','MH016',null,'https://www.youtube.com/embed/0Ww2LQsG07c','ì›”ë“œì›ŒZ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','017','MH017',null,'https://www.youtube.com/embed/M7UUg2qiJkM','ì•Œì´ì”¨',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','018','MH018',null,'https://www.youtube.com/embed/fb7_v7FKtng','ì•Œí¬ì¸íŠ¸',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','019','MH019',null,'https://www.youtube.com/embed/w3NMBvSo7j4','ì¢€ë¹„ëœë“œ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','H','020','MH020',null,'https://www.youtube.com/embed/ckSgdhThuys','ë‚˜ëŠ” ì „ì„¤ì´ë‹¤',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','001','MR001',null,'https://www.youtube.com/embed/L9y9aJ13oCI','ëŸ¬ë¸Œë ˆí„°',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','002','MR002',null,'https://www.youtube.com/embed/J-in1bhVyaY','ì§€ê¸ˆ ë§Œë‚˜ëŸ¬ ê°‘ë‹ˆë‹¤',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','003','MR003',null,'https://www.youtube.com/embed/7OIFdWk83no','ì–´ë°”ì›ƒ íƒ€ì„',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','004','MR004',null,'https://www.youtube.com/embed/07-QBnEkgXU','ì´í„°ë„ ì„ ìƒ¤ì¸',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','005','MR005',null,'https://www.youtube.com/embed/hlUSgRkkgtw','ë¼ë¼ëœë“œ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','006','MR006',null,'https://www.youtube.com/embed/VFwHs7fEUNs','ì™“ ìœ„ë¯¼ ì›íŠ¸',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','007','MR007',null,'https://www.youtube.com/embed/ndtX6dtsQ0A','ë‚´ ë¨¸ë¦¬ ì†ì˜ ì§€ìš°ê°œ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','008','MR008',null,'https://www.youtube.com/embed/mUpJ18MRe8s','ê±´ì¶•í•™ê°œë¡ ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','009','MR009',null,'https://www.youtube.com/embed/H9Z3_ifFheQ','ëŸ¬ë¸Œ ì•¡ì¸„ì–¼ë¦¬',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','010','MR010',null,'https://www.youtube.com/embed/dstjxwURKxU','ì‹œê°„ ì—¬í–‰ìì˜ ì•„ë‚´',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','011','MR011',null,'https://www.youtube.com/embed/wG9G4zVyAME','ë²¤ìë¯¼ ë²„íŠ¼ì˜ ì‹œê°„ì€ ê±°ê¾¸ë¡œ ê°„ë‹¤',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','012','MR012',null,'https://www.youtube.com/embed/TkEpOvE24NQ','ë„ˆì˜ ê²°í˜¼ì‹',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','013','MR013',null,'https://www.youtube.com/embed/ESPFTY8Y-xM','ë·°í‹° ì¸ì‚¬ì´ë“œ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','014','MR014',null,'https://www.youtube.com/embed/gPhXjrDANGk','ë…¸íŒ…í',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','015','MR015',null,'https://www.youtube.com/embed/40Ahmsbae94','ì´í”„ ì˜¨ë¦¬',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','016','MR016',null,'https://www.youtube.com/embed/NhHbprenFdw','ë¯¸ ë¹„í¬ ìœ ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','017','MR017',null,'https://www.youtube.com/embed/AF4IzD6aVU4','ë…¸íŠ¸ë¶',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','018','MR018',null,'https://www.youtube.com/embed/f7-7PnEGfwM','ì¥ë‚œìŠ¤ëŸ° í‚¤ìŠ¤',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','019','MR019',null,'https://www.youtube.com/embed/OVKamFhP4xQ','ê·¸ ì‹œì ˆ, ìš°ë¦¬ê°€ ì¢‹ì•„í–ˆë˜ ì†Œë…€',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','R','020','MR020',null,'https://www.youtube.com/embed/nU7QQbCxa5I','ì²« í‚¤ìŠ¤ë§Œ 50ë²ˆì§¸',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','001','MS001',null,'https://www.youtube.com/embed/7Rz-_40Qf_Y','ì—˜ë¦¬ì‹œì›€',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','002','MS002',null,'https://www.youtube.com/embed/hRhyJPmfoNg','ì¸í„°ìŠ¤í…”ë¼',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','003','MS003',null,'https://www.youtube.com/embed/o_jF3T1DfiY','ë°°í‹€ì‰½',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','004','MS004',null,'https://www.youtube.com/embed/LIQrhm2qk-k','ë ˆë”” í”Œë ˆì´ì–´ ì›',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','005','MS005',null,'https://www.youtube.com/embed/MtWXBWuiwVo','í”„ë¡œë©”í…Œìš°ìŠ¤',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','006','MS006',null,'https://www.youtube.com/embed/Ku_IseK3xTc','íˆ¬ëª¨ë¡œìš°',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','007','MS007',null,'https://www.youtube.com/embed/he21BE70f1Y','ì—£ì§€ ì˜¤ë¸Œ íˆ¬ëª¨ë¡œìš°',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','008','MS008',null,'https://www.youtube.com/embed/mNezVsOX9N8','í„°ë¯¸ë„¤ì´í„° ë‹¤í¬ í˜ì´íŠ¸',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','009','MS009',null,'https://www.youtube.com/embed/QVk-PU1xMjQ','í¼ìŠ¤íŠ¸ë§¨',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','010','MS010',null,'https://www.youtube.com/embed/XNSNti8q_UQ','ì• ë“œ ì•„ìŠ¤íŠ¸ë¼',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','011','MS011',null,'https://www.youtube.com/embed/90cqM3_Bfvs','ë§ˆì…˜',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','012','MS012',null,'https://www.youtube.com/embed/HuA0SChqiBg','í”½ì…€',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','013','MS013',null,'https://www.youtube.com/embed/rL6RRIOZyCM','ì•„ì´ ë¡œë´‡',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','014','MS014',null,'https://www.youtube.com/embed/w0Cii08vz1w','ì¸íƒ€ì„',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','015','MS015',null,'https://www.youtube.com/embed/yHIZFeKWd1I','í˜¹ì„±íƒˆì¶œ ì¢…ì˜ ì „ìŸ',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','016','MS016',null,'https://www.youtube.com/embed/efZRXYFkIcA','2001 ìŠ¤í˜ì´ìŠ¤ ì˜¤ë””ì„¸ì´',5,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','017','MS017',null,'https://www.youtube.com/embed/aYxwHwB6TAw','ê·¸ë˜ë¹„í‹°',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','018','MS018',null,'https://www.youtube.com/embed/wACNe5jpLGw','ì¸ë””íœë˜ìŠ¤ ë°ì´ ë¦¬ì¨ì „ìŠ¤',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','019','MS019',null,'https://www.youtube.com/embed/a1G9EJU4llA','ì˜¤ë¸”ë¦¬ë¹„ì–¸',null,null,null,'admin@admin.com');
+Insert into RETULIX.TRAILER (DIV,GENRE,NUM,IDX,API_IDX,URL,TITLE,GOOD,CLICK,ZZIM,EMAIL) values ('M','S','020','MS020',null,'https://www.youtube.com/embed/CBw3tM2CcMM','íŒ¨ì‹ ì €ìŠ¤',null,null,null,'admin@admin.com');
 REM INSERTING into RETULIX.REVIEW
 SET DEFINE OFF;
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','500','DA500','ÃµÀçÅ³·¯¸¦ ºıÄ¡°Ô ¸¸µé¸é ¾ÈµÇ´Â ÀÌÀ¯','https://www.youtube.com/embed/wlao9pF9uug',null,null,null,null,'trip@hotmail.com','DA001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','501','DA501','ÃµÀç Å³·¯°¡ À¯È¤¿¡ ´ëÀÀÇÏ´Â ¹æ¹ı','https://www.youtube.com/embed/x0_1dLKt0g4',null,null,null,null,'bman@yahoo.com','DA001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','502','DA502','[¿µº¸TV] ÀºÅğÇÑ Å³·¯ÀÇ ÀÜÈ¤ÇÑ 19±İ¾×¼Ç!! ³İÇÃ¸¯½º ½ÅÀÛ¿µÈ­ Æú¶ó¸®ºä!!','https://www.youtube.com/embed/wWVWJCjalqI',null,null,null,null,'youngbotv@daum.net','DA001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','503','DA503','¿µ¿õÀÌ¶ó ºÎ¸£±â¿£ ³Ê¹«³ª Æø·ÂÀûÀÌ°í ÀÜÈ¤ÇÑ È÷¾î·Î, ÆÛ´Ï¼Å ÀÌ¾ß±â','https://www.youtube.com/embed/DAdlo60ZcqI',null,null,null,null,'genius@gmail.com','DA002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','504','DA504','¹üÁËÀÚ´Â ¹«Á¶°Ç Á×ÀÌ´Â ¸¶ºí È÷¾î·Î','https://www.youtube.com/embed/VEdReNQRp4E',null,null,null,null,'reviewang@gmail.com','DA002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','505','DA505','¹üÁËÀÚ´Â ÀçÆÇ¾øÀÌ »çÇüÀÔ´Ï´Ù [ ÆÛ´Ï¼Å ]','https://www.youtube.com/embed/B7YdJVVmXfM','" ³ÊÇÑÅ× ÁË°¡ ÀÖ´Ù¸é ³Í Á×´Â´Ù "',null,null,null,'incheon@yahoo.com','DA002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','506','DA506','DCµå¶ó¸¶°¡ Àç¹Õ´Ù°í? È°µç ±øÆĞ ¾Ö·Î¿ì ¸®ºä','https://www.youtube.com/embed/PyDO_fXlLf0',null,null,null,null,'kimchiman123@gmail.com','DA004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','507','DA507','È­»ì·Î ¼¼»óÀ» ±¸ÇÑ Çö´ëÆÇ ·ÎºóÈÄµå','https://www.youtube.com/embed/sB45ZBcB_yg','³·¿¡´Â ¾ï¸¸ÀåÀÚ ¹Ù¶÷µÕÀÌÁö¸¸ ¹ã¿¡´Â È°À» µé°í ¾Ç´çÀ» ¹°¸®Ä¡´Â ±×¸° ¾Ö·Î¿ìÀÇ ÀÌ¾ß±â .',null,null,null,'hamlet_movies@gmail.com','DA004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','508','DA508','È°°ú È­»ì·Î ¾²·¹±âµé¿¡°Ô Á¤ÀÇ±¸ÇöÇÏ´Â Àç¹ú2¼¼','https://www.youtube.com/embed/BuGtcmwvQfg',null,null,null,null,'shong@hotmail.com','DA004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','509','DA509','Jessica Jones Review ¨ç (Comparison with Dare Devil.. etc) by Nofeetbird','https://www.youtube.com/embed/zFlFqM7EKwQ',null,null,null,null,'nofootbird@gmail.com','DA003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','510','DA510','[¸®ºä] Á¦½ÃÄ« Á¸½º ½ÃÁğ 2 - µ¹¾Æ¿Â ¾ËÄİÁßµ¶ »ç¸³Å½Á¤','https://www.youtube.com/embed/lxyXkFT5oqk',null,null,null,null,'rkdwns@daum.net','DA003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','511','DA511','±³Åë»ç°í ÀÌÈÄ ±ú¾î³µ´õ´Ï ÃÊ´É·ÂÀ» ¾ò°Ô µÈ ¹Ì³àÈ÷¾î·Î','https://www.youtube.com/embed/6Og6g6HZeD8',null,null,null,null,'ans@daum.net','DA003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','512','DA512','¹è°¡º»µå ¸®ºä E01-02','https://www.youtube.com/embed/5p7ZYztZIs8',null,null,null,null,'uppercut@naver.com','DA005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','513','DA513','¹è°¡º»µå ¸®ºä E03-04','https://www.youtube.com/embed/m2oOXMxveKU',null,null,null,null,'uppercut@naver.com','DA005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','514','DA514','¹è°¡º»µå ¸®ºä¤ÓÃ¹ Àå¸é ÇØ¼®¤Ó1ºÎ','https://www.youtube.com/embed/j32aFtQbRSY','Àú¸¦ Æ÷ÇÔÇÑ ¹è°¡º»µå¸¦ º¸½Ã´Â ºĞµéÀÌ ¸¹ÀÌ ±Ã±İÇÏ¼Å¼­ ÁØºñÇÑ Æ¯Áı. Â÷´Ş°ÇÀº ¾îÂ¼´Ù °íÇØ¸®¸¦ Àú°İÇÏ°Ô µÇ¾ú³ª¸¦ ÃßÃøÇØº¸¾Ò½À´Ï´Ù',null,null,null,'reviewtns@gmail.com','DA005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','515','DA515','[ÄÒ±è¿¡ ¿£µù±îÁö] ÅÂ¾çÀÇ ÈÄ¿¹','https://www.youtube.com/embed/T2egnXbcJ7U',null,null,null,null,'cabletv@yahoo.com','DA006',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','516','DA516','[ÇØ¿Ü¹İÀÀ] ''ÅÂ¾çÀÇ ÈÄ¿¹'' ¹Ì±¹¹İÀÀ, ¿µ¾î±Ç ¹İÀÀ. "²À ºÁ¾ß¸¸ ÇÏ´Â µå¶ó¸¶!"','https://www.youtube.com/embed/9WLwFU3lVCo','¹Ì±¹ µ¿¿µ»ó »çÀÌÆ®ÀÎ DramaFever ¿¡¼­µµ ¼Ò°³ µÇ¾î, 6,000°³ ÀÌ»óÀÇ ¸®ºä°¡ ´Ş¸®¸ç Å« ÀÎ±â¸¦ ²ø°í ÀÖ½À´Ï´Ù.',null,null,null,'react@gmail.com','DA006',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','517','DA517','[ÅÂÈÄ¾ÎÀÌ¢Í] ¼Û¼ÛÄ¿ÇÃÀÇ Á÷Áø°í¹éºÎÅÍ ´Ş´Ş ¸í´ë»ç ¸ğÀ½ZIP','https://www.youtube.com/embed/FMXwmrDTZgk',null,null,null,null,'kbs_antena@daum.net','DA006',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','518','DC518','¹Ì¿î Á¤ÀÌ ¼¼»ó ¹«¼·´Ù´Â Ç¥Ä¡¼ö X ¼Õ¿¹Áø ¢½ ÃùÃù ÄÉ¹Ì°¡ ÀÌ ¼¼»ó ±ŞÀÌ ¾Æ´Ï¾ß | Crash','https://www.youtube.com/embed/ZHmVA1yqbAU','¾î´À ³¯ µ¹Ç³°ú ÇÔ²² ÆĞ·¯±Û¶óÀÌµù »ç°í·Î ºÏÇÑ¿¡ ºÒ½ÃÂøÇÑ Àç¹ú »ó¼Ó³à À±¼¼¸®¿Í ±×³à¸¦ ¼û±â°í ÁöÅ°´Ù »ç¶ûÇÏ°Ô µÇ´Â Æ¯±Ş Àå±³ ¸®Á¤ÇõÀÇ Àı´ë ±Øºñ ·¯ºê½ºÅä¸®¸¦ ±×¸° µå¶ó¸¶',null,null,null,'netvo@daum.net','DC001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','519','DC519','»ç¶ûÀÇ ºÒ½ÃÂø °á¹æ Æ¯Áı','https://www.youtube.com/embed/5L6_HwRa_5Y','»ç¶ûÀÇ ºÒ½ÃÂø °á¹æ Æ¯Áı (#crash landing of love#?îÜÚŞË½#»ç¶ûÀÇºÒ½ÃÂø#Çöºó#¼Õ¿¹Áø)',null,null,null,'dingo@daum.net','DC001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','520','DC520','[µå¶ó¸¶¸®ºä]»ç¶ûÀÇºÒ½ÃÂø, ÇØÇÇ¿£µùÀÌ µÉ ¼ö ÀÖÀ»±î?','https://www.youtube.com/embed/4brmHAymqqs','¼Õ¿¹Áø, Çöºó Ãâ¿¬ÀÎ tvNµå¶ó¸¶ ''»ç¶ûÀÇ ºÒ½ÃÂø'' 2È­±îÁö º¸°í ¸¸µç ¸®ºäÀÔ´Ï´Ù.
-ºÏÇÑ ¹è°æÀÌ¶ó ½Å±âÇÏ±âµµ ÇÏ¸é¼­ ¸¹Àº ºÎºĞµéÀÌ Áß±¹¿¡ ÀÖÀ»¶§ °æÇèÇØºÃ´ø°Å¶ó ¹İ°©±âµµ Çß¾î¿ä.
-¾ÕÀ¸·Î ¾î¶»°Ô ÁøÇàµÉÁö ±Ã±İÇÑ µå¶ó¸¶ÀÔ´Ï´Ù.',null,null,null,'uppercut@naver.com','DC001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','521','DC521','ÂøÇÏ°í ¼øÁøÇÑ È£±¸¿¡¼­ ½ÎÀÌÄÚÆĞ½º·Î °¢¼ºÇØ ¹ö¸° ³²ÀÚ','https://www.youtube.com/embed/rO63mqUyZlQ','¡Ú º» ¿µ»óÀº tvN°ú ÇùÀÇµÈ ¿µ»óÀÔ´Ï´Ù.
-¿À´Ã ¼Ò°³ÇØ µå¸± µå¶ó¸¶´Â
-#½ÎÀÌÄÚÆĞ½º´ÙÀÌ¾î¸®
-#´Şºû¹ÂÁî
-#µå¶ó¸¶',null,null,null,'eyesonme@naver.com','DC002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','522','DC522','Á¶Æø°ú ½ÎÀÌÄÚÆĞ½º°¡ ¿¤¸®º£ÀÌÅÍ¸¦ ÅÀ´Ù!','https://www.youtube.com/embed/OygsMKa1xAg','½ÎÀÌÄÚ ÆĞ½º ´ÙÀÌ¾î¸®..! °³ÀÎÀûÀ¸·Î Àú´Â.. È£±¸°¡ ½ÎÀÌÄÚÆĞ½º¶ó°í Âø°¢ÇÏ´Âµ¥ ÀÌ°Ô ¸ÔÇô.¤»¤» ÀÌ·± ¼³Á¤µéÀÌ Àç¹Õ¾ú½À´Ï´Ù. ±Ùµ¥ ÀÌ ½ÎÀÌÄÚÆĞ½º¶ó´Â ¼ÒÀç¸¦ ÅëÇØ¼­ ¿ì¸® °¨Á¤Áß¿¡ È­¸¦ ´Ù·ç·Á°í ÇÏ´Â°Å °°¾Æ¿ä. Æò¼Ò¿¡ È­¸¦ ¸ø³»°í »ç´Â »ç¶÷µé. Âü°í »ç´Â »ç¶÷µé, Á÷ÀåÀÎµéÀÌ³ª ÇĞ»ıµé¿¡°Ô ´ë¸®¸¸Á·À» ½ÃÄÑÁÙ ¼ö ÀÖ´Â µå¶ó¸¶ÀÌÁö ¾ÊÀ»±î »ı°¢ÀÌ µé°í¿ä. ¹İ¸é¿¡ ±â¾ï »ó½ÇÁõÀÌ¶óµç°¡, Àç¹ú ½ÎÀÌÄÚÆĞ½º, ÀÌ¾ß±â ÁøÇà»ó Çö½Ç°ú´Â Á» µ¿¶³¾îÁø ¼³Á¤ÀÌ ÀÖ¾î¿ä. ¾î¶²ºĞµé¿¡°Ô´Â Àç¹ÌÀÇ ¿ä¼Ò°¡ µÇ°ÚÁö¸¸ ´Ù¸¥ ºĞµé¿¡°Ô´Â ¶Ç À¯Ä¡ÇÒ ¼ö ÀÖ°Ú´Ù¶ó´Â »ı°¢ÀÌ µå´Â±º¿ä. ÀÌ·±ºÎºĞµéÀº µå¶ó¸¶ ¼±ÅÃÇÏ½Ç¶§ °í·ÁÇØº¸½Ã°í.. ºĞ¸í ¼ÒÀç´Â ÃæºĞÈ÷ Èï¹Ì·Ó½À´Ï´Ù. ±Ùµ¥ ¾ÆÁ÷ µÎ°íºÁ¾ßÁÒ. °è¼Ó ¹æ¿µÁßÀÌ´Ï±î..! ³ªµµ ¾ÆÁ÷ ´õ ºÁ¾ßµÉ°Å °°¾Ö¿ä.¤»¤»',null,null,null,'unjun@naver.com','DC002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','523','DC523','Á¤½Å°ú ÀÇ»ç°¡ ½ÎÀÌÄÚÆĞ½º µå¶ó¸¶¸¦ º»´Ù¸é !? [½ÎÆĞ´Ù ep1 ¸®ºä]','https://www.youtube.com/embed/zFPE5iAidIA','¿À´Ã ¿µ»óµµ Áñ°Å¿ì¼Ì³ª¿ä? ´ÚÇÁ¸¦ ±¸µ¶ÇÏ½Ã¸é, ¸ÅÁÖ Àç¹ÌÀÖ°í °Ç°­ÇÑ ¿µ»óÀÌ ÇÔ²²ÇÕ´Ï´Ù. ±¸µ¶Àº °Ç°­ÀÔ´Ï´Ù¢¾',null,null,null,'sogaenam@naver.com','DC002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','524','DC524','Á¸Àç°¨ ¾ø´ø ³»°¡ ¸ê¸ÁÇÑ ¼¼°è¿¡¼­ ÃÊÀÎ±â ½ºÆ®¸®¸Ó°¡ µÈ´Ù!?','https://www.youtube.com/embed/5IcWFG7abcM','#µ¥ÀÌºê·¹ÀÌÅ© #netflix',null,null,null,'sogaenam@naver.com','DC003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','525','DC525','µå¶ó¸¶ ¡®À¸¶óÂ÷Â÷ ¿ÍÀÌÅ°Å° 2¡¯(1) ¸®ºä (°ø¿¬ ÀĞ¾îÁÖ´Â ±âÀÚ, µå¶ó¸¶ ¸®ºä #19) º´¸À¿¬±â, º´¸ÀÄÚµå! ½ÃÁğ1°ú ¿¬°áÀÌ ¾È µÈ´Ù? ¾àÀÏ±î, µ¶ÀÏ±î?','https://www.youtube.com/embed/wBNzngP3Myo','°ø¿¬ ÀĞ¾îÁÖ´Â ±âÀÚ! µå¶ó¸¶ ¸®ºä ¿­¾ÆÈ© ¹øÂ° ½Ã°£Àº JTBC ¿ùÈ­µå¶ó¸¶ ¡®À¸¶óÂ÷Â÷ ¿ÍÀÌÅ°Å° 2¡¯ Á¦1È¸, Á¦1È­ ¸®ºä ¡®º´¸À¿¬±â, º´¸ÀÄÚµå! ½ÃÁğ1°ú ¿¬°áÀÌ ¾È µÈ´Ù? ¾àÀÏ±î, µ¶ÀÏ±î?¡¯ÀÔ´Ï´Ù.',null,null,null,'uppercut@naver.com','DC004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','526','DC526','¢ÍÇÖÅ¬¸³¢Í [HD] ¿ì¿ïÇÒ ¶© *ÀÌÀÌ°æ* Âü´ÙÂü´Ù ¿ÀÁÜ Æø¹ßÇÑ ´ë¹è¿ì','https://www.youtube.com/embed/-LVzjwlQFEc','¡Ù¿ôÀ½ Áö·Ú¡Ù ¿ì¿ïÇÒ ¶© ÀÌÀÌ°æ
-¿ÀÁÜ Âü´Ù Âü´Ù ½Ã¿ø¢ÖÇÏ°Ô ´Ù ³õ¾Æ¹ö¸° ÀÌÀÌ°æ',null,null,null,'cabletv@yahoo.com','DC004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','527','DC527','[°ñ¶óºÁ¾ßÁö] ¹Ï°í º¸´Â ¿ôÀ½ÆøÅº¢Í ¹è²Å µµµÏ ''ÀÌÀÌ°æ(Lee Yi kyung)''À» ¼Ò°³ÇÕ´Ï´Ù *^^* #À¸¶óÂ÷Â÷ ¿ÍÀÌÅ°Å°2 #JTBCºÁ¾ßÁö','https://www.youtube.com/embed/yzaRghKlT30','¡´À¸¶óÂ÷Â÷ ¿ÍÀÌÅ°Å°¡µÀÇ ¹Ï°í º¸´Â ¿ôÀ½ ÆøÅº¢Í ''ÀÌÁØ±â''(ÀÌÀÌ°æ)
-¿ôÀ½ÀÌ ÇÑÃş ¾÷±×·¹ÀÌµåµÈ ¡´À¸¶óÂ÷Â÷¿ÍÀÌÅ°Å°2¡µ ÀÌÁØ±â·Î ÄÄ¹é',null,null,null,'react@gmail.com','DC004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','528','DC528','[½ºÆä¼È] ÆËÄÜ°¢¢Ö ¢ÍÀÌ¼±¿õvsÂ÷¸íÁÖ¢Í ºÒ²ÉÆ¢´Â Æ¼Å°Å¸Ä«.zip £¼°Ë»ç³»Àü(Diary of a prosecutor)£¾','https://www.youtube.com/embed/6CUGkQgnNUM','ÆËÄÜ°¢¢Ö 10ºĞ µ¿¾È ½Î¿ì´Â °Å ½ÇÈ­?
-¼û ½¯ Æ´ ¾øÀÌ ¸¸³ª±â¸¸ ÇÏ¸é ½Î¿ì´Â µÎ »ç¶÷
-°¨¼ºÀûÀÎ ''ÀÌ¼±¿õ'' vs ÀÌ¼ºÀûÀÎ ''Â÷¸íÁÖ''',null,null,null,'kbs_antena@daum.net','DC005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','529','DC529','(PoºÒÆíwer) »ì ¶³¸®´Â Á¤·Á¿ø(Jung Ryeo-won)ÀÇ ÆĞ±â¿¡ ¼û ¸·È÷´Â ''Çü»ç2ºÎ'' °Ë»ç³»Àü(Diary of a prosecutor) 2È¸','https://www.youtube.com/embed/5C8llbDHRYs','Â÷¸íÁÖ(Á¤·Á¿ø) »©°í ¾ÆÁöÆ® ''¹°¾È°³''¿¡ ¸ğÀÎ Çü»ç2ºÎ!
-"ÆĞ±â°¡ ÀÖ´Â °ÇÁö, ¹ö¸©ÀÌ ¾ø´Â °ÇÁö¡¦"
-Â÷¸íÁÖ°¡ ºÒÆíÇÏ±â¸¸ ÇÑ Çü»ç2ºÎ
-µµ´ëÃ¼ Â÷¸íÁÖ´Â ¿Ö Áø¿µ¿¡ ¿ÔÀ»±î?',null,null,null,'uppercut@naver.com','DC005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','530','DC530','ÁÖºÎµµµÏµéÀÇ ¼ºÀå±â ¡¶±Â °É½º¡·','https://www.youtube.com/embed/c1Ogv7dXkgw','¿ì¿¬È÷ ¸¶Æ®¸¦ ÅĞ°Ô µÈ Æò¹üÇÑ ÁÖºÎµéÀÌ ¸¶ÇÇ¾Æ¸¦ ´É°¡ÇÏ´Â ¹üÁËÁ¶Á÷À¸·Î °Åµì³ª´Â ÆÄ¶õ¸¸Àå ¼ºÀå±â. ±Ù·¡µé¾î °¡Àå Áñ°Ì°Ô Á¤ÁÖÇàÇÑ ³İÇÃ¸¯½º ¿À¸®Áö³Î ½Ã¸®Áî ¡¶±Â °É½º¡·¸¦ ¼Ò°³ÇØµå¸³´Ï´Ù. ±Â °É½º´Â Ã¹¹øÂ° ½ÃÁğ, 10°³ÀÇ ¿¡ÇÇ¼Òµå°¡ °ø°³µÇ¾î ÀÖÀ¸¸ç ½ÃÁğ2 Á¦ÀÛÀÌ È®Á¤µÇ¾î 2019³â ¹æ¿µ ¿¹Á¤ÀÔ´Ï´Ù.',null,null,null,'uppercut@naver.com','DC006',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','531','DC531','Á¶Á÷ÀÇ µ·À» ÈÉÃÄ¹ö¸° °£Å« ¾ÆÁÜ¸¶µé','https://www.youtube.com/embed/Nl860euVVts',null,null,null,null,'reviewtns@gmail.com','DC006',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','532','DC532','Áö¿Á¿¡ °¡¾ß µÇ´Âµ¥ ½Ç¼ö·Î Ãµ±¹¿¡ ¿Í¹ö·È´Ù','https://www.youtube.com/embed/swkbxDKyqcQ','¾È³çÇÏ¼¼¿ä, ¹Ìµé»·ÀÔ´Ï´Ù.
-¿À´Ã ¼Ò°³ÇØµå¸± ÀÛÇ°Àº ''±Â ÇÃ·¹ÀÌ½º(Good Place)'' ÀÔ´Ï´Ù.',null,null,null,'kimchiman123@gmail.com','DC007',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','533','DC533','´Ù´Ü°èÆÇ¸Å¿øÀÌ ¿î»¡·Î Ãµ±¹°¡¼­ ¹ú¾îÁø ÀÏ','https://www.youtube.com/embed/m7aD5pFIvLs','µå¶ó¸¶ Á¦¸ñ : ±Â ÇÃ·¹ÀÌ½º
-#¿µÈ­¸®ºä #µå¶ó¸¶¸®ºä #¿µÈ­ÃßÃµ',null,null,null,'hamlet_movies@gmail.com','DC007',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','534','DC534','½Å¼±µµ100% µ¶Æ¯ÇÏ°í À¯ÄèÇÑ »çÈÄ¼¼°è. ±Â ÇÃ·¹ÀÌ½º °¡ÀÌµå ¸®ºä','https://www.youtube.com/embed/b33qMSCxXMU','³İÇÃ¸¯½º ÃßÃµÀÛ. Ãµ±¹ÀÌ Á¸ÀçÇÑ´Ù¸é ¹Ù·Î ÀÌ °÷ÀÏ±î? ³İÇÃ¸¯½º °íÆòÁ¡ ÃßÃµ µå¶ó¸¶ °¡ÀÌµå ¸®ºä: ±Â ÇÃ·¹ÀÌ½º ·ÎÆ°Åä¸¶Åä, IMDb, ¸ŞÅ¸Å©¸®Æ½¿¡¼­ °íÆòÁ¡À» ¹ŞÀº ¿µÈ­¿Í µå¶ó¸¶¸¦ ÃßÃµÇÕ´Ï´Ù.',null,null,null,'shong@hotmail.com','DC007',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','535','DC535','¿î»¡·Î Ãµ±¹À» °£ ¿©ÀÚ','https://www.youtube.com/embed/sq8X0gjAEtg','¿©·¯ºĞ ¾È³çÇÏ¼¼¿ä »ß¸ÇÀÔ´Ï´Ù.
-¿À´ÃÀº ³İÇÃ¸¯½ºÀÇ µå¶ó¸¶ ''±Â ÇÃ·¹ÀÌ½º''¿¡ ´ëÇØ¼­ ¾Ë¾Æº¸·Á°í ÇÕ´Ï´Ù. Á×°í³ª¼­ ''±Â ÇÃ·¹ÀÌ½º'' °ü¸®ÀÚÀÇ ½Ç¼ö·Î ÀÎÇØ Ãµ±¹À» ¿À°ÔµÈ ¿¤·¹³ÊÀÇ ÀÌ¾ß±â¸¦ ´ã°í ÀÖ½À´Ï´Ù.',null,null,null,'serin@naver.com','DC007',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','536','DH536','ÀÎ°£À» ¿ä¸®ÇÏ´Â ÃµÀç »ìÀÎ¸¶','https://www.youtube.com/embed/VLiIPiybIf4','³İÇÃ¸¯½º ¹æ¿µ ÁßÀÎ µå¶ó¸¶ ÇÑ´Ï¹ßÀÔ´Ï´Ù
-*º» ¿µ»óÀº ³İÇÃ¸¯½ºÀÇ Áö¿øÀ» ¹Ş¾Æ Á¦ÀÛµÇ¾úÀ¸¸ç, À¯·á ±¤°í¸¦ Æ÷ÇÔÇÏ°í ÀÖ½À´Ï´Ù.',null,null,null,'sangung@yahoo.com','DH001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','537','DH537','±â±«ÇÏ°í Ãæ°İÀûÀÎ ¹æ½ÄÀ» ¾²´Â ½ÎÀÌÄÚÆĞ½º','https://www.youtube.com/embed/WwB1GzdD0d4','¹Ìµå ¼Ò°³¿µ»óÀÔ´Ï´Ù
-[ CH. ºñµğ¿À °¡°Ô´Â °¢Á¾ ÇØ¿Ü ¿µÈ­ µå¶ó¸¶ ¹Ì±¹µå¶ó¸¶ µîÀ» ¼Ò°³ÇØµå¸®°í ÃßÃµ ÇØµå¸®´Â ¿µÈ­ ¼Ò°³ À¯Æ©ºê Ã¤³ÎÀÔ´Ï´Ù ]
-[¹ÌµåÃßÃµ]
-¿µÈ­ÃßÃµ µå¶ó¸¶ÃßÃµ ¿µÈ­¼Ò°³ ¹Ìµå¼Ò°³ Ã¤³Î
-¼Ò½ºÃâÃ³: ¹Ìµå - ÇÑ´Ï¹ß¤Ó À½¾Ç¼Ò½º: *Aftermath Madness Paranoia
-ÀÌ ³ë·¡¸¦ ¹«·á·Î »ç¿ëÇÏ°í µ¿¿µ»óÀ¸·Î ¼öÀÍÀ» Ã¢ÃâÇÒ ¼ö ÀÖÁö¸¸ µ¿¿µ»ó ¼³¸í¿¡ ´ÙÀ½À» Æ÷ÇÔÇØ¾ß ÇÕ´Ï´Ù.
-Kevin MacLeodÀÇ Aftermath - Madness ParanoiaÀº(´Â) Creative Commons Attribution ¶óÀÌ¼±½º(https://creativecommons.org/licenses/... µû¶ó ¶óÀÌ¼±½º°¡ ºÎ¿©µË´Ï´Ù.
-ÃâÃ³: http://incompetech.com/music/royalty-...
-¾ÆÆ¼½ºÆ®: http://incompetech.com/
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','500','DA500','ì²œì¬í‚¬ëŸ¬ë¥¼ ë¹¡ì¹˜ê²Œ ë§Œë“¤ë©´ ì•ˆë˜ëŠ” ì´ìœ ','https://www.youtube.com/embed/wlao9pF9uug',null,null,null,null,'trip@hotmail.com','DA001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','501','DA501','ì²œì¬ í‚¬ëŸ¬ê°€ ìœ í˜¹ì— ëŒ€ì‘í•˜ëŠ” ë°©ë²•','https://www.youtube.com/embed/x0_1dLKt0g4',null,null,null,null,'bman@yahoo.com','DA001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','502','DA502','[ì˜ë³´TV] ì€í‡´í•œ í‚¬ëŸ¬ì˜ ì”í˜¹í•œ 19ê¸ˆì•¡ì…˜!! ë„·í”Œë¦­ìŠ¤ ì‹ ì‘ì˜í™” í´ë¼ë¦¬ë·°!!','https://www.youtube.com/embed/wWVWJCjalqI',null,null,null,null,'youngbotv@daum.net','DA001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','503','DA503','ì˜ì›…ì´ë¼ ë¶€ë¥´ê¸°ì—” ë„ˆë¬´ë‚˜ í­ë ¥ì ì´ê³  ì”í˜¹í•œ íˆì–´ë¡œ, í¼ë‹ˆì…” ì´ì•¼ê¸°','https://www.youtube.com/embed/DAdlo60ZcqI',null,null,null,null,'genius@gmail.com','DA002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','504','DA504','ë²”ì£„ìëŠ” ë¬´ì¡°ê±´ ì£½ì´ëŠ” ë§ˆë¸” íˆì–´ë¡œ','https://www.youtube.com/embed/VEdReNQRp4E',null,null,null,null,'reviewang@gmail.com','DA002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','505','DA505','ë²”ì£„ìëŠ” ì¬íŒì—†ì´ ì‚¬í˜•ì…ë‹ˆë‹¤ [ í¼ë‹ˆì…” ]','https://www.youtube.com/embed/B7YdJVVmXfM','" ë„ˆí•œí…Œ ì£„ê°€ ìˆë‹¤ë©´ ë„Œ ì£½ëŠ”ë‹¤ "',null,null,null,'incheon@yahoo.com','DA002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','506','DA506','DCë“œë¼ë§ˆê°€ ì¬ë°Œë‹¤ê³ ? í™œë“  ê¹¡íŒ¨ ì• ë¡œìš° ë¦¬ë·°','https://www.youtube.com/embed/PyDO_fXlLf0',null,null,null,null,'kimchiman123@gmail.com','DA004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','507','DA507','í™”ì‚´ë¡œ ì„¸ìƒì„ êµ¬í•œ í˜„ëŒ€íŒ ë¡œë¹ˆí›„ë“œ','https://www.youtube.com/embed/sB45ZBcB_yg','ë‚®ì—ëŠ” ì–µë§Œì¥ì ë°”ëŒë‘¥ì´ì§€ë§Œ ë°¤ì—ëŠ” í™œì„ ë“¤ê³  ì•…ë‹¹ì„ ë¬¼ë¦¬ì¹˜ëŠ” ê·¸ë¦° ì• ë¡œìš°ì˜ ì´ì•¼ê¸° .',null,null,null,'hamlet_movies@gmail.com','DA004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','508','DA508','í™œê³¼ í™”ì‚´ë¡œ ì“°ë ˆê¸°ë“¤ì—ê²Œ ì •ì˜êµ¬í˜„í•˜ëŠ” ì¬ë²Œ2ì„¸','https://www.youtube.com/embed/BuGtcmwvQfg',null,null,null,null,'shong@hotmail.com','DA004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','509','DA509','Jessica Jones Review â‘  (Comparison with Dare Devil.. etc) by Nofeetbird','https://www.youtube.com/embed/zFlFqM7EKwQ',null,null,null,null,'nofootbird@gmail.com','DA003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','510','DA510','[ë¦¬ë·°] ì œì‹œì¹´ ì¡´ìŠ¤ ì‹œì¦Œ 2 - ëŒì•„ì˜¨ ì•Œì½œì¤‘ë… ì‚¬ë¦½íƒì •','https://www.youtube.com/embed/lxyXkFT5oqk',null,null,null,null,'rkdwns@daum.net','DA003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','511','DA511','êµí†µì‚¬ê³  ì´í›„ ê¹¨ì–´ë‚¬ë”ë‹ˆ ì´ˆëŠ¥ë ¥ì„ ì–»ê²Œ ëœ ë¯¸ë…€íˆì–´ë¡œ','https://www.youtube.com/embed/6Og6g6HZeD8',null,null,null,null,'ans@daum.net','DA003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','512','DA512','ë°°ê°€ë³¸ë“œ ë¦¬ë·° E01-02','https://www.youtube.com/embed/5p7ZYztZIs8',null,null,null,null,'uppercut@naver.com','DA005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','513','DA513','ë°°ê°€ë³¸ë“œ ë¦¬ë·° E03-04','https://www.youtube.com/embed/m2oOXMxveKU',null,null,null,null,'uppercut@naver.com','DA005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','514','DA514','ë°°ê°€ë³¸ë“œ ë¦¬ë·°ã…£ì²« ì¥ë©´ í•´ì„ã…£1ë¶€','https://www.youtube.com/embed/j32aFtQbRSY','ì €ë¥¼ í¬í•¨í•œ ë°°ê°€ë³¸ë“œë¥¼ ë³´ì‹œëŠ” ë¶„ë“¤ì´ ë§ì´ ê¶ê¸ˆí•˜ì…”ì„œ ì¤€ë¹„í•œ íŠ¹ì§‘. ì°¨ë‹¬ê±´ì€ ì–´ì©Œë‹¤ ê³ í•´ë¦¬ë¥¼ ì €ê²©í•˜ê²Œ ë˜ì—ˆë‚˜ë¥¼ ì¶”ì¸¡í•´ë³´ì•˜ìŠµë‹ˆë‹¤',null,null,null,'reviewtns@gmail.com','DA005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','515','DA515','[ì¼ ê¹€ì— ì—”ë”©ê¹Œì§€] íƒœì–‘ì˜ í›„ì˜ˆ','https://www.youtube.com/embed/T2egnXbcJ7U',null,null,null,null,'cabletv@yahoo.com','DA006',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','516','DA516','[í•´ì™¸ë°˜ì‘] ''íƒœì–‘ì˜ í›„ì˜ˆ'' ë¯¸êµ­ë°˜ì‘, ì˜ì–´ê¶Œ ë°˜ì‘. "ê¼­ ë´ì•¼ë§Œ í•˜ëŠ” ë“œë¼ë§ˆ!"','https://www.youtube.com/embed/9WLwFU3lVCo','ë¯¸êµ­ ë™ì˜ìƒ ì‚¬ì´íŠ¸ì¸ DramaFever ì—ì„œë„ ì†Œê°œ ë˜ì–´, 6,000ê°œ ì´ìƒì˜ ë¦¬ë·°ê°€ ë‹¬ë¦¬ë©° í° ì¸ê¸°ë¥¼ ëŒê³  ìˆìŠµë‹ˆë‹¤.',null,null,null,'react@gmail.com','DA006',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','A','517','DA517','[íƒœí›„ì•“ì´â™¨] ì†¡ì†¡ì»¤í”Œì˜ ì§ì§„ê³ ë°±ë¶€í„° ë‹¬ë‹¬ ëª…ëŒ€ì‚¬ ëª¨ìŒZIP','https://www.youtube.com/embed/FMXwmrDTZgk',null,null,null,null,'kbs_antena@daum.net','DA006',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','518','DC518','ë¯¸ìš´ ì •ì´ ì„¸ìƒ ë¬´ì„­ë‹¤ëŠ” í‘œì¹˜ìˆ˜ X ì†ì˜ˆì§„ â™¡ ì¸¤ì¸¤ ì¼€ë¯¸ê°€ ì´ ì„¸ìƒ ê¸‰ì´ ì•„ë‹ˆì•¼ | Crash','https://www.youtube.com/embed/ZHmVA1yqbAU','ì–´ëŠ ë‚  ëŒí’ê³¼ í•¨ê»˜ íŒ¨ëŸ¬ê¸€ë¼ì´ë”© ì‚¬ê³ ë¡œ ë¶í•œì— ë¶ˆì‹œì°©í•œ ì¬ë²Œ ìƒì†ë…€ ìœ¤ì„¸ë¦¬ì™€ ê·¸ë…€ë¥¼ ìˆ¨ê¸°ê³  ì§€í‚¤ë‹¤ ì‚¬ë‘í•˜ê²Œ ë˜ëŠ” íŠ¹ê¸‰ ì¥êµ ë¦¬ì •í˜ì˜ ì ˆëŒ€ ê·¹ë¹„ ëŸ¬ë¸ŒìŠ¤í† ë¦¬ë¥¼ ê·¸ë¦° ë“œë¼ë§ˆ',null,null,null,'netvo@daum.net','DC001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','519','DC519','ì‚¬ë‘ì˜ ë¶ˆì‹œì°© ê²°ë°© íŠ¹ì§‘','https://www.youtube.com/embed/5L6_HwRa_5Y','ì‚¬ë‘ì˜ ë¶ˆì‹œì°© ê²°ë°© íŠ¹ì§‘ (#crash landing of love#?çš„è¿«é™#ì‚¬ë‘ì˜ë¶ˆì‹œì°©#í˜„ë¹ˆ#ì†ì˜ˆì§„)',null,null,null,'dingo@daum.net','DC001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','520','DC520','[ë“œë¼ë§ˆë¦¬ë·°]ì‚¬ë‘ì˜ë¶ˆì‹œì°©, í•´í”¼ì—”ë”©ì´ ë  ìˆ˜ ìˆì„ê¹Œ?','https://www.youtube.com/embed/4brmHAymqqs','ì†ì˜ˆì§„, í˜„ë¹ˆ ì¶œì—°ì¸ tvNë“œë¼ë§ˆ ''ì‚¬ë‘ì˜ ë¶ˆì‹œì°©'' 2í™”ê¹Œì§€ ë³´ê³  ë§Œë“  ë¦¬ë·°ì…ë‹ˆë‹¤.
+ë¶í•œ ë°°ê²½ì´ë¼ ì‹ ê¸°í•˜ê¸°ë„ í•˜ë©´ì„œ ë§ì€ ë¶€ë¶„ë“¤ì´ ì¤‘êµ­ì— ìˆì„ë•Œ ê²½í—˜í•´ë´¤ë˜ê±°ë¼ ë°˜ê°‘ê¸°ë„ í–ˆì–´ìš”.
+ì•ìœ¼ë¡œ ì–´ë–»ê²Œ ì§„í–‰ë ì§€ ê¶ê¸ˆí•œ ë“œë¼ë§ˆì…ë‹ˆë‹¤.',null,null,null,'uppercut@naver.com','DC001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','521','DC521','ì°©í•˜ê³  ìˆœì§„í•œ í˜¸êµ¬ì—ì„œ ì‹¸ì´ì½”íŒ¨ìŠ¤ë¡œ ê°ì„±í•´ ë²„ë¦° ë‚¨ì','https://www.youtube.com/embed/rO63mqUyZlQ','â˜… ë³¸ ì˜ìƒì€ tvNê³¼ í˜‘ì˜ëœ ì˜ìƒì…ë‹ˆë‹¤.
+ì˜¤ëŠ˜ ì†Œê°œí•´ ë“œë¦´ ë“œë¼ë§ˆëŠ”
+#ì‹¸ì´ì½”íŒ¨ìŠ¤ë‹¤ì´ì–´ë¦¬
+#ë‹¬ë¹›ë®¤ì¦ˆ
+#ë“œë¼ë§ˆ',null,null,null,'eyesonme@naver.com','DC002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','522','DC522','ì¡°í­ê³¼ ì‹¸ì´ì½”íŒ¨ìŠ¤ê°€ ì—˜ë¦¬ë² ì´í„°ë¥¼ íƒ”ë‹¤!','https://www.youtube.com/embed/OygsMKa1xAg','ì‹¸ì´ì½” íŒ¨ìŠ¤ ë‹¤ì´ì–´ë¦¬..! ê°œì¸ì ìœ¼ë¡œ ì €ëŠ”.. í˜¸êµ¬ê°€ ì‹¸ì´ì½”íŒ¨ìŠ¤ë¼ê³  ì°©ê°í•˜ëŠ”ë° ì´ê²Œ ë¨¹í˜€.ã…‹ã…‹ ì´ëŸ° ì„¤ì •ë“¤ì´ ì¬ë°Œì—ˆìŠµë‹ˆë‹¤. ê·¼ë° ì´ ì‹¸ì´ì½”íŒ¨ìŠ¤ë¼ëŠ” ì†Œì¬ë¥¼ í†µí•´ì„œ ìš°ë¦¬ ê°ì •ì¤‘ì— í™”ë¥¼ ë‹¤ë£¨ë ¤ê³  í•˜ëŠ”ê±° ê°™ì•„ìš”. í‰ì†Œì— í™”ë¥¼ ëª»ë‚´ê³  ì‚¬ëŠ” ì‚¬ëŒë“¤. ì°¸ê³  ì‚¬ëŠ” ì‚¬ëŒë“¤, ì§ì¥ì¸ë“¤ì´ë‚˜ í•™ìƒë“¤ì—ê²Œ ëŒ€ë¦¬ë§Œì¡±ì„ ì‹œì¼œì¤„ ìˆ˜ ìˆëŠ” ë“œë¼ë§ˆì´ì§€ ì•Šì„ê¹Œ ìƒê°ì´ ë“¤ê³ ìš”. ë°˜ë©´ì— ê¸°ì–µ ìƒì‹¤ì¦ì´ë¼ë“ ê°€, ì¬ë²Œ ì‹¸ì´ì½”íŒ¨ìŠ¤, ì´ì•¼ê¸° ì§„í–‰ìƒ í˜„ì‹¤ê³¼ëŠ” ì¢€ ë™ë–¨ì–´ì§„ ì„¤ì •ì´ ìˆì–´ìš”. ì–´ë–¤ë¶„ë“¤ì—ê²ŒëŠ” ì¬ë¯¸ì˜ ìš”ì†Œê°€ ë˜ê² ì§€ë§Œ ë‹¤ë¥¸ ë¶„ë“¤ì—ê²ŒëŠ” ë˜ ìœ ì¹˜í•  ìˆ˜ ìˆê² ë‹¤ë¼ëŠ” ìƒê°ì´ ë“œëŠ”êµ°ìš”. ì´ëŸ°ë¶€ë¶„ë“¤ì€ ë“œë¼ë§ˆ ì„ íƒí•˜ì‹¤ë•Œ ê³ ë ¤í•´ë³´ì‹œê³ .. ë¶„ëª… ì†Œì¬ëŠ” ì¶©ë¶„íˆ í¥ë¯¸ë¡­ìŠµë‹ˆë‹¤. ê·¼ë° ì•„ì§ ë‘ê³ ë´ì•¼ì£ . ê³„ì† ë°©ì˜ì¤‘ì´ë‹ˆê¹Œ..! ë‚˜ë„ ì•„ì§ ë” ë´ì•¼ë ê±° ê°™ì• ìš”.ã…‹ã…‹',null,null,null,'unjun@naver.com','DC002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','523','DC523','ì •ì‹ ê³¼ ì˜ì‚¬ê°€ ì‹¸ì´ì½”íŒ¨ìŠ¤ ë“œë¼ë§ˆë¥¼ ë³¸ë‹¤ë©´ !? [ì‹¸íŒ¨ë‹¤ ep1 ë¦¬ë·°]','https://www.youtube.com/embed/zFPE5iAidIA','ì˜¤ëŠ˜ ì˜ìƒë„ ì¦ê±°ìš°ì…¨ë‚˜ìš”? ë‹¥í”„ë¥¼ êµ¬ë…í•˜ì‹œë©´, ë§¤ì£¼ ì¬ë¯¸ìˆê³  ê±´ê°•í•œ ì˜ìƒì´ í•¨ê»˜í•©ë‹ˆë‹¤. êµ¬ë…ì€ ê±´ê°•ì…ë‹ˆë‹¤â™¥',null,null,null,'sogaenam@naver.com','DC002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','524','DC524','ì¡´ì¬ê° ì—†ë˜ ë‚´ê°€ ë©¸ë§í•œ ì„¸ê³„ì—ì„œ ì´ˆì¸ê¸° ìŠ¤íŠ¸ë¦¬ë¨¸ê°€ ëœë‹¤!?','https://www.youtube.com/embed/5IcWFG7abcM','#ë°ì´ë¸Œë ˆì´í¬ #netflix',null,null,null,'sogaenam@naver.com','DC003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','525','DC525','ë“œë¼ë§ˆ â€˜ìœ¼ë¼ì°¨ì°¨ ì™€ì´í‚¤í‚¤ 2â€™(1) ë¦¬ë·° (ê³µì—° ì½ì–´ì£¼ëŠ” ê¸°ì, ë“œë¼ë§ˆ ë¦¬ë·° #19) ë³‘ë§›ì—°ê¸°, ë³‘ë§›ì½”ë“œ! ì‹œì¦Œ1ê³¼ ì—°ê²°ì´ ì•ˆ ëœë‹¤? ì•½ì¼ê¹Œ, ë…ì¼ê¹Œ?','https://www.youtube.com/embed/wBNzngP3Myo','ê³µì—° ì½ì–´ì£¼ëŠ” ê¸°ì! ë“œë¼ë§ˆ ë¦¬ë·° ì—´ì•„í™‰ ë²ˆì§¸ ì‹œê°„ì€ JTBC ì›”í™”ë“œë¼ë§ˆ â€˜ìœ¼ë¼ì°¨ì°¨ ì™€ì´í‚¤í‚¤ 2â€™ ì œ1íšŒ, ì œ1í™” ë¦¬ë·° â€˜ë³‘ë§›ì—°ê¸°, ë³‘ë§›ì½”ë“œ! ì‹œì¦Œ1ê³¼ ì—°ê²°ì´ ì•ˆ ëœë‹¤? ì•½ì¼ê¹Œ, ë…ì¼ê¹Œ?â€™ì…ë‹ˆë‹¤.',null,null,null,'uppercut@naver.com','DC004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','526','DC526','â™¨í•«í´ë¦½â™¨ [HD] ìš°ìš¸í•  ë• *ì´ì´ê²½* ì°¸ë‹¤ì°¸ë‹¤ ì˜¤ì¤Œ í­ë°œí•œ ëŒ€ë°°ìš°','https://www.youtube.com/embed/-LVzjwlQFEc','â˜†ì›ƒìŒ ì§€ë¢°â˜† ìš°ìš¸í•  ë• ì´ì´ê²½
+ì˜¤ì¤Œ ì°¸ë‹¤ ì°¸ë‹¤ ì‹œì›â†—í•˜ê²Œ ë‹¤ ë†“ì•„ë²„ë¦° ì´ì´ê²½',null,null,null,'cabletv@yahoo.com','DC004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','527','DC527','[ê³¨ë¼ë´ì•¼ì§€] ë¯¿ê³  ë³´ëŠ” ì›ƒìŒí­íƒ„â™¨ ë°°ê¼½ ë„ë‘‘ ''ì´ì´ê²½(Lee Yi kyung)''ì„ ì†Œê°œí•©ë‹ˆë‹¤ *^^* #ìœ¼ë¼ì°¨ì°¨ ì™€ì´í‚¤í‚¤2 #JTBCë´ì•¼ì§€','https://www.youtube.com/embed/yzaRghKlT30','ã€ˆìœ¼ë¼ì°¨ì°¨ ì™€ì´í‚¤í‚¤ã€‰ì˜ ë¯¿ê³  ë³´ëŠ” ì›ƒìŒ í­íƒ„â™¨ ''ì´ì¤€ê¸°''(ì´ì´ê²½)
+ì›ƒìŒì´ í•œì¸µ ì—…ê·¸ë ˆì´ë“œëœ ã€ˆìœ¼ë¼ì°¨ì°¨ì™€ì´í‚¤í‚¤2ã€‰ ì´ì¤€ê¸°ë¡œ ì»´ë°±',null,null,null,'react@gmail.com','DC004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','528','DC528','[ìŠ¤í˜ì…œ] íŒì½˜ê°â†— â™¨ì´ì„ ì›…vsì°¨ëª…ì£¼â™¨ ë¶ˆê½ƒíŠ€ëŠ” í‹°í‚¤íƒ€ì¹´.zip ï¼œê²€ì‚¬ë‚´ì „(Diary of a prosecutor)ï¼','https://www.youtube.com/embed/6CUGkQgnNUM','íŒì½˜ê°â†— 10ë¶„ ë™ì•ˆ ì‹¸ìš°ëŠ” ê±° ì‹¤í™”?
+ìˆ¨ ì‰´ í‹ˆ ì—†ì´ ë§Œë‚˜ê¸°ë§Œ í•˜ë©´ ì‹¸ìš°ëŠ” ë‘ ì‚¬ëŒ
+ê°ì„±ì ì¸ ''ì´ì„ ì›…'' vs ì´ì„±ì ì¸ ''ì°¨ëª…ì£¼''',null,null,null,'kbs_antena@daum.net','DC005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','529','DC529','(Poë¶ˆí¸wer) ì‚´ ë–¨ë¦¬ëŠ” ì •ë ¤ì›(Jung Ryeo-won)ì˜ íŒ¨ê¸°ì— ìˆ¨ ë§‰íˆëŠ” ''í˜•ì‚¬2ë¶€'' ê²€ì‚¬ë‚´ì „(Diary of a prosecutor) 2íšŒ','https://www.youtube.com/embed/5C8llbDHRYs','ì°¨ëª…ì£¼(ì •ë ¤ì›) ë¹¼ê³  ì•„ì§€íŠ¸ ''ë¬¼ì•ˆê°œ''ì— ëª¨ì¸ í˜•ì‚¬2ë¶€!
+"íŒ¨ê¸°ê°€ ìˆëŠ” ê±´ì§€, ë²„ë¦‡ì´ ì—†ëŠ” ê±´ì§€â€¦"
+ì°¨ëª…ì£¼ê°€ ë¶ˆí¸í•˜ê¸°ë§Œ í•œ í˜•ì‚¬2ë¶€
+ë„ëŒ€ì²´ ì°¨ëª…ì£¼ëŠ” ì™œ ì§„ì˜ì— ì™”ì„ê¹Œ?',null,null,null,'uppercut@naver.com','DC005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','530','DC530','ì£¼ë¶€ë„ë‘‘ë“¤ì˜ ì„±ì¥ê¸° ã€Šêµ¿ ê±¸ìŠ¤ã€‹','https://www.youtube.com/embed/c1Ogv7dXkgw','ìš°ì—°íˆ ë§ˆíŠ¸ë¥¼ í„¸ê²Œ ëœ í‰ë²”í•œ ì£¼ë¶€ë“¤ì´ ë§ˆí”¼ì•„ë¥¼ ëŠ¥ê°€í•˜ëŠ” ë²”ì£„ì¡°ì§ìœ¼ë¡œ ê±°ë“­ë‚˜ëŠ” íŒŒë€ë§Œì¥ ì„±ì¥ê¸°. ê·¼ë˜ë“¤ì–´ ê°€ì¥ ì¦ê²ê²Œ ì •ì£¼í–‰í•œ ë„·í”Œë¦­ìŠ¤ ì˜¤ë¦¬ì§€ë„ ì‹œë¦¬ì¦ˆ ã€Šêµ¿ ê±¸ìŠ¤ã€‹ë¥¼ ì†Œê°œí•´ë“œë¦½ë‹ˆë‹¤. êµ¿ ê±¸ìŠ¤ëŠ” ì²«ë²ˆì§¸ ì‹œì¦Œ, 10ê°œì˜ ì—í”¼ì†Œë“œê°€ ê³µê°œë˜ì–´ ìˆìœ¼ë©° ì‹œì¦Œ2 ì œì‘ì´ í™•ì •ë˜ì–´ 2019ë…„ ë°©ì˜ ì˜ˆì •ì…ë‹ˆë‹¤.',null,null,null,'uppercut@naver.com','DC006',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','531','DC531','ì¡°ì§ì˜ ëˆì„ í›”ì³ë²„ë¦° ê°„í° ì•„ì¤Œë§ˆë“¤','https://www.youtube.com/embed/Nl860euVVts',null,null,null,null,'reviewtns@gmail.com','DC006',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','532','DC532','ì§€ì˜¥ì— ê°€ì•¼ ë˜ëŠ”ë° ì‹¤ìˆ˜ë¡œ ì²œêµ­ì— ì™€ë²„ë ¸ë‹¤','https://www.youtube.com/embed/swkbxDKyqcQ','ì•ˆë…•í•˜ì„¸ìš”, ë¯¸ë“¤ë»”ì…ë‹ˆë‹¤.
+ì˜¤ëŠ˜ ì†Œê°œí•´ë“œë¦´ ì‘í’ˆì€ ''êµ¿ í”Œë ˆì´ìŠ¤(Good Place)'' ì…ë‹ˆë‹¤.',null,null,null,'kimchiman123@gmail.com','DC007',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','533','DC533','ë‹¤ë‹¨ê³„íŒë§¤ì›ì´ ìš´ë¹¨ë¡œ ì²œêµ­ê°€ì„œ ë²Œì–´ì§„ ì¼','https://www.youtube.com/embed/m7aD5pFIvLs','ë“œë¼ë§ˆ ì œëª© : êµ¿ í”Œë ˆì´ìŠ¤
+#ì˜í™”ë¦¬ë·° #ë“œë¼ë§ˆë¦¬ë·° #ì˜í™”ì¶”ì²œ',null,null,null,'hamlet_movies@gmail.com','DC007',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','534','DC534','ì‹ ì„ ë„100% ë…íŠ¹í•˜ê³  ìœ ì¾Œí•œ ì‚¬í›„ì„¸ê³„. êµ¿ í”Œë ˆì´ìŠ¤ ê°€ì´ë“œ ë¦¬ë·°','https://www.youtube.com/embed/b33qMSCxXMU','ë„·í”Œë¦­ìŠ¤ ì¶”ì²œì‘. ì²œêµ­ì´ ì¡´ì¬í•œë‹¤ë©´ ë°”ë¡œ ì´ ê³³ì¼ê¹Œ? ë„·í”Œë¦­ìŠ¤ ê³ í‰ì  ì¶”ì²œ ë“œë¼ë§ˆ ê°€ì´ë“œ ë¦¬ë·°: êµ¿ í”Œë ˆì´ìŠ¤ ë¡œíŠ¼í† ë§ˆí† , IMDb, ë©”íƒ€í¬ë¦¬í‹±ì—ì„œ ê³ í‰ì ì„ ë°›ì€ ì˜í™”ì™€ ë“œë¼ë§ˆë¥¼ ì¶”ì²œí•©ë‹ˆë‹¤.',null,null,null,'shong@hotmail.com','DC007',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','C','535','DC535','ìš´ë¹¨ë¡œ ì²œêµ­ì„ ê°„ ì—¬ì','https://www.youtube.com/embed/sq8X0gjAEtg','ì—¬ëŸ¬ë¶„ ì•ˆë…•í•˜ì„¸ìš” ì‚ë§¨ì…ë‹ˆë‹¤.
+ì˜¤ëŠ˜ì€ ë„·í”Œë¦­ìŠ¤ì˜ ë“œë¼ë§ˆ ''êµ¿ í”Œë ˆì´ìŠ¤''ì— ëŒ€í•´ì„œ ì•Œì•„ë³´ë ¤ê³  í•©ë‹ˆë‹¤. ì£½ê³ ë‚˜ì„œ ''êµ¿ í”Œë ˆì´ìŠ¤'' ê´€ë¦¬ìì˜ ì‹¤ìˆ˜ë¡œ ì¸í•´ ì²œêµ­ì„ ì˜¤ê²Œëœ ì—˜ë ˆë„ˆì˜ ì´ì•¼ê¸°ë¥¼ ë‹´ê³  ìˆìŠµë‹ˆë‹¤.',null,null,null,'serin@naver.com','DC007',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','536','DH536','ì¸ê°„ì„ ìš”ë¦¬í•˜ëŠ” ì²œì¬ ì‚´ì¸ë§ˆ','https://www.youtube.com/embed/VLiIPiybIf4','ë„·í”Œë¦­ìŠ¤ ë°©ì˜ ì¤‘ì¸ ë“œë¼ë§ˆ í•œë‹ˆë°œì…ë‹ˆë‹¤
+*ë³¸ ì˜ìƒì€ ë„·í”Œë¦­ìŠ¤ì˜ ì§€ì›ì„ ë°›ì•„ ì œì‘ë˜ì—ˆìœ¼ë©°, ìœ ë£Œ ê´‘ê³ ë¥¼ í¬í•¨í•˜ê³  ìˆìŠµë‹ˆë‹¤.',null,null,null,'sangung@yahoo.com','DH001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','537','DH537','ê¸°ê´´í•˜ê³  ì¶©ê²©ì ì¸ ë°©ì‹ì„ ì“°ëŠ” ì‹¸ì´ì½”íŒ¨ìŠ¤','https://www.youtube.com/embed/WwB1GzdD0d4','ë¯¸ë“œ ì†Œê°œì˜ìƒì…ë‹ˆë‹¤
+[ CH. ë¹„ë””ì˜¤ ê°€ê²ŒëŠ” ê°ì¢… í•´ì™¸ ì˜í™” ë“œë¼ë§ˆ ë¯¸êµ­ë“œë¼ë§ˆ ë“±ì„ ì†Œê°œí•´ë“œë¦¬ê³  ì¶”ì²œ í•´ë“œë¦¬ëŠ” ì˜í™” ì†Œê°œ ìœ íŠœë¸Œ ì±„ë„ì…ë‹ˆë‹¤ ]
+[ë¯¸ë“œì¶”ì²œ]
+ì˜í™”ì¶”ì²œ ë“œë¼ë§ˆì¶”ì²œ ì˜í™”ì†Œê°œ ë¯¸ë“œì†Œê°œ ì±„ë„
+ì†ŒìŠ¤ì¶œì²˜: ë¯¸ë“œ - í•œë‹ˆë°œã…£ ìŒì•…ì†ŒìŠ¤: *Aftermath Madness Paranoia
+ì´ ë…¸ë˜ë¥¼ ë¬´ë£Œë¡œ ì‚¬ìš©í•˜ê³  ë™ì˜ìƒìœ¼ë¡œ ìˆ˜ìµì„ ì°½ì¶œí•  ìˆ˜ ìˆì§€ë§Œ ë™ì˜ìƒ ì„¤ëª…ì— ë‹¤ìŒì„ í¬í•¨í•´ì•¼ í•©ë‹ˆë‹¤.
+Kevin MacLeodì˜ Aftermath - Madness Paranoiaì€(ëŠ”) Creative Commons Attribution ë¼ì´ì„ ìŠ¤(https://creativecommons.org/licenses/... ë”°ë¼ ë¼ì´ì„ ìŠ¤ê°€ ë¶€ì—¬ë©ë‹ˆë‹¤.
+ì¶œì²˜: http://incompetech.com/music/royalty-...
+ì•„í‹°ìŠ¤íŠ¸: http://incompetech.com/
 *Back Streets Of Seoul
 *Underpass',null,null,null,'chvideochannel@yahoo.com','DH001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','538','DH538','³İÇÃ¸¯½º ¿À¸®Áö³Î µå¶ó¸¶ Å·´ı ¸®ºä ÀÔ´Ï´Ù','https://www.youtube.com/embed/8uHBM3gNVSU','#³İÇÃ¸¯½º,#Å·´ı,#Á»ºñ
-³İÇÃ¸¯½ºÀÇ ¿À¸®Áö³Î µå¶ó¸¶ Å·´ı ¸®ºä ¿µ»óÀÔ´Ï´Ù
-µå¶ó¸¶¼Ó ¸¹Àº ÀÌ½ºÅÍ ¾Ö±×¸¦ ³ª¸§ ºĞ¼®ÇØ¼­ Á»ºñÀÇ ¿ªº´ÀÌ »ı±ä ¿øÀÎµµ ¿¹»óÇØ º¸¾Ò½À´Ï´Ù
-Å·´ı ½ÃÁğ2 ¾ó¸¥³ª¿ÔÀ¸¸é ¤Ğ¤Ğ¤Ğ
-Àç¹Õ°Ô ºÁÁÖ¼¼¿ä',null,null,null,'uppercut@naver.com','DH002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','539','DH539','ÀÎ°£ ¼öÀ° ¸Ô°í ¹ÙÀÌ·¯½º¿¡ °¨¿°µÈ »ç¶÷µéÀÌ ´õ ¹è°íÆÄÁö¸é »ı±â´Â ÀÏ','https://www.youtube.com/embed/bTj2zt9B9xQ','? " Ã³À½¿À½ÅºĞµéÀº ±¸µ¶°ú , ÁÁ¾Æ¿ä! ¾Ë¶÷ ²Ú " ?
-?Å·´ı (2019) / #Á»ºñ #Å·´ı #½º¸±·¯
-?±è½Ã¼± Ã¤³ÎÀº ³İÇÃ¸¯½º ¿µ»ó »ç¿ëÀ» ÀúÀÛ±ÇÀÚ·ÎºÎÅÍ Çã°¡¹Ş¾Ò½À´Ï´Ù.
-Å·´ı º¸±â : http://bit.ly/kingdom2019
-?À¯Æ©ºê ±¸µ¶ÇÏ±â : http://bit.ly/siseon
-???ÀÎ½ºÅ¸±×·¥ : http://www.instagram.com/kimsiseon
-?ÆäºÏ : http://www.facebook.com/siseon13
-#Á¶¼± #³İÇÃ¸¯½º #ÇÑ±¹ #°« #netfilx #god #got #kingdom
-#½Ä¹° #¹èµÎ³ª #°æÂû
-#¹üÁË #°í±â #¿µÈ­À¯Æ©ºê #±è½Ã¼±
-#ÀÎ±â #¿µÈ­ #ÁÖÁ¦ #±èÀºÈñ #±è¼ºÈÆ
-#µå¶ó¸¶ #»ç±Ø #ÀüÅë #¿ª»ç #±Ç·Â #ÇïÁ¶¼±',null,null,null,'eyesonme@naver.com','DH002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','540','DH540','½Ä·® °í°¥·Î ¸ÁÇÑ ÇÑ±¹¶¥¿¡¼­ »ì¾Æ³²´Â »ıÁ¸¹ı','https://www.youtube.com/embed/2S1lq2mvnI8','½ÃÇÏ! ¿µÈ­Ä£±¸µé ¿À´ÃÀº ''±è½Ã¼±ÀÇ Á¤ÁÖÇà°¢'' 3¹øÂ° ÀÛÇ°À¸·Î ''Å·´ı''À» ¼Ò°³Çß½À´Ï´Ù. Á¦ ¼³¸íÀ» ³¡±îÁö µè°í ³ª¸é ÀÌ ÀÛÇ°ÀÌ ¾ó¸¶³ª ±¦ÂúÀº ÀÛÇ°ÀÎÁö ¾î´À Á¤µµ µ¿ÀÇÇÏ°Ô µÇ½Ç °Å¿¹¿ä. ¿À´Ãµµ ³¡±îÁö Àç¹Õ°Ô ºÁÁÖ½Ã°í ´ÙÀ½ ÁÖ¿£ ´õ Àç¹Õ´Â ÀÛÇ° µé°í ¿É´Ï´Ù. ÀÏ´Ü ¾ÆÁ÷µµ Å·´ı ¾Èº¸½Å ºĞµéÀº ½ÃÁğ2 ³ª¿À±â Àü¿¡ Á¤ÁÖÇà¤¡¤¡~
-µå¶ó¸¶ Á¦¸ñ : Å·´ı ½ÃÁğ1 (³İÇÃ¸¯½º¿¡¼­ º¸½Ç ¼ö ÀÖÀ½!)
-?±è½Ã¼± Ã¤³ÎÀº ¿µ»ó »ç¿ëÀ» ÀúÀÛ±ÇÀÚ·ÎºÎÅÍ ¸ğµÎ Çã°¡¹Ş¾Ò½À´Ï´Ù.
-#³İÇÃ¸¯½º #ÀÎ±â #¿µÈ­¸®ºä #µå¶ó¸¶¼Ò°³',null,null,null,'eyesonme@naver.com','DH002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','541','DH541','±â¹¦ÇÑ ÀÌ¾ß±â ½ÃÁğ2 ¿ä¾à ¹× ¸®ºä','https://www.youtube.com/embed/Yu1sZkz_vT8','¿À´ÃÀº ±â¹¦ÇÑ ÀÌ¾ß±â ½ÃÁğ2¸¦ ¸®ºäÇØ º¸¾Ò½À´Ï´Ù
-³Ñ³ª Àç¹Õ½À´Ï´Ù ²À º¸¼¼¿ä µÎ¹ø º¸¼¼¿ä ¾È³çÇÏ¼¼¿ä ÃÊº¸ ¸®ºä¾î ³İº¸³²ÀÔ´Ï´Ù
-³İÇÃ¸¯½º ¿À¸®Áö³¯ ÄÁÅÙÃ÷¸¦ Àü¹®À¸·Î ¸®ºäÇØ º¸·Á ÇÕ´Ï´Ù
-½Ç·Âµµ ¸ğÀÚ¶ó°í ¹ßÀ½µµ ¾ÈÁÁÁö¸¸ ÃÖ¼ÒÇÑ ´Ü¼øÈ÷ ÁÙ°Å¸®¸¦ ³ª¿­ÇÏ±â¸¸ ÇÏ´Â ¾ç»êÇü ¸®ºä¾î´Â µÇÁö ¾Ê°Ú½À´Ï´Ù
-¹°·Ğ ¾î´ÀÁ¤µµ ´Ù¸¥ ¸®ºä¾î¿Í ºñ½ÁÇÑ ³»¿ëÀÌ ÀÖ°ÚÁö¸¸(¼ÒÀç°¡ °°À¸´Ï)
-±× Áß¿¡¼­µµ ÇÑ°¡Áö¶óµµ »õ·Î¿î °üÁ¡ »õ·Î¿î Æò·ĞÀ» º¸¿©µå¸®°Ú½À´Ï´Ù
-±×·³ ÃÊº¸ µüÁö ¶¼´Â ±× ³¯ ±îÁö ! ³İº¸³²°ú ÇÔ²² ÇØ ÁÖ½Ê½Ã¿ä',null,null,null,'netvo@daum.net','DH003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','542','DH542','[10ºĞ¿ä¾à] ±â¹¦ÇÑ ÀÌ¾ß±â ½ÃÁğ ¿Ïº®Á¤¸® | ½ÃÁğ3 º¸±â Àü ÇÊ¼ö | ³İÇÃ¸¯½º | µù°í¹«ºñ','https://www.youtube.com/embed/49UXkyf0SuI','±â¹¦ÇÑ ÀÌ¾ß±â3¸¦ º¸°í ½ÍÀºµ¥ ½ÃÁğ 1,2°¡ °¡¹°°¡¹°ÇÏ´Ù¸é¡¦? (ÀÀ¡¦³» ¾ê±â)
-ÀÌ°Å º¸°í ¹Ù·Î ±â¹¦ÇÑ ÀÌ¾ß±â ½ÃÁğ3 Á¤ÁÖÇà ¤¡¤¡
-#µù°í¹«ºñ #dingomovie
-#±â¹¦ÇÑÀÌ¾ß±â #StrangerThings #10ºĞ¿ä¾à
-?µù°í¹«ºñ ±¸µ¶ÇÏ±â
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','538','DH538','ë„·í”Œë¦­ìŠ¤ ì˜¤ë¦¬ì§€ë„ ë“œë¼ë§ˆ í‚¹ë¤ ë¦¬ë·° ì…ë‹ˆë‹¤','https://www.youtube.com/embed/8uHBM3gNVSU','#ë„·í”Œë¦­ìŠ¤,#í‚¹ë¤,#ì¢€ë¹„
+ë„·í”Œë¦­ìŠ¤ì˜ ì˜¤ë¦¬ì§€ë„ ë“œë¼ë§ˆ í‚¹ë¤ ë¦¬ë·° ì˜ìƒì…ë‹ˆë‹¤
+ë“œë¼ë§ˆì† ë§ì€ ì´ìŠ¤í„° ì• ê·¸ë¥¼ ë‚˜ë¦„ ë¶„ì„í•´ì„œ ì¢€ë¹„ì˜ ì—­ë³‘ì´ ìƒê¸´ ì›ì¸ë„ ì˜ˆìƒí•´ ë³´ì•˜ìŠµë‹ˆë‹¤
+í‚¹ë¤ ì‹œì¦Œ2 ì–¼ë¥¸ë‚˜ì™”ìœ¼ë©´ ã… ã… ã… 
+ì¬ë°Œê²Œ ë´ì£¼ì„¸ìš”',null,null,null,'uppercut@naver.com','DH002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','539','DH539','ì¸ê°„ ìˆ˜ìœ¡ ë¨¹ê³  ë°”ì´ëŸ¬ìŠ¤ì— ê°ì—¼ëœ ì‚¬ëŒë“¤ì´ ë” ë°°ê³ íŒŒì§€ë©´ ìƒê¸°ëŠ” ì¼','https://www.youtube.com/embed/bTj2zt9B9xQ','? " ì²˜ìŒì˜¤ì‹ ë¶„ë“¤ì€ êµ¬ë…ê³¼ , ì¢‹ì•„ìš”! ì•ŒëŒ ê¾¹ " ?
+?í‚¹ë¤ (2019) / #ì¢€ë¹„ #í‚¹ë¤ #ìŠ¤ë¦´ëŸ¬
+?ê¹€ì‹œì„  ì±„ë„ì€ ë„·í”Œë¦­ìŠ¤ ì˜ìƒ ì‚¬ìš©ì„ ì €ì‘ê¶Œìë¡œë¶€í„° í—ˆê°€ë°›ì•˜ìŠµë‹ˆë‹¤.
+í‚¹ë¤ ë³´ê¸° : http://bit.ly/kingdom2019
+?ìœ íŠœë¸Œ êµ¬ë…í•˜ê¸° : http://bit.ly/siseon
+???ì¸ìŠ¤íƒ€ê·¸ë¨ : http://www.instagram.com/kimsiseon
+?í˜ë¶ : http://www.facebook.com/siseon13
+#ì¡°ì„  #ë„·í”Œë¦­ìŠ¤ #í•œêµ­ #ê°“ #netfilx #god #got #kingdom
+#ì‹ë¬¼ #ë°°ë‘ë‚˜ #ê²½ì°°
+#ë²”ì£„ #ê³ ê¸° #ì˜í™”ìœ íŠœë¸Œ #ê¹€ì‹œì„ 
+#ì¸ê¸° #ì˜í™” #ì£¼ì œ #ê¹€ì€í¬ #ê¹€ì„±í›ˆ
+#ë“œë¼ë§ˆ #ì‚¬ê·¹ #ì „í†µ #ì—­ì‚¬ #ê¶Œë ¥ #í—¬ì¡°ì„ ',null,null,null,'eyesonme@naver.com','DH002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','540','DH540','ì‹ëŸ‰ ê³ ê°ˆë¡œ ë§í•œ í•œêµ­ë•…ì—ì„œ ì‚´ì•„ë‚¨ëŠ” ìƒì¡´ë²•','https://www.youtube.com/embed/2S1lq2mvnI8','ì‹œí•˜! ì˜í™”ì¹œêµ¬ë“¤ ì˜¤ëŠ˜ì€ ''ê¹€ì‹œì„ ì˜ ì •ì£¼í–‰ê°'' 3ë²ˆì§¸ ì‘í’ˆìœ¼ë¡œ ''í‚¹ë¤''ì„ ì†Œê°œí–ˆìŠµë‹ˆë‹¤. ì œ ì„¤ëª…ì„ ëê¹Œì§€ ë“£ê³  ë‚˜ë©´ ì´ ì‘í’ˆì´ ì–¼ë§ˆë‚˜ ê´œì°®ì€ ì‘í’ˆì¸ì§€ ì–´ëŠ ì •ë„ ë™ì˜í•˜ê²Œ ë˜ì‹¤ ê±°ì˜ˆìš”. ì˜¤ëŠ˜ë„ ëê¹Œì§€ ì¬ë°Œê²Œ ë´ì£¼ì‹œê³  ë‹¤ìŒ ì£¼ì—” ë” ì¬ë°ŒëŠ” ì‘í’ˆ ë“¤ê³  ì˜µë‹ˆë‹¤. ì¼ë‹¨ ì•„ì§ë„ í‚¹ë¤ ì•ˆë³´ì‹  ë¶„ë“¤ì€ ì‹œì¦Œ2 ë‚˜ì˜¤ê¸° ì „ì— ì •ì£¼í–‰ã„±ã„±~
+ë“œë¼ë§ˆ ì œëª© : í‚¹ë¤ ì‹œì¦Œ1 (ë„·í”Œë¦­ìŠ¤ì—ì„œ ë³´ì‹¤ ìˆ˜ ìˆìŒ!)
+?ê¹€ì‹œì„  ì±„ë„ì€ ì˜ìƒ ì‚¬ìš©ì„ ì €ì‘ê¶Œìë¡œë¶€í„° ëª¨ë‘ í—ˆê°€ë°›ì•˜ìŠµë‹ˆë‹¤.
+#ë„·í”Œë¦­ìŠ¤ #ì¸ê¸° #ì˜í™”ë¦¬ë·° #ë“œë¼ë§ˆì†Œê°œ',null,null,null,'eyesonme@naver.com','DH002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','541','DH541','ê¸°ë¬˜í•œ ì´ì•¼ê¸° ì‹œì¦Œ2 ìš”ì•½ ë° ë¦¬ë·°','https://www.youtube.com/embed/Yu1sZkz_vT8','ì˜¤ëŠ˜ì€ ê¸°ë¬˜í•œ ì´ì•¼ê¸° ì‹œì¦Œ2ë¥¼ ë¦¬ë·°í•´ ë³´ì•˜ìŠµë‹ˆë‹¤
+ë„˜ë‚˜ ì¬ë°ŒìŠµë‹ˆë‹¤ ê¼­ ë³´ì„¸ìš” ë‘ë²ˆ ë³´ì„¸ìš” ì•ˆë…•í•˜ì„¸ìš” ì´ˆë³´ ë¦¬ë·°ì–´ ë„·ë³´ë‚¨ì…ë‹ˆë‹¤
+ë„·í”Œë¦­ìŠ¤ ì˜¤ë¦¬ì§€ë‚  ì»¨í…ì¸ ë¥¼ ì „ë¬¸ìœ¼ë¡œ ë¦¬ë·°í•´ ë³´ë ¤ í•©ë‹ˆë‹¤
+ì‹¤ë ¥ë„ ëª¨ìë¼ê³  ë°œìŒë„ ì•ˆì¢‹ì§€ë§Œ ìµœì†Œí•œ ë‹¨ìˆœíˆ ì¤„ê±°ë¦¬ë¥¼ ë‚˜ì—´í•˜ê¸°ë§Œ í•˜ëŠ” ì–‘ì‚°í˜• ë¦¬ë·°ì–´ëŠ” ë˜ì§€ ì•Šê² ìŠµë‹ˆë‹¤
+ë¬¼ë¡  ì–´ëŠì •ë„ ë‹¤ë¥¸ ë¦¬ë·°ì–´ì™€ ë¹„ìŠ·í•œ ë‚´ìš©ì´ ìˆê² ì§€ë§Œ(ì†Œì¬ê°€ ê°™ìœ¼ë‹ˆ)
+ê·¸ ì¤‘ì—ì„œë„ í•œê°€ì§€ë¼ë„ ìƒˆë¡œìš´ ê´€ì  ìƒˆë¡œìš´ í‰ë¡ ì„ ë³´ì—¬ë“œë¦¬ê² ìŠµë‹ˆë‹¤
+ê·¸ëŸ¼ ì´ˆë³´ ë”±ì§€ ë–¼ëŠ” ê·¸ ë‚  ê¹Œì§€ ! ë„·ë³´ë‚¨ê³¼ í•¨ê»˜ í•´ ì£¼ì‹­ì‹œìš”',null,null,null,'netvo@daum.net','DH003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','542','DH542','[10ë¶„ìš”ì•½] ê¸°ë¬˜í•œ ì´ì•¼ê¸° ì‹œì¦Œ ì™„ë²½ì •ë¦¬ | ì‹œì¦Œ3 ë³´ê¸° ì „ í•„ìˆ˜ | ë„·í”Œë¦­ìŠ¤ | ë”©ê³ ë¬´ë¹„','https://www.youtube.com/embed/49UXkyf0SuI','ê¸°ë¬˜í•œ ì´ì•¼ê¸°3ë¥¼ ë³´ê³  ì‹¶ì€ë° ì‹œì¦Œ 1,2ê°€ ê°€ë¬¼ê°€ë¬¼í•˜ë‹¤ë©´â€¦? (ì‘â€¦ë‚´ ì–˜ê¸°)
+ì´ê±° ë³´ê³  ë°”ë¡œ ê¸°ë¬˜í•œ ì´ì•¼ê¸° ì‹œì¦Œ3 ì •ì£¼í–‰ ã„±ã„±
+#ë”©ê³ ë¬´ë¹„ #dingomovie
+#ê¸°ë¬˜í•œì´ì•¼ê¸° #StrangerThings #10ë¶„ìš”ì•½
+?ë”©ê³ ë¬´ë¹„ êµ¬ë…í•˜ê¸°
 http://bit.ly/dingo_movie
-¡°¿µÈ­¿¡ °üÇÑ ¸ğµç°ÍÀÌ ±Ã±İÇÏ´Ù¸é Áö±İ ¹Ù·Î µù°í¹«ºñ ±¸µ¶ÇÏ±â!¡±
-?µù°í¹«ºñ ¸µÅ©
+â€œì˜í™”ì— ê´€í•œ ëª¨ë“ ê²ƒì´ ê¶ê¸ˆí•˜ë‹¤ë©´ ì§€ê¸ˆ ë°”ë¡œ ë”©ê³ ë¬´ë¹„ êµ¬ë…í•˜ê¸°!â€
+?ë”©ê³ ë¬´ë¹„ ë§í¬
 Facebook: https://www.facebook.com/dingo.movie.kr
 Instagram: https://www.instagram.com/dingo_movie/
-³×ÀÌ¹öTV: https://tv.naver.com/dingomovie',null,null,null,'dingo@daum.net','DH003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','543','DH543','(½ºÆ÷ÁÖÀÇ) ±â¹¦ÇÑ ÀÌ¾ß±â ½ÃÁğ3 ÀÌ½ºÅÍ ¿¡±× ÇØ¼® ¹× ¸®ºä','https://www.youtube.com/embed/r1XKvk_Jd90','#±â¹¦ÇÑÀÌ¾ß±â,#³İÇÃ¸¯½º,#½Ã¹¦ÇÑÀÌ¾ß±â½ÃÁğ3
-±â¹¦ÇÑ ÀÌ¾ß±â ½ÃÁğ3 ÀÌ½ºÅÍ ¿¡±× ÇØ¼®°ú
-½ºÆ÷ÀÏ·¯ ¸®ºäÀÔ´Ï´Ù',null,null,null,'uppercut@naver.com','DH003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','544','DH544','¹üÁË½É¸®ÇĞÀÇ ±³°ú¼­ ¡¶¸¶ÀÎµå ÇåÅÍ¡·, ³İÇÃ¸¯½º ÇÊ°ü¶÷ÀÛ!','https://www.youtube.com/embed/NTAI7i4VovI','¿©±â´Â ¿µÈ­ÀÇ ¹ÌÇĞÀ» Àç¹Ì·Î Ç®¾î³»´Â °÷, ±è½Ã¼± ¿µÈ­Ã¤³ÎÀÔ´Ï´Ù.
-* ÀÌ ¿µ»ó¿¡ ¼Ò°³µÈ ³İÇÃ¸¯½º ¿Ã¸®Áö³Î µå¶ó¸¶´Â ¸¶ÀÎµå ÇåÅÍ(½ÃÁğ1)ÀÔ´Ï´Ù.
-* ÀÌ ¿µ»óÀº ''³İÇÃ¸¯½º'' Á¦ÀÛ Áö¿øÀ¸·Î ¸¸µç ¿­³× ¹øÂ° ¿µ»óÀÔ´Ï´Ù. ±×·¸°Ô ÇÒ ¼ö ÀÖ°Ô µµ¿ÍÁØ ±¸µ¶ÀÚ ¿µÈ­ Ä£±¸µé¿¡°Ô °¨»çµå¸³´Ï´Ù.
-¿µÈ­,ÀÏµå,¹Ìµå,Áßµå,µîµî ¿µ»ó ÄÜÅÙÃ÷ ¹®ÀÇ : kim@siseon.kr
-¿µÈ­ ¸¶ÀÎµå ÇåÅÍ º¸±â : http://www.netflix.com/title/80114855
-¿µÈ­ ´öÈÄ¸¦ À§ÇÑ ¶Ç ´Ù¸¥ ÄÚ³Ê! ¿µÈ­ÀÇ¹ß°ß ½Ã¸®Áî °¨»ó : http://goo.gl/LvB1dj
-±è½Ã¼±X³İÇÃ¸¯½º ½Ã¸®Áî ¿µ»óµé : https://goo.gl/3fdvij
-±è½Ã¼± ÀÏ»óÀÌ ÀûÈù ÆäÀÌ½ººÏ ÆÈ·Î¿ì! : http://www.facebook.com/siseon13',null,null,null,'eyesonme@naver.com','DH004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','545','DH545','½ÎÀÌÄÚÆĞ½ºµéÀÇ Á¤½Å»óÅÂ°¡ ±Ã±İÇÏ´Ù¸é? - ¸¶ÀÎµåÇåÅÍ','https://www.youtube.com/embed/PWz0UzaDv2g','³İÇÃ¸¯½º + µ¥ÀÌºø ÇÉÃÄ = ¹Ï°í º¸´Â µå¶ó¸¶¶ó´Â °ø½ÄÀ» ´Ù½Ã ÇÑ ¹ø Áõ¸íÇÑ ''¸¶ÀÎµåÇåÅÍ'' ¸®ºäÀÔ´Ï´Ù. ½ÃÁğ2±îÁö 19ÆíÀÌ ³ª¿ÔÁö¸¸, ¸ôÀÔµµ°¡ Á¤¸» ¶Ù¾î³­ µå¶ó¸¶ÀÔ´Ï´Ù. °­Ãß!
-#¸¶ÀÎµåÇåÅÍ #µå¶ó¸¶¸®ºä #¾ûÁØ #³İÇÃ¸¯½º
-Á¤±âÈÄ¿øÇÏ±â : https://fanding.kr/user/ungjune
-¸ÁÀÛ¿µÈ­Á¦ ÈÄ¿ø : https://fanding.kr/user/ungjune
-°¨µ¶ - µ¥ÀÌºø ÇÉÃÄ, Ä® ÇÁ·©Å¬¸°, ¾Øµå·ù ´õ±Û¶ó½º, ¾Æ½ÃÇÁ Ä«ÆÄµğ¾Æ, Åäºñ¾Æ½º ¸°È¨, ¾Øµå·ù µµ¹Ì´Ğ
-Ãâ¿¬ - Á¶³ª´Ü ±×·ÎÇÁ, È¦Æ® ¸ÆÄ®¸®´Ï, ¾È³ª Åäºê, ¼Ò´Ï ¹ß¸®¼¾Æ¼, ½ºÅ×ÀÌ½Ã ·ÎÄ«, ÇÑ³ª ±×·Î½º, Á¶ ÅÍÆ², ÀçÄ¿¸® ½ºÄà ·Î½º, ÄÚÅÍ ½º¹Ì½º, ¾Ë¹öÆ® Á¸½º, ·Î·» ±Û·¡Áö¾î
-Á¦¸ñ - ¸¶ÀÎµåÇåÅÍ
-¿µ»ó¿¡¼­ ¸ø ´ÙÇÑ ÀÌ¾ß±â´Â ÆäÀÌ½ººÏ¿¡¼­ : https://bit.ly/2I092rE
-±×³É ¾ûÁØÀÇ ÀÏ»ó ÀÎ½ºÅ¸±×·¥ : https://bit.ly/2KG1XhK
-°¡²û º°Á¡ ¸Å±â´Â ¾ûÁØÀÇ ¿ÓÃ­ : https://bit.ly/2rpvQtL
-¾ûÁØÀÌ »ç¿ëÇÏ´Â Àåºñ : https://kit.com/ungjune
-ºñÁî´Ï½º¹®ÀÇ : ungjune@gmail.com
-¾ûÁØÀÇ SNS ÆÈ·Î¿ì ÇØÁÖ½Ã°í, ÁÁ¾Æ¿ä, ±¸µ¶µµ ÀØÁö ¸¶¼¼¿ä!!',null,null,null,'unjun@naver.com','DH004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','546','DH546','½ÎÀÌÄÚÆĞ½ºµéÀÌ ÁÁ¾ÆÇÏ´Â »ç¶÷¿¡°Ô ÇÏ´Â ¸î °¡Áö Çàµ¿µé.. ¿À½Ï','https://www.youtube.com/embed/upcurif5VOg','³İÇÃ¸¯½º µå¶ó¸¶ [¸¶ÀÎµåÇåÅÍ] ½ºÅä¸®ÅÚ¸µ ¹× ¸®ºä¿µ»óÀÔ´Ï´Ù.
-ÀÌ µå¶ó¸¶´Â ³İÇÃ¸¯½º¿¡¼­ ÇöÀç ½ÃÁğ2±îÁö º¸½Ç ¼ö ÀÖ½À´Ï´Ù.
-¾Æ¹«Æ° ¿À´Ãµµ Ã£¾Æ¿ÍÁÖ¼Å¼­ °¨»çÇÏ´Ù´Â ¸»¾¸ ³²±â¸ç Àú´Â 20000..
-Áñ°Å¿î ºÒ±İ ºÒÁÖ¸» º¸³»¼¼¿ä!!!
-p.s ÀÎÄÚµù ÇÑ ´ÙÀ½ À¯Æ©ºê ¾÷·ÎµåÇÏ°í ¹ß°ßÇÑ ¾Æ¿ôÆ®·Î À½·®Á¶Àı½ÇÆĞ..',null,null,null,'sogaenam@naver.com','DH004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','547','DH547','Èä°¡¿¡ ÇÔºÎ·Î »ì¸é ¾ÈµÇ´Â ÀÌÀ¯','https://www.youtube.com/embed/80n_dtbd71U','³İÇÃ¸¯½º ¹Ìµå ''ÈúÇÏ¿ì½ºÀÇ À¯·É'' ½ºÅä¸®ÅÚ¸µ ¹× ¸®ºä¿µ»óÀÔ´Ï´Ù.
-°¨»çÇÕ´Ï´Ù.',null,null,null,'sogaenam@naver.com','DH005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','548','DH548','³İÇÃ¸¯½º ¿À¸®Áö³Î µå¶ó¸¶ ÈúÇÏ¿ì½ºÀÇ À¯·É ¸®ºä The Haunting of Hill House','https://www.youtube.com/embed/A1a24WIaAr8','#³İÇÃ¸¯½º,#¹Ìµå,#ÈúÇÏ¿ì½ºÀÇÀ¯·É
-³İÇÃ¸¯½º ¿À¸®Áö³Î µå¶ó¸¶ ÈúÇÏ¿ì½ºÀÇ À¯·É ¸®ºäÀÔ´Ï´Ù
-°­·ÂÇÑ È£·¯ Àå¸£ÀÇ µå¶ó¸¶ÀÔ´Ï´Ù
-°øÆ÷ ¿µÈ­ ÁÁ¾ÆÇÏ½Ã´Â ºĞµé! ²À º¸¼¼¿ä
-Á¤¸» Àç¹ÌÀÖ½À´Ï´Ù',null,null,null,'uppercut@naver.com','DH005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','549','DR549','[¹Ìµå][ÇÏÀÌÆ¾] ¹Ì±¹ 10´ë »ó·ùÃşµéÀÇ º¹ÀâÇÑ ¾ÖÁ¤°ü°è','https://www.youtube.com/embed/dbV9k0JHycI','#¹Ìµå#°¡½Ê°É#½ÃÁğ1',null,null,null,'soso@naver.com','DR001',to_date('20/02/19','RR/MM/DD'));
+ë„¤ì´ë²„TV: https://tv.naver.com/dingomovie',null,null,null,'dingo@daum.net','DH003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','543','DH543','(ìŠ¤í¬ì£¼ì˜) ê¸°ë¬˜í•œ ì´ì•¼ê¸° ì‹œì¦Œ3 ì´ìŠ¤í„° ì—ê·¸ í•´ì„ ë° ë¦¬ë·°','https://www.youtube.com/embed/r1XKvk_Jd90','#ê¸°ë¬˜í•œì´ì•¼ê¸°,#ë„·í”Œë¦­ìŠ¤,#ì‹œë¬˜í•œì´ì•¼ê¸°ì‹œì¦Œ3
+ê¸°ë¬˜í•œ ì´ì•¼ê¸° ì‹œì¦Œ3 ì´ìŠ¤í„° ì—ê·¸ í•´ì„ê³¼
+ìŠ¤í¬ì¼ëŸ¬ ë¦¬ë·°ì…ë‹ˆë‹¤',null,null,null,'uppercut@naver.com','DH003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','544','DH544','ë²”ì£„ì‹¬ë¦¬í•™ì˜ êµê³¼ì„œ ã€Šë§ˆì¸ë“œ í—Œí„°ã€‹, ë„·í”Œë¦­ìŠ¤ í•„ê´€ëŒì‘!','https://www.youtube.com/embed/NTAI7i4VovI','ì—¬ê¸°ëŠ” ì˜í™”ì˜ ë¯¸í•™ì„ ì¬ë¯¸ë¡œ í’€ì–´ë‚´ëŠ” ê³³, ê¹€ì‹œì„  ì˜í™”ì±„ë„ì…ë‹ˆë‹¤.
+* ì´ ì˜ìƒì— ì†Œê°œëœ ë„·í”Œë¦­ìŠ¤ ì˜¬ë¦¬ì§€ë„ ë“œë¼ë§ˆëŠ” ë§ˆì¸ë“œ í—Œí„°(ì‹œì¦Œ1)ì…ë‹ˆë‹¤.
+* ì´ ì˜ìƒì€ ''ë„·í”Œë¦­ìŠ¤'' ì œì‘ ì§€ì›ìœ¼ë¡œ ë§Œë“  ì—´ë„¤ ë²ˆì§¸ ì˜ìƒì…ë‹ˆë‹¤. ê·¸ë ‡ê²Œ í•  ìˆ˜ ìˆê²Œ ë„ì™€ì¤€ êµ¬ë…ì ì˜í™” ì¹œêµ¬ë“¤ì—ê²Œ ê°ì‚¬ë“œë¦½ë‹ˆë‹¤.
+ì˜í™”,ì¼ë“œ,ë¯¸ë“œ,ì¤‘ë“œ,ë“±ë“± ì˜ìƒ ì½˜í…ì¸  ë¬¸ì˜ : kim@siseon.kr
+ì˜í™” ë§ˆì¸ë“œ í—Œí„° ë³´ê¸° : http://www.netflix.com/title/80114855
+ì˜í™” ë•í›„ë¥¼ ìœ„í•œ ë˜ ë‹¤ë¥¸ ì½”ë„ˆ! ì˜í™”ì˜ë°œê²¬ ì‹œë¦¬ì¦ˆ ê°ìƒ : http://goo.gl/LvB1dj
+ê¹€ì‹œì„ Xë„·í”Œë¦­ìŠ¤ ì‹œë¦¬ì¦ˆ ì˜ìƒë“¤ : https://goo.gl/3fdvij
+ê¹€ì‹œì„  ì¼ìƒì´ ì íŒ í˜ì´ìŠ¤ë¶ íŒ”ë¡œìš°! : http://www.facebook.com/siseon13',null,null,null,'eyesonme@naver.com','DH004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','545','DH545','ì‹¸ì´ì½”íŒ¨ìŠ¤ë“¤ì˜ ì •ì‹ ìƒíƒœê°€ ê¶ê¸ˆí•˜ë‹¤ë©´? - ë§ˆì¸ë“œí—Œí„°','https://www.youtube.com/embed/PWz0UzaDv2g','ë„·í”Œë¦­ìŠ¤ + ë°ì´ë¹— í•€ì³ = ë¯¿ê³  ë³´ëŠ” ë“œë¼ë§ˆë¼ëŠ” ê³µì‹ì„ ë‹¤ì‹œ í•œ ë²ˆ ì¦ëª…í•œ ''ë§ˆì¸ë“œí—Œí„°'' ë¦¬ë·°ì…ë‹ˆë‹¤. ì‹œì¦Œ2ê¹Œì§€ 19í¸ì´ ë‚˜ì™”ì§€ë§Œ, ëª°ì…ë„ê°€ ì •ë§ ë›°ì–´ë‚œ ë“œë¼ë§ˆì…ë‹ˆë‹¤. ê°•ì¶”!
+#ë§ˆì¸ë“œí—Œí„° #ë“œë¼ë§ˆë¦¬ë·° #ì—‰ì¤€ #ë„·í”Œë¦­ìŠ¤
+ì •ê¸°í›„ì›í•˜ê¸° : https://fanding.kr/user/ungjune
+ë§ì‘ì˜í™”ì œ í›„ì› : https://fanding.kr/user/ungjune
+ê°ë… - ë°ì´ë¹— í•€ì³, ì¹¼ í”„ë­í´ë¦°, ì•¤ë“œë¥˜ ë”ê¸€ë¼ìŠ¤, ì•„ì‹œí”„ ì¹´íŒŒë””ì•„, í† ë¹„ì•„ìŠ¤ ë¦°í™ˆ, ì•¤ë“œë¥˜ ë„ë¯¸ë‹‰
+ì¶œì—° - ì¡°ë‚˜ë‹¨ ê·¸ë¡œí”„, í™€íŠ¸ ë§¥ì¹¼ë¦¬ë‹ˆ, ì•ˆë‚˜ í† ë¸Œ, ì†Œë‹ˆ ë°œë¦¬ì„¼í‹°, ìŠ¤í…Œì´ì‹œ ë¡œì¹´, í•œë‚˜ ê·¸ë¡œìŠ¤, ì¡° í„°í‹€, ì¬ì»¤ë¦¬ ìŠ¤ì½§ ë¡œìŠ¤, ì½”í„° ìŠ¤ë¯¸ìŠ¤, ì•Œë²„íŠ¸ ì¡´ìŠ¤, ë¡œë Œ ê¸€ë˜ì§€ì–´
+ì œëª© - ë§ˆì¸ë“œí—Œí„°
+ì˜ìƒì—ì„œ ëª» ë‹¤í•œ ì´ì•¼ê¸°ëŠ” í˜ì´ìŠ¤ë¶ì—ì„œ : https://bit.ly/2I092rE
+ê·¸ëƒ¥ ì—‰ì¤€ì˜ ì¼ìƒ ì¸ìŠ¤íƒ€ê·¸ë¨ : https://bit.ly/2KG1XhK
+ê°€ë” ë³„ì  ë§¤ê¸°ëŠ” ì—‰ì¤€ì˜ ì™“ì±  : https://bit.ly/2rpvQtL
+ì—‰ì¤€ì´ ì‚¬ìš©í•˜ëŠ” ì¥ë¹„ : https://kit.com/ungjune
+ë¹„ì¦ˆë‹ˆìŠ¤ë¬¸ì˜ : ungjune@gmail.com
+ì—‰ì¤€ì˜ SNS íŒ”ë¡œìš° í•´ì£¼ì‹œê³ , ì¢‹ì•„ìš”, êµ¬ë…ë„ ìŠì§€ ë§ˆì„¸ìš”!!',null,null,null,'unjun@naver.com','DH004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','546','DH546','ì‹¸ì´ì½”íŒ¨ìŠ¤ë“¤ì´ ì¢‹ì•„í•˜ëŠ” ì‚¬ëŒì—ê²Œ í•˜ëŠ” ëª‡ ê°€ì§€ í–‰ë™ë“¤.. ì˜¤ì‹¹','https://www.youtube.com/embed/upcurif5VOg','ë„·í”Œë¦­ìŠ¤ ë“œë¼ë§ˆ [ë§ˆì¸ë“œí—Œí„°] ìŠ¤í† ë¦¬í…”ë§ ë° ë¦¬ë·°ì˜ìƒì…ë‹ˆë‹¤.
+ì´ ë“œë¼ë§ˆëŠ” ë„·í”Œë¦­ìŠ¤ì—ì„œ í˜„ì¬ ì‹œì¦Œ2ê¹Œì§€ ë³´ì‹¤ ìˆ˜ ìˆìŠµë‹ˆë‹¤.
+ì•„ë¬´íŠ¼ ì˜¤ëŠ˜ë„ ì°¾ì•„ì™€ì£¼ì…”ì„œ ê°ì‚¬í•˜ë‹¤ëŠ” ë§ì”€ ë‚¨ê¸°ë©° ì €ëŠ” 20000..
+ì¦ê±°ìš´ ë¶ˆê¸ˆ ë¶ˆì£¼ë§ ë³´ë‚´ì„¸ìš”!!!
+p.s ì¸ì½”ë”© í•œ ë‹¤ìŒ ìœ íŠœë¸Œ ì—…ë¡œë“œí•˜ê³  ë°œê²¬í•œ ì•„ì›ƒíŠ¸ë¡œ ìŒëŸ‰ì¡°ì ˆì‹¤íŒ¨..',null,null,null,'sogaenam@naver.com','DH004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','547','DH547','í‰ê°€ì— í•¨ë¶€ë¡œ ì‚´ë©´ ì•ˆë˜ëŠ” ì´ìœ ','https://www.youtube.com/embed/80n_dtbd71U','ë„·í”Œë¦­ìŠ¤ ë¯¸ë“œ ''íí•˜ìš°ìŠ¤ì˜ ìœ ë ¹'' ìŠ¤í† ë¦¬í…”ë§ ë° ë¦¬ë·°ì˜ìƒì…ë‹ˆë‹¤.
+ê°ì‚¬í•©ë‹ˆë‹¤.',null,null,null,'sogaenam@naver.com','DH005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','H','548','DH548','ë„·í”Œë¦­ìŠ¤ ì˜¤ë¦¬ì§€ë„ ë“œë¼ë§ˆ íí•˜ìš°ìŠ¤ì˜ ìœ ë ¹ ë¦¬ë·° The Haunting of Hill House','https://www.youtube.com/embed/A1a24WIaAr8','#ë„·í”Œë¦­ìŠ¤,#ë¯¸ë“œ,#íí•˜ìš°ìŠ¤ì˜ìœ ë ¹
+ë„·í”Œë¦­ìŠ¤ ì˜¤ë¦¬ì§€ë„ ë“œë¼ë§ˆ íí•˜ìš°ìŠ¤ì˜ ìœ ë ¹ ë¦¬ë·°ì…ë‹ˆë‹¤
+ê°•ë ¥í•œ í˜¸ëŸ¬ ì¥ë¥´ì˜ ë“œë¼ë§ˆì…ë‹ˆë‹¤
+ê³µí¬ ì˜í™” ì¢‹ì•„í•˜ì‹œëŠ” ë¶„ë“¤! ê¼­ ë³´ì„¸ìš”
+ì •ë§ ì¬ë¯¸ìˆìŠµë‹ˆë‹¤',null,null,null,'uppercut@naver.com','DH005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','549','DR549','[ë¯¸ë“œ][í•˜ì´í‹´] ë¯¸êµ­ 10ëŒ€ ìƒë¥˜ì¸µë“¤ì˜ ë³µì¡í•œ ì• ì •ê´€ê³„','https://www.youtube.com/embed/dbV9k0JHycI','#ë¯¸ë“œ#ê°€ì‹­ê±¸#ì‹œì¦Œ1',null,null,null,'soso@naver.com','DR001',to_date('20/02/19','RR/MM/DD'));
 Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','550','DR550','Gossip Girl Complete Series 1-6 Review','https://www.youtube.com/embed/HCRuVnE--Hg','Sharing my thoughts on one of my favourite shows, I love this show so much I hope i''ll continue to love it as I keep rewatching it. Let me know if you have seen it and anything you''d like to share about what you think of it, Favourite Season? Favourite Character? Favourite Moment? I do have one other favourite moment that I didn''t include because it would be a big spoiler Don''t forget to go ahead and subscribe here to keep up to date with all new videos : https://www.youtube.com/subscription_...
 For business inquiries: fkvlogsofficial@gmail.com',null,null,null,'fkvlogs24@gmail.com','DR001',to_date('20/02/19','RR/MM/DD'));
 Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','551','DR551','Gossip Girl - Season 1 Review','https://www.youtube.com/embed/jQbQucmLxFU','A review of the first season of the TV show "Gossip Girl" by TheFalconReview.',null,null,null,'falconcaptain@gmail.com','DR001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','552','DR552','[µå¶ó¸¶Äü¸®ºä] ''µµ±úºñ'' Æí','https://www.youtube.com/embed/p_6kvtueve4','[µå¶ó¸¶Äü¸®ºä]µå.µğ.¾î. Äü¸®ºä·Î ''µµ±úºñ''°¡!
-µµ¾Ë¸ø(''µµ±úºñ''¸¦ ¾ËÁö ¸øÇÏ´Â) ÀÌµéÀ» À§ÇØ, 4ºĞ ¾È¿¡ Ç®¾îµå·Á¿ä. ³Ñ³ª ½ÉÄôÇÏ´Â °Í..²À ºÁ µÎ¹øºÁ!!
-#µµ±úºñ #ÄÉÀÌºíTVVOD #µå¶ó¸¶ #VOD #°øÀ¯',null,null,null,'cabletv@yahoo.com','DR002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','553','DR553','[±ú¾Ë±úÀÛ #1] µµ±úºñ :: Çı¹Ì¿Í ÇÔ²²ÇÏ´Â ÇÑ±¹µå¶ó¸¶ º»°İ ¸®ºä!! (µµ±úºñ ¸®ºä)','https://www.youtube.com/embed/I9CrKI9_u1A','Çı¹Ì¿Í ÇÔ²²ÇÏ´Â ÇÑ±¹µå¶ó¸¶ º»°İ ¸®ºä!!
-Á¦ÀÛ : [REDC] ¹æ¼Ö·¥, ¹ÚÇı¹Ì, ¹ÚÁ¤ÀÎ, ÀÌÁöÇı',null,null,null,'redc@hotmail.com','DR002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','554','DR554','ºñ¿­ÇÑ ¸®ºä - µµ±úºñ Àå´ÜÁ¡ ºĞ¼®','https://www.youtube.com/embed/lIYyFoCe0U8','µµ±úºñ ºĞ¼® ¸®ºäÀÔ´Ï´Ù.
-»ç¿ëµÈ ¹«·á À½¿ø -
-ÀÌ ³ë·¡¸¦ ¹«·á·Î »ç¿ëÇÏ°í µ¿¿µ»óÀ¸·Î ¼öÀÍÀ» Ã¢ÃâÇÒ ¼ö ÀÖÁö¸¸ µ¿¿µ»ó ¼³¸í¿¡ ´ÙÀ½À» Æ÷ÇÔÇØ¾ß ÇÕ´Ï´Ù.
-AudionautixÀÇ One Fine DayÀº(´Â) Creative Commons Attribution ¶óÀÌ¼±½º(https://creativecommons.org/licenses/... µû¶ó ¶óÀÌ¼±½º°¡ ºÎ¿©µË´Ï´Ù.
-¾ÆÆ¼½ºÆ®: http://audionautix.com/',null,null,null,'tunachamchi@yahoo.com','DR002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','555','DR555','µµ±úºñ, ÅÂ¾çÀÇ ÈÄ¿¹¸¦ ¶Ù¾î³ÑÀ» tvN ½ÅÀÛ µå¶ó¸¶ [¹Ì½ºÅÍ ¼±»şÀÎ] ÆÄÇìÄ¡±â','https://www.youtube.com/embed/mjZm-HhuwlQ','"¾Æ¾Æ, ÀÌ°ÍÀº ½ºÅ¸ÀÛ°¡ ±èÀº¼÷ ÀÛ°¡ÀÇ µå¶ó¸¶¶ó´Â °ÍÀÌ´Ù."
-7¿ù 7ÀÏ Ã¹¹æ¼ÛµÇ´Â ±èÀº¼÷ ÀÛ°¡, ÀÌº´Çå/±èÅÂ¸® ÁÖ¿¬ÀÇ ¹Ì½ºÅÍ ¼±»şÀÎ!
-ÀÌ¹ø ÆÄÇìÄ¡±â ÇÁ·Ñ·Î±×¸¦ ½ÃÀÛÀ¸·Î ¸ÅÁÖ ¸®ºä°¡ ¾÷·Îµå µË´Ï´Ù.
-ÀúÈñ¶û ¸ÅÁÖ ÇÔ²² º¸½ÃÁÒ!',null,null,null,'shortcut@daum.net','DR003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','556','DR556','[µå²¿º¸³²] ep.05 µå¶ó¸¶ ¹Ì½ºÅÍ¼Ç»şÀÎ 1,2È­ ¸®ºä | È­Á¦ÀÇ 400¾ï ´ëÀÛÀÌ µåµğ¾î º£ÀÏÀ» ¹ş¾ú´Ù','https://www.youtube.com/embed/ygBDYPxQyuI','µå²¿º¸³²¿¡¼­ »õ·Î ¸®ºäÇÒ µå¶ó¸¶ ''¹Ì½ºÅÍ ¼Ç»şÀÎ''
-400¾ï Á¦ÀÛºñ°¡ ÅõÀÔ µÈ ½Ã´ë±Ø,
-''ÅÂ¾çÀÇ ÈÄ¿¹''¿Í ''µµ±úºñ''ÀÇ Á¦ÀÛÁø,
-ÀÌº´ÇåÀÇ 9³â ¸¸ÀÇ µå¶ó¸¶ º¹±ÍÀÛ,
-È­Á¦°¡ µÇÁö ¾ÊÀ» ¼ö ¾ø´Ù.',null,null,null,'iconictv@daum.net','DR003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','557','DR557','[ENG][ÇÑ±ÛÀÚ¸·]¹Ì½ºÅÍ¼Ç»şÀÎÀ» º» ¿µ±¹³²ÀÚÄ£±¸ÀÇ ¸®ºä! ¡Ø½ºÆ÷ÁÖÀÇ Mr.Sunshine Review with my British boyfriend l Serin ¼¼¸°','https://www.youtube.com/embed/5PjzUlQMAkA','¾È³çÇÏ¼¼¿ä ¿©·¯ºĞ! ±×µ¿¾È ÀÏÀÌ ¸¹¾Æ ¿µ»ó ¾÷·Îµå¸¦ ¸ø ÇÏ´Ù°¡ µåµğ¾î!!! ÆíÁıÀ» ³¡³ª°í ¿µ»óÀ» ¿Ã·Á¿ä! ÀÌ¹ø ¿µ»óÀº ¾Æ¸¶ Á¦°¡ ÆíÁıÇÑ ¿µ»ó Áß¿¡ °¡Àå ±ä ¿µ»óÀÌ µÇÁö ¾ÊÀ»±î ½Í¾î¿ä! ³²ÀÚÄ£±¸¿Í ¾ó¸¶ Àü¿¡ ''¹Ì½ºÅÍ ¼Ç»şÀÎ''ÀÌ¶ó´Â µå¶ó¸¶¸¦ º¸°Ô µÇ¾ú¾î¿ä. Àú °³ÀÎÀûÀ¸·Î´Â ±²ÀåÈ÷ ¿À·£¸¸¿¡ º» ÇÑ±¹µå¶ó¸¶¿´°í ³²ÀÚÄ£±¸´Â ÅÂ¾î³ª¼­ Ã³À½À¸·Î º» ÇÑ±¹µå¶ó¸¶¿´¾î¿ä. ±×·¡¼­ ±×·±Áö ¼­·Î µå¶ó¸¶¸¦ º¸°í ¾î¶»°Ô ´À²¼´ÂÁö ¿µ»óÀ¸·Î ³²±â¸é ÁÁÀ» °Í °°¾Æ¼­ ¸®ºä ¿µ»óÀ» ¸¸µé¾îºÃ¾î¿ä:) ¿ª»ç °íÁõÀÌ ºÎÁ·ÇÏ´Ù, ¹Ì½ºÄ³½ºÆÃÀÌ¾ú´Ù ¶ó´Â ¸»µéÀ» ÀÍÈ÷ µé¾î¿Ô´ø ÅÍ¶ó º¼ ¶§µµ ±× Á¡À» °¨¾ÈÇÏ°í µå¶ó¸¶¸¦ ºÃ¾î¿ä. Á¦ °³ÀÎÀûÀ¸·Î´Â ±×·± ´ÜÁ¡µé¿¡µµ ºÒ±¸ÇÏ°í ²Ï Àß ¸¸µé¾îÁø µå¶ó¸¶¶ó´Â »ı°¢À» ÇØ¿ä. ¿ª»ç µå¶ó¸¶ ÀÛ°¡´Â ¿ª»ç ÀÎ½ÄÀ» °¡Áö´Â °Ô ¸Â´Â ÀÏÀÌ±ä ÇÏÁö¸¸ ¾îµğ±îÁö³ª ÇÈ¼ÇÀÌ±â ¶§¹®¿¡ ¿Ïº®ÇÒ ¼ö´Â ¾ø´Â ÀÏÀÌ¶ó°í »ı°¢Çß±¸¿ä. ¿ª»ç µå¶ó¸¶ °íÁõÀ» Àß ÇÏ´Â ÀÏµµ ¹°·Ğ Áß¿äÇÏÁö¸¸ ±× Àü¿¡ ÇĞ±³¿¡¼­ ¿Ã¹Ù¸¥ ¿ª»ç¸¦ ¸ÕÀú ¹è¿ï ¼ö ÀÖµµ·Ï ÇØ¼­ ¿ª»ç µå¶ó¸¶¸¦ Á¢ÇÏ´Â ¾ÆÀÌµéÀÌ Çò°¥¸®´Â ÀÏÀÌ ¾øµµ·Ï ÇÏ¸é ÁÁ°Ú´Ù ¶ó´Â »ı°¢À» Çß±¸¿ä. ¿ª»ç µå¶ó¸¶´Â µå¶ó¸¶ÀÏ »ÓÀÌÁö ±³°ú¼­°¡ ¾Æ´Ï´Ï±î¿ä! ±×·± Á¡À» °¨¾ÈÇÏ°í º¼ ¶§ ²Ï Àß ¸¸µé¾îÁø, Áñ°Üº¼ ¸¸ÇÑ µå¶ó¸¶¶ó°í »ı°¢ÇÕ´Ï´Ù:) ¸»ÀÌ ±æ¾úÁö¸¸ ¾îÂ·µç Àú´Â Àç¹Õ°Ô ºÃ¾î¿ä!! ÃßÃµÇÕ´Ï´Ù!
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','552','DR552','[ë“œë¼ë§ˆí€µë¦¬ë·°] ''ë„ê¹¨ë¹„'' í¸','https://www.youtube.com/embed/p_6kvtueve4','[ë“œë¼ë§ˆí€µë¦¬ë·°]ë“œ.ë””.ì–´. í€µë¦¬ë·°ë¡œ ''ë„ê¹¨ë¹„''ê°€!
+ë„ì•Œëª»(''ë„ê¹¨ë¹„''ë¥¼ ì•Œì§€ ëª»í•˜ëŠ”) ì´ë“¤ì„ ìœ„í•´, 4ë¶„ ì•ˆì— í’€ì–´ë“œë ¤ìš”. ë„˜ë‚˜ ì‹¬ì¿µí•˜ëŠ” ê²ƒ..ê¼­ ë´ ë‘ë²ˆë´!!
+#ë„ê¹¨ë¹„ #ì¼€ì´ë¸”TVVOD #ë“œë¼ë§ˆ #VOD #ê³µìœ ',null,null,null,'cabletv@yahoo.com','DR002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','553','DR553','[ê¹¨ì•Œê¹¨ì‘ #1] ë„ê¹¨ë¹„ :: í˜œë¯¸ì™€ í•¨ê»˜í•˜ëŠ” í•œêµ­ë“œë¼ë§ˆ ë³¸ê²© ë¦¬ë·°!! (ë„ê¹¨ë¹„ ë¦¬ë·°)','https://www.youtube.com/embed/I9CrKI9_u1A','í˜œë¯¸ì™€ í•¨ê»˜í•˜ëŠ” í•œêµ­ë“œë¼ë§ˆ ë³¸ê²© ë¦¬ë·°!!
+ì œì‘ : [REDC] ë°©ì†”ë¨, ë°•í˜œë¯¸, ë°•ì •ì¸, ì´ì§€í˜œ',null,null,null,'redc@hotmail.com','DR002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','554','DR554','ë¹„ì—´í•œ ë¦¬ë·° - ë„ê¹¨ë¹„ ì¥ë‹¨ì  ë¶„ì„','https://www.youtube.com/embed/lIYyFoCe0U8','ë„ê¹¨ë¹„ ë¶„ì„ ë¦¬ë·°ì…ë‹ˆë‹¤.
+ì‚¬ìš©ëœ ë¬´ë£Œ ìŒì› -
+ì´ ë…¸ë˜ë¥¼ ë¬´ë£Œë¡œ ì‚¬ìš©í•˜ê³  ë™ì˜ìƒìœ¼ë¡œ ìˆ˜ìµì„ ì°½ì¶œí•  ìˆ˜ ìˆì§€ë§Œ ë™ì˜ìƒ ì„¤ëª…ì— ë‹¤ìŒì„ í¬í•¨í•´ì•¼ í•©ë‹ˆë‹¤.
+Audionautixì˜ One Fine Dayì€(ëŠ”) Creative Commons Attribution ë¼ì´ì„ ìŠ¤(https://creativecommons.org/licenses/... ë”°ë¼ ë¼ì´ì„ ìŠ¤ê°€ ë¶€ì—¬ë©ë‹ˆë‹¤.
+ì•„í‹°ìŠ¤íŠ¸: http://audionautix.com/',null,null,null,'tunachamchi@yahoo.com','DR002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','555','DR555','ë„ê¹¨ë¹„, íƒœì–‘ì˜ í›„ì˜ˆë¥¼ ë›°ì–´ë„˜ì„ tvN ì‹ ì‘ ë“œë¼ë§ˆ [ë¯¸ìŠ¤í„° ì„ ìƒ¤ì¸] íŒŒí—¤ì¹˜ê¸°','https://www.youtube.com/embed/mjZm-HhuwlQ','"ì•„ì•„, ì´ê²ƒì€ ìŠ¤íƒ€ì‘ê°€ ê¹€ì€ìˆ™ ì‘ê°€ì˜ ë“œë¼ë§ˆë¼ëŠ” ê²ƒì´ë‹¤."
+7ì›” 7ì¼ ì²«ë°©ì†¡ë˜ëŠ” ê¹€ì€ìˆ™ ì‘ê°€, ì´ë³‘í—Œ/ê¹€íƒœë¦¬ ì£¼ì—°ì˜ ë¯¸ìŠ¤í„° ì„ ìƒ¤ì¸!
+ì´ë²ˆ íŒŒí—¤ì¹˜ê¸° í”„ë¡¤ë¡œê·¸ë¥¼ ì‹œì‘ìœ¼ë¡œ ë§¤ì£¼ ë¦¬ë·°ê°€ ì—…ë¡œë“œ ë©ë‹ˆë‹¤.
+ì €í¬ë‘ ë§¤ì£¼ í•¨ê»˜ ë³´ì‹œì£ !',null,null,null,'shortcut@daum.net','DR003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','556','DR556','[ë“œê¼¬ë³´ë‚¨] ep.05 ë“œë¼ë§ˆ ë¯¸ìŠ¤í„°ì…˜ìƒ¤ì¸ 1,2í™” ë¦¬ë·° | í™”ì œì˜ 400ì–µ ëŒ€ì‘ì´ ë“œë””ì–´ ë² ì¼ì„ ë²—ì—ˆë‹¤','https://www.youtube.com/embed/ygBDYPxQyuI','ë“œê¼¬ë³´ë‚¨ì—ì„œ ìƒˆë¡œ ë¦¬ë·°í•  ë“œë¼ë§ˆ ''ë¯¸ìŠ¤í„° ì…˜ìƒ¤ì¸''
+400ì–µ ì œì‘ë¹„ê°€ íˆ¬ì… ëœ ì‹œëŒ€ê·¹,
+''íƒœì–‘ì˜ í›„ì˜ˆ''ì™€ ''ë„ê¹¨ë¹„''ì˜ ì œì‘ì§„,
+ì´ë³‘í—Œì˜ 9ë…„ ë§Œì˜ ë“œë¼ë§ˆ ë³µê·€ì‘,
+í™”ì œê°€ ë˜ì§€ ì•Šì„ ìˆ˜ ì—†ë‹¤.',null,null,null,'iconictv@daum.net','DR003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','557','DR557','[ENG][í•œê¸€ìë§‰]ë¯¸ìŠ¤í„°ì…˜ìƒ¤ì¸ì„ ë³¸ ì˜êµ­ë‚¨ìì¹œêµ¬ì˜ ë¦¬ë·°! â€»ìŠ¤í¬ì£¼ì˜ Mr.Sunshine Review with my British boyfriend l Serin ì„¸ë¦°','https://www.youtube.com/embed/5PjzUlQMAkA','ì•ˆë…•í•˜ì„¸ìš” ì—¬ëŸ¬ë¶„! ê·¸ë™ì•ˆ ì¼ì´ ë§ì•„ ì˜ìƒ ì—…ë¡œë“œë¥¼ ëª» í•˜ë‹¤ê°€ ë“œë””ì–´!!! í¸ì§‘ì„ ëë‚˜ê³  ì˜ìƒì„ ì˜¬ë ¤ìš”! ì´ë²ˆ ì˜ìƒì€ ì•„ë§ˆ ì œê°€ í¸ì§‘í•œ ì˜ìƒ ì¤‘ì— ê°€ì¥ ê¸´ ì˜ìƒì´ ë˜ì§€ ì•Šì„ê¹Œ ì‹¶ì–´ìš”! ë‚¨ìì¹œêµ¬ì™€ ì–¼ë§ˆ ì „ì— ''ë¯¸ìŠ¤í„° ì…˜ìƒ¤ì¸''ì´ë¼ëŠ” ë“œë¼ë§ˆë¥¼ ë³´ê²Œ ë˜ì—ˆì–´ìš”. ì € ê°œì¸ì ìœ¼ë¡œëŠ” êµ‰ì¥íˆ ì˜¤ëœë§Œì— ë³¸ í•œêµ­ë“œë¼ë§ˆì˜€ê³  ë‚¨ìì¹œêµ¬ëŠ” íƒœì–´ë‚˜ì„œ ì²˜ìŒìœ¼ë¡œ ë³¸ í•œêµ­ë“œë¼ë§ˆì˜€ì–´ìš”. ê·¸ë˜ì„œ ê·¸ëŸ°ì§€ ì„œë¡œ ë“œë¼ë§ˆë¥¼ ë³´ê³  ì–´ë–»ê²Œ ëŠê¼ˆëŠ”ì§€ ì˜ìƒìœ¼ë¡œ ë‚¨ê¸°ë©´ ì¢‹ì„ ê²ƒ ê°™ì•„ì„œ ë¦¬ë·° ì˜ìƒì„ ë§Œë“¤ì–´ë´¤ì–´ìš”:) ì—­ì‚¬ ê³ ì¦ì´ ë¶€ì¡±í•˜ë‹¤, ë¯¸ìŠ¤ìºìŠ¤íŒ…ì´ì—ˆë‹¤ ë¼ëŠ” ë§ë“¤ì„ ìµíˆ ë“¤ì–´ì™”ë˜ í„°ë¼ ë³¼ ë•Œë„ ê·¸ ì ì„ ê°ì•ˆí•˜ê³  ë“œë¼ë§ˆë¥¼ ë´¤ì–´ìš”. ì œ ê°œì¸ì ìœ¼ë¡œëŠ” ê·¸ëŸ° ë‹¨ì ë“¤ì—ë„ ë¶ˆêµ¬í•˜ê³  ê½¤ ì˜ ë§Œë“¤ì–´ì§„ ë“œë¼ë§ˆë¼ëŠ” ìƒê°ì„ í•´ìš”. ì—­ì‚¬ ë“œë¼ë§ˆ ì‘ê°€ëŠ” ì—­ì‚¬ ì¸ì‹ì„ ê°€ì§€ëŠ” ê²Œ ë§ëŠ” ì¼ì´ê¸´ í•˜ì§€ë§Œ ì–´ë””ê¹Œì§€ë‚˜ í”½ì…˜ì´ê¸° ë•Œë¬¸ì— ì™„ë²½í•  ìˆ˜ëŠ” ì—†ëŠ” ì¼ì´ë¼ê³  ìƒê°í–ˆêµ¬ìš”. ì—­ì‚¬ ë“œë¼ë§ˆ ê³ ì¦ì„ ì˜ í•˜ëŠ” ì¼ë„ ë¬¼ë¡  ì¤‘ìš”í•˜ì§€ë§Œ ê·¸ ì „ì— í•™êµì—ì„œ ì˜¬ë°”ë¥¸ ì—­ì‚¬ë¥¼ ë¨¼ì € ë°°ìš¸ ìˆ˜ ìˆë„ë¡ í•´ì„œ ì—­ì‚¬ ë“œë¼ë§ˆë¥¼ ì ‘í•˜ëŠ” ì•„ì´ë“¤ì´ í—·ê°ˆë¦¬ëŠ” ì¼ì´ ì—†ë„ë¡ í•˜ë©´ ì¢‹ê² ë‹¤ ë¼ëŠ” ìƒê°ì„ í–ˆêµ¬ìš”. ì—­ì‚¬ ë“œë¼ë§ˆëŠ” ë“œë¼ë§ˆì¼ ë¿ì´ì§€ êµê³¼ì„œê°€ ì•„ë‹ˆë‹ˆê¹Œìš”! ê·¸ëŸ° ì ì„ ê°ì•ˆí•˜ê³  ë³¼ ë•Œ ê½¤ ì˜ ë§Œë“¤ì–´ì§„, ì¦ê²¨ë³¼ ë§Œí•œ ë“œë¼ë§ˆë¼ê³  ìƒê°í•©ë‹ˆë‹¤:) ë§ì´ ê¸¸ì—ˆì§€ë§Œ ì–´ì¨Œë“  ì €ëŠ” ì¬ë°Œê²Œ ë´¤ì–´ìš”!! ì¶”ì²œí•©ë‹ˆë‹¤!
 Hi guys:) I just uploaded a review video with Jamie about a Korean drama ''Mr.Sunshine.'' It was Jamie''s first ever Korean drama and he absolutely loved it. I got recommendation of this drama from lots of students that I''m teaching Korean now and we thought we should try! We had a very honest and clear review of this drama so it you''re interested in it, watch our video and also this video has fair amount of spoilers so be aware of it!!',null,null,null,'serin@naver.com','DR003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','558','DR558','³ªÀÇ ¾ÆÀú¾¾ ºĞ¼®, µÑÀº ¼­·Î »ç¶ûÇßÀ»±î?','https://www.youtube.com/embed/gyPmRiH9d7I','#³ªÀÇ ¾ÆÀú¾¾ #¾ÆÀÌÀ¯ #iu
-³ªÀÇ ¾ÆÀú¾¾ÀÇ °á¸»Àº ¹«½¼ ÀÇ¹ÌÀÏ±î? µÑÀº ¼­·Î »ç¶ûÇßÀ»±î? ÀÛ°¡·Î¼­, ÇÑ±¹ µå¶ó¸¶ ¸Å´Ï¾Æ·Î¼­ ÀúÀÇ »ı°¢Àº ÀÌ·¸´ä´Ï´Ù!',null,null,null,'internationalbubu@naver.com','DR004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','559','DR559','[ÆÌÄ³½ºÆ®]µ¶¼­ÆòÀü - µå¶ó¸¶[³ªÀÇ ¾ÆÀú¾¾] ÀÎ¹®ÇĞÀû ÇØ¼®','https://www.youtube.com/embed/XJ31Pdw0wdg','±³À°Áø´ã ÆÌÄ³½ºÆ® http://www.podbbang.com/ch/13964
-±³À°Áø´ã ºí·Î±× https://blog.naver.com/tureedu
-¿Ã°¡±³À° È¨ÆäÀÌÁö http://www.allgaedu.com/',null,null,null,'edutrue@naver.com','DR004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','560','DR560','(ÇØ¿Ü¹İÀÀ) TvN È­Á¦µå¶ó¸¶ "³ªÀÇ ¾ÆÀú¾¾"','https://www.youtube.com/embed/tcr5Xq_Pafw','½ÃÃ»ÇØÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù. ±¸µ¶&°ø°¨&ÃßÃµÀº Å« ÈûÀÌµË´Ï´Ù!!',null,null,null,'highlight7373@gmail.com','DR004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','561','DR561','¸á·Î°¡ Ã¼Áú ¸®ºä - ¶òÀÛÀÎµ¥ ¿Ö ¾È ¶¹À»±î..','https://www.youtube.com/embed/TUr5ieqVSqw','¾È³çÇÏ¼¼¿ä ÁÂÃæ¿ìµ¹ È«ºí·¯ÀÔ´Ï´Ù.
-µåµğ¾î ÇÁ¸®¹Ì¾î¸¦ Ã³À½ ¹è¿ì°í È¥ÀÚ ÈûÀ¸·Î¸¸ ¸¸µç Ã¹ ÀÛÇ°ÀÎµ¥
-¿Àµğ¿À°¡ ³Ê¹« ¤Ğ.¤Ğ (¸¶ÀÌÅ© ÃßÃµ Á» ºÎÅ¹ µå·Á¿ä)
-ÀÌ¹ø ÆÑÆø ½ÅÀÛ ¸®ºä´Â ''µå¶ó¸¶ ¸á·Î°¡ Ã¼Áú'' ÀÔ´Ï´Ù.
-¸ô¶ú´ø ¹è¿ìµµ ¸¹ÀÌ ¾Ë°Ô µÇ°í, ´ë»ç°¡ ¿ö³« ¸¹¾Æ¼­ ÁöÄ¥ ¼öµµ
-ÀÖÁö¸¸ Àü ¶òÀÛÀÌ¶ó »ı°¢ÇÏ´Âµ¥ ½ÃÃ»·üÀÌ ³Ê¹« ¾È ³ª¿Í¼­
-¾Æ½±³×¿ä~~~
-¿©·¯ºĞ ÀÌÁ¦ °¡À»µµ µÇ°í ÇßÀ¸´Ï, ´Ş´ŞÇÏ¸é¼­ ÀÎ»ı °í¹ÎÄÉ ÇÏ´Â
-µå¶ó¸¶ ¸á·Î°¡ Ã¼Áú ÇÑ ¹ø Á¤ÁÖÇà ÇØº¸¼¼¿ä^^',null,null,null,'ajhongmovie@gmail.com','DR005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','562','DR562','È£ºÒÈ£ ¿ÏÀü °¥¸®´Â #¸á·Î°¡Ã¼Áú 1,2È­ Àü°İ ¸®ºä','https://www.youtube.com/embed/mKjc1iWH24E','ÇÏÀÌ¹«ºñ #¸á·Î°¡Ã¼Áú ¸®ºä Àß º¸¼Ì³ª¿ä?
-ÀÌ¹øÆí À½Çâ ½Ã½ºÅÛ»óÀÇ ¹®Á¦·Î À½ÁúÀÌ °í¸£Áö ¸øÇÑ Á¡ ¾çÇØ¹Ù¶ø´Ï´Ù. ÀÌ¹ø ÁÖ¸»¿¡ ¹¹ º¼Áö °í¹ÎµÉ ¶©, ÇÏÀÌ¹«ºñ~
-¡ÚÇÏÀÌÄÆTV¸¦ ±¸µ¶ÇÏ°í ´õ Àç¹Õ´Â ¿µÈ­&µå¶ó¸¶ ¸®ºä¸¦ ¸¸³ªº¸¼¼¿ä¡Ú',null,null,null,'highqutv@gmail.com','DR005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','563','DR563','[¸á·Î°¡ Ã¼Áú, ¸íÀå¸é ¸®ºä] ÃÖ°í ½ÃÃ»·ü 1.8%? ÀÎÁ¤ ¸ø ÇØ! - ¿©.¼ö.´Ù 1Åº','https://www.youtube.com/embed/JBVKEwKzjOc','µÎ ´Ş¿© µ¿¾È °¡½¿À» Äá´Ú Äá´Ú ¶Ù°Ô ¸¸µé´ø ''¸á·Î°¡ Ã¼Áú''ÀÌ µåµğ¾î ¸·À» ³»·È½À´Ï´Ù. ±×·±µ¥... ½ÃÃ»·üÀÌ 2%¸¦ ³ÑÁö ¸øÇß´Ù´Ï ¤Ğ¤Ì
-¾ÆÁ÷µµ ''¸á·Î°¡ Ã¼Áú''¿¡¼­ ºüÁ® ³ª¿ÀÁö ¸øÇÏ°í ÀÖ´Â ¸¶½ºÅ© ÅäÄ¿ ¿©¼º ¼ÂÀÌ ¹¶ÃÆ½À´Ï´Ù!
-¢¾ ¿µ»ó ÁÁ¾Æ¿ä+±¸µ¶À» ±×³É~ ²Ú~ ´­·¯ÁÖ¼¼¿ä!
-#ÀÌº´Çå #±ØÇÑÁ÷¾÷ #Ãµ¿ìÈñ #¾ÈÀçÈ« #ÀÓÁøÁÖ #¼Õ¹ü¼ö #ÀÌÀºÁ¤ #È²ÇÑÁÖ',null,null,null,'bitatalk@yahoo.com','DR005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','564','DS564','»õ·Î¿î Çà¼º¿¡¼­ ¹ß°ßµÈ ±«»ı¸íÃ¼','https://www.youtube.com/embed/wjNI0qGJE7M','¿À´ÃÀº µå¶ó¸¶ ''·Î½ºÆ® ÀÎ ½ºÆäÀÌ½º''¿¡ ´ëÇØ ¾Ë¾Æº¸·Á ÇÕ´Ï´Ù.',null,null,null,'bman@yahoo.com','DS001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','565','DS565','³İÇÃ¸¯½º ¹Ìµå ÃßÃµ - ·Î½ºÆ® ÀÎ ½ºÆäÀÌ½º ½ÃÁğ1 °£´ÜÈÄ±â ¹× ¿µ»ó','https://www.youtube.com/embed/sb2OGF2DKrg','³İÇÃ¸¯½º ¹Ìµå ÃßÃµ ·Î½ºÆ®ÀÎ ½ºÆäÀÌ½ºÀÇ °£´ÜÈÄ±â¿Í Á¤º¸ ¿µ»óÀ» °ø°³ÇÕ´Ï´Ù',null,null,null,'kongtv@daum.net','DS001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','566','DS566','³İÇÃ¸¯½º] ·Î½ºÆ® ÀÎ ½ºÆäÀÌ½º ½ÃÁğ 1','https://www.youtube.com/embed/erKvMm2dU0w','·Î½ºÆ® ÀÎ ½ºÆäÀÌ½º ½ÃÁğ 1 ÀÔ´Ï´Ù. ½ÃÁğ 2´Â 12¿ù 24ÀÏ',null,null,null,'bumti@gmail.com','DS001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','567','DS567','¹Ì±¹¿¡ Âø·úÇØ¼­ 7°³¿ù µ¿¾È ±»¾îÀÖ´Â ¿Ü°è ¹°Ã¼','https://www.youtube.com/embed/VDx-gLFwQdA','¹Ì±¹¿¡ Âø·úÇØ¼­ 7°³¿ù µ¿¾È ±»¾îÀÖ´Â ¿Ü°è ¹°Ã¼',null,null,null,'bman@yahoo.com','DS002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','568','DS568','¿Ü°èÀÎ º»Áø ÅĞ·¯ °¡¸ç »ı±â´Â ÀÏ','https://www.youtube.com/embed/9cYDt800ufU','¿À´ÃÀº sf½Ã¸®Áî ¾î³ª´õ ¶óÀÌÇÁ¸¦ ¸®ºä ÇØ º¸¾Ò½À´Ï´Ù
-Ã¶ÀúÇÑ Å³¸µÅ¸ÀÓ ½Ã¸®Áî·Î ÃßÃµ ±îÁö´Â ¾Æ´Ï°í ¼Ò°³ Á¤µµ ÇØ µå¸³´Ï´Ù',null,null,null,'netvo@daum.net','DS002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','569','DS569','Áö±¸¿¡ Á¤¹ÚÇÑ UFO ! ±× ¿Ü°è ¹®¸íÀ» Ã£¾Æ°¡´Â SF ¾îµåº¥Ã³','https://www.youtube.com/embed/LGZmvN2T0IU',null,null,null,null,'reviewman@gmail.com','DS002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','570','DS570','³»¼Å³ÎÁö¿À±×·¡ÇÈ ÃÖÃÊÀÇ SFµå¶ó¸¶ ¡¶¸¶½º¡·','https://www.youtube.com/embed/TwWabiAF1Jo','³»¼Å³ÎÁö¿À±×·¡ÇÈÃ¤³Î¿¡¼­ ÃÖÃÊ·Î ¼±º¸ÀÌ´Â SFµå¶ó¸¶ ½Ã¸®Áî ''ÀÎ·ùÀÇ »õ·Î¿î ½ÃÀÛ, ¸¶½º(Mars)''.
-¹ÌÇ×°ø¿ìÁÖ±¹¿¡¼­ ½ÇÁ¦ ÁøÇàÁßÀÎ È­¼º°ÅÁÖ ÇÁ·ÎÁ§Æ®¸¦ ±â¹İÀ¸·Î ÀÌ °èÈ¹ÀÌ ½ÇÇöµÇ´Â 2033³âÀÇ ÀÌ¾ß±â¸¦ ÃÑ 6ÆíÀÇ ¿¡ÇÇ¼Òµå·Î ¼±º¸ÀÌ´Â SFµå¶ó¸¶ÀÔ´Ï´Ù.',null,null,null,'gongu@yahoo.com','DS003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','571','DS571','ÅÂ¾ç Æø¹ß''ÀÌ ¹ß»ıÇÏ¸é È­¼º¿¡¼­ »ı±æ ¼ö ÀÖ´Â ÀÏµé','https://www.youtube.com/embed/py4FsejE-ro','³»¼Å³ÎÁö¿À±×·¡ÇÈ SFµå¶ó¸¶ ''¸¶½º(MARS)',null,null,null,'nongovernmental@hotmail.com','DS003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','572','DS572','È­¼ºÀÌ µ·À» ¹ú·Á´Â ¹Î°£±â¾÷µé·Î °¡µæÂù´Ù¸é ¾î¶»°Ô µÉ±î?','https://www.youtube.com/embed/00zMQr8-Dyw','È­¼º¿£ °úÇĞÀÚ³ª ¸ù»ó°¡¸¸ °¡´Â °Ô ¾Æ´Ï¶ó ÀÌÀ±À» ³»·Á´Â »ç¶÷µéµµ ÀÖÀ» °Ì´Ï´Ù.
-°á±¹ È­¼ºÀº ¼ö¹é °³ÀÇ ¹Î°£ ±â¾÷µé·Î °¡µæÇÒ °ÍÀÌ¶ó´Â Àü¸ÁÀÌ ÀÖ½À´Ï´Ù.
-ÀÎ·ù´Â Áö±İ±îÁö ¾îµò°¡¿¡ »ó»óµµ ¸ø ÇÒ ºÎ°¡ °¡µæÇÏ´Ù¸é ±×°É Â÷ÁöÇÏ·¯ ¶°³µ½À´Ï´Ù.
-ºÏ±Ø¿¡´Â ¾öÃ»³­ ¼®À¯¿Í °¡½º°¡ ÀúÀåµÇ¾î ÀÖ°í, ¼ö½Ê Á¶ ´Ş·¯ÀÇ °¡Ä¡°¡ ÀÖÀ» °Å¶ó°í ÇÕ´Ï´Ù.
-±×¿¡ µû¶ó ·¯½Ã¾Æ, ¹Ì±¹, Ä³³ª´Ù, µ§¸¶Å©, ³ë¸£¿şÀÌ µî ¼ö¸¹Àº ³ª¶ó°¡ ºÏ±Ø ¶¥¿¡ ´ëÇÑ °üÇÒ±ÇÀ» ÁÖÀåÇØ¿ÔÁÒ.
-±â¾÷µéÀÇ ºÏ±Ø¿¡ ´ëÇÑ »ç°í¹æ½ÄÀº ´ëºÎºĞ ''¾î¼­ Â÷ÁöÇÏ·¯ °¡ÀÚ''¶ó´Â °Ì´Ï´Ù.
-È­¼º Á¤Âø ÇÁ·Î±×·¥Àº ÀÌ·¯ÇÑ °ñµå·¯½Ã¿Í ºñ½ÁÇÑ ºÎºĞÀÌ ¾ÆÁÖ ¸¹½À´Ï´Ù.',null,null,null,'nongovernmental@hotmail.com','DS003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','573','DS573','ÀÎ°£ÀÇ µÎ³ú·Î Àı´ë »ó»óÇÒ ¼ö ¾ø´Â µå¶ó¸¶ ºí·¢¹Ì·¯ ÃÑÁ¤¸®!','https://www.youtube.com/embed/oYxSyBr8x48',null,null,null,null,'muk@gmail.com','DS004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','574','DS574','¿µ±¹ °øÁÖ¸¦ ³³Ä¡ÇÑ ¹üÀÎÀÌ ¿ä±¸ÇÑ ±â±«ÇÑ ¸í·É','https://www.youtube.com/embed/W-g0VTts5jY',null,null,null,null,'stephanhockingkk@gmail.com','DS004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','575','DS575','ÃµÀç°¡ ¸¸µé´Ù°¡ ¹ÌÃÄ¹ö¸° °ÔÀÓ','https://www.youtube.com/embed/tPFMgCvVCxk',null,null,null,null,'bman@yahoo.com','DS004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','576','DS576','ÃÊ´É·Â ¼Ò³à¿Í ¼Ò³âµé, ±×¸®°í ±«¹°! ''±â¹¦ÇÑ ÀÌ¾ß±â'' ½ÃÁğ 1 ³»¿ë Á¤¸®','https://www.youtube.com/embed/zqAUED2Aakc','±×¸®°í ½ÃÁğ 2¸¦ º¸±â Àü¿¡ ¾î¼­ ½ÃÁğ 1À» º¹½ÀÇÕ½Ã´Ù!!!!',null,null,null,'genius@gmail.com','DS005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','577','DS577','±â¹¦ÇÑ ÀÌ¾ß±â ½ÃÁğ 1,2 ÇÑ¹æ¿¡ Á¤¸®(ÀÎ¹°º° ¶±¹ä Á¤¸®)','https://www.youtube.com/embed/9lV1UK5qFxw',null,null,null,null,'uppercut@naver.com','DS005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','578','DS578','4Â÷¿ø ¼¼°è¿¡¼­ ³ª¿Í ¾ÆÀÌµéÀ» ¸Ô¾î¹ö¸®´Â ¿ª´ë±Ş ±«¹°','https://www.youtube.com/embed/xMox0ozJkaU',null,null,null,null,'eyesonme@naver.com','DS005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','579','MA579','¾îº¥Á®½º (2012)','https://www.youtube.com/embed/b1LBr0iGQ6c',null,null,null,null,'3bunoddugi@daum.net','MA001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','558','DR558','ë‚˜ì˜ ì•„ì €ì”¨ ë¶„ì„, ë‘˜ì€ ì„œë¡œ ì‚¬ë‘í–ˆì„ê¹Œ?','https://www.youtube.com/embed/gyPmRiH9d7I','#ë‚˜ì˜ ì•„ì €ì”¨ #ì•„ì´ìœ  #iu
+ë‚˜ì˜ ì•„ì €ì”¨ì˜ ê²°ë§ì€ ë¬´ìŠ¨ ì˜ë¯¸ì¼ê¹Œ? ë‘˜ì€ ì„œë¡œ ì‚¬ë‘í–ˆì„ê¹Œ? ì‘ê°€ë¡œì„œ, í•œêµ­ ë“œë¼ë§ˆ ë§¤ë‹ˆì•„ë¡œì„œ ì €ì˜ ìƒê°ì€ ì´ë ‡ë‹µë‹ˆë‹¤!',null,null,null,'internationalbubu@naver.com','DR004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','559','DR559','[íŒŸìºìŠ¤íŠ¸]ë…ì„œí‰ì „ - ë“œë¼ë§ˆ[ë‚˜ì˜ ì•„ì €ì”¨] ì¸ë¬¸í•™ì  í•´ì„','https://www.youtube.com/embed/XJ31Pdw0wdg','êµìœ¡ì§„ë‹´ íŒŸìºìŠ¤íŠ¸ http://www.podbbang.com/ch/13964
+êµìœ¡ì§„ë‹´ ë¸”ë¡œê·¸ https://blog.naver.com/tureedu
+ì˜¬ê°€êµìœ¡ í™ˆí˜ì´ì§€ http://www.allgaedu.com/',null,null,null,'edutrue@naver.com','DR004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','560','DR560','(í•´ì™¸ë°˜ì‘) TvN í™”ì œë“œë¼ë§ˆ "ë‚˜ì˜ ì•„ì €ì”¨"','https://www.youtube.com/embed/tcr5Xq_Pafw','ì‹œì²­í•´ì£¼ì…”ì„œ ê°ì‚¬í•©ë‹ˆë‹¤. êµ¬ë…&ê³µê°&ì¶”ì²œì€ í° í˜ì´ë©ë‹ˆë‹¤!!',null,null,null,'highlight7373@gmail.com','DR004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','561','DR561','ë©œë¡œê°€ ì²´ì§ˆ ë¦¬ë·° - ëµì‘ì¸ë° ì™œ ì•ˆ ë–´ì„ê¹Œ..','https://www.youtube.com/embed/TUr5ieqVSqw','ì•ˆë…•í•˜ì„¸ìš” ì¢Œì¶©ìš°ëŒ í™ë¸”ëŸ¬ì…ë‹ˆë‹¤.
+ë“œë””ì–´ í”„ë¦¬ë¯¸ì–´ë¥¼ ì²˜ìŒ ë°°ìš°ê³  í˜¼ì í˜ìœ¼ë¡œë§Œ ë§Œë“  ì²« ì‘í’ˆì¸ë°
+ì˜¤ë””ì˜¤ê°€ ë„ˆë¬´ ã… .ã…  (ë§ˆì´í¬ ì¶”ì²œ ì¢€ ë¶€íƒ ë“œë ¤ìš”)
+ì´ë²ˆ íŒ©í­ ì‹ ì‘ ë¦¬ë·°ëŠ” ''ë“œë¼ë§ˆ ë©œë¡œê°€ ì²´ì§ˆ'' ì…ë‹ˆë‹¤.
+ëª°ëë˜ ë°°ìš°ë„ ë§ì´ ì•Œê²Œ ë˜ê³ , ëŒ€ì‚¬ê°€ ì›Œë‚™ ë§ì•„ì„œ ì§€ì¹  ìˆ˜ë„
+ìˆì§€ë§Œ ì „ ëµì‘ì´ë¼ ìƒê°í•˜ëŠ”ë° ì‹œì²­ë¥ ì´ ë„ˆë¬´ ì•ˆ ë‚˜ì™€ì„œ
+ì•„ì‰½ë„¤ìš”~~~
+ì—¬ëŸ¬ë¶„ ì´ì œ ê°€ì„ë„ ë˜ê³  í–ˆìœ¼ë‹ˆ, ë‹¬ë‹¬í•˜ë©´ì„œ ì¸ìƒ ê³ ë¯¼ì¼€ í•˜ëŠ”
+ë“œë¼ë§ˆ ë©œë¡œê°€ ì²´ì§ˆ í•œ ë²ˆ ì •ì£¼í–‰ í•´ë³´ì„¸ìš”^^',null,null,null,'ajhongmovie@gmail.com','DR005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','562','DR562','í˜¸ë¶ˆí˜¸ ì™„ì „ ê°ˆë¦¬ëŠ” #ë©œë¡œê°€ì²´ì§ˆ 1,2í™” ì „ê²© ë¦¬ë·°','https://www.youtube.com/embed/mKjc1iWH24E','í•˜ì´ë¬´ë¹„ #ë©œë¡œê°€ì²´ì§ˆ ë¦¬ë·° ì˜ ë³´ì…¨ë‚˜ìš”?
+ì´ë²ˆí¸ ìŒí–¥ ì‹œìŠ¤í…œìƒì˜ ë¬¸ì œë¡œ ìŒì§ˆì´ ê³ ë¥´ì§€ ëª»í•œ ì  ì–‘í•´ë°”ëë‹ˆë‹¤. ì´ë²ˆ ì£¼ë§ì— ë­ ë³¼ì§€ ê³ ë¯¼ë  ë•, í•˜ì´ë¬´ë¹„~
+â˜…í•˜ì´ì»·TVë¥¼ êµ¬ë…í•˜ê³  ë” ì¬ë°ŒëŠ” ì˜í™”&ë“œë¼ë§ˆ ë¦¬ë·°ë¥¼ ë§Œë‚˜ë³´ì„¸ìš”â˜…',null,null,null,'highqutv@gmail.com','DR005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','R','563','DR563','[ë©œë¡œê°€ ì²´ì§ˆ, ëª…ì¥ë©´ ë¦¬ë·°] ìµœê³  ì‹œì²­ë¥  1.8%? ì¸ì • ëª» í•´! - ì—¬.ìˆ˜.ë‹¤ 1íƒ„','https://www.youtube.com/embed/JBVKEwKzjOc','ë‘ ë‹¬ì—¬ ë™ì•ˆ ê°€ìŠ´ì„ ì½©ë‹¥ ì½©ë‹¥ ë›°ê²Œ ë§Œë“¤ë˜ ''ë©œë¡œê°€ ì²´ì§ˆ''ì´ ë“œë””ì–´ ë§‰ì„ ë‚´ë ¸ìŠµë‹ˆë‹¤. ê·¸ëŸ°ë°... ì‹œì²­ë¥ ì´ 2%ë¥¼ ë„˜ì§€ ëª»í–ˆë‹¤ë‹ˆ ã… ã…œ
+ì•„ì§ë„ ''ë©œë¡œê°€ ì²´ì§ˆ''ì—ì„œ ë¹ ì ¸ ë‚˜ì˜¤ì§€ ëª»í•˜ê³  ìˆëŠ” ë§ˆìŠ¤í¬ í† ì»¤ ì—¬ì„± ì…‹ì´ ë­‰ì³¤ìŠµë‹ˆë‹¤!
+â™¥ ì˜ìƒ ì¢‹ì•„ìš”+êµ¬ë…ì„ ê·¸ëƒ¥~ ê¾¹~ ëˆŒëŸ¬ì£¼ì„¸ìš”!
+#ì´ë³‘í—Œ #ê·¹í•œì§ì—… #ì²œìš°í¬ #ì•ˆì¬í™ #ì„ì§„ì£¼ #ì†ë²”ìˆ˜ #ì´ì€ì • #í™©í•œì£¼',null,null,null,'bitatalk@yahoo.com','DR005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','564','DS564','ìƒˆë¡œìš´ í–‰ì„±ì—ì„œ ë°œê²¬ëœ ê´´ìƒëª…ì²´','https://www.youtube.com/embed/wjNI0qGJE7M','ì˜¤ëŠ˜ì€ ë“œë¼ë§ˆ ''ë¡œìŠ¤íŠ¸ ì¸ ìŠ¤í˜ì´ìŠ¤''ì— ëŒ€í•´ ì•Œì•„ë³´ë ¤ í•©ë‹ˆë‹¤.',null,null,null,'bman@yahoo.com','DS001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','565','DS565','ë„·í”Œë¦­ìŠ¤ ë¯¸ë“œ ì¶”ì²œ - ë¡œìŠ¤íŠ¸ ì¸ ìŠ¤í˜ì´ìŠ¤ ì‹œì¦Œ1 ê°„ë‹¨í›„ê¸° ë° ì˜ìƒ','https://www.youtube.com/embed/sb2OGF2DKrg','ë„·í”Œë¦­ìŠ¤ ë¯¸ë“œ ì¶”ì²œ ë¡œìŠ¤íŠ¸ì¸ ìŠ¤í˜ì´ìŠ¤ì˜ ê°„ë‹¨í›„ê¸°ì™€ ì •ë³´ ì˜ìƒì„ ê³µê°œí•©ë‹ˆë‹¤',null,null,null,'kongtv@daum.net','DS001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','566','DS566','ë„·í”Œë¦­ìŠ¤] ë¡œìŠ¤íŠ¸ ì¸ ìŠ¤í˜ì´ìŠ¤ ì‹œì¦Œ 1','https://www.youtube.com/embed/erKvMm2dU0w','ë¡œìŠ¤íŠ¸ ì¸ ìŠ¤í˜ì´ìŠ¤ ì‹œì¦Œ 1 ì…ë‹ˆë‹¤. ì‹œì¦Œ 2ëŠ” 12ì›” 24ì¼',null,null,null,'bumti@gmail.com','DS001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','567','DS567','ë¯¸êµ­ì— ì°©ë¥™í•´ì„œ 7ê°œì›” ë™ì•ˆ êµ³ì–´ìˆëŠ” ì™¸ê³„ ë¬¼ì²´','https://www.youtube.com/embed/VDx-gLFwQdA','ë¯¸êµ­ì— ì°©ë¥™í•´ì„œ 7ê°œì›” ë™ì•ˆ êµ³ì–´ìˆëŠ” ì™¸ê³„ ë¬¼ì²´',null,null,null,'bman@yahoo.com','DS002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','568','DS568','ì™¸ê³„ì¸ ë³¸ì§„ í„¸ëŸ¬ ê°€ë©° ìƒê¸°ëŠ” ì¼','https://www.youtube.com/embed/9cYDt800ufU','ì˜¤ëŠ˜ì€ sfì‹œë¦¬ì¦ˆ ì–´ë‚˜ë” ë¼ì´í”„ë¥¼ ë¦¬ë·° í•´ ë³´ì•˜ìŠµë‹ˆë‹¤
+ì² ì €í•œ í‚¬ë§íƒ€ì„ ì‹œë¦¬ì¦ˆë¡œ ì¶”ì²œ ê¹Œì§€ëŠ” ì•„ë‹ˆê³  ì†Œê°œ ì •ë„ í•´ ë“œë¦½ë‹ˆë‹¤',null,null,null,'netvo@daum.net','DS002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','569','DS569','ì§€êµ¬ì— ì •ë°•í•œ UFO ! ê·¸ ì™¸ê³„ ë¬¸ëª…ì„ ì°¾ì•„ê°€ëŠ” SF ì–´ë“œë²¤ì²˜','https://www.youtube.com/embed/LGZmvN2T0IU',null,null,null,null,'reviewman@gmail.com','DS002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','570','DS570','ë‚´ì…”ë„ì§€ì˜¤ê·¸ë˜í”½ ìµœì´ˆì˜ SFë“œë¼ë§ˆ ã€Šë§ˆìŠ¤ã€‹','https://www.youtube.com/embed/TwWabiAF1Jo','ë‚´ì…”ë„ì§€ì˜¤ê·¸ë˜í”½ì±„ë„ì—ì„œ ìµœì´ˆë¡œ ì„ ë³´ì´ëŠ” SFë“œë¼ë§ˆ ì‹œë¦¬ì¦ˆ ''ì¸ë¥˜ì˜ ìƒˆë¡œìš´ ì‹œì‘, ë§ˆìŠ¤(Mars)''.
+ë¯¸í•­ê³µìš°ì£¼êµ­ì—ì„œ ì‹¤ì œ ì§„í–‰ì¤‘ì¸ í™”ì„±ê±°ì£¼ í”„ë¡œì íŠ¸ë¥¼ ê¸°ë°˜ìœ¼ë¡œ ì´ ê³„íšì´ ì‹¤í˜„ë˜ëŠ” 2033ë…„ì˜ ì´ì•¼ê¸°ë¥¼ ì´ 6í¸ì˜ ì—í”¼ì†Œë“œë¡œ ì„ ë³´ì´ëŠ” SFë“œë¼ë§ˆì…ë‹ˆë‹¤.',null,null,null,'gongu@yahoo.com','DS003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','571','DS571','íƒœì–‘ í­ë°œ''ì´ ë°œìƒí•˜ë©´ í™”ì„±ì—ì„œ ìƒê¸¸ ìˆ˜ ìˆëŠ” ì¼ë“¤','https://www.youtube.com/embed/py4FsejE-ro','ë‚´ì…”ë„ì§€ì˜¤ê·¸ë˜í”½ SFë“œë¼ë§ˆ ''ë§ˆìŠ¤(MARS)',null,null,null,'nongovernmental@hotmail.com','DS003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','572','DS572','í™”ì„±ì´ ëˆì„ ë²Œë ¤ëŠ” ë¯¼ê°„ê¸°ì—…ë“¤ë¡œ ê°€ë“ì°¬ë‹¤ë©´ ì–´ë–»ê²Œ ë ê¹Œ?','https://www.youtube.com/embed/00zMQr8-Dyw','í™”ì„±ì—” ê³¼í•™ìë‚˜ ëª½ìƒê°€ë§Œ ê°€ëŠ” ê²Œ ì•„ë‹ˆë¼ ì´ìœ¤ì„ ë‚´ë ¤ëŠ” ì‚¬ëŒë“¤ë„ ìˆì„ ê²ë‹ˆë‹¤.
+ê²°êµ­ í™”ì„±ì€ ìˆ˜ë°± ê°œì˜ ë¯¼ê°„ ê¸°ì—…ë“¤ë¡œ ê°€ë“í•  ê²ƒì´ë¼ëŠ” ì „ë§ì´ ìˆìŠµë‹ˆë‹¤.
+ì¸ë¥˜ëŠ” ì§€ê¸ˆê¹Œì§€ ì–´ë”˜ê°€ì— ìƒìƒë„ ëª» í•  ë¶€ê°€ ê°€ë“í•˜ë‹¤ë©´ ê·¸ê±¸ ì°¨ì§€í•˜ëŸ¬ ë– ë‚¬ìŠµë‹ˆë‹¤.
+ë¶ê·¹ì—ëŠ” ì—„ì²­ë‚œ ì„ìœ ì™€ ê°€ìŠ¤ê°€ ì €ì¥ë˜ì–´ ìˆê³ , ìˆ˜ì‹­ ì¡° ë‹¬ëŸ¬ì˜ ê°€ì¹˜ê°€ ìˆì„ ê±°ë¼ê³  í•©ë‹ˆë‹¤.
+ê·¸ì— ë”°ë¼ ëŸ¬ì‹œì•„, ë¯¸êµ­, ìºë‚˜ë‹¤, ë´ë§ˆí¬, ë…¸ë¥´ì›¨ì´ ë“± ìˆ˜ë§ì€ ë‚˜ë¼ê°€ ë¶ê·¹ ë•…ì— ëŒ€í•œ ê´€í• ê¶Œì„ ì£¼ì¥í•´ì™”ì£ .
+ê¸°ì—…ë“¤ì˜ ë¶ê·¹ì— ëŒ€í•œ ì‚¬ê³ ë°©ì‹ì€ ëŒ€ë¶€ë¶„ ''ì–´ì„œ ì°¨ì§€í•˜ëŸ¬ ê°€ì''ë¼ëŠ” ê²ë‹ˆë‹¤.
+í™”ì„± ì •ì°© í”„ë¡œê·¸ë¨ì€ ì´ëŸ¬í•œ ê³¨ë“œëŸ¬ì‹œì™€ ë¹„ìŠ·í•œ ë¶€ë¶„ì´ ì•„ì£¼ ë§ìŠµë‹ˆë‹¤.',null,null,null,'nongovernmental@hotmail.com','DS003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','573','DS573','ì¸ê°„ì˜ ë‘ë‡Œë¡œ ì ˆëŒ€ ìƒìƒí•  ìˆ˜ ì—†ëŠ” ë“œë¼ë§ˆ ë¸”ë™ë¯¸ëŸ¬ ì´ì •ë¦¬!','https://www.youtube.com/embed/oYxSyBr8x48',null,null,null,null,'muk@gmail.com','DS004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','574','DS574','ì˜êµ­ ê³µì£¼ë¥¼ ë‚©ì¹˜í•œ ë²”ì¸ì´ ìš”êµ¬í•œ ê¸°ê´´í•œ ëª…ë ¹','https://www.youtube.com/embed/W-g0VTts5jY',null,null,null,null,'stephanhockingkk@gmail.com','DS004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','575','DS575','ì²œì¬ê°€ ë§Œë“¤ë‹¤ê°€ ë¯¸ì³ë²„ë¦° ê²Œì„','https://www.youtube.com/embed/tPFMgCvVCxk',null,null,null,null,'bman@yahoo.com','DS004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','576','DS576','ì´ˆëŠ¥ë ¥ ì†Œë…€ì™€ ì†Œë…„ë“¤, ê·¸ë¦¬ê³  ê´´ë¬¼! ''ê¸°ë¬˜í•œ ì´ì•¼ê¸°'' ì‹œì¦Œ 1 ë‚´ìš© ì •ë¦¬','https://www.youtube.com/embed/zqAUED2Aakc','ê·¸ë¦¬ê³  ì‹œì¦Œ 2ë¥¼ ë³´ê¸° ì „ì— ì–´ì„œ ì‹œì¦Œ 1ì„ ë³µìŠµí•©ì‹œë‹¤!!!!',null,null,null,'genius@gmail.com','DS005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','577','DS577','ê¸°ë¬˜í•œ ì´ì•¼ê¸° ì‹œì¦Œ 1,2 í•œë°©ì— ì •ë¦¬(ì¸ë¬¼ë³„ ë–¡ë°¥ ì •ë¦¬)','https://www.youtube.com/embed/9lV1UK5qFxw',null,null,null,null,'uppercut@naver.com','DS005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('D','S','578','DS578','4ì°¨ì› ì„¸ê³„ì—ì„œ ë‚˜ì™€ ì•„ì´ë“¤ì„ ë¨¹ì–´ë²„ë¦¬ëŠ” ì—­ëŒ€ê¸‰ ê´´ë¬¼','https://www.youtube.com/embed/xMox0ozJkaU',null,null,null,null,'eyesonme@naver.com','DS005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','579','MA579','ì–´ë²¤ì ¸ìŠ¤ (2012)','https://www.youtube.com/embed/b1LBr0iGQ6c',null,null,null,null,'3bunoddugi@daum.net','MA001',to_date('20/02/19','RR/MM/DD'));
 Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','580','MA580','The Avengers movie review','https://www.youtube.com/embed/36CftNuJQgQ','Iron Man, Captain America, Thor, The Incredible Hulk, Black Widow, Hawkeye, and Nick Fury assemble to stop Loki in "The Avengers". Jeremy gives you his review!',null,null,null,'jeremyking@yahoo.com','MA001',to_date('20/02/19','RR/MM/DD'));
 Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','581','MA581','The Avengers - Movie Review by Chris Stuckmann','https://www.youtube.com/embed/u5KuJl5qJ2A','Chris Stuckmann reviews The Avengers, starring Robert Downey Jr., Chris Hemsworth, Chris Evans, Jeremy Renner, Mark Ruffalo, Scarlett Johansson, Clark Gregg, Samuel L. Jackson, Cobie Smulders, Tom Hiddleston and Stellan Skarsg?rd. Directed by Joss Whedon.',null,null,null,'chrisstuckshit@hotmail.com','MA001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','582','MA582','¾îº¥Á®½º: ¿¡ÀÌÁö ¿Àºê ¿ïÆ®·Ğ''ÀÌ ³²±ä ¶±¹äµé 1/2','https://www.youtube.com/embed/fpWoxlJZC_g',null,null,null,null,'nofootbird@gmail.com','MA002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','583','MA583','¾îº¥Á®½º: ¿¡ÀÌÁö ¿Àºê ¿ïÆ®·Ğ''ÀÌ ³²±ä ¶±¹äµé 2/2','https://www.youtube.com/embed/eV-Dcfg_T74',null,null,null,null,'nofootbird@gmail.com','MA002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','584','MA584','¾îº¥Á®½º ¿¡ÀÌÁö ¿Àºê ¿ïÆ®·Ğ / ¿µÈ­ P¸®ºä','https://www.youtube.com/embed/aWrmXvvfGrY',null,null,null,null,'moviemonster@yahoo.com','MA002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','585','MA585','¾îº¥Á®½º: ÀÎÇÇ´ÏÆ¼ ¿ö'' ½ºÆ÷X ¸®ºä','https://www.youtube.com/embed/8G45KD6M2jc',null,null,null,null,'unjun@naver.com','MA003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','586','MA586','¾îº¥Á®½º ÀÎÇÇ´ÏÆ¼ ¿ö _ ¿µÈ­ ¸®ºä _ ¹«ºñ¸ó½ºÅÍ','https://www.youtube.com/embed/iECDe1JH0E8','½ºÆ÷ÀÏ·¯ ÀÖÀ½,NOÆíÁı,´Ù ±î¹ß¸®´Â ¹ßºü¸¥ ¸®ºä',null,null,null,'moviemonster@yahoo.com','MA003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','587','MA587','ÀÎÇÇ´ÏÆ¼ ¿ö ¸®ºä : °íÄ÷¸®Æ¼ ¿¹°íÆíÀÎµ¥!?','https://www.youtube.com/embed/jWcbLxSUw14',null,null,null,null,'cottoncandy@naver.com','MA003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','588','MA588','¾îº¥Á®½º ¿£µå°ÔÀÓ ½ºÆ÷¾ø´Â ¸®ºä/ ¿£µå°ÔÀÓ º¸±âÀü ºÁ¾ß ÇÏ´Â °ü·Ã ¿µÈ­ Á¤¸®','https://www.youtube.com/embed/VRgB8Li6otw','¿µÈ­ ''¾îº¥Á®½º:¿£µå°ÔÀÓ''À» º¸·¯ °¡±â Àü, º¸°í °¡¾ßÇÏ´Â °ü·Ã ¿µÈ­µéÀ» Á¤¸®ÇÑ ¿µ»óÀÔ´Ï´Ù.',null,null,null,'bbbbbreview@yahoo.com','MA004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','589','MA589','¾È³ç.. 11³â °£ »ç±Ï Ä£±¸, ¿ì¸®µéÀÇ ¿µ¿øÇÑ HERO: ¾îº¥Á®½º: ¿£µå°ÔÀÓ ¸®ºä(4DX)','https://www.youtube.com/embed/L63PKoYFvec','11³âÀÇ ´ëÀåÁ¤À» ¸¶¹«¸®ÇÏ´Â ÃÖÈÄÀÇ ÀüÅõ.
-¾îº¥Á®½ºÀÇ ±â³ª±ä ÀÌ¾ß±â. Åä´Ï ½ºÅ¸Å©, ½ºÆ¼ºê ·ÎÀú½º, Åä¸£ÀÇ °¢ÀÚÀÇ °á¸». Å¸³ë½º¿ÍÀÇ ¸¶Áö¸· °áÀüÀ» ±×¸° È÷¾î·Î ¿µÈ­»ç¿¡¼­ Áß¿äÇÑ À§Ä¡¿¡ ÀÖ´Â ÀÛÇ°. ¾îº¥Á®½º: ¿£µå°ÔÀÓ ¸®ºäÀÔ´Ï´Ù.',null,null,null,'liner@hotmail.com','MA004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','590','MA590','´õ ÀÌ»ó ¾îº¥Á®½º´Â ¾È ³ª¿ÔÀ¸¸é ÁÁ°Ú½À´Ï´Ù - ¾îº¥Á®½º:¿£µå°ÔÀÓ','https://www.youtube.com/embed/aPv4EHc6XlU','°¡Àå ¿Ïº®Çß´ø ¸¶Áö¸· Æí, ¸¶Áö¸· ÆíÀÌ¶ó´Â °Ç ÀÌ·¸°Ô ¸¸µå´Â °Å¾ß¸¦ º¸¿©ÁØ ''¾îº¥Á®½º:¿£µå°ÔÀÓ'' ¿ì¸®ÀÇ Ãß¾ï 11³âµµ ÇÔ²² ¸¶¹«¸® µÇ¾ú½À´Ï´Ù.',null,null,null,'unjun@naver.com','MA004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','591','MA591','ºñ¹Ğ ½´ÆÛ Æ¯¼ö¿ä¿øÀ¸·Î Á¦¾ÈÀ» ¹ŞÀº µ¿³× ¾ç¾ÆÄ¡¤Ó Å·½º¸Ç : ½ÃÅ©¸´ ¿¡ÀÌÀüÆ® (Kingsman: The Secret Service, 2015)','https://www.youtube.com/embed/LaVJ-izcWD8','¿µÈ­¸¦ ¸íÀÛÀ¸·Î ¸¸µå´Â ¸ÅÆ©º» °¨µ¶ÀÇ ¿¬Ãâ·Â ÇØ¼®',null,null,null,'eeeki@daum.net','MA005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','592','MA592','¸Å³Ê°¡ »ç¶÷À» ¸¸µç´Ù [Å·½º¸Ç: ½ÃÅ©¸´ ¿¡ÀÌÀüÆ®]','https://www.youtube.com/embed/UXnQ00t5J0A','Ãâ¹ß ºñµğ¿À ¿©Çà',null,null,null,'moviekok@yahoo.com','MA005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','593','MA593','Å·½º¸Ç ½ÃÅ©¸´ ¿¡ÀÌÀüÆ® _ °¡ÀÌµå ¸®ºä _ ¹«ºñ¸ó½ºÅÍ','https://www.youtube.com/embed/ooPmNH82Rj4',null,null,null,null,'moviemonster@yahoo.com','MA005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','594','MA594','[¿µÈ­°ÉÀÛ¼±] 40È¸ - Å·½º¸Ç: °ñµç ¼­Å¬ 1Æí','https://www.youtube.com/embed/9ytTk6J9-V0',null,null,null,null,'noone@gmail.com','MA006',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','595','MA595','[¿µÈ­°ÉÀÛ¼±] 41È¸ - Å·½º¸Ç: °ñµç ¼­Å¬ 2Æí','https://www.youtube.com/embed/ttXHY9CKQoQ',null,null,null,null,'noone@gmail.com','MA006',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','596','MA596','Å·½º¸Ç 2 °ñµç ¼­Å¬ _ ÇØ¸®´Â ¾î¶»°Ô »ì¾Æ³µ³ª? _ °¡ÀÌµå ¸®ºä _ ¹«ºñ¸ó½ºÅÍ','https://www.youtube.com/embed/Yt6TlXOC_8U','ÇØ¸®´Â ¾î¶»°Ô »ì¾Æ³µ³ª?',null,null,null,'moviemonster@yahoo.com','MA006',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','597','MA597','»ìÀÎÃ»ºÎ¾÷ÀÚÀÇ °³¸¦ Á×ÀÌ¸é ÀÏ¾î³ª´Â ÀÏ Á¸À¨ ¸®ºäÀÔ´Ï´Ù.','https://www.youtube.com/embed/9o4e75soXrs','±×¸¦ °Çµå¸®Áö ¸»¾Ò¾î¾ß Çß´Ù',null,null,null,'moviemovie@yahoo.com','MA007',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','582','MA582','ì–´ë²¤ì ¸ìŠ¤: ì—ì´ì§€ ì˜¤ë¸Œ ìš¸íŠ¸ë¡ ''ì´ ë‚¨ê¸´ ë–¡ë°¥ë“¤ 1/2','https://www.youtube.com/embed/fpWoxlJZC_g',null,null,null,null,'nofootbird@gmail.com','MA002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','583','MA583','ì–´ë²¤ì ¸ìŠ¤: ì—ì´ì§€ ì˜¤ë¸Œ ìš¸íŠ¸ë¡ ''ì´ ë‚¨ê¸´ ë–¡ë°¥ë“¤ 2/2','https://www.youtube.com/embed/eV-Dcfg_T74',null,null,null,null,'nofootbird@gmail.com','MA002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','584','MA584','ì–´ë²¤ì ¸ìŠ¤ ì—ì´ì§€ ì˜¤ë¸Œ ìš¸íŠ¸ë¡  / ì˜í™” Pë¦¬ë·°','https://www.youtube.com/embed/aWrmXvvfGrY',null,null,null,null,'moviemonster@yahoo.com','MA002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','585','MA585','ì–´ë²¤ì ¸ìŠ¤: ì¸í”¼ë‹ˆí‹° ì›Œ'' ìŠ¤í¬X ë¦¬ë·°','https://www.youtube.com/embed/8G45KD6M2jc',null,null,null,null,'unjun@naver.com','MA003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','586','MA586','ì–´ë²¤ì ¸ìŠ¤ ì¸í”¼ë‹ˆí‹° ì›Œ _ ì˜í™” ë¦¬ë·° _ ë¬´ë¹„ëª¬ìŠ¤í„°','https://www.youtube.com/embed/iECDe1JH0E8','ìŠ¤í¬ì¼ëŸ¬ ìˆìŒ,NOí¸ì§‘,ë‹¤ ê¹Œë°œë¦¬ëŠ” ë°œë¹ ë¥¸ ë¦¬ë·°',null,null,null,'moviemonster@yahoo.com','MA003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','587','MA587','ì¸í”¼ë‹ˆí‹° ì›Œ ë¦¬ë·° : ê³ í€„ë¦¬í‹° ì˜ˆê³ í¸ì¸ë°!?','https://www.youtube.com/embed/jWcbLxSUw14',null,null,null,null,'cottoncandy@naver.com','MA003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','588','MA588','ì–´ë²¤ì ¸ìŠ¤ ì—”ë“œê²Œì„ ìŠ¤í¬ì—†ëŠ” ë¦¬ë·°/ ì—”ë“œê²Œì„ ë³´ê¸°ì „ ë´ì•¼ í•˜ëŠ” ê´€ë ¨ ì˜í™” ì •ë¦¬','https://www.youtube.com/embed/VRgB8Li6otw','ì˜í™” ''ì–´ë²¤ì ¸ìŠ¤:ì—”ë“œê²Œì„''ì„ ë³´ëŸ¬ ê°€ê¸° ì „, ë³´ê³  ê°€ì•¼í•˜ëŠ” ê´€ë ¨ ì˜í™”ë“¤ì„ ì •ë¦¬í•œ ì˜ìƒì…ë‹ˆë‹¤.',null,null,null,'bbbbbreview@yahoo.com','MA004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','589','MA589','ì•ˆë…•.. 11ë…„ ê°„ ì‚¬ê·„ ì¹œêµ¬, ìš°ë¦¬ë“¤ì˜ ì˜ì›í•œ HERO: ì–´ë²¤ì ¸ìŠ¤: ì—”ë“œê²Œì„ ë¦¬ë·°(4DX)','https://www.youtube.com/embed/L63PKoYFvec','11ë…„ì˜ ëŒ€ì¥ì •ì„ ë§ˆë¬´ë¦¬í•˜ëŠ” ìµœí›„ì˜ ì „íˆ¬.
+ì–´ë²¤ì ¸ìŠ¤ì˜ ê¸°ë‚˜ê¸´ ì´ì•¼ê¸°. í† ë‹ˆ ìŠ¤íƒ€í¬, ìŠ¤í‹°ë¸Œ ë¡œì €ìŠ¤, í† ë¥´ì˜ ê°ìì˜ ê²°ë§. íƒ€ë…¸ìŠ¤ì™€ì˜ ë§ˆì§€ë§‰ ê²°ì „ì„ ê·¸ë¦° íˆì–´ë¡œ ì˜í™”ì‚¬ì—ì„œ ì¤‘ìš”í•œ ìœ„ì¹˜ì— ìˆëŠ” ì‘í’ˆ. ì–´ë²¤ì ¸ìŠ¤: ì—”ë“œê²Œì„ ë¦¬ë·°ì…ë‹ˆë‹¤.',null,null,null,'liner@hotmail.com','MA004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','590','MA590','ë” ì´ìƒ ì–´ë²¤ì ¸ìŠ¤ëŠ” ì•ˆ ë‚˜ì™”ìœ¼ë©´ ì¢‹ê² ìŠµë‹ˆë‹¤ - ì–´ë²¤ì ¸ìŠ¤:ì—”ë“œê²Œì„','https://www.youtube.com/embed/aPv4EHc6XlU','ê°€ì¥ ì™„ë²½í–ˆë˜ ë§ˆì§€ë§‰ í¸, ë§ˆì§€ë§‰ í¸ì´ë¼ëŠ” ê±´ ì´ë ‡ê²Œ ë§Œë“œëŠ” ê±°ì•¼ë¥¼ ë³´ì—¬ì¤€ ''ì–´ë²¤ì ¸ìŠ¤:ì—”ë“œê²Œì„'' ìš°ë¦¬ì˜ ì¶”ì–µ 11ë…„ë„ í•¨ê»˜ ë§ˆë¬´ë¦¬ ë˜ì—ˆìŠµë‹ˆë‹¤.',null,null,null,'unjun@naver.com','MA004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','591','MA591','ë¹„ë°€ ìŠˆí¼ íŠ¹ìˆ˜ìš”ì›ìœ¼ë¡œ ì œì•ˆì„ ë°›ì€ ë™ë„¤ ì–‘ì•„ì¹˜ã…£ í‚¹ìŠ¤ë§¨ : ì‹œí¬ë¦¿ ì—ì´ì „íŠ¸ (Kingsman: The Secret Service, 2015)','https://www.youtube.com/embed/LaVJ-izcWD8','ì˜í™”ë¥¼ ëª…ì‘ìœ¼ë¡œ ë§Œë“œëŠ” ë§¤íŠœë³¸ ê°ë…ì˜ ì—°ì¶œë ¥ í•´ì„',null,null,null,'eeeki@daum.net','MA005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','592','MA592','ë§¤ë„ˆê°€ ì‚¬ëŒì„ ë§Œë“ ë‹¤ [í‚¹ìŠ¤ë§¨: ì‹œí¬ë¦¿ ì—ì´ì „íŠ¸]','https://www.youtube.com/embed/UXnQ00t5J0A','ì¶œë°œ ë¹„ë””ì˜¤ ì—¬í–‰',null,null,null,'moviekok@yahoo.com','MA005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','593','MA593','í‚¹ìŠ¤ë§¨ ì‹œí¬ë¦¿ ì—ì´ì „íŠ¸ _ ê°€ì´ë“œ ë¦¬ë·° _ ë¬´ë¹„ëª¬ìŠ¤í„°','https://www.youtube.com/embed/ooPmNH82Rj4',null,null,null,null,'moviemonster@yahoo.com','MA005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','594','MA594','[ì˜í™”ê±¸ì‘ì„ ] 40íšŒ - í‚¹ìŠ¤ë§¨: ê³¨ë“  ì„œí´ 1í¸','https://www.youtube.com/embed/9ytTk6J9-V0',null,null,null,null,'noone@gmail.com','MA006',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','595','MA595','[ì˜í™”ê±¸ì‘ì„ ] 41íšŒ - í‚¹ìŠ¤ë§¨: ê³¨ë“  ì„œí´ 2í¸','https://www.youtube.com/embed/ttXHY9CKQoQ',null,null,null,null,'noone@gmail.com','MA006',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','596','MA596','í‚¹ìŠ¤ë§¨ 2 ê³¨ë“  ì„œí´ _ í•´ë¦¬ëŠ” ì–´ë–»ê²Œ ì‚´ì•„ë‚¬ë‚˜? _ ê°€ì´ë“œ ë¦¬ë·° _ ë¬´ë¹„ëª¬ìŠ¤í„°','https://www.youtube.com/embed/Yt6TlXOC_8U','í•´ë¦¬ëŠ” ì–´ë–»ê²Œ ì‚´ì•„ë‚¬ë‚˜?',null,null,null,'moviemonster@yahoo.com','MA006',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','597','MA597','ì‚´ì¸ì²­ë¶€ì—…ìì˜ ê°œë¥¼ ì£½ì´ë©´ ì¼ì–´ë‚˜ëŠ” ì¼ ì¡´ìœ… ë¦¬ë·°ì…ë‹ˆë‹¤.','https://www.youtube.com/embed/9o4e75soXrs','ê·¸ë¥¼ ê±´ë“œë¦¬ì§€ ë§ì•˜ì–´ì•¼ í–ˆë‹¤',null,null,null,'moviemovie@yahoo.com','MA007',to_date('20/02/19','RR/MM/DD'));
 Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','598','MA598','Child Discipline of Mob Boss','https://www.youtube.com/embed/mwDnhIy1lCw',null,null,null,null,'zipmovie@gmail.com','MA007',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','599','MA599','ÀüÁ÷ Å³·¯ÀÇ °³¸¦ °Çµå¸®¸é ÀÌ·¸°Ô µË´Ï´Ù.','https://www.youtube.com/embed/q9pr5GSngfo',null,null,null,null,'jum@hotmail.com','MA007',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','600','MA600','[¿µÈ­°ÉÀÛ¼±] 18È¸ - Á¸ À¨: ¸®·Îµå','https://www.youtube.com/embed/5GIzYpC6eow',null,null,null,null,'noone@gmail.com','MA008',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','601','MA601','ÁÖÀÎ°øÀÌ ÈûÀ» °¨Ãß´Â ¿µÈ­ Á¸À¨ ¸®·Îµå ¸®ºä','https://www.youtube.com/embed/tJssEgcGepo',null,null,null,null,'taco@daum.net','MA008',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','602','MA602','(³ë½ºÆ÷) Á¸ À¨ 2 Á¤¸» ¼ÖÁ÷ÇÑ °¨»ó ÈÄ±â | Á¶Á¶¿µÈ­ #2 | By. ¹ÎÈ£Å¸¿ì¸£½º','https://www.youtube.com/embed/w-yCg0yBnaM','Á¸ À¨2¸¦ Á÷Á¢ º¸°í Á¤¸» ¼ÖÁ÷ÇÏ°Ô °¨»ó ÈÄ±â, ¸®ºä ÇÕ´Ï´Ù.',null,null,null,'minho@gmail.com','MA008',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','603','MA603','¿µÈ­°ü¿¡¼­ ¾Èº¸¸é °³¼ÕÇØ! °³Â¼´Â ¾×¼ÇÀÇ Á¸À¨ 3','https://www.youtube.com/embed/7kFgrMEfIWE','Á¸À¨ 3¿¡¼­´Â ''´ç½ÅÀÌ Ã³À½ º¸´Â ¾×¼ÇÀÌ ¿Â´Ù''¸¦ Ä³Ä¡ÇÁ·¡ÀÌÁî·Î °É¾ú´Âµ¥ ±× ¸»Àº ·¹¾ËÆ®·çÀÔ´Ï´Ù.',null,null,null,'reviewang@gmail.com','MA009',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','604','MA604','Á¸ À¨ 3: ÆÄ¶óº§·ë °¡ÀÌµå ¸®ºä by ¹ß¾ø´Â»õ','https://www.youtube.com/embed/4NMVebATfVs',null,null,null,null,'nofootbird@gmail.com','MA009',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','605','MA605','Á¸ À¨ 3 ¸íÀå¸é ÃÑÁ¤¸® top 11','https://www.youtube.com/embed/5uCjH9t6a7Y',null,null,null,null,'bman@yahoo.com','MA009',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','606','MA606','ÇÏÇÊ ±×ÀÇ µşÀ» ³³Ä¡ÇØ¹ö·È´Ù... | Å×ÀÌÅ« | ¾×¼Ç | Å³Å¸(Å³¸µÅ¸ÀÓ) | ¿µÈ­ÃßÃµ','https://www.youtube.com/embed/KE-S_v1uAO8',null,null,null,null,'killtarian131@yahoo.com','MA010',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','607','MA607','[B tv ¿µÈ­ ÃßÃµ/movie Big #50] Å×ÀÌÅ«1','https://www.youtube.com/embed/-7hpFjADnUI','ÀüÁ÷ Æ¯¼ö ¿ä¿øÀÇ ÇÁ·ÎÆä¼Å³ÎÇÑ Ãß°İÀÌ ½ÃÀÛµÈ´Ù!',null,null,null,'skmovies@daum.net','MA010',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','608','MA608','µşÀ» À¯±«ÇÑ ³³Ä¡¹ü¿¡°Ô º¹¼öÇÏ´Â ¿µÈ­','https://www.youtube.com/embed/COqnj-GV98k','µşÀ» À¯±«ÇÑ ³³Ä¡¹ü¿¡°Ô ÅëÄèÇÑ º¹¼ö¸¦ ³¯¸° ¾×¼Ç¿µÈ­',null,null,null,'jackkongs@hotmail.com','MA010',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','609','MA609','Á¦ÀÌ½¼ º» (jason bourne) º¸±âÀü ¸ğ¾Æº¸´Â º» ¾¾¸®Áî(1,2,3) ½ºÅä¸®','https://www.youtube.com/embed/U-YrqN0FMS4','º»¾ÆÀÌµ§Æ¼Æ¼, º»½´ÇÁ¸®¸Ó½Ã, º»¾óÆ¼¸ŞÀÌÅÒ ÁÙ°Å¸®,½ºÅä¸® ¿ä¾àÇÑ ¿µ»óÀÔ´Ï´Ù.',null,null,null,'2ddudae@gmail.com','MA011',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','610','MA610','[º» ½Ã¸®Áî Á¤¸®][º» ¾ÆÀÌµ§Æ¼Æ¼/º» ½´ÇÁ¸®¸Ó½Ã/º» ¾óÆ¼¸ŞÀÌÅÒ]','https://www.youtube.com/embed/k7v8GJCVpck',null,null,null,null,'windandrain@gmail.com','MA011',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','599','MA599','ì „ì§ í‚¬ëŸ¬ì˜ ê°œë¥¼ ê±´ë“œë¦¬ë©´ ì´ë ‡ê²Œ ë©ë‹ˆë‹¤.','https://www.youtube.com/embed/q9pr5GSngfo',null,null,null,null,'jum@hotmail.com','MA007',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','600','MA600','[ì˜í™”ê±¸ì‘ì„ ] 18íšŒ - ì¡´ ìœ…: ë¦¬ë¡œë“œ','https://www.youtube.com/embed/5GIzYpC6eow',null,null,null,null,'noone@gmail.com','MA008',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','601','MA601','ì£¼ì¸ê³µì´ í˜ì„ ê°ì¶”ëŠ” ì˜í™” ì¡´ìœ… ë¦¬ë¡œë“œ ë¦¬ë·°','https://www.youtube.com/embed/tJssEgcGepo',null,null,null,null,'taco@daum.net','MA008',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','602','MA602','(ë…¸ìŠ¤í¬) ì¡´ ìœ… 2 ì •ë§ ì†”ì§í•œ ê°ìƒ í›„ê¸° | ì¡°ì¡°ì˜í™” #2 | By. ë¯¼í˜¸íƒ€ìš°ë¥´ìŠ¤','https://www.youtube.com/embed/w-yCg0yBnaM','ì¡´ ìœ…2ë¥¼ ì§ì ‘ ë³´ê³  ì •ë§ ì†”ì§í•˜ê²Œ ê°ìƒ í›„ê¸°, ë¦¬ë·° í•©ë‹ˆë‹¤.',null,null,null,'minho@gmail.com','MA008',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','603','MA603','ì˜í™”ê´€ì—ì„œ ì•ˆë³´ë©´ ê°œì†í•´! ê°œì©ŒëŠ” ì•¡ì…˜ì˜ ì¡´ìœ… 3','https://www.youtube.com/embed/7kFgrMEfIWE','ì¡´ìœ… 3ì—ì„œëŠ” ''ë‹¹ì‹ ì´ ì²˜ìŒ ë³´ëŠ” ì•¡ì…˜ì´ ì˜¨ë‹¤''ë¥¼ ìºì¹˜í”„ë˜ì´ì¦ˆë¡œ ê±¸ì—ˆëŠ”ë° ê·¸ ë§ì€ ë ˆì•ŒíŠ¸ë£¨ì…ë‹ˆë‹¤.',null,null,null,'reviewang@gmail.com','MA009',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','604','MA604','ì¡´ ìœ… 3: íŒŒë¼ë²¨ë£¸ ê°€ì´ë“œ ë¦¬ë·° by ë°œì—†ëŠ”ìƒˆ','https://www.youtube.com/embed/4NMVebATfVs',null,null,null,null,'nofootbird@gmail.com','MA009',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','605','MA605','ì¡´ ìœ… 3 ëª…ì¥ë©´ ì´ì •ë¦¬ top 11','https://www.youtube.com/embed/5uCjH9t6a7Y',null,null,null,null,'bman@yahoo.com','MA009',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','606','MA606','í•˜í•„ ê·¸ì˜ ë”¸ì„ ë‚©ì¹˜í•´ë²„ë ¸ë‹¤... | í…Œì´í° | ì•¡ì…˜ | í‚¬íƒ€(í‚¬ë§íƒ€ì„) | ì˜í™”ì¶”ì²œ','https://www.youtube.com/embed/KE-S_v1uAO8',null,null,null,null,'killtarian131@yahoo.com','MA010',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','607','MA607','[B tv ì˜í™” ì¶”ì²œ/movie Big #50] í…Œì´í°1','https://www.youtube.com/embed/-7hpFjADnUI','ì „ì§ íŠ¹ìˆ˜ ìš”ì›ì˜ í”„ë¡œí˜ì…”ë„í•œ ì¶”ê²©ì´ ì‹œì‘ëœë‹¤!',null,null,null,'skmovies@daum.net','MA010',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','608','MA608','ë”¸ì„ ìœ ê´´í•œ ë‚©ì¹˜ë²”ì—ê²Œ ë³µìˆ˜í•˜ëŠ” ì˜í™”','https://www.youtube.com/embed/COqnj-GV98k','ë”¸ì„ ìœ ê´´í•œ ë‚©ì¹˜ë²”ì—ê²Œ í†µì¾Œí•œ ë³µìˆ˜ë¥¼ ë‚ ë¦° ì•¡ì…˜ì˜í™”',null,null,null,'jackkongs@hotmail.com','MA010',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','609','MA609','ì œì´ìŠ¨ ë³¸ (jason bourne) ë³´ê¸°ì „ ëª¨ì•„ë³´ëŠ” ë³¸ ì”¨ë¦¬ì¦ˆ(1,2,3) ìŠ¤í† ë¦¬','https://www.youtube.com/embed/U-YrqN0FMS4','ë³¸ì•„ì´ë´í‹°í‹°, ë³¸ìŠˆí”„ë¦¬ë¨¸ì‹œ, ë³¸ì–¼í‹°ë©”ì´í…€ ì¤„ê±°ë¦¬,ìŠ¤í† ë¦¬ ìš”ì•½í•œ ì˜ìƒì…ë‹ˆë‹¤.',null,null,null,'2ddudae@gmail.com','MA011',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','610','MA610','[ë³¸ ì‹œë¦¬ì¦ˆ ì •ë¦¬][ë³¸ ì•„ì´ë´í‹°í‹°/ë³¸ ìŠˆí”„ë¦¬ë¨¸ì‹œ/ë³¸ ì–¼í‹°ë©”ì´í…€]','https://www.youtube.com/embed/k7v8GJCVpck',null,null,null,null,'windandrain@gmail.com','MA011',to_date('20/02/19','RR/MM/DD'));
 Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','611','MA611','Bourne Trilogy in 5 minutes!','https://www.youtube.com/embed/yojrsh7KBVg',null,null,null,null,'redmonmov@daum.net','MA011',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','612','MA612','ÅèÇÏµğÀÇ ½¯Æ´ ¾ø´Â »ç¸· Ãß°İ ¾×¼Ç¿µÈ­ [ ¹«ºñÇÑÀÜ ¿µÈ­¸®ºä ]','https://www.youtube.com/embed/imVscQ47kTk',null,null,null,null,'hanjan@hotmail.com','MA012',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','613','MA613','Á¢¼Ó¹«ºñ¿ùµå NEW ¿µÈ­´Â ¼ö´Ù´Ù_¸Åµå¸Æ½º: ºĞ³ëÀÇ µµ·Î (Mad Max: Fury Road, 2015)','https://www.youtube.com/embed/DwFT3ULrBAc',null,null,null,null,'netherlandman@gmail.com','MA012',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','614','MA614','¸ê¸ÁÇÑ Áö±¸, ¾ó¸¶ ³²Áö ¾ÊÀº ¹°°ú ±â¸§À» ÀïÃëÇÏ¶ó','https://www.youtube.com/embed/HC3lBJIbmn4','±èÈï¹Ì°¡ ÃßÃµÇÏ´Â ¿À´ÃÀÇ ¿µÈ­ÀÔ´Ï´Ù.',null,null,null,'mimi@naver.com','MA012',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','615','MA615','ºĞ³ëÀÇ ¾×¼Ç ¼º·æ°ú Àå¸¸¿ÁÀÇ Àü¼³ÀÇ ½ÃÀÛ Æú¸®½º½ºÅä¸® ¸®ºäÀÔ´Ï´Ù.','https://www.youtube.com/embed/GlP3acRXb94',null,null,null,null,'moviemovie@yahoo.com','MA013',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','616','MA616','¼º·æ Æú¸®½º ½ºÅä¸® (1,2) 60ÃÊ ³í½ºÅé ¾×¼Ç','https://www.youtube.com/embed/nN4_GYTqZXs',null,null,null,null,'holemovie98@yahoo.com','MA013',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','617','MA617','3ºĞ ¿ä¾à / ¹Ì¼Ç ÀÓÆÄ¼­ºí: °í½ºÆ® ÇÁ·ÎÅäÄİ (2011)','https://www.youtube.com/embed/2lMIzATX57o',null,null,null,null,'3bunoddugi@daum.net','MA014',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','618','MA618','¼¼°è ÃÖ°íÃş ºôµù¿¡¼­ ¾ÆÂñÇÑ °î¿¹ ''¹Ì¼Ç ÀÓÆÄ¼­ºí: °í½ºÆ® ÇÁ·ÎÅäÄİ''','https://www.youtube.com/embed/ve-ladMVWks',null,null,null,null,'extreammovie@naver.com','MA014',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','619','MA619','[2011] Çö´ëÄ«µå ·¹µåÄ«Æê 22 ¹Ì¼Ç ÀÓÆÄ¼­ºí - °í½ºÆ® ÇÁ·ÎÅäÄİ - ¿¹°íÆí °ø°³','https://www.youtube.com/embed/oyufJI5etOM','¾ĞµµÀûÀÎ ½ºÄÉÀÏ, 5³â¸¸¿¡ µ¹¾Æ¿Â ÀÌ´Ü ÇåÆ®¿Í IMFµ¿·áµéÀÇ Á¶Á÷ÀÇ ¸í¿¹¸¦ °Ç ºÒ°¡´ÉÇÑ ¹Ì¼Ç',null,null,null,'hyundaicardmovie@gmail.com','MA014',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','620','MA620','¹Ì¼Ç ÀÓÆÄ¼­ºí ·Î±×³×ÀÌ¼Ç / ¿µÈ­ P¸®ºä','https://www.youtube.com/embed/5Pl4I996Fjk',null,null,null,null,'moviemonster@yahoo.com','MA015',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','621','MA621','¹Ì¼Ç ÀÓÆÄ¼­ºí : ·Î±× ³×ÀÌ¼Ç ¸®ºä] ¼½½ÃÇÑ ¿©ÁÖÀÎ°ø! ¾öÃ»³­ ¾×¼Ç! µ¹¾Æ¿Â Ã¸º¸¹Ä!','https://www.youtube.com/embed/oCXwM8wD0r4',null,null,null,null,'unjun@naver.com','MA015',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','622','MA622','151227 Ãâ¹ß! ºñµğ¿À¿©Çà ¿µÈ­´ë¿µÈ­ ¹Ì¼ÇÀÓÆÄ¼­ºí: ·Î±×³×ÀÌ¼Ç','https://www.youtube.com/embed/RBSJZZp_9X8',null,null,null,null,'mybody@gmail.com','MA015',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','623','MA623','¹è¿ì¸¸ Àß»ı±ä ÁÙ ¾Ë¾Ò´Âµ¥ ¿µÈ­µµ Àß»ı°å³× - ¹Ì¼Ç ÀÓÆÄ¼­ºí: Æú¾Æ¿ô ¸®ºä','https://www.youtube.com/embed/fyPhxL4fjfA','Åè Å©·çÁîÀÇ ¶Ç ÇÑ ¹øÀÇ ¿ªÀÛÀÌ µîÀå!',null,null,null,'liner@hotmail.com','MA016',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','612','MA612','í†°í•˜ë””ì˜ ì‰´í‹ˆ ì—†ëŠ” ì‚¬ë§‰ ì¶”ê²© ì•¡ì…˜ì˜í™” [ ë¬´ë¹„í•œì” ì˜í™”ë¦¬ë·° ]','https://www.youtube.com/embed/imVscQ47kTk',null,null,null,null,'hanjan@hotmail.com','MA012',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','613','MA613','ì ‘ì†ë¬´ë¹„ì›”ë“œ NEW ì˜í™”ëŠ” ìˆ˜ë‹¤ë‹¤_ë§¤ë“œë§¥ìŠ¤: ë¶„ë…¸ì˜ ë„ë¡œ (Mad Max: Fury Road, 2015)','https://www.youtube.com/embed/DwFT3ULrBAc',null,null,null,null,'netherlandman@gmail.com','MA012',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','614','MA614','ë©¸ë§í•œ ì§€êµ¬, ì–¼ë§ˆ ë‚¨ì§€ ì•Šì€ ë¬¼ê³¼ ê¸°ë¦„ì„ ìŸì·¨í•˜ë¼','https://www.youtube.com/embed/HC3lBJIbmn4','ê¹€í¥ë¯¸ê°€ ì¶”ì²œí•˜ëŠ” ì˜¤ëŠ˜ì˜ ì˜í™”ì…ë‹ˆë‹¤.',null,null,null,'mimi@naver.com','MA012',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','615','MA615','ë¶„ë…¸ì˜ ì•¡ì…˜ ì„±ë£¡ê³¼ ì¥ë§Œì˜¥ì˜ ì „ì„¤ì˜ ì‹œì‘ í´ë¦¬ìŠ¤ìŠ¤í† ë¦¬ ë¦¬ë·°ì…ë‹ˆë‹¤.','https://www.youtube.com/embed/GlP3acRXb94',null,null,null,null,'moviemovie@yahoo.com','MA013',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','616','MA616','ì„±ë£¡ í´ë¦¬ìŠ¤ ìŠ¤í† ë¦¬ (1,2) 60ì´ˆ ë…¼ìŠ¤í†± ì•¡ì…˜','https://www.youtube.com/embed/nN4_GYTqZXs',null,null,null,null,'holemovie98@yahoo.com','MA013',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','617','MA617','3ë¶„ ìš”ì•½ / ë¯¸ì…˜ ì„íŒŒì„œë¸”: ê³ ìŠ¤íŠ¸ í”„ë¡œí† ì½œ (2011)','https://www.youtube.com/embed/2lMIzATX57o',null,null,null,null,'3bunoddugi@daum.net','MA014',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','618','MA618','ì„¸ê³„ ìµœê³ ì¸µ ë¹Œë”©ì—ì„œ ì•„ì°”í•œ ê³¡ì˜ˆ ''ë¯¸ì…˜ ì„íŒŒì„œë¸”: ê³ ìŠ¤íŠ¸ í”„ë¡œí† ì½œ''','https://www.youtube.com/embed/ve-ladMVWks',null,null,null,null,'extreammovie@naver.com','MA014',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','619','MA619','[2011] í˜„ëŒ€ì¹´ë“œ ë ˆë“œì¹´í« 22 ë¯¸ì…˜ ì„íŒŒì„œë¸” - ê³ ìŠ¤íŠ¸ í”„ë¡œí† ì½œ - ì˜ˆê³ í¸ ê³µê°œ','https://www.youtube.com/embed/oyufJI5etOM','ì••ë„ì ì¸ ìŠ¤ì¼€ì¼, 5ë…„ë§Œì— ëŒì•„ì˜¨ ì´ë‹¨ í—ŒíŠ¸ì™€ IMFë™ë£Œë“¤ì˜ ì¡°ì§ì˜ ëª…ì˜ˆë¥¼ ê±´ ë¶ˆê°€ëŠ¥í•œ ë¯¸ì…˜',null,null,null,'hyundaicardmovie@gmail.com','MA014',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','620','MA620','ë¯¸ì…˜ ì„íŒŒì„œë¸” ë¡œê·¸ë„¤ì´ì…˜ / ì˜í™” Pë¦¬ë·°','https://www.youtube.com/embed/5Pl4I996Fjk',null,null,null,null,'moviemonster@yahoo.com','MA015',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','621','MA621','ë¯¸ì…˜ ì„íŒŒì„œë¸” : ë¡œê·¸ ë„¤ì´ì…˜ ë¦¬ë·°] ì„¹ì‹œí•œ ì—¬ì£¼ì¸ê³µ! ì—„ì²­ë‚œ ì•¡ì…˜! ëŒì•„ì˜¨ ì²©ë³´ë®¬!','https://www.youtube.com/embed/oCXwM8wD0r4',null,null,null,null,'unjun@naver.com','MA015',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','622','MA622','151227 ì¶œë°œ! ë¹„ë””ì˜¤ì—¬í–‰ ì˜í™”ëŒ€ì˜í™” ë¯¸ì…˜ì„íŒŒì„œë¸”: ë¡œê·¸ë„¤ì´ì…˜','https://www.youtube.com/embed/RBSJZZp_9X8',null,null,null,null,'mybody@gmail.com','MA015',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','623','MA623','ë°°ìš°ë§Œ ì˜ìƒê¸´ ì¤„ ì•Œì•˜ëŠ”ë° ì˜í™”ë„ ì˜ìƒê²¼ë„¤ - ë¯¸ì…˜ ì„íŒŒì„œë¸”: í´ì•„ì›ƒ ë¦¬ë·°','https://www.youtube.com/embed/fyPhxL4fjfA','í†° í¬ë£¨ì¦ˆì˜ ë˜ í•œ ë²ˆì˜ ì—­ì‘ì´ ë“±ì¥!',null,null,null,'liner@hotmail.com','MA016',to_date('20/02/19','RR/MM/DD'));
 Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','624','MA624','[Nofeetbird] Mission Impossible: Fallout Guide Review','https://www.youtube.com/embed/XMcl9QxjPbM',null,null,null,null,'nofootbird@gmail.com','MA016',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','625','MA625','½ºÆÄÀÌ ¾×¼ÇÀÇ ÀıÁ¤! ''¹Ì¼Ç ÀÓÆÄ¼­ºí: Æú¾Æ¿ô'' º¸ÀÚ¸¶ÀÚ ¸®ºä','https://www.youtube.com/embed/f9N4ii7QCfQ',null,null,null,null,'extreammovie@naver.com','MA016',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','626','MA626','[¿µÈ­°ÉÀÛ¼±] 14È¸ - ·¹Áö´øÆ® ÀÌºí: ÆÄ¸êÀÇ ³¯','https://www.youtube.com/embed/s72bXF3khQI',null,null,null,null,'noone@gmail.com','MA017',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','625','MA625','ìŠ¤íŒŒì´ ì•¡ì…˜ì˜ ì ˆì •! ''ë¯¸ì…˜ ì„íŒŒì„œë¸”: í´ì•„ì›ƒ'' ë³´ìë§ˆì ë¦¬ë·°','https://www.youtube.com/embed/f9N4ii7QCfQ',null,null,null,null,'extreammovie@naver.com','MA016',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','626','MA626','[ì˜í™”ê±¸ì‘ì„ ] 14íšŒ - ë ˆì§€ë˜íŠ¸ ì´ë¸”: íŒŒë©¸ì˜ ë‚ ','https://www.youtube.com/embed/s72bXF3khQI',null,null,null,null,'noone@gmail.com','MA017',to_date('20/02/19','RR/MM/DD'));
 Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','627','MA627','Resident Evil: The Final Chapter guide review by Nofeetbird','https://www.youtube.com/embed/wxi4y_Qhck4',null,null,null,null,'nofootbird@gmail.com','MA016',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','628','MA628','·¹Áö´øÆ®ÀÌºí :ÆÄ¸êÀÇ³¯ °¡ÀÌµå¸®ºä (Resident Evil: The Final Chapter)','https://www.youtube.com/embed/5SHq3DT0bTg',null,null,null,null,'duckplayer@daum.net','MA017',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','628','MA628','ë ˆì§€ë˜íŠ¸ì´ë¸” :íŒŒë©¸ì˜ë‚  ê°€ì´ë“œë¦¬ë·° (Resident Evil: The Final Chapter)','https://www.youtube.com/embed/5SHq3DT0bTg',null,null,null,null,'duckplayer@daum.net','MA017',to_date('20/02/19','RR/MM/DD'));
 Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','629','MA629','Review on the Entire ''Resident Evil'' Series! #5 Resident Evil: Retribution','https://www.youtube.com/embed/6qPWP4efulY',null,null,null,null,'9bul@gmail.com','MA018',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','630','MA630','¿µÈ­ ''·¹Áö´øÆ® ÀÌºí5'' [¸íÀå¸é&¹Ì¸®º¸±â~] ¿ª´ë±Ş Ãæ°İ È£·¯ ¾×¼Ç','https://www.youtube.com/embed/7AiCJjfQcyo',null,null,null,null,'movieus@yahoo.com','MA018',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','631','MA631','·¹Áö´øÆ®ÀÌºí5 [¾Ù¸®½º VS ¿¡ÀÌ´Ù ¿ı]','https://www.youtube.com/embed/tGZs4ZQHu88','¹Ğ¶ó ¿äº¸ºñÄ¡! ¾×¼Ç Á¾°á 4Á¾ ¿µ»ó 2Æí. ¾Ù¸®½º VS ¿¡ÀÌ´Ù ¿ı',null,null,null,'sonypictures@daum.net','MA018',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','632','MA632','¶÷º¸ 5 ¸®ºä - ¾ÆÁ÷ ÇÒ ¾ê±â°¡ ³²¾Ò´ø ''¶ó½ºÆ® ¿ö''','https://www.youtube.com/embed/Bv8Llyp5kiA','80³â´ë ¾×¼Ç ¿µÈ­¿¡¼­ ''¾Æ³îµå'' Çü´Ô°ú ¾ç´ë»ê¸ÆÀÌ¾ú´ø ''½Çº£½ºÅÍ ½ºÅÅ·Ğ'' Çü´ÔÀÇ ÃÖÈÄÀÇ ¹ß¾Ç, ''¶÷º¸ 5'' ÀÔ´Ï´Ù.',null,null,null,'ajhongmovie@gmail.com','MA019',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','633','MA633','È£·¯ ¿µÈ­º¸´Ù ÀÜÀÎÇÑ ¶÷º¸ - ¶÷º¸ : ¶ó½ºÆ® ¿ö','https://www.youtube.com/embed/1SDSlJlTg6I','Æ®·³ÇÁ ´ëÅë·É°ú µ¿°©ÀÎ Ä¥¼ø ÇÒ¾Æ¹öÁöÀÇ ¸¶Áö¸· ¶÷º¸ ¾×¼Ç',null,null,null,'unjun@naver.com','MA019',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','634','MA634','ÀÚºñ¾øÀÌ ÀûµéÀ» Ã³´ÜÇÏ´Â [¶÷º¸: ¶ó½ºÆ® ¿ö]','https://www.youtube.com/embed/ubyuJ-Nqoss','¿µÈ­°¡ ÁÁ´Ù',null,null,null,'moviekok@yahoo.com','MA019',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','635','MA635','°³¸ÁÀÛÀÎÁÙ ¾Ë¾Ò´Âµ¥ °³²ÜÀëÀÌ¶ó¼­ ±ôÂ¦ ³î¶õ ¿µÈ­ ¾ÆÄí¾Æ¸Ç','https://www.youtube.com/embed/sJ5uOcWlGV0',null,null,null,null,'reviewang@gmail.com','MA020',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','636','MA636','¿¹ÃøÀÌ ºÒ°¡´ÉÇÑ DCÀÇ ¶á±İÆ÷: ¾ÆÄí¾Æ ¸Ç ¸®ºä','https://www.youtube.com/embed/-9j4YSKt_QE','´Ù¸¥ ÀÛÇ°µµ ¾Æ´Ï°í ¾ÆÄí¾Æ ¸ÇÀÌ ÀÌ Á¤µµ¸¦ º¸¿©ÁÙ ÁÙÀÌ¾ß?',null,null,null,'liner@hotmail.com','MA020',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','637','MA637','¿µÈ­°¡ÁÁ´Ù ¾ÆÄí¾Æ¸Ç','https://www.youtube.com/embed/8-NwuRyE9rs',null,null,null,null,'teller@hotmail.com','MA020',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','638','MC638','½ÅÀÔ»ç¿øÇÑÅ× ½ëÃ´ Çß´Ù°¡ ½ê°Ô ÅĞ¸° ¼±¹èµé','https://www.youtube.com/embed/3BB4knAVb1c','#°¡Àåº¸ÅëÀÇ¿¬¾Ö #10¿ù2ÀÏ°³ºÀ',null,null,null,'gomong@gmail.com','MC001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','639','MC639','Çö½Ç ·Î¸Ç½º[°¡Àå º¸ÅëÀÇ ¿¬¾Ö]','https://www.youtube.com/embed/a3bPLFvOIKc','#koreantv #koreanmovie #koreandrama #2019 #°¡Àåº¸ÅëÀÇ¿¬¾Ö',null,null,null,'dbstjdqls@hotmail.com','MC001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','640','MC640','¼ø»è¿µÈ­ '' °¡Àå º¸ÅëÀÇ ¿¬¾Ö '' 1ºÎ ¼úÃëÇÏ¸é ±Í¿©¿î³²ÀÚ(±è·¡¿ø,°øÈ¿Áø)','https://www.youtube.com/embed/YlfgyVODB3Y','¿µÈ­ ''°¡Àå º¸ÅëÀÇ ¿¬¾Ö'' ¸íÀå¸é ¸í´ë»ç ÇÏÀÌ¶óÀÌÆ® ¿µ»ó crazy romance, 2019 ±è·¡¿ø °øÈ¿Áø ÁÖ¿¬',null,null,null,'chicken@daum.net','MC001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','641','MC641','»ç¶÷µé¿¡°Ô ¿Â°® ÀÌ»óÇÑ ÁşÀ» ½ÃÅ°´Â ¿©ÀÚ','https://www.youtube.com/embed/ZRmmnhbOByY?list=PLQW4-k--AOA1ruJ-M8Ru1BkSmLO_6cY6Y','ÀÌ¹ø¿¡ ¼Ò°³ÇØ µå¸± ¿µÈ­´Â #±Â¸ğ´×¿¡ºê¸®¿ø #´Şºû¹ÂÁî #ÄÚ¹Ìµğ',null,null,null,'moonlightmuse@gmail.com','MC002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','642','MC642','±àÁ¤¿¡³ÊÁö·Î °¡µæ Âù ¿©ÀÚ°¡ À§±â¸¦ ±Øº¹ÇÏ´Â ¹æ¹ı / ¿µÈ­¸®ºä','https://www.youtube.com/embed/CF5508f1i8w','* º» ¿µ»óÀº ½ºÆ÷ÀÏ·¯°¡ Æ÷ÇÔµÇ¾î ÀÖ½À´Ï´Ù * ¾È³çÇÏ¼¼¿ä. ¿À´Ã ¸®ºäÇÒ ÀÛÇ°Àº ''±Â¸ğ´× ¿¡ºê¸®¿ø (Morning Glory, 2010)''ÀÔ´Ï´Ù',null,null,null,'ddorol@hotmail.com','MC002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','643','MC643','[ ±Â¸ğ´× ¿¡ºê¸®¿ø ] ÇĞ·ÂÀÌ ¾Æ´Ñ ½Ç·ÂÀ¸·Î Á¤»óÀ» Â÷ÁöÇÑ ¿©ÀÚÀÇ ÀÌ¾ß±â','https://www.youtube.com/embed/g2Sj0FCm-CA','±Â¸ğ´× ¿¡ºê¸®¿ø (Morning Glory - 2010) °¨µ¶ - ·ÎÀú ¹ÌÃ¿ Ãâ¿¬ - ·¹ÀÌÃ¿ ¸Æ¾Æ´ıÁî (º£Å° Ç®·¯) ÇØ¸®½¼ Æ÷µå(¸¶ÀÌÅ© Æ÷¸Ó·ÎÀÌ) ´ÙÀÌ¾È Å°Æ°(Äİ¸° Æå)',null,null,null,'murmicine@yahoo.com','MC002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','644','MC644','¸íÀı °³ºÀ¿µÈ­ÀÇ ¿ª»ç¸¦ »õ·Î¾²´Â ¿µÈ­ : ''±ØÇÑÁ÷¾÷''¸®ºä','https://www.youtube.com/embed/jFd1X9j_9Os','* º» ¿µ»óÀº ½ºÆ÷ÀÏ·¯°¡ ´Ù¼ö Æ÷ÇÔµÇ¾î ÀÖ½À´Ï´Ù * ¿µÈ­ ''½º¹°''À» Á¤¸» Àç¹Õ°Ô º» Àú·Î½á´Â, ±â´ëÇÒ ¼ö ¹Û¿¡ ¾ø´Â ÀÛÇ°ÀÌ¾ú½À´Ï´Ù. ±×¸®°í ¿µÈ­°ü¿¡¼­ º¸°í ¿Ô°í, °á°ú´Â ''¼º°ø''ÀÌ¾úÁÒ. ¼ÖÁ÷È÷ ¸»ÇØ¼­, ÇÑ±¹Çü ÄÚ¹Ìµğ¿¡¼­ ÀÌº´Çå °¨µ¶¸¸Å­ ÀÚ½ÅÀÇ Ã¶ÇĞÀÌ È®°íÇÑ ÀÌ´Â ¾ø´Ù°í »ı°¢ÇÕ´Ï´Ù. ±ò²ûÇß°í, ÀÇµµ°¡ ¸íÈ®ÇÑ ÄÚ¹Ìµğ¿¡ ¾ÆÁÖ ±àÁ¤ÀûÀÎ ´À³¦À» ¹Ş¾Ò½À´Ï´Ù. ¸ğµç ³»¿ëÀº Á¦ °³ÀÎÀûÀÎ ÀÇ°ßÀÔ´Ï´Ù.',null,null,null,'aloneman@daum.net','MC003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','645','MC645','Ä¡Å² Àå»ç ´ë¹Ú³­ ¸¶¾à¹İ Çü»çµéÀÇ ¾îÁ¤ÂÄÇÑ ÄÚ¹Ìµğ: ±ØÇÑÁ÷¾÷ ¸®ºä','https://www.youtube.com/embed/PwefBCv1sp8','¸¶¾à¹İ Çü»çµéÀÌ Ä¡Å²ÁıÀ» Â÷·È´Âµ¥ ´ë¹ÚÀÌ ³µ´Ù´Â ´Ü¼øÇÑ ¾ÆÀÌµğ¾î¿¡¼­ ½ÃÀÛÇÑ °¡º­¿î ÄÚ¹Ìµğ ¿µÈ­. ¿ôÀ½Àº ¼º°øÀûÀÌÁö¸¸ ±× ÀÌ»óÀ» °¡Á®°¡Áö´Â ¸øÇÑ ¾Æ½¬¿î ÀÛÇ°. ±ØÇÑÁ÷¾÷ ¸®ºäÀÔ´Ï´Ù.',null,null,null,'liner@hotmail.com','MC003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','646','MC646','À§Àå¼ö»ç·Î Ä¡Å²Áı ¿­¾ú´Ù°¡ ¸ÀÁıÀ¸·Î ¼Ò¹®³ª¸é ¹ú¾îÁö´Â ÀÏ..','https://www.youtube.com/embed/aI5wejCDXtg','¿µÈ­ ¡®±ØÇÑÁ÷¾÷¡¯, ¿À´Â 1¿ù23ÀÏ °³ºÀÇÕ´Ï´Ù. #Áö¹«ºñ #¿µÈ­ #±ØÇÑÁ÷¾÷',null,null,null,'gmovie@hotmail.com','MC003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','647','MC647','ÁÖÅÃ°¡¿¡ Å¬·´ÀÌ »ı±â¸é ÀÏ¾î³ª´Â ÀÏ','https://www.youtube.com/embed/QVPiNA7I_64','ÀÌ¹ø¿¡ ¼Ò°³ÇØ µå¸± ¿µÈ­´Â #³ª»Û ÀÌ¿ôµé #´Şºû¹ÂÁî #ÄÚ¹Ìµğ¿µÈ­',null,null,null,'moonlightmuse@gmail.com','MC004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','648','MC648','Å¬·¯¹ö°¡ ½ÅÈ¥ºÎºÎ ¿·ÁıÀ¸·Î ÀÌ»ç ¿À¸é¼­ »ı±â´Â ÀÏ','https://www.youtube.com/embed/x9SwxsC2HIg','#³ª»Û ÀÌ¿ôµé#¿µÈ­¼Ò°³#¿µÈ­¸®ºä ¿µÈ­ ³ª»Û ÀÌ¿ôµé(2014) °¨µ¶ ´ÏÄİ¶ó½º ½ºÅç·¯ Ãâ¿¬ ¼¼½º ·Î°Ç, ·ÎÁî ¹ø, Àè ¿¡ÇÁ·Ğ ¿µÈ­ "³ª»Û ÀÌ¿ôµé" ÀÔ´Ï´Ù. Áñ°Ì°Ô °¨»ó ÇÏ½Ã°í Àç¹Õ°Ô º¸¼Ì´Ù¸é ±¸µ¶ & ÁÁ¾Æ¿ä & ´ñ±Û ºÎÅ¹µå¸³´Ï´Ù. °¨»çÇÕ´Ï´Ù',null,null,null,'choice@hotmail.com','MC004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','649','MC649','¾Æ±â¿¡°Ô ÄÜµ¼ ¹°¸° Á¤½Å³ª°£ ¿·Áı ³ğµé','https://www.youtube.com/embed/NCijbmH4AIs','ÆòÈ­·Ó°Ô »ì°íÀÖ´Â ¸Æ°ú ÄÌ¸® ºÎºÎ ÇÏÁö¸¸ ¿· Áı Å×µğ¶ó´Â ÇĞ»ıÀÌ ÀÌ»ç¿À°ÔµÇ¸ç ¸ğµç ÀÏ»óÀ» ¾û¸ÁÀ¸·Î ¸¸µé¾î³õ´Âµ¥ Àç¹ÌÀÖ°Ô º¸¼Ì´Ù¸é ±¸µ¶, ÁÁ¾Æ¿ä ºÎÅ¹µå¸®°Ú½À´Ï´Ù!',null,null,null,'suenim@hotmail.com','MC004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','650','MC650','Ãµ»ó°è ¹Ì¸ğÀÇ ¾Æ³»¿Í ÀÌÈ¥ÇÏ·Á´Â ³²ÀÚ','https://www.youtube.com/embed/DMFw7ghTHu4','¿µÈ­: ³» ¾Æ³»ÀÇ ¸ğµç °Í ÇÑ±¹ ¿µÈ­ Áß ÀÌ·¸°Ô ÄÚ¹ÍÇÔ°ú ¼½½ÃÇÔÀÇ ±ÕÇüÀ» Àß °®Ãá ¿µÈ­°¡ ¶Ç ÀÖÀ»±î ½ÍÀ» Á¤µµ·Î °³ÀÎÀûÀ¸·Î ¹«Ã´ ¾ÖÁ¤ÇÏ´Â ¿µÈ­ÀÔ´Ï´Ù. ¿µÈ­ ¿£µù Å©·¹µ÷ÀÌ ¿Ã¶ó°¡´Â Áß¿¡µµ ¿­¿¬À» ÆîÄ¡´Â ¹è¿ìµé°ú ³¡±îÁö ¼½½Ã ÄÚ¹Ìµğ¶ó´Â ÄÁ¼Á¿¡ Ãæ½ÇÇÑ ºÎºĞÀº ±â¸³ ¹Ú¼ö¸¦ Ä¡°í ½ÍÀ» Á¤µµ¿´½À´Ï´Ù. ÀÌ·± À£¸ŞÀÌµå ¿µÈ­¸¦ ¾ÆÁ÷µµ ¸ø ºÃ´Ù¸é ¾ÈÅ¸±î¿î ÀÏÀÔ´Ï´Ù. Àû±ØÀûÀ¸·Î ÃßÃµÇÕ´Ï´Ù.',null,null,null,'captainrami@gmail.com','MC005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','651','MC651','Àü¼³ÀÇ Ä«»ç³ë¹Ù°¡ ¿©ÀÚ¸¦ À¯È¤ÇÏ´Â ¹æ¹ı','https://www.youtube.com/embed/I2l-u0K5EDE','³» ¾Æ³»ÀÇ ¸ğµç °Í',null,null,null,'dreamteller@daum.net','MC005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','652','MC652','½ÄÅ¹ ¾Æ·¡¿¡¼­ Ã³À½ ¸¸³­ ±× ¼ø°£Ã³·³ ¤Ó ¿µÈ­ *³» ¾Æ³»ÀÇ ¸ğµç °Í* ¸Ô¹æÀÇ ÀÇ¹Ì','https://www.youtube.com/embed/XTk8G6lnXbE','#³»¾Æ³»ÀÇ¸ğµç°Í #ÀÓ¼öÁ¤ #ÀÌ¼±±Õ #·ù½Â·æ #¿µÈ­ÀÇ½ÄÅ¹ #¿µÈ­¼Ó¸Ô¹æ *½ÄÅ¹ ¾Æ·¡¿¡¼­ Ã³À½ ¸¸³­ ±× ¼ø°£Ã³·³? ±× ÀÇ¹Ì´Â ¹«¾ùÀÏ±î¿ä? *ÁÖÀÇ! ÀÌ¹ø ¿µ»ó¿¡´Â ÀÌ·ÊÀûÀ¸·Î ¿µÈ­ÀÇ °á¸»ÀÌ Æ÷ÇÔµÇ¾î ÀÖ½À´Ï´Ù.',null,null,null,'tablemovie@hotmail.com','MC005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','653','MC653','·±¾î¿şÀÌ ¹öÄÉÀÌ¼Ç','https://www.youtube.com/embed/UsPN_oavve0','¹ÌÀå¼¾ Movie Database ¿µÈ­¼Ò°³,ÃßÃµ Excerpt from:Á¢¼Ó ¹«ºñ¿ùµå, Ãâ¹ß ºñµğ¿À¿©Çà. ¾ß¤Á¤Á¤Á½§³¢µé¾Æ¤¿¤¿¤¿¤¿¤¿. The largest Korea movie database. Reviews, interviews, previews and behind the scene footage of movie production',null,null,null,'ysamo@yahoo.com','MC006',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','654','MC654','¿ô´Ù°¡ ³ú°¡ Àß¸øµÇ¹ö¸±¼öµµ ÀÖ´Â ¿µÈ­','https://www.youtube.com/embed/_kzarY7rq-4','·±¾î¿şÀÌ¹öÄÉÀÌ¼Ç',null,null,null,'whereiam@gmail.com','MC006',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','655','MC655','´Ü 10ºĞ, ÀÌ ¿µÈ­¸¦ º¸´Âµ¥ ³ú´Â ÇÊ¿ä ¾ø´Ù!','https://www.youtube.com/embed/Z8u4Xmm7Cmc','ÀÌ¹ø¿¡ ¼Ò°³ÇØ µå¸± ¿µÈ­´Â #·Ñ·¯ÄÚ½ºÅÍ #´Şºû¹ÂÁî #ÄÚ¹Ìµğ',null,null,null,'moonlightmuse@gmail.com','MC007',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','656','MC656','[¿µÈ­¸®ºä °á¸»Æ÷ÇÔ] ÇÏÁ¤¿ì°¨µ¶ÀÇ B±Ş°¨¼º ¿µÈ­ Áø½É ¿ô´Ù°¡ ¹è Âõ¾îÁü','https://www.youtube.com/embed/4cN1Cu8OdSs','2013³â °³ºÀÀÛ "·Ñ·¯ÄÚ½ºÅÍ"ÀÔ´Ï´Ù ¿µÈ­·Î ´Ù¾çÇÑ ÄÜÅÙÃ÷¸¦ ¸¸µé°í ÀÖ½À´Ï´Ù :-)',null,null,null,'heytv@gmail.com','MC007',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','657','MC657','[¿µÈ­ BEST] ÇÏÁ¤¿ì °¨µ¶ µ¥ºßÀÛ, ÀÌ ºñÇà±â ¹º°¡ ÀÌ»óÇÏ´Ù!','https://www.youtube.com/embed/Bxb-9S-J3w0','¹è¿ì "ÇÏÁ¤¿ì"°¡ °¨µ¶À» ¸Ã¾Ò´Ù!! ¿µÈ­ µµÁß ÅÍÁö´Â À°µÎ¹®ÀÚ¿Í °úÀåµÈ Ç¥ÇöÀ» ÅëÇÑ ¿øÃÊÀûÀÎ °³±×! Ä³¸¯ÅÍ ¸¶´Ù º¸ÀÌ´Â È®½ÇÇÑ °³¼º! B±Ş °¨¼ºÀ» ÀÚ±ØÇÏ´Â ¿µÈ­',null,null,null,'ajbros8080@yahoo.com','MC007',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','658','MC658','¾î¸¥¸¸ ÀÌÇØ°¡´ÉÇÑ ¾î¸¥ÀÌ¿ë °¡Á· º´¸À ¿µÈ­¤»¤»','https://www.youtube.com/embed/UUSbwzP1OYg','¾îº¥Á®½º Åä¸£ ÁÖ¿¬ Å©¸®½º ÇÜ½º¿ö½ºµµ ¿ô°ÜÁÖ´Â º´¸À °¡Á· ¿µÈ­ º£ÄÉÀÌ¼Ç(2015) ¾È³çÇÏ¼¼¿ä! ''ÁÁ¾Æ¿ä''Áßµ¶ÀÚ Ä¸Æ¾¶ó¹ÌÀÔ´Ï´Ù¤»¤» ÀÌ ¿µÈ­¿¡´Â ´Ù¾çÇÑ Ä«¸Ş¿À°¡ Ãâ¿¬ ÇÏÁö¸¸, ¹«¾ùº¸´Ù ¿îÀüÀÇ ´ŞÀÎÀÌ ÃÖ°í¿´½À´Ï´Ù. ¸®ºä ³¡±îÁö º» »ç¶÷Àº ¹«Á¶°Ç °ø°¨!!¤»¤» Âü°í·Î ¾ØÆ®¸Ç°ú ÆÛ½ÃÇÈ¸²¸¸ ºÃ¾îµµ, À¢¸¸ÇÑ Ä«¸Ş¿À´Â ´Ù ¾Ë¾Æº¼ °Ì´Ï´Ù.',null,null,null,'captainrami@gmail.com','MC008',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','659','MC659','ÀÌ ¿µÈ­¸¦ º¸°íµµ ¿ôÁö ¾Ê´Â´Ù¸é ¼±¹°À» µå¸³´Ï´Ù.','https://www.youtube.com/embed/UQZWUm_ZdbU','½ÃÃ»ÇØÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù^_^',null,null,null,'yangyang@naver.com','MC008',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','660','MC660','¿µÈ­ º£ÄÉÀÌ¼Ç vacation 2015 ¸·Àå º´¸À 19±İ ¿Ü±¹ ÄÚ¹Ìµğ','https://www.youtube.com/embed/VQf-GxRWYzI','º£ÄÉÀÌ¼Ç vacation 2015 10³âµ¿¾È ¸Å³â ¶È°°Àº ¿©¸§ ÈŞ°¡¸¦ °¬´ø ·¯½ºÆ¼³× °¡Á· ½Ã°£ÀÌ Èê·¯ ¹Ì¼Ò¸¦ ÀÒ¾î°¡´Â ¾Æ³»ÀÇ ¾ó±¼À» º» ·¯½ºÆ¼´Â ¹Ì±¹¿¡¼­ °¡Àå ÀÎ±â ÀÖ´Â ³îÀÌ°ø¿ø ¡®¿ù¸® ¿ùµå¡¯·Î °¡´Â ¹Ì´ë·úÈ¾´Ü ¿©ÇàÀ» Á¦¾ÈÇÕ´Ï´Ù. 4000Å°·Î¸¦ È¾´ÜÇÏ±âÀ§ÇØ ÃÖÃ·´Ü Â÷±îÁö ºô·Á ³îÀÌ°ø¿øÀ¸·Î Ãâ¹ß! ÇÏÁö¸¸ Àç¹ÌÀÖ°í ¼øÅºÇÑ ¿©ÇàÀÌ µÇ¸®¶ó´Â ±â´ë¿Í´Â ´Ş¸® »ç°Ç »ç°í°¡ ÅÍÁö°í ¸¿´Ï´Ù. °ú¿¬ ±×¸®½º¿Ãµå °¡Á·Àº ¹ö¶óÀÌ¾îÆ¼ÇÑ ¿©ÇàÀ» ¸¶Ä¡°í ¹«»çÈ÷ µ¹¾Æ¿Ã ¼ö ÀÖÀ»±î¿ä? [È­ÀÌÆ®Ä¢½º]°°Àº ÁøÂ¥ ¿ô±ä ÄÚ¹Ìµğ ¿µÈ­¸¦ Ã£À¸½Å´Ù¸é ÃßÃµ!',null,null,null,'helpyourself@hotmail.com','MC008',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','661','MC661','1700¾ï¿øÀ» ÇÑ ´Ş ¾È¿¡ ´Ù ½á¾ßÇÏ´Â ´ë·úÀÇ ±ØÇÑÁ÷¾÷ | °á¸»Æ÷ÇÔ','https://www.youtube.com/embed/GFbHyJsMewY','#¿µÈ­¸®ºä #°á¸»Æ÷ÇÔ ¼­È«½Ã¼öºÎ (2018, Hello Mr. Billionaire, à¤ûöã¼âÏİ£, ¼­È«½ÃÀÇ °©ºÎ)',null,null,null,'daymovie@hotmail.com','MC009',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','662','MC662','ÇÑ ´Ş¾È¿¡ 1,700¾ï ¿øÀ» ½á¾ßÇÏ´Â ³²ÀÚ°¡ ÀÖ´Ù?! [10ºĞ¿µÈ­]','https://www.youtube.com/embed/5IT5_Grf0Ao','* ÀÌ ¿µ»óÀº ½ºÆ÷ÀÏ·¯¸¦ ´ã°íÀÖ½À´Ï´Ù. * ¼­È«½Ã¼öºÎ (Hello Mr. Billionaire). 2018',null,null,null,'postshare85@daum.net','MC009',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','663','MC663','(¿µÈ­¸®ºä/°á¸»Æ÷ÇÔ) ÇÑ´Ş¾È¿¡ 1700¾ïÀ» ¾²¸é ¹«·Á 5Á¶¸¦ »ó¼Ó¹Ş´Â´Ù!? ¼­È«½Ã¼öºÎ','https://www.youtube.com/embed/mTprvfMJ4Iw','#¼­È«½Ã¼öºÎ °á¸» #¿µÈ­¸®ºä #°á¸»Æ÷ÇÔ #ÄÚ¹Ìµğ¿µÈ­',null,null,null,'endmovie@daum.net','MC009',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','664','MC664','[º´¸À¸íÀÛ¸®ºä] ¿ô´Ù°¡ ¿ï°Ô ¸¸µå´Â ¿µÈ­¤»¤» ¼¼¾ó°£ÀÌ!','https://www.youtube.com/embed/4AFVTL8nCUg','¼¼¾ó°£ÀÌ ±¸ºÒÃßÃµÁö¼ö: 9.5/10 º´¸À¿ä¼Ò: 8/10 Âü½ÅÇÔ: 7/10 ÇÑÁÙÆò: ¿ô´Ù°¡ ¿ï°í ¿ô´Ù°¡ ¿ï°í ÇÏ´Â ¿µÈ­. Àå³­°°Àº ¿µÈ­Áö¸¸ ³¯Ä«·Î¿î ¼Û°÷À» ¼û±â°í ÀÖ´Ù. º´¸À ¿ä¼Ò°¡ ¸¹Áö¸¸ ¿ì¸®°¡ ÀÌ ¿µÈ­¸¦ º¸°í °í°³¸¦ ²ô´öÀÌ´Â ÀÌÀ¯´Â ¹«¾ùÀÏ±î?',null,null,null,'9bul@gmail.com','MC010',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','665','MC665','À¯ÄèÇÑ ÃµÀç°¡ ÇĞ±³»ıÈ° ÇÏ´Â ¹æ¹ı','https://www.youtube.com/embed/i5u2POOeMdk','À¯ÄèÇÑ ÃµÀç°¡ ÇĞ±³»ıÈ° ÇÏ´Â ¹æ¹ıÀ» º¸¿©ÁÖ´Â ¿µÈ­ ¼¼¾ó°£ÀÌÀÔ´Ï´Ù. ³×ÀÌ¹ö ÆòÁ¡ÀÌ 9.34 (25,563¸í Æò°¡)À¸·Î ¸¹Àº »ç¶÷µéÀÌ ÁÁ¾ÆÇÏ´Â ÀÎµµ ¿µÈ­ÀÔ´Ï´Ù.',null,null,null,'storyroom@daum.net','MC010',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','666','MC666','[¼¼ ¾ó°£ÀÌ] Àá¼ö ÅÀ¾ú´ø Ä£±¸¸¦ Ã£¾Ò´Ù','https://www.youtube.com/embed/vCB3b-IbA94','Àá¼ö ÅÀ¾ú´ø Ä£±¸¸¦ Ã£¾Ò´Ù (+There''s English Subtitle. You can enjoy by using that.) ±¸µ¶¡¤ÁÁ¾Æ¿ä¡¤°øÀ¯¡¤´ñ±ÛÀº ÈûÀÌ µË´Ï´Ù. ²ÙÁØÈ÷ ÁÁÀº ¿µ»óÀ¸·Î º¸´äÇÏ°Ú½À´Ï´Ù. ¢¹¿µÈ­Á¤º¸ Á¦¸ñ: ¼¼ ¾ó°£ÀÌ °¨µ¶: ¶óÁöÄí¸¶¸£ È÷¶ó´Ï Ãâ¿¬: ¾Æ¹Ì¸£ Ä­, ¸¶µåÇÏ¹İ, ¼Å¸Õ Á¶½¬',null,null,null,'codemovie@daum.net','MC010',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','667','MC667','[¿µÈ­¸®ºä °á¸»Æ÷ÇÔ]±ØÇÑÁ÷¾÷ °¨µ¶ÀÇ Ã»Ãá¹°! Áø½É ¿ô´Ù°¡ ¹è Âõ¾îÁü (ÇÑ±¹ ÄÚ¹Í ¿µÈ­)','https://www.youtube.com/embed/rt0knPnfkqg','2015³â °³ºÀÀÛ "½º¹°" ÀÔ´Ï´Ù º» ¿µÈ­´Â ¹è±Ş»ç¿Í ÇùÀÇ°¡ µÇ¾ú½À´Ï´Ù. ½ÂÇìÀÌTVÀÇ ¸ğµç ¿µÈ­´Â ÃÖ´ëÇÑ ¾ĞÃàÀ» ÇØ¼­ ÆíÁıÇÏ±â ¶§¹®¿¡ ¸ğµç ¸íÀå¸éÀ» ´ãÁö ¸øÇÑ Á¡ ³ĞÀº ¸¶À½À¸·Î ÀÌÇØÇØÁÖ½Ã¸é °¨»çÇÏ°Ú½À´Ï´Ù ¿µÈ­ ¸®ºä°¡ Àç¹Õ¾ú´Ù¸é full ¿µ»óÀ¸·Îµµ °¨»óÇØ º¸½Ã´Â °ÍÀ» ÃßÃµµå¸³´Ï´Ù~! Ç×»ó ½ÂÇìÀÌTV ½ÃÃ»ÇØ ÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù ¶¯Å¥!',null,null,null,'heytv@gmail.com','MC011',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','668','MC668','°­ÇÏ´Ã ½º¹« »ì Àû¿¡ ÀÌ·¨´Ù°í? | ¿µÈ­ ½º¹° | ¿µÈ­¸®ºä | 32¹øÂ° ¹ã | °­ÇÏ´Ã | ±è¿ìºó | ÁØÈ£ | ¹ÎÈ¿¸° | Á¤¼Ò¹Î | ÀÌÀ¯ºñ','https://www.youtube.com/embed/dmtOF1oUkp0','°­ÇÏ´ÃÀÌ º»ÀÎ°ú Á¦ÀÏ ºñ½ÁÇÑ Ä³¸¯ÅÍ·Î ¿µÈ­ ½º¹°ÀÇ ¡®°æÀç¡¯¸¦ »Ì¾Ò´Ù´øµ¥¡¦? Çæ,, °­ÇÏ´Ã ½º¹« »ì ¶§ ÀÌ·¨´Ù°í?¤»¤»¤»¤»¤»¤»¤»',null,null,null,'dingo@daum.net','MC011',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','669','MC669','½º¹° (Twenty, 2014) ±è¿ìºó, ÀÌÀ¯ºñ, ¹ÎÈ¿¸°','https://www.youtube.com/embed/dXduysupkT0','±è¿ìºó. ±è¿ìºó.',null,null,null,'benhahnfeld@yahoo.com','MC011',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','670','MC670','[B tv ¿µÈ­ ÃßÃµ/movie Big #14] ½ºÆÄÀÌ(Spy, 2015)','https://www.youtube.com/embed/7T5cKRnshRQ','ÇÑ½Ãµµ ´«À» ¶¿ ¼ö ¾ø´Â ±ä¹ÚÇÏ°í °­·ÄÇÑ ¾×¼Ç ¾À! ¹ÚÁø°¨ ³ÑÄ¡´Â ¿µÈ­ ¼Ó ¾×¼Ç Àå¸é¸¸ ¿¢±â½º·Î ¼Ò°³',null,null,null,'skmovies@daum.net','MC012',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','671','MC671','X'' ÇÏ³ª·Î ¹Ì¼ÇÀ» Å¬¸®¾î ÇÏ´Â 1±Ş ½ºÆÄÀÌ [°á¸»Æ÷ÇÔ]','https://www.youtube.com/embed/Y_ELu-LM1_8','»õÇØº¹ ¸¹ÀÌ ¹ŞÀ¸¼¼¿ä! 2015³â¿¡ °³ºÀÇÑ ¿µÈ­ ''½ºÆÄÀÌ'' ÀÔ´Ï´Ù',null,null,null,'drikdrik@gmail.com','MC012',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','672','MC672','(¿µÈ­¸®ºä °á¸»Æ÷ÇÔ) ¼¼°è¿¡¼­ °¡Àå ¼½½ÃÇÑ ½ºÆÄÀÌ','https://www.youtube.com/embed/y9kxQc0oIhw','¾È³çÇÏ¼¼¿ä! ÇÁ¸®ºäÀÔ´Ï´Ù ±×µ¿¾È 1´ŞÁ¤µµ °¡Á¤À» µ¹º¸´Â ÀÏÀÌ »ı°Ü ¾÷·Îµå°¡ ´Ê¾îÁ³½À´Ï´Ù. ±×µ¿¾È ¿ì¸® ±¸µ¶ÀÚºĞµé ¸¹ÀÌ º¸°í ½Í¾ú½À´Ï´Ù! ¾ÕÀ¸·Îµµ Áö¼ÓÀûÀ¸·Î ¿©·¯ºĞµé²² °á¸»Æ÷ÇÔ ¿µÈ­¸®ºä·Î½á ¸¹Àº ¿µÈ­¸¦ ¾÷·Îµå ÇÒÅ×´Ï ÀßºÎÅ¹µå¸®°Ú½À´Ï´Ù!!',null,null,null,'drikdrik@gmail.com','MC012',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','673','MC673','[º´¸À¸®ºä] Çü´Ô, º®ÀÌ »ì·Á´Ş¶ó´Âµ¥¿ä? ½Ã½Ç¸® 2km','https://www.youtube.com/embed/tOGOhELR_ug','±¸ºÒÃßÃµÁö¼ö: 5.5/10 º´¸À¿ä¼Ò:7/10 Âü½ÅÇÔ:2/10 ÇÑÁÙÆò: ½Ã´ë¸¦ ¾Õ¼­ ³ª¿Ô´ø º´¸À¿µÈ­. ¾Æ½¬¿î ¸¶¹«¸®¿Í È²´çÇÑ ³»¿ëÀÌÁö¸¸ Àç¹Ì¸é¿¡¼­´Â ±¦Âú´Ù! ÀÓÃ¢Á¤ÀÇ ÄÚ¹Í¿¬±â¸¦ 100%´À³¥ ¼ö ÀÖ´Â ¿µÈ­.',null,null,null,'spoilerman99@hotmail.com','MC013',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','674','MC674','´Ï°¡ ±×·³ 94¾ß?¤»¤»¤»¤¡ (¿µÈ­ ½Ã½Ç¸® 2km) Sicily 2km scenery','https://www.youtube.com/embed/UgIPdIUuJ_s',null,null,null,null,'9bul@gmail.com','MC013',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','675','MC675','¿µÈ­ - ¼ö»óÇÑ ½Ã°ñ¸¶À» »ç¶÷µé (½Ã½Ç¸® 2km vs ±â¹¦ÇÑ °¡Á·)','https://www.youtube.com/embed/XGAExkmw1ko',null,null,null,null,'tvshowshow@hotmail.com','MC013',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','676','MC676','[¿¢½ÃÆ®] µûµûµû µû µû µû µûµûµû','https://www.youtube.com/embed/gofu_qz2EkI','#¿¢½ÃÆ® #7¿ù_31ÀÏ_IMAX_°³ºÀ ÀÌ ¿µ»óÀÇ ÀúÀÛ±ÇÀº Á¦ÀÛ»ç¿¡ ÀÖ½À´Ï´Ù.',null,null,null,'makemovie@daum.net','MC014',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','677','MC677','¿¢½ÃÆ®°¡ ±úºÎ¼Å¹ö¸° ±âÁ¸ Àç³­ ¿µÈ­ÀÇ 9°¡Áö Å¬¸®¼Î','https://www.youtube.com/embed/QnCP8TrTxag','#¿¢½ÃÆ®,#Á¶Á¤¼®,#À±¾Æ ¿µÈ­ ¿¢½ÃÆ®¿¡¼­ ºÎ¼Å¹ö¸° 9°¡Áö Å¬¸®¼Î¸¦ ÀÌ¾ß±â ÇØº¸°Ú½À´Ï´Ù',null,null,null,'uppercut@naver.com','MC014',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','678','MC678','Âğµû³²ÀÌ Àç³­½Ã È÷¾î·Î°¡ µÇ´Â °³Â¼´Â ¹æ¹ı','https://www.youtube.com/embed/GJsFPd4z2vY','#¿¢½ÃÆ® Àç¹Õ°í ¿ô±â´Â ¿µÈ­ ¿µÈ­ ÀúÀÛ±Ç »ç¿ëÀº Á¦ÀÛ¹è±Ş»çÀÇ Çã°¡¸¦ ¹Ş¾Ò½À´Ï´Ù',null,null,null,'gomong@gmail.com','MC014',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','679','MC679','Çì¾îÁ³´õ´Ï 300¸¸¿øÀ» ¿ä±¸ÇÏ´Â ÂîÁúÇÑ ¿©ÀÚ','https://www.youtube.com/embed/SJvXjJpasm0','* º» ¿µ»óÀº ¹è±Ş»ç¿ÍÀÇ ÇùÀÇ¸¦ ¸¶Ä¡°í ¾÷·Îµå µÇ¾ú½À´Ï´Ù. * ¿µ»óÀÇ Àç°¡°ø ¹× Àç¹èÆ÷¸¦ ±İÇÕ´Ï´Ù. Á¦°¡ °¡Àå ÁÁ¾ÆÇÏ´Â ¿µÈ­ Áß ÇÏ³ªÀÔ´Ï´Ù. ¿¬¾Ö¶ó´Â ÀÌ¾ß±â¸¦ Çö½ÇÀûÀ¸·Î Ç®¾î³Â°í, ¹«¾ùº¸´Ù µÎ ÁÖÀÎ°øÀÌ ³Ê³ª ÇÒ °Í ¾øÀÌ ÂîÁúÇÑ ¸ğ½ÀÀ» ¾ÆÁÖ Àß ¿¬±âÇß¾î¿ä. ´ÙÀ½ ¿µÈ­µµ ±â´ëÇØÁÖ¼¼¿ä! Á¦¸ñ : ¿¬¾ÖÀÇ ¿Âµµ(Very Ordinary Couple (V.O.C.) , 2012 °¨µ¶ : ³ë´ö Ãâ¿¬ : ±è¹ÎÈñ, ÀÌ¹Î±â, ÃÖ¹«¼º, ¶ó¹Ì¶õ, ÇÏ¿¬¼ö',null,null,null,'aloneman@daum.net','MC015',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','680','MC680','ÀÌº°ÇÏ°í º¸¸é Àı´ë ¾ÈµÇ´Â ¿µÈ­ÀÇ ¸íÀå¸é ¸í´ë»ç ¸ğÀ½ [¹´¹´ÇÈ] ¿¬¾ÖÀÇ ¿Âµµ | ÀÌ¹Î±â | ±è¹ÎÈñ','https://www.youtube.com/embed/haeDeiNNCb0','Çì¾îÁö°í ³ª¼­ º¸¸é ¾ÈµÇ´Â ¿µÈ­ Áß ÇÏ³ª ´Ùµé ¾î¶»°Ô Çì¾îÁ³¾ú³ª¿ä?',null,null,null,'mupmup@hotmail.com','MC015',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','681','MC681','½Ä¾î¹ö¸° »ç¶ûÀº ¸ÀÀÌ ¾ø´Ù ¤Ó ¿µÈ­ *¿¬¾ÖÀÇ ¿Âµµ* ¸Ô¹æÀÇ ¼ûÀº ÀÇ¹Ì','https://www.youtube.com/embed/Ltz9O6ikX9w','#¿¬¾ÖÀÇ¿Âµµ #±è¹ÎÈñ #ÀÌ¹Î±â #¿µÈ­ÀÇ½ÄÅ¹ #¿µÈ­¼Ó¸Ô¹æ #¿µÈ­¼ÓÀ½½Ä *½Ä¾î¹ö¸° »ç¶ûÀº ¸ÀÀÌ ¾ø´Ù? ±× ÀÇ¹Ì´Â ¹«¾ùÀÏ±î¿ä?',null,null,null,'tablemovie@hotmail.com','MC015',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','682','MC682','³» µ¿³â¹èµé ´Ù ÀüÁöÇö ÁÁ¾ÆÇß´Ù. [¹´¹´ÇÈ] ¿±±âÀûÀÎ ±×³à | ÀüÁöÇö Â÷ÅÂÇö | 2000s','https://www.youtube.com/embed/gRtTVxPV_gw','¶ó¶¼´Â ¸»ÀÌ¾ß~ ¸ğµÎ°¡ ÀüÁ¯À» ¾Î¾Ò´Ù±¸ ¤Ğ¤Ğ Å°½º½Å ¾ø´Â ·Î¸ÇÆ½ ÄÚ¹Ìµğ',null,null,null,'mupmup@hotmail.com','MC016',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','683','MC683','»ç¶ûÀÇ ¾ÆÇÄÀ» ¸»µµ ¾È µÇ´Â ±ø´Ù±¸·Î ½ÂÈ­½ÃÅ² ¿©ÀÚ','https://www.youtube.com/embed/97IAkuPNauw','¾È³çÇÏ¼¼¿ä ¿µÈ­ ¿±±âÀûÀÎ ±×³à ÀÔ´Ï´Ù',null,null,null,'lemong@hotmail.com','MC016',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','684','MC684','[¸íÀå¸é] ·¹Àüµå ¿µÈ­ ¿±±âÀûÀÎ ±×³à-ÀüÁöÇö ¿¹»İÁÖÀÇ','https://www.youtube.com/embed/xBAF-Nv2lDg','¢ºÀÛÇ°¸í (Titles) : ¿±±âÀûÀÎ±×³à(My Sassy Girl, 2001) ¢ºÃâ¿¬ (Cast) : ÀüÁöÇö, Â÷ÅÂÇö ¢º°¨µ¶ (Director) : °ûÀç¿ë ¢ºÁÙ°Å¸® (Synopsis) : ÀüÁöÇö+Â÷ÅÂÇöÀÇ Àı¶óÀ¯Äè »ç¶ûÀÌ¾ß±â ±×³à¿ÍÀÇ ¹«¼­¿î µ¥ÀÌÆ®°¡ ½ÃÀÛµÈ´Ù! 2001³â ¿©¸§, ¿Â¸öÀÌ »Ç»çÁöµµ·Ï Áñ°Å¿öÁı´Ï´Ù! ''Àü¹İÀü''. ±×³à¿Í Àú´Â °°Àº ¹®À¸·Î ÇÔ²² ÀÎÃµÇà ÁöÇÏÃ¶À» Å¸°Ô µÇ¾¸¹Ì´Ù. ÃëÇØ¼­ ºñÆ²°Å¸®Áö¸¸ ¾È´Â´Ù¸é Á¤¸» ¸Å·ÂÀú±â°í °µÂ÷´Â ¾Æ°¡¾¾¿©ÂÇ... ÇªÇÏÇÏÇÖ! ÁøÂ¥ Æ¯ÀÌÇÏ´Ù! Àú´Â ±×³à°¡ ¼ú¿¡ ÃëÇØ¼­ ¹è¸¦ ±â´ë°í ¼­ÀÖ´Â ¸ğ½ÀÀÌ ±Í¿©¿ö¼­ Èú²û°Å¸®¸ç ±×³à¸¦ °è¼Ó ÁöÄÑº¸¾Æ¾¸¹Ì´Ù. ±×·±µ¥ ¸öÀ» ¹Ì¼¼ÇÏ°Ô ºÎ¸£¸£ ¶³´ø ±×³à°¡ ¿ØÁö ºÒ¾ÈÇØ º¸ÀÌ´õ´Ï¸¸ ¸¶Ä§³» ¿ì¿ş¿¡¿¢~~~ ¿ì¿ş¿¢~~ ÁÂ¸£¸£¸£¸£~~~ ³×, ±×·¯¾¸¹Ì´Ù! ±×³à°¡ ¾Õ¿¡ ¾É¾Æ ÀÌ¶² ´ë¸Ó¸® ¾ÆÀú¾¾ ¸Ó¸® À§¿¡ ¼ø½Ä°£¿¡ ÀÏÀ» Ä£ °Å½Ã¿©¾¸¹Ì´Ù!! ¼ø°£ ÁöÇÏÃ¶¾ÈÀº ¾Æ¼ö¶óÀåÀÌ µÇ°í Àı¶ó Àç¹Ì´Â »óÈ²ÀÌ¾úÁ®. ÁøÂ¥ ÀÏÀº °Å±â¼­ºÎÅÍ ÅÍÁö°í¾ß ¸»¾Æ¾¸¹Ì´Ù. ¿À¹ÙÀÌÆ®¸¦ ½Ã¿øÇÏ°Ô ÇÏ´ø ±×³à°¡ °Ô½¿Ä¡·¹ÇÑ ´«ºûÀ¸·Î Àú¸¦ º¸¸ç ÀÌ·¯´Â °Ë¹Ì´Ù! ÀÚ±â¾ß!~ ¾î¾î¾ï~ ¿ì¿í~ ÀÚ±â~ À¡~! Äô... ÀÌ ¿©ÀÚ ÁÁÀº ´À³¦ÀÌ µë´Ï´Ù. ¿ø·¡ ±×·¯Ä¡¾ÈÀºµ¥ ½Ç¿¬ÀÇ ¾ÆÇÄÀÌ ³Ê¹«³ª Å« °Í °¡¾¸¹Ì´Ù. ±¦È÷ ºÒ½ÖÇÑ ¸¶À½ÀÌ µë¹Ì´Ù. Á¦ ¸¶À½ ¾îµğ¿¡¼±°¡ ½Î´ÃÇÑ ¹Ù¶÷ÀÌ ºÎ´Â °Íµµ °¡¾¸¹Ì´Ù. ±×·¡, ÀÌ ¿©ÀÚÀÇ ¾ÆÇÄÀ» ÇÑ¹ø Ä¡·áÇØº¸ÀÚ!! °­¹° ±íÀÌ°¡ ±Ã±İÇÏ¸é °¡Â÷¾÷½Ã ¹° ¼ÓÀ¸·Î ¶°¹Ğ¾î¹ö¸®´Â ¿©ÀÚ! ±×·¯³ª Á¤½Å¾÷½Ã Çã¿ìÀû´ë´Â Àú¸¦ À§ÇØ¼­ ¹° ¼ÓÀ¸·Î ¶Ù¾îµéÂáµµ ¾Æ´Â ¿©ÀÚ... ±×³àÀÇ »ıÀÏ, ¾ó··¶×¶¥ ³Ê¸Ó°¡¸é »ìÇØÇÒÂîµµ ¸ğ¸¦ ¿©ÀÚ! ±×·¯³ª ÀÏÃËÁï¹ß ÀÎÁú·Î ÀâÇôÀÖ´ø ³ª¸¦ ¸ñ¼û°É°í ±¸ÇØÁÖ¸ç ±â¸·Èù °¨µ¿À» ¸ÔÀÏÂáµµ ¾Æ´Â ¿©ÀÚ! ''ÈÄ¹İÀü''. ¿äÁòÀº ±×³à°¡ Âü ¸¹ÀÌ ¿ì¾¸¹Ì´Ù. ÇØ¸¼°Ô ¿ô´Â ±×³à¸¦ º¸°í ÀÖÀ¸¸é Á¦ ¸¶À½µµ ÇÑ ¾øÀÌ Çàº¹ÇØÁü¹Ì´Ù. Áö±İ±îÁö Á¦°¡ ÈûÀÌ µÇ¾îÁÖ¾ú´ÂÁö ÀÚ½ÅÀÌ ¾÷¾¸¹Ì´Ù. Á¦°¡ ±×³à¸¦ °¨½ÎÁØ°Íµµ ±×³à¿¡°Ô º¸¿©ÁØ °Íµµ ¶Ç ±×³à¸¦ Ä¡·áÇÑ Àûµµ ¾ø´Â °Í °¡¾¸¹Ì´Ù. ÀÌÁ¦ ±×³à °çÀ» ¶°³¯ ¶§°¡ Á¡Á¡ °¡±î¿öÁö´Â °ÍÀ» ´À³¦¹Ì´Ù. ±×¸®°í ¿À´Ã Å¸ÀÓÄ¸½¶¿¡ ¼­·ÎÀÇ ¸¶À½À» ´ã°í Å¸ÀÌ¸Ó¸¦ 2³â ÈÄ¿¡ ¸ÂÃç¾¸¹Ì´Ù. ÀÌ Ä¸½¶ÀÌ ¿­¸®´Â ³¯! ¼­·ÎÀÇ ¸¶À½À» È®ÀÎÇÒ ²­¹Ì´Ù. ±×·¸°Ô ±×³à´Â Çì¾îÁöÀÚ´Â ¸»À» ´ë½ÅÇß½¿¹Ì´Ù. ''¿¬ÀåÀü''. ¿À´Ã Çì¾îÁö°í ³»ÀÏ ¸¸³ª´Â °ÍÃ³·³ ¿ì¸®´Â Áö±İ Çì¾îÁö°í ºĞ¸íÈ÷ ´Ù½Ã ¸¸³¯ °ÍÀÓ¹Ì´Ù. ´Ù¸¸ ¿À´Ã°ú ³»ÀÏÃ³·³ °¡±î¿î ½Ã°£ÀÌ ¾Æ´Ò »Ó... ¹Ï½¿¹Ì´Ù.',null,null,null,'playallmovies@hotmail.com','MC016',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','685','MC685','[¿µÈ­¸®ºä °á¸»Æ÷ÇÔ] Áø½É ÀÌ ¿µÈ­ º¸°í ÇÑ ¹øÀÌ¶óµµ ¾È ¿ô´Â »ç¶÷ ¾ø½À´Ï´Ù. (ÇÑ±¹ ÄÚ¹Í ¿µÈ­)','https://www.youtube.com/embed/beXU8H6f7es','2016³â °³ºÀÀÛ "À§´ëÇÑ ¼Ò¿ø" ÀÔ´Ï´Ù ½ÂÇìÀÌTVÀÇ ¸ğµç ¿µÈ­´Â ÃÖ´ëÇÑ ¾ĞÃàÀ» ÇØ¼­ ÆíÁıÇÏ±â ¶§¹®¿¡ ¸ğµç ¸íÀå¸éÀ» ´ãÁö ¸øÇÑ Á¡ ³ĞÀº ¸¶À½À¸·Î ÀÌÇØÇØÁÖ½Ã¸é °¨»çÇÏ°Ú½À´Ï´Ù ¿µÈ­ ¸®ºä°¡ Àç¹Õ¾ú´Ù¸é full ¿µ»óÀ¸·Îµµ °¨»óÇØ º¸½Ã´Â °ÍÀ» ÃßÃµµå¸³´Ï´Ù~! Ç×»ó ½ÂÇìÀÌTV ½ÃÃ»ÇØ ÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù ¶¯Å¥!',null,null,null,'heytv@gmail.com','MC017',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','686','MC686','Ä£±¸ÀÇ Ã¹ °æÇè »ó´ë¸¦ Ã£¾Æ Çì¸Å´Â ¿ìÁ¤ ¸¸·¦ Ä£±¸µé','https://www.youtube.com/embed/FuyOmow_eOQ','¾È³çÇÏ¼¼¿ä, ºÏºÎÀÇ ¿ÕÀÔ´Ï´Ù. ÀÌ¹ø ¿µÈ­´Â ¡®À§´ëÇÑ ¼Ò¿ø¡¯ÀÔ´Ï´Ù. ±¸µ¶°ú ÁÁ¾Æ¿ä¸¦ ´­·¯ÁÖ½Ã¸é ¸ÅÁÖ ¼ö¿äÀÏ, ÀÏ¿äÀÏ Àç¹ÌÀÖ´Â ¿µÈ­ ¸®ºä·Î Ã£¾ÆºË°Ú½À´Ï´Ù. ¸®ºä¸¦ Àç¹ÌÀÖ°Ô º¸¼Ì´Ù¸é ±¸µ¶°ú ÁÁ¾Æ¿äµµ ²À ´­·¯ÁÖ¼¼¿ä!',null,null,null,'bukbu@yahoo.com','MC017',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','687','MC687','°¡Á·Àº °Çµå¸®Áö ¸»¾Ò¾î¾ß Çß´Ù','https://www.youtube.com/embed/OHH9yd7u7rw',null,null,null,null,'egg@naver.com','MC017',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','688','MC688','Á·±¸ÇÏ´Â ¼Ò¸® ÇÏ°íÀÖ³× ( Á·±¸¿Õ ) ½ºÅä¸®+ÇØ¼®Æí','https://www.youtube.com/embed/XVmIqYUJzLc','35¹øÂ° ¿µÈ­ ¸®ºä Á·±¸¿Õ ( 2014 ) ½ºÅä¸®+ÇØ¼®ÆíÀÔ´Ï´Ù. 18ºĞ 38ÃÊ ÀÌÈÄ·Ğ ½ºÆ÷ÀÏ·¯°¡ Æ÷ÇÔµÇ¾î ÀÖÀ¸´Ï ÁÖÀÇÇØÁÖ¼¼¿ä. ÁÁ¾Æ¿ä(ÃßÃµ) ¹öÆ°À» ´­·¯ÁÖ½Ã¸é ´õ ¸¹Àº ºĞµéÀÌ °¨»óÇÏ½Ç ¼ö ÀÖ°í, ±¸µ¶À» ÇÏ½ÅµÚ Á¾¹öÆ°À» ÇÑ¹ø´õ ´­·¯ÁÖ½Ã¸é ¾Ë¶÷±â´ÉÀ¸·Î ÀÎÇØ ´õ ÆíÇÏ°Ô º¸½Ç ¼ö ÀÖ½À´Ï´Ù. °¨µ¶ ¿ì¹®±â Ãâ¿¬ ¾ÈÀçÈ«, È²½Â¾ğ, Á¤¿ì½Ä, °­ºÀ¼º, È²¹Ì¿µ, ¹ÚÈ£»ê, Á¶Çı¸°, ÁøÅÂÃ¶, ÀÌ¼¼¶û,',null,null,null,'riukun@gmail.com','MC018',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','689','MC689','[¿µÈ­¸®ºä °á¸»Æ÷ÇÔ] ³²ÀÚµéÀÌ ±º´ë °¬´Ù ¿Í¼­ ÀûÀÀÇÏ±â Èûµç ÀÌÀ¯ (ÇÑ±¹ ÄÚ¹Í ¿µÈ­)','https://www.youtube.com/embed/0DHBcqC9I7k','½ÂÇìÀÌTVÀÇ ¸ğµç ¿µÈ­´Â ÃÖ´ëÇÑ ¾ĞÃàÀ» ÇØ¼­ ÆíÁıÇÏ±â ¶§¹®¿¡ ¸ğµç ¸íÀå¸éÀ» ´ãÁö ¸øÇÑ Á¡ ³ĞÀº ¸¶À½À¸·Î ÀÌÇØÇØÁÖ½Ã¸é °¨»çÇÏ°Ú½À´Ï´Ù ¿µÈ­ ¸®ºä°¡ Àç¹Õ¾ú´Ù¸é full ¿µ»óÀ¸·Îµµ °¨»óÇØ º¸½Ã´Â °ÍÀ» ÃßÃµµå¸³´Ï´Ù~! Ç×»ó ½ÂÇìÀÌTV ½ÃÃ»ÇØ ÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù :-) ¿µ»ó Áß Àç¹Õ¾ú´ø ´ë»ç³ª Àå¸éÀÌ ÀÖ¾ú´Ù¸é ´ñ±Û·Î ¸¹ÀÌ ¸¹ÀÌ ³²°ÜÁÖ¼¼¿ä~~ ¶¯Å¥! 2014³â °³ºÀÀÛ "Á·±¸¿Õ" ÀÔ´Ï´Ù',null,null,null,'heytv@gmail.com','MC018',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','690','MC690','¸ÚÀÖ´Â ³²ÀÚ Á¤ºÀ Á·±¸ÀÇ½ÅÀÌ µÇ´Ù(°á¸»Æ÷ÇÔ)','https://www.youtube.com/embed/Vsc0a04_NwQ','¹æ±İ ±º´ë¿¡¼­ ¸· Àü¿ªÇÑ ÁÖÀÎ°ø Á·±¸¸¦ ÁÁ¾ÆÇÏ´ø ÁÖÀÎ°øÀº º¹ÇĞ»ıÀÇ ÃÊ¶óÇÑ Çà»öÀ¸·Î ÇĞ±³¸¦ ÀüÀüÇÏ±â ½ÃÀÛÇÑ´Ù. ±×·¯´Ù ÇĞ±³¿¡¼­ ¿¹»Ú±â·Î À¯¸íÇÑ ¾î¶² ¿©ÀÚ¸¦ ¸¸³ª°Ô µÇ´Âµ¥ ÁÖÀÎ°øÀº °ú¿¬ ¾î¶»°Ô µÉ±î¿ä?? ¿µÈ­ Á·±¸¿Õ ÀÔ´Ï´Ù.',null,null,null,'zto@hotmail.com','MC018',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','691','MC691','ÃÖ°­ ¹«¼ú·Î ÃÄ¸Â°íµµ ¸¶»çÁö ¹Şµí ´À±ßÇÑ °í¼öµé ½Î¿ò','https://www.youtube.com/embed/UYy2y7Y5a1U','±¸µ¶''ÇÏ°í ''¾Ë¸²''¼³Á¤À» ÇØµÎ¸é Àç¹Õ´Â ÃÖ½Å ¿µ»óµéÀ» °¡Àå »¡¸® º¼ ¼ö ÀÖ½À´Ï´Ù. ''ÃßÃµ''Àº ÄÁÅÙÃ÷ Á¦ÀÛ¿¡ Å« ÈûÀÌ µË´Ï´Ù^^',null,null,null,'captainrami@gmail.com','MC019',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','692','MC692','(°á¸»Æ÷ÇÔ) ÁÖ¼ºÄ¡ÀÇ ÄôÇª¿µÈ­ / ¿µÈ­ÃßÃµ ¸®ºä ¼Ò°³ ½ºÆ÷ÁÖÀÇ ´Ù½Ãº¸±â','https://www.youtube.com/embed/y_NMuy3eBeY','¸¹ÀÌµé ±â´Ù¸®¼ÌÁÒ?? Àßµé ÁÖ¹«¼Ì³ª¿ä?? ¾ÆÄ§¿¡ Ãâ±ÙÇÏ½Ã¸é¼­ ÇÑ¹ø¾¿ º¸°í ¿ô¾îÁÖ¼¼¿ä~ ÀÌ ¿µ»óÀ¸·Î Áñ°Å¿î ÇÏ·ç°¡ µÇ½Ã±â¸¦!!! :-)¢¾¢½ ÀÛ¾÷ÇÏ´Â ³»³» Áñ°Å¿ü´ø ¿µÈ­¿´½À´Ï´Ù~~~~~~',null,null,null,'horrrrror@naver.com','MC019',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','693','MC693','³Ê Àß¸ø °É·È¾î'' ¼ûÀº ¹«¸²°í¼ö µîÀå?','https://www.youtube.com/embed/KJjcxHo6Jmc',null,null,null,null,'sangung@yahoo.com','MC019',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','694','MC694','60³â µ¿¾È Áö±¸¿¡¼­ »ê °íÀÎ¹° ¿Ü°èÀÎ ¤»¤»¤»','https://www.youtube.com/embed/suAmZ3m1ilc','#È²´çÇÑ¿Ü°èÀÎÆú #¿µÈ­ÃßÃµ #°íÀÎ¹°',null,null,null,'dreamteller@daum.net','MC020',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','695','MC695','»ç°í¹¶Ä¡Áö¸¸ °°ÀÌ ´Ù´Ï¸é ²ÜÀëÀÎ ±«Â¥ ¿Ü°èÀÎ','https://www.youtube.com/embed/8V7M5jv-1T8',null,null,null,null,'fallinfilm@hotmail.com','MC020',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','696','MC696','¿Ü°èÀÎÀ» ¸¸³ª°í ³­ ÈÄ ¹ú¾îÁø ÀÏ','https://www.youtube.com/embed/84KYuGWil-Q','¿µÈ­ È²´çÇÑ ¿Ü°èÀÎ Æú (2011) ¸¹Àº ÀÀ¿ø¹Ù¶ø´Ï´Ù.',null,null,null,'roleplayman@yahoo.com','MC020',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','697','MH697','35³â µ¿¾È ºñ»ó°è´Ü¿¡ °¤Çô¹ö¸° »ç¶÷µé/ÀÎ½Ã´øÆ®(The Incident, 2016/)ÁÙ°Å¸®&ÇØ¼³/°øÆ÷,½º¸±·¯ ÃßÃµ','https://www.youtube.com/embed/VGNgwuM5IgI','¿©·¯ºĞµéÀº ÇÑ°ø°£¿¡ ¾ó¸¶³ª ¿À·¡µ¿¾È °è½Ç¼ö ÀÖÀ¸½Å°¡¿ä?
-¿©±â 35³âµ¿¾È ÇÑ°÷¿¡ °¤Çô¹ö¸° »ç¶÷µéÀÌÀÖ½À´Ï´Ù.
-°øÆ÷¶ó ÇÏ±ä¿£ ¹«¼­¿î ¿ä¼Ò´Â ºÎÁ·ÇÏÁö¸¸, ¿µÈ­ ¸¶Áö¸· µå·¯³ª´Â Áø½ÇÀº ³î¶ó±â¿¡ ÃæºĞÇÑ°Í °°½À´Ï´Ù.
-*Àç¹Õ°Ô º¸¼Ì´Ù¸é ÁÁ¾Æ¿ä ±¸µ¶ ºÎÅ¹µå¸³´Ï´Ù~!!',null,null,null,'acut@naver.com','MH001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','698','MH698','35³â µ¿¾È ºñ»ó°è´Ü¿¡ °¤Èù ³²ÀÚÀÇ »ıÁ¸¹ı','https://www.youtube.com/embed/zMk-piFQjZU','¿µÈ­ ''ÀÎ½Ã´øÆ® (The Incident, 2014)'' ¼Ò°³ ¿µ»óÀÔ´Ï´Ù.
-[ÇØ´ç ¿µÈ­ ±¸¸Å ¸µÅ©]
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','630','MA630','ì˜í™” ''ë ˆì§€ë˜íŠ¸ ì´ë¸”5'' [ëª…ì¥ë©´&ë¯¸ë¦¬ë³´ê¸°~] ì—­ëŒ€ê¸‰ ì¶©ê²© í˜¸ëŸ¬ ì•¡ì…˜','https://www.youtube.com/embed/7AiCJjfQcyo',null,null,null,null,'movieus@yahoo.com','MA018',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','631','MA631','ë ˆì§€ë˜íŠ¸ì´ë¸”5 [ì•¨ë¦¬ìŠ¤ VS ì—ì´ë‹¤ ì›¡]','https://www.youtube.com/embed/tGZs4ZQHu88','ë°€ë¼ ìš”ë³´ë¹„ì¹˜! ì•¡ì…˜ ì¢…ê²° 4ì¢… ì˜ìƒ 2í¸. ì•¨ë¦¬ìŠ¤ VS ì—ì´ë‹¤ ì›¡',null,null,null,'sonypictures@daum.net','MA018',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','632','MA632','ëŒë³´ 5 ë¦¬ë·° - ì•„ì§ í•  ì–˜ê¸°ê°€ ë‚¨ì•˜ë˜ ''ë¼ìŠ¤íŠ¸ ì›Œ''','https://www.youtube.com/embed/Bv8Llyp5kiA','80ë…„ëŒ€ ì•¡ì…˜ ì˜í™”ì—ì„œ ''ì•„ë†€ë“œ'' í˜•ë‹˜ê³¼ ì–‘ëŒ€ì‚°ë§¥ì´ì—ˆë˜ ''ì‹¤ë² ìŠ¤í„° ìŠ¤íƒ¤ë¡ '' í˜•ë‹˜ì˜ ìµœí›„ì˜ ë°œì•…, ''ëŒë³´ 5'' ì…ë‹ˆë‹¤.',null,null,null,'ajhongmovie@gmail.com','MA019',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','633','MA633','í˜¸ëŸ¬ ì˜í™”ë³´ë‹¤ ì”ì¸í•œ ëŒë³´ - ëŒë³´ : ë¼ìŠ¤íŠ¸ ì›Œ','https://www.youtube.com/embed/1SDSlJlTg6I','íŠ¸ëŸ¼í”„ ëŒ€í†µë ¹ê³¼ ë™ê°‘ì¸ ì¹ ìˆœ í• ì•„ë²„ì§€ì˜ ë§ˆì§€ë§‰ ëŒë³´ ì•¡ì…˜',null,null,null,'unjun@naver.com','MA019',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','634','MA634','ìë¹„ì—†ì´ ì ë“¤ì„ ì²˜ë‹¨í•˜ëŠ” [ëŒë³´: ë¼ìŠ¤íŠ¸ ì›Œ]','https://www.youtube.com/embed/ubyuJ-Nqoss','ì˜í™”ê°€ ì¢‹ë‹¤',null,null,null,'moviekok@yahoo.com','MA019',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','635','MA635','ê°œë§ì‘ì¸ì¤„ ì•Œì•˜ëŠ”ë° ê°œê¿€ì¼ì´ë¼ì„œ ê¹œì§ ë†€ë€ ì˜í™” ì•„ì¿ ì•„ë§¨','https://www.youtube.com/embed/sJ5uOcWlGV0',null,null,null,null,'reviewang@gmail.com','MA020',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','636','MA636','ì˜ˆì¸¡ì´ ë¶ˆê°€ëŠ¥í•œ DCì˜ ëœ¬ê¸ˆí¬: ì•„ì¿ ì•„ ë§¨ ë¦¬ë·°','https://www.youtube.com/embed/-9j4YSKt_QE','ë‹¤ë¥¸ ì‘í’ˆë„ ì•„ë‹ˆê³  ì•„ì¿ ì•„ ë§¨ì´ ì´ ì •ë„ë¥¼ ë³´ì—¬ì¤„ ì¤„ì´ì•¼?',null,null,null,'liner@hotmail.com','MA020',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','A','637','MA637','ì˜í™”ê°€ì¢‹ë‹¤ ì•„ì¿ ì•„ë§¨','https://www.youtube.com/embed/8-NwuRyE9rs',null,null,null,null,'teller@hotmail.com','MA020',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','638','MC638','ì‹ ì…ì‚¬ì›í•œí…Œ ìˆì²™ í–ˆë‹¤ê°€ ì„ê²Œ í„¸ë¦° ì„ ë°°ë“¤','https://www.youtube.com/embed/3BB4knAVb1c','#ê°€ì¥ë³´í†µì˜ì—°ì•  #10ì›”2ì¼ê°œë´‰',null,null,null,'gomong@gmail.com','MC001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','639','MC639','í˜„ì‹¤ ë¡œë§¨ìŠ¤[ê°€ì¥ ë³´í†µì˜ ì—°ì• ]','https://www.youtube.com/embed/a3bPLFvOIKc','#koreantv #koreanmovie #koreandrama #2019 #ê°€ì¥ë³´í†µì˜ì—°ì• ',null,null,null,'dbstjdqls@hotmail.com','MC001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','640','MC640','ìˆœì‚­ì˜í™” '' ê°€ì¥ ë³´í†µì˜ ì—°ì•  '' 1ë¶€ ìˆ ì·¨í•˜ë©´ ê·€ì—¬ìš´ë‚¨ì(ê¹€ë˜ì›,ê³µíš¨ì§„)','https://www.youtube.com/embed/YlfgyVODB3Y','ì˜í™” ''ê°€ì¥ ë³´í†µì˜ ì—°ì• '' ëª…ì¥ë©´ ëª…ëŒ€ì‚¬ í•˜ì´ë¼ì´íŠ¸ ì˜ìƒ crazy romance, 2019 ê¹€ë˜ì› ê³µíš¨ì§„ ì£¼ì—°',null,null,null,'chicken@daum.net','MC001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','641','MC641','ì‚¬ëŒë“¤ì—ê²Œ ì˜¨ê°– ì´ìƒí•œ ì§“ì„ ì‹œí‚¤ëŠ” ì—¬ì','https://www.youtube.com/embed/ZRmmnhbOByY?list=PLQW4-k--AOA1ruJ-M8Ru1BkSmLO_6cY6Y','ì´ë²ˆì— ì†Œê°œí•´ ë“œë¦´ ì˜í™”ëŠ” #êµ¿ëª¨ë‹ì—ë¸Œë¦¬ì› #ë‹¬ë¹›ë®¤ì¦ˆ #ì½”ë¯¸ë””',null,null,null,'moonlightmuse@gmail.com','MC002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','642','MC642','ê¸ì •ì—ë„ˆì§€ë¡œ ê°€ë“ ì°¬ ì—¬ìê°€ ìœ„ê¸°ë¥¼ ê·¹ë³µí•˜ëŠ” ë°©ë²• / ì˜í™”ë¦¬ë·°','https://www.youtube.com/embed/CF5508f1i8w','* ë³¸ ì˜ìƒì€ ìŠ¤í¬ì¼ëŸ¬ê°€ í¬í•¨ë˜ì–´ ìˆìŠµë‹ˆë‹¤ * ì•ˆë…•í•˜ì„¸ìš”. ì˜¤ëŠ˜ ë¦¬ë·°í•  ì‘í’ˆì€ ''êµ¿ëª¨ë‹ ì—ë¸Œë¦¬ì› (Morning Glory, 2010)''ì…ë‹ˆë‹¤',null,null,null,'ddorol@hotmail.com','MC002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','643','MC643','[ êµ¿ëª¨ë‹ ì—ë¸Œë¦¬ì› ] í•™ë ¥ì´ ì•„ë‹Œ ì‹¤ë ¥ìœ¼ë¡œ ì •ìƒì„ ì°¨ì§€í•œ ì—¬ìì˜ ì´ì•¼ê¸°','https://www.youtube.com/embed/g2Sj0FCm-CA','êµ¿ëª¨ë‹ ì—ë¸Œë¦¬ì› (Morning Glory - 2010) ê°ë… - ë¡œì € ë¯¸ì²¼ ì¶œì—° - ë ˆì´ì²¼ ë§¥ì•„ë¤ì¦ˆ (ë² í‚¤ í’€ëŸ¬) í•´ë¦¬ìŠ¨ í¬ë“œ(ë§ˆì´í¬ í¬ë¨¸ë¡œì´) ë‹¤ì´ì•ˆ í‚¤íŠ¼(ì½œë¦° í™)',null,null,null,'murmicine@yahoo.com','MC002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','644','MC644','ëª…ì ˆ ê°œë´‰ì˜í™”ì˜ ì—­ì‚¬ë¥¼ ìƒˆë¡œì“°ëŠ” ì˜í™” : ''ê·¹í•œì§ì—…''ë¦¬ë·°','https://www.youtube.com/embed/jFd1X9j_9Os','* ë³¸ ì˜ìƒì€ ìŠ¤í¬ì¼ëŸ¬ê°€ ë‹¤ìˆ˜ í¬í•¨ë˜ì–´ ìˆìŠµë‹ˆë‹¤ * ì˜í™” ''ìŠ¤ë¬¼''ì„ ì •ë§ ì¬ë°Œê²Œ ë³¸ ì €ë¡œì¨ëŠ”, ê¸°ëŒ€í•  ìˆ˜ ë°–ì— ì—†ëŠ” ì‘í’ˆì´ì—ˆìŠµë‹ˆë‹¤. ê·¸ë¦¬ê³  ì˜í™”ê´€ì—ì„œ ë³´ê³  ì™”ê³ , ê²°ê³¼ëŠ” ''ì„±ê³µ''ì´ì—ˆì£ . ì†”ì§íˆ ë§í•´ì„œ, í•œêµ­í˜• ì½”ë¯¸ë””ì—ì„œ ì´ë³‘í—Œ ê°ë…ë§Œí¼ ìì‹ ì˜ ì² í•™ì´ í™•ê³ í•œ ì´ëŠ” ì—†ë‹¤ê³  ìƒê°í•©ë‹ˆë‹¤. ê¹”ë”í–ˆê³ , ì˜ë„ê°€ ëª…í™•í•œ ì½”ë¯¸ë””ì— ì•„ì£¼ ê¸ì •ì ì¸ ëŠë‚Œì„ ë°›ì•˜ìŠµë‹ˆë‹¤. ëª¨ë“  ë‚´ìš©ì€ ì œ ê°œì¸ì ì¸ ì˜ê²¬ì…ë‹ˆë‹¤.',null,null,null,'aloneman@daum.net','MC003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','645','MC645','ì¹˜í‚¨ ì¥ì‚¬ ëŒ€ë°•ë‚œ ë§ˆì•½ë°˜ í˜•ì‚¬ë“¤ì˜ ì–´ì •ì©¡í•œ ì½”ë¯¸ë””: ê·¹í•œì§ì—… ë¦¬ë·°','https://www.youtube.com/embed/PwefBCv1sp8','ë§ˆì•½ë°˜ í˜•ì‚¬ë“¤ì´ ì¹˜í‚¨ì§‘ì„ ì°¨ë ¸ëŠ”ë° ëŒ€ë°•ì´ ë‚¬ë‹¤ëŠ” ë‹¨ìˆœí•œ ì•„ì´ë””ì–´ì—ì„œ ì‹œì‘í•œ ê°€ë²¼ìš´ ì½”ë¯¸ë”” ì˜í™”. ì›ƒìŒì€ ì„±ê³µì ì´ì§€ë§Œ ê·¸ ì´ìƒì„ ê°€ì ¸ê°€ì§€ëŠ” ëª»í•œ ì•„ì‰¬ìš´ ì‘í’ˆ. ê·¹í•œì§ì—… ë¦¬ë·°ì…ë‹ˆë‹¤.',null,null,null,'liner@hotmail.com','MC003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','646','MC646','ìœ„ì¥ìˆ˜ì‚¬ë¡œ ì¹˜í‚¨ì§‘ ì—´ì—ˆë‹¤ê°€ ë§›ì§‘ìœ¼ë¡œ ì†Œë¬¸ë‚˜ë©´ ë²Œì–´ì§€ëŠ” ì¼..','https://www.youtube.com/embed/aI5wejCDXtg','ì˜í™” â€˜ê·¹í•œì§ì—…â€™, ì˜¤ëŠ” 1ì›”23ì¼ ê°œë´‰í•©ë‹ˆë‹¤. #ì§€ë¬´ë¹„ #ì˜í™” #ê·¹í•œì§ì—…',null,null,null,'gmovie@hotmail.com','MC003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','647','MC647','ì£¼íƒê°€ì— í´ëŸ½ì´ ìƒê¸°ë©´ ì¼ì–´ë‚˜ëŠ” ì¼','https://www.youtube.com/embed/QVPiNA7I_64','ì´ë²ˆì— ì†Œê°œí•´ ë“œë¦´ ì˜í™”ëŠ” #ë‚˜ìœ ì´ì›ƒë“¤ #ë‹¬ë¹›ë®¤ì¦ˆ #ì½”ë¯¸ë””ì˜í™”',null,null,null,'moonlightmuse@gmail.com','MC004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','648','MC648','í´ëŸ¬ë²„ê°€ ì‹ í˜¼ë¶€ë¶€ ì˜†ì§‘ìœ¼ë¡œ ì´ì‚¬ ì˜¤ë©´ì„œ ìƒê¸°ëŠ” ì¼','https://www.youtube.com/embed/x9SwxsC2HIg','#ë‚˜ìœ ì´ì›ƒë“¤#ì˜í™”ì†Œê°œ#ì˜í™”ë¦¬ë·° ì˜í™” ë‚˜ìœ ì´ì›ƒë“¤(2014) ê°ë… ë‹ˆì½œë¼ìŠ¤ ìŠ¤í†¨ëŸ¬ ì¶œì—° ì„¸ìŠ¤ ë¡œê±´, ë¡œì¦ˆ ë²ˆ, ì­ ì—í”„ë¡  ì˜í™” "ë‚˜ìœ ì´ì›ƒë“¤" ì…ë‹ˆë‹¤. ì¦ê²ê²Œ ê°ìƒ í•˜ì‹œê³  ì¬ë°Œê²Œ ë³´ì…¨ë‹¤ë©´ êµ¬ë… & ì¢‹ì•„ìš” & ëŒ“ê¸€ ë¶€íƒë“œë¦½ë‹ˆë‹¤. ê°ì‚¬í•©ë‹ˆë‹¤',null,null,null,'choice@hotmail.com','MC004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','649','MC649','ì•„ê¸°ì—ê²Œ ì½˜ë” ë¬¼ë¦° ì •ì‹ ë‚˜ê°„ ì˜†ì§‘ ë†ˆë“¤','https://www.youtube.com/embed/NCijbmH4AIs','í‰í™”ë¡­ê²Œ ì‚´ê³ ìˆëŠ” ë§¥ê³¼ ì¼ˆë¦¬ ë¶€ë¶€ í•˜ì§€ë§Œ ì˜† ì§‘ í…Œë””ë¼ëŠ” í•™ìƒì´ ì´ì‚¬ì˜¤ê²Œë˜ë©° ëª¨ë“  ì¼ìƒì„ ì—‰ë§ìœ¼ë¡œ ë§Œë“¤ì–´ë†“ëŠ”ë° ì¬ë¯¸ìˆê²Œ ë³´ì…¨ë‹¤ë©´ êµ¬ë…, ì¢‹ì•„ìš” ë¶€íƒë“œë¦¬ê² ìŠµë‹ˆë‹¤!',null,null,null,'suenim@hotmail.com','MC004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','650','MC650','ì²œìƒê³„ ë¯¸ëª¨ì˜ ì•„ë‚´ì™€ ì´í˜¼í•˜ë ¤ëŠ” ë‚¨ì','https://www.youtube.com/embed/DMFw7ghTHu4','ì˜í™”: ë‚´ ì•„ë‚´ì˜ ëª¨ë“  ê²ƒ í•œêµ­ ì˜í™” ì¤‘ ì´ë ‡ê²Œ ì½”ë¯¹í•¨ê³¼ ì„¹ì‹œí•¨ì˜ ê· í˜•ì„ ì˜ ê°–ì¶˜ ì˜í™”ê°€ ë˜ ìˆì„ê¹Œ ì‹¶ì„ ì •ë„ë¡œ ê°œì¸ì ìœ¼ë¡œ ë¬´ì²™ ì• ì •í•˜ëŠ” ì˜í™”ì…ë‹ˆë‹¤. ì˜í™” ì—”ë”© í¬ë ˆë”§ì´ ì˜¬ë¼ê°€ëŠ” ì¤‘ì—ë„ ì—´ì—°ì„ í¼ì¹˜ëŠ” ë°°ìš°ë“¤ê³¼ ëê¹Œì§€ ì„¹ì‹œ ì½”ë¯¸ë””ë¼ëŠ” ì»¨ì…‰ì— ì¶©ì‹¤í•œ ë¶€ë¶„ì€ ê¸°ë¦½ ë°•ìˆ˜ë¥¼ ì¹˜ê³  ì‹¶ì„ ì •ë„ì˜€ìŠµë‹ˆë‹¤. ì´ëŸ° ì›°ë©”ì´ë“œ ì˜í™”ë¥¼ ì•„ì§ë„ ëª» ë´¤ë‹¤ë©´ ì•ˆíƒ€ê¹Œìš´ ì¼ì…ë‹ˆë‹¤. ì ê·¹ì ìœ¼ë¡œ ì¶”ì²œí•©ë‹ˆë‹¤.',null,null,null,'captainrami@gmail.com','MC005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','651','MC651','ì „ì„¤ì˜ ì¹´ì‚¬ë…¸ë°”ê°€ ì—¬ìë¥¼ ìœ í˜¹í•˜ëŠ” ë°©ë²•','https://www.youtube.com/embed/I2l-u0K5EDE','ë‚´ ì•„ë‚´ì˜ ëª¨ë“  ê²ƒ',null,null,null,'dreamteller@daum.net','MC005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','652','MC652','ì‹íƒ ì•„ë˜ì—ì„œ ì²˜ìŒ ë§Œë‚œ ê·¸ ìˆœê°„ì²˜ëŸ¼ ã…£ ì˜í™” *ë‚´ ì•„ë‚´ì˜ ëª¨ë“  ê²ƒ* ë¨¹ë°©ì˜ ì˜ë¯¸','https://www.youtube.com/embed/XTk8G6lnXbE','#ë‚´ì•„ë‚´ì˜ëª¨ë“ ê²ƒ #ì„ìˆ˜ì • #ì´ì„ ê·  #ë¥˜ìŠ¹ë£¡ #ì˜í™”ì˜ì‹íƒ #ì˜í™”ì†ë¨¹ë°© *ì‹íƒ ì•„ë˜ì—ì„œ ì²˜ìŒ ë§Œë‚œ ê·¸ ìˆœê°„ì²˜ëŸ¼? ê·¸ ì˜ë¯¸ëŠ” ë¬´ì—‡ì¼ê¹Œìš”? *ì£¼ì˜! ì´ë²ˆ ì˜ìƒì—ëŠ” ì´ë¡€ì ìœ¼ë¡œ ì˜í™”ì˜ ê²°ë§ì´ í¬í•¨ë˜ì–´ ìˆìŠµë‹ˆë‹¤.',null,null,null,'tablemovie@hotmail.com','MC005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','653','MC653','ëŸ°ì–´ì›¨ì´ ë²„ì¼€ì´ì…˜','https://www.youtube.com/embed/UsPN_oavve0','ë¯¸ì¥ì„¼ Movie Database ì˜í™”ì†Œê°œ,ì¶”ì²œ Excerpt from:ì ‘ì† ë¬´ë¹„ì›”ë“œ, ì¶œë°œ ë¹„ë””ì˜¤ì—¬í–‰. ì•¼ã…‘ã…‘ã…‘ì‰‘ë¼ë“¤ì•„ã…ã…ã…ã…ã…. The largest Korea movie database. Reviews, interviews, previews and behind the scene footage of movie production',null,null,null,'ysamo@yahoo.com','MC006',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','654','MC654','ì›ƒë‹¤ê°€ ë‡Œê°€ ì˜ëª»ë˜ë²„ë¦´ìˆ˜ë„ ìˆëŠ” ì˜í™”','https://www.youtube.com/embed/_kzarY7rq-4','ëŸ°ì–´ì›¨ì´ë²„ì¼€ì´ì…˜',null,null,null,'whereiam@gmail.com','MC006',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','655','MC655','ë‹¨ 10ë¶„, ì´ ì˜í™”ë¥¼ ë³´ëŠ”ë° ë‡ŒëŠ” í•„ìš” ì—†ë‹¤!','https://www.youtube.com/embed/Z8u4Xmm7Cmc','ì´ë²ˆì— ì†Œê°œí•´ ë“œë¦´ ì˜í™”ëŠ” #ë¡¤ëŸ¬ì½”ìŠ¤í„° #ë‹¬ë¹›ë®¤ì¦ˆ #ì½”ë¯¸ë””',null,null,null,'moonlightmuse@gmail.com','MC007',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','656','MC656','[ì˜í™”ë¦¬ë·° ê²°ë§í¬í•¨] í•˜ì •ìš°ê°ë…ì˜ Bê¸‰ê°ì„± ì˜í™” ì§„ì‹¬ ì›ƒë‹¤ê°€ ë°° ì°¢ì–´ì§','https://www.youtube.com/embed/4cN1Cu8OdSs','2013ë…„ ê°œë´‰ì‘ "ë¡¤ëŸ¬ì½”ìŠ¤í„°"ì…ë‹ˆë‹¤ ì˜í™”ë¡œ ë‹¤ì–‘í•œ ì½˜í…ì¸ ë¥¼ ë§Œë“¤ê³  ìˆìŠµë‹ˆë‹¤ :-)',null,null,null,'heytv@gmail.com','MC007',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','657','MC657','[ì˜í™” BEST] í•˜ì •ìš° ê°ë… ë°ë·”ì‘, ì´ ë¹„í–‰ê¸° ë­”ê°€ ì´ìƒí•˜ë‹¤!','https://www.youtube.com/embed/Bxb-9S-J3w0','ë°°ìš° "í•˜ì •ìš°"ê°€ ê°ë…ì„ ë§¡ì•˜ë‹¤!! ì˜í™” ë„ì¤‘ í„°ì§€ëŠ” ìœ¡ë‘ë¬¸ìì™€ ê³¼ì¥ëœ í‘œí˜„ì„ í†µí•œ ì›ì´ˆì ì¸ ê°œê·¸! ìºë¦­í„° ë§ˆë‹¤ ë³´ì´ëŠ” í™•ì‹¤í•œ ê°œì„±! Bê¸‰ ê°ì„±ì„ ìê·¹í•˜ëŠ” ì˜í™”',null,null,null,'ajbros8080@yahoo.com','MC007',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','658','MC658','ì–´ë¥¸ë§Œ ì´í•´ê°€ëŠ¥í•œ ì–´ë¥¸ì´ìš© ê°€ì¡± ë³‘ë§› ì˜í™”ã…‹ã…‹','https://www.youtube.com/embed/UUSbwzP1OYg','ì–´ë²¤ì ¸ìŠ¤ í† ë¥´ ì£¼ì—° í¬ë¦¬ìŠ¤ í–„ìŠ¤ì›ŒìŠ¤ë„ ì›ƒê²¨ì£¼ëŠ” ë³‘ë§› ê°€ì¡± ì˜í™” ë² ì¼€ì´ì…˜(2015) ì•ˆë…•í•˜ì„¸ìš”! ''ì¢‹ì•„ìš”''ì¤‘ë…ì ìº¡í‹´ë¼ë¯¸ì…ë‹ˆë‹¤ã…‹ã…‹ ì´ ì˜í™”ì—ëŠ” ë‹¤ì–‘í•œ ì¹´ë©”ì˜¤ê°€ ì¶œì—° í•˜ì§€ë§Œ, ë¬´ì—‡ë³´ë‹¤ ìš´ì „ì˜ ë‹¬ì¸ì´ ìµœê³ ì˜€ìŠµë‹ˆë‹¤. ë¦¬ë·° ëê¹Œì§€ ë³¸ ì‚¬ëŒì€ ë¬´ì¡°ê±´ ê³µê°!!ã…‹ã…‹ ì°¸ê³ ë¡œ ì•¤íŠ¸ë§¨ê³¼ í¼ì‹œí”½ë¦¼ë§Œ ë´¤ì–´ë„, ì›¬ë§Œí•œ ì¹´ë©”ì˜¤ëŠ” ë‹¤ ì•Œì•„ë³¼ ê²ë‹ˆë‹¤.',null,null,null,'captainrami@gmail.com','MC008',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','659','MC659','ì´ ì˜í™”ë¥¼ ë³´ê³ ë„ ì›ƒì§€ ì•ŠëŠ”ë‹¤ë©´ ì„ ë¬¼ì„ ë“œë¦½ë‹ˆë‹¤.','https://www.youtube.com/embed/UQZWUm_ZdbU','ì‹œì²­í•´ì£¼ì…”ì„œ ê°ì‚¬í•©ë‹ˆë‹¤^_^',null,null,null,'yangyang@naver.com','MC008',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','660','MC660','ì˜í™” ë² ì¼€ì´ì…˜ vacation 2015 ë§‰ì¥ ë³‘ë§› 19ê¸ˆ ì™¸êµ­ ì½”ë¯¸ë””','https://www.youtube.com/embed/VQf-GxRWYzI','ë² ì¼€ì´ì…˜ vacation 2015 10ë…„ë™ì•ˆ ë§¤ë…„ ë˜‘ê°™ì€ ì—¬ë¦„ íœ´ê°€ë¥¼ ê°”ë˜ ëŸ¬ìŠ¤í‹°ë„¤ ê°€ì¡± ì‹œê°„ì´ í˜ëŸ¬ ë¯¸ì†Œë¥¼ ìƒì–´ê°€ëŠ” ì•„ë‚´ì˜ ì–¼êµ´ì„ ë³¸ ëŸ¬ìŠ¤í‹°ëŠ” ë¯¸êµ­ì—ì„œ ê°€ì¥ ì¸ê¸° ìˆëŠ” ë†€ì´ê³µì› â€˜ì›”ë¦¬ ì›”ë“œâ€™ë¡œ ê°€ëŠ” ë¯¸ëŒ€ë¥™íš¡ë‹¨ ì—¬í–‰ì„ ì œì•ˆí•©ë‹ˆë‹¤. 4000í‚¤ë¡œë¥¼ íš¡ë‹¨í•˜ê¸°ìœ„í•´ ìµœì²¨ë‹¨ ì°¨ê¹Œì§€ ë¹Œë ¤ ë†€ì´ê³µì›ìœ¼ë¡œ ì¶œë°œ! í•˜ì§€ë§Œ ì¬ë¯¸ìˆê³  ìˆœíƒ„í•œ ì—¬í–‰ì´ ë˜ë¦¬ë¼ëŠ” ê¸°ëŒ€ì™€ëŠ” ë‹¬ë¦¬ ì‚¬ê±´ ì‚¬ê³ ê°€ í„°ì§€ê³  ë§™ë‹ˆë‹¤. ê³¼ì—° ê·¸ë¦¬ìŠ¤ì˜¬ë“œ ê°€ì¡±ì€ ë²„ë¼ì´ì–´í‹°í•œ ì—¬í–‰ì„ ë§ˆì¹˜ê³  ë¬´ì‚¬íˆ ëŒì•„ì˜¬ ìˆ˜ ìˆì„ê¹Œìš”? [í™”ì´íŠ¸ì¹™ìŠ¤]ê°™ì€ ì§„ì§œ ì›ƒê¸´ ì½”ë¯¸ë”” ì˜í™”ë¥¼ ì°¾ìœ¼ì‹ ë‹¤ë©´ ì¶”ì²œ!',null,null,null,'helpyourself@hotmail.com','MC008',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','661','MC661','1700ì–µì›ì„ í•œ ë‹¬ ì•ˆì— ë‹¤ ì¨ì•¼í•˜ëŠ” ëŒ€ë¥™ì˜ ê·¹í•œì§ì—… | ê²°ë§í¬í•¨','https://www.youtube.com/embed/GFbHyJsMewY','#ì˜í™”ë¦¬ë·° #ê²°ë§í¬í•¨ ì„œí™ì‹œìˆ˜ë¶€ (2018, Hello Mr. Billionaire, è¥¿è™¹å¸‚é¦–å¯Œ, ì„œí™ì‹œì˜ ê°‘ë¶€)',null,null,null,'daymovie@hotmail.com','MC009',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','662','MC662','í•œ ë‹¬ì•ˆì— 1,700ì–µ ì›ì„ ì¨ì•¼í•˜ëŠ” ë‚¨ìê°€ ìˆë‹¤?! [10ë¶„ì˜í™”]','https://www.youtube.com/embed/5IT5_Grf0Ao','* ì´ ì˜ìƒì€ ìŠ¤í¬ì¼ëŸ¬ë¥¼ ë‹´ê³ ìˆìŠµë‹ˆë‹¤. * ì„œí™ì‹œìˆ˜ë¶€ (Hello Mr. Billionaire). 2018',null,null,null,'postshare85@daum.net','MC009',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','663','MC663','(ì˜í™”ë¦¬ë·°/ê²°ë§í¬í•¨) í•œë‹¬ì•ˆì— 1700ì–µì„ ì“°ë©´ ë¬´ë ¤ 5ì¡°ë¥¼ ìƒì†ë°›ëŠ”ë‹¤!? ì„œí™ì‹œìˆ˜ë¶€','https://www.youtube.com/embed/mTprvfMJ4Iw','#ì„œí™ì‹œìˆ˜ë¶€ ê²°ë§ #ì˜í™”ë¦¬ë·° #ê²°ë§í¬í•¨ #ì½”ë¯¸ë””ì˜í™”',null,null,null,'endmovie@daum.net','MC009',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','664','MC664','[ë³‘ë§›ëª…ì‘ë¦¬ë·°] ì›ƒë‹¤ê°€ ìš¸ê²Œ ë§Œë“œëŠ” ì˜í™”ã…‹ã…‹ ì„¸ì–¼ê°„ì´!','https://www.youtube.com/embed/4AFVTL8nCUg','ì„¸ì–¼ê°„ì´ êµ¬ë¶ˆì¶”ì²œì§€ìˆ˜: 9.5/10 ë³‘ë§›ìš”ì†Œ: 8/10 ì°¸ì‹ í•¨: 7/10 í•œì¤„í‰: ì›ƒë‹¤ê°€ ìš¸ê³  ì›ƒë‹¤ê°€ ìš¸ê³  í•˜ëŠ” ì˜í™”. ì¥ë‚œê°™ì€ ì˜í™”ì§€ë§Œ ë‚ ì¹´ë¡œìš´ ì†¡ê³³ì„ ìˆ¨ê¸°ê³  ìˆë‹¤. ë³‘ë§› ìš”ì†Œê°€ ë§ì§€ë§Œ ìš°ë¦¬ê°€ ì´ ì˜í™”ë¥¼ ë³´ê³  ê³ ê°œë¥¼ ë„ë•ì´ëŠ” ì´ìœ ëŠ” ë¬´ì—‡ì¼ê¹Œ?',null,null,null,'9bul@gmail.com','MC010',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','665','MC665','ìœ ì¾Œí•œ ì²œì¬ê°€ í•™êµìƒí™œ í•˜ëŠ” ë°©ë²•','https://www.youtube.com/embed/i5u2POOeMdk','ìœ ì¾Œí•œ ì²œì¬ê°€ í•™êµìƒí™œ í•˜ëŠ” ë°©ë²•ì„ ë³´ì—¬ì£¼ëŠ” ì˜í™” ì„¸ì–¼ê°„ì´ì…ë‹ˆë‹¤. ë„¤ì´ë²„ í‰ì ì´ 9.34 (25,563ëª… í‰ê°€)ìœ¼ë¡œ ë§ì€ ì‚¬ëŒë“¤ì´ ì¢‹ì•„í•˜ëŠ” ì¸ë„ ì˜í™”ì…ë‹ˆë‹¤.',null,null,null,'storyroom@daum.net','MC010',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','666','MC666','[ì„¸ ì–¼ê°„ì´] ì ìˆ˜ íƒ”ì—ˆë˜ ì¹œêµ¬ë¥¼ ì°¾ì•˜ë‹¤','https://www.youtube.com/embed/vCB3b-IbA94','ì ìˆ˜ íƒ”ì—ˆë˜ ì¹œêµ¬ë¥¼ ì°¾ì•˜ë‹¤ (+There''s English Subtitle. You can enjoy by using that.) êµ¬ë…Â·ì¢‹ì•„ìš”Â·ê³µìœ Â·ëŒ“ê¸€ì€ í˜ì´ ë©ë‹ˆë‹¤. ê¾¸ì¤€íˆ ì¢‹ì€ ì˜ìƒìœ¼ë¡œ ë³´ë‹µí•˜ê² ìŠµë‹ˆë‹¤. â–·ì˜í™”ì •ë³´ ì œëª©: ì„¸ ì–¼ê°„ì´ ê°ë…: ë¼ì§€ì¿ ë§ˆë¥´ íˆë¼ë‹ˆ ì¶œì—°: ì•„ë¯¸ë¥´ ì¹¸, ë§ˆë“œí•˜ë°˜, ì…”ë¨¼ ì¡°ì‰¬',null,null,null,'codemovie@daum.net','MC010',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','667','MC667','[ì˜í™”ë¦¬ë·° ê²°ë§í¬í•¨]ê·¹í•œì§ì—… ê°ë…ì˜ ì²­ì¶˜ë¬¼! ì§„ì‹¬ ì›ƒë‹¤ê°€ ë°° ì°¢ì–´ì§ (í•œêµ­ ì½”ë¯¹ ì˜í™”)','https://www.youtube.com/embed/rt0knPnfkqg','2015ë…„ ê°œë´‰ì‘ "ìŠ¤ë¬¼" ì…ë‹ˆë‹¤ ë³¸ ì˜í™”ëŠ” ë°°ê¸‰ì‚¬ì™€ í˜‘ì˜ê°€ ë˜ì—ˆìŠµë‹ˆë‹¤. ìŠ¹í—¤ì´TVì˜ ëª¨ë“  ì˜í™”ëŠ” ìµœëŒ€í•œ ì••ì¶•ì„ í•´ì„œ í¸ì§‘í•˜ê¸° ë•Œë¬¸ì— ëª¨ë“  ëª…ì¥ë©´ì„ ë‹´ì§€ ëª»í•œ ì  ë„“ì€ ë§ˆìŒìœ¼ë¡œ ì´í•´í•´ì£¼ì‹œë©´ ê°ì‚¬í•˜ê² ìŠµë‹ˆë‹¤ ì˜í™” ë¦¬ë·°ê°€ ì¬ë°Œì—ˆë‹¤ë©´ full ì˜ìƒìœ¼ë¡œë„ ê°ìƒí•´ ë³´ì‹œëŠ” ê²ƒì„ ì¶”ì²œë“œë¦½ë‹ˆë‹¤~! í•­ìƒ ìŠ¹í—¤ì´TV ì‹œì²­í•´ ì£¼ì…”ì„œ ê°ì‚¬í•©ë‹ˆë‹¤ ë•¡í!',null,null,null,'heytv@gmail.com','MC011',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','668','MC668','ê°•í•˜ëŠ˜ ìŠ¤ë¬´ ì‚´ ì ì— ì´ë¬ë‹¤ê³ ? | ì˜í™” ìŠ¤ë¬¼ | ì˜í™”ë¦¬ë·° | 32ë²ˆì§¸ ë°¤ | ê°•í•˜ëŠ˜ | ê¹€ìš°ë¹ˆ | ì¤€í˜¸ | ë¯¼íš¨ë¦° | ì •ì†Œë¯¼ | ì´ìœ ë¹„','https://www.youtube.com/embed/dmtOF1oUkp0','ê°•í•˜ëŠ˜ì´ ë³¸ì¸ê³¼ ì œì¼ ë¹„ìŠ·í•œ ìºë¦­í„°ë¡œ ì˜í™” ìŠ¤ë¬¼ì˜ â€˜ê²½ì¬â€™ë¥¼ ë½‘ì•˜ë‹¤ë˜ë°â€¦? í—,, ê°•í•˜ëŠ˜ ìŠ¤ë¬´ ì‚´ ë•Œ ì´ë¬ë‹¤ê³ ?ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹',null,null,null,'dingo@daum.net','MC011',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','669','MC669','ìŠ¤ë¬¼ (Twenty, 2014) ê¹€ìš°ë¹ˆ, ì´ìœ ë¹„, ë¯¼íš¨ë¦°','https://www.youtube.com/embed/dXduysupkT0','ê¹€ìš°ë¹ˆ. ê¹€ìš°ë¹ˆ.',null,null,null,'benhahnfeld@yahoo.com','MC011',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','670','MC670','[B tv ì˜í™” ì¶”ì²œ/movie Big #14] ìŠ¤íŒŒì´(Spy, 2015)','https://www.youtube.com/embed/7T5cKRnshRQ','í•œì‹œë„ ëˆˆì„ ë—„ ìˆ˜ ì—†ëŠ” ê¸´ë°•í•˜ê³  ê°•ë ¬í•œ ì•¡ì…˜ ì”¬! ë°•ì§„ê° ë„˜ì¹˜ëŠ” ì˜í™” ì† ì•¡ì…˜ ì¥ë©´ë§Œ ì—‘ê¸°ìŠ¤ë¡œ ì†Œê°œ',null,null,null,'skmovies@daum.net','MC012',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','671','MC671','X'' í•˜ë‚˜ë¡œ ë¯¸ì…˜ì„ í´ë¦¬ì–´ í•˜ëŠ” 1ê¸‰ ìŠ¤íŒŒì´ [ê²°ë§í¬í•¨]','https://www.youtube.com/embed/Y_ELu-LM1_8','ìƒˆí•´ë³µ ë§ì´ ë°›ìœ¼ì„¸ìš”! 2015ë…„ì— ê°œë´‰í•œ ì˜í™” ''ìŠ¤íŒŒì´'' ì…ë‹ˆë‹¤',null,null,null,'drikdrik@gmail.com','MC012',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','672','MC672','(ì˜í™”ë¦¬ë·° ê²°ë§í¬í•¨) ì„¸ê³„ì—ì„œ ê°€ì¥ ì„¹ì‹œí•œ ìŠ¤íŒŒì´','https://www.youtube.com/embed/y9kxQc0oIhw','ì•ˆë…•í•˜ì„¸ìš”! í”„ë¦¬ë·°ì…ë‹ˆë‹¤ ê·¸ë™ì•ˆ 1ë‹¬ì •ë„ ê°€ì •ì„ ëŒë³´ëŠ” ì¼ì´ ìƒê²¨ ì—…ë¡œë“œê°€ ëŠ¦ì–´ì¡ŒìŠµë‹ˆë‹¤. ê·¸ë™ì•ˆ ìš°ë¦¬ êµ¬ë…ìë¶„ë“¤ ë§ì´ ë³´ê³  ì‹¶ì—ˆìŠµë‹ˆë‹¤! ì•ìœ¼ë¡œë„ ì§€ì†ì ìœ¼ë¡œ ì—¬ëŸ¬ë¶„ë“¤ê»˜ ê²°ë§í¬í•¨ ì˜í™”ë¦¬ë·°ë¡œì¨ ë§ì€ ì˜í™”ë¥¼ ì—…ë¡œë“œ í• í…Œë‹ˆ ì˜ë¶€íƒë“œë¦¬ê² ìŠµë‹ˆë‹¤!!',null,null,null,'drikdrik@gmail.com','MC012',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','673','MC673','[ë³‘ë§›ë¦¬ë·°] í˜•ë‹˜, ë²½ì´ ì‚´ë ¤ë‹¬ë¼ëŠ”ë°ìš”? ì‹œì‹¤ë¦¬ 2km','https://www.youtube.com/embed/tOGOhELR_ug','êµ¬ë¶ˆì¶”ì²œì§€ìˆ˜: 5.5/10 ë³‘ë§›ìš”ì†Œ:7/10 ì°¸ì‹ í•¨:2/10 í•œì¤„í‰: ì‹œëŒ€ë¥¼ ì•ì„œ ë‚˜ì™”ë˜ ë³‘ë§›ì˜í™”. ì•„ì‰¬ìš´ ë§ˆë¬´ë¦¬ì™€ í™©ë‹¹í•œ ë‚´ìš©ì´ì§€ë§Œ ì¬ë¯¸ë©´ì—ì„œëŠ” ê´œì°®ë‹¤! ì„ì°½ì •ì˜ ì½”ë¯¹ì—°ê¸°ë¥¼ 100%ëŠë‚„ ìˆ˜ ìˆëŠ” ì˜í™”.',null,null,null,'spoilerman99@hotmail.com','MC013',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','674','MC674','ë‹ˆê°€ ê·¸ëŸ¼ 94ì•¼?ã…‹ã…‹ã…‹ã„± (ì˜í™” ì‹œì‹¤ë¦¬ 2km) Sicily 2km scenery','https://www.youtube.com/embed/UgIPdIUuJ_s',null,null,null,null,'9bul@gmail.com','MC013',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','675','MC675','ì˜í™” - ìˆ˜ìƒí•œ ì‹œê³¨ë§ˆì„ ì‚¬ëŒë“¤ (ì‹œì‹¤ë¦¬ 2km vs ê¸°ë¬˜í•œ ê°€ì¡±)','https://www.youtube.com/embed/XGAExkmw1ko',null,null,null,null,'tvshowshow@hotmail.com','MC013',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','676','MC676','[ì—‘ì‹œíŠ¸] ë”°ë”°ë”° ë”° ë”° ë”° ë”°ë”°ë”°','https://www.youtube.com/embed/gofu_qz2EkI','#ì—‘ì‹œíŠ¸ #7ì›”_31ì¼_IMAX_ê°œë´‰ ì´ ì˜ìƒì˜ ì €ì‘ê¶Œì€ ì œì‘ì‚¬ì— ìˆìŠµë‹ˆë‹¤.',null,null,null,'makemovie@daum.net','MC014',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','677','MC677','ì—‘ì‹œíŠ¸ê°€ ê¹¨ë¶€ì…”ë²„ë¦° ê¸°ì¡´ ì¬ë‚œ ì˜í™”ì˜ 9ê°€ì§€ í´ë¦¬ì…°','https://www.youtube.com/embed/QnCP8TrTxag','#ì—‘ì‹œíŠ¸,#ì¡°ì •ì„,#ìœ¤ì•„ ì˜í™” ì—‘ì‹œíŠ¸ì—ì„œ ë¶€ì…”ë²„ë¦° 9ê°€ì§€ í´ë¦¬ì…°ë¥¼ ì´ì•¼ê¸° í•´ë³´ê² ìŠµë‹ˆë‹¤',null,null,null,'uppercut@naver.com','MC014',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','678','MC678','ì°ë”°ë‚¨ì´ ì¬ë‚œì‹œ íˆì–´ë¡œê°€ ë˜ëŠ” ê°œì©ŒëŠ” ë°©ë²•','https://www.youtube.com/embed/GJsFPd4z2vY','#ì—‘ì‹œíŠ¸ ì¬ë°Œê³  ì›ƒê¸°ëŠ” ì˜í™” ì˜í™” ì €ì‘ê¶Œ ì‚¬ìš©ì€ ì œì‘ë°°ê¸‰ì‚¬ì˜ í—ˆê°€ë¥¼ ë°›ì•˜ìŠµë‹ˆë‹¤',null,null,null,'gomong@gmail.com','MC014',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','679','MC679','í—¤ì–´ì¡Œë”ë‹ˆ 300ë§Œì›ì„ ìš”êµ¬í•˜ëŠ” ì°Œì§ˆí•œ ì—¬ì','https://www.youtube.com/embed/SJvXjJpasm0','* ë³¸ ì˜ìƒì€ ë°°ê¸‰ì‚¬ì™€ì˜ í˜‘ì˜ë¥¼ ë§ˆì¹˜ê³  ì—…ë¡œë“œ ë˜ì—ˆìŠµë‹ˆë‹¤. * ì˜ìƒì˜ ì¬ê°€ê³µ ë° ì¬ë°°í¬ë¥¼ ê¸ˆí•©ë‹ˆë‹¤. ì œê°€ ê°€ì¥ ì¢‹ì•„í•˜ëŠ” ì˜í™” ì¤‘ í•˜ë‚˜ì…ë‹ˆë‹¤. ì—°ì• ë¼ëŠ” ì´ì•¼ê¸°ë¥¼ í˜„ì‹¤ì ìœ¼ë¡œ í’€ì–´ëƒˆê³ , ë¬´ì—‡ë³´ë‹¤ ë‘ ì£¼ì¸ê³µì´ ë„ˆë‚˜ í•  ê²ƒ ì—†ì´ ì°Œì§ˆí•œ ëª¨ìŠµì„ ì•„ì£¼ ì˜ ì—°ê¸°í–ˆì–´ìš”. ë‹¤ìŒ ì˜í™”ë„ ê¸°ëŒ€í•´ì£¼ì„¸ìš”! ì œëª© : ì—°ì• ì˜ ì˜¨ë„(Very Ordinary Couple (V.O.C.) , 2012 ê°ë… : ë…¸ë• ì¶œì—° : ê¹€ë¯¼í¬, ì´ë¯¼ê¸°, ìµœë¬´ì„±, ë¼ë¯¸ë€, í•˜ì—°ìˆ˜',null,null,null,'aloneman@daum.net','MC015',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','680','MC680','ì´ë³„í•˜ê³  ë³´ë©´ ì ˆëŒ€ ì•ˆë˜ëŠ” ì˜í™”ì˜ ëª…ì¥ë©´ ëª…ëŒ€ì‚¬ ëª¨ìŒ [ë­…ë­…í”½] ì—°ì• ì˜ ì˜¨ë„ | ì´ë¯¼ê¸° | ê¹€ë¯¼í¬','https://www.youtube.com/embed/haeDeiNNCb0','í—¤ì–´ì§€ê³  ë‚˜ì„œ ë³´ë©´ ì•ˆë˜ëŠ” ì˜í™” ì¤‘ í•˜ë‚˜ ë‹¤ë“¤ ì–´ë–»ê²Œ í—¤ì–´ì¡Œì—ˆë‚˜ìš”?',null,null,null,'mupmup@hotmail.com','MC015',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','681','MC681','ì‹ì–´ë²„ë¦° ì‚¬ë‘ì€ ë§›ì´ ì—†ë‹¤ ã…£ ì˜í™” *ì—°ì• ì˜ ì˜¨ë„* ë¨¹ë°©ì˜ ìˆ¨ì€ ì˜ë¯¸','https://www.youtube.com/embed/Ltz9O6ikX9w','#ì—°ì• ì˜ì˜¨ë„ #ê¹€ë¯¼í¬ #ì´ë¯¼ê¸° #ì˜í™”ì˜ì‹íƒ #ì˜í™”ì†ë¨¹ë°© #ì˜í™”ì†ìŒì‹ *ì‹ì–´ë²„ë¦° ì‚¬ë‘ì€ ë§›ì´ ì—†ë‹¤? ê·¸ ì˜ë¯¸ëŠ” ë¬´ì—‡ì¼ê¹Œìš”?',null,null,null,'tablemovie@hotmail.com','MC015',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','682','MC682','ë‚´ ë™ë…„ë°°ë“¤ ë‹¤ ì „ì§€í˜„ ì¢‹ì•„í–ˆë‹¤. [ë­…ë­…í”½] ì—½ê¸°ì ì¸ ê·¸ë…€ | ì „ì§€í˜„ ì°¨íƒœí˜„ | 2000s','https://www.youtube.com/embed/gRtTVxPV_gw','ë¼ë–¼ëŠ” ë§ì´ì•¼~ ëª¨ë‘ê°€ ì „ì ¼ì„ ì•“ì•˜ë‹¤êµ¬ ã… ã…  í‚¤ìŠ¤ì‹  ì—†ëŠ” ë¡œë§¨í‹± ì½”ë¯¸ë””',null,null,null,'mupmup@hotmail.com','MC016',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','683','MC683','ì‚¬ë‘ì˜ ì•„í””ì„ ë§ë„ ì•ˆ ë˜ëŠ” ê¹¡ë‹¤êµ¬ë¡œ ìŠ¹í™”ì‹œí‚¨ ì—¬ì','https://www.youtube.com/embed/97IAkuPNauw','ì•ˆë…•í•˜ì„¸ìš” ì˜í™” ì—½ê¸°ì ì¸ ê·¸ë…€ ì…ë‹ˆë‹¤',null,null,null,'lemong@hotmail.com','MC016',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','684','MC684','[ëª…ì¥ë©´] ë ˆì „ë“œ ì˜í™” ì—½ê¸°ì ì¸ ê·¸ë…€-ì „ì§€í˜„ ì˜ˆì¨ì£¼ì˜','https://www.youtube.com/embed/xBAF-Nv2lDg','â–¶ì‘í’ˆëª… (Titles) : ì—½ê¸°ì ì¸ê·¸ë…€(My Sassy Girl, 2001) â–¶ì¶œì—° (Cast) : ì „ì§€í˜„, ì°¨íƒœí˜„ â–¶ê°ë… (Director) : ê³½ì¬ìš© â–¶ì¤„ê±°ë¦¬ (Synopsis) : ì „ì§€í˜„+ì°¨íƒœí˜„ì˜ ì ˆë¼ìœ ì¾Œ ì‚¬ë‘ì´ì•¼ê¸° ê·¸ë…€ì™€ì˜ ë¬´ì„œìš´ ë°ì´íŠ¸ê°€ ì‹œì‘ëœë‹¤! 2001ë…„ ì—¬ë¦„, ì˜¨ëª¸ì´ ë½€ì‚¬ì§€ë„ë¡ ì¦ê±°ì›Œì§‘ë‹ˆë‹¤! ''ì „ë°˜ì „''. ê·¸ë…€ì™€ ì €ëŠ” ê°™ì€ ë¬¸ìœ¼ë¡œ í•¨ê»˜ ì¸ì²œí–‰ ì§€í•˜ì² ì„ íƒ€ê²Œ ë˜ì”€ë¯¸ë‹¤. ì·¨í•´ì„œ ë¹„í‹€ê±°ë¦¬ì§€ë§Œ ì•ˆëŠ”ë‹¤ë©´ ì •ë§ ë§¤ë ¥ì €ê¸°ê³  ê° ì°¨ëŠ” ì•„ê°€ì”¨ì—¬ìª„... í‘¸í•˜í•˜í•«! ì§„ì§œ íŠ¹ì´í•˜ë‹¤! ì €ëŠ” ê·¸ë…€ê°€ ìˆ ì— ì·¨í•´ì„œ ë°°ë¥¼ ê¸°ëŒ€ê³  ì„œìˆëŠ” ëª¨ìŠµì´ ê·€ì—¬ì›Œì„œ íë”ê±°ë¦¬ë©° ê·¸ë…€ë¥¼ ê³„ì† ì§€ì¼œë³´ì•„ì”€ë¯¸ë‹¤. ê·¸ëŸ°ë° ëª¸ì„ ë¯¸ì„¸í•˜ê²Œ ë¶€ë¥´ë¥´ ë–¨ë˜ ê·¸ë…€ê°€ ì™ ì§€ ë¶ˆì•ˆí•´ ë³´ì´ë”ë‹ˆë§Œ ë§ˆì¹¨ë‚´ ìš°ì›¨ì—ì—‘~~~ ìš°ì›¨ì—‘~~ ì¢Œë¥´ë¥´ë¥´ë¥´~~~ ë„¤, ê·¸ëŸ¬ì”€ë¯¸ë‹¤! ê·¸ë…€ê°€ ì•ì— ì•‰ì•„ ì´ë–¤ ëŒ€ë¨¸ë¦¬ ì•„ì €ì”¨ ë¨¸ë¦¬ ìœ„ì— ìˆœì‹ê°„ì— ì¼ì„ ì¹œ ê±°ì‹œì—¬ì”€ë¯¸ë‹¤!! ìˆœê°„ ì§€í•˜ì² ì•ˆì€ ì•„ìˆ˜ë¼ì¥ì´ ë˜ê³  ì ˆë¼ ì¬ë¯¸ëŠ” ìƒí™©ì´ì—ˆì ¸. ì§„ì§œ ì¼ì€ ê±°ê¸°ì„œë¶€í„° í„°ì§€ê³ ì•¼ ë§ì•„ì”€ë¯¸ë‹¤. ì˜¤ë°”ì´íŠ¸ë¥¼ ì‹œì›í•˜ê²Œ í•˜ë˜ ê·¸ë…€ê°€ ê²ŒìŠ´ì¹˜ë ˆí•œ ëˆˆë¹›ìœ¼ë¡œ ì €ë¥¼ ë³´ë©° ì´ëŸ¬ëŠ” ê²€ë¯¸ë‹¤! ìê¸°ì•¼!~ ì–´ì–´ì–µ~ ìš°ìš±~ ìê¸°~ ì›©~! ì¿µ... ì´ ì—¬ì ì¢‹ì€ ëŠë‚Œì´ ë“¬ë‹ˆë‹¤. ì›ë˜ ê·¸ëŸ¬ì¹˜ì•ˆì€ë° ì‹¤ì—°ì˜ ì•„í””ì´ ë„ˆë¬´ë‚˜ í° ê²ƒ ê°€ì”€ë¯¸ë‹¤. ê´œíˆ ë¶ˆìŒí•œ ë§ˆìŒì´ ë“¬ë¯¸ë‹¤. ì œ ë§ˆìŒ ì–´ë””ì—ì„ ê°€ ì‹¸ëŠ˜í•œ ë°”ëŒì´ ë¶€ëŠ” ê²ƒë„ ê°€ì”€ë¯¸ë‹¤. ê·¸ë˜, ì´ ì—¬ìì˜ ì•„í””ì„ í•œë²ˆ ì¹˜ë£Œí•´ë³´ì!! ê°•ë¬¼ ê¹Šì´ê°€ ê¶ê¸ˆí•˜ë©´ ê°€ì°¨ì—…ì‹œ ë¬¼ ì†ìœ¼ë¡œ ë– ë°€ì–´ë²„ë¦¬ëŠ” ì—¬ì! ê·¸ëŸ¬ë‚˜ ì •ì‹ ì—…ì‹œ í—ˆìš°ì ëŒ€ëŠ” ì €ë¥¼ ìœ„í•´ì„œ ë¬¼ ì†ìœ¼ë¡œ ë›°ì–´ë“¤ì­ë„ ì•„ëŠ” ì—¬ì... ê·¸ë…€ì˜ ìƒì¼, ì–¼ë ëš±ë•… ë„ˆë¨¸ê°€ë©´ ì‚´í•´í• ì°Œë„ ëª¨ë¥¼ ì—¬ì! ê·¸ëŸ¬ë‚˜ ì¼ì´‰ì¦‰ë°œ ì¸ì§ˆë¡œ ì¡í˜€ìˆë˜ ë‚˜ë¥¼ ëª©ìˆ¨ê±¸ê³  êµ¬í•´ì£¼ë©° ê¸°ë§‰íŒ ê°ë™ì„ ë¨¹ì¼ì­ë„ ì•„ëŠ” ì—¬ì! ''í›„ë°˜ì „''. ìš”ì¦˜ì€ ê·¸ë…€ê°€ ì°¸ ë§ì´ ìš°ì”€ë¯¸ë‹¤. í•´ë§‘ê²Œ ì›ƒëŠ” ê·¸ë…€ë¥¼ ë³´ê³  ìˆìœ¼ë©´ ì œ ë§ˆìŒë„ í•œ ì—†ì´ í–‰ë³µí•´ì§ë¯¸ë‹¤. ì§€ê¸ˆê¹Œì§€ ì œê°€ í˜ì´ ë˜ì–´ì£¼ì—ˆëŠ”ì§€ ìì‹ ì´ ì—…ì”€ë¯¸ë‹¤. ì œê°€ ê·¸ë…€ë¥¼ ê°ì‹¸ì¤€ê²ƒë„ ê·¸ë…€ì—ê²Œ ë³´ì—¬ì¤€ ê²ƒë„ ë˜ ê·¸ë…€ë¥¼ ì¹˜ë£Œí•œ ì ë„ ì—†ëŠ” ê²ƒ ê°€ì”€ë¯¸ë‹¤. ì´ì œ ê·¸ë…€ ê³ì„ ë– ë‚  ë•Œê°€ ì ì  ê°€ê¹Œì›Œì§€ëŠ” ê²ƒì„ ëŠë‚Œë¯¸ë‹¤. ê·¸ë¦¬ê³  ì˜¤ëŠ˜ íƒ€ì„ìº¡ìŠì— ì„œë¡œì˜ ë§ˆìŒì„ ë‹´ê³  íƒ€ì´ë¨¸ë¥¼ 2ë…„ í›„ì— ë§ì¶°ì”€ë¯¸ë‹¤. ì´ ìº¡ìŠì´ ì—´ë¦¬ëŠ” ë‚ ! ì„œë¡œì˜ ë§ˆìŒì„ í™•ì¸í•  ê»Œë¯¸ë‹¤. ê·¸ë ‡ê²Œ ê·¸ë…€ëŠ” í—¤ì–´ì§€ìëŠ” ë§ì„ ëŒ€ì‹ í–ˆìŠ´ë¯¸ë‹¤. ''ì—°ì¥ì „''. ì˜¤ëŠ˜ í—¤ì–´ì§€ê³  ë‚´ì¼ ë§Œë‚˜ëŠ” ê²ƒì²˜ëŸ¼ ìš°ë¦¬ëŠ” ì§€ê¸ˆ í—¤ì–´ì§€ê³  ë¶„ëª…íˆ ë‹¤ì‹œ ë§Œë‚  ê²ƒì„ë¯¸ë‹¤. ë‹¤ë§Œ ì˜¤ëŠ˜ê³¼ ë‚´ì¼ì²˜ëŸ¼ ê°€ê¹Œìš´ ì‹œê°„ì´ ì•„ë‹ ë¿... ë¯¿ìŠ´ë¯¸ë‹¤.',null,null,null,'playallmovies@hotmail.com','MC016',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','685','MC685','[ì˜í™”ë¦¬ë·° ê²°ë§í¬í•¨] ì§„ì‹¬ ì´ ì˜í™” ë³´ê³  í•œ ë²ˆì´ë¼ë„ ì•ˆ ì›ƒëŠ” ì‚¬ëŒ ì—†ìŠµë‹ˆë‹¤. (í•œêµ­ ì½”ë¯¹ ì˜í™”)','https://www.youtube.com/embed/beXU8H6f7es','2016ë…„ ê°œë´‰ì‘ "ìœ„ëŒ€í•œ ì†Œì›" ì…ë‹ˆë‹¤ ìŠ¹í—¤ì´TVì˜ ëª¨ë“  ì˜í™”ëŠ” ìµœëŒ€í•œ ì••ì¶•ì„ í•´ì„œ í¸ì§‘í•˜ê¸° ë•Œë¬¸ì— ëª¨ë“  ëª…ì¥ë©´ì„ ë‹´ì§€ ëª»í•œ ì  ë„“ì€ ë§ˆìŒìœ¼ë¡œ ì´í•´í•´ì£¼ì‹œë©´ ê°ì‚¬í•˜ê² ìŠµë‹ˆë‹¤ ì˜í™” ë¦¬ë·°ê°€ ì¬ë°Œì—ˆë‹¤ë©´ full ì˜ìƒìœ¼ë¡œë„ ê°ìƒí•´ ë³´ì‹œëŠ” ê²ƒì„ ì¶”ì²œë“œë¦½ë‹ˆë‹¤~! í•­ìƒ ìŠ¹í—¤ì´TV ì‹œì²­í•´ ì£¼ì…”ì„œ ê°ì‚¬í•©ë‹ˆë‹¤ ë•¡í!',null,null,null,'heytv@gmail.com','MC017',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','686','MC686','ì¹œêµ¬ì˜ ì²« ê²½í—˜ ìƒëŒ€ë¥¼ ì°¾ì•„ í—¤ë§¤ëŠ” ìš°ì • ë§Œë© ì¹œêµ¬ë“¤','https://www.youtube.com/embed/FuyOmow_eOQ','ì•ˆë…•í•˜ì„¸ìš”, ë¶ë¶€ì˜ ì™•ì…ë‹ˆë‹¤. ì´ë²ˆ ì˜í™”ëŠ” â€˜ìœ„ëŒ€í•œ ì†Œì›â€™ì…ë‹ˆë‹¤. êµ¬ë…ê³¼ ì¢‹ì•„ìš”ë¥¼ ëˆŒëŸ¬ì£¼ì‹œë©´ ë§¤ì£¼ ìˆ˜ìš”ì¼, ì¼ìš”ì¼ ì¬ë¯¸ìˆëŠ” ì˜í™” ë¦¬ë·°ë¡œ ì°¾ì•„ëµ™ê² ìŠµë‹ˆë‹¤. ë¦¬ë·°ë¥¼ ì¬ë¯¸ìˆê²Œ ë³´ì…¨ë‹¤ë©´ êµ¬ë…ê³¼ ì¢‹ì•„ìš”ë„ ê¼­ ëˆŒëŸ¬ì£¼ì„¸ìš”!',null,null,null,'bukbu@yahoo.com','MC017',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','687','MC687','ê°€ì¡±ì€ ê±´ë“œë¦¬ì§€ ë§ì•˜ì–´ì•¼ í–ˆë‹¤','https://www.youtube.com/embed/OHH9yd7u7rw',null,null,null,null,'egg@naver.com','MC017',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','688','MC688','ì¡±êµ¬í•˜ëŠ” ì†Œë¦¬ í•˜ê³ ìˆë„¤ ( ì¡±êµ¬ì™• ) ìŠ¤í† ë¦¬+í•´ì„í¸','https://www.youtube.com/embed/XVmIqYUJzLc','35ë²ˆì§¸ ì˜í™” ë¦¬ë·° ì¡±êµ¬ì™• ( 2014 ) ìŠ¤í† ë¦¬+í•´ì„í¸ì…ë‹ˆë‹¤. 18ë¶„ 38ì´ˆ ì´í›„ë¡  ìŠ¤í¬ì¼ëŸ¬ê°€ í¬í•¨ë˜ì–´ ìˆìœ¼ë‹ˆ ì£¼ì˜í•´ì£¼ì„¸ìš”. ì¢‹ì•„ìš”(ì¶”ì²œ) ë²„íŠ¼ì„ ëˆŒëŸ¬ì£¼ì‹œë©´ ë” ë§ì€ ë¶„ë“¤ì´ ê°ìƒí•˜ì‹¤ ìˆ˜ ìˆê³ , êµ¬ë…ì„ í•˜ì‹ ë’¤ ì¢…ë²„íŠ¼ì„ í•œë²ˆë” ëˆŒëŸ¬ì£¼ì‹œë©´ ì•ŒëŒê¸°ëŠ¥ìœ¼ë¡œ ì¸í•´ ë” í¸í•˜ê²Œ ë³´ì‹¤ ìˆ˜ ìˆìŠµë‹ˆë‹¤. ê°ë… ìš°ë¬¸ê¸° ì¶œì—° ì•ˆì¬í™, í™©ìŠ¹ì–¸, ì •ìš°ì‹, ê°•ë´‰ì„±, í™©ë¯¸ì˜, ë°•í˜¸ì‚°, ì¡°í˜œë¦°, ì§„íƒœì² , ì´ì„¸ë‘,',null,null,null,'riukun@gmail.com','MC018',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','689','MC689','[ì˜í™”ë¦¬ë·° ê²°ë§í¬í•¨] ë‚¨ìë“¤ì´ êµ°ëŒ€ ê°”ë‹¤ ì™€ì„œ ì ì‘í•˜ê¸° í˜ë“  ì´ìœ  (í•œêµ­ ì½”ë¯¹ ì˜í™”)','https://www.youtube.com/embed/0DHBcqC9I7k','ìŠ¹í—¤ì´TVì˜ ëª¨ë“  ì˜í™”ëŠ” ìµœëŒ€í•œ ì••ì¶•ì„ í•´ì„œ í¸ì§‘í•˜ê¸° ë•Œë¬¸ì— ëª¨ë“  ëª…ì¥ë©´ì„ ë‹´ì§€ ëª»í•œ ì  ë„“ì€ ë§ˆìŒìœ¼ë¡œ ì´í•´í•´ì£¼ì‹œë©´ ê°ì‚¬í•˜ê² ìŠµë‹ˆë‹¤ ì˜í™” ë¦¬ë·°ê°€ ì¬ë°Œì—ˆë‹¤ë©´ full ì˜ìƒìœ¼ë¡œë„ ê°ìƒí•´ ë³´ì‹œëŠ” ê²ƒì„ ì¶”ì²œë“œë¦½ë‹ˆë‹¤~! í•­ìƒ ìŠ¹í—¤ì´TV ì‹œì²­í•´ ì£¼ì…”ì„œ ê°ì‚¬í•©ë‹ˆë‹¤ :-) ì˜ìƒ ì¤‘ ì¬ë°Œì—ˆë˜ ëŒ€ì‚¬ë‚˜ ì¥ë©´ì´ ìˆì—ˆë‹¤ë©´ ëŒ“ê¸€ë¡œ ë§ì´ ë§ì´ ë‚¨ê²¨ì£¼ì„¸ìš”~~ ë•¡í! 2014ë…„ ê°œë´‰ì‘ "ì¡±êµ¬ì™•" ì…ë‹ˆë‹¤',null,null,null,'heytv@gmail.com','MC018',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','690','MC690','ë©‹ìˆëŠ” ë‚¨ì ì •ë´‰ ì¡±êµ¬ì˜ì‹ ì´ ë˜ë‹¤(ê²°ë§í¬í•¨)','https://www.youtube.com/embed/Vsc0a04_NwQ','ë°©ê¸ˆ êµ°ëŒ€ì—ì„œ ë§‰ ì „ì—­í•œ ì£¼ì¸ê³µ ì¡±êµ¬ë¥¼ ì¢‹ì•„í•˜ë˜ ì£¼ì¸ê³µì€ ë³µí•™ìƒì˜ ì´ˆë¼í•œ í–‰ìƒ‰ìœ¼ë¡œ í•™êµë¥¼ ì „ì „í•˜ê¸° ì‹œì‘í•œë‹¤. ê·¸ëŸ¬ë‹¤ í•™êµì—ì„œ ì˜ˆì˜ê¸°ë¡œ ìœ ëª…í•œ ì–´ë–¤ ì—¬ìë¥¼ ë§Œë‚˜ê²Œ ë˜ëŠ”ë° ì£¼ì¸ê³µì€ ê³¼ì—° ì–´ë–»ê²Œ ë ê¹Œìš”?? ì˜í™” ì¡±êµ¬ì™• ì…ë‹ˆë‹¤.',null,null,null,'zto@hotmail.com','MC018',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','691','MC691','ìµœê°• ë¬´ìˆ ë¡œ ì³ë§ê³ ë„ ë§ˆì‚¬ì§€ ë°›ë“¯ ëŠê¸‹í•œ ê³ ìˆ˜ë“¤ ì‹¸ì›€','https://www.youtube.com/embed/UYy2y7Y5a1U','êµ¬ë…''í•˜ê³  ''ì•Œë¦¼''ì„¤ì •ì„ í•´ë‘ë©´ ì¬ë°ŒëŠ” ìµœì‹  ì˜ìƒë“¤ì„ ê°€ì¥ ë¹¨ë¦¬ ë³¼ ìˆ˜ ìˆìŠµë‹ˆë‹¤. ''ì¶”ì²œ''ì€ ì»¨í…ì¸  ì œì‘ì— í° í˜ì´ ë©ë‹ˆë‹¤^^',null,null,null,'captainrami@gmail.com','MC019',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','692','MC692','(ê²°ë§í¬í•¨) ì£¼ì„±ì¹˜ì˜ ì¿µí‘¸ì˜í™” / ì˜í™”ì¶”ì²œ ë¦¬ë·° ì†Œê°œ ìŠ¤í¬ì£¼ì˜ ë‹¤ì‹œë³´ê¸°','https://www.youtube.com/embed/y_NMuy3eBeY','ë§ì´ë“¤ ê¸°ë‹¤ë¦¬ì…¨ì£ ?? ì˜ë“¤ ì£¼ë¬´ì…¨ë‚˜ìš”?? ì•„ì¹¨ì— ì¶œê·¼í•˜ì‹œë©´ì„œ í•œë²ˆì”© ë³´ê³  ì›ƒì–´ì£¼ì„¸ìš”~ ì´ ì˜ìƒìœ¼ë¡œ ì¦ê±°ìš´ í•˜ë£¨ê°€ ë˜ì‹œê¸°ë¥¼!!! :-)â™¥â™¡ ì‘ì—…í•˜ëŠ” ë‚´ë‚´ ì¦ê±°ì› ë˜ ì˜í™”ì˜€ìŠµë‹ˆë‹¤~~~~~~',null,null,null,'horrrrror@naver.com','MC019',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','693','MC693','ë„ˆ ì˜ëª» ê±¸ë ¸ì–´'' ìˆ¨ì€ ë¬´ë¦¼ê³ ìˆ˜ ë“±ì¥?','https://www.youtube.com/embed/KJjcxHo6Jmc',null,null,null,null,'sangung@yahoo.com','MC019',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','694','MC694','60ë…„ ë™ì•ˆ ì§€êµ¬ì—ì„œ ì‚° ê³ ì¸ë¬¼ ì™¸ê³„ì¸ ã…‹ã…‹ã…‹','https://www.youtube.com/embed/suAmZ3m1ilc','#í™©ë‹¹í•œì™¸ê³„ì¸í´ #ì˜í™”ì¶”ì²œ #ê³ ì¸ë¬¼',null,null,null,'dreamteller@daum.net','MC020',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','695','MC695','ì‚¬ê³ ë­‰ì¹˜ì§€ë§Œ ê°™ì´ ë‹¤ë‹ˆë©´ ê¿€ì¼ì¸ ê´´ì§œ ì™¸ê³„ì¸','https://www.youtube.com/embed/8V7M5jv-1T8',null,null,null,null,'fallinfilm@hotmail.com','MC020',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','C','696','MC696','ì™¸ê³„ì¸ì„ ë§Œë‚˜ê³  ë‚œ í›„ ë²Œì–´ì§„ ì¼','https://www.youtube.com/embed/84KYuGWil-Q','ì˜í™” í™©ë‹¹í•œ ì™¸ê³„ì¸ í´ (2011) ë§ì€ ì‘ì›ë°”ëë‹ˆë‹¤.',null,null,null,'roleplayman@yahoo.com','MC020',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','697','MH697','35ë…„ ë™ì•ˆ ë¹„ìƒê³„ë‹¨ì— ê°‡í˜€ë²„ë¦° ì‚¬ëŒë“¤/ì¸ì‹œë˜íŠ¸(The Incident, 2016/)ì¤„ê±°ë¦¬&í•´ì„¤/ê³µí¬,ìŠ¤ë¦´ëŸ¬ ì¶”ì²œ','https://www.youtube.com/embed/VGNgwuM5IgI','ì—¬ëŸ¬ë¶„ë“¤ì€ í•œê³µê°„ì— ì–¼ë§ˆë‚˜ ì˜¤ë˜ë™ì•ˆ ê³„ì‹¤ìˆ˜ ìˆìœ¼ì‹ ê°€ìš”?
+ì—¬ê¸° 35ë…„ë™ì•ˆ í•œê³³ì— ê°‡í˜€ë²„ë¦° ì‚¬ëŒë“¤ì´ìˆìŠµë‹ˆë‹¤.
+ê³µí¬ë¼ í•˜ê¸´ì—” ë¬´ì„œìš´ ìš”ì†ŒëŠ” ë¶€ì¡±í•˜ì§€ë§Œ, ì˜í™” ë§ˆì§€ë§‰ ë“œëŸ¬ë‚˜ëŠ” ì§„ì‹¤ì€ ë†€ë¼ê¸°ì— ì¶©ë¶„í•œê²ƒ ê°™ìŠµë‹ˆë‹¤.
+*ì¬ë°Œê²Œ ë³´ì…¨ë‹¤ë©´ ì¢‹ì•„ìš” êµ¬ë… ë¶€íƒë“œë¦½ë‹ˆë‹¤~!!',null,null,null,'acut@naver.com','MH001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','698','MH698','35ë…„ ë™ì•ˆ ë¹„ìƒê³„ë‹¨ì— ê°‡íŒ ë‚¨ìì˜ ìƒì¡´ë²•','https://www.youtube.com/embed/zMk-piFQjZU','ì˜í™” ''ì¸ì‹œë˜íŠ¸ (The Incident, 2014)'' ì†Œê°œ ì˜ìƒì…ë‹ˆë‹¤.
+[í•´ë‹¹ ì˜í™” êµ¬ë§¤ ë§í¬]
 https://www.youtube.com/embed/SvMT1...
-[Áö¹«ºñ ±¸µ¶]
+[ì§€ë¬´ë¹„ êµ¬ë…]
 https://goo.gl/4ETvXY
-[Áö¹«ºñ ³×ÀÌ¹öTV]
+[ì§€ë¬´ë¹„ ë„¤ì´ë²„TV]
 http://tv.naver.com/gmovie
-[´Ù¸¥ ¿µÈ­ ¼Ò°³ µÑ·¯º¸±â]
+[ë‹¤ë¥¸ ì˜í™” ì†Œê°œ ë‘˜ëŸ¬ë³´ê¸°]
 https://goo.gl/78TM8K
-[°³ÀÎ ÀÎ½ºÅ¸±×·¥]
+[ê°œì¸ ì¸ìŠ¤íƒ€ê·¸ë¨]
 https://www.instagram.com/awayout1/',null,null,null,'gmovie@hotmail.com','MH001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','699','MH699','¿µ¿øÈ÷ ¹İº¹µÇ´Â Áö¿Á ''¿µÈ­ ÀÎ½Ã´øÆ®'' °á¸» ÇØ¼®¿µ»ó','https://www.youtube.com/embed/3izaCauotZ0','#È«½Ã³×¸¶ #ÀÎ½Ã´øÆ® #°á¸»ÇØ¼®
-¸î³â »çÀÌ º» ¿µÈ­Áß °¡Àå ÀÎ»ó±í°í Èï¹Ì·Ó°í Àç¹Õ°Ô º» ¿µÈ­¿´½À´Ï´Ù
-ÀúÀÇ »ı°¢À» ÁÖÀú¸® ¶°´Â°Å´Ï ºÎÁ·ÇØµµ ³Ê±×·¯ÀÌ ÀÌÇØÇØÁÖ½Å´Ù¸é
-°¨»çÇÏ°Ú½À´Ï´Ù ¤Ğ_¤Ğ
-[¿µÈ­ ±¸¸Å , ´ë¿© ¸µÅ©] ¡é
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','699','MH699','ì˜ì›íˆ ë°˜ë³µë˜ëŠ” ì§€ì˜¥ ''ì˜í™” ì¸ì‹œë˜íŠ¸'' ê²°ë§ í•´ì„ì˜ìƒ','https://www.youtube.com/embed/3izaCauotZ0','#í™ì‹œë„¤ë§ˆ #ì¸ì‹œë˜íŠ¸ #ê²°ë§í•´ì„
+ëª‡ë…„ ì‚¬ì´ ë³¸ ì˜í™”ì¤‘ ê°€ì¥ ì¸ìƒê¹Šê³  í¥ë¯¸ë¡­ê³  ì¬ë°Œê²Œ ë³¸ ì˜í™”ì˜€ìŠµë‹ˆë‹¤
+ì €ì˜ ìƒê°ì„ ì£¼ì €ë¦¬ ë– ëŠ”ê±°ë‹ˆ ë¶€ì¡±í•´ë„ ë„ˆê·¸ëŸ¬ì´ ì´í•´í•´ì£¼ì‹ ë‹¤ë©´
+ê°ì‚¬í•˜ê² ìŠµë‹ˆë‹¤ ã… _ã… 
+[ì˜í™” êµ¬ë§¤ , ëŒ€ì—¬ ë§í¬] â†“
 https://www.youtube.com/embed/SvMT1...
-[È«½Ã³×¸¶ ±¸µ¶]¡é
+[í™ì‹œë„¤ë§ˆ êµ¬ë…]â†“
 https://www.youtube.com/channel/UCtwx...
-[È«½ºÅ¸±×·¥] ¡é
+[í™ìŠ¤íƒ€ê·¸ë¨] â†“
 https://www.instagram.com/hong_cinema/',null,null,null,'hongcinema@gmail.com','MH001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','700','MH700','[ÁøÂ¥¹ÌÄ£°á¸»ÇØ¼®] ÀÌÁ¦²¯ º»Àû¾ø´Â »ó¾î¿µÈ­','https://www.youtube.com/embed/_Ix__obpFDw','½ÉÇØ 47¹ÌÅÍ..
-³²Àº »ê¼Ò·® 15% ÁÖ¾îÁø ½Ã°£Àº ´Ü 20ºĞ
-³°Àº ¼èÃ¢»ìÀÇ ÄÉÀÌÁö¾È
-±×¸®°í ¹ÛÀº ½ÄÀÎ»ó¾î¶¼µé
-¹«ÀüÀ» ¿äÃ»ÇÏ·Á¸é ÄÉÀÌÁö¹ÛÀ¸·Î ³ª°¡ 7¹ÌÅÍ ÀÌ»ó ¸Ç¸öÀ¸·Î ¿Ã¶ó°¡¾ß¸¸ÇÏ°í
-¼²ºÒ¸® ¸Ç¸öÀ¸·Î Å»ÃâÀ» ½ÃµµÇß´Ù°¡ »ó¾îÇÑÅ× ÀâÇô¸Ô°Å³ª
-±Ş°İÇÑ ¾Ğ·ÂÂ÷ÀÇ Áú¼ÒÁßµ¶À¸·Î ¹ÌÃÄ¹ö¸±¼öÀÖ´Ù. ¸¸¾à ´ç½ÅÀÌ¶ó¸é ¾î¶² ¼±ÅÃÀ» ÇÏ°Ú½À´Ï±î?
-¹«´õ¿î ¿©¸§¹ã ´Ü¹Ú¿¡ ´ç½ÅÀ» Â÷°¡¿î Àú¹Ø ÇØÀú ±íÀº°÷À¸·Î ´øÁ®¹ö¸®´Â ¿µÈ­ ±×µéÀº ¿Ö ÀÌ·± À§ÇèÃµ¸¸ÇÑ ¸ğÇèÀ» ½ÃÀÛÇßÀ»±î.
-Áö±İºÎÅÍ ±× ¼ö½É 47¹ÌÅÍÀÇ °øÆ÷¼ÓÀ¸·Î µé¾î°¡ º¸½Ç±î¿ä?',null,null,null,'karang@gmail.com','MH002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','701','MH701','Á×À½ÀÇ »ó¾îÃ¼ÇèÀÌµÇ¹ö¸° ÈŞ°¡.½ÄÀÎ»ó¾î¿¡°Ô Å»ÃâÇÏ±â À§ÇÑ»çÅõ (¹İÀü)','https://www.youtube.com/embed/dIQZshbhEPw','¿µÈ­: 47¹ÌÅÍ ÀÔ´Ï´Ù.
-ÀÌ µ¿¿µ»óÀº ¿ø ÀúÀÛ±Ç ¼ÒÀ¯ÀÚÀÇ ÀúÀÛ±Ç ½ÂÀÎÀ» ¹ŞÀº ¿µ»óÀÔ´Ï´Ù.
-ÁÙ°Å¸®:¸ß½ÃÄÚÀÇ ÅÂÆò¾ç ¿¬¾È¿¡¼­ Æ¯º°ÇÑ ÈŞ°¡¸¦ ¸ÂÀº ¡®¸®»ç¡¯¿Í ¡®ÄÉÀÌÆ®¡¯.
-ÀØÀ» ¼ö ¾ø´Â Ãß¾ïÀ» ¸¸µé±â À§ÇØ ÀÍ½ºÆ®¸² ½ºÆ÷Ã÷ÀÎ »ó¾î Ã¼Çè(»şÅ© ÄÉÀÌÁö)¿¡ µµÀüÇÑ´Ù.
-ÇÏÁö¸¸ Áñ°Å¿òµµ Àá½Ã, ÀÚ¸Å°¡ ¿Ã¶ó Åº ÄÉÀÌÁö´Â ¾Ë ¼ö ¾ø´Â »ç°í·Î
-¼ø½Ä°£¿¡ ½ÉÇØ 47¹ÌÅÍ±îÁö Ãß¶ôÇÏ°í ¸¸´Ù.
-¹«½Ã¹«½ÃÇÑ ½ÄÀÎ »ó¾î ¹«¸®¿¡ µÑ·¯½ÎÀÎ ''»şÅ© ÄÉÀÌÁö'' ¼Ó¿¡¼­
-»ê¼Ò ÅÊÅ©·Î ¹öÆ¿ ¼ö ÀÖ´Â ½Ã°£Àº ´Ü 20ºĞ!',null,null,null,'drunk@hotmail.com','MH002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','702','MH702','»ó¾î À§ÇèÁö¿ª±îÁö µé¾î°£ ±×³àµé¿¡°Ô ¹ú¾îÁø ÀÏ (°á¸»Æ÷ÇÔ / 47¹ÌÅÍ)¤Ó½ºÆ÷ÁÖÀÇ¤Ó¿µÈ­¸®ºä¤Ó°á¸»Æ÷ÇÔ','https://www.youtube.com/embed/YtTnD5eogYE','¡Ü ÀÌ ¿µ»óÀº ÀúÀÛ±ÇÀÚÀÇ ½ÂÀÎÀ» ¹ŞÀº ¿µ»óÀÔ´Ï´Ù ¡Ü
-±¸µ¶ÇÏ±â : https://bit.ly/37j0JmR
-¾È³çÇÏ¼¼¿ä ³ªÀÎ¹«ºñÀÔ´Ï´Ù. ¾ÕÀ¸·Î ´õ ÁÁÀº ¿µ»óÀ» °¡Áö°í Ã£¾Æ ¿À°Ú½À´Ï´Ù^^
-½ÃÃ»ÇØÁÖ½Å ¸ğµç ºĞµé °¨»çµå¸®°í Àç¹ÌÀÖ°Ô º¸¼Ì´Ù¸é,
-±¸µ¶°ú ÁÁ¾Æ¿ä ²À ºÎÅ¹µå¸®°Ú½À´Ï´Ù °¨»çÇÕ´Ï´Ù',null,null,null,'9movie@daum.net','MH002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','703','MH703','°î¼º ÇØ¼® : ÃÖ½Å Á¾ÇÕ ºĞ¼®ÀÔ´Ï´Ù ¡Ø½ºÆ÷ÁÖÀÇ¡Ø','https://www.youtube.com/embed/RpXmN3IL2cU','2016. 7. 8 ÀÏ ¿Ï¼ºµÈ ¸®ºäÀÔ´Ï´Ù.
-Ã³À½ Á¦ÀÛÇÑ ¿µÈ­ ÇØ¼® ¸®ºä¶ó ¸ğÀÚ¶ö °Å¶ó »ı°¢µË´Ï´Ù ¤Ğ
-ºÎµğ ÇÑ ºĞÀÌ¶óµµ Àç¹Õ°Ô ºÁÁÖ¼ÌÀ¸¸é ÁÁ°Ú³×¿ä.
-¼º°æ ±¸Àı°°Àº °æ¿ì ¸î ºÎºĞÀº »ı·«ÇßÀ¸´Ï ¾çÇØ¹Ù¶ø´Ï´Ù.',null,null,null,'fatic74@yahoo.com','MH003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','704','MH704','Ä­¿µÈ­Á¦µµ °î¼ºÀ» ÀÎÁ¤ÇÒ ¼ö¹Û¿¡ ¾ø´Â 5°¡Áö ÀÌÀ¯ [µå¸²ÅÚ·¯]','https://www.youtube.com/embed/mvaSDhFDbMM','°ü°´¿¡°Ô ÇöÈ¤À» °üÂûÇÏ°Ô ÇÑ°ÍÀÌ ¾Æ´Ï¶ó, Ã¼ÇèÇÏ°Ô ÇÑ°ÍÀÔ´Ï´Ù. ÇØ°ñ¸ğ¾ç ²ÉÀº ½Ãµé±âÀü¿¡´Â ¾Æ¸§´äÁö¸¸ ½Ãµé¸é ÇØ°ñ¸ğ¾çÀ¸·Î º¯ÇÏÁÒ. ÀÌ·± Æ¯Â¡Àº ¹ÏÀ½°ú ÀÇ½ÉÀ¸·Î ³ª´µ´Â ¿ì¸®ÀÇ ¸¶À½°ú ´à¾Æ ÀÖ½À´Ï´Ù. Æ¯È÷ Á¾±¸°¡ ¹«¸íÀÇ ¸»À» ¹ÏÁö ¸øÇÏ°í ÁıÀ¸·Î µé¾î°¡´Â ¼ø°£ ÇÇ¾îÀÖ´ø ²É(¹ÏÀ½)ÀÌ ÇØ°ñ¸ğ¾ç(ÀÇ½É)ÀÌ µÇ´Â ¸ğ½ÀÀ» º¸¿©Áİ´Ï´Ù.
-Àı¶§°¡¾Æ´Ï¶ó Àı´ë°¡ ¸ÂÁÒ...Á¦°¡ »çÅõ¸®¸¦ ¾²´Ùº¸´Ï...Àúµµ ¸ğ¸£°Ô
-Á¦ ÀÇ°ßÀÔ´Ï´Ù¸¸, °î¼ºÀº ¾Æ¸¶µµ ¹«¾ùÀÌ ¼±ÀÎÁö ¹«¾ùÀÌ ¾ÇÀÎÁö ÈåÆ®·Á¼­ ¿ì¸®µéÀ» ÇöÈ¤½ÃÄÑ³õ´Â °ÍÀ» ''¾Ç¸¶''·Î Ç¥ÇöÇÏ°í °ü°´µé¿¡°Ô ÇöÈ¤µÇ´Â »óÈ²À» Ã¼ÇèÇÏ°Ô ¸¸µëÀ¸·Î¼­, ''¹ÏÀ½''¿¡ ´ëÇÑ ÀÌ¾ß±â¸¦ ÇÏ·Á°í ÇÑ °Í °°½À´Ï´Ù. *Ãß°İÀÚ¿¡ ³ª¿À´Â ÇÏÁ¤¿ì´Â ''Áö¿µ¹Î''¿ªÀ» ¿¬±âÇß½À´Ï´Ù. À¯¿µÃ¶À» ¸ğÆ¼ºê·Î ÇÑ Ä³¸¯ÅÍÀÌ±äÇÏ³ª À¯¿µÃ¶°ú´Â ´Ù¸¨´Ï´Ù.*',null,null,null,'dreamteller@daum.net','MH003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','705','MH705','°î¼º [ÁÙ°Å¸® ¾Ë·ÁÁÜ - ÇØ¼³ Æí] (ÍÖá¢, THE WAILING, 2016)','https://www.youtube.com/embed/nQBERwh89Zk','[ÁÙ°Å¸® ¾Ë·ÁÁÜ-ÇØ¼³Æí] ¿µÈ­, °î¼º(ÍÖá¢)
-¿µÈ­ÀÇ ÀÌÇØ¿¡ µµ¿òÀÌ µÇ´Â ÁÖ¿ä ÁÙ°Å¸®¿Í Ä³¸¯ÅÍ ¼³Á¤, ¼¼°è°ü µîÀ» ¾Ë·Áµå¸³´Ï´Ù. ¿µÈ­¸¦ ÀÌ¹Ì °ü¶÷ÇÏ½ÅºĞ¸¸ ½ÃÃ»ÇÏ¼¼¿ä. ¡Ø ÀÌ ¿µ»óÀº ÀÛÇ°ÀÇ ÁÖ¿ä ÁÙ°Å¸®¿Í °á¸», ¹İÀü µî ¸ğµç ½ºÆ÷ÀÏ·¯¸¦ Æ÷ÇÔÇÏ°í ÀÖ½À´Ï´Ù.
-¡Ø ¶ÇÇÑ ÀÌ ¿µ»óÀº ¾Ë·ÁÁÜ ÆÀÀÇ ÁÖ°üÀû ÇØ¼®À» Æ÷ÇÔÇÏ°í ÀÖ½À´Ï´Ù. ¡Ø ¾ÆÁ÷ ÀÛÇ°À» ¾È º¸½Å ºĞÀº ¿µ»ó Àç»ı ½Ã ÁÖÀÇÇÏ½Ã±â ¹Ù¶ø´Ï´Ù.
-¡Ø ÇØ¼®¿¡ ´ëÇØ ±Ã±İÇÏ½ÅÁ¡Àº ¾Ë·ÁÁÜ ÆäÀÌ½ººÏ ÆäÀÌÁö ´ñ±Û¿¡¼­ È®ÀÎÇØº¸¼¼¿ä. https://www.facebook.com/allyeozum/vi...
-¡Ø ÀÌÇØ¿¡ µµ¿òÀÌ µÇ¼ÌÀ¸¸é ¾Ë·ÁÁÜ ÆäÀÌÁö ±¸µ¶ ºÎÅ¹µå¸³´Ï´Ù.',null,null,null,'youknow@gmail.com','MH003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','706','MH706','½Ã°£ÀÌ Èå¸¦¼ö·Ï ¾Ç¸¶¿¡°Ô ¸ÔÇô°¡´Â ÇÑ±¹ Åğ¸¶»ç | °á¸»Æ÷ÇÔ |','https://www.youtube.com/embed/-gi7xIwbkEQ','¿À´Ã ¼Ò°³ÇØµå¸± ¿µÈ­´Â #°ËÀº»çÁ¦µé ÀÔ´Ï´Ù.
-¢Â ¸®ÇÊµå Àç¿µ ±¸µ¶ http://bitly.kr/3QlxZ
-¢Â ¸ŞÀÏ ¹®ÀÇ cheerupjaeyoung@gmail.com
-¢Â ÀÎ½ºÅ¸±×·¥ https://www.instagram.com/cheerupjaey...
-¡Ú ¿µ»ó¿¡ ÁÁ¾Æ¿ä¸¦ ´­·¯ÁÖ½Ã¸é Á¤¸» Å« ÈûÀÌ µË´Ï´Ù!',null,null,null,'jy@gmail.com','MH004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','707','MH707','¼¼»ó¿¡¼­ °¡Àå Àß»ı±ä Åğ¸¶»ç°¡ ¿¢¼Ò½Ã½ºÆ® ÇÏ´Â ¿µÈ­(°ËÀº»çÁ¦µé ¸®ºä)','https://www.youtube.com/embed/W1r1Gq4jJ-Y','¿µÈ­ [°ËÀº»çÁ¦µé] ÀÇ ÁÙ°Å¸® ¿ä¾à ¹× ¸®ºä¿µ»óÀÔ´Ï´Ù. ¿µ»ó¿¡ ½ºÆ÷ÀÏ·¯°¡ Æ÷ÇÔµÇ¾îÀÖÀ¸´Ï ½ÃÃ»ÇÏ½Ç ¶§ ÁÖÀÇÇØÁÖ½Ã±æ ¹Ù¶ø´Ï´Ù.',null,null,null,'lak@hotmail.com','MH004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','708','MH708','¹Ú¼Ò´ãÀÌ ¾Ç¸¶¿¡°Ô ±â»ı´çÇÑ Ãæ°İÀûÀÎ ¿µÈ­ °ËÀº»çÁ¦µé(½ºÆ÷o)','https://www.youtube.com/embed/b3G8k3bNj6s','¾È³çÇÏ¼¼¿ä~»óÀÚ¹«ºñ¸®ºäÀÔ´Ï´Ù^^
-¿À´Ã ÁØºñÇÑ ÄÁÅÙÃ÷´Â "°ËÀº»çÁ¦µé"ÀÔ´Ï´Ù.
-2015³â 11¿ù¿¡ °³ºÀÇÑ ¿µÈ­ "°ËÀº»çÁ¦µé"Àº ¾à 540¸¸¸íÀÇ °ü°´ ¼ö¸¦ ±â·ÏÇÏ¸é¼­ ÈïÇà¿¡ ¼º°øÇß½À´Ï´Ù.
-´ç½Ã ±¹³» ¿µÈ­¿¡¼± Ã£¾Æº¸±â Èûµç ¼ÒÀçÀÎ ¿¢¼Ò½º½ÃÆ®, Áï ±¸¸¶ÀÇ½ÄÀ» ¼ÒÀç·Î ´Ù·é ¿µÈ­ÀÎµ¥¿ä. ±×·¯ÇÑ ½Å¼±ÇÑ µµÀüÀ» »ç¶÷µéÀÌ Àß ¾Ë¾ÆºÁ ÁØ µí ÇÕ´Ï´Ù.
-±× ¹Û¿¡µµ ¼ö¸¹Àº ¹®ÇĞÀû, Á¾±³ÀûÀÇ¹Ì°¡ ´ã°ÜÁø ÀÛÇ°ÀÎµ¥¿ä~¾î¶² ÀÇ¹ÌµéÀÌ ´ã°ÜÀÖ´ÂÁö ¿µ»óÀ» ÅëÇØ È®ÀÎÇÏ½ÃÁÕ!',null,null,null,'boxmovie@yahoo.com','MH004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','709','MH709','ÇÏ³ªÀÇ Áú¹®ÀÌ ÀÖ¾ú´Ù. ½ÅÀÇ Á¸Àç¸¦ ¹Ï´Â°¡, ¹ÏÁö ¾Ê´Â°¡: »ç¹ÙÇÏ ¸®ºä','https://www.youtube.com/embed/FP36I35bVD8','°ËÀº »çÁ¦µéÀ» ´É°¡ÇÏ´Â »õ·Î¿î ¹Ì½ºÅÍ¸®.
-ÀåÀçÇö °¨µ¶ÀÇ ½ÅÀÛ.
-Á¾±³¿Í ½Å, ¿ÀÄÃÆ® ¿µÈ­ÀÇ »õ·Î¿î ½Ã´ë¸¦ ¿­¾îÁ¥Èù ¼öÀÛ.
-»ç¹ÙÇÏ ¸®ºäÀÔ´Ï´Ù.',null,null,null,'liner@hotmail.com','MH005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','710','MH710','»ç¹ÙÇÏ..16³â°£ Ã¢°í¿¡ °¤Èù ¼Ò³àÀÇ Ãæ°İÀûÀÎ ´É·Â','https://www.youtube.com/embed/iqWa27gZzJ8','Á¦ÀÛÁö¿ø : CJ¿£ÅÍÅ×ÀÎ¸ÕÆ®
-[Áö¹«ºñ Ã¤³Î ¸â¹ö½Ê °¡ÀÔ]
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','700','MH700','[ì§„ì§œë¯¸ì¹œê²°ë§í•´ì„] ì´ì œê» ë³¸ì ì—†ëŠ” ìƒì–´ì˜í™”','https://www.youtube.com/embed/_Ix__obpFDw','ì‹¬í•´ 47ë¯¸í„°..
+ë‚¨ì€ ì‚°ì†ŒëŸ‰ 15% ì£¼ì–´ì§„ ì‹œê°„ì€ ë‹¨ 20ë¶„
+ë‚¡ì€ ì‡ ì°½ì‚´ì˜ ì¼€ì´ì§€ì•ˆ
+ê·¸ë¦¬ê³  ë°–ì€ ì‹ì¸ìƒì–´ë–¼ë“¤
+ë¬´ì „ì„ ìš”ì²­í•˜ë ¤ë©´ ì¼€ì´ì§€ë°–ìœ¼ë¡œ ë‚˜ê°€ 7ë¯¸í„° ì´ìƒ ë§¨ëª¸ìœ¼ë¡œ ì˜¬ë¼ê°€ì•¼ë§Œí•˜ê³ 
+ì„£ë¶ˆë¦¬ ë§¨ëª¸ìœ¼ë¡œ íƒˆì¶œì„ ì‹œë„í–ˆë‹¤ê°€ ìƒì–´í•œí…Œ ì¡í˜€ë¨¹ê±°ë‚˜
+ê¸‰ê²©í•œ ì••ë ¥ì°¨ì˜ ì§ˆì†Œì¤‘ë…ìœ¼ë¡œ ë¯¸ì³ë²„ë¦´ìˆ˜ìˆë‹¤. ë§Œì•½ ë‹¹ì‹ ì´ë¼ë©´ ì–´ë–¤ ì„ íƒì„ í•˜ê² ìŠµë‹ˆê¹Œ?
+ë¬´ë”ìš´ ì—¬ë¦„ë°¤ ë‹¨ë°•ì— ë‹¹ì‹ ì„ ì°¨ê°€ìš´ ì €ë°‘ í•´ì € ê¹Šì€ê³³ìœ¼ë¡œ ë˜ì ¸ë²„ë¦¬ëŠ” ì˜í™” ê·¸ë“¤ì€ ì™œ ì´ëŸ° ìœ„í—˜ì²œë§Œí•œ ëª¨í—˜ì„ ì‹œì‘í–ˆì„ê¹Œ.
+ì§€ê¸ˆë¶€í„° ê·¸ ìˆ˜ì‹¬ 47ë¯¸í„°ì˜ ê³µí¬ì†ìœ¼ë¡œ ë“¤ì–´ê°€ ë³´ì‹¤ê¹Œìš”?',null,null,null,'karang@gmail.com','MH002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','701','MH701','ì£½ìŒì˜ ìƒì–´ì²´í—˜ì´ë˜ë²„ë¦° íœ´ê°€.ì‹ì¸ìƒì–´ì—ê²Œ íƒˆì¶œí•˜ê¸° ìœ„í•œì‚¬íˆ¬ (ë°˜ì „)','https://www.youtube.com/embed/dIQZshbhEPw','ì˜í™”: 47ë¯¸í„° ì…ë‹ˆë‹¤.
+ì´ ë™ì˜ìƒì€ ì› ì €ì‘ê¶Œ ì†Œìœ ìì˜ ì €ì‘ê¶Œ ìŠ¹ì¸ì„ ë°›ì€ ì˜ìƒì…ë‹ˆë‹¤.
+ì¤„ê±°ë¦¬:ë©•ì‹œì½”ì˜ íƒœí‰ì–‘ ì—°ì•ˆì—ì„œ íŠ¹ë³„í•œ íœ´ê°€ë¥¼ ë§ì€ â€˜ë¦¬ì‚¬â€™ì™€ â€˜ì¼€ì´íŠ¸â€™.
+ìŠì„ ìˆ˜ ì—†ëŠ” ì¶”ì–µì„ ë§Œë“¤ê¸° ìœ„í•´ ìµìŠ¤íŠ¸ë¦¼ ìŠ¤í¬ì¸ ì¸ ìƒì–´ ì²´í—˜(ìƒ¤í¬ ì¼€ì´ì§€)ì— ë„ì „í•œë‹¤.
+í•˜ì§€ë§Œ ì¦ê±°ì›€ë„ ì ì‹œ, ìë§¤ê°€ ì˜¬ë¼ íƒ„ ì¼€ì´ì§€ëŠ” ì•Œ ìˆ˜ ì—†ëŠ” ì‚¬ê³ ë¡œ
+ìˆœì‹ê°„ì— ì‹¬í•´ 47ë¯¸í„°ê¹Œì§€ ì¶”ë½í•˜ê³  ë§Œë‹¤.
+ë¬´ì‹œë¬´ì‹œí•œ ì‹ì¸ ìƒì–´ ë¬´ë¦¬ì— ë‘˜ëŸ¬ì‹¸ì¸ ''ìƒ¤í¬ ì¼€ì´ì§€'' ì†ì—ì„œ
+ì‚°ì†Œ íƒ±í¬ë¡œ ë²„í‹¸ ìˆ˜ ìˆëŠ” ì‹œê°„ì€ ë‹¨ 20ë¶„!',null,null,null,'drunk@hotmail.com','MH002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','702','MH702','ìƒì–´ ìœ„í—˜ì§€ì—­ê¹Œì§€ ë“¤ì–´ê°„ ê·¸ë…€ë“¤ì—ê²Œ ë²Œì–´ì§„ ì¼ (ê²°ë§í¬í•¨ / 47ë¯¸í„°)ã…£ìŠ¤í¬ì£¼ì˜ã…£ì˜í™”ë¦¬ë·°ã…£ê²°ë§í¬í•¨','https://www.youtube.com/embed/YtTnD5eogYE','â— ì´ ì˜ìƒì€ ì €ì‘ê¶Œìì˜ ìŠ¹ì¸ì„ ë°›ì€ ì˜ìƒì…ë‹ˆë‹¤ â—
+êµ¬ë…í•˜ê¸° : https://bit.ly/37j0JmR
+ì•ˆë…•í•˜ì„¸ìš” ë‚˜ì¸ë¬´ë¹„ì…ë‹ˆë‹¤. ì•ìœ¼ë¡œ ë” ì¢‹ì€ ì˜ìƒì„ ê°€ì§€ê³  ì°¾ì•„ ì˜¤ê² ìŠµë‹ˆë‹¤^^
+ì‹œì²­í•´ì£¼ì‹  ëª¨ë“  ë¶„ë“¤ ê°ì‚¬ë“œë¦¬ê³  ì¬ë¯¸ìˆê²Œ ë³´ì…¨ë‹¤ë©´,
+êµ¬ë…ê³¼ ì¢‹ì•„ìš” ê¼­ ë¶€íƒë“œë¦¬ê² ìŠµë‹ˆë‹¤ ê°ì‚¬í•©ë‹ˆë‹¤',null,null,null,'9movie@daum.net','MH002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','703','MH703','ê³¡ì„± í•´ì„ : ìµœì‹  ì¢…í•© ë¶„ì„ì…ë‹ˆë‹¤ â€»ìŠ¤í¬ì£¼ì˜â€»','https://www.youtube.com/embed/RpXmN3IL2cU','2016. 7. 8 ì¼ ì™„ì„±ëœ ë¦¬ë·°ì…ë‹ˆë‹¤.
+ì²˜ìŒ ì œì‘í•œ ì˜í™” í•´ì„ ë¦¬ë·°ë¼ ëª¨ìë„ ê±°ë¼ ìƒê°ë©ë‹ˆë‹¤ ã… 
+ë¶€ë”” í•œ ë¶„ì´ë¼ë„ ì¬ë°Œê²Œ ë´ì£¼ì…¨ìœ¼ë©´ ì¢‹ê² ë„¤ìš”.
+ì„±ê²½ êµ¬ì ˆê°™ì€ ê²½ìš° ëª‡ ë¶€ë¶„ì€ ìƒëµí–ˆìœ¼ë‹ˆ ì–‘í•´ë°”ëë‹ˆë‹¤.',null,null,null,'fatic74@yahoo.com','MH003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','704','MH704','ì¹¸ì˜í™”ì œë„ ê³¡ì„±ì„ ì¸ì •í•  ìˆ˜ë°–ì— ì—†ëŠ” 5ê°€ì§€ ì´ìœ  [ë“œë¦¼í…”ëŸ¬]','https://www.youtube.com/embed/mvaSDhFDbMM','ê´€ê°ì—ê²Œ í˜„í˜¹ì„ ê´€ì°°í•˜ê²Œ í•œê²ƒì´ ì•„ë‹ˆë¼, ì²´í—˜í•˜ê²Œ í•œê²ƒì…ë‹ˆë‹¤. í•´ê³¨ëª¨ì–‘ ê½ƒì€ ì‹œë“¤ê¸°ì „ì—ëŠ” ì•„ë¦„ë‹µì§€ë§Œ ì‹œë“¤ë©´ í•´ê³¨ëª¨ì–‘ìœ¼ë¡œ ë³€í•˜ì£ . ì´ëŸ° íŠ¹ì§•ì€ ë¯¿ìŒê³¼ ì˜ì‹¬ìœ¼ë¡œ ë‚˜ë‰˜ëŠ” ìš°ë¦¬ì˜ ë§ˆìŒê³¼ ë‹®ì•„ ìˆìŠµë‹ˆë‹¤. íŠ¹íˆ ì¢…êµ¬ê°€ ë¬´ëª…ì˜ ë§ì„ ë¯¿ì§€ ëª»í•˜ê³  ì§‘ìœ¼ë¡œ ë“¤ì–´ê°€ëŠ” ìˆœê°„ í”¼ì–´ìˆë˜ ê½ƒ(ë¯¿ìŒ)ì´ í•´ê³¨ëª¨ì–‘(ì˜ì‹¬)ì´ ë˜ëŠ” ëª¨ìŠµì„ ë³´ì—¬ì¤ë‹ˆë‹¤.
+ì ˆë•Œê°€ì•„ë‹ˆë¼ ì ˆëŒ€ê°€ ë§ì£ ...ì œê°€ ì‚¬íˆ¬ë¦¬ë¥¼ ì“°ë‹¤ë³´ë‹ˆ...ì €ë„ ëª¨ë¥´ê²Œ
+ì œ ì˜ê²¬ì…ë‹ˆë‹¤ë§Œ, ê³¡ì„±ì€ ì•„ë§ˆë„ ë¬´ì—‡ì´ ì„ ì¸ì§€ ë¬´ì—‡ì´ ì•…ì¸ì§€ ííŠ¸ë ¤ì„œ ìš°ë¦¬ë“¤ì„ í˜„í˜¹ì‹œì¼œë†“ëŠ” ê²ƒì„ ''ì•…ë§ˆ''ë¡œ í‘œí˜„í•˜ê³  ê´€ê°ë“¤ì—ê²Œ í˜„í˜¹ë˜ëŠ” ìƒí™©ì„ ì²´í—˜í•˜ê²Œ ë§Œë“¬ìœ¼ë¡œì„œ, ''ë¯¿ìŒ''ì— ëŒ€í•œ ì´ì•¼ê¸°ë¥¼ í•˜ë ¤ê³  í•œ ê²ƒ ê°™ìŠµë‹ˆë‹¤. *ì¶”ê²©ìì— ë‚˜ì˜¤ëŠ” í•˜ì •ìš°ëŠ” ''ì§€ì˜ë¯¼''ì—­ì„ ì—°ê¸°í–ˆìŠµë‹ˆë‹¤. ìœ ì˜ì² ì„ ëª¨í‹°ë¸Œë¡œ í•œ ìºë¦­í„°ì´ê¸´í•˜ë‚˜ ìœ ì˜ì² ê³¼ëŠ” ë‹¤ë¦…ë‹ˆë‹¤.*',null,null,null,'dreamteller@daum.net','MH003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','705','MH705','ê³¡ì„± [ì¤„ê±°ë¦¬ ì•Œë ¤ì¤Œ - í•´ì„¤ í¸] (å“­è², THE WAILING, 2016)','https://www.youtube.com/embed/nQBERwh89Zk','[ì¤„ê±°ë¦¬ ì•Œë ¤ì¤Œ-í•´ì„¤í¸] ì˜í™”, ê³¡ì„±(å“­è²)
+ì˜í™”ì˜ ì´í•´ì— ë„ì›€ì´ ë˜ëŠ” ì£¼ìš” ì¤„ê±°ë¦¬ì™€ ìºë¦­í„° ì„¤ì •, ì„¸ê³„ê´€ ë“±ì„ ì•Œë ¤ë“œë¦½ë‹ˆë‹¤. ì˜í™”ë¥¼ ì´ë¯¸ ê´€ëŒí•˜ì‹ ë¶„ë§Œ ì‹œì²­í•˜ì„¸ìš”. â€» ì´ ì˜ìƒì€ ì‘í’ˆì˜ ì£¼ìš” ì¤„ê±°ë¦¬ì™€ ê²°ë§, ë°˜ì „ ë“± ëª¨ë“  ìŠ¤í¬ì¼ëŸ¬ë¥¼ í¬í•¨í•˜ê³  ìˆìŠµë‹ˆë‹¤.
+â€» ë˜í•œ ì´ ì˜ìƒì€ ì•Œë ¤ì¤Œ íŒ€ì˜ ì£¼ê´€ì  í•´ì„ì„ í¬í•¨í•˜ê³  ìˆìŠµë‹ˆë‹¤. â€» ì•„ì§ ì‘í’ˆì„ ì•ˆ ë³´ì‹  ë¶„ì€ ì˜ìƒ ì¬ìƒ ì‹œ ì£¼ì˜í•˜ì‹œê¸° ë°”ëë‹ˆë‹¤.
+â€» í•´ì„ì— ëŒ€í•´ ê¶ê¸ˆí•˜ì‹ ì ì€ ì•Œë ¤ì¤Œ í˜ì´ìŠ¤ë¶ í˜ì´ì§€ ëŒ“ê¸€ì—ì„œ í™•ì¸í•´ë³´ì„¸ìš”. https://www.facebook.com/allyeozum/vi...
+â€» ì´í•´ì— ë„ì›€ì´ ë˜ì…¨ìœ¼ë©´ ì•Œë ¤ì¤Œ í˜ì´ì§€ êµ¬ë… ë¶€íƒë“œë¦½ë‹ˆë‹¤.',null,null,null,'youknow@gmail.com','MH003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','706','MH706','ì‹œê°„ì´ íë¥¼ìˆ˜ë¡ ì•…ë§ˆì—ê²Œ ë¨¹í˜€ê°€ëŠ” í•œêµ­ í‡´ë§ˆì‚¬ | ê²°ë§í¬í•¨ |','https://www.youtube.com/embed/-gi7xIwbkEQ','ì˜¤ëŠ˜ ì†Œê°œí•´ë“œë¦´ ì˜í™”ëŠ” #ê²€ì€ì‚¬ì œë“¤ ì…ë‹ˆë‹¤.
+â—ˆ ë¦¬í•„ë“œ ì¬ì˜ êµ¬ë… http://bitly.kr/3QlxZ
+â—ˆ ë©”ì¼ ë¬¸ì˜ cheerupjaeyoung@gmail.com
+â—ˆ ì¸ìŠ¤íƒ€ê·¸ë¨ https://www.instagram.com/cheerupjaey...
+â˜… ì˜ìƒì— ì¢‹ì•„ìš”ë¥¼ ëˆŒëŸ¬ì£¼ì‹œë©´ ì •ë§ í° í˜ì´ ë©ë‹ˆë‹¤!',null,null,null,'jy@gmail.com','MH004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','707','MH707','ì„¸ìƒì—ì„œ ê°€ì¥ ì˜ìƒê¸´ í‡´ë§ˆì‚¬ê°€ ì—‘ì†Œì‹œìŠ¤íŠ¸ í•˜ëŠ” ì˜í™”(ê²€ì€ì‚¬ì œë“¤ ë¦¬ë·°)','https://www.youtube.com/embed/W1r1Gq4jJ-Y','ì˜í™” [ê²€ì€ì‚¬ì œë“¤] ì˜ ì¤„ê±°ë¦¬ ìš”ì•½ ë° ë¦¬ë·°ì˜ìƒì…ë‹ˆë‹¤. ì˜ìƒì— ìŠ¤í¬ì¼ëŸ¬ê°€ í¬í•¨ë˜ì–´ìˆìœ¼ë‹ˆ ì‹œì²­í•˜ì‹¤ ë•Œ ì£¼ì˜í•´ì£¼ì‹œê¸¸ ë°”ëë‹ˆë‹¤.',null,null,null,'lak@hotmail.com','MH004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','708','MH708','ë°•ì†Œë‹´ì´ ì•…ë§ˆì—ê²Œ ê¸°ìƒë‹¹í•œ ì¶©ê²©ì ì¸ ì˜í™” ê²€ì€ì‚¬ì œë“¤(ìŠ¤í¬o)','https://www.youtube.com/embed/b3G8k3bNj6s','ì•ˆë…•í•˜ì„¸ìš”~ìƒìë¬´ë¹„ë¦¬ë·°ì…ë‹ˆë‹¤^^
+ì˜¤ëŠ˜ ì¤€ë¹„í•œ ì»¨í…ì¸ ëŠ” "ê²€ì€ì‚¬ì œë“¤"ì…ë‹ˆë‹¤.
+2015ë…„ 11ì›”ì— ê°œë´‰í•œ ì˜í™” "ê²€ì€ì‚¬ì œë“¤"ì€ ì•½ 540ë§Œëª…ì˜ ê´€ê° ìˆ˜ë¥¼ ê¸°ë¡í•˜ë©´ì„œ í¥í–‰ì— ì„±ê³µí–ˆìŠµë‹ˆë‹¤.
+ë‹¹ì‹œ êµ­ë‚´ ì˜í™”ì—ì„  ì°¾ì•„ë³´ê¸° í˜ë“  ì†Œì¬ì¸ ì—‘ì†ŒìŠ¤ì‹œíŠ¸, ì¦‰ êµ¬ë§ˆì˜ì‹ì„ ì†Œì¬ë¡œ ë‹¤ë£¬ ì˜í™”ì¸ë°ìš”. ê·¸ëŸ¬í•œ ì‹ ì„ í•œ ë„ì „ì„ ì‚¬ëŒë“¤ì´ ì˜ ì•Œì•„ë´ ì¤€ ë“¯ í•©ë‹ˆë‹¤.
+ê·¸ ë°–ì—ë„ ìˆ˜ë§ì€ ë¬¸í•™ì , ì¢…êµì ì˜ë¯¸ê°€ ë‹´ê²¨ì§„ ì‘í’ˆì¸ë°ìš”~ì–´ë–¤ ì˜ë¯¸ë“¤ì´ ë‹´ê²¨ìˆëŠ”ì§€ ì˜ìƒì„ í†µí•´ í™•ì¸í•˜ì‹œì£µ!',null,null,null,'boxmovie@yahoo.com','MH004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','709','MH709','í•˜ë‚˜ì˜ ì§ˆë¬¸ì´ ìˆì—ˆë‹¤. ì‹ ì˜ ì¡´ì¬ë¥¼ ë¯¿ëŠ”ê°€, ë¯¿ì§€ ì•ŠëŠ”ê°€: ì‚¬ë°”í•˜ ë¦¬ë·°','https://www.youtube.com/embed/FP36I35bVD8','ê²€ì€ ì‚¬ì œë“¤ì„ ëŠ¥ê°€í•˜ëŠ” ìƒˆë¡œìš´ ë¯¸ìŠ¤í„°ë¦¬.
+ì¥ì¬í˜„ ê°ë…ì˜ ì‹ ì‘.
+ì¢…êµì™€ ì‹ , ì˜¤ì»¬íŠ¸ ì˜í™”ì˜ ìƒˆë¡œìš´ ì‹œëŒ€ë¥¼ ì—´ì–´ì –íŒ ìˆ˜ì‘.
+ì‚¬ë°”í•˜ ë¦¬ë·°ì…ë‹ˆë‹¤.',null,null,null,'liner@hotmail.com','MH005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','710','MH710','ì‚¬ë°”í•˜..16ë…„ê°„ ì°½ê³ ì— ê°‡íŒ ì†Œë…€ì˜ ì¶©ê²©ì ì¸ ëŠ¥ë ¥','https://www.youtube.com/embed/iqWa27gZzJ8','ì œì‘ì§€ì› : CJì—”í„°í…Œì¸ë¨¼íŠ¸
+[ì§€ë¬´ë¹„ ì±„ë„ ë©¤ë²„ì‹­ ê°€ì…]
 https://goo.gl/LrQJgy
-[Áö¹«ºñ ±¸µ¶] https://goo.gl/4ETvXY
-[°³ÀÎ ÀÎ½ºÅ¸±×·¥] https://www.instagram.com/awayout1/
-[´Ù¸¥ ¿µÈ­ ¼Ò°³ µÑ·¯º¸±â]
+[ì§€ë¬´ë¹„ êµ¬ë…] https://goo.gl/4ETvXY
+[ê°œì¸ ì¸ìŠ¤íƒ€ê·¸ë¨] https://www.instagram.com/awayout1/
+[ë‹¤ë¥¸ ì˜í™” ì†Œê°œ ë‘˜ëŸ¬ë³´ê¸°]
 https://goo.gl/78TM8K
-[Áö¹«ºñ ÈÄ¿ø] https://toon.at/donate/63667153356661...
-[Áö¹«ºñ ³×ÀÌ¹öTV]
+[ì§€ë¬´ë¹„ í›„ì›] https://toon.at/donate/63667153356661...
+[ì§€ë¬´ë¹„ ë„¤ì´ë²„TV]
 http://tv.naver.com/gmovie
-[Áö¹«ºñ ÆäÀÌ½ººÏ] https://www.facebook.com/pg/Gmoviee
-[ÀÌ¸ŞÀÏ] awayout2@naver.com
-Á¦ÀÛÁö¿ø : CJ¿£ÅÍÅ×ÀÎ¸ÕÆ®',null,null,null,'gmovie@hotmail.com','MH005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','711','MH711','»ı°¢''ÇÏ°Ô ¸¸µå´Â ¿µÈ­°¡ ¾ó¸¶¸¸ÀÎ°¡? : ¿µÈ­ ''»ç¹ÙÇÏ'' ¸®ºä','https://www.youtube.com/embed/eSZha-rpqLc','* º» ¿µ»óÀº ½ºÆ÷ÀÏ·¯°¡ ´Ù¼ö Æ÷ÇÔµÇ¾î ÀÖ½À´Ï´Ù *
-¿µÈ­ÆÒÀ¸·Î½á, ³Ê¹«³ªµµ ±â»Ú°í °¨µ¿ÀûÀÎ ¿µÈ­ÀÔ´Ï´Ù.
-¿µÈ­¸¦ º¸°í »ı°¢À» ³ª´­ ¼ö ÀÖ´Â ¿µÈ­.
-¿µÈ­¸¦ ¸»ÇÏ¸ç, Åä·Ğ ÇÒ ¼ö ÀÖ´Â ¿µÈ­.
-ÀÛÇ°¼º°ú È­Á¦¼º. µÎ ¸¶¸® Åä³¢¸¦ ¸ğµÎ ÀâÀº ¿µÈ­ÀÔ´Ï´Ù.
-¸ğµç ³»¿ëÀº Á¦ °³ÀÎÀûÀÎ ÀÇ°ßÀÔ´Ï´Ù.',null,null,null,'aloneman@daum.net','MH005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','712','MH712','1% ÃµÀç ½ÎÀÌÄÚÆĞ½º »ìÀÎ¸¶¸¦ ÀÌ¿ëÇÏ·Á´Ù ¿ª°ü±¤ ´çÇÏ´Â FBI¿Í °æÂûµé','https://www.youtube.com/embed/K04hYM7Oqbo','#¾çµéÀÇÄ§¹¬ #¿µÈ­¼Ò°³ #µå¸²ÅÚ·¯',null,null,null,'dreamteller@daum.net','MH006',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','713','MH713','ÀÎ°£ÀÇ »ìÄÚ±â¸¦ Áñ°Ü ¸Ô´ø Á¤½Å°úÀÇ»ç:¾çµéÀÇ Ä§¹¬[ÁÖ°üÀû ¿µÈ­¸®ºä]','https://www.youtube.com/embed/Y3DwaoHEV10','¹üÁË ½º¸±·¯ÀÇ ´ëºÎ ¾çµéÀÇ Ä§¹¬ ¾ÆÁ÷µµ ÀØÇôÁöÁö ¾ÊÀ¸¸ç ¾ÕÀ¸·Îµµ ±×·² ¿¹Á¤ÀÎ ¸íÀÛ ¾çµéÀÇ Ä§¹¬À» º¸½ÅºĞµé º¸Áö ¾ÊÀ¸½ÅºĞ ºĞµé ¸ğµÎ ¸ğµÎ ¿À¼¼¿ä',null,null,null,'about@hotmail.com','MH006',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','714','MH714','[JÀÇ ¹«¶ì²ô][¿µÈ­¸®ºä][¾çµéÀÇ Ä§¹¬] ¿¬¼â»ìÀÎ¸¶¸¦ Àâ±âÀ§ÇØ ¶Ç ´Ù¸¥ ¿¬¼â»ìÀÎ¸¶¸¦ ÀÌ¿ëÇÑ´Ù¸é?','https://www.youtube.com/embed/O2BFk2iB0Xk','JÀÇ ¹«¶ì²ô ,¿­¹øÂ° ¸®ºä. ¿µÈ­ ''¾çµéÀÇ Ä§¹¬''ÀÔ´Ï´Ù.
-10¹øÂ° ¸®ºä·Î ¿Ã·È´ø ''ÀÌÅÍ³Î ¼±»şÀÎ''ÀÌ.. ÀúÀÛ±ÇÀÇ ¹®Á¦·Î ÀÎÇØ ³»·ÁÁö°í ¸»¾Ò½À´Ï´Ù..(R.I.P)
-ÇÏ¿© ±¸µ¶ÀÚ ÇÑ ºĞÀÇ ¿äÃ»¿¡ ´õºÒ¾î 10¹øÂ° ¸®ºä·Î
-Àúµµ ±²ÀåÈ÷ Àç¹Õ°Ô ºÃ¾ú´ø ''¾çµéÀÇ Ä§¹¬''À» ¸®ºäÇÕ´Ï´Ù :)
-È£·¯¿Í ½º¸±·¯ ¿µÈ­ÀÇ ±³°ú¼­ ÀûÀÎ ÀÛÇ°ÀÌ¶ó°í ºÒ·Áµµ ÀüÇô ¹«¹æÇÏÁö ¾ÊÀ» Á¤µµ·Î ¸íÀÛÁßÀÇ ¸íÀÛÀÔ´Ï´Ù.
-¾È¼Ò´Ï È©Å²½ºÀÇ ¹ÌÄ¥µíÇÑ(...) ¿¬±â¸¦ º¸°í½ÍÀ¸½Å ºĞ
-½º¸±·¯ ¿µÈ­¸¦ ÁÁ¾ÆÇÏ½Ã´Â ºĞ Áß ¾ÆÁ÷ º¸Áö ¾ÊÀ¸¼Ì´Ù¸é ÃßÃµµå¸³´Ï´Ù :)
-* Ç×»ó ÁÁÀº ´ñ±Û ³²°ÜÁÖ½Ã´Â ¾ÆÀÌÅÛÁÖ´Â »ç¶÷´Ô °¨»çÇÕ´Ï´Ù :) ¢¾
-ÀÌÅÍ³Î ¼±»şÀÎ ¿µ»óÀÌ ³»·Á°¬Áö¸¸ ³²°ÜÁÖ¼Ì´ø ´ñ±ÛÀº
-Á¦°¡ ¼ÒÁßÇÏ°Ô º¸°üÇÏ°í ÀÖ½À´Ï´Ù :D
-Á¦ Ã¤³ÎÀº Ãâ±Ù±æÀÌ³ª Åğ±Ù±æ, ÀÚ±âÀü
-°£´ÜÇÏ°Ô ¿µÈ­¸¦ º¸°í½ÍÀ¸½Å ºĞµéÀ» À§ÇÑ Ã¤³Î·Î ¸¸µé¾îÁ³½À´Ï´Ù :) ºÎÁ·ÇÑ ºÎºĞÀÌ ¸¹´õ¶óµµ Áñ°Ì°Ô ºÁÁÖ½Ã°í, ºÎÁ·ÇÑ Á¡Àº ´ñ±Û·Î ºÎÅ¹µå¸³´Ï´Ù. ´ñ±Û¿¡ º¸°í½ÍÀº ¿µÈ­ ¸®ºä¸¦ ³²°ÜÁÖ½Ã¸é, ´ÙÀ½ ¸®ºä¸¦ ¸¸µé¶§ Àû±ØÀûÀ¸·Î ¹İ¿µÇÏ°Ú½À´Ï´Ù :)
-¿©·¯ºĞÀÇ ÁÁ¾Æ¿ä¿Í ±¸µ¶Àº Àú¿¡°Ô Å« ÈûÀÌ µË´Ï´Ù. °¨»çÇÕ´Ï´Ù! :)',null,null,null,'mootiqj@gmail.com','MH006',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','715','MH715','±Í½Å¾øÀÌµµ ¹«¼­¿î °øÆ÷¿µÈ­ ¤ÓÆÄ¶ó³ë¸» ¾×Æ¼ºñÆ¼¤Ó(¿µÈ­¸®ºä,°á¸»Æ÷ÇÔ)','https://www.youtube.com/embed/nLHwU-V18x0','°¢Á¾ ¹®ÀÇ ¸ŞÀÏ : yb1619@naver.com
-¿µÈ­ ''ÆÄ¶ó³ë¸» ¾×Æ¼ºñÆ¼''¿´½À´Ï´Ù',null,null,null,'baebae@gmail.com','MH007',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','716','MH716','±Í½ÅÀº ÇÏ³ªµµ ¾È³ª¿À´Âµ¥ ºĞÀ§±â·Î °ü°´À» ¾ĞµµÇÏ´Â ¿µÈ­ ¤Ó¿µÈ­¸®ºä¤Ó°á¸»Æ÷ÇÔ¤Ó¿µÈ­¼Ò°³¤Ó¿µÈ­ÃßÃµ','https://www.youtube.com/embed/t2AXLglzzME','¿µÈ­:ÆÄ¶ó³ë¸» ¾×Æ¼ºñÆ¼ 1Æí',null,null,null,'9movie@daum.net','MH007',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','717','MH717','Ä«¸Ş¶ó·Î ½É·É ¿µ»óÀ» ÂïÀ¸¸é ¾È µÇ´Â ÀÌÀ¯ [¿µÈ­¸®ºä °á¸» Æ÷ÇÔ]','https://www.youtube.com/embed/9W3O_3g99yU','ÆÄ¶ó³ë¸» ¾×Æ¼ºñÆ¼
-¿µÈ­¸®ºä °á¸» Æ÷ÇÔ
-°øÆ÷ ¿µÈ­',null,null,null,'videobang@daum.net','MH007',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','718','MH718','±âÂ÷¿¡ »ç¶÷º¸´Ù Á»ºñ°¡¸¹´Ù¤ÓºÎ»êÇà¤Ó(¿µÈ­¸®ºä,°á¸»Æ÷ÇÔ)','https://www.youtube.com/embed/5B0Pb4Zj1SM','¿µÈ­ ''ºÎ»êÇà'' ÀÌ¾ú½À´Ï´Ù',null,null,null,'baebae@gmail.com','MH008',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','719','MH719','ÇØ¿Ü¿¡¼­ ÀÎÁ¤ÇÑ ºÎ»êÇàÀÇ ''¼û°ÜÁø ÀÇ¹Ì''','https://www.youtube.com/embed/T0cxC1KpPNE','ºÎ»êÇà Àß¸¸µé¾ú¾î¿ä. Á»ºñ ¿µÈ­Ä¡°í ÀÛÇ°¼º ±¦ÂúÀº°Å °°¾Æ¿ä.',null,null,null,'dreamteller@daum.net','MH008',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','720','MH720','ºÎ»êÇà °¡ÀÌµå ¸®ºä by ¹ß¾ø´Â»õ','https://www.youtube.com/embed/inUoYMG3tYU','¡Ú µ¡±Û·Î °á¸»±îÁö Æ÷ÇÔÇÑ ½ºÆ÷ÀÏ·¯¸¦ ³²¹ßÇÏ½Ã´Â ºĞµéÀÌ °è¼Å¼­ ´İ½À´Ï´Ù. ´ëÃ¼ ¿Ö ±×·¡¿ä? -_-;;; ÃÖ¼ÒÇÑ ±İÁÖ ÁÖ¸»ÀÌ Áö³ª¸é ´Ù½Ã ¿­°Ú½À´Ï´Ù ¡Ú
-¿ì¸®³ª¶ó ÃÖÃÊ·Î Á»ºñ°¡ µîÀåÇÏ´Â ºí·Ï¹ö½ºÅÍÀÎ
-ºÎ»êÇàÀÌ ¸¹Àº °ü½É ¼Ó¿¡¼­ °³ºÀÇß½À´Ï´Ù.
-¶Ç ÇÑ¹øÀÇ ½Ãµµ ¼Ó¿¡¼­ ¾î¶² °á°ú¸¦ ³ÂÀ»±î¿ä?',null,null,null,'nofootbird@gmail.com','MH008',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','721','MH721','¸¶À»¿¡ ¼û¾î»ç´Â ±¤´ëÀÇ ÀúÁÖ (°á¸»Æ÷ÇÔ/±×°Í)','https://www.youtube.com/embed/fSfYnWgN1eg','¾È³çÇÏ¼¼¿ä! ¿µÈ­¸¦ ÀĞ¾îÁÖ´Â ³²ÀÚ ¿µÀÏ³²ÀÔ´Ï´Ù.
-¿µÈ­ ±×°Í1 (2017)ÀÔ´Ï´Ù.
-9¿ù 4ÀÏ¿¡ °³ºÀÇÏ´Â ±×°Í 2¿¡ ¸ÂÃç ¿¹Àü¿¡ ¾÷·Îµå ÇÏ¿´À¸³ª
-³ë¶õµüÁö ¹®Á¦·Î ÀÌ¹Ì °³ºÀ ÇÏ·ç µÚ°¡ µÇ¾ú³×¿ä.
-º» ¿µÈ­ ½Ã³ª¸®¿À»ó ÇÊ¿ä ¾ø´Â ºÎºĞÀÌ °ÅÀÇ ¾ø¾ú¾î¿ä.
-ÁÙÀÌ°í ÁÙ¿©µµ 28ºĞ ¾Æ·¡·Î ÁÙ¾îµéÁö°¡ ¾Ê³×¿ä¤Ğ¤Ğ
-°¢ ¿µ»ó¸¶´Ù ¸ğµÎ ¿¬°áµÇ¾îÀÖ°í ÇÏ³ª¸¦ ÀÚ¸£¸é °³¿¬¼ºÀÌ
-²÷¾îÁ® 28ºĞÀ¸·Î ±×´ë·Î ¿Ã¸®±â·Î ÇÏ¿´¾î¿ä. ¾ÆÂü ±×¸®°í ÄÄÇ»ÅÍ »ç¾ç ¹®Á¦ÀÎÁö, ¸¹ÀÌ ´À¸®°í Æ¨°Ü¼­
-ÀÌ¹ø ÆíÀº ±ô³îÁÖÀÇ°¡ ¾È µé¾î°©´Ï´Ù.
-µ¿ÀÏ ÀÛ¾÷¿¡¼­ ÇÑ ½Ã°£ ³»³» ½Ê¼ö ¹ø Æ¨±â°í Æ÷±âÇß³×¿ä..
-ÄÄÇ»ÅÍ ºÎÇ° ±³Ã¼¸¦ ÇØ¾ß ÇÒ °Í °°½À´Ï´Ù.
-±ô³îÁÖÀÇ ±¸°£Àº ´ñ±Û·Î ³²°Ü³õÀ»°Ô¿ä! ¿À´Ãµµ ºÁÁÖ¼Å¼­ Á¤¸» °¨»çÇÕ´Ï´Ù.',null,null,null,'youngread@daum.net','MH009',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','722','MH722','±¤´ë Çø¿À¸¦ ¸ØÃçÁÖ¼¼¿ä. °øÆ÷°¡ ½ÇÁ¾µÈ ¼ºÀå µå¶ó¸¶ : ±×°Í(IT) ¸®ºä - ¶óÀÌ³Ê','https://www.youtube.com/embed/R6B7UiiGGZ0','½ºÆ¼ºì Å·ÀÇ ¿ªÀÛ, ¿ª»çÀûÀÎ È£·¯ ¼Ò¼³ ±×°Í(IT).
-±¹³»¿¡µµ ''ÇÇÀÇ »ß¿¡·Î''¶ó´Â Á¦¸ñÀ¸·Î ¾Ë·ÁÁ³´ø µå¶ó¸¶ÀÇ ¿µÈ­È­!
-7¸íÀÇ ¾ÆÀÌµé, ·çÀú Å¬·´ÀÌ ±¤´ë Æä³×¿ÍÀÌ½º¿¡ ´ëÇ×ÇÑ´Ù.
-°øÆ÷ ¿µÈ­¸¦ Ç¥¹æÇßÁö¸¸ Áö³ªÄ£ Á¡ÇÁ ½ºÄÉÀÏ°ú ¹İº¹µÇ´Â ±¸µµ·Î °øÆ÷ ¿µÈ­·Î¼­´Â ÇÔ·® ¹Ì´ŞÀÇ ÀÛÇ°. Çã³ª ¼ºÀå µå¶ó¸¶·Î´Â Á¦¹ı ±¦Âú½À´Ï´Ù.
-¶óÀÌ³ÊÀÇ ¸®ºä¿Í ÇÔ²²ÇÏ¼¼¿ä!',null,null,null,'liner@hotmail.com','MH009',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','723','MH723','º¸°í³ª¸é ÇÏ¼ö±¸¸¦ ÃÄ´Ùº¼ ¼ö ¾ø°Ô µÇ´Â ¿µÈ­ (°á¸»Æ÷ÇÔ, ½ºÆ÷ÁÖÀÇ)','https://www.youtube.com/embed/UzxhgMnWWnM','¿À´ÃÀÇ ¿µÈ­¸®ºä´Â '' ÇÇÀÇ »ß¿¡·Î, ±×°Í (1990) '' ÀÔ´Ï´Ù.
-¿À´Ã °³ºÀµÈ ±×°Í2¿Í °°Àº µ¿¸íÀÇ ¼Ò¼³À» ¿øÀÛÀ¸·Î ÇÏ°í ÀÖÀ¸¸ç
-ÃÖ±Ù °³ºÀµÈ ¿µÈ­´Â ¾î¸° ½ÃÀı°ú ¾î¸¥ÀÌ µÈ ½ÃÀıÀ» µû·Î ±×¸®´Â °Í°ú
-´Ù¸£°Ô ÀÌ ¿µÈ­´Â ¼­·Î ±³Â÷ÇØ ±×·Á³»´Â Á¡ÀÌ ÀÎ»óÀûÀÔ´Ï´Ù.
-½ÃÃ»ÇØÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù!
-±×°Í 2017 ´Ù½Ãº¸±â',null,null,null,'pause@daum.net','MH009',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','724','MH724','°Å¿ïº¸±â ½È¾îÁö´Â ¿µÈ­','https://www.youtube.com/embed/iw8MmUQPKKA','º» ¸®ºä´Â ¿µÈ­ÀÇ Àü¹İÀûÀÎ ½ºÅä¸®¸¦ ´Ù·ì´Ï´Ù.
-´ñ±Û ÃßÃµ¹Ş¾Æ¼­ ¸¸µé°Ô µÈ ¸®ºä
-¿µÈ­ ''¿ÀÅ§·¯½º'' ¸®ºä
-¾îº¥Á®½º¿¡ ³×ºí¶ó¸¦ ±â¾ïÇÏ½Ã³ª¿ä? ³×ºí¶ó, Ä«·» Å³·±ÀÌ ÁÖ¿¬ ÄÉÀÏ¸® ¿ªÀ» ±×¸®°í Àß»ı±ä ¹è¿ì ºê·»Æ° ½º¿şÀÌÃ÷°¡ ÆÀ¿ªÀ» ¸Ã¾Ò´Ù,
-ÀÌ»çÇÒ¶§ »ê °Å¿ïÀÌ ¿ì¸® °¡Á¤À» ¸Á°¡¶ß¸°´Ù°í?!
-½È¾î ³»°¡ ¹Ù²Ü°Å¾ß!
-°Å¿ïÀÌ º¸±â ½È¾îÁö´Â ¿µÈ­
-ÁÁ¾Æ¿ä ±¸µ¶,ÇÇµå¹éÀº Å«ÈûÀÌ µË´Ï´Ù',null,null,null,'socheon@daum.net','MH010',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','725','MH725','½Ã°£ÀÌ ¾Æ±õÁö ¾ÊÀº Àß ¸¸µç °øÆ÷¿µÈ­','https://www.youtube.com/embed/ZvY-Z3bVGs8','¡Ú ±¸µ¶¡¤ÁÁ¾Æ¿ä¡¤ÇÕ¹ıÀû °øÀ¯¡¤´ñ±Û·Î ¸®µå¹«ºñ¸¦ ÀÀ¿øÇØÁÖ¼¼¿ä! ¡Ú
-¡Ú¡Ú ²ÙÁØÇÑ ¾÷·Îµå, ´õ ÁÁÀº ¿µ»óÀ¸·Î Ã£¾ÆºË°Ú½À´Ï´Ù!! ¡Ú¡Ú
-¡İ ¸®µå¹«ºñ Ã¤³Î ±¸µ¶
+[ì§€ë¬´ë¹„ í˜ì´ìŠ¤ë¶] https://www.facebook.com/pg/Gmoviee
+[ì´ë©”ì¼] awayout2@naver.com
+ì œì‘ì§€ì› : CJì—”í„°í…Œì¸ë¨¼íŠ¸',null,null,null,'gmovie@hotmail.com','MH005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','711','MH711','ìƒê°''í•˜ê²Œ ë§Œë“œëŠ” ì˜í™”ê°€ ì–¼ë§ˆë§Œì¸ê°€? : ì˜í™” ''ì‚¬ë°”í•˜'' ë¦¬ë·°','https://www.youtube.com/embed/eSZha-rpqLc','* ë³¸ ì˜ìƒì€ ìŠ¤í¬ì¼ëŸ¬ê°€ ë‹¤ìˆ˜ í¬í•¨ë˜ì–´ ìˆìŠµë‹ˆë‹¤ *
+ì˜í™”íŒ¬ìœ¼ë¡œì¨, ë„ˆë¬´ë‚˜ë„ ê¸°ì˜ê³  ê°ë™ì ì¸ ì˜í™”ì…ë‹ˆë‹¤.
+ì˜í™”ë¥¼ ë³´ê³  ìƒê°ì„ ë‚˜ëˆŒ ìˆ˜ ìˆëŠ” ì˜í™”.
+ì˜í™”ë¥¼ ë§í•˜ë©°, í† ë¡  í•  ìˆ˜ ìˆëŠ” ì˜í™”.
+ì‘í’ˆì„±ê³¼ í™”ì œì„±. ë‘ ë§ˆë¦¬ í† ë¼ë¥¼ ëª¨ë‘ ì¡ì€ ì˜í™”ì…ë‹ˆë‹¤.
+ëª¨ë“  ë‚´ìš©ì€ ì œ ê°œì¸ì ì¸ ì˜ê²¬ì…ë‹ˆë‹¤.',null,null,null,'aloneman@daum.net','MH005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','712','MH712','1% ì²œì¬ ì‹¸ì´ì½”íŒ¨ìŠ¤ ì‚´ì¸ë§ˆë¥¼ ì´ìš©í•˜ë ¤ë‹¤ ì—­ê´€ê´‘ ë‹¹í•˜ëŠ” FBIì™€ ê²½ì°°ë“¤','https://www.youtube.com/embed/K04hYM7Oqbo','#ì–‘ë“¤ì˜ì¹¨ë¬µ #ì˜í™”ì†Œê°œ #ë“œë¦¼í…”ëŸ¬',null,null,null,'dreamteller@daum.net','MH006',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','713','MH713','ì¸ê°„ì˜ ì‚´ì½”ê¸°ë¥¼ ì¦ê²¨ ë¨¹ë˜ ì •ì‹ ê³¼ì˜ì‚¬:ì–‘ë“¤ì˜ ì¹¨ë¬µ[ì£¼ê´€ì  ì˜í™”ë¦¬ë·°]','https://www.youtube.com/embed/Y3DwaoHEV10','ë²”ì£„ ìŠ¤ë¦´ëŸ¬ì˜ ëŒ€ë¶€ ì–‘ë“¤ì˜ ì¹¨ë¬µ ì•„ì§ë„ ìŠí˜€ì§€ì§€ ì•Šìœ¼ë©° ì•ìœ¼ë¡œë„ ê·¸ëŸ´ ì˜ˆì •ì¸ ëª…ì‘ ì–‘ë“¤ì˜ ì¹¨ë¬µì„ ë³´ì‹ ë¶„ë“¤ ë³´ì§€ ì•Šìœ¼ì‹ ë¶„ ë¶„ë“¤ ëª¨ë‘ ëª¨ë‘ ì˜¤ì„¸ìš”',null,null,null,'about@hotmail.com','MH006',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','714','MH714','[Jì˜ ë¬´ë ë„][ì˜í™”ë¦¬ë·°][ì–‘ë“¤ì˜ ì¹¨ë¬µ] ì—°ì‡„ì‚´ì¸ë§ˆë¥¼ ì¡ê¸°ìœ„í•´ ë˜ ë‹¤ë¥¸ ì—°ì‡„ì‚´ì¸ë§ˆë¥¼ ì´ìš©í•œë‹¤ë©´?','https://www.youtube.com/embed/O2BFk2iB0Xk','Jì˜ ë¬´ë ë„ ,ì—´ë²ˆì§¸ ë¦¬ë·°. ì˜í™” ''ì–‘ë“¤ì˜ ì¹¨ë¬µ''ì…ë‹ˆë‹¤.
+10ë²ˆì§¸ ë¦¬ë·°ë¡œ ì˜¬ë ¸ë˜ ''ì´í„°ë„ ì„ ìƒ¤ì¸''ì´.. ì €ì‘ê¶Œì˜ ë¬¸ì œë¡œ ì¸í•´ ë‚´ë ¤ì§€ê³  ë§ì•˜ìŠµë‹ˆë‹¤..(R.I.P)
+í•˜ì—¬ êµ¬ë…ì í•œ ë¶„ì˜ ìš”ì²­ì— ë”ë¶ˆì–´ 10ë²ˆì§¸ ë¦¬ë·°ë¡œ
+ì €ë„ êµ‰ì¥íˆ ì¬ë°Œê²Œ ë´¤ì—ˆë˜ ''ì–‘ë“¤ì˜ ì¹¨ë¬µ''ì„ ë¦¬ë·°í•©ë‹ˆë‹¤ :)
+í˜¸ëŸ¬ì™€ ìŠ¤ë¦´ëŸ¬ ì˜í™”ì˜ êµê³¼ì„œ ì ì¸ ì‘í’ˆì´ë¼ê³  ë¶ˆë ¤ë„ ì „í˜€ ë¬´ë°©í•˜ì§€ ì•Šì„ ì •ë„ë¡œ ëª…ì‘ì¤‘ì˜ ëª…ì‘ì…ë‹ˆë‹¤.
+ì•ˆì†Œë‹ˆ í™‰í‚¨ìŠ¤ì˜ ë¯¸ì¹ ë“¯í•œ(...) ì—°ê¸°ë¥¼ ë³´ê³ ì‹¶ìœ¼ì‹  ë¶„
+ìŠ¤ë¦´ëŸ¬ ì˜í™”ë¥¼ ì¢‹ì•„í•˜ì‹œëŠ” ë¶„ ì¤‘ ì•„ì§ ë³´ì§€ ì•Šìœ¼ì…¨ë‹¤ë©´ ì¶”ì²œë“œë¦½ë‹ˆë‹¤ :)
+* í•­ìƒ ì¢‹ì€ ëŒ“ê¸€ ë‚¨ê²¨ì£¼ì‹œëŠ” ì•„ì´í…œì£¼ëŠ” ì‚¬ëŒë‹˜ ê°ì‚¬í•©ë‹ˆë‹¤ :) â™¥
+ì´í„°ë„ ì„ ìƒ¤ì¸ ì˜ìƒì´ ë‚´ë ¤ê°”ì§€ë§Œ ë‚¨ê²¨ì£¼ì…¨ë˜ ëŒ“ê¸€ì€
+ì œê°€ ì†Œì¤‘í•˜ê²Œ ë³´ê´€í•˜ê³  ìˆìŠµë‹ˆë‹¤ :D
+ì œ ì±„ë„ì€ ì¶œê·¼ê¸¸ì´ë‚˜ í‡´ê·¼ê¸¸, ìê¸°ì „
+ê°„ë‹¨í•˜ê²Œ ì˜í™”ë¥¼ ë³´ê³ ì‹¶ìœ¼ì‹  ë¶„ë“¤ì„ ìœ„í•œ ì±„ë„ë¡œ ë§Œë“¤ì–´ì¡ŒìŠµë‹ˆë‹¤ :) ë¶€ì¡±í•œ ë¶€ë¶„ì´ ë§ë”ë¼ë„ ì¦ê²ê²Œ ë´ì£¼ì‹œê³ , ë¶€ì¡±í•œ ì ì€ ëŒ“ê¸€ë¡œ ë¶€íƒë“œë¦½ë‹ˆë‹¤. ëŒ“ê¸€ì— ë³´ê³ ì‹¶ì€ ì˜í™” ë¦¬ë·°ë¥¼ ë‚¨ê²¨ì£¼ì‹œë©´, ë‹¤ìŒ ë¦¬ë·°ë¥¼ ë§Œë“¤ë•Œ ì ê·¹ì ìœ¼ë¡œ ë°˜ì˜í•˜ê² ìŠµë‹ˆë‹¤ :)
+ì—¬ëŸ¬ë¶„ì˜ ì¢‹ì•„ìš”ì™€ êµ¬ë…ì€ ì €ì—ê²Œ í° í˜ì´ ë©ë‹ˆë‹¤. ê°ì‚¬í•©ë‹ˆë‹¤! :)',null,null,null,'mootiqj@gmail.com','MH006',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','715','MH715','ê·€ì‹ ì—†ì´ë„ ë¬´ì„œìš´ ê³µí¬ì˜í™” ã…£íŒŒë¼ë…¸ë§ ì•¡í‹°ë¹„í‹°ã…£(ì˜í™”ë¦¬ë·°,ê²°ë§í¬í•¨)','https://www.youtube.com/embed/nLHwU-V18x0','ê°ì¢… ë¬¸ì˜ ë©”ì¼ : yb1619@naver.com
+ì˜í™” ''íŒŒë¼ë…¸ë§ ì•¡í‹°ë¹„í‹°''ì˜€ìŠµë‹ˆë‹¤',null,null,null,'baebae@gmail.com','MH007',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','716','MH716','ê·€ì‹ ì€ í•˜ë‚˜ë„ ì•ˆë‚˜ì˜¤ëŠ”ë° ë¶„ìœ„ê¸°ë¡œ ê´€ê°ì„ ì••ë„í•˜ëŠ” ì˜í™” ã…£ì˜í™”ë¦¬ë·°ã…£ê²°ë§í¬í•¨ã…£ì˜í™”ì†Œê°œã…£ì˜í™”ì¶”ì²œ','https://www.youtube.com/embed/t2AXLglzzME','ì˜í™”:íŒŒë¼ë…¸ë§ ì•¡í‹°ë¹„í‹° 1í¸',null,null,null,'9movie@daum.net','MH007',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','717','MH717','ì¹´ë©”ë¼ë¡œ ì‹¬ë ¹ ì˜ìƒì„ ì°ìœ¼ë©´ ì•ˆ ë˜ëŠ” ì´ìœ  [ì˜í™”ë¦¬ë·° ê²°ë§ í¬í•¨]','https://www.youtube.com/embed/9W3O_3g99yU','íŒŒë¼ë…¸ë§ ì•¡í‹°ë¹„í‹°
+ì˜í™”ë¦¬ë·° ê²°ë§ í¬í•¨
+ê³µí¬ ì˜í™”',null,null,null,'videobang@daum.net','MH007',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','718','MH718','ê¸°ì°¨ì— ì‚¬ëŒë³´ë‹¤ ì¢€ë¹„ê°€ë§ë‹¤ã…£ë¶€ì‚°í–‰ã…£(ì˜í™”ë¦¬ë·°,ê²°ë§í¬í•¨)','https://www.youtube.com/embed/5B0Pb4Zj1SM','ì˜í™” ''ë¶€ì‚°í–‰'' ì´ì—ˆìŠµë‹ˆë‹¤',null,null,null,'baebae@gmail.com','MH008',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','719','MH719','í•´ì™¸ì—ì„œ ì¸ì •í•œ ë¶€ì‚°í–‰ì˜ ''ìˆ¨ê²¨ì§„ ì˜ë¯¸''','https://www.youtube.com/embed/T0cxC1KpPNE','ë¶€ì‚°í–‰ ì˜ë§Œë“¤ì—ˆì–´ìš”. ì¢€ë¹„ ì˜í™”ì¹˜ê³  ì‘í’ˆì„± ê´œì°®ì€ê±° ê°™ì•„ìš”.',null,null,null,'dreamteller@daum.net','MH008',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','720','MH720','ë¶€ì‚°í–‰ ê°€ì´ë“œ ë¦¬ë·° by ë°œì—†ëŠ”ìƒˆ','https://www.youtube.com/embed/inUoYMG3tYU','â˜… ë§ê¸€ë¡œ ê²°ë§ê¹Œì§€ í¬í•¨í•œ ìŠ¤í¬ì¼ëŸ¬ë¥¼ ë‚¨ë°œí•˜ì‹œëŠ” ë¶„ë“¤ì´ ê³„ì…”ì„œ ë‹«ìŠµë‹ˆë‹¤. ëŒ€ì²´ ì™œ ê·¸ë˜ìš”? -_-;;; ìµœì†Œí•œ ê¸ˆì£¼ ì£¼ë§ì´ ì§€ë‚˜ë©´ ë‹¤ì‹œ ì—´ê² ìŠµë‹ˆë‹¤ â˜…
+ìš°ë¦¬ë‚˜ë¼ ìµœì´ˆë¡œ ì¢€ë¹„ê°€ ë“±ì¥í•˜ëŠ” ë¸”ë¡ë²„ìŠ¤í„°ì¸
+ë¶€ì‚°í–‰ì´ ë§ì€ ê´€ì‹¬ ì†ì—ì„œ ê°œë´‰í–ˆìŠµë‹ˆë‹¤.
+ë˜ í•œë²ˆì˜ ì‹œë„ ì†ì—ì„œ ì–´ë–¤ ê²°ê³¼ë¥¼ ëƒˆì„ê¹Œìš”?',null,null,null,'nofootbird@gmail.com','MH008',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','721','MH721','ë§ˆì„ì— ìˆ¨ì–´ì‚¬ëŠ” ê´‘ëŒ€ì˜ ì €ì£¼ (ê²°ë§í¬í•¨/ê·¸ê²ƒ)','https://www.youtube.com/embed/fSfYnWgN1eg','ì•ˆë…•í•˜ì„¸ìš”! ì˜í™”ë¥¼ ì½ì–´ì£¼ëŠ” ë‚¨ì ì˜ì¼ë‚¨ì…ë‹ˆë‹¤.
+ì˜í™” ê·¸ê²ƒ1 (2017)ì…ë‹ˆë‹¤.
+9ì›” 4ì¼ì— ê°œë´‰í•˜ëŠ” ê·¸ê²ƒ 2ì— ë§ì¶° ì˜ˆì „ì— ì—…ë¡œë“œ í•˜ì˜€ìœ¼ë‚˜
+ë…¸ë€ë”±ì§€ ë¬¸ì œë¡œ ì´ë¯¸ ê°œë´‰ í•˜ë£¨ ë’¤ê°€ ë˜ì—ˆë„¤ìš”.
+ë³¸ ì˜í™” ì‹œë‚˜ë¦¬ì˜¤ìƒ í•„ìš” ì—†ëŠ” ë¶€ë¶„ì´ ê±°ì˜ ì—†ì—ˆì–´ìš”.
+ì¤„ì´ê³  ì¤„ì—¬ë„ 28ë¶„ ì•„ë˜ë¡œ ì¤„ì–´ë“¤ì§€ê°€ ì•Šë„¤ìš”ã… ã… 
+ê° ì˜ìƒë§ˆë‹¤ ëª¨ë‘ ì—°ê²°ë˜ì–´ìˆê³  í•˜ë‚˜ë¥¼ ìë¥´ë©´ ê°œì—°ì„±ì´
+ëŠì–´ì ¸ 28ë¶„ìœ¼ë¡œ ê·¸ëŒ€ë¡œ ì˜¬ë¦¬ê¸°ë¡œ í•˜ì˜€ì–´ìš”. ì•„ì°¸ ê·¸ë¦¬ê³  ì»´í“¨í„° ì‚¬ì–‘ ë¬¸ì œì¸ì§€, ë§ì´ ëŠë¦¬ê³  íŠ•ê²¨ì„œ
+ì´ë²ˆ í¸ì€ ê¹œë†€ì£¼ì˜ê°€ ì•ˆ ë“¤ì–´ê°‘ë‹ˆë‹¤.
+ë™ì¼ ì‘ì—…ì—ì„œ í•œ ì‹œê°„ ë‚´ë‚´ ì‹­ìˆ˜ ë²ˆ íŠ•ê¸°ê³  í¬ê¸°í–ˆë„¤ìš”..
+ì»´í“¨í„° ë¶€í’ˆ êµì²´ë¥¼ í•´ì•¼ í•  ê²ƒ ê°™ìŠµë‹ˆë‹¤.
+ê¹œë†€ì£¼ì˜ êµ¬ê°„ì€ ëŒ“ê¸€ë¡œ ë‚¨ê²¨ë†“ì„ê²Œìš”! ì˜¤ëŠ˜ë„ ë´ì£¼ì…”ì„œ ì •ë§ ê°ì‚¬í•©ë‹ˆë‹¤.',null,null,null,'youngread@daum.net','MH009',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','722','MH722','ê´‘ëŒ€ í˜ì˜¤ë¥¼ ë©ˆì¶°ì£¼ì„¸ìš”. ê³µí¬ê°€ ì‹¤ì¢…ëœ ì„±ì¥ ë“œë¼ë§ˆ : ê·¸ê²ƒ(IT) ë¦¬ë·° - ë¼ì´ë„ˆ','https://www.youtube.com/embed/R6B7UiiGGZ0','ìŠ¤í‹°ë¸ í‚¹ì˜ ì—­ì‘, ì—­ì‚¬ì ì¸ í˜¸ëŸ¬ ì†Œì„¤ ê·¸ê²ƒ(IT).
+êµ­ë‚´ì—ë„ ''í”¼ì˜ ì‚ì—ë¡œ''ë¼ëŠ” ì œëª©ìœ¼ë¡œ ì•Œë ¤ì¡Œë˜ ë“œë¼ë§ˆì˜ ì˜í™”í™”!
+7ëª…ì˜ ì•„ì´ë“¤, ë£¨ì € í´ëŸ½ì´ ê´‘ëŒ€ í˜ë„¤ì™€ì´ìŠ¤ì— ëŒ€í•­í•œë‹¤.
+ê³µí¬ ì˜í™”ë¥¼ í‘œë°©í–ˆì§€ë§Œ ì§€ë‚˜ì¹œ ì í”„ ìŠ¤ì¼€ì¼ê³¼ ë°˜ë³µë˜ëŠ” êµ¬ë„ë¡œ ê³µí¬ ì˜í™”ë¡œì„œëŠ” í•¨ëŸ‰ ë¯¸ë‹¬ì˜ ì‘í’ˆ. í—ˆë‚˜ ì„±ì¥ ë“œë¼ë§ˆë¡œëŠ” ì œë²• ê´œì°®ìŠµë‹ˆë‹¤.
+ë¼ì´ë„ˆì˜ ë¦¬ë·°ì™€ í•¨ê»˜í•˜ì„¸ìš”!',null,null,null,'liner@hotmail.com','MH009',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','723','MH723','ë³´ê³ ë‚˜ë©´ í•˜ìˆ˜êµ¬ë¥¼ ì³ë‹¤ë³¼ ìˆ˜ ì—†ê²Œ ë˜ëŠ” ì˜í™” (ê²°ë§í¬í•¨, ìŠ¤í¬ì£¼ì˜)','https://www.youtube.com/embed/UzxhgMnWWnM','ì˜¤ëŠ˜ì˜ ì˜í™”ë¦¬ë·°ëŠ” '' í”¼ì˜ ì‚ì—ë¡œ, ê·¸ê²ƒ (1990) '' ì…ë‹ˆë‹¤.
+ì˜¤ëŠ˜ ê°œë´‰ëœ ê·¸ê²ƒ2ì™€ ê°™ì€ ë™ëª…ì˜ ì†Œì„¤ì„ ì›ì‘ìœ¼ë¡œ í•˜ê³  ìˆìœ¼ë©°
+ìµœê·¼ ê°œë´‰ëœ ì˜í™”ëŠ” ì–´ë¦° ì‹œì ˆê³¼ ì–´ë¥¸ì´ ëœ ì‹œì ˆì„ ë”°ë¡œ ê·¸ë¦¬ëŠ” ê²ƒê³¼
+ë‹¤ë¥´ê²Œ ì´ ì˜í™”ëŠ” ì„œë¡œ êµì°¨í•´ ê·¸ë ¤ë‚´ëŠ” ì ì´ ì¸ìƒì ì…ë‹ˆë‹¤.
+ì‹œì²­í•´ì£¼ì…”ì„œ ê°ì‚¬í•©ë‹ˆë‹¤!
+ê·¸ê²ƒ 2017 ë‹¤ì‹œë³´ê¸°',null,null,null,'pause@daum.net','MH009',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','724','MH724','ê±°ìš¸ë³´ê¸° ì‹«ì–´ì§€ëŠ” ì˜í™”','https://www.youtube.com/embed/iw8MmUQPKKA','ë³¸ ë¦¬ë·°ëŠ” ì˜í™”ì˜ ì „ë°˜ì ì¸ ìŠ¤í† ë¦¬ë¥¼ ë‹¤ë£¹ë‹ˆë‹¤.
+ëŒ“ê¸€ ì¶”ì²œë°›ì•„ì„œ ë§Œë“¤ê²Œ ëœ ë¦¬ë·°
+ì˜í™” ''ì˜¤í˜ëŸ¬ìŠ¤'' ë¦¬ë·°
+ì–´ë²¤ì ¸ìŠ¤ì— ë„¤ë¸”ë¼ë¥¼ ê¸°ì–µí•˜ì‹œë‚˜ìš”? ë„¤ë¸”ë¼, ì¹´ë Œ í‚¬ëŸ°ì´ ì£¼ì—° ì¼€ì¼ë¦¬ ì—­ì„ ê·¸ë¦¬ê³  ì˜ìƒê¸´ ë°°ìš° ë¸Œë ŒíŠ¼ ìŠ¤ì›¨ì´ì¸ ê°€ íŒ€ì—­ì„ ë§¡ì•˜ë‹¤,
+ì´ì‚¬í• ë•Œ ì‚° ê±°ìš¸ì´ ìš°ë¦¬ ê°€ì •ì„ ë§ê°€ëœ¨ë¦°ë‹¤ê³ ?!
+ì‹«ì–´ ë‚´ê°€ ë°”ê¿€ê±°ì•¼!
+ê±°ìš¸ì´ ë³´ê¸° ì‹«ì–´ì§€ëŠ” ì˜í™”
+ì¢‹ì•„ìš” êµ¬ë…,í”¼ë“œë°±ì€ í°í˜ì´ ë©ë‹ˆë‹¤',null,null,null,'socheon@daum.net','MH010',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','725','MH725','ì‹œê°„ì´ ì•„ê¹ì§€ ì•Šì€ ì˜ ë§Œë“  ê³µí¬ì˜í™”','https://www.youtube.com/embed/ZvY-Z3bVGs8','â˜… êµ¬ë…Â·ì¢‹ì•„ìš”Â·í•©ë²•ì  ê³µìœ Â·ëŒ“ê¸€ë¡œ ë¦¬ë“œë¬´ë¹„ë¥¼ ì‘ì›í•´ì£¼ì„¸ìš”! â˜…
+â˜…â˜… ê¾¸ì¤€í•œ ì—…ë¡œë“œ, ë” ì¢‹ì€ ì˜ìƒìœ¼ë¡œ ì°¾ì•„ëµ™ê² ìŠµë‹ˆë‹¤!! â˜…â˜…
+â— ë¦¬ë“œë¬´ë¹„ ì±„ë„ êµ¬ë…
 https://www.youtube.com/channel/UCU8H...
-¡İ ¸®µå¹«ºñ ÈÄ¿ø : https://toon.at/donate/63662086722297...
-ÈÄ¿øÇØÁÖ½Å ±İ¾×ÀÇ ÀÏºÎ´Â ±¸µ¶ÀÚ´Ôµé°úÀÇ ¿ÀÇÁ ¸ğÀÓ¿¡ ¾²ÀÔ´Ï´Ù.
-¡İ ´õ ¸¹Àº ¿µÈ­Á¤º¸! ¸®µå¹«ºñ ÆäÀÌ½ººÏ https://www.facebook.com/rleadmovie/',null,null,null,'read@gmail.com','MH010',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','726','MH726','±Í½ÅÇÑÅ× ¸Â´ÙÀÌ ½ÅÃ»ÇØ¼­ °³ÅĞ¸®´Â °øÆ÷¿µÈ­[¿µÈ­¼Ò°³][¿µÈ­¸®ºä]','https://www.youtube.com/embed/d9qRQ5bPQ4E','¾È³çÇÏ¼¼¿ä ¼øÅ¸ÀÔ´Ï´Ù.
-¿À´ÃÀÇ ¿µÈ­´Â "¿ÀÅ§·¯½º Oculus"ÀÔ´Ï´Ù.
-±Í½ÅÀÌ ¾º¾îÁø °Å¿ïÀ» ³²¸ÅµéÀÌ Áø½ÇÀ» ÆÄÇìÄ¡´Â ¿µÈ­ÀÔ´Ï´Ù.
-ºÎµğ Àç¹ÌÀÖ°Ô º¸¼ÌÀ¸¸é ÁÁ°Ú³×¿ä ¤¾¤µ¤¾
-±×¸®°í ±¸µ¶°ú ÁÁ¾Æ¿ä¿Í ´ñ±ÛÀº Àú¿¡°Ô Å« ÈûÀÌ µË´Ï´Ù (please)',null,null,null,'sunta@daum.net','MH010',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','727','MH727','´Ù¸¥ »ç¶÷ÀÇ ÀÌ¸§À¸·Î »ì¾Æ¿Â ¿©ÀÚ','https://www.youtube.com/embed/NtxrMQIiEyg','* º» ¿µ»óÀº ¹è±Ş»ç¿ÍÀÇ ÇùÀÇ¸¦ ¸¶Ä¡°í ¾÷·Îµå µÇ¾ú½À´Ï´Ù.
-* ¿µ»óÀÇ Àç°¡°ø ¹× Àç¹èÆ÷¸¦ ±İÇÕ´Ï´Ù.
-¹«ºñÄÚ¸àÆ®°¡ ''±¸ÀÛ ¸®ºä''·Î µ¹¾Æ¿Ô½À´Ï´Ù.
-±¸ÀÛ ¿µÈ­ Áß ¸íÀÛµéÀ» °ñ¶ó¼­ ¸®ºäÇÏ°í,
-¿©·¯ºĞ²² ÃßÃµÇØµå¸®µµ·Ï ÇÏ°Ú½À´Ï´Ù!
-Á¦¸ñ : È­Â÷ (2012)
-°¨µ¶ : º¯¿µÁÖ',null,null,null,'aloneman@daum.net','MH011',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','728','MH728','¿øÀÛº¸´Ù 1000¹è´Â ´õ ÁÁÀº ¿µÈ­','https://www.youtube.com/embed/w-W7E55Yq5Y','#¾Ë¾¾³× #È­Â÷ #º¯¿µÁÖ #±è¹ÎÈñ
-* ¿µ»óÆíÁı¿¡ µµ¿òÀ» ¹ŞÀº ¿µÈ­¸ñ·Ï
-/È­Â÷/ (Helpless, 2012) °¨µ¶ º¯¿µÁÖ / ¹è¿ì ÀÌ¼±±Õ ±è¹ÎÈñ Á¶¼ºÇÏ * À½¾ÇÁ¤º¸
-Kevin MacLeodÀÇ Classic Horror 3Àº(´Â) Creative Commons Attribution ¶óÀÌ¼±½º(https://creativecommons.org/licenses/... µû¶ó ¶óÀÌ¼±½º°¡ ºÎ¿©µË´Ï´Ù.
-ÃâÃ³: http://incompetech.com/music/royalty-...
-¾ÆÆ¼½ºÆ®: http://incompetech.com/
-Kevin MacLeodÀÇ ExoticsÀº(´Â) Creative Commons Attribution ¶óÀÌ¼±½º(https://creativecommons.org/licenses/... µû¶ó ¶óÀÌ¼±½º°¡ ºÎ¿©µË´Ï´Ù.
-ÃâÃ³: http://incompetech.com/music/royalty-...
-¾ÆÆ¼½ºÆ®: http://incompetech.com/',null,null,null,'egg@naver.com','MH011',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','729','MH729','ÈŞ°Ô¼Ò¿¡¼­ °©ÀÚ±â »ç¶óÁø ¿¹ºñ ½ÅºÎ','https://www.youtube.com/embed/IQeeGXWZvOk','±è¹ÎÈñÀÇ ½Åµé¸° ¿¬±â!
-ÀÓÆÑÆ® ÀÖ´Â ÃÊ¹İ Àü°³ºÎÅÍ
-±äÀå°¨ ÀÖ´Â ºĞÀ§±â Á¶¼º, ¸Ô¸ÔÇØÁö´Â °á¸»±îÁö...
-Á¦°¡ °¡Àå ÁÁ¾ÆÇÏ´Â ÇÑ±¹ ½º¸±·¯ ¿µÈ­ Áß ÇÏ³ªÀÎ
-¿µÈ­ È­Â÷ ¼Ò°³ÀÔ´Ï´Ù
-#È­Â÷ #¿µÈ­È­Â÷
-*¿µÈ­ Á¦´ë·Î º¸±â - https://youtu.be/lP8tWHZvjGw
-ÈÄ... ¿À·£¸¸¿¡ ¿µÈ­ ¸®ºä ³ìÀ½Çß´õ´Ï °¨ÀÌ ´Ù »ç¶óÁ³³×¿ä
-°³ÀÎÀûÀ¸·Î »ó´çÈ÷ ¸¾¿¡ µéÁö ¾Ê´Â ³ª·¹ÀÌ¼ÇÀÔ´Ï´Ù
-´ÙÀ½¹ø ¸®ºä´Â Á» ´õ ½Å°æ½á¼­ ÇÏµµ·Ï ÇÏ°Ú½À´Ï´Ù
-³Ê±×·¯ÀÌ ¾çÇØ ºÎÅ¹µå·Á¿ä',null,null,null,'hi@gmail.com','MH011',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','730','MH730','»ìÀÎ¹üÀ» ¹«ÁË·Î ¸¸µé¾î¾ß ÇÏ´Â º¯È£»ç! ±×·¡¾ß µşÀÌ µ¹¾Æ¿Â´Ù!!','https://www.youtube.com/embed/sbEE4z_fXyQ','¾È³çÇÏ¼¼¿ä ''¿µÈ­¸¦ ¸»ÇÏ´Ù'' ¿µÈ­ ¸®ºäÀÔ´Ï´Ù.
-¿µÈ­ : ¼¼ºìµ¥ÀÌÁî (Seven Days, 2007)
-°¨µ¶ : ¿ø½Å¿¬
-Ãâ¿¬ : ±èÀ±Áø, ±è¹Ì¼÷, ¹ÚÈñ¼ø µî
-ÇÑ±¹ ¿µÈ­¿¡´Â À¯µ¶ ÁÁÀº ½º¸±·¯ ¿µÈ­°¡ ¸¹½À´Ï´Ù.
-Ãß°İÀÚ, ¾Ç¸¶¸¦ º¸¾Ò´Ù. È²ÇØ, »ìÀÎÀÇ Ãß¾ï µîµî.
-Àú´Â ±×Áß¿¡¼­µµ ÀÌ ¿µÈ­ ¼¼ºìµ¥ÀÌÁî¸¦ ÃÖ°íÀÇ ½º¸±·¯¶ó ¸»ÇÏ°í ½Í½À´Ï´Ù.
-¹°·Ğ °³ÀÎÀû ÀÇ°ßÀÌÁö¸¸ ±×¸¸Å­ ¿Ï¼ºµµ ³ôÀº ¿µÈ­ ÀÔ´Ï´Ù. : )
-¿©·¯ºĞµµ ²ÀÇÑ¹ø º¸½Ã±â ¹Ù¶ø´Ï´Ù.!',null,null,null,'murf@gmail.com','MH012',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','731','MH731','1000¸¸ ¸ø ³ÑÀº°Ô ÀÌ»óÇÑ ¿ª´ë±Ş Ãæ°İ¹İÀü ÇÑ±¹ ½º¸±·¯ ¿µÈ­','https://www.youtube.com/embed/ARsP3vPfLbQ','¹®ÀÇ ¹× ÄÁÅÃÆ® ddingzal@daum.net
-ÀÎ½ºÅ¸±×·¥ https://www.instagram.com/ddingzal/
-ÆäÀÌ½ººÏ http://bitly.kr/xpu725
-¶òÀß ÈÄ¿ø https://toon.at/donate/63685659262999...
-¿©·¯ºĞµéÀÇ ¼ÒÁßÇÑ ÈÄ¿øÀ¸·Î ´õ ÁÁÀº ÄÁÅÙÃ÷¸¦ ¸¸µå´Âµ¥ Èû¾²°Ú½À´Ï´Ù
-¿µ»óÃâÃ³ - ¿µÈ­ ''¼¼ºìµ¥ÀÌÁî (2007)''
-´Ù¿î·Îµå¸µÅ© https://www.youtube.com/embed/7vKwj...
-*¿µ»óÀÇ ÀúÀÛ±ÇÀº ¿µÈ­ÀÇ ¹è±Ş»çÃø¿¡ ÀÖ½À´Ï´Ù',null,null,null,'ddingjal@hotmail.com','MH012',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','732','MH732','³» µşÀ» »ì¸®¸é Àü°ú 5¹üÀÇ »ìÀÎ¹üÀÌ ¹«ÁË·Î Ç®·Á³­´Ù. ´ç½ÅÀÇ ¼±ÅÃÀº?','https://www.youtube.com/embed/dmu_XpEKbc8','#¼¼ºìµ¥ÀÌÁî #¿µÈ­ #½º¸±·¯
-¾È³çÇÏ¼¼¿ä. ¿µÈ­µµÀü ÀÔ´Ï´Ù.
-ÀÌ¹ø¿¡ ¼Ò°³ÇÒ ¿µÈ­´Â ''¼¼ºì µ¥ÀÌÁî(Seven Days, 2007)'' ÀÔ´Ï´Ù.
-À¯Æ©ºê ±¸¸Å ¸µÅ© : https://www.youtube.com/embed/7vKwj...
-¿µ»óÀÌ ¸¶À½¿¡ µå¼Ì´Ù¸é ''±¸µ¶''°ú ''ÁÁ¾Æ¿ä'' ºÎÅ¹ µå¸³´Ï´Ù.
-½ÃÃ»ÇØ ÁÖ¼Å¼­ Áø½ÉÀ¸·Î °¨»ç µå¸³´Ï´Ù.',null,null,null,'yap@daum.net','MH012',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','733','MH733','°øÆ÷¿µÈ­ÀÇ ÃÖ°íºÀÀÌ¶ó ºÒ·È´ø ¿µÈ­','https://www.youtube.com/embed/qclfIfGT_es','ÁøÂ¥ »çÅºÀÌ °³ÀÔÇÑ°Ô ¾Æ´ÑÁö ¼Ò¹®ÀÌ ÀÚÀÚÇß´ø ¿µÈ­ ''¿¢¼Ò½Ã½ºÆ®'' ¼Ò°³ ¿µ»óÀÔ´Ï´Ù.
-°¨µ¶Àº ''Àª¸®¾ö ÇÁ¸®µåÅ²'' ÀÔ´Ï´Ù.
-*´Ù¿î·Îµå ¸µÅ©
+â— ë¦¬ë“œë¬´ë¹„ í›„ì› : https://toon.at/donate/63662086722297...
+í›„ì›í•´ì£¼ì‹  ê¸ˆì•¡ì˜ ì¼ë¶€ëŠ” êµ¬ë…ìë‹˜ë“¤ê³¼ì˜ ì˜¤í”„ ëª¨ì„ì— ì“°ì…ë‹ˆë‹¤.
+â— ë” ë§ì€ ì˜í™”ì •ë³´! ë¦¬ë“œë¬´ë¹„ í˜ì´ìŠ¤ë¶ https://www.facebook.com/rleadmovie/',null,null,null,'read@gmail.com','MH010',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','726','MH726','ê·€ì‹ í•œí…Œ ë§ë‹¤ì´ ì‹ ì²­í•´ì„œ ê°œí„¸ë¦¬ëŠ” ê³µí¬ì˜í™”[ì˜í™”ì†Œê°œ][ì˜í™”ë¦¬ë·°]','https://www.youtube.com/embed/d9qRQ5bPQ4E','ì•ˆë…•í•˜ì„¸ìš” ìˆœíƒ€ì…ë‹ˆë‹¤.
+ì˜¤ëŠ˜ì˜ ì˜í™”ëŠ” "ì˜¤í˜ëŸ¬ìŠ¤ Oculus"ì…ë‹ˆë‹¤.
+ê·€ì‹ ì´ ì”Œì–´ì§„ ê±°ìš¸ì„ ë‚¨ë§¤ë“¤ì´ ì§„ì‹¤ì„ íŒŒí—¤ì¹˜ëŠ” ì˜í™”ì…ë‹ˆë‹¤.
+ë¶€ë”” ì¬ë¯¸ìˆê²Œ ë³´ì…¨ìœ¼ë©´ ì¢‹ê² ë„¤ìš” ã…ã……ã…
+ê·¸ë¦¬ê³  êµ¬ë…ê³¼ ì¢‹ì•„ìš”ì™€ ëŒ“ê¸€ì€ ì €ì—ê²Œ í° í˜ì´ ë©ë‹ˆë‹¤ (please)',null,null,null,'sunta@daum.net','MH010',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','727','MH727','ë‹¤ë¥¸ ì‚¬ëŒì˜ ì´ë¦„ìœ¼ë¡œ ì‚´ì•„ì˜¨ ì—¬ì','https://www.youtube.com/embed/NtxrMQIiEyg','* ë³¸ ì˜ìƒì€ ë°°ê¸‰ì‚¬ì™€ì˜ í˜‘ì˜ë¥¼ ë§ˆì¹˜ê³  ì—…ë¡œë“œ ë˜ì—ˆìŠµë‹ˆë‹¤.
+* ì˜ìƒì˜ ì¬ê°€ê³µ ë° ì¬ë°°í¬ë¥¼ ê¸ˆí•©ë‹ˆë‹¤.
+ë¬´ë¹„ì½”ë©˜íŠ¸ê°€ ''êµ¬ì‘ ë¦¬ë·°''ë¡œ ëŒì•„ì™”ìŠµë‹ˆë‹¤.
+êµ¬ì‘ ì˜í™” ì¤‘ ëª…ì‘ë“¤ì„ ê³¨ë¼ì„œ ë¦¬ë·°í•˜ê³ ,
+ì—¬ëŸ¬ë¶„ê»˜ ì¶”ì²œí•´ë“œë¦¬ë„ë¡ í•˜ê² ìŠµë‹ˆë‹¤!
+ì œëª© : í™”ì°¨ (2012)
+ê°ë… : ë³€ì˜ì£¼',null,null,null,'aloneman@daum.net','MH011',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','728','MH728','ì›ì‘ë³´ë‹¤ 1000ë°°ëŠ” ë” ì¢‹ì€ ì˜í™”','https://www.youtube.com/embed/w-W7E55Yq5Y','#ì•Œì”¨ë„¤ #í™”ì°¨ #ë³€ì˜ì£¼ #ê¹€ë¯¼í¬
+* ì˜ìƒí¸ì§‘ì— ë„ì›€ì„ ë°›ì€ ì˜í™”ëª©ë¡
+/í™”ì°¨/ (Helpless, 2012) ê°ë… ë³€ì˜ì£¼ / ë°°ìš° ì´ì„ ê·  ê¹€ë¯¼í¬ ì¡°ì„±í•˜ * ìŒì•…ì •ë³´
+Kevin MacLeodì˜ Classic Horror 3ì€(ëŠ”) Creative Commons Attribution ë¼ì´ì„ ìŠ¤(https://creativecommons.org/licenses/... ë”°ë¼ ë¼ì´ì„ ìŠ¤ê°€ ë¶€ì—¬ë©ë‹ˆë‹¤.
+ì¶œì²˜: http://incompetech.com/music/royalty-...
+ì•„í‹°ìŠ¤íŠ¸: http://incompetech.com/
+Kevin MacLeodì˜ Exoticsì€(ëŠ”) Creative Commons Attribution ë¼ì´ì„ ìŠ¤(https://creativecommons.org/licenses/... ë”°ë¼ ë¼ì´ì„ ìŠ¤ê°€ ë¶€ì—¬ë©ë‹ˆë‹¤.
+ì¶œì²˜: http://incompetech.com/music/royalty-...
+ì•„í‹°ìŠ¤íŠ¸: http://incompetech.com/',null,null,null,'egg@naver.com','MH011',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','729','MH729','íœ´ê²Œì†Œì—ì„œ ê°‘ìê¸° ì‚¬ë¼ì§„ ì˜ˆë¹„ ì‹ ë¶€','https://www.youtube.com/embed/IQeeGXWZvOk','ê¹€ë¯¼í¬ì˜ ì‹ ë“¤ë¦° ì—°ê¸°!
+ì„íŒ©íŠ¸ ìˆëŠ” ì´ˆë°˜ ì „ê°œë¶€í„°
+ê¸´ì¥ê° ìˆëŠ” ë¶„ìœ„ê¸° ì¡°ì„±, ë¨¹ë¨¹í•´ì§€ëŠ” ê²°ë§ê¹Œì§€...
+ì œê°€ ê°€ì¥ ì¢‹ì•„í•˜ëŠ” í•œêµ­ ìŠ¤ë¦´ëŸ¬ ì˜í™” ì¤‘ í•˜ë‚˜ì¸
+ì˜í™” í™”ì°¨ ì†Œê°œì…ë‹ˆë‹¤
+#í™”ì°¨ #ì˜í™”í™”ì°¨
+*ì˜í™” ì œëŒ€ë¡œ ë³´ê¸° - https://youtu.be/lP8tWHZvjGw
+í›„... ì˜¤ëœë§Œì— ì˜í™” ë¦¬ë·° ë…¹ìŒí–ˆë”ë‹ˆ ê°ì´ ë‹¤ ì‚¬ë¼ì¡Œë„¤ìš”
+ê°œì¸ì ìœ¼ë¡œ ìƒë‹¹íˆ ë§˜ì— ë“¤ì§€ ì•ŠëŠ” ë‚˜ë ˆì´ì…˜ì…ë‹ˆë‹¤
+ë‹¤ìŒë²ˆ ë¦¬ë·°ëŠ” ì¢€ ë” ì‹ ê²½ì¨ì„œ í•˜ë„ë¡ í•˜ê² ìŠµë‹ˆë‹¤
+ë„ˆê·¸ëŸ¬ì´ ì–‘í•´ ë¶€íƒë“œë ¤ìš”',null,null,null,'hi@gmail.com','MH011',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','730','MH730','ì‚´ì¸ë²”ì„ ë¬´ì£„ë¡œ ë§Œë“¤ì–´ì•¼ í•˜ëŠ” ë³€í˜¸ì‚¬! ê·¸ë˜ì•¼ ë”¸ì´ ëŒì•„ì˜¨ë‹¤!!','https://www.youtube.com/embed/sbEE4z_fXyQ','ì•ˆë…•í•˜ì„¸ìš” ''ì˜í™”ë¥¼ ë§í•˜ë‹¤'' ì˜í™” ë¦¬ë·°ì…ë‹ˆë‹¤.
+ì˜í™” : ì„¸ë¸ë°ì´ì¦ˆ (Seven Days, 2007)
+ê°ë… : ì›ì‹ ì—°
+ì¶œì—° : ê¹€ìœ¤ì§„, ê¹€ë¯¸ìˆ™, ë°•í¬ìˆœ ë“±
+í•œêµ­ ì˜í™”ì—ëŠ” ìœ ë… ì¢‹ì€ ìŠ¤ë¦´ëŸ¬ ì˜í™”ê°€ ë§ìŠµë‹ˆë‹¤.
+ì¶”ê²©ì, ì•…ë§ˆë¥¼ ë³´ì•˜ë‹¤. í™©í•´, ì‚´ì¸ì˜ ì¶”ì–µ ë“±ë“±.
+ì €ëŠ” ê·¸ì¤‘ì—ì„œë„ ì´ ì˜í™” ì„¸ë¸ë°ì´ì¦ˆë¥¼ ìµœê³ ì˜ ìŠ¤ë¦´ëŸ¬ë¼ ë§í•˜ê³  ì‹¶ìŠµë‹ˆë‹¤.
+ë¬¼ë¡  ê°œì¸ì  ì˜ê²¬ì´ì§€ë§Œ ê·¸ë§Œí¼ ì™„ì„±ë„ ë†’ì€ ì˜í™” ì…ë‹ˆë‹¤. : )
+ì—¬ëŸ¬ë¶„ë„ ê¼­í•œë²ˆ ë³´ì‹œê¸° ë°”ëë‹ˆë‹¤.!',null,null,null,'murf@gmail.com','MH012',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','731','MH731','1000ë§Œ ëª» ë„˜ì€ê²Œ ì´ìƒí•œ ì—­ëŒ€ê¸‰ ì¶©ê²©ë°˜ì „ í•œêµ­ ìŠ¤ë¦´ëŸ¬ ì˜í™”','https://www.youtube.com/embed/ARsP3vPfLbQ','ë¬¸ì˜ ë° ì»¨íƒíŠ¸ ddingzal@daum.net
+ì¸ìŠ¤íƒ€ê·¸ë¨ https://www.instagram.com/ddingzal/
+í˜ì´ìŠ¤ë¶ http://bitly.kr/xpu725
+ëµì˜ í›„ì› https://toon.at/donate/63685659262999...
+ì—¬ëŸ¬ë¶„ë“¤ì˜ ì†Œì¤‘í•œ í›„ì›ìœ¼ë¡œ ë” ì¢‹ì€ ì»¨í…ì¸ ë¥¼ ë§Œë“œëŠ”ë° í˜ì“°ê² ìŠµë‹ˆë‹¤
+ì˜ìƒì¶œì²˜ - ì˜í™” ''ì„¸ë¸ë°ì´ì¦ˆ (2007)''
+ë‹¤ìš´ë¡œë“œë§í¬ https://www.youtube.com/embed/7vKwj...
+*ì˜ìƒì˜ ì €ì‘ê¶Œì€ ì˜í™”ì˜ ë°°ê¸‰ì‚¬ì¸¡ì— ìˆìŠµë‹ˆë‹¤',null,null,null,'ddingjal@hotmail.com','MH012',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','732','MH732','ë‚´ ë”¸ì„ ì‚´ë¦¬ë©´ ì „ê³¼ 5ë²”ì˜ ì‚´ì¸ë²”ì´ ë¬´ì£„ë¡œ í’€ë ¤ë‚œë‹¤. ë‹¹ì‹ ì˜ ì„ íƒì€?','https://www.youtube.com/embed/dmu_XpEKbc8','#ì„¸ë¸ë°ì´ì¦ˆ #ì˜í™” #ìŠ¤ë¦´ëŸ¬
+ì•ˆë…•í•˜ì„¸ìš”. ì˜í™”ë„ì „ ì…ë‹ˆë‹¤.
+ì´ë²ˆì— ì†Œê°œí•  ì˜í™”ëŠ” ''ì„¸ë¸ ë°ì´ì¦ˆ(Seven Days, 2007)'' ì…ë‹ˆë‹¤.
+ìœ íŠœë¸Œ êµ¬ë§¤ ë§í¬ : https://www.youtube.com/embed/7vKwj...
+ì˜ìƒì´ ë§ˆìŒì— ë“œì…¨ë‹¤ë©´ ''êµ¬ë…''ê³¼ ''ì¢‹ì•„ìš”'' ë¶€íƒ ë“œë¦½ë‹ˆë‹¤.
+ì‹œì²­í•´ ì£¼ì…”ì„œ ì§„ì‹¬ìœ¼ë¡œ ê°ì‚¬ ë“œë¦½ë‹ˆë‹¤.',null,null,null,'yap@daum.net','MH012',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','733','MH733','ê³µí¬ì˜í™”ì˜ ìµœê³ ë´‰ì´ë¼ ë¶ˆë ¸ë˜ ì˜í™”','https://www.youtube.com/embed/qclfIfGT_es','ì§„ì§œ ì‚¬íƒ„ì´ ê°œì…í•œê²Œ ì•„ë‹Œì§€ ì†Œë¬¸ì´ ììí–ˆë˜ ì˜í™” ''ì—‘ì†Œì‹œìŠ¤íŠ¸'' ì†Œê°œ ì˜ìƒì…ë‹ˆë‹¤.
+ê°ë…ì€ ''ìœŒë¦¬ì—„ í”„ë¦¬ë“œí‚¨'' ì…ë‹ˆë‹¤.
+*ë‹¤ìš´ë¡œë“œ ë§í¬
 https://movie.naver.com/movie/bi/mi/d...
-*ÀÌ ¿µ»ó¿¡ »ç¿ëµÈ ÀÚ·á ÃâÃ³ Ç¥±â
-Georges BiardÀÇ Max von Sydow Cannes 2016.jpgÀº(´Â) Creative Commons Attribution ¶óÀÌ¼±½º(https://creativecommons.org/licenses/... µû¶ó ¶óÀÌ¼±½º°¡ ºÎ¿©µË´Ï´Ù.
-ÃâÃ³: https://commons.wikimedia.org/wiki/Fi...
-Elen NivraeÀÇ William Friedkin.jpgÀº(´Â) Creative Commons Attribution ¶óÀÌ¼±½º(https://creativecommons.org/licenses/... µû¶ó ¶óÀÌ¼±½º°¡ ºÎ¿©µË´Ï´Ù.
-ÃâÃ³: https://ko.wikipedia.org/wiki/%ED%8C%...
-Kevin MacLeodÀÇ Aftermath - Madness ParanoiaÀº(´Â) Creative Commons Attribution ¶óÀÌ¼±½º(https://creativecommons.org/licenses/... µû¶ó ¶óÀÌ¼±½º°¡ ºÎ¿©µË´Ï´Ù.
-ÃâÃ³: http://incompetech.com/music/royalty-...
-¾ÆÆ¼½ºÆ®: http://incompetech.com/
-Kevin MacLeodÀÇ Comfortable Mystery 4 - Film NoireÀº(´Â) Creative Commons Attribution ¶óÀÌ¼±½º(https://creativecommons.org/licenses/... µû¶ó ¶óÀÌ¼±½º°¡ ºÎ¿©µË´Ï´Ù.
-ÃâÃ³: http://incompetech.com/music/royalty-...
-¾ÆÆ¼½ºÆ®: http://incompetech.com/',null,null,null,'screen@daum.net','MH013',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','734','MH734','¾È º» »ç¶÷Àº ÀÖÁö¸¸ ¸ğ¸£´Â »ç¶÷Àº ¾øÀ» ¿µÈ­','https://www.youtube.com/embed/-8Mc9DhBpvY','¾î´À³¯ °©ÀÚ±â ¾Ç¸¶°¡ ¼Ò³àÀÇ ¸ö ¼ÓÀ¸·Î µé¾î°¡°ÔµÇ°í,
-±×·± ¾Ç¸¶¸¦ ³»ÂÑ´Â ¿¢¼Ò½ÃÁòÀ» ÁøÇàÇÏ´Â
-½ÅºÎÀÇ ¸ğ½ÀÀ» ´ãÀº ¿µÈ­ ¿¢¼Ò½Ã½ºÆ®1 ÀÔ´Ï´Ù.
+*ì´ ì˜ìƒì— ì‚¬ìš©ëœ ìë£Œ ì¶œì²˜ í‘œê¸°
+Georges Biardì˜ Max von Sydow Cannes 2016.jpgì€(ëŠ”) Creative Commons Attribution ë¼ì´ì„ ìŠ¤(https://creativecommons.org/licenses/... ë”°ë¼ ë¼ì´ì„ ìŠ¤ê°€ ë¶€ì—¬ë©ë‹ˆë‹¤.
+ì¶œì²˜: https://commons.wikimedia.org/wiki/Fi...
+Elen Nivraeì˜ William Friedkin.jpgì€(ëŠ”) Creative Commons Attribution ë¼ì´ì„ ìŠ¤(https://creativecommons.org/licenses/... ë”°ë¼ ë¼ì´ì„ ìŠ¤ê°€ ë¶€ì—¬ë©ë‹ˆë‹¤.
+ì¶œì²˜: https://ko.wikipedia.org/wiki/%ED%8C%...
+Kevin MacLeodì˜ Aftermath - Madness Paranoiaì€(ëŠ”) Creative Commons Attribution ë¼ì´ì„ ìŠ¤(https://creativecommons.org/licenses/... ë”°ë¼ ë¼ì´ì„ ìŠ¤ê°€ ë¶€ì—¬ë©ë‹ˆë‹¤.
+ì¶œì²˜: http://incompetech.com/music/royalty-...
+ì•„í‹°ìŠ¤íŠ¸: http://incompetech.com/
+Kevin MacLeodì˜ Comfortable Mystery 4 - Film Noireì€(ëŠ”) Creative Commons Attribution ë¼ì´ì„ ìŠ¤(https://creativecommons.org/licenses/... ë”°ë¼ ë¼ì´ì„ ìŠ¤ê°€ ë¶€ì—¬ë©ë‹ˆë‹¤.
+ì¶œì²˜: http://incompetech.com/music/royalty-...
+ì•„í‹°ìŠ¤íŠ¸: http://incompetech.com/',null,null,null,'screen@daum.net','MH013',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','734','MH734','ì•ˆ ë³¸ ì‚¬ëŒì€ ìˆì§€ë§Œ ëª¨ë¥´ëŠ” ì‚¬ëŒì€ ì—†ì„ ì˜í™”','https://www.youtube.com/embed/-8Mc9DhBpvY','ì–´ëŠë‚  ê°‘ìê¸° ì•…ë§ˆê°€ ì†Œë…€ì˜ ëª¸ ì†ìœ¼ë¡œ ë“¤ì–´ê°€ê²Œë˜ê³ ,
+ê·¸ëŸ° ì•…ë§ˆë¥¼ ë‚´ì«“ëŠ” ì—‘ì†Œì‹œì¦˜ì„ ì§„í–‰í•˜ëŠ”
+ì‹ ë¶€ì˜ ëª¨ìŠµì„ ë‹´ì€ ì˜í™” ì—‘ì†Œì‹œìŠ¤íŠ¸1 ì…ë‹ˆë‹¤.
 https://series.naver.com/tvstore/deta...
-À§ÀÇ ¸µÅ©·Î ¿µÈ­ ¿¢¼Ò½Ã½ºÆ®1À» º¸½Ç ¼ö ÀÖ½À´Ï´Ù.
-(°¡°İÀº ±¸¸Å 5,000¿ø / ´ë¿© 1,300¿ø)
-¿µ»óÀÌ Àç¹ÌÀÖÀ¸¼Ì´Ù¸é
-ÁÁ¾Æ¿ä¿Í ±¸µ¶¹öÆ° ÇÑ¹ø¾¿ ºÎÅ¹µå·Á¿ä ^^
-´ÙÀ½¿£ ´õ Àç¹ÌÀÖ´Â ¿µ»óÀ¸·Î Ã£¾ÆºË°Ú½À´Ï´Ù!',null,null,null,'gogomovie@gmail.com','MH013',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','735','MH735','¿µÈ­º¸´ø °ü°´µéÀÌ ½ÉÀå¸¶ºñ·Î »ç¸ÁÇÑ ¹Ù·Î ±× ¿µÈ­ (°á¸»Æ÷ÇÔ)','https://www.youtube.com/embed/TVWHvlS40Jw','¹®ÀÇ ¹× ÄÁÅÃÆ® ddingzal@daum.net
-ÀÎ½ºÅ¸±×·¥ https://www.instagram.com/ddingzal/
-ÆäÀÌ½ººÏ http://bitly.kr/xpu725
-¶òÀß ÈÄ¿ø https://toon.at/donate/63685659262999...
-¿©·¯ºĞµéÀÇ ¼ÒÁßÇÑ ÈÄ¿øÀ¸·Î ´õ ÁÁÀº ÄÁÅÙÃ÷¸¦ ¸¸µå´Âµ¥ Èû¾²°Ú½À´Ï´Ù
-¿µ»óÃâÃ³ - ¿µÈ­ ''¿¢¼Ò½Ã½ºÆ® (1973)''
-´Ù¿î·Îµå¸µÅ© http://bitly.kr/3R2m7m
-*¿µ»óÀÇ ÀúÀÛ±ÇÀº ¿µÈ­ÀÇ ¹è±Ş»çÃø¿¡ ÀÖ½À´Ï´Ù',null,null,null,'ddingjal@hotmail.com','MH013',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','736','MH736','¾Ë°í ÀÖ¾îµµ ¼Ó´Â ÃÖ°íÀÇ ¹İÀü¿µÈ­','https://www.youtube.com/embed/vYyYzHMs57g','* º» ¿µ»óÀº ½ºÆ÷ÀÏ·¯°¡ ´Ù¼ö Æ÷ÇÔµÇ¾î ÀÖ½À´Ï´Ù *
-¿øÀÛ¿µÈ­ ±¸¸Å ¹× ´ë¿© : (¾÷·Îµå³¯Â¥)
-#1 : (1,000 ¿ø)
+ìœ„ì˜ ë§í¬ë¡œ ì˜í™” ì—‘ì†Œì‹œìŠ¤íŠ¸1ì„ ë³´ì‹¤ ìˆ˜ ìˆìŠµë‹ˆë‹¤.
+(ê°€ê²©ì€ êµ¬ë§¤ 5,000ì› / ëŒ€ì—¬ 1,300ì›)
+ì˜ìƒì´ ì¬ë¯¸ìˆìœ¼ì…¨ë‹¤ë©´
+ì¢‹ì•„ìš”ì™€ êµ¬ë…ë²„íŠ¼ í•œë²ˆì”© ë¶€íƒë“œë ¤ìš” ^^
+ë‹¤ìŒì—” ë” ì¬ë¯¸ìˆëŠ” ì˜ìƒìœ¼ë¡œ ì°¾ì•„ëµ™ê² ìŠµë‹ˆë‹¤!',null,null,null,'gogomovie@gmail.com','MH013',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','735','MH735','ì˜í™”ë³´ë˜ ê´€ê°ë“¤ì´ ì‹¬ì¥ë§ˆë¹„ë¡œ ì‚¬ë§í•œ ë°”ë¡œ ê·¸ ì˜í™” (ê²°ë§í¬í•¨)','https://www.youtube.com/embed/TVWHvlS40Jw','ë¬¸ì˜ ë° ì»¨íƒíŠ¸ ddingzal@daum.net
+ì¸ìŠ¤íƒ€ê·¸ë¨ https://www.instagram.com/ddingzal/
+í˜ì´ìŠ¤ë¶ http://bitly.kr/xpu725
+ëµì˜ í›„ì› https://toon.at/donate/63685659262999...
+ì—¬ëŸ¬ë¶„ë“¤ì˜ ì†Œì¤‘í•œ í›„ì›ìœ¼ë¡œ ë” ì¢‹ì€ ì»¨í…ì¸ ë¥¼ ë§Œë“œëŠ”ë° í˜ì“°ê² ìŠµë‹ˆë‹¤
+ì˜ìƒì¶œì²˜ - ì˜í™” ''ì—‘ì†Œì‹œìŠ¤íŠ¸ (1973)''
+ë‹¤ìš´ë¡œë“œë§í¬ http://bitly.kr/3R2m7m
+*ì˜ìƒì˜ ì €ì‘ê¶Œì€ ì˜í™”ì˜ ë°°ê¸‰ì‚¬ì¸¡ì— ìˆìŠµë‹ˆë‹¤',null,null,null,'ddingjal@hotmail.com','MH013',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','736','MH736','ì•Œê³  ìˆì–´ë„ ì†ëŠ” ìµœê³ ì˜ ë°˜ì „ì˜í™”','https://www.youtube.com/embed/vYyYzHMs57g','* ë³¸ ì˜ìƒì€ ìŠ¤í¬ì¼ëŸ¬ê°€ ë‹¤ìˆ˜ í¬í•¨ë˜ì–´ ìˆìŠµë‹ˆë‹¤ *
+ì›ì‘ì˜í™” êµ¬ë§¤ ë° ëŒ€ì—¬ : (ì—…ë¡œë“œë‚ ì§œ)
+#1 : (1,000 ì›)
 https://nstore.naver.com/movie/detail...
-´©±º°¡ ÇÑ¹øÂë µé¾îºÃÀ» ''ÃÖ°íÀÇ ½ºÆ÷ÀÏ·¯ ¹®Àå''ÀÎ "0000ÀÌ ¹üÀÎÀÌ´Ù."
-±× ÀÌ¾ß±â°¡ µé¾îÀÖ´Â ÃÖ°íÀÇ ¹İÀü ¿µÈ­°¡ ¿©±â ÀÖ½À´Ï´Ù!
-¹İÀü ¿µÈ­ÀÇ ±³°ú¼­, Çö´ë ¹İÀü ¿µÈ­ÀÇ ¸ğÅÂ°¡ µÈ ¿µÈ­ÀÌ¸ç
-¹üÁË ½º¸±·¯, ½É¸® ½º¸±·¯ Àå¸£ÀÇ ¸íÀÛÀÌ±âµµ ÇÏÁÒ!
-ÀÌ ¿µÈ­¸¦ º¸Áö ¾Ê°í¼­´Â, ¹İÀüÀ» ³íÇÏ¸é ¾ÈµÈ´Ù´Â ¸»µµ ÀÖ½À´Ï´Ù!
-ÃÖ°íÀÇ ¹İÀü¿µÈ­! ¿À´Ã, ÀÌ ¿µÈ­ ¾î¶°¼¼¿ä?
-¸®ºä¸¦ ÇÏ¸é¼­ ÁÖ¿ä Àå¸é¹× °á¸»À» »© ³õ¾ÒÀ¸´Ï ²À ¿µÈ­¸¦ ½ÃÃ»ÇØº¸½Ã±æ ¹Ù¶ø´Ï´Ù! - ''¹«ºñÄÚ¸àÆ®''´Â À¯Æ©ºê¿¡¸¸ ¾÷·Îµå µË´Ï´Ù.
-¿µÈ­Á¦¸ñ : À¯ÁÖ¾ó ¼­½ºÆåÆ® (1995)',null,null,null,'aloneman@daum.net','MH014',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','737','MH737','¡¼¹İÀüÆ÷ÇÔ¡½º» Àûµµ ¾ø°í Á¦¸ñµµ ¸ğ¸£´Â »ç¶÷¸¶Àú ¹üÀÎÀÌ ´©±ºÁö ¾Æ´Â ¿µÈ­','https://www.youtube.com/embed/O9hraotEZKA','¿µÈ­ : À¯ÁÖ¾ó ¼­½ºÆåÆ® (The Usual Suspects , 1995)
-Àå¸£ : ¹üÁË, ½º¸±·¯, ¹Ì½ºÅÍ¸® ¡¼´ö¹«ºñ ±¸µ¶¡½(SUBSCRIBE)
-¢ºhttps://www.youtube.com/c/ºí·¢´öBlackDuc...
-#¿µÈ­#°á¸»Æ÷ÇÔ#Àı¸§¹ßÀÌ',null,null,null,'duc@daum.net','MH014',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','738','MH738','¹İÀü ½ºÆ÷ ¿µÈ­ÀÇ ¿øÅ¾ [°á¸»Æ÷ÇÔ]','https://www.youtube.com/embed/zht5yGQSKRc','Á¦¸ñ : À¯ÁÖ¾ó ¼­½ºÆåÆ® (1995³â ÀÛÇ°)',null,null,null,'ezip@daum.net','MH014',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','739','MH739','[º´¸À¸®ºä] ÇÑ °¡Á·ÀÌ À¯·´À» ¸»¾Æ¸Ô´Â ¿µÈ­! 28ÁÖÈÄ','https://www.youtube.com/embed/gAN3Dd9Y5Ic','-±¸ºÒÃßÃµÁö¼ö´Â Áö±ØÈ÷ °³ÀÎÀû °¨»óÆòÀÔ´Ï´Ù. °¡º±°Ô Âü°í¸¸ ÇØÁÖ¼¼¿ë-
-28ÁÖÈÄ ±¸ºÒÃßÃµÁö¼ö: 9/10
-º´¸À¿ä¼Ò: 2/10
-Âü½ÅÇÔ: 7/10
-ÇÑÁÙÆò: 28ÀÏÈÄ¸¦ ÀÕ´Â Á»ºñ ¸íÀÛ. ÀüÀÛ¿¡ ºñÇØ µÎ ¹è ³Ñ´Â Á¦ÀÛºñ·Î º¼°Å¸®°¡ ´õ ¸¹¾ÆÁ³´Ù. 2ÆíÀÌ Àç¹Õ´Â°æ¿ì´Â ±ØÈ÷ µå¹®µ¥ °³ÀÎÀûÀ¸·Î 28ÁÖÈÄ°¡ Á¶±İ ´õ Àç¹Ì ÀÖ´Âµí ÇÏ´Ù. 28°³¿ùÈÄ´Â ¿Ö ³ª¿ÀÁö ¾Ê´Â°ÍÀÏ±î?
-ÀÌ¾ß 28ÁÖÈÄµµ ´ë¹ÚÀÌ¾ß. µ·ÀÇ °¡Á·µéÀÌ °³ ¹ÎÆó±äÇØµµ Àú´Â 28ÀÏ ÈÄº¸´Ù ½ºÄÉÀÏµµ Ä¿¼­ °³ÀÎÀûÀ¸·Î 28ÁÖÈÄ°¡ Á¶±İ ´õ Àç¹Õ¾ú¾î¿ä. ±×¸®°í ¸¶Áö¸· ¿¡ÆçÅ¾Àå¸éÀº 28°³¿ùÈÄ¸¦ ÇĞ¼ö°í´ëÇÏ±â¿£ ÃæºĞÇÑ Àå¸éÀÌ¾úÁÒ. ¾Æ´Ï 28°³¿ùÈÄ Âï´Â´Ù´Â ¼Ò¹®¸¸ ÀÖ°í ¿Ö ¾ÈÂï´Â°Å¾ß? ±Ùµ¥ Ä«¸¦·Î½ºÇü ´ë´ÏÇü 28°³¿ùÈÄ ÂïÀ¸¸é ¶¼µ·¹ø´Ù? Çüµé ÀÌ°É·Î 700¾ï ³Ñ°Ô ¹ú¾úÀİ¾Æ. Á» Âï¾îÁà¿ë~!! 28°³¿ùÈÄ¸¦ ¿À¸ÅºÒ¸Á ±â´Ù¸®´Â ±¸ºÒÀÌ¾ú½À´Ï´Ù.',null,null,null,'9bul@gmail.com','MH015',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','740','MH740','ÇÑ³²ÀÚÀÇ ½Ç¼ö·ÎÀÎÇØ ÀÎ·ù°¡ ¸ê¸ÁÇÏ´Â ¿µÈ­(¹ß¾Ï°¡Á·)','https://www.youtube.com/embed/OXLziUWw-ys','¿µÈ­ 28ÁÖÈÄ(2007) ÀÔ´Ï´Ù.
-ÀÌ µ¿¿µ»óÀº ¿ø ÀúÀÛ±Ç ¼ÒÀ¯ÀÚÀÇ ÀúÀÛ±Ç ½ÂÀÎÀ» ¹Ş¾Ò½À´Ï´Ù.',null,null,null,'drunk@hotmail.com','MH015',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','741','MH741','28ÁÖ ÈÄ ¸®ºä [¸Á?]','https://www.youtube.com/embed/oMnPKilwka0','»õ·Î¿î Á»ºñ Å¬·¡½Ä ¿µÈ­, 28ÀÏ ÈÄÀÇ ¼ÓÆí 28ÁÖ ÈÄ ¸®ºäÀÔ´Ï´Ù.
-ÀÚ¼¼ÇÑ ¿µÈ­ ¼Ò°³´Â ''»ß¸Ç'' Ã¤³Î¿¡¼­ ÇÔ²²ÇÏ¼¼¿ä.
-»ß¸Ç±¸µ¶ : https://goo.gl/iNZoB6
-»ß¸Ç ''28ÁÖ ÈÄ'' ¼Ò°³ : https://goo.gl/AaSqud
-°¨µ¶ - ÈÄ¾È Ä«¸¦·Î½º ÇÁ·¹½º³ªµô·Î
-Ãâ¿¬ - ·Î¹öÆ® Ä®¶óÀÏ, ·ÎÁî ¹ø, Á¦·¹¹Ì ·¹³Ê, ÇØ·Ñµå Æä¸®´º, ÀÌµå¸®½º ¿¤¹Ù
-Á¦¸ñ - 28ÁÖ ÈÄ
-¾ûÁØÀÇ SNS ÆÈ·Î¿ì ÇØÁÖ½Ã°í, ÁÁ¾Æ¿ä, ±¸µ¶µµ ÀØÁö ¸¶¼¼¿ä!!
-¾ûÁØ ÆäÀÌ½ººÏ : http://goo.gl/rwzblg
-¾ûÁØ ÀÎ½ºÅ¸±×·¥ : http://goo.gl/KnPLRC
-¾ûÁØ ¿ÓÃ­ : https://goo.gl/jijXIC
-ÃÔ¿µÀå¼Ò : ½ºÆ©µğ¿À ÀÏ±â´çÃµ (¼­¿ïÆ¯º°½Ã ¼­´ë¹®±¸ 37-42 ÁöÇÏ1Ãş)
-ÆäÀÌ½ººÏ : https://www.facebook.com/1vs1000Studio/
-¿À½Ã´Â±æ : https://goo.gl/maps/qij1UiY7npr
+ëˆ„êµ°ê°€ í•œë²ˆì¯¤ ë“¤ì–´ë´¤ì„ ''ìµœê³ ì˜ ìŠ¤í¬ì¼ëŸ¬ ë¬¸ì¥''ì¸ "0000ì´ ë²”ì¸ì´ë‹¤."
+ê·¸ ì´ì•¼ê¸°ê°€ ë“¤ì–´ìˆëŠ” ìµœê³ ì˜ ë°˜ì „ ì˜í™”ê°€ ì—¬ê¸° ìˆìŠµë‹ˆë‹¤!
+ë°˜ì „ ì˜í™”ì˜ êµê³¼ì„œ, í˜„ëŒ€ ë°˜ì „ ì˜í™”ì˜ ëª¨íƒœê°€ ëœ ì˜í™”ì´ë©°
+ë²”ì£„ ìŠ¤ë¦´ëŸ¬, ì‹¬ë¦¬ ìŠ¤ë¦´ëŸ¬ ì¥ë¥´ì˜ ëª…ì‘ì´ê¸°ë„ í•˜ì£ !
+ì´ ì˜í™”ë¥¼ ë³´ì§€ ì•Šê³ ì„œëŠ”, ë°˜ì „ì„ ë…¼í•˜ë©´ ì•ˆëœë‹¤ëŠ” ë§ë„ ìˆìŠµë‹ˆë‹¤!
+ìµœê³ ì˜ ë°˜ì „ì˜í™”! ì˜¤ëŠ˜, ì´ ì˜í™” ì–´ë– ì„¸ìš”?
+ë¦¬ë·°ë¥¼ í•˜ë©´ì„œ ì£¼ìš” ì¥ë©´ë° ê²°ë§ì„ ë¹¼ ë†“ì•˜ìœ¼ë‹ˆ ê¼­ ì˜í™”ë¥¼ ì‹œì²­í•´ë³´ì‹œê¸¸ ë°”ëë‹ˆë‹¤! - ''ë¬´ë¹„ì½”ë©˜íŠ¸''ëŠ” ìœ íŠœë¸Œì—ë§Œ ì—…ë¡œë“œ ë©ë‹ˆë‹¤.
+ì˜í™”ì œëª© : ìœ ì£¼ì–¼ ì„œìŠ¤í™íŠ¸ (1995)',null,null,null,'aloneman@daum.net','MH014',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','737','MH737','ã€ë°˜ì „í¬í•¨ã€‘ë³¸ ì ë„ ì—†ê³  ì œëª©ë„ ëª¨ë¥´ëŠ” ì‚¬ëŒë§ˆì € ë²”ì¸ì´ ëˆ„êµ°ì§€ ì•„ëŠ” ì˜í™”','https://www.youtube.com/embed/O9hraotEZKA','ì˜í™” : ìœ ì£¼ì–¼ ì„œìŠ¤í™íŠ¸ (The Usual Suspects , 1995)
+ì¥ë¥´ : ë²”ì£„, ìŠ¤ë¦´ëŸ¬, ë¯¸ìŠ¤í„°ë¦¬ ã€ë•ë¬´ë¹„ êµ¬ë…ã€‘(SUBSCRIBE)
+â–¶https://www.youtube.com/c/ë¸”ë™ë•BlackDuc...
+#ì˜í™”#ê²°ë§í¬í•¨#ì ˆë¦„ë°œì´',null,null,null,'duc@daum.net','MH014',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','738','MH738','ë°˜ì „ ìŠ¤í¬ ì˜í™”ì˜ ì›íƒ‘ [ê²°ë§í¬í•¨]','https://www.youtube.com/embed/zht5yGQSKRc','ì œëª© : ìœ ì£¼ì–¼ ì„œìŠ¤í™íŠ¸ (1995ë…„ ì‘í’ˆ)',null,null,null,'ezip@daum.net','MH014',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','739','MH739','[ë³‘ë§›ë¦¬ë·°] í•œ ê°€ì¡±ì´ ìœ ëŸ½ì„ ë§ì•„ë¨¹ëŠ” ì˜í™”! 28ì£¼í›„','https://www.youtube.com/embed/gAN3Dd9Y5Ic','-êµ¬ë¶ˆì¶”ì²œì§€ìˆ˜ëŠ” ì§€ê·¹íˆ ê°œì¸ì  ê°ìƒí‰ì…ë‹ˆë‹¤. ê°€ë³ê²Œ ì°¸ê³ ë§Œ í•´ì£¼ì„¸ìš©-
+28ì£¼í›„ êµ¬ë¶ˆì¶”ì²œì§€ìˆ˜: 9/10
+ë³‘ë§›ìš”ì†Œ: 2/10
+ì°¸ì‹ í•¨: 7/10
+í•œì¤„í‰: 28ì¼í›„ë¥¼ ì‡ëŠ” ì¢€ë¹„ ëª…ì‘. ì „ì‘ì— ë¹„í•´ ë‘ ë°° ë„˜ëŠ” ì œì‘ë¹„ë¡œ ë³¼ê±°ë¦¬ê°€ ë” ë§ì•„ì¡Œë‹¤. 2í¸ì´ ì¬ë°ŒëŠ”ê²½ìš°ëŠ” ê·¹íˆ ë“œë¬¸ë° ê°œì¸ì ìœ¼ë¡œ 28ì£¼í›„ê°€ ì¡°ê¸ˆ ë” ì¬ë¯¸ ìˆëŠ”ë“¯ í•˜ë‹¤. 28ê°œì›”í›„ëŠ” ì™œ ë‚˜ì˜¤ì§€ ì•ŠëŠ”ê²ƒì¼ê¹Œ?
+ì´ì•¼ 28ì£¼í›„ë„ ëŒ€ë°•ì´ì•¼. ëˆì˜ ê°€ì¡±ë“¤ì´ ê°œ ë¯¼íê¸´í•´ë„ ì €ëŠ” 28ì¼ í›„ë³´ë‹¤ ìŠ¤ì¼€ì¼ë„ ì»¤ì„œ ê°œì¸ì ìœ¼ë¡œ 28ì£¼í›„ê°€ ì¡°ê¸ˆ ë” ì¬ë°Œì—ˆì–´ìš”. ê·¸ë¦¬ê³  ë§ˆì§€ë§‰ ì—í íƒ‘ì¥ë©´ì€ 28ê°œì›”í›„ë¥¼ í•™ìˆ˜ê³ ëŒ€í•˜ê¸°ì—” ì¶©ë¶„í•œ ì¥ë©´ì´ì—ˆì£ . ì•„ë‹ˆ 28ê°œì›”í›„ ì°ëŠ”ë‹¤ëŠ” ì†Œë¬¸ë§Œ ìˆê³  ì™œ ì•ˆì°ëŠ”ê±°ì•¼? ê·¼ë° ì¹´ë¥¼ë¡œìŠ¤í˜• ëŒ€ë‹ˆí˜• 28ê°œì›”í›„ ì°ìœ¼ë©´ ë–¼ëˆë²ˆë‹¤? í˜•ë“¤ ì´ê±¸ë¡œ 700ì–µ ë„˜ê²Œ ë²Œì—ˆì–ì•„. ì¢€ ì°ì–´ì¤˜ìš©~!! 28ê°œì›”í›„ë¥¼ ì˜¤ë§¤ë¶ˆë§ ê¸°ë‹¤ë¦¬ëŠ” êµ¬ë¶ˆì´ì—ˆìŠµë‹ˆë‹¤.',null,null,null,'9bul@gmail.com','MH015',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','740','MH740','í•œë‚¨ìì˜ ì‹¤ìˆ˜ë¡œì¸í•´ ì¸ë¥˜ê°€ ë©¸ë§í•˜ëŠ” ì˜í™”(ë°œì•”ê°€ì¡±)','https://www.youtube.com/embed/OXLziUWw-ys','ì˜í™” 28ì£¼í›„(2007) ì…ë‹ˆë‹¤.
+ì´ ë™ì˜ìƒì€ ì› ì €ì‘ê¶Œ ì†Œìœ ìì˜ ì €ì‘ê¶Œ ìŠ¹ì¸ì„ ë°›ì•˜ìŠµë‹ˆë‹¤.',null,null,null,'drunk@hotmail.com','MH015',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','741','MH741','28ì£¼ í›„ ë¦¬ë·° [ë§?]','https://www.youtube.com/embed/oMnPKilwka0','ìƒˆë¡œìš´ ì¢€ë¹„ í´ë˜ì‹ ì˜í™”, 28ì¼ í›„ì˜ ì†í¸ 28ì£¼ í›„ ë¦¬ë·°ì…ë‹ˆë‹¤.
+ìì„¸í•œ ì˜í™” ì†Œê°œëŠ” ''ì‚ë§¨'' ì±„ë„ì—ì„œ í•¨ê»˜í•˜ì„¸ìš”.
+ì‚ë§¨êµ¬ë… : https://goo.gl/iNZoB6
+ì‚ë§¨ ''28ì£¼ í›„'' ì†Œê°œ : https://goo.gl/AaSqud
+ê°ë… - í›„ì•ˆ ì¹´ë¥¼ë¡œìŠ¤ í”„ë ˆìŠ¤ë‚˜ë”œë¡œ
+ì¶œì—° - ë¡œë²„íŠ¸ ì¹¼ë¼ì¼, ë¡œì¦ˆ ë²ˆ, ì œë ˆë¯¸ ë ˆë„ˆ, í•´ë¡¤ë“œ í˜ë¦¬ë‰´, ì´ë“œë¦¬ìŠ¤ ì—˜ë°”
+ì œëª© - 28ì£¼ í›„
+ì—‰ì¤€ì˜ SNS íŒ”ë¡œìš° í•´ì£¼ì‹œê³ , ì¢‹ì•„ìš”, êµ¬ë…ë„ ìŠì§€ ë§ˆì„¸ìš”!!
+ì—‰ì¤€ í˜ì´ìŠ¤ë¶ : http://goo.gl/rwzblg
+ì—‰ì¤€ ì¸ìŠ¤íƒ€ê·¸ë¨ : http://goo.gl/KnPLRC
+ì—‰ì¤€ ì™“ì±  : https://goo.gl/jijXIC
+ì´¬ì˜ì¥ì†Œ : ìŠ¤íŠœë””ì˜¤ ì¼ê¸°ë‹¹ì²œ (ì„œìš¸íŠ¹ë³„ì‹œ ì„œëŒ€ë¬¸êµ¬ 37-42 ì§€í•˜1ì¸µ)
+í˜ì´ìŠ¤ë¶ : https://www.facebook.com/1vs1000Studio/
+ì˜¤ì‹œëŠ”ê¸¸ : https://goo.gl/maps/qij1UiY7npr
 .
 .
 .
@@ -880,718 +880,718 @@ Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMA
 .
 .
 .
-¡Ø º»ÀÎ°ú ÀÇ°ßÀÌ ´Ù¸£´Ù¸ç, ÀÌÇØ¸¦ ¸øÇÏ°Ú´Ù¸ç, °ø°¨À» ¸øÇÏ°Ú´Ù¸ç ´Ù¸§À» ÀÎÁ¤ÇÏÁö ¸øÇÏ°í ''½Ãºñ'', ''ºñ¾Æ³É'', ''ÀÎ°İ ¸ğµ¶''´ñ±ÛÀ» ´Ù½Ã´Â ºĞµéÀÌ ÀÖ½À´Ï´Ù.
-ºĞ³ëÁ¶ÀıÀå¾Ö¿Í ¾ÖÁ¤°áÇÌÀº Ä¡·á°¡ °¡´ÉÇÑ Áúº´ÀÔ´Ï´Ù.
-°¡±î¿î Áø·á¼Ò¸¦ Ã£¾Æ ÀÎÅÍ³İÁßµ¶Ä¡·á ¹× ºĞ³ëÁ¶ÀıÀå¾ÖÄ¡·á, ÁÖÀÇ·Â°áÇÌÀå¾ÖÄ¡·á µî¿¡ °üÇØ »ó´ãÀ» ¹Ş¾Æº¸½Ã±æ ¹Ù¶ø´Ï´Ù.
-¿©·¯ºĞÀÇ ÄèÀ¯¸¦ º÷´Ï´Ù.
-¡Ø ¿µÈ­ ÀÇ°ß ¿Ü ÀÎ°İÀ» ¸ğµ¶ÇÏ´Â ¾ÇÇÃÀº Àß ¸ğ¾Æ¼­ »çÀÌ¹ö¼ö»ç´ë·Î Á¢¼öÇÏ°í ÀÖ½À´Ï´Ù.
-°¨»çÇÕ´Ï´Ù.',null,null,null,'unjun@naver.com','MH015',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','742','MH742','[¿äÃ»º´¸À¸®ºä] º®À»Å¸´ÂÁ»ºñ! ´«¹°Á¥Àº»§! ¿ùµå¿öZ','https://www.youtube.com/embed/JT3ZdVLPGug','±¸ÅÙÅ¹! ¿µÈ­º¸´ÙÀç¹Õ´Â º´¸À¸®ºä ±¸ºÒÀÔ´Ï´Ù. Àú¹ø¿¡ 28½Ã¸®Áî¸¦ ¸®ºäÇÏ¸é¼­ ¼­¿îÇÏ¼Ì´ø ºĞÀÌ ¶Ç °è¼ÌÀ»°Ì´Ï´Ù. ¾Æ´Ï Á¦°¡ À¯Æ©ºê Ã¹ ¿µ»óÀ¸·Î Á»ºñ¿µÈ­ ÆòÁ¡ Á¤¸®¸¦ Çß¾ú´Âµ¥ ¿ùµå¿öZ¸¦ 10Á¡ ¸¸Á¡¿¡ 6Á¡ Áá´Ù°¡ ¿åÀ» ¿ÀÁö°Ô ¸Ô¾ú¾î¿ä.¤¾¤¾ ±×·¡¿ä Áö±İ »ı°¢ÇØº¸´Ï±î ºÎ»êÇàº¸´Ù ¿ùµå¿öZ°¡ ÈÎ¾À Àç¹Õ¾ú´ø°Å °°¾Ö.. ¿©Æ° Á»ºñ¿µÈ­ ÃÑÁ¤¸® ¿µ»óÀº ¹éÇÁ·Î Á¦ °³ÀÎÀûÀÎ ÃëÇâÀ¸·Î ¸¸µé¾ú´ø °Å°í¿ä. Áö±İÀº ½ÃÃ»ÀÚºĞµé ÀÇ°ßÀÌ ¸¹ÀÌ ½×¿©¼­ ÀÌ°É Åä´ë·Î ´Ù½Ã Á¤¸®ÇÏ°í ÀÖ½À´Ï´Ù. ¾Æ´Ï Àá±ñ ÀÌ ¾ê±â¸¦ ÇÏ·Á´Â°Ô ¾Æ´Ï¾ú´Âµ¥ ¹İ´©¸® ¿ø¼®´ÔÀÌ ¿äÃ»ÇØ ÁÖ½Å ¿ùµå¿öZ! À½À½ ¿ùµå¿öZ
-20¼¼±â¿¡´Â ±â¾î°¡°í °É¾î°¡´Â Á»ºñ°¡ ÀÖ¾úÀ¸³ª 21¼¼±â°¡ µÇ¸é¼­ ¶Ù´Â Á»ºñ, º¯Çü Á»ºñ°¡ °¢±¤¹Ş°Ô µÇ¾ú½À´Ï´Ù. ÇÏÁö¸¸ ¿ä·±°Ç Ã³À½ÀÌÁÒ? º®À» Å¸°í¿Ã¶ó°¡´Â Á»ºñ! °Å±â´Ù°¡ ½ºÄÉÀÏµµ ¾î¸¶¾î¸¶ÇÑ ¿ùµå¿öZ ¶Ñ²±À» ÇÑ¹ø ¿­¾îº¸µµ·Ï ÇÏ°Ú½À´Ï´Ù.
-¾Æ ¿µÈ­°¡ ÁøÂ¥ Àç¹Õ¾ú´Âµ¥ °©ÀÚ±â ¸¶¹«¸®°¡ È® Á×Àº ÀÌÀ¯°¡ ÀÖ¾ú±º¿ä. ±èH¼ö´Ô Á¦º¸ÇØÁÖ½Å Á¤º¸ °¨»çµå¸³´Ï´Ù. ³­ ¸¶Áö¸·¿¡ ¿Ö ¸»¾Æ¸Ô¾ú³ªÇßÁö.. ¿ª½Ã µ·ÀÌ ¾ø¾ú¾î..
-±Ùµ¥ ÀÌ·¸°Ô Èûµé°Ô °³ºÀÇÑ ¿ùµå¿öZ°¡ 2¾ï´Ş·¯·Î Á¦ÀÛµÇ¾î 5¾ï 3Ãµ¸¸ ´Ş·¯¸¦ ¹ú¾ú½À´Ï´Ù. ±×·¡¼­ 2017³â¿¡ 2ÆíÀ» °³ºÀÇÏ±â·Î Çß¾ú´Âµ¥ ÀÀ? ¹Ì·ïÁ®¼­ 2019³â °³ºÀ¿¹Á¤À¸·Î µÅÀÖ³×¿ä. ¾Æ´Ï »§Çü ÀÌÈ¥ ¼Ò¼ÛÁßÀÌ¾ú±¸³ª..! ±× ÇüÀÇ »ç»ıÈ°Àº Àß ¸ğ¸£°ÚÁö¸¸ ¿µÈ­¸¸ Á» ÀßÂï¾îÁà¿ë..!
-¾Æ ±Ùµ¥ ´ÙÇàÀÎ°Ô 1Æí¿¡¼­ µ·À» ¹ú¾úÀ¸´Ï±î 2ÆíÀÌ ¹«»êµÉ °¡´É¼ºµµ Àû°í Á¦ÀÛ»ç ´«Ä¡¸¦ ¾Èº¸°í ÂïÀ» ¼ö ÀÖÀ»°Å °°´Ù´Â ±â´ë¸¦ ÇØº¾´Ï´Ù. ÈïÇà¸¸ µÈ´Ù¸é 3ºÎÀÛ±îÁö °èÈ¹ÇÏ°í ÀÖ´Ù´Â ¿ùµå¿öZ ½Ã¸®Áî. Á»ºñ¿µÈ­¸¦ ÁÁ¾ÆÇÏ½Å´Ù¸é Àú¿Í ÇÔ²² ³»³â °³ºÀÀü±îÁö ¿øÀÛÀ» ÀĞ¾îº¸´Â °ÍÀº ¾î¶³±î¿ä? ¿¡ÀÌ ¼³¸¶ ·¹Áö´øÆ® ÀÌºíÃ³·³ µÇÁö´Â ¾Ê°ÚÁö..? ¿©Æ° ¾öÃ» ±â´ëµÇ´Â°Ç »ç½Ç¿¡¿ä. ³»³â¿¡ µÎ°íº¾½Ã´Ù~! ÀÌ»ó ¿µÈ­º¸´Ù Àç¹Õ´Â º´¸À¸®ºä ±¸ºÒÀÌ¾ú½À´Ï´Ù. ¿©·¯ºĞ ±¸±¸±î±î?!',null,null,null,'9bul@gmail.com','MH016',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','743','MH743','[¿µÈ­¸®ºä/°á¸»Æ÷ÇÔ] Á»ºñµéÀÌ µé²ú´Â ¼¼»ó¿¡ »ì¾Æ°¡´Â »ç¶÷µé','https://www.youtube.com/embed/51IiZdV-ME4','* º» ¿µ»óÀº ½ºÆ÷ÀÏ·¯¿Í °á¸»ÀÌ Æ÷ÇÔ µÇ¾îÀÖ½À´Ï´Ù ¿µÈ­ : ¿ùµå¿öZ (World War Z, 2013)
-¿µ»ó Àç¹ÌÀÖ°Ô º¸¼Ì´Ù¸é ±¸µ¶ / ÁÁ¾Æ¿ä / ´ñ±Û ºÎÅ¹µå¸³´Ï´Ù!
-´õ ÁÁÀº ÆíÁı°ú ¿µ»ó ¼Ò°³·Î º¸´äÇÏ°Ú½À´Ï´Ù ^^',null,null,null,'mix@gmail.com','MH016',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','744','MH744','ºÎ»êÇà º¸´Ù Àç¹Ô´Â 10ºĞ¸¸¿¡ º¸´Â ''¿ùµå¿öZ'' (World War Z, 2013)','https://www.youtube.com/embed/gPEwtJuo31g','½ºÅä¸® º¸±âÀü ÀÚ¸·ÄÑÁÖ¼¼¿ä~ Á»ºñ°èÀÇ ºÎ¸£ÁÖ¾Æ ¿ùµå¿öZ ½ºÅä¸®¸¦ 7ºĞÁ¤µµ·Î ¿ä¾àÇÑ ¿µ»óÀÔ´Ï´Ù. 2017³â¿¡ ¿ùµå¿öZ 2 °¡ ³ª¿Ã¿¹Á¤ÀÎµ¥ ±×Àü¿¡ º¸°í º¹½ÀÇÏ¼¼¿ä~',null,null,null,'2ddudae@gmail.com','MH016',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','745','MH745','ºÀ¼âµÈ ¾ÆÆÄÆ®¿¡¼­ Á»ºñ°¡ ³ª¿Â´Ù¸é? (°á¸»Æ÷ÇÔ/R.E.C)','https://www.youtube.com/embed/o_OgOjuvXwc','¾È³çÇÏ¼¼¿ä!! ¿µÈ­¸¦ ÀĞ¾îÁÖ´Â ³²ÀÚ ¿µÀÏ³²ÀÔ´Ï´Ù.
-R.E.C (2007)ÀÔ´Ï´Ù.
-¸¶Áö¸·¿¡µµ ¼³¸íµå·ÈÁö¸¸, R.E.C 4ºÎÀÛÀº 1,2,4,3 ¼øÀ¸·Î ÁøÇàÇÒ ¿¹Á¤ÀÔ´Ï´Ù.
-¿À´Ãµµ ºÁÁÖ¼Å¼­ Áø½ÉÀ¸·Î °¨»çÇÕ´Ï´Ù.',null,null,null,'youngread@daum.net','MH017',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','746','MH746','°³Â¼´Â 1ÀÎÄª Á»ºñ¿µÈ­ (½ºÆ÷,ÀÚ¸·êó)','https://www.youtube.com/embed/D6lZFbYhDl8','¾ÆÁÖ Àç¹ÌÀÖ°Ôº» ¿µÈ­¿´½À´Ï´Ù. ±âÈ¸°¡ µÈ´Ù¸é ÈÄ¼ÓÀÛÀ¸·Îµµ Ã£¾Æ¿À°Ú½À´Ï´Ù!
-±¸µ¶ÀÚ,½ÃÃ»ÀÚºĞµé Ç×»ó °¨»çµå¸³´Ï´Ù. Æí¾ÈÇÑ¹ã º¸³»¼¼¿ä^_^',null,null,null,'hongcinema@gmail.com','MH017',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','747','MH747','Á»ºñ¿Í ÇÔ²² ¾ÆÆÄÆ®¿¡ °¤Çô¹ö¸° ¸®Æ÷ÅÍ | REC | °øÆ÷,Á»ºñ | Å³Å¸(Å³¸µÅ¸ÀÓ) | ¿µÈ­ÃßÃµ','https://www.youtube.com/embed/ajQH8CwhHHc','R.E.C º¸·¯°¡±â ( ³×ÀÌ¹ö ¿µÈ­ )
+â€» ë³¸ì¸ê³¼ ì˜ê²¬ì´ ë‹¤ë¥´ë‹¤ë©°, ì´í•´ë¥¼ ëª»í•˜ê² ë‹¤ë©°, ê³µê°ì„ ëª»í•˜ê² ë‹¤ë©° ë‹¤ë¦„ì„ ì¸ì •í•˜ì§€ ëª»í•˜ê³  ''ì‹œë¹„'', ''ë¹„ì•„ëƒ¥'', ''ì¸ê²© ëª¨ë…''ëŒ“ê¸€ì„ ë‹¤ì‹œëŠ” ë¶„ë“¤ì´ ìˆìŠµë‹ˆë‹¤.
+ë¶„ë…¸ì¡°ì ˆì¥ì• ì™€ ì• ì •ê²°í•ì€ ì¹˜ë£Œê°€ ê°€ëŠ¥í•œ ì§ˆë³‘ì…ë‹ˆë‹¤.
+ê°€ê¹Œìš´ ì§„ë£Œì†Œë¥¼ ì°¾ì•„ ì¸í„°ë„·ì¤‘ë…ì¹˜ë£Œ ë° ë¶„ë…¸ì¡°ì ˆì¥ì• ì¹˜ë£Œ, ì£¼ì˜ë ¥ê²°í•ì¥ì• ì¹˜ë£Œ ë“±ì— ê´€í•´ ìƒë‹´ì„ ë°›ì•„ë³´ì‹œê¸¸ ë°”ëë‹ˆë‹¤.
+ì—¬ëŸ¬ë¶„ì˜ ì¾Œìœ ë¥¼ ë¹•ë‹ˆë‹¤.
+â€» ì˜í™” ì˜ê²¬ ì™¸ ì¸ê²©ì„ ëª¨ë…í•˜ëŠ” ì•…í”Œì€ ì˜ ëª¨ì•„ì„œ ì‚¬ì´ë²„ìˆ˜ì‚¬ëŒ€ë¡œ ì ‘ìˆ˜í•˜ê³  ìˆìŠµë‹ˆë‹¤.
+ê°ì‚¬í•©ë‹ˆë‹¤.',null,null,null,'unjun@naver.com','MH015',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','742','MH742','[ìš”ì²­ë³‘ë§›ë¦¬ë·°] ë²½ì„íƒ€ëŠ”ì¢€ë¹„! ëˆˆë¬¼ì –ì€ë¹µ! ì›”ë“œì›ŒZ','https://www.youtube.com/embed/JT3ZdVLPGug','êµ¬í…íƒ! ì˜í™”ë³´ë‹¤ì¬ë°ŒëŠ” ë³‘ë§›ë¦¬ë·° êµ¬ë¶ˆì…ë‹ˆë‹¤. ì €ë²ˆì— 28ì‹œë¦¬ì¦ˆë¥¼ ë¦¬ë·°í•˜ë©´ì„œ ì„œìš´í•˜ì…¨ë˜ ë¶„ì´ ë˜ ê³„ì…¨ì„ê²ë‹ˆë‹¤. ì•„ë‹ˆ ì œê°€ ìœ íŠœë¸Œ ì²« ì˜ìƒìœ¼ë¡œ ì¢€ë¹„ì˜í™” í‰ì  ì •ë¦¬ë¥¼ í–ˆì—ˆëŠ”ë° ì›”ë“œì›ŒZë¥¼ 10ì  ë§Œì ì— 6ì  ì¤¬ë‹¤ê°€ ìš•ì„ ì˜¤ì§€ê²Œ ë¨¹ì—ˆì–´ìš”.ã…ã… ê·¸ë˜ìš” ì§€ê¸ˆ ìƒê°í•´ë³´ë‹ˆê¹Œ ë¶€ì‚°í–‰ë³´ë‹¤ ì›”ë“œì›ŒZê°€ í›¨ì”¬ ì¬ë°Œì—ˆë˜ê±° ê°™ì• .. ì—¬íŠ¼ ì¢€ë¹„ì˜í™” ì´ì •ë¦¬ ì˜ìƒì€ ë°±í”„ë¡œ ì œ ê°œì¸ì ì¸ ì·¨í–¥ìœ¼ë¡œ ë§Œë“¤ì—ˆë˜ ê±°ê³ ìš”. ì§€ê¸ˆì€ ì‹œì²­ìë¶„ë“¤ ì˜ê²¬ì´ ë§ì´ ìŒ“ì—¬ì„œ ì´ê±¸ í† ëŒ€ë¡œ ë‹¤ì‹œ ì •ë¦¬í•˜ê³  ìˆìŠµë‹ˆë‹¤. ì•„ë‹ˆ ì ê¹ ì´ ì–˜ê¸°ë¥¼ í•˜ë ¤ëŠ”ê²Œ ì•„ë‹ˆì—ˆëŠ”ë° ë°˜ëˆ„ë¦¬ ì›ì„ë‹˜ì´ ìš”ì²­í•´ ì£¼ì‹  ì›”ë“œì›ŒZ! ìŒìŒ ì›”ë“œì›ŒZ
+20ì„¸ê¸°ì—ëŠ” ê¸°ì–´ê°€ê³  ê±¸ì–´ê°€ëŠ” ì¢€ë¹„ê°€ ìˆì—ˆìœ¼ë‚˜ 21ì„¸ê¸°ê°€ ë˜ë©´ì„œ ë›°ëŠ” ì¢€ë¹„, ë³€í˜• ì¢€ë¹„ê°€ ê°ê´‘ë°›ê²Œ ë˜ì—ˆìŠµë‹ˆë‹¤. í•˜ì§€ë§Œ ìš”ëŸ°ê±´ ì²˜ìŒì´ì£ ? ë²½ì„ íƒ€ê³ ì˜¬ë¼ê°€ëŠ” ì¢€ë¹„! ê±°ê¸°ë‹¤ê°€ ìŠ¤ì¼€ì¼ë„ ì–´ë§ˆì–´ë§ˆí•œ ì›”ë“œì›ŒZ ëšœê»‘ì„ í•œë²ˆ ì—´ì–´ë³´ë„ë¡ í•˜ê² ìŠµë‹ˆë‹¤.
+ì•„ ì˜í™”ê°€ ì§„ì§œ ì¬ë°Œì—ˆëŠ”ë° ê°‘ìê¸° ë§ˆë¬´ë¦¬ê°€ í™• ì£½ì€ ì´ìœ ê°€ ìˆì—ˆêµ°ìš”. ê¹€Hìˆ˜ë‹˜ ì œë³´í•´ì£¼ì‹  ì •ë³´ ê°ì‚¬ë“œë¦½ë‹ˆë‹¤. ë‚œ ë§ˆì§€ë§‰ì— ì™œ ë§ì•„ë¨¹ì—ˆë‚˜í–ˆì§€.. ì—­ì‹œ ëˆì´ ì—†ì—ˆì–´..
+ê·¼ë° ì´ë ‡ê²Œ í˜ë“¤ê²Œ ê°œë´‰í•œ ì›”ë“œì›ŒZê°€ 2ì–µë‹¬ëŸ¬ë¡œ ì œì‘ë˜ì–´ 5ì–µ 3ì²œë§Œ ë‹¬ëŸ¬ë¥¼ ë²Œì—ˆìŠµë‹ˆë‹¤. ê·¸ë˜ì„œ 2017ë…„ì— 2í¸ì„ ê°œë´‰í•˜ê¸°ë¡œ í–ˆì—ˆëŠ”ë° ì‘? ë¯¸ë¤„ì ¸ì„œ 2019ë…„ ê°œë´‰ì˜ˆì •ìœ¼ë¡œ ë¼ìˆë„¤ìš”. ì•„ë‹ˆ ë¹µí˜• ì´í˜¼ ì†Œì†¡ì¤‘ì´ì—ˆêµ¬ë‚˜..! ê·¸ í˜•ì˜ ì‚¬ìƒí™œì€ ì˜ ëª¨ë¥´ê² ì§€ë§Œ ì˜í™”ë§Œ ì¢€ ì˜ì°ì–´ì¤˜ìš©..!
+ì•„ ê·¼ë° ë‹¤í–‰ì¸ê²Œ 1í¸ì—ì„œ ëˆì„ ë²Œì—ˆìœ¼ë‹ˆê¹Œ 2í¸ì´ ë¬´ì‚°ë  ê°€ëŠ¥ì„±ë„ ì ê³  ì œì‘ì‚¬ ëˆˆì¹˜ë¥¼ ì•ˆë³´ê³  ì°ì„ ìˆ˜ ìˆì„ê±° ê°™ë‹¤ëŠ” ê¸°ëŒ€ë¥¼ í•´ë´…ë‹ˆë‹¤. í¥í–‰ë§Œ ëœë‹¤ë©´ 3ë¶€ì‘ê¹Œì§€ ê³„íší•˜ê³  ìˆë‹¤ëŠ” ì›”ë“œì›ŒZ ì‹œë¦¬ì¦ˆ. ì¢€ë¹„ì˜í™”ë¥¼ ì¢‹ì•„í•˜ì‹ ë‹¤ë©´ ì €ì™€ í•¨ê»˜ ë‚´ë…„ ê°œë´‰ì „ê¹Œì§€ ì›ì‘ì„ ì½ì–´ë³´ëŠ” ê²ƒì€ ì–´ë–¨ê¹Œìš”? ì—ì´ ì„¤ë§ˆ ë ˆì§€ë˜íŠ¸ ì´ë¸”ì²˜ëŸ¼ ë˜ì§€ëŠ” ì•Šê² ì§€..? ì—¬íŠ¼ ì—„ì²­ ê¸°ëŒ€ë˜ëŠ”ê±´ ì‚¬ì‹¤ì—ìš”. ë‚´ë…„ì— ë‘ê³ ë´…ì‹œë‹¤~! ì´ìƒ ì˜í™”ë³´ë‹¤ ì¬ë°ŒëŠ” ë³‘ë§›ë¦¬ë·° êµ¬ë¶ˆì´ì—ˆìŠµë‹ˆë‹¤. ì—¬ëŸ¬ë¶„ êµ¬êµ¬ê¹Œê¹Œ?!',null,null,null,'9bul@gmail.com','MH016',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','743','MH743','[ì˜í™”ë¦¬ë·°/ê²°ë§í¬í•¨] ì¢€ë¹„ë“¤ì´ ë“¤ë“ëŠ” ì„¸ìƒì— ì‚´ì•„ê°€ëŠ” ì‚¬ëŒë“¤','https://www.youtube.com/embed/51IiZdV-ME4','* ë³¸ ì˜ìƒì€ ìŠ¤í¬ì¼ëŸ¬ì™€ ê²°ë§ì´ í¬í•¨ ë˜ì–´ìˆìŠµë‹ˆë‹¤ ì˜í™” : ì›”ë“œì›ŒZ (World War Z, 2013)
+ì˜ìƒ ì¬ë¯¸ìˆê²Œ ë³´ì…¨ë‹¤ë©´ êµ¬ë… / ì¢‹ì•„ìš” / ëŒ“ê¸€ ë¶€íƒë“œë¦½ë‹ˆë‹¤!
+ë” ì¢‹ì€ í¸ì§‘ê³¼ ì˜ìƒ ì†Œê°œë¡œ ë³´ë‹µí•˜ê² ìŠµë‹ˆë‹¤ ^^',null,null,null,'mix@gmail.com','MH016',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','744','MH744','ë¶€ì‚°í–‰ ë³´ë‹¤ ì¬ë°‹ëŠ” 10ë¶„ë§Œì— ë³´ëŠ” ''ì›”ë“œì›ŒZ'' (World War Z, 2013)','https://www.youtube.com/embed/gPEwtJuo31g','ìŠ¤í† ë¦¬ ë³´ê¸°ì „ ìë§‰ì¼œì£¼ì„¸ìš”~ ì¢€ë¹„ê³„ì˜ ë¶€ë¥´ì£¼ì•„ ì›”ë“œì›ŒZ ìŠ¤í† ë¦¬ë¥¼ 7ë¶„ì •ë„ë¡œ ìš”ì•½í•œ ì˜ìƒì…ë‹ˆë‹¤. 2017ë…„ì— ì›”ë“œì›ŒZ 2 ê°€ ë‚˜ì˜¬ì˜ˆì •ì¸ë° ê·¸ì „ì— ë³´ê³  ë³µìŠµí•˜ì„¸ìš”~',null,null,null,'2ddudae@gmail.com','MH016',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','745','MH745','ë´‰ì‡„ëœ ì•„íŒŒíŠ¸ì—ì„œ ì¢€ë¹„ê°€ ë‚˜ì˜¨ë‹¤ë©´? (ê²°ë§í¬í•¨/R.E.C)','https://www.youtube.com/embed/o_OgOjuvXwc','ì•ˆë…•í•˜ì„¸ìš”!! ì˜í™”ë¥¼ ì½ì–´ì£¼ëŠ” ë‚¨ì ì˜ì¼ë‚¨ì…ë‹ˆë‹¤.
+R.E.C (2007)ì…ë‹ˆë‹¤.
+ë§ˆì§€ë§‰ì—ë„ ì„¤ëª…ë“œë ¸ì§€ë§Œ, R.E.C 4ë¶€ì‘ì€ 1,2,4,3 ìˆœìœ¼ë¡œ ì§„í–‰í•  ì˜ˆì •ì…ë‹ˆë‹¤.
+ì˜¤ëŠ˜ë„ ë´ì£¼ì…”ì„œ ì§„ì‹¬ìœ¼ë¡œ ê°ì‚¬í•©ë‹ˆë‹¤.',null,null,null,'youngread@daum.net','MH017',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','746','MH746','ê°œì©ŒëŠ” 1ì¸ì¹­ ì¢€ë¹„ì˜í™” (ìŠ¤í¬,ìë§‰æœ‰)','https://www.youtube.com/embed/D6lZFbYhDl8','ì•„ì£¼ ì¬ë¯¸ìˆê²Œë³¸ ì˜í™”ì˜€ìŠµë‹ˆë‹¤. ê¸°íšŒê°€ ëœë‹¤ë©´ í›„ì†ì‘ìœ¼ë¡œë„ ì°¾ì•„ì˜¤ê² ìŠµë‹ˆë‹¤!
+êµ¬ë…ì,ì‹œì²­ìë¶„ë“¤ í•­ìƒ ê°ì‚¬ë“œë¦½ë‹ˆë‹¤. í¸ì•ˆí•œë°¤ ë³´ë‚´ì„¸ìš”^_^',null,null,null,'hongcinema@gmail.com','MH017',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','747','MH747','ì¢€ë¹„ì™€ í•¨ê»˜ ì•„íŒŒíŠ¸ì— ê°‡í˜€ë²„ë¦° ë¦¬í¬í„° | REC | ê³µí¬,ì¢€ë¹„ | í‚¬íƒ€(í‚¬ë§íƒ€ì„) | ì˜í™”ì¶”ì²œ','https://www.youtube.com/embed/ajQH8CwhHHc','R.E.C ë³´ëŸ¬ê°€ê¸° ( ë„¤ì´ë²„ ì˜í™” )
 https://nstore.naver.com/movie/detail...
 - R.E.C -
-°³ºÀ : 2007 ( ±¹³» 2008 )
-Àå¸£ : °øÆ÷,¼­½ºÆæ½º,¹Ì½ºÅ×¸®
-°¨µ¶ : ÇÏ¿ì¸Ş ¹ß¶ó°Ô·Î,ÆÄÄÚ ÇÃ¶óÀÚ
-Ãâ¿¬ : ¸¶´©¿¤¶ó º§¶ó½ºÄÚ, Æä¶õ ¶¼¶ó»ç, ºñ¼¾Å× Èú
-ÁÁ¾Æ¿ä & ±¸µ¶Àº Å« ÈûÀÌ µË´Ï´Ù^^
-¿µÈ­,¾Ö´Ï,¸¸È­,µå¶ó¸¶ ¸ğ~¿Àµç ¿µ»óÀ» ¼Ò°³,¸®ºä,ÃßÃµÀ» µå¸®´Â Ã¤³Î! ¿©·¯ºĞµéÀÇ ½Ã°£À» »¯µµ·Ï ³ë·ÂÇÏ°Ú½À´Ï´Ù! Å³Å¸(Å³¸µÅ¸ÀÓ) ¸¹Àº »ç¶û ºÎÅ¹µå¸³´Ï´Ù¢½
-ÀÎÆ®·Î,¾Æ¿ôÆ®·Î BGM : Adagio for summer wind',null,null,null,'killtarian131@yahoo.com','MH017',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','748','MH748','¼Õ¿¡ ÇÇ ¹¯Àº ÀÚ, µ¹¾Æ°¥ ¼ö ¾ø´Ù ( ¾ËÆ÷ÀÎÆ® ) ½ºÅä¸®+ÇØ¼®Æí','https://www.youtube.com/embed/8Uv7hSif9SM','19¹øÂ° ¿µÈ­ ¸®ºä (¾ËÆ÷ÀÎÆ® 2004) ½ºÅä¸®+ÇØ¼®ÆíÀÔ´Ï´Ù. 17ºĞ 27ÃÊ ÀÌÈÄ·Ğ ½ºÆ÷ÀÏ·¯°¡ Æ÷ÇÔµÇ¾î ÀÖÀ¸´Ï ÁÖÀÇÇØÁÖ¼¼¿ä. ÁÁ¾Æ¿ä(ÃßÃµ) ¹öÆ°À» ´­·¯ÁÖ½Ã¸é ´õ ¸¹Àº ºĞµéÀÌ °¨»óÇÏ½Ç ¼ö ÀÖ°í,
-±¸µ¶À» ÇÏ½Ã¸é ¾Ë¶÷±â´ÉÀ¸·Î ÀÎÇØ ´õ ÆíÇÏ°Ô º¸½Ç ¼ö ÀÖ½À´Ï´Ù.
-¿µÈ­ ¾ËÆ÷ÀÎÆ®¿¡ °ü·ÃµÈ ½äÀÌ ¾öÃ» ¸¹´õ¶ó°í¿ä.
-±×·¡¼­ ÀÌ¹ø ¸®ºä¸¦ ¾ËÆ÷ÀÎÆ®·Î Àâ¾Ò´Âµ¥... ¿Í...
-ÇÒ ÀÌ¾ß±â°¡ ³Ê¹« ¸¹¾Æ¼­ ÁÙÀÌ°í ÁÙ¿´´Âµ¥µµ ºĞ·®ÀÌ ³Ê¹« ¸¹¾Æ¿ä
-µŞÀÌ¾ß±â¸¦ °è¼Ó Ã£¾Æº¸´Ù º¸´Ï±î
-¿µÈ­º¸´Ù µŞÀÌ¾ß±â°¡ ´õ Àë³ª±âµµ ÇÏ°í ¤»¤»¤»
-¾ÏÆ°, °ü½ÉÀÖÀ¸½Å ºĞµéÀº ÇÑ¹øÂë º¸¼Åµµ ±¦ÂúÀº ¿µÈ­ °°½À´Ï´Ù.
-p.s ´ñ±Û·Î ¿©·¯ ¿µÈ­µéÀÇ ¸®ºä½ÅÃ»ÀÌ ÀÖ¾ú´Âµ¥,
-±×¿µÈ­µéÀ» ´Ù ¸®ºä·Î ¸¸µå´Â°Ç ½Ã°£»ó ºÒ°¡´ÉÇÏ±â¿¡.....
-ÀÌ¹ø¿£ ±×Áß¿¡¼­ "gkdl9164 1234"´Ô°ú "´õÄí¸¶Äí"´ÔÀÌ ÃßÃµÇØÁÖ½Å ¿µÈ­¸¦ ¼±ÅÃÇß½À´Ï´Ù.',null,null,null,'riukun@gmail.com','MH018',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','749','MH749','Á×À½ÀÇ ¼¶¿¡ °¤Èù 9¸íÀÇ ±ºÀÎ','https://www.youtube.com/embed/-N_zRQa2bzY','¿µÈ­ ¾ËÆ÷ÀÎÆ®(R-Point) ¸®ºä ÀÔ´Ï´Ù.
-¾È³çÇÏ¼¼¿ä ÂŞ¸ÓÀÔ´Ï´Ù.
-2004³â¿¡ ³ª¿Â ¿µÈ­Áö¸¸ Áö±İ±îÁöµµ ÇÑ±¹ °øÆ÷ ¿µÈ­¿¡¼­ ¼öÀÛÀ¸·Î ¼Õ²ÅÈ÷´Â
-¿µÈ­ ¾ËÆ÷ÀÎÆ® ¸®ºä ÀÔ´Ï´Ù.
-¾ÆÁ÷ ºÎÁ·ÇÑ ºÎºĞÀÌ ¸¹½À´Ï´Ù.
-¿µ»ó º¸½Ã¸é¼­ ¾î»öÇÑ ºÎºĞÀÌ³ª °Å½½¸®´Â ºÎºĞ
-°íÃÆÀ¸¸é ÇÏ´Â ºÎºĞÀÌ ÀÖÀ¸¸é ´ñ±Û·Î ¾Ë·ÁÁÖ¼¼¿ä!
-´ÙÀ½ ¿µ»ó ¸¸µé¶§ Âü°íÇÏ¿©
-´õ ÁÁÀº ¿µ»óÀ¸·Î º¸´äÇÏ°Ú½À´Ï´Ù.
-Àç¹Õ°Ô º¸½Ã°í ÁÁ¾Æ¿ä, ±¸µ¶, ´ñ±Û ºÎÅ¹µå¸³´Ï´Ù.
-°¨»çÇÕ´Ï´Ù.',null,null,null,'jjummer@hotmail.com','MH018',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','750','MH750','[¾Ë Æ÷ÀÎÆ®] ¼Õ¿¡ ÇÇ ¹·Èù ÀÚ, Àı´ë µ¹¾Æ°¥ ¼ö ¾ø´Ù','https://www.youtube.com/embed/pbYQZNq6yuo','#¾Ë¾¾³× #¾ËÆ÷ÀÎÆ® #°¨¿ì¼º
-* ¿µ»óÆíÁı¿¡ µµ¿òÀ» ¹ŞÀº ¿µÈ­¸ñ·Ï /¾Ë Æ÷ÀÎÆ®/ (R-Point, 2004) °¨µ¶ °ø¼öÃ¢ / ¹è¿ì °¨¿ì¼º, ¼Õº´È£, ¹Ú¿ø»ó
-* ¾Ë¾¾³× À¯Æ©ºê ±¸µ¶ÇÏ±â https://www.youtube.com/c/rcine
-* ¾Ë¾¾³× ³×ÀÌ¹öTV http://tv.naver.com/rcine * °ø½Ä ÆäÀÌ½ººÏ https://www.facebook.com/rcine2017/',null,null,null,'egg@naver.com','MH018',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','751','MH751','Á»ºñ¼¼»ó¿¡ ¿Ïº®È÷ ÀûÀÀÇÑ ³²ÀÚ¤ÓÁ»ºñ·£µå¤Ó(¿µÈ­¸®ºä,°á¸»Æ÷ÇÔ)','https://www.youtube.com/embed/jcK4jxiYMWU','ÇÒ·ÎÀ© Á»ºñÆ¯ÁıÀº Á»ºñ·£µå·Î ¸¶Áö¸·À» Àå½ÄÇß½À´Ï´Ù
-´ÙÀ½¿¡´Â ¹«½¼¿µÈ­¸¦ ÇØº¼±î¿ä?
-¹®ÀÇ¸ŞÀÏ : yb1619@naver.com
-''Á»ºñ·£µå'' ¿µÈ­ º¸·¯°¡±â : https://www.youtube.com/embed/e40jR...',null,null,null,'baebae@gmail.com','MH019',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','752','MH752','(°á¸»Æ÷ÇÔ) ¹Ì±¹ÀÇ ±¹¹Î¹è¿ì±îÁö Á»ºñ°¡µÇ¾î¹ö¸° ¼¼»ó..? [Á»ºñ·£µå/ Áø¼ÖÇÑ¸®ºä]','https://www.youtube.com/embed/CHMovBPhtUo','¡Ø¿µ»ó¿À·ù·Î ÀÎÇÑ Àç¾÷·Îµå¡Ø
-ÀÌ¹ø ¿µÈ­´Â ·çº¥ ÇÃ·¹ÀÌ¼Å°¨µ¶ÀÇ ¿µÈ­ ''Á»ºñ·£µå(2009)''ÀÔ´Ï´Ù.
-ÄÚ¹Ìµğ ¿µÈ­ÀÌ¸ç, Á»ºñ¹ÙÀÌ·¯½º ¼Ó¿¡¼­ »ì¾Æ³²Àº »ıÁ¸ÀÚµéÀÇ
-ÀÌ¾ß±â¸¦ ´Ù·é ³»¿ëÀÔ´Ï´Ù.
-¶ó¶ó·£µåÀÇ ''¿¥¸¶½ºÅæ''°ú ¼Ò¼È³×Æ®¿öÅ©ÀÇ ''Á¦½Ã ¾ÆÀÌÁ¨¹ö±×'' °¡ Ãâ¿¬ÇÏ¿© ¿µÈ­ÀÇ Ä÷¸®Æ¼¸¦ ±Ø´ëÈ­ ½ÃÄÑÁÖ¾ú½À´Ï´Ù. ¼º°İÀÌ °¢ÀÚ ´Ù¸¥ 4¸íÀÇ »ıÁ¸ÀÚµéÀÌ ¾î¶»°Ô Á»ºñ·£µå·Î ºÎÅÍ »ì¾Æ³²À»Áö, ¿µÈ­¸¦ ÅëÇØ ¸¸³ªº¸½ÃÁÒ :)
-±×·³ ¿µÈ­ Àç¹Õ°Ô º¸½Ã±¸¿ä, ¿µ»ó ±¦Âú¾Ò´Ù¸é
-ÁÁ¾Æ¿ä¢¾±¸µ¶ÇÏ±â¢¾¾Ë¶÷¼³Á¤¢¾ ºÎÅ¹µå¸±°Ô¿ä. ÁÁÀºÀÏ »ı±â½Ç °Ì´Ï´Ù :)',null,null,null,'realtrue@hotmail.com','MH019',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','753','MH753','Á»ºñ·£µå½Ä »ıÁ¸±ÔÄ¢(Á»ºñ·£µå ¸®ºä)','https://www.youtube.com/embed/Z4Iarv3ePFE','¿µÈ­ [Á»ºñ·£µå] ÀÇ ÁÙ°Å¸® ¿ä¾à ¹× ¸®ºä¿µ»óÀÔ´Ï´Ù. ¿µ»ó¿¡ ½ºÆ÷ÀÏ·¯°¡ Æ÷ÇÔµÇ¾îÀÖÀ¸´Ï ½ÃÃ»ÇÏ½Ç ¶§ ÁÖÀÇÇØÁÖ½Ã±æ ¹Ù¶ø´Ï´Ù',null,null,null,'lak@hotmail.com','MH019',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','754','MH754','Á»ºñ¿¡°Ô Àü¼³ÀÌ µÈ ³²ÀÚ(°á¸»Æ÷ÇÔ/³ª´ÂÀü¼³ÀÌ´Ù)','https://www.youtube.com/embed/cKJFWkpWA7Y','¾È³çÇÏ¼¼¿ä! ¿µÈ­¸¦ ÀĞ¾îÁÖ´Â ³²ÀÚ ¿µÀÏ³²ÀÔ´Ï´Ù.
-¿µÈ­ ³ª´ÂÀü¼³ÀÌ´Ù(2007)ÀÔ´Ï´Ù
-ÇöÀç º¸½Å °á¸»Àº °¨µ¶ÆÇ °á¸»ÀÌ¸ç, ¾Æ·¡´Â ÀÏ¹İ °á¸» ¸µÅ©ÀÔ´Ï´Ù.
-https://youtu.be/ADd25gYsHg0 Ç×»ó ÀÀ¿øÇØÁÖ½Ã´Â ºĞµé Á¤¸» °¨»çµå¸³´Ï´Ù.
-#°á¸»Æ÷ÇÔ #¿µÈ­¸®ºä #¿µÈ­ÃßÃµ #¿µÀÏ³²',null,null,null,'youngread@daum.net','MH020',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','755','MH755','Á»ºñ¼¼»ó¿¡¼­ Àü¼³ÀÌ µÈ ³²ÀÚ','https://www.youtube.com/embed/V6c-LCv3M9E','Àü¼³ÀÌ µÇ¾î¹ö¸° ÇÑ³²ÀÚÀÇ ÀÌ¾ß±â. ±× Àü¼³ÀÇ ÀÇ¹Ì¿Í ³ªºñÀÇ »óÂ¡Àû¸ğÆ¼ºê. ''³ª´Â Àü¼³ÀÌ´Ù''-2007
-¿µÈ­¸®ºä¿Í °ÔÀÓ¸®ºä¸¦ °°ÀÌ º¸½Ç¼ö ÀÖ´Â Ã¤³ÎÀÔ´Ï´Ù! º¸´À³Ä ¸¶´À³Ä ±×°ÍÀÌ ¹®Á¦·Î´Ù
-¾Æ¹ÙÅ¸TV : http://www.avatatv.co.kr/broadcast/ha...
-¹æ¼Û½Ã°£ : È­,¸ñ,Åä 10½Ã~12½Ã
-À¯Æ©¹ö Ä«¶û´Ô°ú ÇÔ²² ''ÇÜÄ«''TV·Î ¿µÈ­ÅäÅ©¼î¸¦ ÁøÇàÇÕ´Ï´Ù~ Æ®À§Ä¡ TV : https://www.twitch.tv/hamlet0529',null,null,null,'hamlet_movies@gmail.com','MH020',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','756','MH756','Á»ºñ¿¡°Ô Áö´ÉÀÌ »ı±â¸é ÀÏ¾î³ª´Â ÀÏ','https://www.youtube.com/embed/Z2lt9fECA14','-³ª´Â Àü¼³ÀÌ´Ù (I Am Legend, 2007)
-¿µÈ­ ¼Ò°³
-°á¸» Æ÷ÇÔ',null,null,null,'dopan@daum.net','MH020',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','757','MR757','°ú°Å ÁÁ¾ÆÇß´ø ¿©ÀÚ¿Í ´àÀº ¿©ÀÚ¸¦ »ç±Í°í Á×Àº ³²ÀÚ','https://www.youtube.com/embed/ibhDnPZWG7w','"±¸µ¶°ú ÁÁ¾Æ¿ä'' ´Â Å« ÈûÀÌ µË´Ï´Ù.
-''±ú²ıÇÑ ´ñ±Û''¹®È­¿¡ µ¿ÂüÇØ ÁÖ¼¼¿ä^^
-#¿µÈ­¸®ºä #¿µÈ­¼Ò°³ #¿µÈ­ÃßÃµ #·¯ºê·¹ÅÍ #Ä¸Æ¾¶ó¹Ì
-ÇĞÃ¢½ÃÀı ÁÁ¾ÆÇß´ø ¿©ÇĞ»ı¿¡°Ô Á¦´ë·Î °í¹éµµ ¸ø ÇØ°í Á×Àº ³²ÀÚ.
-°¨µ¶: ÀÌ¿ÍÀÌ šœÁö
-¿µÈ­: ·¯ºê·¹ÅÍ(1995)
+ê°œë´‰ : 2007 ( êµ­ë‚´ 2008 )
+ì¥ë¥´ : ê³µí¬,ì„œìŠ¤íœìŠ¤,ë¯¸ìŠ¤í…Œë¦¬
+ê°ë… : í•˜ìš°ë©” ë°œë¼ê²Œë¡œ,íŒŒì½” í”Œë¼ì
+ì¶œì—° : ë§ˆëˆ„ì—˜ë¼ ë²¨ë¼ìŠ¤ì½”, í˜ë€ ë–¼ë¼ì‚¬, ë¹„ì„¼í…Œ í
+ì¢‹ì•„ìš” & êµ¬ë…ì€ í° í˜ì´ ë©ë‹ˆë‹¤^^
+ì˜í™”,ì• ë‹ˆ,ë§Œí™”,ë“œë¼ë§ˆ ëª¨~ì˜¤ë“  ì˜ìƒì„ ì†Œê°œ,ë¦¬ë·°,ì¶”ì²œì„ ë“œë¦¬ëŠ” ì±„ë„! ì—¬ëŸ¬ë¶„ë“¤ì˜ ì‹œê°„ì„ ëºë„ë¡ ë…¸ë ¥í•˜ê² ìŠµë‹ˆë‹¤! í‚¬íƒ€(í‚¬ë§íƒ€ì„) ë§ì€ ì‚¬ë‘ ë¶€íƒë“œë¦½ë‹ˆë‹¤â™¡
+ì¸íŠ¸ë¡œ,ì•„ì›ƒíŠ¸ë¡œ BGM : Adagio for summer wind',null,null,null,'killtarian131@yahoo.com','MH017',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','748','MH748','ì†ì— í”¼ ë¬»ì€ ì, ëŒì•„ê°ˆ ìˆ˜ ì—†ë‹¤ ( ì•Œí¬ì¸íŠ¸ ) ìŠ¤í† ë¦¬+í•´ì„í¸','https://www.youtube.com/embed/8Uv7hSif9SM','19ë²ˆì§¸ ì˜í™” ë¦¬ë·° (ì•Œí¬ì¸íŠ¸ 2004) ìŠ¤í† ë¦¬+í•´ì„í¸ì…ë‹ˆë‹¤. 17ë¶„ 27ì´ˆ ì´í›„ë¡  ìŠ¤í¬ì¼ëŸ¬ê°€ í¬í•¨ë˜ì–´ ìˆìœ¼ë‹ˆ ì£¼ì˜í•´ì£¼ì„¸ìš”. ì¢‹ì•„ìš”(ì¶”ì²œ) ë²„íŠ¼ì„ ëˆŒëŸ¬ì£¼ì‹œë©´ ë” ë§ì€ ë¶„ë“¤ì´ ê°ìƒí•˜ì‹¤ ìˆ˜ ìˆê³ ,
+êµ¬ë…ì„ í•˜ì‹œë©´ ì•ŒëŒê¸°ëŠ¥ìœ¼ë¡œ ì¸í•´ ë” í¸í•˜ê²Œ ë³´ì‹¤ ìˆ˜ ìˆìŠµë‹ˆë‹¤.
+ì˜í™” ì•Œí¬ì¸íŠ¸ì— ê´€ë ¨ëœ ì°ì´ ì—„ì²­ ë§ë”ë¼ê³ ìš”.
+ê·¸ë˜ì„œ ì´ë²ˆ ë¦¬ë·°ë¥¼ ì•Œí¬ì¸íŠ¸ë¡œ ì¡ì•˜ëŠ”ë°... ì™€...
+í•  ì´ì•¼ê¸°ê°€ ë„ˆë¬´ ë§ì•„ì„œ ì¤„ì´ê³  ì¤„ì˜€ëŠ”ë°ë„ ë¶„ëŸ‰ì´ ë„ˆë¬´ ë§ì•„ìš”
+ë’·ì´ì•¼ê¸°ë¥¼ ê³„ì† ì°¾ì•„ë³´ë‹¤ ë³´ë‹ˆê¹Œ
+ì˜í™”ë³´ë‹¤ ë’·ì´ì•¼ê¸°ê°€ ë” ì¼ë‚˜ê¸°ë„ í•˜ê³  ã…‹ã…‹ã…‹
+ì•”íŠ¼, ê´€ì‹¬ìˆìœ¼ì‹  ë¶„ë“¤ì€ í•œë²ˆì¯¤ ë³´ì…”ë„ ê´œì°®ì€ ì˜í™” ê°™ìŠµë‹ˆë‹¤.
+p.s ëŒ“ê¸€ë¡œ ì—¬ëŸ¬ ì˜í™”ë“¤ì˜ ë¦¬ë·°ì‹ ì²­ì´ ìˆì—ˆëŠ”ë°,
+ê·¸ì˜í™”ë“¤ì„ ë‹¤ ë¦¬ë·°ë¡œ ë§Œë“œëŠ”ê±´ ì‹œê°„ìƒ ë¶ˆê°€ëŠ¥í•˜ê¸°ì—.....
+ì´ë²ˆì—” ê·¸ì¤‘ì—ì„œ "gkdl9164 1234"ë‹˜ê³¼ "ë”ì¿ ë§ˆì¿ "ë‹˜ì´ ì¶”ì²œí•´ì£¼ì‹  ì˜í™”ë¥¼ ì„ íƒí–ˆìŠµë‹ˆë‹¤.',null,null,null,'riukun@gmail.com','MH018',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','749','MH749','ì£½ìŒì˜ ì„¬ì— ê°‡íŒ 9ëª…ì˜ êµ°ì¸','https://www.youtube.com/embed/-N_zRQa2bzY','ì˜í™” ì•Œí¬ì¸íŠ¸(R-Point) ë¦¬ë·° ì…ë‹ˆë‹¤.
+ì•ˆë…•í•˜ì„¸ìš” ì­ˆë¨¸ì…ë‹ˆë‹¤.
+2004ë…„ì— ë‚˜ì˜¨ ì˜í™”ì§€ë§Œ ì§€ê¸ˆê¹Œì§€ë„ í•œêµ­ ê³µí¬ ì˜í™”ì—ì„œ ìˆ˜ì‘ìœ¼ë¡œ ì†ê¼½íˆëŠ”
+ì˜í™” ì•Œí¬ì¸íŠ¸ ë¦¬ë·° ì…ë‹ˆë‹¤.
+ì•„ì§ ë¶€ì¡±í•œ ë¶€ë¶„ì´ ë§ìŠµë‹ˆë‹¤.
+ì˜ìƒ ë³´ì‹œë©´ì„œ ì–´ìƒ‰í•œ ë¶€ë¶„ì´ë‚˜ ê±°ìŠ¬ë¦¬ëŠ” ë¶€ë¶„
+ê³ ì³¤ìœ¼ë©´ í•˜ëŠ” ë¶€ë¶„ì´ ìˆìœ¼ë©´ ëŒ“ê¸€ë¡œ ì•Œë ¤ì£¼ì„¸ìš”!
+ë‹¤ìŒ ì˜ìƒ ë§Œë“¤ë•Œ ì°¸ê³ í•˜ì—¬
+ë” ì¢‹ì€ ì˜ìƒìœ¼ë¡œ ë³´ë‹µí•˜ê² ìŠµë‹ˆë‹¤.
+ì¬ë°Œê²Œ ë³´ì‹œê³  ì¢‹ì•„ìš”, êµ¬ë…, ëŒ“ê¸€ ë¶€íƒë“œë¦½ë‹ˆë‹¤.
+ê°ì‚¬í•©ë‹ˆë‹¤.',null,null,null,'jjummer@hotmail.com','MH018',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','750','MH750','[ì•Œ í¬ì¸íŠ¸] ì†ì— í”¼ ë­íŒ ì, ì ˆëŒ€ ëŒì•„ê°ˆ ìˆ˜ ì—†ë‹¤','https://www.youtube.com/embed/pbYQZNq6yuo','#ì•Œì”¨ë„¤ #ì•Œí¬ì¸íŠ¸ #ê°ìš°ì„±
+* ì˜ìƒí¸ì§‘ì— ë„ì›€ì„ ë°›ì€ ì˜í™”ëª©ë¡ /ì•Œ í¬ì¸íŠ¸/ (R-Point, 2004) ê°ë… ê³µìˆ˜ì°½ / ë°°ìš° ê°ìš°ì„±, ì†ë³‘í˜¸, ë°•ì›ìƒ
+* ì•Œì”¨ë„¤ ìœ íŠœë¸Œ êµ¬ë…í•˜ê¸° https://www.youtube.com/c/rcine
+* ì•Œì”¨ë„¤ ë„¤ì´ë²„TV http://tv.naver.com/rcine * ê³µì‹ í˜ì´ìŠ¤ë¶ https://www.facebook.com/rcine2017/',null,null,null,'egg@naver.com','MH018',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','751','MH751','ì¢€ë¹„ì„¸ìƒì— ì™„ë²½íˆ ì ì‘í•œ ë‚¨ìã…£ì¢€ë¹„ëœë“œã…£(ì˜í™”ë¦¬ë·°,ê²°ë§í¬í•¨)','https://www.youtube.com/embed/jcK4jxiYMWU','í• ë¡œìœˆ ì¢€ë¹„íŠ¹ì§‘ì€ ì¢€ë¹„ëœë“œë¡œ ë§ˆì§€ë§‰ì„ ì¥ì‹í–ˆìŠµë‹ˆë‹¤
+ë‹¤ìŒì—ëŠ” ë¬´ìŠ¨ì˜í™”ë¥¼ í•´ë³¼ê¹Œìš”?
+ë¬¸ì˜ë©”ì¼ : yb1619@naver.com
+''ì¢€ë¹„ëœë“œ'' ì˜í™” ë³´ëŸ¬ê°€ê¸° : https://www.youtube.com/embed/e40jR...',null,null,null,'baebae@gmail.com','MH019',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','752','MH752','(ê²°ë§í¬í•¨) ë¯¸êµ­ì˜ êµ­ë¯¼ë°°ìš°ê¹Œì§€ ì¢€ë¹„ê°€ë˜ì–´ë²„ë¦° ì„¸ìƒ..? [ì¢€ë¹„ëœë“œ/ ì§„ì†”í•œë¦¬ë·°]','https://www.youtube.com/embed/CHMovBPhtUo','â€»ì˜ìƒì˜¤ë¥˜ë¡œ ì¸í•œ ì¬ì—…ë¡œë“œâ€»
+ì´ë²ˆ ì˜í™”ëŠ” ë£¨ë²¤ í”Œë ˆì´ì…”ê°ë…ì˜ ì˜í™” ''ì¢€ë¹„ëœë“œ(2009)''ì…ë‹ˆë‹¤.
+ì½”ë¯¸ë”” ì˜í™”ì´ë©°, ì¢€ë¹„ë°”ì´ëŸ¬ìŠ¤ ì†ì—ì„œ ì‚´ì•„ë‚¨ì€ ìƒì¡´ìë“¤ì˜
+ì´ì•¼ê¸°ë¥¼ ë‹¤ë£¬ ë‚´ìš©ì…ë‹ˆë‹¤.
+ë¼ë¼ëœë“œì˜ ''ì— ë§ˆìŠ¤í†¤''ê³¼ ì†Œì…œë„¤íŠ¸ì›Œí¬ì˜ ''ì œì‹œ ì•„ì´ì  ë²„ê·¸'' ê°€ ì¶œì—°í•˜ì—¬ ì˜í™”ì˜ í€„ë¦¬í‹°ë¥¼ ê·¹ëŒ€í™” ì‹œì¼œì£¼ì—ˆìŠµë‹ˆë‹¤. ì„±ê²©ì´ ê°ì ë‹¤ë¥¸ 4ëª…ì˜ ìƒì¡´ìë“¤ì´ ì–´ë–»ê²Œ ì¢€ë¹„ëœë“œë¡œ ë¶€í„° ì‚´ì•„ë‚¨ì„ì§€, ì˜í™”ë¥¼ í†µí•´ ë§Œë‚˜ë³´ì‹œì£  :)
+ê·¸ëŸ¼ ì˜í™” ì¬ë°Œê²Œ ë³´ì‹œêµ¬ìš”, ì˜ìƒ ê´œì°®ì•˜ë‹¤ë©´
+ì¢‹ì•„ìš”â™¥êµ¬ë…í•˜ê¸°â™¥ì•ŒëŒì„¤ì •â™¥ ë¶€íƒë“œë¦´ê²Œìš”. ì¢‹ì€ì¼ ìƒê¸°ì‹¤ ê²ë‹ˆë‹¤ :)',null,null,null,'realtrue@hotmail.com','MH019',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','753','MH753','ì¢€ë¹„ëœë“œì‹ ìƒì¡´ê·œì¹™(ì¢€ë¹„ëœë“œ ë¦¬ë·°)','https://www.youtube.com/embed/Z4Iarv3ePFE','ì˜í™” [ì¢€ë¹„ëœë“œ] ì˜ ì¤„ê±°ë¦¬ ìš”ì•½ ë° ë¦¬ë·°ì˜ìƒì…ë‹ˆë‹¤. ì˜ìƒì— ìŠ¤í¬ì¼ëŸ¬ê°€ í¬í•¨ë˜ì–´ìˆìœ¼ë‹ˆ ì‹œì²­í•˜ì‹¤ ë•Œ ì£¼ì˜í•´ì£¼ì‹œê¸¸ ë°”ëë‹ˆë‹¤',null,null,null,'lak@hotmail.com','MH019',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','754','MH754','ì¢€ë¹„ì—ê²Œ ì „ì„¤ì´ ëœ ë‚¨ì(ê²°ë§í¬í•¨/ë‚˜ëŠ”ì „ì„¤ì´ë‹¤)','https://www.youtube.com/embed/cKJFWkpWA7Y','ì•ˆë…•í•˜ì„¸ìš”! ì˜í™”ë¥¼ ì½ì–´ì£¼ëŠ” ë‚¨ì ì˜ì¼ë‚¨ì…ë‹ˆë‹¤.
+ì˜í™” ë‚˜ëŠ”ì „ì„¤ì´ë‹¤(2007)ì…ë‹ˆë‹¤
+í˜„ì¬ ë³´ì‹  ê²°ë§ì€ ê°ë…íŒ ê²°ë§ì´ë©°, ì•„ë˜ëŠ” ì¼ë°˜ ê²°ë§ ë§í¬ì…ë‹ˆë‹¤.
+https://youtu.be/ADd25gYsHg0 í•­ìƒ ì‘ì›í•´ì£¼ì‹œëŠ” ë¶„ë“¤ ì •ë§ ê°ì‚¬ë“œë¦½ë‹ˆë‹¤.
+#ê²°ë§í¬í•¨ #ì˜í™”ë¦¬ë·° #ì˜í™”ì¶”ì²œ #ì˜ì¼ë‚¨',null,null,null,'youngread@daum.net','MH020',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','755','MH755','ì¢€ë¹„ì„¸ìƒì—ì„œ ì „ì„¤ì´ ëœ ë‚¨ì','https://www.youtube.com/embed/V6c-LCv3M9E','ì „ì„¤ì´ ë˜ì–´ë²„ë¦° í•œë‚¨ìì˜ ì´ì•¼ê¸°. ê·¸ ì „ì„¤ì˜ ì˜ë¯¸ì™€ ë‚˜ë¹„ì˜ ìƒì§•ì ëª¨í‹°ë¸Œ. ''ë‚˜ëŠ” ì „ì„¤ì´ë‹¤''-2007
+ì˜í™”ë¦¬ë·°ì™€ ê²Œì„ë¦¬ë·°ë¥¼ ê°™ì´ ë³´ì‹¤ìˆ˜ ìˆëŠ” ì±„ë„ì…ë‹ˆë‹¤! ë³´ëŠëƒ ë§ˆëŠëƒ ê·¸ê²ƒì´ ë¬¸ì œë¡œë‹¤
+ì•„ë°”íƒ€TV : http://www.avatatv.co.kr/broadcast/ha...
+ë°©ì†¡ì‹œê°„ : í™”,ëª©,í†  10ì‹œ~12ì‹œ
+ìœ íŠœë²„ ì¹´ë‘ë‹˜ê³¼ í•¨ê»˜ ''í–„ì¹´''TVë¡œ ì˜í™”í† í¬ì‡¼ë¥¼ ì§„í–‰í•©ë‹ˆë‹¤~ íŠ¸ìœ„ì¹˜ TV : https://www.twitch.tv/hamlet0529',null,null,null,'hamlet_movies@gmail.com','MH020',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','H','756','MH756','ì¢€ë¹„ì—ê²Œ ì§€ëŠ¥ì´ ìƒê¸°ë©´ ì¼ì–´ë‚˜ëŠ” ì¼','https://www.youtube.com/embed/Z2lt9fECA14','-ë‚˜ëŠ” ì „ì„¤ì´ë‹¤ (I Am Legend, 2007)
+ì˜í™” ì†Œê°œ
+ê²°ë§ í¬í•¨',null,null,null,'dopan@daum.net','MH020',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','757','MR757','ê³¼ê±° ì¢‹ì•„í–ˆë˜ ì—¬ìì™€ ë‹®ì€ ì—¬ìë¥¼ ì‚¬ê·€ê³  ì£½ì€ ë‚¨ì','https://www.youtube.com/embed/ibhDnPZWG7w','"êµ¬ë…ê³¼ ì¢‹ì•„ìš”'' ëŠ” í° í˜ì´ ë©ë‹ˆë‹¤.
+''ê¹¨ë—í•œ ëŒ“ê¸€''ë¬¸í™”ì— ë™ì°¸í•´ ì£¼ì„¸ìš”^^
+#ì˜í™”ë¦¬ë·° #ì˜í™”ì†Œê°œ #ì˜í™”ì¶”ì²œ #ëŸ¬ë¸Œë ˆí„° #ìº¡í‹´ë¼ë¯¸
+í•™ì°½ì‹œì ˆ ì¢‹ì•„í–ˆë˜ ì—¬í•™ìƒì—ê²Œ ì œëŒ€ë¡œ ê³ ë°±ë„ ëª» í•´ê³  ì£½ì€ ë‚¨ì.
+ê°ë…: ì´ì™€ì´ ìŠŒì§€
+ì˜í™”: ëŸ¬ë¸Œë ˆí„°(1995)
 Love Letter
-¢ºHD±Ş °íÈ­Áú1080p½ÃÃ» ÇÏ¼¼¿ä
-¢ºÈÄ¿øÇÏ±â: https://goo.gl/Z71XAp
-¢º°¨¼º °Ç¸ÁÁõ: http://www.gmz.co.kr/
-¡ÚÆ®À§Ä¡TV: https://goo.gl/SNTYhu
-¡Ú±¸µ¶ÇÏ±â: https://goo.gl/pSFlvS
+â–¶HDê¸‰ ê³ í™”ì§ˆ1080pì‹œì²­ í•˜ì„¸ìš”
+â–¶í›„ì›í•˜ê¸°: https://goo.gl/Z71XAp
+â–¶ê°ì„± ê±´ë§ì¦: http://www.gmz.co.kr/
+â˜…íŠ¸ìœ„ì¹˜TV: https://goo.gl/SNTYhu
+â˜…êµ¬ë…í•˜ê¸°: https://goo.gl/pSFlvS
 "',null,null,null,'captainrami@gmail.com','MR001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','758','MR758','´Ù½Å º¸Áö ¾ÊÀ» ·¯ºê·¹ÅÍ','https://www.youtube.com/embed/CnzzLQhe36I','"¸¹Àº ºĞµéÀÌ °Ü¿ï¿¡ ´Ã ¶°¿Ã¸®½Ç ¿µÈ­ Áß ÇÏ³ªÀÎ
-·¯ºê·¹ÅÍ°¡ ¾ó¸¶ Àü¿¡ ¶Ç Àç°³ºÀÇß½À´Ï´Ù.
-ÀÌÁ¦ °ğ ¹ß·»Å¸ÀÎ µ¥ÀÌ³×¿ä."',null,null,null,'nofootbird@gmail.com','MR001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','759','MR759','[·¯ºê·¹ÅÍ] ''È÷·ÎÄÚ''¿¡°Õ Çã¶ôµÇÁö ¾ÊÀº °ø°£(Love Letter Review)','https://www.youtube.com/embed/Y6GHIPwfebM','À¯Æ©ºê ±¸µ¶ ¢º https://goo.gl/iqEvvp Á×Àº »ç¶÷À» ±×¸®¿öÇÏ¸ç ¾´ ÆíÁö, ±×¸®°í ±×¿¡°Ô¼­ ¿Â ´äÀå. ÀÌµéÀ» ¿¬°áÇÏ°í ÀÖ´Â ÀÌ ÆíÁö¿£ ¾î¶² »ç¿¬ÀÌ ÀÖ´Â °É±î¿ä? °Ü¿ïÀÌ¸é »ı°¢³ª´Â ¿µÈ­ ''·¯ºê·¹ÅÍ''! ÀÌ¹ø ½Ã°£¿£ ''·¯ºê·¹ÅÍ''¸¦ °£·«È÷ º¸°í, ¿µÈ­¿¡ °üÇØ ¸î°¡Áö ÀÌ¾ß±â¸¦ ÇØº¸°Ú½À´Ï´Ù. 1:00 ¢º REPLAY - ''·¯ºê·¹ÅÍ'' ´Ù½Ãº¸±â 3:12 ¢º Scne by Scne#1 ''ÀÏº» ¸á·Î''ÀÇ ¿¬Ãâ 4:20 ¢º Scne by Scne#2 Å¸ÀÓ ·çÇÁ 5:53 ¢º Scne by Scne#3 ''È÷·ÎÄÚ''¿¡°Õ Çã¶ôµÇÁö ¾ÊÀº °ø°£ 6:59 ¢º Scne by Scne#4 ''·¯ºê·¹ÅÍ''',null,null,null,'senimapia@gmail.com','MR001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','760','MR760','Áö±İ ¸¸³ª·¯°©´Ï´Ù - ¿µÈ­´Â »ç¶ûÀ» ¾î¶»°Ô Ç¥ÇöÇÒ±î','https://www.youtube.com/embed/1IozJwzdVNw','¿µÈ­ Áö±İ, ¸¸³ª·¯°©´Ï´Ù¸¦ ÅëÇØ ¿µÈ­ÀÇ ¾ğ¾î°¡ »ç¶ûÀ» Ç¥ÇöÇÏ´Â ¹æ¹ıÀ» ¾Ë¾Æº¸´Â ¿µ»óÀÔ´Ï´Ù
-*³ë·¡
-Kevin MacLeodÀÇ Continue LifeÀº(´Â) Creative Commons Attribution ¶óÀÌ¼±½º(https://creativecommons.org/licenses/... µû¶ó ¶óÀÌ¼±½º°¡ ºÎ¿©µË´Ï´Ù.
-ÃâÃ³: http://incompetech.com/music/royalty-...
-¾ÆÆ¼½ºÆ®: http://incompetech.com/
-AudionautixÀÇ 5 Cents BackÀº(´Â) Creative Commons Attribution ¶óÀÌ¼±½º(https://creativecommons.org/licenses/... µû¶ó ¶óÀÌ¼±½º°¡ ºÎ¿©µË´Ï´Ù.
-¾ÆÆ¼½ºÆ®: http://audionautix.com/
-Áö±İ ¸¸³ª·¯ °©´Ï´Ù ost - ½Ã°£À» ³Ñ¾î¼­
-*Áö±İ ¸¸³ª·¯ °©´Ï´Ù ¸íÀå¸é ÇØ¼®',null,null,null,'mypopcorntree@yahoo.com','MR002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','761','MR761','1³â Àü Á×Àº ¾Æ³»°¡ µ¹¾Æ¿À¸é ¹ú¾îÁö´Â ÀÏ','https://www.youtube.com/embed/T-elyBDpcBw','"[ Áö±İ, ¸¸³ª·¯ °©´Ï´Ù ]
-°³ºÀ : 2005.03.25.(ÇÑ±¹ ±âÁØ)
-Àå¸£ : ¸á·Î/·Î¸Ç½º, µå¶ó¸¶
-°¨µ¶ : µµÀÌ ³ëºÎÈ÷·Î
-Ãâ¿¬ : Å¸Ä«¹«¶ó ½Ãµµ[¾ÆÀÌ¿À Å¸Äí¹Ì ¿ª], ´ÙÄÉÀÌ ¾ÆÄ«½Ã[¾ÆÀÌ¿À À¯¿ìÁö ¿ª], ´ÙÄÉ¿ìÄ¡ À¯ÄÚ [¾ÆÀÌ¿À ¹Ì¿À ¿ª], µî±Ş : 12¼¼ °ü¶÷°¡
-º¼¸¸Çß´Ù¸é ÁÁ¾Æ¿ä & ±¸µ¶!
-ºÒÆíÇÏ¼Ì´Ù¸é ½È¾î¿ä & ´ñ±ÛÀ» ²À! ³²°ÜÁÖ¼¼¿ä"',null,null,null,'whiteraccoon@hotmail.com','MR002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','762','MR762','[Áö±İ, ¸¸³ª·¯ °©´Ï´Ù] ºñÀÇ °èÀı¿¡ µ¹¾Æ¿Â´Ù´ø ±×³à(ª¤ªŞ¡¢?ª¤ªËªæª­ªŞª¹)','https://www.youtube.com/embed/-3ITJiDNwSY','À¯Æ©ºê ±¸µ¶ ¢º https://goo.gl/iqEvvp ¼¼»ó¿¡ ÇÏ³ª»ÓÀÎ ´ç½ÅÀ» ''Áö±İ, ¸¸³ª·¯ °©´Ï´Ù'' ºñÀÇ °èÀı¿¡ µ¹¾Æ¿Â´Ù´Â ¾à¼ÓÀ» ³²±â°í ¶°³­ ''¹Ì¿À(´ÙÄÉ¿ìÄ¡ À¯ÄÚ)''¿¡°Õ ¾î¶² ÀÏÀÌ ÀÖ¾ú´ø °É±î¿ä? ±×³à´Â ¿Ö, ±×¸®°í ¾î¶»°Ô ¹°ÀÇ °èÀı¿¡ µ¹¾Æ¿Â´Ù´Â °É±î¿ä?',null,null,null,'senimapia@gmail.com','MR002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','763','MR763','¾î¹Ù¿ô Å¸ÀÓ - ÀÌ ¿µÈ­ÀÇ Ã¹»ç¶ûÀÌ ÀÌ·ç¾îÁöÁö ¾Ê´Â ÀÌÀ¯','https://www.youtube.com/embed/OVOuf25FQAo','"*ÆËÄÜÆ®¸® Ã¤³Î ÈÄ¿ø
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','758','MR758','ë‹¤ì‹  ë³´ì§€ ì•Šì„ ëŸ¬ë¸Œë ˆí„°','https://www.youtube.com/embed/CnzzLQhe36I','"ë§ì€ ë¶„ë“¤ì´ ê²¨ìš¸ì— ëŠ˜ ë– ì˜¬ë¦¬ì‹¤ ì˜í™” ì¤‘ í•˜ë‚˜ì¸
+ëŸ¬ë¸Œë ˆí„°ê°€ ì–¼ë§ˆ ì „ì— ë˜ ì¬ê°œë´‰í–ˆìŠµë‹ˆë‹¤.
+ì´ì œ ê³§ ë°œë Œíƒ€ì¸ ë°ì´ë„¤ìš”."',null,null,null,'nofootbird@gmail.com','MR001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','759','MR759','[ëŸ¬ë¸Œë ˆí„°] ''íˆë¡œì½”''ì—ê² í—ˆë½ë˜ì§€ ì•Šì€ ê³µê°„(Love Letter Review)','https://www.youtube.com/embed/Y6GHIPwfebM','ìœ íŠœë¸Œ êµ¬ë… â–¶ https://goo.gl/iqEvvp ì£½ì€ ì‚¬ëŒì„ ê·¸ë¦¬ì›Œí•˜ë©° ì“´ í¸ì§€, ê·¸ë¦¬ê³  ê·¸ì—ê²Œì„œ ì˜¨ ë‹µì¥. ì´ë“¤ì„ ì—°ê²°í•˜ê³  ìˆëŠ” ì´ í¸ì§€ì—” ì–´ë–¤ ì‚¬ì—°ì´ ìˆëŠ” ê±¸ê¹Œìš”? ê²¨ìš¸ì´ë©´ ìƒê°ë‚˜ëŠ” ì˜í™” ''ëŸ¬ë¸Œë ˆí„°''! ì´ë²ˆ ì‹œê°„ì—” ''ëŸ¬ë¸Œë ˆí„°''ë¥¼ ê°„ëµíˆ ë³´ê³ , ì˜í™”ì— ê´€í•´ ëª‡ê°€ì§€ ì´ì•¼ê¸°ë¥¼ í•´ë³´ê² ìŠµë‹ˆë‹¤. 1:00 â–¶ REPLAY - ''ëŸ¬ë¸Œë ˆí„°'' ë‹¤ì‹œë³´ê¸° 3:12 â–¶ Scne by Scne#1 ''ì¼ë³¸ ë©œë¡œ''ì˜ ì—°ì¶œ 4:20 â–¶ Scne by Scne#2 íƒ€ì„ ë£¨í”„ 5:53 â–¶ Scne by Scne#3 ''íˆë¡œì½”''ì—ê² í—ˆë½ë˜ì§€ ì•Šì€ ê³µê°„ 6:59 â–¶ Scne by Scne#4 ''ëŸ¬ë¸Œë ˆí„°''',null,null,null,'senimapia@gmail.com','MR001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','760','MR760','ì§€ê¸ˆ ë§Œë‚˜ëŸ¬ê°‘ë‹ˆë‹¤ - ì˜í™”ëŠ” ì‚¬ë‘ì„ ì–´ë–»ê²Œ í‘œí˜„í• ê¹Œ','https://www.youtube.com/embed/1IozJwzdVNw','ì˜í™” ì§€ê¸ˆ, ë§Œë‚˜ëŸ¬ê°‘ë‹ˆë‹¤ë¥¼ í†µí•´ ì˜í™”ì˜ ì–¸ì–´ê°€ ì‚¬ë‘ì„ í‘œí˜„í•˜ëŠ” ë°©ë²•ì„ ì•Œì•„ë³´ëŠ” ì˜ìƒì…ë‹ˆë‹¤
+*ë…¸ë˜
+Kevin MacLeodì˜ Continue Lifeì€(ëŠ”) Creative Commons Attribution ë¼ì´ì„ ìŠ¤(https://creativecommons.org/licenses/... ë”°ë¼ ë¼ì´ì„ ìŠ¤ê°€ ë¶€ì—¬ë©ë‹ˆë‹¤.
+ì¶œì²˜: http://incompetech.com/music/royalty-...
+ì•„í‹°ìŠ¤íŠ¸: http://incompetech.com/
+Audionautixì˜ 5 Cents Backì€(ëŠ”) Creative Commons Attribution ë¼ì´ì„ ìŠ¤(https://creativecommons.org/licenses/... ë”°ë¼ ë¼ì´ì„ ìŠ¤ê°€ ë¶€ì—¬ë©ë‹ˆë‹¤.
+ì•„í‹°ìŠ¤íŠ¸: http://audionautix.com/
+ì§€ê¸ˆ ë§Œë‚˜ëŸ¬ ê°‘ë‹ˆë‹¤ ost - ì‹œê°„ì„ ë„˜ì–´ì„œ
+*ì§€ê¸ˆ ë§Œë‚˜ëŸ¬ ê°‘ë‹ˆë‹¤ ëª…ì¥ë©´ í•´ì„',null,null,null,'mypopcorntree@yahoo.com','MR002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','761','MR761','1ë…„ ì „ ì£½ì€ ì•„ë‚´ê°€ ëŒì•„ì˜¤ë©´ ë²Œì–´ì§€ëŠ” ì¼','https://www.youtube.com/embed/T-elyBDpcBw','"[ ì§€ê¸ˆ, ë§Œë‚˜ëŸ¬ ê°‘ë‹ˆë‹¤ ]
+ê°œë´‰ : 2005.03.25.(í•œêµ­ ê¸°ì¤€)
+ì¥ë¥´ : ë©œë¡œ/ë¡œë§¨ìŠ¤, ë“œë¼ë§ˆ
+ê°ë… : ë„ì´ ë…¸ë¶€íˆë¡œ
+ì¶œì—° : íƒ€ì¹´ë¬´ë¼ ì‹œë„[ì•„ì´ì˜¤ íƒ€ì¿ ë¯¸ ì—­], ë‹¤ì¼€ì´ ì•„ì¹´ì‹œ[ì•„ì´ì˜¤ ìœ ìš°ì§€ ì—­], ë‹¤ì¼€ìš°ì¹˜ ìœ ì½” [ì•„ì´ì˜¤ ë¯¸ì˜¤ ì—­], ë“±ê¸‰ : 12ì„¸ ê´€ëŒê°€
+ë³¼ë§Œí–ˆë‹¤ë©´ ì¢‹ì•„ìš” & êµ¬ë…!
+ë¶ˆí¸í•˜ì…¨ë‹¤ë©´ ì‹«ì–´ìš” & ëŒ“ê¸€ì„ ê¼­! ë‚¨ê²¨ì£¼ì„¸ìš”"',null,null,null,'whiteraccoon@hotmail.com','MR002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','762','MR762','[ì§€ê¸ˆ, ë§Œë‚˜ëŸ¬ ê°‘ë‹ˆë‹¤] ë¹„ì˜ ê³„ì ˆì— ëŒì•„ì˜¨ë‹¤ë˜ ê·¸ë…€(ã„ã¾ã€?ã„ã«ã‚†ãã¾ã™)','https://www.youtube.com/embed/-3ITJiDNwSY','ìœ íŠœë¸Œ êµ¬ë… â–¶ https://goo.gl/iqEvvp ì„¸ìƒì— í•˜ë‚˜ë¿ì¸ ë‹¹ì‹ ì„ ''ì§€ê¸ˆ, ë§Œë‚˜ëŸ¬ ê°‘ë‹ˆë‹¤'' ë¹„ì˜ ê³„ì ˆì— ëŒì•„ì˜¨ë‹¤ëŠ” ì•½ì†ì„ ë‚¨ê¸°ê³  ë– ë‚œ ''ë¯¸ì˜¤(ë‹¤ì¼€ìš°ì¹˜ ìœ ì½”)''ì—ê² ì–´ë–¤ ì¼ì´ ìˆì—ˆë˜ ê±¸ê¹Œìš”? ê·¸ë…€ëŠ” ì™œ, ê·¸ë¦¬ê³  ì–´ë–»ê²Œ ë¬¼ì˜ ê³„ì ˆì— ëŒì•„ì˜¨ë‹¤ëŠ” ê±¸ê¹Œìš”?',null,null,null,'senimapia@gmail.com','MR002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','763','MR763','ì–´ë°”ì›ƒ íƒ€ì„ - ì´ ì˜í™”ì˜ ì²«ì‚¬ë‘ì´ ì´ë£¨ì–´ì§€ì§€ ì•ŠëŠ” ì´ìœ ','https://www.youtube.com/embed/OVOuf25FQAo','"*íŒì½˜íŠ¸ë¦¬ ì±„ë„ í›„ì›
 https://www.patreon.com/popcorntree
-¿µÈ­ ¾î¹Ù¿ô Å¸ÀÓ ÇØ¼® ¿µ»óÀÔ´Ï´Ù.
-¿µÈ­ÀÇ ÁÖÁ¦¸¦ »ı°¢ÇØº¸¸é Ã¹»ç¶û ¼£·Ô°ú ÁÖÀÎ°øÀÌ ÀÌ·ç¾îÁöÁö ¾Ê´Â ÀÌÀ¯¸¦ ÃßÃøÇØº¼ ¼ö ÀÖ½À´Ï´Ù.
+ì˜í™” ì–´ë°”ì›ƒ íƒ€ì„ í•´ì„ ì˜ìƒì…ë‹ˆë‹¤.
+ì˜í™”ì˜ ì£¼ì œë¥¼ ìƒê°í•´ë³´ë©´ ì²«ì‚¬ë‘ ìƒ¬ë¡¯ê³¼ ì£¼ì¸ê³µì´ ì´ë£¨ì–´ì§€ì§€ ì•ŠëŠ” ì´ìœ ë¥¼ ì¶”ì¸¡í•´ë³¼ ìˆ˜ ìˆìŠµë‹ˆë‹¤.
 "',null,null,null,'mypopcorntree@yahoo.com','MR003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','764','MR764','´ç½ÅÀÇ Àáµç ¿¬¾Ö ¼¼Æ÷¸¦ ±ú¿ö ÁÙ ¿µÈ­ ??','https://www.youtube.com/embed/BwPaqTHyITc','"#¾î¹Ù¿ô Å¸ÀÓ #±èÈï¹Ì #¿µÈ­ÃßÃµ
-¡Ú ¿µÈ­, ¾î¹Ù¿ô Å¸ÀÓ(2013) ¡Ú
-±èÈï¹Ì°¡ ÃßÃµÇÏ´Â ¿À´ÃÀÇ ¿µÈ­ÀÔ´Ï´Ù.
-?¼¼»ó¿¡ Èï¹Ì·Î¿î ¿µÈ­¸¦ ¸¸³ª´Ù. ?
-²ÙÁØÈ÷ ¾÷·Îµå µÇ´Â ¿µ»óÀ» ¹Ş¾Æº¸¼¼¿ä ^.^*"',null,null,null,'mimi@naver.com','MR003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','765','MR765','½Ã°£À» ÀÌµ¿ÇÏ´Â ÃÊ´É·ÂÀÚÀÇ »î','https://www.youtube.com/embed/ixY7k9wQjFU','¿µÈ­ [¾î¹Ù¿ô Å¸ÀÓ]ÀÇ ÁÙ°Å¸® ¿ä¾à ¹× ¸®ºä ¿µ»óÀÔ´Ï´Ù. ½ºÆ÷ÀÏ·¯°¡ Æ÷ÇÔµÇ¾îÀÖÀ¸´Ï Âü°í ºÎÅ¹µå¸³´Ï´Ù. °¨»çÇÕ´Ï´Ù.',null,null,null,'sogaenam@naver.com','MR003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','766','MR766','ÂîÁúÀÌ°¡ ¹Ì³à¸¦ ²¿½Ã´Âµ¥ ¼º°øÇÑ ÀÌÀ¯','https://www.youtube.com/embed/3tiXE3MfiJU','"¿µÈ­ ''¾î¹Ù¿ô Å¸ÀÓ''(2013),
-ºñÀÏ»óÀ» ÅëÇØ ÀÏ»óÀÇ ¼ÒÁßÇÔÀ» ÀüÇÏ´Â ¾î¹Ù¿ô Å¸ÀÓÀÔ´Ï´Ù"',null,null,null,'tunachamchi@yahoo.com','MR003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','767','MR767','´ç½ÅÀÌ ¸ğ¸£°íÀÖ´Â ¸íÀÛ "ÀÌÅÍ³Î ¼±»şÀÎ"ÀÇ ºñ¹Ğµé','https://www.youtube.com/embed/HVJRRNEOSYU','"#ÀÌÅÍ³Î ¼±»şÀÎ #¿µÈ­ #¿µÈ­¸®ºä
-BBC ¼±Á¤ 21¼¼±â °¡Àå À§´ëÇÑ ¿µÈ­ 6À§¿¡ ¼±Á¤µÈ ¿µÈ­ ""ÀÌÅÍ³Î ¼±»şÀÎ!""
-¸¹Àº »ç¶÷µéÀÌ ÀÎ»ı ¿µÈ­¶ó°í ºÎ¸£´Â ÀÌ ¿µÈ­¿¡´Â ´ëÃ¼ ¾î¶² ºñ¹ĞÀÌ ¼û°ÜÁ®ÀÖÀ»±î¿ä?
-ÇÔ²² ¾Ë¾ÆºÁ¿ä!
-? Àç¹ÌÀÖ°Ô º¸¼Ì´Ù¸é ÁÁ¾Æ¿ä¿Í ±¸µ¶ ºÎÅ¹µå¸±°Ô¿ä ?
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','764','MR764','ë‹¹ì‹ ì˜ ì ë“  ì—°ì•  ì„¸í¬ë¥¼ ê¹¨ì›Œ ì¤„ ì˜í™” ??','https://www.youtube.com/embed/BwPaqTHyITc','"#ì–´ë°”ì›ƒ íƒ€ì„ #ê¹€í¥ë¯¸ #ì˜í™”ì¶”ì²œ
+â˜… ì˜í™”, ì–´ë°”ì›ƒ íƒ€ì„(2013) â˜…
+ê¹€í¥ë¯¸ê°€ ì¶”ì²œí•˜ëŠ” ì˜¤ëŠ˜ì˜ ì˜í™”ì…ë‹ˆë‹¤.
+?ì„¸ìƒì— í¥ë¯¸ë¡œìš´ ì˜í™”ë¥¼ ë§Œë‚˜ë‹¤. ?
+ê¾¸ì¤€íˆ ì—…ë¡œë“œ ë˜ëŠ” ì˜ìƒì„ ë°›ì•„ë³´ì„¸ìš” ^.^*"',null,null,null,'mimi@naver.com','MR003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','765','MR765','ì‹œê°„ì„ ì´ë™í•˜ëŠ” ì´ˆëŠ¥ë ¥ìì˜ ì‚¶','https://www.youtube.com/embed/ixY7k9wQjFU','ì˜í™” [ì–´ë°”ì›ƒ íƒ€ì„]ì˜ ì¤„ê±°ë¦¬ ìš”ì•½ ë° ë¦¬ë·° ì˜ìƒì…ë‹ˆë‹¤. ìŠ¤í¬ì¼ëŸ¬ê°€ í¬í•¨ë˜ì–´ìˆìœ¼ë‹ˆ ì°¸ê³  ë¶€íƒë“œë¦½ë‹ˆë‹¤. ê°ì‚¬í•©ë‹ˆë‹¤.',null,null,null,'sogaenam@naver.com','MR003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','766','MR766','ì°Œì§ˆì´ê°€ ë¯¸ë…€ë¥¼ ê¼¬ì‹œëŠ”ë° ì„±ê³µí•œ ì´ìœ ','https://www.youtube.com/embed/3tiXE3MfiJU','"ì˜í™” ''ì–´ë°”ì›ƒ íƒ€ì„''(2013),
+ë¹„ì¼ìƒì„ í†µí•´ ì¼ìƒì˜ ì†Œì¤‘í•¨ì„ ì „í•˜ëŠ” ì–´ë°”ì›ƒ íƒ€ì„ì…ë‹ˆë‹¤"',null,null,null,'tunachamchi@yahoo.com','MR003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','767','MR767','ë‹¹ì‹ ì´ ëª¨ë¥´ê³ ìˆëŠ” ëª…ì‘ "ì´í„°ë„ ì„ ìƒ¤ì¸"ì˜ ë¹„ë°€ë“¤','https://www.youtube.com/embed/HVJRRNEOSYU','"#ì´í„°ë„ ì„ ìƒ¤ì¸ #ì˜í™” #ì˜í™”ë¦¬ë·°
+BBC ì„ ì • 21ì„¸ê¸° ê°€ì¥ ìœ„ëŒ€í•œ ì˜í™” 6ìœ„ì— ì„ ì •ëœ ì˜í™” ""ì´í„°ë„ ì„ ìƒ¤ì¸!""
+ë§ì€ ì‚¬ëŒë“¤ì´ ì¸ìƒ ì˜í™”ë¼ê³  ë¶€ë¥´ëŠ” ì´ ì˜í™”ì—ëŠ” ëŒ€ì²´ ì–´ë–¤ ë¹„ë°€ì´ ìˆ¨ê²¨ì ¸ìˆì„ê¹Œìš”?
+í•¨ê»˜ ì•Œì•„ë´ìš”!
+? ì¬ë¯¸ìˆê²Œ ë³´ì…¨ë‹¤ë©´ ì¢‹ì•„ìš”ì™€ êµ¬ë… ë¶€íƒë“œë¦´ê²Œìš” ?
 "',null,null,null,'heatherturning@gmail.com','MR004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','768','MR768','ÀÎ°£ÀÇ ±â¾ïÀ» Á¶Á¾ÇÏ´Â Á¶Á÷','https://www.youtube.com/embed/vMz1z9rrMCg','¿µÈ­ [ÀÌÅÍ³Î ¼±»şÀÎ] ½ºÅä¸®ÅÚ¸µ ¿µ»óÀÔ´Ï´Ù.
-°¨»çÇÕ´Ï´Ù.',null,null,null,'sogaenam@naver.com','MR004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','769','MR769','ÀÌÅÍ³Î ¼±»şÀÎ¿¡´Â ¿Ö ´ÏÃ¼°¡ ³ª¿Ã±î?','https://www.youtube.com/embed/kOLzoecSxT8','°³ºÀ 10ÁÖ³âÀÌ µÆÁö¸¸ ¿ª½Ã ²ÙÁØÇÑ »ç¶ûÀ» ¹Ş´Â ÀÌÅÍ³Î ¼±»şÀÎ. ¸á·Î¿µÈ­ÀÌ¸é¼­µµ ¸Ó¸® ¾ÆÇÂ ¼³Á¤°ú ¿¬ÃâÀÌ Âü ¸¹¾Ò´ø ¿µÈ­ÁÒ. ¹«·Á Ã¶ÇĞÀÚ ´ÏÃ¼±îÁö µîÆÇÀ» ÇÏ´Ï±î¿ä. °¨µ¶Àº ¸á·Î¿µÈ­¿¡ ¿Ö ´ÏÃ¼¸¦ ²ø¾î¿ÔÀ»±î¿ä? Àç°³ºÀ ±â³ä, ÀÌ¶ó´Â ¸íºĞÀ¸·Î, Áö·çÇÔÀ» °¨¼öÇÏ°í ÀÌÅÍ³Î ¼±»şÀÎÀ» ´Ù½Ãº¸±â ÇØºÃ½À´Ï´Ù.',null,null,null,'freeman@gmail.com','MR004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','770','MR770','¶ó¶ó·£µå Á¤¸» ¹ÌÃÆ½À´Ï´Ù. ¿ÃÇØÀÇ ¿µÈ­ÀÔ´Ï´Ù ²À º¸¼¼¿ä!','https://www.youtube.com/embed/ygSGTugLB-k','"À§ÇÃ·¡½ÃÀÇ µ¥¹Ì¾È Â÷Á©·¹ °¨µ¶, ¶óÀÌ¾ğ °í½½¸µ, ¿¥¸¶ ½ºÅæÀÇ ¾Æ¸§´Ù¿î ¹ÂÁöÄÃ ¿µÈ­ ¶ó¶ó·£µå ¸®ºäÀÔ´Ï´Ù. ¹ÂÁöÄÃ ¿µÈ­¸¦ ½È¾îÇÏ´Â ºĞÀÌ ¾Æ´Ï¶ó¸é ²À º¸¼¼¿ä! Ä¿ÇÃÀÌ µÇ°í½Í´Ù¸é ²À º¸¼¼¿ä! À§ÇÃ·¡½Ã¿Í ÀüÇô ´Ù¸¥ ´À³¦ÀÇ ¿µÈ­ ¶ó¶ó·£µå´Â Á¤¸» ¹ÌÃÆ½À´Ï´Ù. ¸®ºä¾ûÀÌ°¡ °­·Â ÃßÃµÇÏ´Â ¿ÃÇØÀÇ ¿µÈ­ÀÔ´Ï´Ù!
-¿µÈ­ ÄÁÅÙÃ÷ Å©¸®¿¡ÀÌÅÍ ¸®ºä¾ûÀÌÀÇ ¿µ»ó ÀüÆÄÇÏ±â!
-±¸µ¶, ÁÁ¾Æ¿ä, ´ñ±Û, °øÀ¯´Â Àú¿¡°Ô ÈûÀÌ µË´Ï´Ù!
-¾ğÁ¦³ª ¸®ºä¾ûÀÌ Ã¤³ÎÀ» ½ÃÃ»ÇØÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù!
-[¸®ºä¾ûÀÌ Ã¤³ÎÀº?]
-¸®ºä¾ûÀÌ´Â ¿µÈ­ ¸®ºä, ¿µÈ­¹è¿ì ÀÌ¾ß±â, ¿µÈ­ ÀÌº¥Æ®¿Í ¿µÈ­ ¼Ò½ÄÀ» Àü´ŞÇÏ¸ç DC ÄÚ¹Í½º¿Í ¸¶ºí ÄÚ¹Í½º ¹× ÄÚ¹Í½º ±â¹İ ¿µÈ­ ÀÌ¾ß±â¿Í ¸ô¶ú´ø »ç½ÇÀ» Àç¹ÌÀÖ°Ô Àü´ŞÇØÁÖ´Â Ã¤³ÎÀÔ´Ï´Ù. ¿µÈ­¿¡ ´ëÇØ¼­ ±Ã±İÇÑ Á¡ÀÌ³ª Àç¹ÌÀÖ´Â ¿µÈ­ ÄÁÅÙÃ÷, ¾ÆÀÌµğ¾î°¡ ÀÖ´Ù¸é ¾ğÁ¦µçÁö À¯Æ©ºê¿Í SNS·Î ´ñ±Û ³²°ÜÁÖ¼¼¿ä!
-¸®ºä¾ûÀÌ: Owl''s Reviews ¿î¿µÀÚ - ¸®ºä¾ûÀÌ
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','768','MR768','ì¸ê°„ì˜ ê¸°ì–µì„ ì¡°ì¢…í•˜ëŠ” ì¡°ì§','https://www.youtube.com/embed/vMz1z9rrMCg','ì˜í™” [ì´í„°ë„ ì„ ìƒ¤ì¸] ìŠ¤í† ë¦¬í…”ë§ ì˜ìƒì…ë‹ˆë‹¤.
+ê°ì‚¬í•©ë‹ˆë‹¤.',null,null,null,'sogaenam@naver.com','MR004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','769','MR769','ì´í„°ë„ ì„ ìƒ¤ì¸ì—ëŠ” ì™œ ë‹ˆì²´ê°€ ë‚˜ì˜¬ê¹Œ?','https://www.youtube.com/embed/kOLzoecSxT8','ê°œë´‰ 10ì£¼ë…„ì´ ëì§€ë§Œ ì—­ì‹œ ê¾¸ì¤€í•œ ì‚¬ë‘ì„ ë°›ëŠ” ì´í„°ë„ ì„ ìƒ¤ì¸. ë©œë¡œì˜í™”ì´ë©´ì„œë„ ë¨¸ë¦¬ ì•„í”ˆ ì„¤ì •ê³¼ ì—°ì¶œì´ ì°¸ ë§ì•˜ë˜ ì˜í™”ì£ . ë¬´ë ¤ ì² í•™ì ë‹ˆì²´ê¹Œì§€ ë“±íŒì„ í•˜ë‹ˆê¹Œìš”. ê°ë…ì€ ë©œë¡œì˜í™”ì— ì™œ ë‹ˆì²´ë¥¼ ëŒì–´ì™”ì„ê¹Œìš”? ì¬ê°œë´‰ ê¸°ë…, ì´ë¼ëŠ” ëª…ë¶„ìœ¼ë¡œ, ì§€ë£¨í•¨ì„ ê°ìˆ˜í•˜ê³  ì´í„°ë„ ì„ ìƒ¤ì¸ì„ ë‹¤ì‹œë³´ê¸° í•´ë´¤ìŠµë‹ˆë‹¤.',null,null,null,'freeman@gmail.com','MR004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','770','MR770','ë¼ë¼ëœë“œ ì •ë§ ë¯¸ì³¤ìŠµë‹ˆë‹¤. ì˜¬í•´ì˜ ì˜í™”ì…ë‹ˆë‹¤ ê¼­ ë³´ì„¸ìš”!','https://www.youtube.com/embed/ygSGTugLB-k','"ìœ„í”Œë˜ì‹œì˜ ë°ë¯¸ì•ˆ ì°¨ì ¤ë ˆ ê°ë…, ë¼ì´ì–¸ ê³ ìŠ¬ë§, ì— ë§ˆ ìŠ¤í†¤ì˜ ì•„ë¦„ë‹¤ìš´ ë®¤ì§€ì»¬ ì˜í™” ë¼ë¼ëœë“œ ë¦¬ë·°ì…ë‹ˆë‹¤. ë®¤ì§€ì»¬ ì˜í™”ë¥¼ ì‹«ì–´í•˜ëŠ” ë¶„ì´ ì•„ë‹ˆë¼ë©´ ê¼­ ë³´ì„¸ìš”! ì»¤í”Œì´ ë˜ê³ ì‹¶ë‹¤ë©´ ê¼­ ë³´ì„¸ìš”! ìœ„í”Œë˜ì‹œì™€ ì „í˜€ ë‹¤ë¥¸ ëŠë‚Œì˜ ì˜í™” ë¼ë¼ëœë“œëŠ” ì •ë§ ë¯¸ì³¤ìŠµë‹ˆë‹¤. ë¦¬ë·°ì—‰ì´ê°€ ê°•ë ¥ ì¶”ì²œí•˜ëŠ” ì˜¬í•´ì˜ ì˜í™”ì…ë‹ˆë‹¤!
+ì˜í™” ì»¨í…ì¸  í¬ë¦¬ì—ì´í„° ë¦¬ë·°ì—‰ì´ì˜ ì˜ìƒ ì „íŒŒí•˜ê¸°!
+êµ¬ë…, ì¢‹ì•„ìš”, ëŒ“ê¸€, ê³µìœ ëŠ” ì €ì—ê²Œ í˜ì´ ë©ë‹ˆë‹¤!
+ì–¸ì œë‚˜ ë¦¬ë·°ì—‰ì´ ì±„ë„ì„ ì‹œì²­í•´ì£¼ì…”ì„œ ê°ì‚¬í•©ë‹ˆë‹¤!
+[ë¦¬ë·°ì—‰ì´ ì±„ë„ì€?]
+ë¦¬ë·°ì—‰ì´ëŠ” ì˜í™” ë¦¬ë·°, ì˜í™”ë°°ìš° ì´ì•¼ê¸°, ì˜í™” ì´ë²¤íŠ¸ì™€ ì˜í™” ì†Œì‹ì„ ì „ë‹¬í•˜ë©° DC ì½”ë¯¹ìŠ¤ì™€ ë§ˆë¸” ì½”ë¯¹ìŠ¤ ë° ì½”ë¯¹ìŠ¤ ê¸°ë°˜ ì˜í™” ì´ì•¼ê¸°ì™€ ëª°ëë˜ ì‚¬ì‹¤ì„ ì¬ë¯¸ìˆê²Œ ì „ë‹¬í•´ì£¼ëŠ” ì±„ë„ì…ë‹ˆë‹¤. ì˜í™”ì— ëŒ€í•´ì„œ ê¶ê¸ˆí•œ ì ì´ë‚˜ ì¬ë¯¸ìˆëŠ” ì˜í™” ì»¨í…ì¸ , ì•„ì´ë””ì–´ê°€ ìˆë‹¤ë©´ ì–¸ì œë“ ì§€ ìœ íŠœë¸Œì™€ SNSë¡œ ëŒ“ê¸€ ë‚¨ê²¨ì£¼ì„¸ìš”!
+ë¦¬ë·°ì—‰ì´: Owl''s Reviews ìš´ì˜ì - ë¦¬ë·°ì—‰ì´
 "',null,null,null,'reviewang@gmail.com','MR005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','771','MR771','¶ó¶ó·£µå °¡ÀÌµå ¸®ºä by ¹ß¾ø´Â»õ','https://www.youtube.com/embed/PecN-cKUjVA','"¶ó¶ó·£µå´Â À§ÇÃ·¡½¬¸¦ ¿¬ÃâÇÑ ´ë¹Ì¾ğ Â÷Á© °¨µ¶ÀÇ ½ÅÀÛÀ¸·Î ±â´ë°¡ ³ô¾Ò½À´Ï´Ù. µ¿½Ã¿¡ ÇÏÇÊ ¹ÂÁöÄÃ Àå¸£¸¦ ÅÃÇß´Ù°í ÇØ¼­ °ÆÁ¤µµ ÄÇ´ø ¿µÈ­ÀÔ´Ï´Ù. Á¦°Ô ÀÖ´ø Â¡Å©½º ¶§¹®ÀÌ¾ú´Âµ¥, °ú¿¬ °á°ú´Â ¾î¶®À»±î¿ä?
-¹è°æÀ½¾ÇÀº ¾Æ·¡¿Í °°½À´Ï´Ù.
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','771','MR771','ë¼ë¼ëœë“œ ê°€ì´ë“œ ë¦¬ë·° by ë°œì—†ëŠ”ìƒˆ','https://www.youtube.com/embed/PecN-cKUjVA','"ë¼ë¼ëœë“œëŠ” ìœ„í”Œë˜ì‰¬ë¥¼ ì—°ì¶œí•œ ëŒ€ë¯¸ì–¸ ì°¨ì ¤ ê°ë…ì˜ ì‹ ì‘ìœ¼ë¡œ ê¸°ëŒ€ê°€ ë†’ì•˜ìŠµë‹ˆë‹¤. ë™ì‹œì— í•˜í•„ ë®¤ì§€ì»¬ ì¥ë¥´ë¥¼ íƒí–ˆë‹¤ê³  í•´ì„œ ê±±ì •ë„ ì»¸ë˜ ì˜í™”ì…ë‹ˆë‹¤. ì œê²Œ ìˆë˜ ì§•í¬ìŠ¤ ë•Œë¬¸ì´ì—ˆëŠ”ë°, ê³¼ì—° ê²°ê³¼ëŠ” ì–´ë• ì„ê¹Œìš”?
+ë°°ê²½ìŒì•…ì€ ì•„ë˜ì™€ ê°™ìŠµë‹ˆë‹¤.
 Another Day of Sun
 Someone in the Crowd
 Planetarium
-¸ğµÎ ¶ó¶ó·£µå OST¿¡ ÀÖ½À´Ï´Ù.
+ëª¨ë‘ ë¼ë¼ëœë“œ OSTì— ìˆìŠµë‹ˆë‹¤.
 "',null,null,null,'nofootbird@gmail.com','MR005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','772','MR772','¹è¿ì Áö¸Á»ı°ú µ¿³× ½Ä´ç ¿¬ÁÖÀÚÀÇ »ç¶ûÀÌ ÀÎ»ı ¿µÈ­·Î ºÒ¸®´Â ÀÌÀ¯: ¶ó¶ó·£µå','https://www.youtube.com/embed/gHeAg105C7g','¸¹Àº »ç¶÷µéÀÇ ÀÎ»ı ÀÛÇ°. ²Ş°ú »ç¶ûÀ¸·Î °¡µæ Ã¡´ø ±×³¯ÀÇ ±â¾ï. ¶óÀÌ³ÊÀÇ ¿µÈ­ ÀÎ¼öºĞÇØ ±× ³× ¹øÂ° ÀÛÇ°. ¼³¸íÀÌ ÇÊ¿ä¾ø´Â ¿µÈ­. ¶ó¶ó·£µåÀÔ´Ï´Ù.',null,null,null,'liner@hotmail.com','MR005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','773','MR773','Àº±ÙÈ÷ ¾Ë·ÁÁöÁö ¾ÊÀº, ''¶ó¶ó·£µå''¿¡ °üÇÑ 6°¡Áö Èï¹Ì·Î¿î ÀÌ¾ß±â [ÃµÀçÀÌ½Â±¹]','https://www.youtube.com/embed/meEs5w2D-gc','"°ñµç±Û·Îºê¿¡¼­ ¹«·Á 7°ü¿ÕÀÌ¶ó´Â ±â·ÏÀ» ¼¼¿î ¿µÈ­
-¶ó¶ó·£µå!
-¿µÈ­¿¡ °üÇÑ Èï¹Ì·Î¿î ÀÌ¾ß±â 6°¡Áö¸¦ Á¤¸®Çß½À´Ï´Ù.
-°£´ÜÇÑ ÀÌ¾ß±â´Â ¸¹ÀÌµé ´Ù·ç½Ã´Â°Í °°¾Æ¼­ Àº±ÙÈ÷ Àß ¾Ë·ÁÁöÁö ¾ÊÀº »ç½Çµé·Î ÁØºñÇß½À´Ï´Ù.
-ÃµÀçÀÌ½Â±¹À» ±¸µ¶ÇÏ°í ´õ ¸¹Àº ¿µ»óÀ» ¸¸³ªº¸¼¼¿ä!^^"',null,null,null,'genius@gmail.com','MR005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','774','MR774','¿©ÀÚÀÇ ¼Ó¸¶À½À» µéÀ» ¼ö ÀÖ´Â ³²ÀÚ','https://www.youtube.com/embed/tLxyYxJcnpM','"#¿Ó À§¹Î ¿øÆ® #µå¸²ÅÚ·¯ #¿µÈ­¼Ò°³
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','772','MR772','ë°°ìš° ì§€ë§ìƒê³¼ ë™ë„¤ ì‹ë‹¹ ì—°ì£¼ìì˜ ì‚¬ë‘ì´ ì¸ìƒ ì˜í™”ë¡œ ë¶ˆë¦¬ëŠ” ì´ìœ : ë¼ë¼ëœë“œ','https://www.youtube.com/embed/gHeAg105C7g','ë§ì€ ì‚¬ëŒë“¤ì˜ ì¸ìƒ ì‘í’ˆ. ê¿ˆê³¼ ì‚¬ë‘ìœ¼ë¡œ ê°€ë“ ì°¼ë˜ ê·¸ë‚ ì˜ ê¸°ì–µ. ë¼ì´ë„ˆì˜ ì˜í™” ì¸ìˆ˜ë¶„í•´ ê·¸ ë„¤ ë²ˆì§¸ ì‘í’ˆ. ì„¤ëª…ì´ í•„ìš”ì—†ëŠ” ì˜í™”. ë¼ë¼ëœë“œì…ë‹ˆë‹¤.',null,null,null,'liner@hotmail.com','MR005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','773','MR773','ì€ê·¼íˆ ì•Œë ¤ì§€ì§€ ì•Šì€, ''ë¼ë¼ëœë“œ''ì— ê´€í•œ 6ê°€ì§€ í¥ë¯¸ë¡œìš´ ì´ì•¼ê¸° [ì²œì¬ì´ìŠ¹êµ­]','https://www.youtube.com/embed/meEs5w2D-gc','"ê³¨ë“ ê¸€ë¡œë¸Œì—ì„œ ë¬´ë ¤ 7ê´€ì™•ì´ë¼ëŠ” ê¸°ë¡ì„ ì„¸ìš´ ì˜í™”
+ë¼ë¼ëœë“œ!
+ì˜í™”ì— ê´€í•œ í¥ë¯¸ë¡œìš´ ì´ì•¼ê¸° 6ê°€ì§€ë¥¼ ì •ë¦¬í–ˆìŠµë‹ˆë‹¤.
+ê°„ë‹¨í•œ ì´ì•¼ê¸°ëŠ” ë§ì´ë“¤ ë‹¤ë£¨ì‹œëŠ”ê²ƒ ê°™ì•„ì„œ ì€ê·¼íˆ ì˜ ì•Œë ¤ì§€ì§€ ì•Šì€ ì‚¬ì‹¤ë“¤ë¡œ ì¤€ë¹„í–ˆìŠµë‹ˆë‹¤.
+ì²œì¬ì´ìŠ¹êµ­ì„ êµ¬ë…í•˜ê³  ë” ë§ì€ ì˜ìƒì„ ë§Œë‚˜ë³´ì„¸ìš”!^^"',null,null,null,'genius@gmail.com','MR005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','774','MR774','ì—¬ìì˜ ì†ë§ˆìŒì„ ë“¤ì„ ìˆ˜ ìˆëŠ” ë‚¨ì','https://www.youtube.com/embed/tLxyYxJcnpM','"#ì™“ ìœ„ë¯¼ ì›íŠ¸ #ë“œë¦¼í…”ëŸ¬ #ì˜í™”ì†Œê°œ
 "',null,null,null,'dreamteller@daum.net','MR006',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','775','MR775','¸ğµç ¿©¼ºÀÇ ¼Ó¸¶À½À» µéÀ» ¼ö ÀÖ´Â À¯ÀÏÇÑ ³²¼º','https://www.youtube.com/embed/euNhUsofQAM','"¿µÈ­
-Á¦ÀÛÁö¿ø: ºñÇÃ¸¯½º"',null,null,null,'fallinfilm@hotmail.com','MR006',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','776','MR776','¿©¼ºÀÇ ¼Ó¸¶À½À» ÀĞ´Â ÃÊ´É·ÂÀÌ »ı±â¸é ¹ú¾îÁö´Â ÀÏ','https://www.youtube.com/embed/-gqLDufcDnU','"¾È³çÇÏ¼¼¿ä! ¿ÁÅ¾¹æ¹«ºñÀÔ´Ï´Ù.
-ÀÌ¹ø¿¡ ¼Ò°³ÇØµå¸± ¿µÈ­´Â ¡®¿Ó À§¹Î ¿øÆ®(2000)¡¯¶ó´Â ¿µÈ­ÀÔ´Ï´Ù.
-¡®¿Ó À§¹Î ¿øÆ®¡¯ ¿µÈ­´Â
-³²¼º¿ì¿ùÁÖÀÇÀÚÀÎ ¡°´Ğ ¸¶¼£¡¯ÀÌ¶õ ÁÖÀÎ°øÀÌ
-¿©¼ºÀÇ ¼Ó¸¶À½À» ÀĞ´Â ±âÀÌÇÑ ´É·ÂÀÌ »ı±â¸é¼­
-ÀÏ¾î³ª´Â Àç¹Ì³­ ¿¡ÇÇ¼ÒµåµéÀ» ´Ù·ç°í ÀÖ½À´Ï´Ù¤¾¤¾
-ÀÚ½ÅÀº Á¤¸» ¡°»ç¶û²Û¡±ÀÇ Ç¥º»ÀÎ°Å °°Áö¸¸
-¹ø¹øÀÌ »ç¶û¿¡ ½ÇÆĞÇÏ´Â ºĞÀÌ¶ó¸é,
-²À 2½Ã°£Â¥¸® Ç®¿µ»óÀ» º¸½Ã±æ ÃßÃµµå¸³´Ï´Ù!!
-¡à 8:09 ºÎÅÍ´Â ¿µÈ­¿¡ ´ëÇÑ ÀúÀÇ ÂªÀº ¸®ºä°¡ ³ª¿Í¿ä!
-¡à 9:24 ºÎÅÍ´Â ¿ÁÅ¾¹æ¹«ºñ°¡ ¼±Á¤ÇÑ º£½ºÆ®¾À&ÃßÃµ°îÀÔ´Ï´Ù! (°í¸·Å×·¯ ÁÖÀÇ)
-- ÃßÃµ°î : Harry Connick Jr. - Close To You
-- ¿ø°î : Carpenters - Close To You
-- º½¿¡ µè±â ÁÁÀºver. : Olivia Ong - Close To You
-- ÃßÃµ¿µ»ó : C?dia e Dan - Close To You
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','775','MR775','ëª¨ë“  ì—¬ì„±ì˜ ì†ë§ˆìŒì„ ë“¤ì„ ìˆ˜ ìˆëŠ” ìœ ì¼í•œ ë‚¨ì„±','https://www.youtube.com/embed/euNhUsofQAM','"ì˜í™”
+ì œì‘ì§€ì›: ë¹„í”Œë¦­ìŠ¤"',null,null,null,'fallinfilm@hotmail.com','MR006',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','776','MR776','ì—¬ì„±ì˜ ì†ë§ˆìŒì„ ì½ëŠ” ì´ˆëŠ¥ë ¥ì´ ìƒê¸°ë©´ ë²Œì–´ì§€ëŠ” ì¼','https://www.youtube.com/embed/-gqLDufcDnU','"ì•ˆë…•í•˜ì„¸ìš”! ì˜¥íƒ‘ë°©ë¬´ë¹„ì…ë‹ˆë‹¤.
+ì´ë²ˆì— ì†Œê°œí•´ë“œë¦´ ì˜í™”ëŠ” â€˜ì™“ ìœ„ë¯¼ ì›íŠ¸(2000)â€™ë¼ëŠ” ì˜í™”ì…ë‹ˆë‹¤.
+â€˜ì™“ ìœ„ë¯¼ ì›íŠ¸â€™ ì˜í™”ëŠ”
+ë‚¨ì„±ìš°ì›”ì£¼ì˜ìì¸ â€œë‹‰ ë§ˆìƒ¬â€™ì´ë€ ì£¼ì¸ê³µì´
+ì—¬ì„±ì˜ ì†ë§ˆìŒì„ ì½ëŠ” ê¸°ì´í•œ ëŠ¥ë ¥ì´ ìƒê¸°ë©´ì„œ
+ì¼ì–´ë‚˜ëŠ” ì¬ë¯¸ë‚œ ì—í”¼ì†Œë“œë“¤ì„ ë‹¤ë£¨ê³  ìˆìŠµë‹ˆë‹¤ã…ã…
+ìì‹ ì€ ì •ë§ â€œì‚¬ë‘ê¾¼â€ì˜ í‘œë³¸ì¸ê±° ê°™ì§€ë§Œ
+ë²ˆë²ˆì´ ì‚¬ë‘ì— ì‹¤íŒ¨í•˜ëŠ” ë¶„ì´ë¼ë©´,
+ê¼­ 2ì‹œê°„ì§œë¦¬ í’€ì˜ìƒì„ ë³´ì‹œê¸¸ ì¶”ì²œë“œë¦½ë‹ˆë‹¤!!
+â–¡ 8:09 ë¶€í„°ëŠ” ì˜í™”ì— ëŒ€í•œ ì €ì˜ ì§§ì€ ë¦¬ë·°ê°€ ë‚˜ì™€ìš”!
+â–¡ 9:24 ë¶€í„°ëŠ” ì˜¥íƒ‘ë°©ë¬´ë¹„ê°€ ì„ ì •í•œ ë² ìŠ¤íŠ¸ì”¬&ì¶”ì²œê³¡ì…ë‹ˆë‹¤! (ê³ ë§‰í…ŒëŸ¬ ì£¼ì˜)
+- ì¶”ì²œê³¡ : Harry Connick Jr. - Close To You
+- ì›ê³¡ : Carpenters - Close To You
+- ë´„ì— ë“£ê¸° ì¢‹ì€ver. : Olivia Ong - Close To You
+- ì¶”ì²œì˜ìƒ : C?dia e Dan - Close To You
 https://youtube.com/embed/Lx0PdecHzZw
-¡à À¯Æ©ºê¿µÈ­ ¡®¿Ó À§¹Î ¿øÆ®(2000)¡¯ º¸·¯°¡±â! https://youtube.com/embed/SHEmofL0uyM
-¿À´Ãµµ Áñ°¨ÇÏ½Ã±æ ¹Ù¶ø´Ï´Ù¢¾?
-±¸µ¶°ú ÁÁ¾Æ¿ä ºÎÅ¹µå·Á¿ä?
-°¨»çÇÕ´Ï´Ù!!
-#¿µÈ­ #·Î¸Ç½ºÄÚ¹Ìµğ #¿Ó À§¹Î ¿øÆ®"',null,null,null,'tophome@gmail.com','MR006',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','777','MR777','±â¾ïÀ» Áö¿ì¸é ¾ÈµÇ´Â ÀÌÀ¯. »ç¶ûÇÏ´Â »ç¶÷À» ÀØ¾î¹ö¸± ¼ö ÀÖ½À´Ï´Ù!','https://www.youtube.com/embed/vYjuueP195c','"¾È³çÇÏ¼¼¿ä ""¿µÈ­ ¼ÒÈ¯»ç""ÀÔ´Ï´Ù.
-Ã³À½ ¿µ»óÀ» Á¦ÀÛÇØ¼­ ¸¹ÀÌ ¹ÌÈíÇÏÁö¸¸ ¾ÕÀ¸·Î ´õ¿í ¹ßÀüÇØ ³ª°¡¼­
-Ä÷¸®Æ¼ ÀÖ´Â ¿µ»óÀ» ¸¸µé¾î°¡°Ú½À´Ï´Ù.
-¿À´Ã ¼Ò°³ÇÏ´Â ¿µÈ­´Â ³» ¸Ó¸®¼ÓÀÇ Áö¿ì°³ÀÔ´Ï´Ù.
-Àú´Â ·Î¸Ç½º ¿µÈ­ÇÏ¸é ÀÌ ¿µÈ­ºÎÅÍ ¸ÕÀú ¶°¿À¸¨´Ï´Ù.
-¿©·¯ºĞ Áß È¤½Ã¶óµµ ¾ÆÁ÷ º¸Áö ¸øÇÑ ºĞµéÀÌ °è½Ã´Ù¸é ²À ÇÑ ¹øÂëÀº
-½ÃÃ»ÇÏ±æ ÃßÃµµå¸³´Ï´Ù.
-¿µ»óÀ» ´Ù º¸½Å ÈÄ¿¡ ±¸µ¶°ú ÁÁ¾Æ¿ä ºÎÅ¹µå¸³´Ï´Ù.
-°¨»çÇÕ´Ï´Ù.
--³» ¸Ó¸®¼ÓÀÇ Áö¿ì°³ (2004)
+â–¡ ìœ íŠœë¸Œì˜í™” â€˜ì™“ ìœ„ë¯¼ ì›íŠ¸(2000)â€™ ë³´ëŸ¬ê°€ê¸°! https://youtube.com/embed/SHEmofL0uyM
+ì˜¤ëŠ˜ë„ ì¦ê°í•˜ì‹œê¸¸ ë°”ëë‹ˆë‹¤â™¥?
+êµ¬ë…ê³¼ ì¢‹ì•„ìš” ë¶€íƒë“œë ¤ìš”?
+ê°ì‚¬í•©ë‹ˆë‹¤!!
+#ì˜í™” #ë¡œë§¨ìŠ¤ì½”ë¯¸ë”” #ì™“ ìœ„ë¯¼ ì›íŠ¸"',null,null,null,'tophome@gmail.com','MR006',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','777','MR777','ê¸°ì–µì„ ì§€ìš°ë©´ ì•ˆë˜ëŠ” ì´ìœ . ì‚¬ë‘í•˜ëŠ” ì‚¬ëŒì„ ìŠì–´ë²„ë¦´ ìˆ˜ ìˆìŠµë‹ˆë‹¤!','https://www.youtube.com/embed/vYjuueP195c','"ì•ˆë…•í•˜ì„¸ìš” ""ì˜í™” ì†Œí™˜ì‚¬""ì…ë‹ˆë‹¤.
+ì²˜ìŒ ì˜ìƒì„ ì œì‘í•´ì„œ ë§ì´ ë¯¸í¡í•˜ì§€ë§Œ ì•ìœ¼ë¡œ ë”ìš± ë°œì „í•´ ë‚˜ê°€ì„œ
+í€„ë¦¬í‹° ìˆëŠ” ì˜ìƒì„ ë§Œë“¤ì–´ê°€ê² ìŠµë‹ˆë‹¤.
+ì˜¤ëŠ˜ ì†Œê°œí•˜ëŠ” ì˜í™”ëŠ” ë‚´ ë¨¸ë¦¬ì†ì˜ ì§€ìš°ê°œì…ë‹ˆë‹¤.
+ì €ëŠ” ë¡œë§¨ìŠ¤ ì˜í™”í•˜ë©´ ì´ ì˜í™”ë¶€í„° ë¨¼ì € ë– ì˜¤ë¦…ë‹ˆë‹¤.
+ì—¬ëŸ¬ë¶„ ì¤‘ í˜¹ì‹œë¼ë„ ì•„ì§ ë³´ì§€ ëª»í•œ ë¶„ë“¤ì´ ê³„ì‹œë‹¤ë©´ ê¼­ í•œ ë²ˆì¯¤ì€
+ì‹œì²­í•˜ê¸¸ ì¶”ì²œë“œë¦½ë‹ˆë‹¤.
+ì˜ìƒì„ ë‹¤ ë³´ì‹  í›„ì— êµ¬ë…ê³¼ ì¢‹ì•„ìš” ë¶€íƒë“œë¦½ë‹ˆë‹¤.
+ê°ì‚¬í•©ë‹ˆë‹¤.
+-ë‚´ ë¨¸ë¦¬ì†ì˜ ì§€ìš°ê°œ (2004)
 "',null,null,null,'shong@hotmail.com','MR007',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','778','MR778','³» ¸Ó¸® ¼ÓÀÇ Áö¿ì°³ (A Moment to Remember) | ¿µÈ­¸®ºä','https://www.youtube.com/embed/jE_qDA_UAZc','"³» ¸Ó¸® ¼ÓÀÇ Áö¿ì°³ (A Moment to Remember) | ¿µÈ­¸®ºä | ¿µÈ­¼Ò°³ | ¿µÈ­ÃßÃµ
-·Î¸Ç½º/¸á·Î/µå¶ó¸¶/ÇÑ±¹
-(°¨µ¶) ÀÌÀçÇÑ (ÁÖ¿¬) Á¤¿ì¼º, ¼Õ¿¹Áø"',null,null,null,'uxxmovie@daum.net','MR007',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','779','MR779','ÀÌ°Å ¸¶½Ã¸é ¿ì¸® »ç±Í´Â °Å´Ù','https://www.youtube.com/embed/M5YFl8ST380','#¾îµğ°¡¼­ #½á¸ÔÁø¸»ÀÚ #ÂüÆĞ´Ù ¾È³çÇÏ¼¼¿ä ¿µÈ­ ³» ¸Ó¸® ¼ÓÀÇ Áö¿ì°³ ÀÔ´Ï´Ù',null,null,null,'lemong@hotmail.com','MR007',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','780','MR780','¿ì¸® Áı ³Ê°¡ Áö¾îÁÙ·¡? [¹´¹´ÇÈ] °ÇÃàÇĞ°³·Ğ | ¼öÁö | ÀÌÁ¦ÈÆ | ÇÑ°¡ÀÎ | ¾öÅÂ¿õ | Ã¹»ç¶û','https://www.youtube.com/embed/lUzfsEe3vo4','"±× ¶§ÀÇ ''Ã¹»ç¶û''¿¡°Ô ´Ù½Ã ºüÁú ÁØºñ µÇ¼Ì³ª¿ä?
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','778','MR778','ë‚´ ë¨¸ë¦¬ ì†ì˜ ì§€ìš°ê°œ (A Moment to Remember) | ì˜í™”ë¦¬ë·°','https://www.youtube.com/embed/jE_qDA_UAZc','"ë‚´ ë¨¸ë¦¬ ì†ì˜ ì§€ìš°ê°œ (A Moment to Remember) | ì˜í™”ë¦¬ë·° | ì˜í™”ì†Œê°œ | ì˜í™”ì¶”ì²œ
+ë¡œë§¨ìŠ¤/ë©œë¡œ/ë“œë¼ë§ˆ/í•œêµ­
+(ê°ë…) ì´ì¬í•œ (ì£¼ì—°) ì •ìš°ì„±, ì†ì˜ˆì§„"',null,null,null,'uxxmovie@daum.net','MR007',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','779','MR779','ì´ê±° ë§ˆì‹œë©´ ìš°ë¦¬ ì‚¬ê·€ëŠ” ê±°ë‹¤','https://www.youtube.com/embed/M5YFl8ST380','#ì–´ë””ê°€ì„œ #ì¨ë¨¹ì§„ë§ì #ì°¸íŒ¨ë‹¤ ì•ˆë…•í•˜ì„¸ìš” ì˜í™” ë‚´ ë¨¸ë¦¬ ì†ì˜ ì§€ìš°ê°œ ì…ë‹ˆë‹¤',null,null,null,'lemong@hotmail.com','MR007',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','780','MR780','ìš°ë¦¬ ì§‘ ë„ˆê°€ ì§€ì–´ì¤„ë˜? [ë­…ë­…í”½] ê±´ì¶•í•™ê°œë¡  | ìˆ˜ì§€ | ì´ì œí›ˆ | í•œê°€ì¸ | ì—„íƒœì›… | ì²«ì‚¬ë‘','https://www.youtube.com/embed/lUzfsEe3vo4','"ê·¸ ë•Œì˜ ''ì²«ì‚¬ë‘''ì—ê²Œ ë‹¤ì‹œ ë¹ ì§ˆ ì¤€ë¹„ ë˜ì…¨ë‚˜ìš”?
 "',null,null,null,'mupmup@hotmail.com','MR008',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','781','MR781','»õ³»±â ½ÅÀÔ»ıµé Áß ¿¹»Û ¿©ÀÚ¸¸ ³ë¸®´Â ¾²·¹±â ¼±¹è','https://www.youtube.com/embed/P0bjFRTviZQ','"#¿µÈ­¸®ºä #¿µÈ­¼Ò°³ #¸®ÇÊµåÀç¿µ
-¿À´Ã ¼Ò°³ÇØµå¸± ¿µÈ­´Â #°ÇÃàÇĞ°³·Ğ ÀÔ´Ï´Ù.
-¢Â ¸®ÇÊµå Àç¿µ ±¸µ¶ http://bitly.kr/3QlxZ
-¢Â ¸ŞÀÏ ¹®ÀÇ cheerupjaeyoung@gmail.com
-¢Â ÀÎ½ºÅ¸±×·¥ https://www.instagram.com/cheerupjaey...
-¡Ú ¿µ»ó¿¡ ÁÁ¾Æ¿ä¸¦ ´­·¯ÁÖ½Ã¸é Á¤¸» Å« ÈûÀÌ µË´Ï´Ù!"',null,null,null,'jy@gmail.com','MR008',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','782','MR782','³²ÀÚ°¡ ºÁ¾ßÇÏ´Â ·Î¸Ç½º ¿µÈ­ : ³ÊÀÇ °áÈ¥½Ä ¸®ºä','https://www.youtube.com/embed/Nm4tRCmJrUc','* º» ¿µ»óÀº ½ºÆ÷ÀÏ·¯°¡ ´Ù¼ö Æ÷ÇÔµÇ¾î ÀÖ½À´Ï´Ù * 8¿ù 27ÀÏ, Á÷Á¢ µÎ ´«À¸·Î º¸°í ¿Â ¿µÈ­ÀÔ´Ï´Ù. ÇÑ±¹Çü ·Î¸Ç½º´Â ±× ¸í¸ÆÀ» ²ÙÁØÈ÷ À¯ÁöÇØ ¿À°í ÀÖ½À´Ï´Ù. ¿¹ÀüÀÇ °¨¼º¿¡¼­ ¹ş¾î³­Áö´Â ¿À·¡Áö¸¸, ±×·¡µµ »õ·Î¿î ¹æ½ÄÀ¸·Î ÀÌ¾îÁö°í ÀÖÁÒ. ÀÌ ¿µÈ­, ''³ÊÀÇ °áÈ¥½Ä''Àº ±×·±¸é¿¡¼­ Âü ÄªÂùÇÒ¸¸ÇÑ ¿µÈ­ÀÔ´Ï´Ù. »·ÇÏÁö¸¸ Áñ°Å¿î Àü°³, ¿Ïº®ÇÑ °³¿¬¼º°ú Ä³¸¯ÅÍÀÇ ¼³Á¤. ²Ù¹Ò¾ø´Â °á¸»°ú ¿Ö ±×·¸°Ô ÇßÀ»±î¿¡ ´ëÇÑ °ö¾ÃÀ½±îÁö ÀüÇÏ°í ÀÖ°Åµç¿ä. ''°ÇÃàÇĞ°³·Ğ''À¸·Î ÇÑ´Ü°è ¹ßÀüÇß´ø ÇÑ±¹Çü ·Î¸Ç½º´Â, ÀÌ ¿µÈ­ ''³ÊÀÇ °áÈ¥½Ä''À¸·Î ¶Ç ÇÑ´Ü°è °è´ÜÀ» ¿Ã¶ú½À´Ï´Ù. º» ¿µ»ó¿¡´Â ¿µÈ­ÀÇ Ä¡¸íÀûÀÎ ½ºÆ÷ÀÏ·¯°¡ Æ÷ÇÔµÇ¾î ÀÖÀ¸´Ï, ¿µÈ­ °ü¶÷ Àü¿¡ º¸½Ã´Â °ÍÀ» ÁÖÀÇÇØÁÖ¼¼¿ä. ¸®ºä¸¦ ÇÏ¸é¼­ ÁÖ¿ä Àå¸é¹× °á¸»À» »© ³õ¾ÒÀ¸´Ï ²À ¿µÈ­¸¦ ½ÃÃ»ÇØº¸½Ã±æ ¹Ù¶ø´Ï´Ù! - ''¹«ºñÄÚ¸àÆ®''´Â À¯Æ©ºê¿¡¸¸ ¾÷·Îµå µË´Ï´Ù. ¿µÈ­Á¦¸ñ : ³ÊÀÇ °áÈ¥½Ä (2018) #³ÊÀÇ °áÈ¥½Ä #¹Úº¸¿µ #±è¿µ±¤ #¿µÈ­ÃßÃµ #¿µÈ­¸®ºä #¿µÈ­ÈÄ±â #¿µÈ­À¯Æ©ºê #¿µÈ­¸ñ¼Ò¸® #ÀÚÃë¹æ³²ÀÚ #¿µÈ­¼Ò°³ #·Î¸Ç½º¿µÈ­ #½ÅÀÛ¿µÈ­ #½ÅÀÛ¸®ºä #»ç¶û¿µÈ­ #ÇĞÃ¢½ÃÀı·Î¸Ç½º #¾Ö´ÏÄİ #¾ÆÀÌ¸®¹ö',null,null,null,'aloneman@daum.net','MR008',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','783','MR783','ÂÉ°³´Â ¹Ì±¹ ´ëÅë·É¿¡°Ô ºò¿³ ¸ÔÀÌ¸ç ½æÅ¸´Â ¿µÈ­(ÂÉ°³?¤»¤»)','https://www.youtube.com/embed/-ePsZQeJ8SI','"±¸µ¶''ÇÏ°í ''¾Ë¸²''¼³Á¤À» ÇØµÎ¸é Àç¹Õ´Â ÃÖ½Å ¿µ»óµéÀ» °¡Àå »¡¸® º¼ ¼ö ÀÖ½À´Ï´Ù. ''ÃßÃµ''Àº ÄÁÅÙÃ÷ Á¦ÀÛ¿¡ Å« ÈûÀÌ µË´Ï´Ù^^
-#Ä¸Æ¾¶ó¹Ì #¿µÈ­¼Ò°³ #¿µÈ­¸®ºä
-¿µÈ­: ·¯ºê ¾×Ãò¾ó¸®
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','781','MR781','ìƒˆë‚´ê¸° ì‹ ì…ìƒë“¤ ì¤‘ ì˜ˆìœ ì—¬ìë§Œ ë…¸ë¦¬ëŠ” ì“°ë ˆê¸° ì„ ë°°','https://www.youtube.com/embed/P0bjFRTviZQ','"#ì˜í™”ë¦¬ë·° #ì˜í™”ì†Œê°œ #ë¦¬í•„ë“œì¬ì˜
+ì˜¤ëŠ˜ ì†Œê°œí•´ë“œë¦´ ì˜í™”ëŠ” #ê±´ì¶•í•™ê°œë¡  ì…ë‹ˆë‹¤.
+â—ˆ ë¦¬í•„ë“œ ì¬ì˜ êµ¬ë… http://bitly.kr/3QlxZ
+â—ˆ ë©”ì¼ ë¬¸ì˜ cheerupjaeyoung@gmail.com
+â—ˆ ì¸ìŠ¤íƒ€ê·¸ë¨ https://www.instagram.com/cheerupjaey...
+â˜… ì˜ìƒì— ì¢‹ì•„ìš”ë¥¼ ëˆŒëŸ¬ì£¼ì‹œë©´ ì •ë§ í° í˜ì´ ë©ë‹ˆë‹¤!"',null,null,null,'jy@gmail.com','MR008',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','782','MR782','ë‚¨ìê°€ ë´ì•¼í•˜ëŠ” ë¡œë§¨ìŠ¤ ì˜í™” : ë„ˆì˜ ê²°í˜¼ì‹ ë¦¬ë·°','https://www.youtube.com/embed/Nm4tRCmJrUc','* ë³¸ ì˜ìƒì€ ìŠ¤í¬ì¼ëŸ¬ê°€ ë‹¤ìˆ˜ í¬í•¨ë˜ì–´ ìˆìŠµë‹ˆë‹¤ * 8ì›” 27ì¼, ì§ì ‘ ë‘ ëˆˆìœ¼ë¡œ ë³´ê³  ì˜¨ ì˜í™”ì…ë‹ˆë‹¤. í•œêµ­í˜• ë¡œë§¨ìŠ¤ëŠ” ê·¸ ëª…ë§¥ì„ ê¾¸ì¤€íˆ ìœ ì§€í•´ ì˜¤ê³  ìˆìŠµë‹ˆë‹¤. ì˜ˆì „ì˜ ê°ì„±ì—ì„œ ë²—ì–´ë‚œì§€ëŠ” ì˜¤ë˜ì§€ë§Œ, ê·¸ë˜ë„ ìƒˆë¡œìš´ ë°©ì‹ìœ¼ë¡œ ì´ì–´ì§€ê³  ìˆì£ . ì´ ì˜í™”, ''ë„ˆì˜ ê²°í˜¼ì‹''ì€ ê·¸ëŸ°ë©´ì—ì„œ ì°¸ ì¹­ì°¬í• ë§Œí•œ ì˜í™”ì…ë‹ˆë‹¤. ë»”í•˜ì§€ë§Œ ì¦ê±°ìš´ ì „ê°œ, ì™„ë²½í•œ ê°œì—°ì„±ê³¼ ìºë¦­í„°ì˜ ì„¤ì •. ê¾¸ë°ˆì—†ëŠ” ê²°ë§ê³¼ ì™œ ê·¸ë ‡ê²Œ í–ˆì„ê¹Œì— ëŒ€í•œ ê³±ì”¹ìŒê¹Œì§€ ì „í•˜ê³  ìˆê±°ë“ ìš”. ''ê±´ì¶•í•™ê°œë¡ ''ìœ¼ë¡œ í•œë‹¨ê³„ ë°œì „í–ˆë˜ í•œêµ­í˜• ë¡œë§¨ìŠ¤ëŠ”, ì´ ì˜í™” ''ë„ˆì˜ ê²°í˜¼ì‹''ìœ¼ë¡œ ë˜ í•œë‹¨ê³„ ê³„ë‹¨ì„ ì˜¬ëìŠµë‹ˆë‹¤. ë³¸ ì˜ìƒì—ëŠ” ì˜í™”ì˜ ì¹˜ëª…ì ì¸ ìŠ¤í¬ì¼ëŸ¬ê°€ í¬í•¨ë˜ì–´ ìˆìœ¼ë‹ˆ, ì˜í™” ê´€ëŒ ì „ì— ë³´ì‹œëŠ” ê²ƒì„ ì£¼ì˜í•´ì£¼ì„¸ìš”. ë¦¬ë·°ë¥¼ í•˜ë©´ì„œ ì£¼ìš” ì¥ë©´ë° ê²°ë§ì„ ë¹¼ ë†“ì•˜ìœ¼ë‹ˆ ê¼­ ì˜í™”ë¥¼ ì‹œì²­í•´ë³´ì‹œê¸¸ ë°”ëë‹ˆë‹¤! - ''ë¬´ë¹„ì½”ë©˜íŠ¸''ëŠ” ìœ íŠœë¸Œì—ë§Œ ì—…ë¡œë“œ ë©ë‹ˆë‹¤. ì˜í™”ì œëª© : ë„ˆì˜ ê²°í˜¼ì‹ (2018) #ë„ˆì˜ ê²°í˜¼ì‹ #ë°•ë³´ì˜ #ê¹€ì˜ê´‘ #ì˜í™”ì¶”ì²œ #ì˜í™”ë¦¬ë·° #ì˜í™”í›„ê¸° #ì˜í™”ìœ íŠœë¸Œ #ì˜í™”ëª©ì†Œë¦¬ #ìì·¨ë°©ë‚¨ì #ì˜í™”ì†Œê°œ #ë¡œë§¨ìŠ¤ì˜í™” #ì‹ ì‘ì˜í™” #ì‹ ì‘ë¦¬ë·° #ì‚¬ë‘ì˜í™” #í•™ì°½ì‹œì ˆë¡œë§¨ìŠ¤ #ì• ë‹ˆì½œ #ì•„ì´ë¦¬ë²„',null,null,null,'aloneman@daum.net','MR008',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','783','MR783','ìª¼ê°œëŠ” ë¯¸êµ­ ëŒ€í†µë ¹ì—ê²Œ ë¹…ì—¿ ë¨¹ì´ë©° ì¸íƒ€ëŠ” ì˜í™”(ìª¼ê°œ?ã…‹ã…‹)','https://www.youtube.com/embed/-ePsZQeJ8SI','"êµ¬ë…''í•˜ê³  ''ì•Œë¦¼''ì„¤ì •ì„ í•´ë‘ë©´ ì¬ë°ŒëŠ” ìµœì‹  ì˜ìƒë“¤ì„ ê°€ì¥ ë¹¨ë¦¬ ë³¼ ìˆ˜ ìˆìŠµë‹ˆë‹¤. ''ì¶”ì²œ''ì€ ì»¨í…ì¸  ì œì‘ì— í° í˜ì´ ë©ë‹ˆë‹¤^^
+#ìº¡í‹´ë¼ë¯¸ #ì˜í™”ì†Œê°œ #ì˜í™”ë¦¬ë·°
+ì˜í™”: ëŸ¬ë¸Œ ì•¡ì¸„ì–¼ë¦¬
 "',null,null,null,'captainrami@gmail.com','MR009',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','784','MR784','¿µ±¹ ÃÖ°í ±Ç·ÂÀÚÀÇ ¿©ÀÚ¸¦ ¿åÇÏ¸é ¹ú¾îÁö´Â ÀÏ','https://www.youtube.com/embed/U6baCFHQNyQ','"¿µÈ­ [ ·¯ºê¿¢Ãò¾ó¸®] ½ºÅä¸®ÅÚ¸µ ¸®ºä¿µ»óÀÔ´Ï´Ù.
-±×¸®°í ¿µÈ­ ·¯ºê ¾×Ãò¾ó¸®·Î ¿µ¾î °øºÎÇÏ°í ½ÍÀ¸½Å ºĞµéÀº »ùÇÃ°­ÀÇµµ ÀÖ´Ù°í ÇÏ´Ï, ¾Æ·¡ ¸µÅ© Âü°íÇÏ¼¼¿ä! ^^"',null,null,null,'sogaenam@naver.com','MR009',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','785','MR785','¾Ë°í º¸¸é ´õ Àç¹ÌÀÖ´Â ·¯ºê ¾×Ãò¾ó¸®¿¡ ´ëÇÑ ÀÌ¾ß±â','https://www.youtube.com/embed/uPN1GgrTIio','"2003³â °³ºÀÀÛ
-""·¯ºê ¾×Ãò¾ó¸®"" ÀÔ´Ï´Ù.
-Å©¸®½º¸¶½º¸é µ¹¾Æ¿À´Â ¿µÈ­ ·¯ºê ¾×Ãò¾ó¸®¿¡ ´ëÇÑ Æ®¸®ºñ¾Æ¸¦ ¸î°³ ¸ğ¾ÆºÃ½À´Ï´Ù!"',null,null,null,'gamemaster88@gmail.com','MR009',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','786','MR786','ÇÑ ¿©ÀÚ¿¡°Ô ¿À·£ ½Ã°£ ÀÛ¾÷À» °Ç ³²ÀÚ','https://www.youtube.com/embed/qz8w3Zt7pmU','"º» ¸®ºä´Â ¿µÈ­ÀÇ Àü¹İÀûÀÎ ½ºÅä¸®¸¦ ´Ù·ì´Ï´Ù.
-½Ã°£ÀÌ¶ó´Â ¼ÒÀç´Â ¾ğÁ¦³ª ¸Å·ÂÀûÀÌÁÒ
-¿µÈ­ ''½Ã°£¿©ÇàÀÚÀÇ ¾Æ³»'' ¸®ºä
-¿¡¸¯ ¹Ù³ª°¡ Çî¸® ¿ª, ·¹ÀÌÃ¿ ¸Æ¾Æ´ã½º´ÔÀÌ.. Å¬·¹¾î¸¦ ¸Ã¾Ò½À´Ï´Ù. °í¸¿½À´Ï´Ù.
-¾î·ÈÀ» ¶§ºÎÅÍ ÇÚ¸®¸¦ ¸¸³ª¿Â Å¬·¹¾î, ÀÚ±â¸¦ ¾Æ´ÂµíÇÑ ±×³à ¶§¹®¿¡ ´çÈ²ÇÏ´Â Çî¸®, ÀÌµé¿¡°Ô´Â ¹«½¼ »ç¿¬ÀÌ ÀÖ´Â °É±î¿ä?
-½Ã°£¿¡ ÈÖµÑ¸®´Â Æò¹üÇÑ »ç¶÷ °°Àº ´É·ÂÀÚ
-ÁÁ¾Æ¿ä ±¸µ¶,ÇÇµå¹éÀº Å«ÈûÀÌ µË´Ï´Ù
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','784','MR784','ì˜êµ­ ìµœê³  ê¶Œë ¥ìì˜ ì—¬ìë¥¼ ìš•í•˜ë©´ ë²Œì–´ì§€ëŠ” ì¼','https://www.youtube.com/embed/U6baCFHQNyQ','"ì˜í™” [ ëŸ¬ë¸Œì—‘ì¸„ì–¼ë¦¬] ìŠ¤í† ë¦¬í…”ë§ ë¦¬ë·°ì˜ìƒì…ë‹ˆë‹¤.
+ê·¸ë¦¬ê³  ì˜í™” ëŸ¬ë¸Œ ì•¡ì¸„ì–¼ë¦¬ë¡œ ì˜ì–´ ê³µë¶€í•˜ê³  ì‹¶ìœ¼ì‹  ë¶„ë“¤ì€ ìƒ˜í”Œê°•ì˜ë„ ìˆë‹¤ê³  í•˜ë‹ˆ, ì•„ë˜ ë§í¬ ì°¸ê³ í•˜ì„¸ìš”! ^^"',null,null,null,'sogaenam@naver.com','MR009',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','785','MR785','ì•Œê³  ë³´ë©´ ë” ì¬ë¯¸ìˆëŠ” ëŸ¬ë¸Œ ì•¡ì¸„ì–¼ë¦¬ì— ëŒ€í•œ ì´ì•¼ê¸°','https://www.youtube.com/embed/uPN1GgrTIio','"2003ë…„ ê°œë´‰ì‘
+""ëŸ¬ë¸Œ ì•¡ì¸„ì–¼ë¦¬"" ì…ë‹ˆë‹¤.
+í¬ë¦¬ìŠ¤ë§ˆìŠ¤ë©´ ëŒì•„ì˜¤ëŠ” ì˜í™” ëŸ¬ë¸Œ ì•¡ì¸„ì–¼ë¦¬ì— ëŒ€í•œ íŠ¸ë¦¬ë¹„ì•„ë¥¼ ëª‡ê°œ ëª¨ì•„ë´¤ìŠµë‹ˆë‹¤!"',null,null,null,'gamemaster88@gmail.com','MR009',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','786','MR786','í•œ ì—¬ìì—ê²Œ ì˜¤ëœ ì‹œê°„ ì‘ì—…ì„ ê±´ ë‚¨ì','https://www.youtube.com/embed/qz8w3Zt7pmU','"ë³¸ ë¦¬ë·°ëŠ” ì˜í™”ì˜ ì „ë°˜ì ì¸ ìŠ¤í† ë¦¬ë¥¼ ë‹¤ë£¹ë‹ˆë‹¤.
+ì‹œê°„ì´ë¼ëŠ” ì†Œì¬ëŠ” ì–¸ì œë‚˜ ë§¤ë ¥ì ì´ì£ 
+ì˜í™” ''ì‹œê°„ì—¬í–‰ìì˜ ì•„ë‚´'' ë¦¬ë·°
+ì—ë¦­ ë°”ë‚˜ê°€ í—¨ë¦¬ ì—­, ë ˆì´ì²¼ ë§¥ì•„ë‹´ìŠ¤ë‹˜ì´.. í´ë ˆì–´ë¥¼ ë§¡ì•˜ìŠµë‹ˆë‹¤. ê³ ë§™ìŠµë‹ˆë‹¤.
+ì–´ë ¸ì„ ë•Œë¶€í„° í•¸ë¦¬ë¥¼ ë§Œë‚˜ì˜¨ í´ë ˆì–´, ìê¸°ë¥¼ ì•„ëŠ”ë“¯í•œ ê·¸ë…€ ë•Œë¬¸ì— ë‹¹í™©í•˜ëŠ” í—¨ë¦¬, ì´ë“¤ì—ê²ŒëŠ” ë¬´ìŠ¨ ì‚¬ì—°ì´ ìˆëŠ” ê±¸ê¹Œìš”?
+ì‹œê°„ì— íœ˜ë‘˜ë¦¬ëŠ” í‰ë²”í•œ ì‚¬ëŒ ê°™ì€ ëŠ¥ë ¥ì
+ì¢‹ì•„ìš” êµ¬ë…,í”¼ë“œë°±ì€ í°í˜ì´ ë©ë‹ˆë‹¤
 "',null,null,null,'socheon@daum.net','MR010',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','787','MR787','[½Ã°£ ¿©ÇàÀÚÀÇ ¾Æ³»] ¿µÈ­ ¼Ó ½Ã°£ÀÇ ÀÇ¹Ì(The Time Travler''s Wife: Meaning of The Time)','https://www.youtube.com/embed/9tRVYvzOtDQ','"½Ã°£ ¿©ÇàÀÚÀÇ ¾Æ³»''¿¡¼­ ½Ã°£ÀÇ ÀÇ¹Ì´Â?
-³»·¹ÀÌ¼ÇÀº Janice°¡ ¸Ã¾ÆÁÖ¼Ì³×¿ä:-)
-''½Ã°£ ¿©ÇàÀÚÀÇ ¾Æ³»''°¡ Àç°³ºÀÇß½À´Ï´Ù!
-½Ã°£À» ÃÊ¿ùÇÑ µÎ »ç¶÷,
-¿¡¸¯ ¹Ù³ª¿Í ·¹ÀÌÃ¿ ¸Æ¾Æ´ã½ºÀÇ
-³¶¸¸ÀûÀÎ »ç¶ûÀº ''½Ã°£''¿¡ ¹«°üÇÏ°Ô ¾Æ¸§´äÁÒ. ÀÌ¹ø ½Ã³× ÇÁ·ÎÅ¸ÁÖ¿¡¼­´Â
-¿µÈ­ ¼Ó¿¡¼­ ''½Ã°£''ÀÌ ÀÇ¹ÌÇÏ´Â °Í,
-±×¸®°í ''½Ã°£ ¿©ÇàÀÚÀÇ ¾Æ³»''¸¸ÀÇ
-µ¶Æ¯ÇÑ ½Ã°£°ü¿¡ °üÇØ ÀÌ¾ß±â ÇØº¼±î ÇÕ´Ï´Ù."',null,null,null,'senimapia@gmail.com','MR010',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','788','MR788','½Ã°£ÀÌµ¿ ´É·ÂÀÚ°¡ °ú°Å·Î µ¹¾Æ°¡ ÇÑ ÀÏ','https://www.youtube.com/embed/PElcWi9G1to','"¿µÈ­ [½Ã°£¿©ÇàÀÚÀÇ ¾Æ³»] ¼Ò°³¿µ»óÀÔ´Ï´Ù.
-½ºÆ÷ÀÏ·¯°¡ Æ÷ÇÔµÇ¾îÀÖÀ¸´Ï ½ÃÃ»ÇÏ½Ç¶§ ÁÖÀÇÇØÁÖ½Ã±æ ¹Ù¶ó°Ú½À´Ï´Ù.
-°¨»çÇÕ´Ï´Ù."',null,null,null,'sogaenam@naver.com','MR010',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','789','MR789','°¥¼ö·Ï Àş¾îÁö´Â Ãàº¹(ÀúÁÖ)¿¡ °É¸° ³²ÀÚÀÇ ÀÎ»ı/º¥ÀÚ¹Î ¹öÆ°/½Ã°£Àº °Å²Ù·Î °£´Ù/ÃßÃµ¿µÈ­','https://www.youtube.com/embed/xjPq_v_vzXA','"¿µÈ­ ''º¥ÀÚ¹Î ¹öÆ°ÀÇ ½Ã°£Àº °Å²Ù·Î °£´Ù
-(The Curious Case Of Benjamin Button, 2008)'' ÀÔ´Ï´Ù.
-ÁÖÀÎ°øÀÇ ÀşÀ½Àº °Å²Ù·Î °¡Áö¸¸, ½Ã°£Àº °Å²Ù·Î °¥ ¼ö ¾ø´Ù´Â °ÍÀÌ ¿µÈ­ÀÇ Æ÷ÀÎÆ®°¡ ¾Æ´Ò±î »ı°¢ÇÕ´Ï´Ù. ±×¸®°í ÀÛÀº ¼±ÅÃµéÀÇ ³ªºñÈ¿°ú°¡ ÇÑ Æò»ıÀ» ¹Ù²Ù¾î ³õ´Â ÇÑ ÀÎ°£ÀÇ ÀÏ´ë±â¸¦ ¿ä¾àÇÑ ¿µÈ­¶ó°í º¼ ¼ö ÀÖ½À´Ï´Ù.
-Á¤¸» ¸íÀÛÀÌÁÒ. Àç¹Õ°Ô º¸¼Ì´Ù¸é ÁÁ¾Æ¿ä ¹öÆ°, ºÎÅ¹ µå¸³´Ï´Ù^^
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','787','MR787','[ì‹œê°„ ì—¬í–‰ìì˜ ì•„ë‚´] ì˜í™” ì† ì‹œê°„ì˜ ì˜ë¯¸(The Time Travler''s Wife: Meaning of The Time)','https://www.youtube.com/embed/9tRVYvzOtDQ','"ì‹œê°„ ì—¬í–‰ìì˜ ì•„ë‚´''ì—ì„œ ì‹œê°„ì˜ ì˜ë¯¸ëŠ”?
+ë‚´ë ˆì´ì…˜ì€ Janiceê°€ ë§¡ì•„ì£¼ì…¨ë„¤ìš”:-)
+''ì‹œê°„ ì—¬í–‰ìì˜ ì•„ë‚´''ê°€ ì¬ê°œë´‰í–ˆìŠµë‹ˆë‹¤!
+ì‹œê°„ì„ ì´ˆì›”í•œ ë‘ ì‚¬ëŒ,
+ì—ë¦­ ë°”ë‚˜ì™€ ë ˆì´ì²¼ ë§¥ì•„ë‹´ìŠ¤ì˜
+ë‚­ë§Œì ì¸ ì‚¬ë‘ì€ ''ì‹œê°„''ì— ë¬´ê´€í•˜ê²Œ ì•„ë¦„ë‹µì£ . ì´ë²ˆ ì‹œë„¤ í”„ë¡œíƒ€ì£¼ì—ì„œëŠ”
+ì˜í™” ì†ì—ì„œ ''ì‹œê°„''ì´ ì˜ë¯¸í•˜ëŠ” ê²ƒ,
+ê·¸ë¦¬ê³  ''ì‹œê°„ ì—¬í–‰ìì˜ ì•„ë‚´''ë§Œì˜
+ë…íŠ¹í•œ ì‹œê°„ê´€ì— ê´€í•´ ì´ì•¼ê¸° í•´ë³¼ê¹Œ í•©ë‹ˆë‹¤."',null,null,null,'senimapia@gmail.com','MR010',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','788','MR788','ì‹œê°„ì´ë™ ëŠ¥ë ¥ìê°€ ê³¼ê±°ë¡œ ëŒì•„ê°€ í•œ ì¼','https://www.youtube.com/embed/PElcWi9G1to','"ì˜í™” [ì‹œê°„ì—¬í–‰ìì˜ ì•„ë‚´] ì†Œê°œì˜ìƒì…ë‹ˆë‹¤.
+ìŠ¤í¬ì¼ëŸ¬ê°€ í¬í•¨ë˜ì–´ìˆìœ¼ë‹ˆ ì‹œì²­í•˜ì‹¤ë•Œ ì£¼ì˜í•´ì£¼ì‹œê¸¸ ë°”ë¼ê² ìŠµë‹ˆë‹¤.
+ê°ì‚¬í•©ë‹ˆë‹¤."',null,null,null,'sogaenam@naver.com','MR010',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','789','MR789','ê°ˆìˆ˜ë¡ ì Šì–´ì§€ëŠ” ì¶•ë³µ(ì €ì£¼)ì— ê±¸ë¦° ë‚¨ìì˜ ì¸ìƒ/ë²¤ìë¯¼ ë²„íŠ¼/ì‹œê°„ì€ ê±°ê¾¸ë¡œ ê°„ë‹¤/ì¶”ì²œì˜í™”','https://www.youtube.com/embed/xjPq_v_vzXA','"ì˜í™” ''ë²¤ìë¯¼ ë²„íŠ¼ì˜ ì‹œê°„ì€ ê±°ê¾¸ë¡œ ê°„ë‹¤
+(The Curious Case Of Benjamin Button, 2008)'' ì…ë‹ˆë‹¤.
+ì£¼ì¸ê³µì˜ ì ŠìŒì€ ê±°ê¾¸ë¡œ ê°€ì§€ë§Œ, ì‹œê°„ì€ ê±°ê¾¸ë¡œ ê°ˆ ìˆ˜ ì—†ë‹¤ëŠ” ê²ƒì´ ì˜í™”ì˜ í¬ì¸íŠ¸ê°€ ì•„ë‹ê¹Œ ìƒê°í•©ë‹ˆë‹¤. ê·¸ë¦¬ê³  ì‘ì€ ì„ íƒë“¤ì˜ ë‚˜ë¹„íš¨ê³¼ê°€ í•œ í‰ìƒì„ ë°”ê¾¸ì–´ ë†“ëŠ” í•œ ì¸ê°„ì˜ ì¼ëŒ€ê¸°ë¥¼ ìš”ì•½í•œ ì˜í™”ë¼ê³  ë³¼ ìˆ˜ ìˆìŠµë‹ˆë‹¤.
+ì •ë§ ëª…ì‘ì´ì£ . ì¬ë°Œê²Œ ë³´ì…¨ë‹¤ë©´ ì¢‹ì•„ìš” ë²„íŠ¼, ë¶€íƒ ë“œë¦½ë‹ˆë‹¤^^
 "',null,null,null,'filmcasterian99@hotmail.com','MR011',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','790','MR790','³ªÀÌ¸ÔÀ»¼ö·Ï ÀÚ²Ù ¸öÀÌ Àş¾îÁö´Â ³²ÀÚÀÇ ÀÎ»ı','https://www.youtube.com/embed/fr7CHx68TVw','#¿µÈ­¼Ò°³ #¿µÈ­¸®ºä #Ã»³²µ¿ º¥ÀÚ¹Î ¹öÆ°ÀÇ ½Ã°£Àº °Å²Ù·Î °£´Ù (2008) 1918³â Á¦1Â÷ ¼¼°è ´ëÀü ¸» ´º¿Ã¸®¾ğÁî. 80¼¼ÀÇ ¿Ü¸ğ¸¦ °¡Áø »ç³» ¾ÆÀÌ°¡ ÅÂ¾î³­´Ù. ±×ÀÇ ÀÌ¸§Àº º¥ÀÚ¹Î ¹öÆ°. ºÎ¸ğ¿¡°Ô ¹ö·ÁÁ® ¾ç·Î¿ø¿¡¼­ ³ëÀÎµé°ú ÇÔ²² Áö³»´ø ±×´Â ½Ã°£ÀÌ Áö³¯¼ö·Ï Àş¾îÁø´Ù´Â °ÍÀ» ¾Ë°Ô µÈ´Ù. 12»ìÀÌ µÇ¾î 60´ëÀÇ ¿Ü¸ğ¸¦ °¡Áö°Ô µÈ ±×´Â ¾î´À ³¯ 6»ì ¼Ò³à µ¥ÀÌÁö¸¦ ¸¸³­ ÈÄ ±×³àÀÇ Çª¸¥ ´«µ¿ÀÚ¸¦ ÀØÁö ¸øÇÏ°Ô µÈ´Ù. Ã»³âÀÌ µÇ¾î ¼¼»óÀ¸·Î ³ª°£ º¥ÀÚ¹ÎÀº ¼÷³à°¡ µÈ µ¥ÀÌÁö¿Í ¸¸³ª ¸¸³²°ú Çì¾îÁüÀ» ¹İº¹ÇÏ´Ù ºñ·Î¼Ò µÑÀº »ç¶û¿¡ ºüÁö°Ô µÈ´Ù. ÇÏÁö¸¸ º¥ÀÚ¹ÎÀº ³¯¸¶´Ù Àş¾îÁö°í µ¥ÀÌÁö´Â Á¡Á¡ ´Ä¾î°¡´Âµ¥¡¦',null,null,null,'whereiam@gmail.com','MR011',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','791','MR791','³ªÀÌ¸¦ ¸ÔÀ»¼ö·Ï Àş¾îÁö´Â ³²ÀÚ','https://www.youtube.com/embed/Ba6QSTWqmbY','º¥ÀÚ¹Î ¹öÆ°ÀÇ ºñ±ØÀûÀÎ »îÀ» ´ı´ıÇÏ°Ô Á¶¸íÇÏ´Â ¿µÈ­ º¥ÀÚ¹Î ¹öÆ°ÀÇ ½Ã°£Àº °Å²Ù·Î °£´ÙÀÔ´Ï´Ù.',null,null,null,'dreamteller@daum.net','MR011',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','792','MR792','80¼¼ ³ëÀÎÀ¸·Î ÅÂ¾î³ª Àş¾îÁö´Â ³²ÀÚ [°á¸»Æ÷ÇÔ]','https://www.youtube.com/embed/Ybuo7sQ1Z-w','"Á¦¸ñ : º¥ÀÚ¹Î ¹öÆ°ÀÇ ½Ã°£Àº °Å²Ù·Î °£´Ù
-(2008³â ÀÛÇ°)"',null,null,null,'ezip@daum.net','MR011',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','793','MR793','³²ÀÚµé¸¸ÀÇ ±¸Áú±¸ÁúÇÑ Ã¹»ç¶û ÆÇÅ¸Áö: ³ÊÀÇ °áÈ¥½Ä ¸®ºä - ¶óÀÌ³Ê','https://www.youtube.com/embed/sUZTAxfBJdA','"ÇÇ ²ú´Â Ã»Ãá, ¹Úº¸¿µ°ú ±è¿µ±¤ÀÌ ´Ù½Ã ¸¸³­ ÀÛÇ°.
-¿À·£¸¸¿¡ µîÀåÇÑ ¸á·Î, ·Î¸Ç½º ¿µÈ­. ³ÊÀÇ °áÈ¥½Ä ¸®ºäÀÔ´Ï´Ù.
-°¡½¿ ¾ÆÇÁ°í ¾Æ·ÃÇÑ Ã¹»ç¶ûÀÇ Ãß¾ï. ±×¸®°í ¿¬¾Ö¿Í ÀÌº°, °áÈ¥.
-±× ¸ğµç ÀÌ¾ß±â¸¦ ´ã¾ÒÁö¸¸ ÀüºÎ ¾îµğ¼±°¡ º» °Í °°Àº Àå¸éµé?
-Å¬¸®¼Î·Î ¹ü¹÷ÇÑ ¾Æ½¬¿î ÀÛÇ°.
-³ÊÀÇ °áÈ¥½Ä ¸®ºäÀÔ´Ï´Ù.
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','790','MR790','ë‚˜ì´ë¨¹ì„ìˆ˜ë¡ ìê¾¸ ëª¸ì´ ì Šì–´ì§€ëŠ” ë‚¨ìì˜ ì¸ìƒ','https://www.youtube.com/embed/fr7CHx68TVw','#ì˜í™”ì†Œê°œ #ì˜í™”ë¦¬ë·° #ì²­ë‚¨ë™ ë²¤ìë¯¼ ë²„íŠ¼ì˜ ì‹œê°„ì€ ê±°ê¾¸ë¡œ ê°„ë‹¤ (2008) 1918ë…„ ì œ1ì°¨ ì„¸ê³„ ëŒ€ì „ ë§ ë‰´ì˜¬ë¦¬ì–¸ì¦ˆ. 80ì„¸ì˜ ì™¸ëª¨ë¥¼ ê°€ì§„ ì‚¬ë‚´ ì•„ì´ê°€ íƒœì–´ë‚œë‹¤. ê·¸ì˜ ì´ë¦„ì€ ë²¤ìë¯¼ ë²„íŠ¼. ë¶€ëª¨ì—ê²Œ ë²„ë ¤ì ¸ ì–‘ë¡œì›ì—ì„œ ë…¸ì¸ë“¤ê³¼ í•¨ê»˜ ì§€ë‚´ë˜ ê·¸ëŠ” ì‹œê°„ì´ ì§€ë‚ ìˆ˜ë¡ ì Šì–´ì§„ë‹¤ëŠ” ê²ƒì„ ì•Œê²Œ ëœë‹¤. 12ì‚´ì´ ë˜ì–´ 60ëŒ€ì˜ ì™¸ëª¨ë¥¼ ê°€ì§€ê²Œ ëœ ê·¸ëŠ” ì–´ëŠ ë‚  6ì‚´ ì†Œë…€ ë°ì´ì§€ë¥¼ ë§Œë‚œ í›„ ê·¸ë…€ì˜ í‘¸ë¥¸ ëˆˆë™ìë¥¼ ìŠì§€ ëª»í•˜ê²Œ ëœë‹¤. ì²­ë…„ì´ ë˜ì–´ ì„¸ìƒìœ¼ë¡œ ë‚˜ê°„ ë²¤ìë¯¼ì€ ìˆ™ë…€ê°€ ëœ ë°ì´ì§€ì™€ ë§Œë‚˜ ë§Œë‚¨ê³¼ í—¤ì–´ì§ì„ ë°˜ë³µí•˜ë‹¤ ë¹„ë¡œì†Œ ë‘˜ì€ ì‚¬ë‘ì— ë¹ ì§€ê²Œ ëœë‹¤. í•˜ì§€ë§Œ ë²¤ìë¯¼ì€ ë‚ ë§ˆë‹¤ ì Šì–´ì§€ê³  ë°ì´ì§€ëŠ” ì ì  ëŠ™ì–´ê°€ëŠ”ë°â€¦',null,null,null,'whereiam@gmail.com','MR011',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','791','MR791','ë‚˜ì´ë¥¼ ë¨¹ì„ìˆ˜ë¡ ì Šì–´ì§€ëŠ” ë‚¨ì','https://www.youtube.com/embed/Ba6QSTWqmbY','ë²¤ìë¯¼ ë²„íŠ¼ì˜ ë¹„ê·¹ì ì¸ ì‚¶ì„ ë¤ë¤í•˜ê²Œ ì¡°ëª…í•˜ëŠ” ì˜í™” ë²¤ìë¯¼ ë²„íŠ¼ì˜ ì‹œê°„ì€ ê±°ê¾¸ë¡œ ê°„ë‹¤ì…ë‹ˆë‹¤.',null,null,null,'dreamteller@daum.net','MR011',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','792','MR792','80ì„¸ ë…¸ì¸ìœ¼ë¡œ íƒœì–´ë‚˜ ì Šì–´ì§€ëŠ” ë‚¨ì [ê²°ë§í¬í•¨]','https://www.youtube.com/embed/Ybuo7sQ1Z-w','"ì œëª© : ë²¤ìë¯¼ ë²„íŠ¼ì˜ ì‹œê°„ì€ ê±°ê¾¸ë¡œ ê°„ë‹¤
+(2008ë…„ ì‘í’ˆ)"',null,null,null,'ezip@daum.net','MR011',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','793','MR793','ë‚¨ìë“¤ë§Œì˜ êµ¬ì§ˆêµ¬ì§ˆí•œ ì²«ì‚¬ë‘ íŒíƒ€ì§€: ë„ˆì˜ ê²°í˜¼ì‹ ë¦¬ë·° - ë¼ì´ë„ˆ','https://www.youtube.com/embed/sUZTAxfBJdA','"í”¼ ë“ëŠ” ì²­ì¶˜, ë°•ë³´ì˜ê³¼ ê¹€ì˜ê´‘ì´ ë‹¤ì‹œ ë§Œë‚œ ì‘í’ˆ.
+ì˜¤ëœë§Œì— ë“±ì¥í•œ ë©œë¡œ, ë¡œë§¨ìŠ¤ ì˜í™”. ë„ˆì˜ ê²°í˜¼ì‹ ë¦¬ë·°ì…ë‹ˆë‹¤.
+ê°€ìŠ´ ì•„í”„ê³  ì•„ë ¨í•œ ì²«ì‚¬ë‘ì˜ ì¶”ì–µ. ê·¸ë¦¬ê³  ì—°ì• ì™€ ì´ë³„, ê²°í˜¼.
+ê·¸ ëª¨ë“  ì´ì•¼ê¸°ë¥¼ ë‹´ì•˜ì§€ë§Œ ì „ë¶€ ì–´ë””ì„ ê°€ ë³¸ ê²ƒ ê°™ì€ ì¥ë©´ë“¤?
+í´ë¦¬ì…°ë¡œ ë²”ë²…í•œ ì•„ì‰¬ìš´ ì‘í’ˆ.
+ë„ˆì˜ ê²°í˜¼ì‹ ë¦¬ë·°ì…ë‹ˆë‹¤.
 "',null,null,null,'liner@hotmail.com','MR012',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','794','MR794','³²ÀÚ°¡ ºÁ¾ßÇÏ´Â ·Î¸Ç½º ¿µÈ­ : ³ÊÀÇ °áÈ¥½Ä ¸®ºä','https://www.youtube.com/embed/Nm4tRCmJrUc','"* º» ¿µ»óÀº ½ºÆ÷ÀÏ·¯°¡ ´Ù¼ö Æ÷ÇÔµÇ¾î ÀÖ½À´Ï´Ù *
-8¿ù 27ÀÏ, Á÷Á¢ µÎ ´«À¸·Î º¸°í ¿Â ¿µÈ­ÀÔ´Ï´Ù.
-ÇÑ±¹Çü ·Î¸Ç½º´Â ±× ¸í¸ÆÀ» ²ÙÁØÈ÷ À¯ÁöÇØ ¿À°í ÀÖ½À´Ï´Ù. ¿¹ÀüÀÇ °¨¼º¿¡¼­ ¹ş¾î³­Áö´Â ¿À·¡Áö¸¸, ±×·¡µµ »õ·Î¿î ¹æ½ÄÀ¸·Î ÀÌ¾îÁö°í ÀÖÁÒ. ÀÌ ¿µÈ­, ''³ÊÀÇ °áÈ¥½Ä''Àº ±×·±¸é¿¡¼­ Âü ÄªÂùÇÒ¸¸ÇÑ ¿µÈ­ÀÔ´Ï´Ù.
-»·ÇÏÁö¸¸ Áñ°Å¿î Àü°³, ¿Ïº®ÇÑ °³¿¬¼º°ú Ä³¸¯ÅÍÀÇ ¼³Á¤. ²Ù¹Ò¾ø´Â °á¸»°ú ¿Ö ±×·¸°Ô ÇßÀ»±î¿¡ ´ëÇÑ °ö¾ÃÀ½±îÁö ÀüÇÏ°í ÀÖ°Åµç¿ä.
-''°ÇÃàÇĞ°³·Ğ''À¸·Î ÇÑ´Ü°è ¹ßÀüÇß´ø ÇÑ±¹Çü ·Î¸Ç½º´Â, ÀÌ ¿µÈ­ ''³ÊÀÇ °áÈ¥½Ä''À¸·Î ¶Ç ÇÑ´Ü°è °è´ÜÀ» ¿Ã¶ú½À´Ï´Ù.
-º» ¿µ»ó¿¡´Â ¿µÈ­ÀÇ Ä¡¸íÀûÀÎ ½ºÆ÷ÀÏ·¯°¡ Æ÷ÇÔµÇ¾î ÀÖÀ¸´Ï, ¿µÈ­ °ü¶÷ Àü¿¡ º¸½Ã´Â °ÍÀ» ÁÖÀÇÇØÁÖ¼¼¿ä.
-¸®ºä¸¦ ÇÏ¸é¼­ ÁÖ¿ä Àå¸é¹× °á¸»À» »© ³õ¾ÒÀ¸´Ï ²À ¿µÈ­¸¦ ½ÃÃ»ÇØº¸½Ã±æ ¹Ù¶ø´Ï´Ù! - ''¹«ºñÄÚ¸àÆ®''´Â À¯Æ©ºê¿¡¸¸ ¾÷·Îµå µË´Ï´Ù.
-¿µÈ­Á¦¸ñ : ³ÊÀÇ °áÈ¥½Ä (2018)
-#³ÊÀÇ °áÈ¥½Ä #¹Úº¸¿µ #±è¿µ±¤
-#¿µÈ­ÃßÃµ #¿µÈ­¸®ºä #¿µÈ­ÈÄ±â #¿µÈ­À¯Æ©ºê
-#¿µÈ­¸ñ¼Ò¸® #ÀÚÃë¹æ³²ÀÚ #¿µÈ­¼Ò°³ #·Î¸Ç½º¿µÈ­ #½ÅÀÛ¿µÈ­ #½ÅÀÛ¸®ºä #»ç¶û¿µÈ­
-#ÇĞÃ¢½ÃÀı·Î¸Ç½º #¾Ö´ÏÄİ #¾ÆÀÌ¸®¹ö
-»ç¿ëµÈ BGM
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','794','MR794','ë‚¨ìê°€ ë´ì•¼í•˜ëŠ” ë¡œë§¨ìŠ¤ ì˜í™” : ë„ˆì˜ ê²°í˜¼ì‹ ë¦¬ë·°','https://www.youtube.com/embed/Nm4tRCmJrUc','"* ë³¸ ì˜ìƒì€ ìŠ¤í¬ì¼ëŸ¬ê°€ ë‹¤ìˆ˜ í¬í•¨ë˜ì–´ ìˆìŠµë‹ˆë‹¤ *
+8ì›” 27ì¼, ì§ì ‘ ë‘ ëˆˆìœ¼ë¡œ ë³´ê³  ì˜¨ ì˜í™”ì…ë‹ˆë‹¤.
+í•œêµ­í˜• ë¡œë§¨ìŠ¤ëŠ” ê·¸ ëª…ë§¥ì„ ê¾¸ì¤€íˆ ìœ ì§€í•´ ì˜¤ê³  ìˆìŠµë‹ˆë‹¤. ì˜ˆì „ì˜ ê°ì„±ì—ì„œ ë²—ì–´ë‚œì§€ëŠ” ì˜¤ë˜ì§€ë§Œ, ê·¸ë˜ë„ ìƒˆë¡œìš´ ë°©ì‹ìœ¼ë¡œ ì´ì–´ì§€ê³  ìˆì£ . ì´ ì˜í™”, ''ë„ˆì˜ ê²°í˜¼ì‹''ì€ ê·¸ëŸ°ë©´ì—ì„œ ì°¸ ì¹­ì°¬í• ë§Œí•œ ì˜í™”ì…ë‹ˆë‹¤.
+ë»”í•˜ì§€ë§Œ ì¦ê±°ìš´ ì „ê°œ, ì™„ë²½í•œ ê°œì—°ì„±ê³¼ ìºë¦­í„°ì˜ ì„¤ì •. ê¾¸ë°ˆì—†ëŠ” ê²°ë§ê³¼ ì™œ ê·¸ë ‡ê²Œ í–ˆì„ê¹Œì— ëŒ€í•œ ê³±ì”¹ìŒê¹Œì§€ ì „í•˜ê³  ìˆê±°ë“ ìš”.
+''ê±´ì¶•í•™ê°œë¡ ''ìœ¼ë¡œ í•œë‹¨ê³„ ë°œì „í–ˆë˜ í•œêµ­í˜• ë¡œë§¨ìŠ¤ëŠ”, ì´ ì˜í™” ''ë„ˆì˜ ê²°í˜¼ì‹''ìœ¼ë¡œ ë˜ í•œë‹¨ê³„ ê³„ë‹¨ì„ ì˜¬ëìŠµë‹ˆë‹¤.
+ë³¸ ì˜ìƒì—ëŠ” ì˜í™”ì˜ ì¹˜ëª…ì ì¸ ìŠ¤í¬ì¼ëŸ¬ê°€ í¬í•¨ë˜ì–´ ìˆìœ¼ë‹ˆ, ì˜í™” ê´€ëŒ ì „ì— ë³´ì‹œëŠ” ê²ƒì„ ì£¼ì˜í•´ì£¼ì„¸ìš”.
+ë¦¬ë·°ë¥¼ í•˜ë©´ì„œ ì£¼ìš” ì¥ë©´ë° ê²°ë§ì„ ë¹¼ ë†“ì•˜ìœ¼ë‹ˆ ê¼­ ì˜í™”ë¥¼ ì‹œì²­í•´ë³´ì‹œê¸¸ ë°”ëë‹ˆë‹¤! - ''ë¬´ë¹„ì½”ë©˜íŠ¸''ëŠ” ìœ íŠœë¸Œì—ë§Œ ì—…ë¡œë“œ ë©ë‹ˆë‹¤.
+ì˜í™”ì œëª© : ë„ˆì˜ ê²°í˜¼ì‹ (2018)
+#ë„ˆì˜ ê²°í˜¼ì‹ #ë°•ë³´ì˜ #ê¹€ì˜ê´‘
+#ì˜í™”ì¶”ì²œ #ì˜í™”ë¦¬ë·° #ì˜í™”í›„ê¸° #ì˜í™”ìœ íŠœë¸Œ
+#ì˜í™”ëª©ì†Œë¦¬ #ìì·¨ë°©ë‚¨ì #ì˜í™”ì†Œê°œ #ë¡œë§¨ìŠ¤ì˜í™” #ì‹ ì‘ì˜í™” #ì‹ ì‘ë¦¬ë·° #ì‚¬ë‘ì˜í™”
+#í•™ì°½ì‹œì ˆë¡œë§¨ìŠ¤ #ì• ë‹ˆì½œ #ì•„ì´ë¦¬ë²„
+ì‚¬ìš©ëœ BGM
 - A_Quiet_Thought
 - bensound-sadday
 Music by BENSOUND http://www.bensound.com/royalty-free-...
 Creative Commons ? Attribution 3.0 Unported? CC BY 3.0 http://creativecommons.org/licenses/b...
 Music promoted by Audio Library https://youtube.com/embed/HJdLhIvC3JI"',null,null,null,'aloneman@daum.net','MR012',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','795','MR795','³ÊÀÇ °áÈ¥½Ä °¡ÀÌµå ¸®ºä by ¹ß¾ø´Â»õ','https://www.youtube.com/embed/vUvc1xrO3Jg','"ÀüÇô ±â´ëÇÏÁö ¾Ê¾Ò´ø ³ÊÀÇ °áÈ¥½ÄÀÌ °¡²ûÀº ÀÌ·± ÇÑ±¹¿µÈ­µµ ÀÖ´Ù´Â »ç½ÇÀ» ÀÏ±ú¿öÁÖ³×¿ä. °úÀ×°ú ¾ïÁö·Î ºú´Â ½ÅÆÄ°¡ ¾ø¾îµµ ¾ó¸¶µçÁö °ü°´ÀÇ ¸¶À½À» ¿ï¸± ¼ö ÀÖ´Ù´Â °É º¸¿©ÁÖ´Â ¿µÈ­¿´½À´Ï´Ù.
-by ¹ß¾ø´Â»õ"',null,null,null,'nofootbird@gmail.com','MR012',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','796','MR796','»ı°¢º¸´Ù ±¦ÂúÀº ·Î¸Ç½º ¿µÈ­ [³ÊÀÇ °áÈ¥½Ä]','https://www.youtube.com/embed/9kl2U-Rqlcg','"#ÇÈ¼Ç¿ùµå #³ÊÀÇ °áÈ¥½Ä #¹Úº¸¿µ
-ÇÈ¼Ç¿ùµå, »ó»óÀÌ ÀÌ¾ß±â·Î ÆîÃÄÁö´Â ¼¼»ó
-´©±¸³ª °Ş¾úÀ» ¹ıÇÑ »·ÇÑ ÀÌ¾ß±â. ÀÌºÒÀ» °È¾îÂ÷°Ô ÇÏ´Â À¯Ä¡ÇÑ ½ÃÀı. ±× ¿ô±â°í ¿ï¸®´Â Ãß¾ïÀÇ ³¡¿¡¼­ ÀÎ»ı°ú »ç¶ûÀÇ ¼ºÀåÀ» º¸¿©ÁÖ´Â ¿µÈ­ [³ÊÀÇ °áÈ¥½Ä]"',null,null,null,'fictionworld24@hotmail.com','MR012',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','797','MR797','ÀÚ°í ÀÏ¾î³ª¸é ¾ó±¼ÀÌ ¹Ù²î´Â ³²ÀÚÄ£±¸','https://www.youtube.com/embed/zo7Ne3LY_3c','"#ºäÆ¼ ÀÎ »çÀÌµå #¿µÈ­ÃßÃµ
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','795','MR795','ë„ˆì˜ ê²°í˜¼ì‹ ê°€ì´ë“œ ë¦¬ë·° by ë°œì—†ëŠ”ìƒˆ','https://www.youtube.com/embed/vUvc1xrO3Jg','"ì „í˜€ ê¸°ëŒ€í•˜ì§€ ì•Šì•˜ë˜ ë„ˆì˜ ê²°í˜¼ì‹ì´ ê°€ë”ì€ ì´ëŸ° í•œêµ­ì˜í™”ë„ ìˆë‹¤ëŠ” ì‚¬ì‹¤ì„ ì¼ê¹¨ì›Œì£¼ë„¤ìš”. ê³¼ì‰ê³¼ ì–µì§€ë¡œ ë¹šëŠ” ì‹ íŒŒê°€ ì—†ì–´ë„ ì–¼ë§ˆë“ ì§€ ê´€ê°ì˜ ë§ˆìŒì„ ìš¸ë¦´ ìˆ˜ ìˆë‹¤ëŠ” ê±¸ ë³´ì—¬ì£¼ëŠ” ì˜í™”ì˜€ìŠµë‹ˆë‹¤.
+by ë°œì—†ëŠ”ìƒˆ"',null,null,null,'nofootbird@gmail.com','MR012',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','796','MR796','ìƒê°ë³´ë‹¤ ê´œì°®ì€ ë¡œë§¨ìŠ¤ ì˜í™” [ë„ˆì˜ ê²°í˜¼ì‹]','https://www.youtube.com/embed/9kl2U-Rqlcg','"#í”½ì…˜ì›”ë“œ #ë„ˆì˜ ê²°í˜¼ì‹ #ë°•ë³´ì˜
+í”½ì…˜ì›”ë“œ, ìƒìƒì´ ì´ì•¼ê¸°ë¡œ í¼ì³ì§€ëŠ” ì„¸ìƒ
+ëˆ„êµ¬ë‚˜ ê²ªì—ˆì„ ë²•í•œ ë»”í•œ ì´ì•¼ê¸°. ì´ë¶ˆì„ ê±·ì–´ì°¨ê²Œ í•˜ëŠ” ìœ ì¹˜í•œ ì‹œì ˆ. ê·¸ ì›ƒê¸°ê³  ìš¸ë¦¬ëŠ” ì¶”ì–µì˜ ëì—ì„œ ì¸ìƒê³¼ ì‚¬ë‘ì˜ ì„±ì¥ì„ ë³´ì—¬ì£¼ëŠ” ì˜í™” [ë„ˆì˜ ê²°í˜¼ì‹]"',null,null,null,'fictionworld24@hotmail.com','MR012',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','797','MR797','ìê³  ì¼ì–´ë‚˜ë©´ ì–¼êµ´ì´ ë°”ë€ŒëŠ” ë‚¨ìì¹œêµ¬','https://www.youtube.com/embed/zo7Ne3LY_3c','"#ë·°í‹° ì¸ ì‚¬ì´ë“œ #ì˜í™”ì¶”ì²œ
 "',null,null,null,'dreamteller@daum.net','MR013',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','798','MR798','[ºäÆ¼ ÀÎ»çÀÌµå] ''ºäÆ¼ ÀÎ»çÀÌµå''°¡ ´øÁö´Â ¼¼ °¡Áö Áú¹®','https://www.youtube.com/embed/b097S7TFEWM','"µå¶ó¸¶ ''ºäÆ¼ ÀÎ»çÀÌµå''°¡ ¹æ¿µÀ» ½ÃÀÛÇß½À´Ï´Ù.
-µå¶ó¸¶ ÀÌÀü¿¡ ¿µÈ­°¡ ÀÖ¾ú´Âµ¥¿ä.
-½Ã³×¸¶ÇÇ¾Æ¿¡¼­´Â °¡À»°ú µå¶ó¸¶ÀÇ ¹æ¿µÀ» ¸Â¾Æ
-ÀÌÀü¿¡ ´Ù·ğ´ø ¿µ»óÀ» ÀçÆíÁıÇØºÃ½À´Ï´Ù.
-¿¬¾ÖÇÏ°í ½ÍÀº °èÀı¿¡ º¸¸é ÁÁÀ»
-''ºäÆ¼ ÀÎ»çÀÌµå'' Áö±İ ½ÃÀÛÇÕ´Ï´Ù!"',null,null,null,'senimapia@gmail.com','MR013',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','799','MR799','[ºäÆ¼ ÀÎ»çÀÌµå] ´ç½ÅÀÌ ¸ğ¸£´Â ¼û°ÜÁø ºñ¹Ğ','https://www.youtube.com/embed/E_h27X4dvGE','"¡Ø °á¸»À» Æ÷ÇÔÇÑ ½ºÆ÷°¡ ÀÖÀ½À» ¾Ë·Áµå¸³´Ï´Ù.
-¿µ¹Î ÀÎ½ºÅ¸±×·¥: https://www.instagram.com/cine.youngmin
-°¨±â¿¡ °É·Á ºñÀ½ÀÌ ¼¯¿©ÀÖ½À´Ï´Ù....
-ºäÆ¼ ÀÎ»çÀÌµå (The Beauty Inside, 2015)
-°¨µ¶: ¹éÁ¾¿­
-Ãâ¿¬: ÇÑÈ¿ÁÖ, ÀÌµ¿ÈÖ, ¹Ú½ÅÇı, ¼­°­ÁØ, ÀÌÁø¿í, ±èÁÖÇõ µî
-¢Ü À½¾Ç
-1. Kevin Macleod - In your arms 2. ½´º£¸£Æ® - ¾Æº£ ¸¶¸®¾Æ
-¡Ş Reference
-DVD ÄÚ¸àÅÍ¸®, ÀÎÅÍºä, ±â»ç
-#ºäÆ¼ ÀÎ »çÀÌµå #ÇÑÈ¿ÁÖ #¿µ¹ÎÇÏ´Ù"',null,null,null,'youngmin@daum.net','MR013',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','800','MR800','ÃÖ°íÀÇ ¿©¹è¿ì¿Í ºñ¹Ğ¿¬¾Ö¸¦ ÇÑ´Ù¸é?','https://www.youtube.com/embed/HO7doRR8NQA','"* º» ¿µ»óÀº ½ºÆ÷ÀÏ·¯°¡ ´Ù¼ö Æ÷ÇÔµÇ¾î ÀÖ½À´Ï´Ù *
-¿øÀÛ¿µÈ­ ±¸¸Å ¹× ´ë¿© : #1 : http://nstore.naver.com/tvstore/detai...
-¸íÀÛ ÁßÀÇ ¸íÀÛ.
-¿Ö ÀÌÁ¦¼­¾ß º» °ÍÀÏ±î ÈÄÈ¸µÇ´Â ¿µÈ­, ³ëÆÃÈúÀÔ´Ï´Ù.
-1999³âÀÛÀÌ¶ó´Â °ÍÀÌ ¹Ï±âÁö ¾ÊÀ» ¸¸Å­ÀÇ Àç¹Ì°¡ µé¾îÀÖ½À´Ï´Ù.
-»ç¶ûÀ» À§ÇØ¼­ ¿Ö ¿ë±â¸¦ ³»¾ß ÇÏ´Â°¡? ¶ó´Â Áú¹®¿¡ ´äÀ» ÁÖ´Â ¿µÈ­ÀÔ´Ï´Ù.
-²À! º¸½Ã±æ ¹Ù·¡¿ä!
-¸®ºä¸¦ ÇÏ¸é¼­ ÁÖ¿ä Àå¸é¹× °á¸»À» »© ³õ¾ÒÀ¸´Ï ²À ¿µÈ­¸¦ ½ÃÃ»ÇØº¸½Ã±æ ¹Ù¶ø´Ï´Ù! - ''¹«ºñÄÚ¸àÆ®''´Â À¯Æ©ºê¿¡¸¸ ¾÷·Îµå µË´Ï´Ù.
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','798','MR798','[ë·°í‹° ì¸ì‚¬ì´ë“œ] ''ë·°í‹° ì¸ì‚¬ì´ë“œ''ê°€ ë˜ì§€ëŠ” ì„¸ ê°€ì§€ ì§ˆë¬¸','https://www.youtube.com/embed/b097S7TFEWM','"ë“œë¼ë§ˆ ''ë·°í‹° ì¸ì‚¬ì´ë“œ''ê°€ ë°©ì˜ì„ ì‹œì‘í–ˆìŠµë‹ˆë‹¤.
+ë“œë¼ë§ˆ ì´ì „ì— ì˜í™”ê°€ ìˆì—ˆëŠ”ë°ìš”.
+ì‹œë„¤ë§ˆí”¼ì•„ì—ì„œëŠ” ê°€ì„ê³¼ ë“œë¼ë§ˆì˜ ë°©ì˜ì„ ë§ì•„
+ì´ì „ì— ë‹¤ë¤˜ë˜ ì˜ìƒì„ ì¬í¸ì§‘í•´ë´¤ìŠµë‹ˆë‹¤.
+ì—°ì• í•˜ê³  ì‹¶ì€ ê³„ì ˆì— ë³´ë©´ ì¢‹ì„
+''ë·°í‹° ì¸ì‚¬ì´ë“œ'' ì§€ê¸ˆ ì‹œì‘í•©ë‹ˆë‹¤!"',null,null,null,'senimapia@gmail.com','MR013',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','799','MR799','[ë·°í‹° ì¸ì‚¬ì´ë“œ] ë‹¹ì‹ ì´ ëª¨ë¥´ëŠ” ìˆ¨ê²¨ì§„ ë¹„ë°€','https://www.youtube.com/embed/E_h27X4dvGE','"â€» ê²°ë§ì„ í¬í•¨í•œ ìŠ¤í¬ê°€ ìˆìŒì„ ì•Œë ¤ë“œë¦½ë‹ˆë‹¤.
+ì˜ë¯¼ ì¸ìŠ¤íƒ€ê·¸ë¨: https://www.instagram.com/cine.youngmin
+ê°ê¸°ì— ê±¸ë ¤ ë¹„ìŒì´ ì„ì—¬ìˆìŠµë‹ˆë‹¤....
+ë·°í‹° ì¸ì‚¬ì´ë“œ (The Beauty Inside, 2015)
+ê°ë…: ë°±ì¢…ì—´
+ì¶œì—°: í•œíš¨ì£¼, ì´ë™íœ˜, ë°•ì‹ í˜œ, ì„œê°•ì¤€, ì´ì§„ìš±, ê¹€ì£¼í˜ ë“±
+â™ª ìŒì•…
+1. Kevin Macleod - In your arms 2. ìŠˆë² ë¥´íŠ¸ - ì•„ë²  ë§ˆë¦¬ì•„
+â—‡ Reference
+DVD ì½”ë©˜í„°ë¦¬, ì¸í„°ë·°, ê¸°ì‚¬
+#ë·°í‹° ì¸ ì‚¬ì´ë“œ #í•œíš¨ì£¼ #ì˜ë¯¼í•˜ë‹¤"',null,null,null,'youngmin@daum.net','MR013',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','800','MR800','ìµœê³ ì˜ ì—¬ë°°ìš°ì™€ ë¹„ë°€ì—°ì• ë¥¼ í•œë‹¤ë©´?','https://www.youtube.com/embed/HO7doRR8NQA','"* ë³¸ ì˜ìƒì€ ìŠ¤í¬ì¼ëŸ¬ê°€ ë‹¤ìˆ˜ í¬í•¨ë˜ì–´ ìˆìŠµë‹ˆë‹¤ *
+ì›ì‘ì˜í™” êµ¬ë§¤ ë° ëŒ€ì—¬ : #1 : http://nstore.naver.com/tvstore/detai...
+ëª…ì‘ ì¤‘ì˜ ëª…ì‘.
+ì™œ ì´ì œì„œì•¼ ë³¸ ê²ƒì¼ê¹Œ í›„íšŒë˜ëŠ” ì˜í™”, ë…¸íŒ…íì…ë‹ˆë‹¤.
+1999ë…„ì‘ì´ë¼ëŠ” ê²ƒì´ ë¯¿ê¸°ì§€ ì•Šì„ ë§Œí¼ì˜ ì¬ë¯¸ê°€ ë“¤ì–´ìˆìŠµë‹ˆë‹¤.
+ì‚¬ë‘ì„ ìœ„í•´ì„œ ì™œ ìš©ê¸°ë¥¼ ë‚´ì•¼ í•˜ëŠ”ê°€? ë¼ëŠ” ì§ˆë¬¸ì— ë‹µì„ ì£¼ëŠ” ì˜í™”ì…ë‹ˆë‹¤.
+ê¼­! ë³´ì‹œê¸¸ ë°”ë˜ìš”!
+ë¦¬ë·°ë¥¼ í•˜ë©´ì„œ ì£¼ìš” ì¥ë©´ë° ê²°ë§ì„ ë¹¼ ë†“ì•˜ìœ¼ë‹ˆ ê¼­ ì˜í™”ë¥¼ ì‹œì²­í•´ë³´ì‹œê¸¸ ë°”ëë‹ˆë‹¤! - ''ë¬´ë¹„ì½”ë©˜íŠ¸''ëŠ” ìœ íŠœë¸Œì—ë§Œ ì—…ë¡œë“œ ë©ë‹ˆë‹¤.
 "',null,null,null,'aloneman@daum.net','MR014',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','801','MR801','»ç¶ûÀÌ ¹«¼­¿î ´ç½Å¿¡°Ô...','https://www.youtube.com/embed/XCawEZ4_DwU','"#Á¶´øÇÇÅÍ½¼ #À¯ÀĞ³² #À¯Æ©ºêÀĞ¾îÁÖ´Â³²ÀÚ #JordanPeterson #³ëÆÃÈú #ÁÙ¸®¾Æ·Î¹öÃ÷ #ÈŞ±×·£Æ®
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','801','MR801','ì‚¬ë‘ì´ ë¬´ì„œìš´ ë‹¹ì‹ ì—ê²Œ...','https://www.youtube.com/embed/XCawEZ4_DwU','"#ì¡°ë˜í”¼í„°ìŠ¨ #ìœ ì½ë‚¨ #ìœ íŠœë¸Œì½ì–´ì£¼ëŠ”ë‚¨ì #JordanPeterson #ë…¸íŒ…í #ì¤„ë¦¬ì•„ë¡œë²„ì¸  #íœ´ê·¸ëœíŠ¸
 references
 Notting Hill (1999, British)
 2017 Maps of Meaning 09 Patterns of Symbolic Representation
 Julia Roberts & Dermot Mulroney Answer the Web''s Most Searched Questions WIRED
 Hugh Grant Breaks Down His Most Iconic Characters GQ
-[*ÃâÃ³ - »ó¾î¿Àºê¹ÂÁ÷ Sangeo Of Music]
-³ëÆÃÈú Notting Hill OST She Piano cover ÇÇ¾Æ³ë Ä¿¹ö
+[*ì¶œì²˜ - ìƒì–´ì˜¤ë¸Œë®¤ì§ Sangeo Of Music]
+ë…¸íŒ…í Notting Hill OST She Piano cover í”¼ì•„ë…¸ ì»¤ë²„
 (https://www.youtube.com/watch?v=evyLK...)
-River Flows in You - ÀÌ·ç¸¶ Yiruma Piano cover ÇÇ¾Æ³ë Ä¿¹ö
+River Flows in You - ì´ë£¨ë§ˆ Yiruma Piano cover í”¼ì•„ë…¸ ì»¤ë²„
 (https://www.youtube.com/watch?v=zVu51...)
-ÄÚÄÚ COCO OST : Remember Me | Piano cover ÇÇ¾Æ³ë Ä¿¹ö
+ì½”ì½” COCO OST : Remember Me | Piano cover í”¼ì•„ë…¸ ì»¤ë²„
 (https://www.youtube.com/watch?v=fUYbu...)
-½Ã°£À» ³Ñ¾î¼­? - Áö±İ ¸¸³ª·¯ °©´Ï´Ù OST ÇÇ¾Æ³ë Ver"',null,null,null,'youtuberead@daum.net','MR014',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','802','MR802','ÇÑÆí¿¡ 170¾ï ¹ö´Â ¿©¹è¿ì°¡ ¸ğµç °ÍÀ» Æ÷±âÇÏ¸ç ÅÃÇÑ ³²ÀÚ(°á¸»Æ÷ÇÔ)','https://www.youtube.com/embed/qK-61CZXM1Y','"1999³â ÀÛ ³ëÆÃÈú ÀÔ´Ï´Ù.
-·Î¸Ç½º ¿µÈ­¸¦ »ç¶ûÇÏ´Â ºĞÀÌ¶ó¸é ¸ğ¸£´Â ºĞÀÌ ¾øÀ» ¸íÀÛÀÔ´Ï´Ù.
-¾Õ¼­ ¸®ºäÇÑ ''´ç½ÅÀÌ Àáµç »çÀÌ¿¡'' ¸¸Å­ÀÌ³ª µûµíÇÏ¸ç, ´ŞÄŞÇÑ ¿µÈ­ÀÔ´Ï´Ù.
-Áö±İ¿¡ ¿Í¼­¾ß ÀÎ¹°¿¡ ´ëÇÑ ÆòÀÌ °¥¸®Áö¸¸,
-´ç½Ã ''±Í¿©¿î ¿©ÀÎ''ºÎÅÍ ½ÃÀÛÇÑ Áì¸®¾Æ ·Î¹öÃ÷ÀÇ ·Î¸Ç½º¿µÈ­´Â
-Áö±İº¸¾Æµµ °áÄÚ ºÎÁ·ÇÏÁö ¾Ê´Â ¿µÈ­µéÀÔ´Ï´Ù.
-ÈŞ ±×·£Æ® ¶ÇÇÑ Áö±İ±îÁöµµ ¸¹ÀÌ »ç¶û¹Ş´Â ¹è¿ìÀÔ´Ï´Ù.
-±ä ¼³¸íÀÌ ÇÊ¿ä¾ø´Â, ÃÖ°íÀÇ ·Î¸Ç½º ¿µÈ­,
-''³ëÆÃÈú''
-¹«ºñµµÄ¡°¡ °­·ÂÈ÷ ÃßÃµÇÕ´Ï´Ù"',null,null,null,'moviedochi@yahoo.com','MR014',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','803','MR803','´« ¾Õ¿¡¼­ Á×Àº ±×³à°¡ µ¹¾Æ¿Â ´Ü ÇÏ·ç - ¿µÈ­ [ÀÌÇÁ ¿Â¸®] (if only, 2004)','https://www.youtube.com/embed/2o8wiphuQNc','"*ÀÌ ¿µ»óÀº ½ºÆ÷ÀÏ·¯¸¦ Æ÷ÇÔÇÏ°í ÀÖ½À´Ï´Ù!
-°¨µ¶ - ±æ Á¤°Å ÁÖ¿¬ - Á¦´ÏÆÛ ·¯ºêÈŞÀÕ, Æú ´ÏÄİ½º
-ÈÄÈ¸·Î °¡µæÂù ÇÏ·ç°¡ µ¹¾Æ¿Â´Ù¸é?
-¸¹Àº ºĞµéÀÌ ÀÎ»ı¿µÈ­·Î ¼Õ ²Å´Â ¸á·Î¿µÈ­ ÀÌÇÁ ¿Â¸® ¸®ºäÀÔ´Ï´Ù.
-Ã³À½ Á¦ÀÛÇÑ ¿µ»óÀÌ¶ó ºÎÁ·ÇÑ Á¡ÀÌ ¸¹´õ¶óµµ Áñ°Ì°Ô ºÁÁÖ¼¼¿ä~!
+ì‹œê°„ì„ ë„˜ì–´ì„œ? - ì§€ê¸ˆ ë§Œë‚˜ëŸ¬ ê°‘ë‹ˆë‹¤ OST í”¼ì•„ë…¸ Ver"',null,null,null,'youtuberead@daum.net','MR014',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','802','MR802','í•œí¸ì— 170ì–µ ë²„ëŠ” ì—¬ë°°ìš°ê°€ ëª¨ë“  ê²ƒì„ í¬ê¸°í•˜ë©° íƒí•œ ë‚¨ì(ê²°ë§í¬í•¨)','https://www.youtube.com/embed/qK-61CZXM1Y','"1999ë…„ ì‘ ë…¸íŒ…í ì…ë‹ˆë‹¤.
+ë¡œë§¨ìŠ¤ ì˜í™”ë¥¼ ì‚¬ë‘í•˜ëŠ” ë¶„ì´ë¼ë©´ ëª¨ë¥´ëŠ” ë¶„ì´ ì—†ì„ ëª…ì‘ì…ë‹ˆë‹¤.
+ì•ì„œ ë¦¬ë·°í•œ ''ë‹¹ì‹ ì´ ì ë“  ì‚¬ì´ì—'' ë§Œí¼ì´ë‚˜ ë”°ë“¯í•˜ë©°, ë‹¬ì½¤í•œ ì˜í™”ì…ë‹ˆë‹¤.
+ì§€ê¸ˆì— ì™€ì„œì•¼ ì¸ë¬¼ì— ëŒ€í•œ í‰ì´ ê°ˆë¦¬ì§€ë§Œ,
+ë‹¹ì‹œ ''ê·€ì—¬ìš´ ì—¬ì¸''ë¶€í„° ì‹œì‘í•œ ì¥´ë¦¬ì•„ ë¡œë²„ì¸ ì˜ ë¡œë§¨ìŠ¤ì˜í™”ëŠ”
+ì§€ê¸ˆë³´ì•„ë„ ê²°ì½” ë¶€ì¡±í•˜ì§€ ì•ŠëŠ” ì˜í™”ë“¤ì…ë‹ˆë‹¤.
+íœ´ ê·¸ëœíŠ¸ ë˜í•œ ì§€ê¸ˆê¹Œì§€ë„ ë§ì´ ì‚¬ë‘ë°›ëŠ” ë°°ìš°ì…ë‹ˆë‹¤.
+ê¸´ ì„¤ëª…ì´ í•„ìš”ì—†ëŠ”, ìµœê³ ì˜ ë¡œë§¨ìŠ¤ ì˜í™”,
+''ë…¸íŒ…í''
+ë¬´ë¹„ë„ì¹˜ê°€ ê°•ë ¥íˆ ì¶”ì²œí•©ë‹ˆë‹¤"',null,null,null,'moviedochi@yahoo.com','MR014',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','803','MR803','ëˆˆ ì•ì—ì„œ ì£½ì€ ê·¸ë…€ê°€ ëŒì•„ì˜¨ ë‹¨ í•˜ë£¨ - ì˜í™” [ì´í”„ ì˜¨ë¦¬] (if only, 2004)','https://www.youtube.com/embed/2o8wiphuQNc','"*ì´ ì˜ìƒì€ ìŠ¤í¬ì¼ëŸ¬ë¥¼ í¬í•¨í•˜ê³  ìˆìŠµë‹ˆë‹¤!
+ê°ë… - ê¸¸ ì •ê±° ì£¼ì—° - ì œë‹ˆí¼ ëŸ¬ë¸Œíœ´ì‡, í´ ë‹ˆì½œìŠ¤
+í›„íšŒë¡œ ê°€ë“ì°¬ í•˜ë£¨ê°€ ëŒì•„ì˜¨ë‹¤ë©´?
+ë§ì€ ë¶„ë“¤ì´ ì¸ìƒì˜í™”ë¡œ ì† ê¼½ëŠ” ë©œë¡œì˜í™” ì´í”„ ì˜¨ë¦¬ ë¦¬ë·°ì…ë‹ˆë‹¤.
+ì²˜ìŒ ì œì‘í•œ ì˜ìƒì´ë¼ ë¶€ì¡±í•œ ì ì´ ë§ë”ë¼ë„ ì¦ê²ê²Œ ë´ì£¼ì„¸ìš”~!
 "',null,null,null,'everyview@naver.com','MR015',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','804','MR804','»ì¾Æµ¹¾Æ¿Â ±×³à¸¦ º¼ ¼ö ÀÖ´Â ÇÏ·çÀÇ ½Ã°£ÀÌ ÁÖ¾îÁø´Ù¸é (°á¸»Æ÷ÇÔ)','https://www.youtube.com/embed/vRBcDFhcDrM','"ÀÌÇÁ ¿Â¸® (2004)
-À¯Æ©ºê¿µÈ­ : https://www.youtube.com/results?searc...
-±¸±Û¿µÈ­ : https://play.google.com/store/search?...
-³×ÀÌ¹ö¿µÈ­ : https://series.naver.com/search/searc...
-ÁÁÀº ¿µÈ­ ÀÚÁÖ ¿Ã¸±°Ô¿ä
-±¸µ¶°ú ÁÁ¾Æ¿ä ºÎÅ¹µå¸³´Ï´Ù^^ #¿µÈ­¸®ºä #ÀÌÇÁ ¿Â¸® #°á¸»Æ÷ÇÔ"',null,null,null,'noboty@gmail.com','MR015',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','805','MR805','»ç¶ûÇÏ´Â ¹æ¹ıÀ» ¾Ë·ÁÁØ ¿©ÀÚ...±×¸®°í ´Ü ÇÏ·çÀÇ ½Ã°£','https://www.youtube.com/embed/oxKI_qreyEo','"Á¦¸ñ: ÀÌÇÁ ¿Â¸®, 2004
-°¨µ¶: ±æ Á¤°Å
-Ãâ¿¬: Á¦´ÏÆÛ ·¯ºê ÈŞÀÕ(»ç¸¸´Ù), Æú ´ÏÄİ½º(ÀÌ¾È)...
-ÁÙ°Å¸®: »ç¶ûÇÏ´Â ¿¬ÀÎ¿¡ ´ëÇÏ¿© Ç¥Çö¿¡ ¼­Å÷ ÇÑ ³²ÀÚ°¡ »ç°í·Î ±×³à¸¦ ÀÒ°í ½½ÆÛÇÑ´Ù. ±×·±µ¥ ´ÙÀ½³¯ ¾ÆÄ§ ±×³à°¡ ¸ÖÂÄÈ÷ ¿·¿¡¼­ ÀÚ°í ÀÖ´Âµ¥...
-#¿µ·´ #¿µÈ­¸®ºä #¿µÈ­¼Ò°³ #¿µÈ­ÃßÃµ"',null,null,null,'younglove@daum.net','MR015',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','806','MR806','°©ÀÚ±â Àü½Å¸¶ºñ°¡ µÆÁö¸¸ Àå³­À» ¸ØÃßÁö ¾Ê´Â ³²ÀÚ','https://www.youtube.com/embed/PLc_WOI7ElE','"* º» ¿µ»óÀº ½ºÆ÷ÀÏ·¯°¡ ´Ù¼ö Æ÷ÇÔµÇ¾î ÀÖ½À´Ï´Ù *
-ÃßÃµÀ» ÅëÇØ Á¢ÇÏ°Ô µÈ ¿µÈ­, ¹Ì ºñÆ÷ À¯ ÀÔ´Ï´Ù.
-2016³âÀÛÀ¸·Î Á¦°¡ ´Ù·é ¿µÈ­Áß¿¡ ºñ±³Àû ½ÅÀÛÀÌ³×¿ä!
-Á×À½À» Á¤ÇØµĞ´Ù´Â ¹«°Å¿î ÁÖÁ¦¸¦
-·Î¸Ç½º¶ó´Â ¾Æ¸§´Ù¿î ÀÌ¾ß±â·Î Ç®¾î³½ ¿µÈ­ÀÔ´Ï´Ù.
-¿ë¾î¸Ó´Ï´Â ¾î´À ¿µÈ­¿¡¼­³ª ¹Ï°í º¼ ¼ö ÀÖ³×¿ä.
-°¨»çÇÕ´Ï´Ù!! ¿øÀÛ¿µÈ­¸¦ ²À! ½ÃÃ»ÇÏ½Ã±æ ¹Ù¶ø´Ï´Ù.
-- ''¹«ºñÄÚ¸àÆ®''´Â À¯Æ©ºê¿¡¸¸ ¾÷·Îµå µË´Ï´Ù.
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','804','MR804','ì‚´ì•„ëŒì•„ì˜¨ ê·¸ë…€ë¥¼ ë³¼ ìˆ˜ ìˆëŠ” í•˜ë£¨ì˜ ì‹œê°„ì´ ì£¼ì–´ì§„ë‹¤ë©´ (ê²°ë§í¬í•¨)','https://www.youtube.com/embed/vRBcDFhcDrM','"ì´í”„ ì˜¨ë¦¬ (2004)
+ìœ íŠœë¸Œì˜í™” : https://www.youtube.com/results?searc...
+êµ¬ê¸€ì˜í™” : https://play.google.com/store/search?...
+ë„¤ì´ë²„ì˜í™” : https://series.naver.com/search/searc...
+ì¢‹ì€ ì˜í™” ìì£¼ ì˜¬ë¦´ê²Œìš”
+êµ¬ë…ê³¼ ì¢‹ì•„ìš” ë¶€íƒë“œë¦½ë‹ˆë‹¤^^ #ì˜í™”ë¦¬ë·° #ì´í”„ ì˜¨ë¦¬ #ê²°ë§í¬í•¨"',null,null,null,'noboty@gmail.com','MR015',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','805','MR805','ì‚¬ë‘í•˜ëŠ” ë°©ë²•ì„ ì•Œë ¤ì¤€ ì—¬ì...ê·¸ë¦¬ê³  ë‹¨ í•˜ë£¨ì˜ ì‹œê°„','https://www.youtube.com/embed/oxKI_qreyEo','"ì œëª©: ì´í”„ ì˜¨ë¦¬, 2004
+ê°ë…: ê¸¸ ì •ê±°
+ì¶œì—°: ì œë‹ˆí¼ ëŸ¬ë¸Œ íœ´ì‡(ì‚¬ë§Œë‹¤), í´ ë‹ˆì½œìŠ¤(ì´ì•ˆ)...
+ì¤„ê±°ë¦¬: ì‚¬ë‘í•˜ëŠ” ì—°ì¸ì— ëŒ€í•˜ì—¬ í‘œí˜„ì— ì„œíˆ° í•œ ë‚¨ìê°€ ì‚¬ê³ ë¡œ ê·¸ë…€ë¥¼ ìƒê³  ìŠ¬í¼í•œë‹¤. ê·¸ëŸ°ë° ë‹¤ìŒë‚  ì•„ì¹¨ ê·¸ë…€ê°€ ë©€ì©¡íˆ ì˜†ì—ì„œ ìê³  ìˆëŠ”ë°...
+#ì˜ëŸ½ #ì˜í™”ë¦¬ë·° #ì˜í™”ì†Œê°œ #ì˜í™”ì¶”ì²œ"',null,null,null,'younglove@daum.net','MR015',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','806','MR806','ê°‘ìê¸° ì „ì‹ ë§ˆë¹„ê°€ ëì§€ë§Œ ì¥ë‚œì„ ë©ˆì¶”ì§€ ì•ŠëŠ” ë‚¨ì','https://www.youtube.com/embed/PLc_WOI7ElE','"* ë³¸ ì˜ìƒì€ ìŠ¤í¬ì¼ëŸ¬ê°€ ë‹¤ìˆ˜ í¬í•¨ë˜ì–´ ìˆìŠµë‹ˆë‹¤ *
+ì¶”ì²œì„ í†µí•´ ì ‘í•˜ê²Œ ëœ ì˜í™”, ë¯¸ ë¹„í¬ ìœ  ì…ë‹ˆë‹¤.
+2016ë…„ì‘ìœ¼ë¡œ ì œê°€ ë‹¤ë£¬ ì˜í™”ì¤‘ì— ë¹„êµì  ì‹ ì‘ì´ë„¤ìš”!
+ì£½ìŒì„ ì •í•´ë‘”ë‹¤ëŠ” ë¬´ê±°ìš´ ì£¼ì œë¥¼
+ë¡œë§¨ìŠ¤ë¼ëŠ” ì•„ë¦„ë‹¤ìš´ ì´ì•¼ê¸°ë¡œ í’€ì–´ë‚¸ ì˜í™”ì…ë‹ˆë‹¤.
+ìš©ì–´ë¨¸ë‹ˆëŠ” ì–´ëŠ ì˜í™”ì—ì„œë‚˜ ë¯¿ê³  ë³¼ ìˆ˜ ìˆë„¤ìš”.
+ê°ì‚¬í•©ë‹ˆë‹¤!! ì›ì‘ì˜í™”ë¥¼ ê¼­! ì‹œì²­í•˜ì‹œê¸¸ ë°”ëë‹ˆë‹¤.
+- ''ë¬´ë¹„ì½”ë©˜íŠ¸''ëŠ” ìœ íŠœë¸Œì—ë§Œ ì—…ë¡œë“œ ë©ë‹ˆë‹¤.
 "',null,null,null,'aloneman@daum.net','MR016',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','807','MR807','¹Ì ºñÆ÷ À¯ - »·ÇÑ ¿µÈ­¿¡ ´ã±ä µÎ °¡Áö by ¹ß¾ø´Â»õ','https://www.youtube.com/embed/VYX15u7gkpc','"¿¡¹Ğ¸®¾Æ Å¬¶óÅ©¿Í »ù Å¬¶óÇÃ¸°ÀÌ ÁÖ¿¬ÇÑ ¹Ì ºñÆ÷ À¯´Â Á¶Á¶ ¸ğ¿¹½ºÀÇ ¼Ò¼³ÀÌ ¿øÀÛÀÔ´Ï´Ù. º¸±â ÀüÀº ¹°·ĞÀÌ°í º¸´ø Áß¿¡µµ »·ÇÏ´Ù°í ¿©°å´ø ÀÌ ¿µÈ­°¡ Á¦°Ô µÎ °¡Áö¸¦ ÀüÇß½À´Ï´Ù.
-by ¹ß¾ø´Â»õ"',null,null,null,'nofootbird@gmail.com','MR016',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','808','MR808','¿¹»Û ¿©ÀÚÄ£±¸¸¦ µÎ°í ³²ÀÚ°¡ ¾È¶ô»ç¸¦ ¼±ÅÃÇÑ ÀÌÀ¯ [¹ÌºñÆ÷À¯]','https://www.youtube.com/embed/q_HfSiOSDDQ','"#¹ÌºñÆ÷À¯ #·Î¸ÇÆ½¿µÈ­ #¿øÀÛ¼Ò¼³
-¿ô´Ù°¡ ¿ï´Ù°¡"',null,null,null,'byebye@gmail.com','MR016',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','809','MR809','Æò»ı ´Ü ÇÑ ¿©ÀÚ¸¸ »ç¶ûÇÑ ³²ÀÚ (¿µÈ­ ³ëÆ®ºÏ)','https://www.youtube.com/embed/KvEDW7Dre4k','"* º» ¿µ»óÀº ½ºÆ÷ÀÏ·¯°¡ ´Ù¼ö Æ÷ÇÔµÇ¾î ÀÖ½À´Ï´Ù *
-¹Ì·ÃÇßÁö¸¸ ¼ø¼öÇß°í
-¾î¶»°Ôº¸¸é ¾ÈÅ¸±î¿ü´ø ¿­ÀÏ°öÀÇ »ç¶û
-±×·¸°Ô ÇÑ Æò»ıÀ» ÇÑ »ç¶÷¸¸À» ¹Ù¶óº¸´Â ÀÏ.
-°¡´ÉÇÒ±î¿ä?
-ºÎ·´±â±îÁö ÇÑ ¿Ïº®ÇÑ »ç¶ûÀÌ¾ß±â
-¿µÈ­ ³ëÆ®ºÏ(2004)¿¡ ´ëÇÑ ¸®ºäÀÔ´Ï´Ù.
-¿øÀÛ ¿µÈ­¸¦ º¸½Ã´Â °ÍÀ» °­·ÂÈ÷ ÃßÃµµå¸³´Ï´Ù.
-ÈŞÁö ÁØºñÇÏ°í º¸¼¼¿ä ³Ñ³ª½½ÇÄ
-- ''¹«ºñÄÚ¸àÆ®''´Â À¯Æ©ºê¿¡¸¸ ¾÷·Îµå µË´Ï´Ù.
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','807','MR807','ë¯¸ ë¹„í¬ ìœ  - ë»”í•œ ì˜í™”ì— ë‹´ê¸´ ë‘ ê°€ì§€ by ë°œì—†ëŠ”ìƒˆ','https://www.youtube.com/embed/VYX15u7gkpc','"ì—ë°€ë¦¬ì•„ í´ë¼í¬ì™€ ìƒ˜ í´ë¼í”Œë¦°ì´ ì£¼ì—°í•œ ë¯¸ ë¹„í¬ ìœ ëŠ” ì¡°ì¡° ëª¨ì˜ˆìŠ¤ì˜ ì†Œì„¤ì´ ì›ì‘ì…ë‹ˆë‹¤. ë³´ê¸° ì „ì€ ë¬¼ë¡ ì´ê³  ë³´ë˜ ì¤‘ì—ë„ ë»”í•˜ë‹¤ê³  ì—¬ê²¼ë˜ ì´ ì˜í™”ê°€ ì œê²Œ ë‘ ê°€ì§€ë¥¼ ì „í–ˆìŠµë‹ˆë‹¤.
+by ë°œì—†ëŠ”ìƒˆ"',null,null,null,'nofootbird@gmail.com','MR016',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','808','MR808','ì˜ˆìœ ì—¬ìì¹œêµ¬ë¥¼ ë‘ê³  ë‚¨ìê°€ ì•ˆë½ì‚¬ë¥¼ ì„ íƒí•œ ì´ìœ  [ë¯¸ë¹„í¬ìœ ]','https://www.youtube.com/embed/q_HfSiOSDDQ','"#ë¯¸ë¹„í¬ìœ  #ë¡œë§¨í‹±ì˜í™” #ì›ì‘ì†Œì„¤
+ì›ƒë‹¤ê°€ ìš¸ë‹¤ê°€"',null,null,null,'byebye@gmail.com','MR016',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','809','MR809','í‰ìƒ ë‹¨ í•œ ì—¬ìë§Œ ì‚¬ë‘í•œ ë‚¨ì (ì˜í™” ë…¸íŠ¸ë¶)','https://www.youtube.com/embed/KvEDW7Dre4k','"* ë³¸ ì˜ìƒì€ ìŠ¤í¬ì¼ëŸ¬ê°€ ë‹¤ìˆ˜ í¬í•¨ë˜ì–´ ìˆìŠµë‹ˆë‹¤ *
+ë¯¸ë ¨í–ˆì§€ë§Œ ìˆœìˆ˜í–ˆê³ 
+ì–´ë–»ê²Œë³´ë©´ ì•ˆíƒ€ê¹Œì› ë˜ ì—´ì¼ê³±ì˜ ì‚¬ë‘
+ê·¸ë ‡ê²Œ í•œ í‰ìƒì„ í•œ ì‚¬ëŒë§Œì„ ë°”ë¼ë³´ëŠ” ì¼.
+ê°€ëŠ¥í• ê¹Œìš”?
+ë¶€ëŸ½ê¸°ê¹Œì§€ í•œ ì™„ë²½í•œ ì‚¬ë‘ì´ì•¼ê¸°
+ì˜í™” ë…¸íŠ¸ë¶(2004)ì— ëŒ€í•œ ë¦¬ë·°ì…ë‹ˆë‹¤.
+ì›ì‘ ì˜í™”ë¥¼ ë³´ì‹œëŠ” ê²ƒì„ ê°•ë ¥íˆ ì¶”ì²œë“œë¦½ë‹ˆë‹¤.
+íœ´ì§€ ì¤€ë¹„í•˜ê³  ë³´ì„¸ìš” ë„˜ë‚˜ìŠ¬í””
+- ''ë¬´ë¹„ì½”ë©˜íŠ¸''ëŠ” ìœ íŠœë¸Œì—ë§Œ ì—…ë¡œë“œ ë©ë‹ˆë‹¤.
 "',null,null,null,'aloneman@daum.net','MR017',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','810','MR810','ÀúÀÇ ÀÎ»ı¿µÈ­ ÃßÃµ #2. ³ëÆ®ºÏ(Notebook) ¸®ºä ¿µ»ó ? £ü ÀÌ»óÄ¿ÇÃ ?','https://www.youtube.com/embed/C9gv2ffzN-k','"¶óÀÌ¾ğ °í½½¸µ°ú ·¹ÀÌÃ¿ ¸Æ¾Æ´ã½º ÁÖ¿¬ÀÇ ¿µÈ­ ³ëÆ®ºÏÀ» ¼Ò°³ÇÕ´Ï´Ù. ÀúÀÇ ÀÎ»ı¿µÈ­ ¤Ğ_¤Ğ ³Ê¹« ÁÁ¾Æ¿ä! ?Music Days Like These by LAKEY INSPIRED https://soundcloud.com/lakeyinspired Creative Commons ? Attribution-ShareAlike 3.0 Unported ? CC BY-SA 3.0 http://creativecommons.org/licenses/b... Music promoted by Audio Library https://youtube.com/embed/joGCrgfYrP4
-?Blog ¸ÅÀÏ ¸ÅÀÏ µû²öÇÑ »õ±ÛÀÌ ¿Ã¶ó¿À´Â ÀÌ»óÄ¿ÇÃÀÇ ºí·Î±× http://blog.naver.com/isangcouple
-?ÀÌ»óÄ¿ÇÃ ¡°´ë¾ÈÀûÀÎ »îÀ» »ì¸ç ´ë¾ÈÀûÀÎ »îÀ» Á¦¾ÈÇÑ´Ù¡±
-»îÀÇ ¿©À¯¸¦ Ã£¾Æ ºĞÅõÇÏ°í ÀÖ¾î¿ä. ÇÔ²² »ç¾÷ÇÏ¸ç ¿©ÇàÇÏ´Â ºÎºÎÀÔ´Ï´Ù¢¾ [ Ã¢¹Î ¢½ ±â¿¬ ]"',null,null,null,'esangcouple@daum.net','MR017',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','811','MR811','·Î¸Ç½º ÃßÃµ ¿µÈ­ - ºüÁú ¼ö¹Û¿¡ ¾ø´Â ÀÌ ³²ÀÚÀÇ ¸Å·Â(³ëÆ®ºÏ)','https://www.youtube.com/embed/xJGUdFZvug0','"¿µÈ­ Á¦¸ñ : ³ëÆ®ºÏ (The Notebook, 2004) Àå ¸£ : ¸á·Î/·Î¸Ç½º, µå¶ó¸¶
-°¨ µ¶ : ´Ğ Ä«»çº£Ã÷ ÁÖ¿¬ ¹è¿ì : ¶óÀÌ¾ğ °í½½¸µ(Ryan Gosling)
-·¹ÀÌÃ¿ ¸Æ¾Æ´ã½º(Rachel McAdams)
-·±´× Å¸ÀÓ : 123ºĞ
-µî ±Ş : 15¼¼ °ü¶÷°¡
-#³ëÆ®ºÏ #¸á·Î¿µÈ­ #·Î¸Ç½º¿µÈ­"',null,null,null,'bear@gmail.com','MR017',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','812','MR812','È£ºÒÈ£°¡ È®½ÇÇÕ´Ï´Ù. ¸Å·Âµµ È®½ÇÇÕ´Ï´Ù. ¿µÈ­ [Àå³­½º·± Å°½º] ¸®ºä','https://www.youtube.com/embed/zl6rJ0x0qIY','ÀÌ ¿µÈ­´Â [Àå³­½º·± Å°½º]ÀÇ ¸®¸ŞÀÌÅ©¶ó´Â °Íº¸´Ù´Â ¿Õ´ë·ú ¹è¿ì°¡ ³ª¿Â´Ù´Â Á¡ÀÌ ´õ¿í ÁÖ¸ñ¹ŞÀº ¿µÈ­°¡ ¾Æ´Ò±î ½Í½À´Ï´Ù. °Å±â¿¡ [³ªÀÇ ¼Ò³à½Ã´ë]¸¦ ÅëÇØ, ´ë¸¸ ·Î¸Ç½º¸¦ Á¦´ë·Î ¾Ë¸° ÇÁ·©Å° Ã¦ °¨µ¶ÀÇ ÀÛÇ°ÀÔ´Ï´Ù. ±×³à°¡ º¸¿©ÁÖ´Â ±× °£Áú°£ÁúÇÑ »ç¶û ÀÌ¾ß±â°¡ ±Ã±İÇØÁö´Â ÀÛÇ°ÀÔ´Ï´Ù.
-»ç½Ç, ÀÌ ¿µÈ­ÀÇ ½ºÅä¸®¸¦ Çö½ÇÀûÀ¸·Î »ı°¢ÇØº¸¸é »ó´çÈ÷ ºñÇö½ÇÀûÀÎ ¿µÈ­ÀÔ´Ï´Ù. ³ª¸¦ ÁÁ¾ÆÇÏ´Â ´©±º°¡°¡ ÀÚ±â ¹æ¿¡ ¿ÂÅë ³ªÀÇ ¾ó±¼·Î µµ¹è¸¦ ÇØ³ù´Ù°í ÇÏ¸é ¾î¶³±î¿ä? ±×·² ÀÏÀº ¾ø°ÚÁö¸¸, ±âºĞ ÁÁÀº »óÈ²Àº ¾Æ´Õ´Ï´Ù. ±×·±µ¥, ÀÌ ¿µÈ­ÀÇ Ä³¸¯ÅÍ´Â ½ºÅäÅ· °°Àº Çàµ¿À» º¸¿©Áİ´Ï´Ù. ±×·±µ¥, ÀÌ ¿µÈ­¸¦ º¸½Å ºĞµéÀº ¾Æ½Ã°ÚÁö¸¸, »ó´çÈ÷ ÆÇÅ¸ÁöÀûÀÎ ¿µÈ­ÀÔ´Ï´Ù. ±³Àå ¼±»ı´ÔÀÌ ÇĞ»ıÀÌ °í¹éÇÏ´Â Àå¸éÀ» º¸¸é¼­ Àü±³ ¹æ¼ÛÀ» ÇÑ´Ù´Â °ÍÀÌ Çö½Ç¿¡¼­´Â ¸»ÀÌ ¾È µÇ´Â »óÈ²ÀÔ´Ï´Ù. ÀÌ ¿µÈ­´Â »ó´çÈ÷ ÇÏÀÌ ÅÙ¼ÇÀ» °¡Áö°í ÀÖ´Â ¿µÈ­ÀÔ´Ï´Ù. Áö³ªÄ¥ ¼ö ÀÖ±â ¶§¹®¿¡ È£ºÒÈ£°¡ »ó´çÈ÷ °¥¸± °ÍÀ¸·Î »ı°¢µË´Ï´Ù.
-±×·³¿¡µµ ÀÌ ¿µÈ­°¡ »ó´çÈ÷ ¸Å·ÂÀûÀÎ °ÍÀº »ç½ÇÀÔ´Ï´Ù. Àúµµ ¿Õ´ë·ú ¹è¿ì¸¦ ÁÁ¾ÆÇÏ´Â ÆíÀÌ°í, ´ë¸¸ ·Î¸Ç½º ¿µÈ­ »ó´çÈ÷ ÁÁ¾ÆÇÕ´Ï´Ù. Æ¯È÷, ÇĞ»ı ·Î¸Ç½º ¿µÈ­¸¦ ÁÁ¾ÆÇÕ´Ï´Ù. ¶§¹®¿¡ Àú´Â ÀÌ ¿µÈ­¸¦ Àç¹Õ°Ô ºÃ½À´Ï´Ù. ºÎºĞÀûÀ¸·Î ÀÇ¹Ì ¾øÀÌ ±×³É ´Ã¾îÁö´Â ºÎºĞÀÌ Á¶±İ º¸ÀÌ±ä ÇÏÁö¸¸, ³ª¸§ À¯ÄèÇÏ°í ¿¡³ÊÁö ³ÑÄ¡´Â ¿¬ÃâÀ» ÅëÇØ ¿µÈ­¸¦ º¸¸é¼­ È°·ÂÀ» ¾ò°í °¡´Â °Í °°¾Ò½À´Ï´Ù. ±× È°·ÂÀÌ °úÇÏ´Ù°í »ı°¢ÇÒ ¼ö ÀÖ½À´Ï´Ù. ¿À±×¶óµå´Â ¿µÈ­ Àß ¸ø º¸½Ã´Â ºĞµéÀº Á¶±İ Èûµå½Ç ¼öµµ ÀÖ½À´Ï´Ù.
-°³ÀÎÀûÀ¸·Î´Â ÀÌ ¿µÈ­¿¡¼­ °¡Àå ÁÖ¸ñÇØ¾ß ÇÒ Á¡Àº ¡®À§¾È¼§Ä£¡¯À» ¿¬±âÇÑ ÀÓÀ± ¹è¿ìÀÔ´Ï´Ù. º¸¸é¼­, »ó´çÈ÷ ³î¶ú½À´Ï´Ù. ÃÖ±Ù [Ã¶º®¼±»ı]¿¡¼­ ÇÏ¸¶º£ ¹Ì³ª¹Ì ¹è¿ì°¡ ¹ö°Å¿ï Á¤µµ·Î ¹ß¶öÇÑ Ä³¸¯ÅÍ ¿¬±â¸¦ º¸¿©Áá½À´Ï´Ù. Ä³¸¯ÅÍ ÀÚÃ¼°¡ »ó´çÈ÷ ¿À¹ö½º·´Áö¸¸, ½ÇÁ¦·Î ÀÌ·± »ç¶÷ÀÌ ÀÖÀ» °Í °°´Ù°í »ı°¢ÀÌ µé Á¤µµ·Î »ó´çÈ÷ ÁÁÀº ¿¬±â¸¦ º¸¿©Áá½À´Ï´Ù. [Àå³­½º·± Å°½º]ÀÇ ÀÓÀ± ¶ÇÇÑ ±×¿¡ ¹ö±İ°¡´Â ¿¬±â¸¦ º¸¿©Áá½À´Ï´Ù. Æ¯È÷, ±×³àÀÇ ¿¬±â ´öºĞ¿¡ »ó´ë¿ªÇÒÀÎ ¿Õ´ë·úÀÇ Ä³¸¯ÅÍ°¡ ´õ¿í »ì¾Æ³µ½À´Ï´Ù. ¿Õ´ë·ú¿¡ ´ëÇÑ ±â´ë¸¦ °¡Áö°í °£ ¿µÈ­¿¡¼­ ÀÓÀ±¿¡°Ô ºüÁ®¼­ ³ª¿Ô½À´Ï´Ù. ',null,null,null,'ddaddasi@hotmail.com','MR018',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','813','MR813','¿Ü¸ğ, µÎ³ú ¸ğµç °Ô ¿Ïº®ÇÑ ³²ÇĞ»ı¿¡°Ô °í¹éÇÑ ¿©°í»ı','https://www.youtube.com/embed/v8hweopVvZ4','¿µ»ó ÃâÃ³: ¿µÈ­°¡ ÁÁ´Ù #Àå³­½º·± Å°½º#¿Õ´ë·ú#ÀÓÀ±',null,null,null,'moviekok@yahoo.com','MR018',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','814','MR814','È£ºÒÈ£°¡ È®½ÇÇÕ´Ï´Ù ¸Å·Âµµ È®½ÇÇÕ´Ï´Ù ¿µÈ­ Àå³­½º·± Å°½º ¸®ºä','https://www.youtube.com/embed/kBl_aADzxW4','"ÀÌ µ¿¿µ»óÀÇ À½¾Ç
-ÀÚ¼¼È÷ ¾Ë¾Æº¸±â
-³ë·¡
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','810','MR810','ì €ì˜ ì¸ìƒì˜í™” ì¶”ì²œ #2. ë…¸íŠ¸ë¶(Notebook) ë¦¬ë·° ì˜ìƒ ? ï½œ ì´ìƒì»¤í”Œ ?','https://www.youtube.com/embed/C9gv2ffzN-k','"ë¼ì´ì–¸ ê³ ìŠ¬ë§ê³¼ ë ˆì´ì²¼ ë§¥ì•„ë‹´ìŠ¤ ì£¼ì—°ì˜ ì˜í™” ë…¸íŠ¸ë¶ì„ ì†Œê°œí•©ë‹ˆë‹¤. ì €ì˜ ì¸ìƒì˜í™” ã… _ã…  ë„ˆë¬´ ì¢‹ì•„ìš”! ?Music Days Like These by LAKEY INSPIRED https://soundcloud.com/lakeyinspired Creative Commons ? Attribution-ShareAlike 3.0 Unported ? CC BY-SA 3.0 http://creativecommons.org/licenses/b... Music promoted by Audio Library https://youtube.com/embed/joGCrgfYrP4
+?Blog ë§¤ì¼ ë§¤ì¼ ë”°ëˆí•œ ìƒˆê¸€ì´ ì˜¬ë¼ì˜¤ëŠ” ì´ìƒì»¤í”Œì˜ ë¸”ë¡œê·¸ http://blog.naver.com/isangcouple
+?ì´ìƒì»¤í”Œ â€œëŒ€ì•ˆì ì¸ ì‚¶ì„ ì‚´ë©° ëŒ€ì•ˆì ì¸ ì‚¶ì„ ì œì•ˆí•œë‹¤â€
+ì‚¶ì˜ ì—¬ìœ ë¥¼ ì°¾ì•„ ë¶„íˆ¬í•˜ê³  ìˆì–´ìš”. í•¨ê»˜ ì‚¬ì—…í•˜ë©° ì—¬í–‰í•˜ëŠ” ë¶€ë¶€ì…ë‹ˆë‹¤â™¥ [ ì°½ë¯¼ â™¡ ê¸°ì—° ]"',null,null,null,'esangcouple@daum.net','MR017',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','811','MR811','ë¡œë§¨ìŠ¤ ì¶”ì²œ ì˜í™” - ë¹ ì§ˆ ìˆ˜ë°–ì— ì—†ëŠ” ì´ ë‚¨ìì˜ ë§¤ë ¥(ë…¸íŠ¸ë¶)','https://www.youtube.com/embed/xJGUdFZvug0','"ì˜í™” ì œëª© : ë…¸íŠ¸ë¶ (The Notebook, 2004) ì¥ ë¥´ : ë©œë¡œ/ë¡œë§¨ìŠ¤, ë“œë¼ë§ˆ
+ê° ë… : ë‹‰ ì¹´ì‚¬ë² ì¸  ì£¼ì—° ë°°ìš° : ë¼ì´ì–¸ ê³ ìŠ¬ë§(Ryan Gosling)
+ë ˆì´ì²¼ ë§¥ì•„ë‹´ìŠ¤(Rachel McAdams)
+ëŸ°ë‹ íƒ€ì„ : 123ë¶„
+ë“± ê¸‰ : 15ì„¸ ê´€ëŒê°€
+#ë…¸íŠ¸ë¶ #ë©œë¡œì˜í™” #ë¡œë§¨ìŠ¤ì˜í™”"',null,null,null,'bear@gmail.com','MR017',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','812','MR812','í˜¸ë¶ˆí˜¸ê°€ í™•ì‹¤í•©ë‹ˆë‹¤. ë§¤ë ¥ë„ í™•ì‹¤í•©ë‹ˆë‹¤. ì˜í™” [ì¥ë‚œìŠ¤ëŸ° í‚¤ìŠ¤] ë¦¬ë·°','https://www.youtube.com/embed/zl6rJ0x0qIY','ì´ ì˜í™”ëŠ” [ì¥ë‚œìŠ¤ëŸ° í‚¤ìŠ¤]ì˜ ë¦¬ë©”ì´í¬ë¼ëŠ” ê²ƒë³´ë‹¤ëŠ” ì™•ëŒ€ë¥™ ë°°ìš°ê°€ ë‚˜ì˜¨ë‹¤ëŠ” ì ì´ ë”ìš± ì£¼ëª©ë°›ì€ ì˜í™”ê°€ ì•„ë‹ê¹Œ ì‹¶ìŠµë‹ˆë‹¤. ê±°ê¸°ì— [ë‚˜ì˜ ì†Œë…€ì‹œëŒ€]ë¥¼ í†µí•´, ëŒ€ë§Œ ë¡œë§¨ìŠ¤ë¥¼ ì œëŒ€ë¡œ ì•Œë¦° í”„ë­í‚¤ ì±ˆ ê°ë…ì˜ ì‘í’ˆì…ë‹ˆë‹¤. ê·¸ë…€ê°€ ë³´ì—¬ì£¼ëŠ” ê·¸ ê°„ì§ˆê°„ì§ˆí•œ ì‚¬ë‘ ì´ì•¼ê¸°ê°€ ê¶ê¸ˆí•´ì§€ëŠ” ì‘í’ˆì…ë‹ˆë‹¤.
+ì‚¬ì‹¤, ì´ ì˜í™”ì˜ ìŠ¤í† ë¦¬ë¥¼ í˜„ì‹¤ì ìœ¼ë¡œ ìƒê°í•´ë³´ë©´ ìƒë‹¹íˆ ë¹„í˜„ì‹¤ì ì¸ ì˜í™”ì…ë‹ˆë‹¤. ë‚˜ë¥¼ ì¢‹ì•„í•˜ëŠ” ëˆ„êµ°ê°€ê°€ ìê¸° ë°©ì— ì˜¨í†µ ë‚˜ì˜ ì–¼êµ´ë¡œ ë„ë°°ë¥¼ í•´ë†¨ë‹¤ê³  í•˜ë©´ ì–´ë–¨ê¹Œìš”? ê·¸ëŸ´ ì¼ì€ ì—†ê² ì§€ë§Œ, ê¸°ë¶„ ì¢‹ì€ ìƒí™©ì€ ì•„ë‹™ë‹ˆë‹¤. ê·¸ëŸ°ë°, ì´ ì˜í™”ì˜ ìºë¦­í„°ëŠ” ìŠ¤í† í‚¹ ê°™ì€ í–‰ë™ì„ ë³´ì—¬ì¤ë‹ˆë‹¤. ê·¸ëŸ°ë°, ì´ ì˜í™”ë¥¼ ë³´ì‹  ë¶„ë“¤ì€ ì•„ì‹œê² ì§€ë§Œ, ìƒë‹¹íˆ íŒíƒ€ì§€ì ì¸ ì˜í™”ì…ë‹ˆë‹¤. êµì¥ ì„ ìƒë‹˜ì´ í•™ìƒì´ ê³ ë°±í•˜ëŠ” ì¥ë©´ì„ ë³´ë©´ì„œ ì „êµ ë°©ì†¡ì„ í•œë‹¤ëŠ” ê²ƒì´ í˜„ì‹¤ì—ì„œëŠ” ë§ì´ ì•ˆ ë˜ëŠ” ìƒí™©ì…ë‹ˆë‹¤. ì´ ì˜í™”ëŠ” ìƒë‹¹íˆ í•˜ì´ í…ì…˜ì„ ê°€ì§€ê³  ìˆëŠ” ì˜í™”ì…ë‹ˆë‹¤. ì§€ë‚˜ì¹  ìˆ˜ ìˆê¸° ë•Œë¬¸ì— í˜¸ë¶ˆí˜¸ê°€ ìƒë‹¹íˆ ê°ˆë¦´ ê²ƒìœ¼ë¡œ ìƒê°ë©ë‹ˆë‹¤.
+ê·¸ëŸ¼ì—ë„ ì´ ì˜í™”ê°€ ìƒë‹¹íˆ ë§¤ë ¥ì ì¸ ê²ƒì€ ì‚¬ì‹¤ì…ë‹ˆë‹¤. ì €ë„ ì™•ëŒ€ë¥™ ë°°ìš°ë¥¼ ì¢‹ì•„í•˜ëŠ” í¸ì´ê³ , ëŒ€ë§Œ ë¡œë§¨ìŠ¤ ì˜í™” ìƒë‹¹íˆ ì¢‹ì•„í•©ë‹ˆë‹¤. íŠ¹íˆ, í•™ìƒ ë¡œë§¨ìŠ¤ ì˜í™”ë¥¼ ì¢‹ì•„í•©ë‹ˆë‹¤. ë•Œë¬¸ì— ì €ëŠ” ì´ ì˜í™”ë¥¼ ì¬ë°Œê²Œ ë´¤ìŠµë‹ˆë‹¤. ë¶€ë¶„ì ìœ¼ë¡œ ì˜ë¯¸ ì—†ì´ ê·¸ëƒ¥ ëŠ˜ì–´ì§€ëŠ” ë¶€ë¶„ì´ ì¡°ê¸ˆ ë³´ì´ê¸´ í•˜ì§€ë§Œ, ë‚˜ë¦„ ìœ ì¾Œí•˜ê³  ì—ë„ˆì§€ ë„˜ì¹˜ëŠ” ì—°ì¶œì„ í†µí•´ ì˜í™”ë¥¼ ë³´ë©´ì„œ í™œë ¥ì„ ì–»ê³  ê°€ëŠ” ê²ƒ ê°™ì•˜ìŠµë‹ˆë‹¤. ê·¸ í™œë ¥ì´ ê³¼í•˜ë‹¤ê³  ìƒê°í•  ìˆ˜ ìˆìŠµë‹ˆë‹¤. ì˜¤ê·¸ë¼ë“œëŠ” ì˜í™” ì˜ ëª» ë³´ì‹œëŠ” ë¶„ë“¤ì€ ì¡°ê¸ˆ í˜ë“œì‹¤ ìˆ˜ë„ ìˆìŠµë‹ˆë‹¤.
+ê°œì¸ì ìœ¼ë¡œëŠ” ì´ ì˜í™”ì—ì„œ ê°€ì¥ ì£¼ëª©í•´ì•¼ í•  ì ì€ â€˜ìœ„ì•ˆìƒ¹ì¹œâ€™ì„ ì—°ê¸°í•œ ì„ìœ¤ ë°°ìš°ì…ë‹ˆë‹¤. ë³´ë©´ì„œ, ìƒë‹¹íˆ ë†€ëìŠµë‹ˆë‹¤. ìµœê·¼ [ì² ë²½ì„ ìƒ]ì—ì„œ í•˜ë§ˆë²  ë¯¸ë‚˜ë¯¸ ë°°ìš°ê°€ ë²„ê±°ìš¸ ì •ë„ë¡œ ë°œë„í•œ ìºë¦­í„° ì—°ê¸°ë¥¼ ë³´ì—¬ì¤¬ìŠµë‹ˆë‹¤. ìºë¦­í„° ìì²´ê°€ ìƒë‹¹íˆ ì˜¤ë²„ìŠ¤ëŸ½ì§€ë§Œ, ì‹¤ì œë¡œ ì´ëŸ° ì‚¬ëŒì´ ìˆì„ ê²ƒ ê°™ë‹¤ê³  ìƒê°ì´ ë“¤ ì •ë„ë¡œ ìƒë‹¹íˆ ì¢‹ì€ ì—°ê¸°ë¥¼ ë³´ì—¬ì¤¬ìŠµë‹ˆë‹¤. [ì¥ë‚œìŠ¤ëŸ° í‚¤ìŠ¤]ì˜ ì„ìœ¤ ë˜í•œ ê·¸ì— ë²„ê¸ˆê°€ëŠ” ì—°ê¸°ë¥¼ ë³´ì—¬ì¤¬ìŠµë‹ˆë‹¤. íŠ¹íˆ, ê·¸ë…€ì˜ ì—°ê¸° ë•ë¶„ì— ìƒëŒ€ì—­í• ì¸ ì™•ëŒ€ë¥™ì˜ ìºë¦­í„°ê°€ ë”ìš± ì‚´ì•„ë‚¬ìŠµë‹ˆë‹¤. ì™•ëŒ€ë¥™ì— ëŒ€í•œ ê¸°ëŒ€ë¥¼ ê°€ì§€ê³  ê°„ ì˜í™”ì—ì„œ ì„ìœ¤ì—ê²Œ ë¹ ì ¸ì„œ ë‚˜ì™”ìŠµë‹ˆë‹¤. ',null,null,null,'ddaddasi@hotmail.com','MR018',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','813','MR813','ì™¸ëª¨, ë‘ë‡Œ ëª¨ë“  ê²Œ ì™„ë²½í•œ ë‚¨í•™ìƒì—ê²Œ ê³ ë°±í•œ ì—¬ê³ ìƒ','https://www.youtube.com/embed/v8hweopVvZ4','ì˜ìƒ ì¶œì²˜: ì˜í™”ê°€ ì¢‹ë‹¤ #ì¥ë‚œìŠ¤ëŸ° í‚¤ìŠ¤#ì™•ëŒ€ë¥™#ì„ìœ¤',null,null,null,'moviekok@yahoo.com','MR018',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','814','MR814','í˜¸ë¶ˆí˜¸ê°€ í™•ì‹¤í•©ë‹ˆë‹¤ ë§¤ë ¥ë„ í™•ì‹¤í•©ë‹ˆë‹¤ ì˜í™” ì¥ë‚œìŠ¤ëŸ° í‚¤ìŠ¤ ë¦¬ë·°','https://www.youtube.com/embed/kBl_aADzxW4','"ì´ ë™ì˜ìƒì˜ ìŒì•…
+ìì„¸íˆ ì•Œì•„ë³´ê¸°
+ë…¸ë˜
 Maimunar
-¾ÆÆ¼½ºÆ®
+ì•„í‹°ìŠ¤íŠ¸
 Iskrata
-YouTube ¶óÀÌ¼±½º Á¦°øÀÚ
-MonteMusicRecords(Monte Music ´ëÇà)
+YouTube ë¼ì´ì„ ìŠ¤ ì œê³µì
+MonteMusicRecords(Monte Music ëŒ€í–‰)
 "',null,null,null,'tetris024@gmail.com','MR018',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','815','MR815','±³½Ç µŞÀÚ¸®¿¡¼­ ±Í½Å°°ÀÌ ³» ¼ºÀûÀ» ¿Ã·ÁÁÖ´Â ¹Ì¼Ò³à ¿©ÇĞ»ı','https://www.youtube.com/embed/AiR1ByYKOWg','"¾È³çÇÏ¼¼¿ä, ¹Ìµé»·ÀÔ´Ï´Ù.
-¿À´Ã ¸®ºäÇÒ ÀÛÇ°Àº ''±× ½ÃÀı, ¿ì¸®°¡ ÁÁ¾ÆÇß´ø ¼Ò³à (You Are the Apple of My Eye, 2011)'' ÀÔ´Ï´Ù.
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','815','MR815','êµì‹¤ ë’·ìë¦¬ì—ì„œ ê·€ì‹ ê°™ì´ ë‚´ ì„±ì ì„ ì˜¬ë ¤ì£¼ëŠ” ë¯¸ì†Œë…€ ì—¬í•™ìƒ','https://www.youtube.com/embed/AiR1ByYKOWg','"ì•ˆë…•í•˜ì„¸ìš”, ë¯¸ë“¤ë»”ì…ë‹ˆë‹¤.
+ì˜¤ëŠ˜ ë¦¬ë·°í•  ì‘í’ˆì€ ''ê·¸ ì‹œì ˆ, ìš°ë¦¬ê°€ ì¢‹ì•„í–ˆë˜ ì†Œë…€ (You Are the Apple of My Eye, 2011)'' ì…ë‹ˆë‹¤.
 "',null,null,null,'middle@hotmail.com','MR019',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','816','MR816','Ã¹»ç¶ûÀÌ Àü±³1µîÀÌ¸é ÀÏ¾î³ª´Â ÀÏ','https://www.youtube.com/embed/WbvTjSi8S-8','¾È³çÇÏ¼¼¿ä ¿µÈ­ ±× ½ÃÀı ¿ì¸®°¡ ÁÁ¾ÆÇß´ø ¼Ò³à ÀÔ´Ï´Ù',null,null,null,'lemong@hotmail.com','MR019',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','817','MR817','»õº®¿¡ º¸±â ÁÁÀº Ã¹»ç¶û¿µÈ­','https://www.youtube.com/embed/bIdKbIUqzn0','"¿µÈ­ [±× ½ÃÀı, ¿ì¸®°¡ ÁÁ¾ÆÇß´ø ¼Ò³à]ÀÇ ¼Ò°³¿µ»óÀÔ´Ï´Ù.
-Å« ½ºÆ÷ÀÏ·¯´Â ¾ø°í, ´ë»ç ÇÑÁÙ ½ºÆ÷ÇÕ´Ï´Ù.
-¸ğµÎµé Áñ°Ì°Ô ºÁÁÖ½Ã±æ ¹Ù¶ø´Ï´Ù!"',null,null,null,'sogaenam@naver.com','MR019',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','818','MR818','[¿µÈ­¸®ºä/°á¸»Æ÷ÇÔ] ±× ½ÃÀı, ¿ì¸®ÀÇ Ã¹»ç¶û - °¨µ¶½ÇÈ­¿µÈ­ (±× ½ÃÀı, ¿ì¸®°¡ ÁÁ¾ÆÇß´ø ¼Ò³à) ´ë¸¸¿µÈ­','https://www.youtube.com/embed/1rYM3y3SYyI','"¾È³çÇÏ¼¼¿ä ÀëÀë ²ÜÀë ¸íµ¿¼±¹èÀÔ´Ï´Ù^^
-Äá´ÚÄá´Ú ¿ì¸®ÀÇ ½É¹Ú¼ö¸¦ ÇÑ ²¯ ¿Ã·ÁÁÖ¸ç Àá ¸øµé°Ô Çß´ø Ã¹»ç¶û~
-±× ¾Æ·ÃÇÏ°í ¾Æ¸§´Ù¿î Ãß¾ï ÇÑ Á¶°¢ÀÌ ¹¶½Ç¹¶½Ç ¶°¿À¸¨´Ï´Ù
-¿µÈ­º¸¸é¼­ ¾î¸° ½ÃÀıÀÇ Ãß¾ï Á¶°¢À»
-ÇÏ³ª¾¿ ²¨³»º¼ ¼ö ÀÖ´Â ½Ã°£ÀÌ¾ú´ø °Í °°¾Æ¿ä
-¼­ÅøÁö¸¸ ÇÑ ¾øÀÌ ¼ø¼öÇß´ø
-¿ì¸® Ã¹»ç¶ûÀ» ¶°¿Ã·Á º¸°ÔÇÏ´Â
-¿µÈ­ ±× ½ÃÀı ¿ì¸®°¡ ÁÁ¾ÆÇß´ø ¼Ò³àÀÔ´Ï´Ù
-´Ş´ŞÇÏ¸é¼­µµ ½Ô½Î·¡ÇÑ ¸ÀÀ» ´À³¥ ¼ö ÀÖ´Â
-¿µ»óÀ¸·Î º»°İÀûÀ¸·Î µé¾î°¡ º¸½Ç±î¿ä~
-¿µ»ó ±¦ÂúÀ¸¼Ì´Ù¸é ±¸µ¶°ú ÁÁ¾Æ¿ä·Î ÀÀ¿øºÎÅ¹µå¸±²²¿ä
-´ÙÀ½ ¸®ºäµµ ±â´ë ¸¹ÀÌ ÇØÁÖ¼¼¿ä °¨»çÇÕ´Ï´Ù^^"',null,null,null,'senior@gmail.com','MR019',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','819','MR819','»Ç»Ç¸¦ 50¹øÀÌ³ª ÇÏ´Â ´õ·¯¿î ¿äÃ» ¸®ºä! Ã¹Å°½º¸¸ 50¹øÂ°!','https://www.youtube.com/embed/nip53ckobok','
--±¸ºÒÃßÃµÁö¼ö´Â Áö±ØÈ÷ °³ÀÎÀû °¨»óÆòÀÔ´Ï´Ù. °¡º±°Ô Âü°í¸¸ ÇØÁÖ¼¼¿ë-
-±¸ºÒÃßÃµÁö¼ö: 8/10
-º´¸À¿ä¼Ò: 7/10
-Âü½ÅÇÔ: 6/10
-ÇÑÁÙÆò: Å¬¸¯°ú °°ÀÌ ¿ôÀ½°ú °¨µ¿ÀÌ ÇÔ²² ÀÖ´Â ¿µÈ­. ºÎ´ã¾øÀÌ »ç¶ûÇÏ´Â »ç¶÷°ú ÇÔ²²º¸¸é ÁÁÀ» ¿µÈ­. Á¨Àå. ½ò·Îµµ ºÁµµ Á¤¸» ±¦ÂúÀº ¿µÈ­´Ù. ¾ÈºÃ´Ù¸é ²À ÃßÃµµå¸®´Â ¿µÈ­!
-±¸ÅÙ~¾Ë·ÎÇÏ~ ¿µÈ­º¸´Ù Àç¹Õ´Â º´¸À¸®ºä ±¸ºÒÀÔ´Ï´Ù. ±Ùµ¥ ÀÌ°Å º´¸ÀÀÌ¾ß? ¸íÀÛÀÌ¾ß?¤»¤» Ã¹Å°½º¸¸ 50¹øÂ°! 1plusSNR Blog´Ô, Damkyung kim´Ô, ±è¼¼Èñ´Ô, ¹Ù³ª³ªÅ·´Ô, ¼Øºê¶ó´Ô, Á¤¾à»çÀÇ°Ç°­³ª´®´ÔÀÌ ¿äÃ»ÇØÁÖ¼Ì½À´Ï´Ù. ÀÌ ´õ·¯¿î ¾Ó¸¶µé! ¾î¶»°Ô Å°½º¸¦ ¿À½Ê¹ø ÇÏ´Â°É ¿äÃ»ÇÒ ¼ö °¡ÀÖ¾î¿ä?¤»¤»¤»¾Æ ³ó´ãÀÌ°í ¿µÈ­°¡ Àç¹Õ´Âµ¥ °¨µ¿±îÁö ÀÖ¾î.¤»¤» ÃæºĞÈ÷ ÃßÃµÇØµå¸±¸¸ÇÑ ¿µÈ­¶ó°í »ı°¢ÇÕ´Ï´Ù. ¿µÈ­ Å¬¸¯ÀÌÀü¿¡µµ »÷µé·¯ÇüÀÌ ¿°¼ÒÇü, »ùÇüÀÌ¶û ÄŞºñ¸¦ º¸¿©Áá´Âµ¥ ¾ÕÀ¸·Îµµ ¼ÂÀÌ ÁÁÀº ¿µÈ­ ¸¸µé¾îÁáÀ¸¸é ÁÁ°Ú°í¿ä. Àú´Â ÀÌ ¿µÈ­¸¦ º¸¸é¼­ ¶Ç ¸¹Àº°ÍÀ» ¹è¿ì°í °¡³×¿ä. ±â¾ïÀ» ÀÒ´Â´Ù´Â°Ô ¾ÈÁÁÀº °ÅÁö¸¸ ¾î¶»°Ô º¸¸é ÀÎ°£ÀÌ ¸Á°¢ÀÇ µ¿¹°ÀÌ±â¶§¹®¿¡ Çàº¹ÇÏ°Ô »ì ¼ö ÀÖÁö ¾Ê³ª »ı°¢ÀÌ µì´Ï´Ù. ¿¹Àü¿¡ ¾Ö±â¶§ Àß¸øÇÑ°Å Æò»ı±â¾ïÇÏ¸é ºÎ²ô·¯¿ö¼­ ¾î¶»°Ô »ì°Ú¾î¿ä.¤»¤»
-Á¦°¡ ¿¬¾Ö¸¦ ²÷ÀºÁö°¡ ¿À·¡ µÆÁö¸¸ ´ëºÎºĞ ¿¬¾ÖÀÇ ½ÃÀÛ¶§´Â »ó´ë¹æÀÇ °áÁ¡ÀÌ Å«¹®Á¦°¡ µÇÁö ¾ÊÀİ¾Æ¿ä. ±×¶§ÀÇ ¸¶À½À¸·Î µ¹¾Æ°£´Ù¸é ½Î¿ïÀÏÀÌ ÀÖ°Ú¾î¿ä?¤¾¤¾ ³­ Á¦¹ß ½Î¿ì´Â »ó´ë¶óµµ ÀÖ¾úÀ¸¸é ÁÁ°Ú¾î. ÈæÈæ..¤»¤» Áö±İ ´©±º°¡¿Í ¼­·Î »ç¶ûÇÏ°í °¡Á¤À» ÀÌ·ç°í °è½Å ±¸¸°ÀÌµé, ¾Æ´Ï ¾ÕÀ¸·Î ´©±º°¡¿Í »ç¶ûÇÏ¸ç Áö³¾ ¸ğµçºĞµé²². ¼­·Î Ã³À½ »ç¶ûÀ» °í¹éÇÒ¶§ ±×¶§¸¦ ¼¼ÀÌºêÆ÷ÀÎÆ®·Î ÁöÁ¤ÇÏ°í °¡²û ´Ù ÀØ°í ´Ù½Ã µ¹¾Æ°¡ º¸´Â °ÍÀº ¾î¶³±î¿ä?
-ÇÏ·çÇÏ·ç ¶È°°Àº ÀÏ»ó, ¶È°°Àº »ó´ë, ¿ì¸®´Â ÃÂ¹ÙÄûµµ´Â »îÀ» »ç´Â °Í °°Áö¸¸ Áö±İ 1ºĞ 1ÃÊ°¡ ¿©·¯ºĞ¿¡°Ô ´Ù½Ã µÇµ¹¸®Áö ¸øÇÒ ¿µÈ­ÀÇ »õÀå¸é°í ¿À´Ã ÇÏ´Â Å°½ºµµ ´Ù½Ã´Â ¸ø ¿Ã Ã¹Å°½ºÀÔ´Ï´Ù. ÀÎÁöÇÏÁö ¸øÇßÀ»»Ó ¿©·¯ºĞÀÌ ÇØ¿Ô´ø ¸ğµç Å°½º´Â ¸ğµÎ Ã¹Å°½º¶õ ¸»ÀÔ´Ï´Ù. ¿À´Ãµµ ±¸ºÒÀÌ ½È¾îÇÏ´Â Å°½º¸¦ ÇÏ½Ã´Â ³ª»ÛºĞµéÀÌ ¸¹°ÚÁö¸¸ ±â¿Õ ÇÏ½Ç°Å¸é ¿À´Ã¸¸Å­Àº Ã¹Å°½ºÃ³·³ ÇØº¸´Â°Ç ¾î¶³±î¿ä?
-Á¨Àå, ´õ·¯¿î Å°½º¸¦ ¿À½Ê¹ø¾¿ÀÌ³ª ÇÏ´Â °øÆ÷¿µÈ­, ±×·³¿¡µµ ±¸ºÒÇÏ°í ¿©·¯ºĞ²² ²À ÃßÃµµå¸®´Â¿µÈ­, Ã¹Å°½º¸¸ ¿À½Ê¹øÂ°¿´½À´Ï´Ù.
-±¸¸°ÀÌµé.. »Ç»Ç±î±î?!
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','816','MR816','ì²«ì‚¬ë‘ì´ ì „êµ1ë“±ì´ë©´ ì¼ì–´ë‚˜ëŠ” ì¼','https://www.youtube.com/embed/WbvTjSi8S-8','ì•ˆë…•í•˜ì„¸ìš” ì˜í™” ê·¸ ì‹œì ˆ ìš°ë¦¬ê°€ ì¢‹ì•„í–ˆë˜ ì†Œë…€ ì…ë‹ˆë‹¤',null,null,null,'lemong@hotmail.com','MR019',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','817','MR817','ìƒˆë²½ì— ë³´ê¸° ì¢‹ì€ ì²«ì‚¬ë‘ì˜í™”','https://www.youtube.com/embed/bIdKbIUqzn0','"ì˜í™” [ê·¸ ì‹œì ˆ, ìš°ë¦¬ê°€ ì¢‹ì•„í–ˆë˜ ì†Œë…€]ì˜ ì†Œê°œì˜ìƒì…ë‹ˆë‹¤.
+í° ìŠ¤í¬ì¼ëŸ¬ëŠ” ì—†ê³ , ëŒ€ì‚¬ í•œì¤„ ìŠ¤í¬í•©ë‹ˆë‹¤.
+ëª¨ë‘ë“¤ ì¦ê²ê²Œ ë´ì£¼ì‹œê¸¸ ë°”ëë‹ˆë‹¤!"',null,null,null,'sogaenam@naver.com','MR019',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','818','MR818','[ì˜í™”ë¦¬ë·°/ê²°ë§í¬í•¨] ê·¸ ì‹œì ˆ, ìš°ë¦¬ì˜ ì²«ì‚¬ë‘ - ê°ë…ì‹¤í™”ì˜í™” (ê·¸ ì‹œì ˆ, ìš°ë¦¬ê°€ ì¢‹ì•„í–ˆë˜ ì†Œë…€) ëŒ€ë§Œì˜í™”','https://www.youtube.com/embed/1rYM3y3SYyI','"ì•ˆë…•í•˜ì„¸ìš” ì¼ì¼ ê¿€ì¼ ëª…ë™ì„ ë°°ì…ë‹ˆë‹¤^^
+ì½©ë‹¥ì½©ë‹¥ ìš°ë¦¬ì˜ ì‹¬ë°•ìˆ˜ë¥¼ í•œ ê» ì˜¬ë ¤ì£¼ë©° ì  ëª»ë“¤ê²Œ í–ˆë˜ ì²«ì‚¬ë‘~
+ê·¸ ì•„ë ¨í•˜ê³  ì•„ë¦„ë‹¤ìš´ ì¶”ì–µ í•œ ì¡°ê°ì´ ë­‰ì‹¤ë­‰ì‹¤ ë– ì˜¤ë¦…ë‹ˆë‹¤
+ì˜í™”ë³´ë©´ì„œ ì–´ë¦° ì‹œì ˆì˜ ì¶”ì–µ ì¡°ê°ì„
+í•˜ë‚˜ì”© êº¼ë‚´ë³¼ ìˆ˜ ìˆëŠ” ì‹œê°„ì´ì—ˆë˜ ê²ƒ ê°™ì•„ìš”
+ì„œíˆ´ì§€ë§Œ í•œ ì—†ì´ ìˆœìˆ˜í–ˆë˜
+ìš°ë¦¬ ì²«ì‚¬ë‘ì„ ë– ì˜¬ë ¤ ë³´ê²Œí•˜ëŠ”
+ì˜í™” ê·¸ ì‹œì ˆ ìš°ë¦¬ê°€ ì¢‹ì•„í–ˆë˜ ì†Œë…€ì…ë‹ˆë‹¤
+ë‹¬ë‹¬í•˜ë©´ì„œë„ ìŒ‰ì‹¸ë˜í•œ ë§›ì„ ëŠë‚„ ìˆ˜ ìˆëŠ”
+ì˜ìƒìœ¼ë¡œ ë³¸ê²©ì ìœ¼ë¡œ ë“¤ì–´ê°€ ë³´ì‹¤ê¹Œìš”~
+ì˜ìƒ ê´œì°®ìœ¼ì…¨ë‹¤ë©´ êµ¬ë…ê³¼ ì¢‹ì•„ìš”ë¡œ ì‘ì›ë¶€íƒë“œë¦´ê»˜ìš”
+ë‹¤ìŒ ë¦¬ë·°ë„ ê¸°ëŒ€ ë§ì´ í•´ì£¼ì„¸ìš” ê°ì‚¬í•©ë‹ˆë‹¤^^"',null,null,null,'senior@gmail.com','MR019',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','819','MR819','ë½€ë½€ë¥¼ 50ë²ˆì´ë‚˜ í•˜ëŠ” ë”ëŸ¬ìš´ ìš”ì²­ ë¦¬ë·°! ì²«í‚¤ìŠ¤ë§Œ 50ë²ˆì§¸!','https://www.youtube.com/embed/nip53ckobok','
+-êµ¬ë¶ˆì¶”ì²œì§€ìˆ˜ëŠ” ì§€ê·¹íˆ ê°œì¸ì  ê°ìƒí‰ì…ë‹ˆë‹¤. ê°€ë³ê²Œ ì°¸ê³ ë§Œ í•´ì£¼ì„¸ìš©-
+êµ¬ë¶ˆì¶”ì²œì§€ìˆ˜: 8/10
+ë³‘ë§›ìš”ì†Œ: 7/10
+ì°¸ì‹ í•¨: 6/10
+í•œì¤„í‰: í´ë¦­ê³¼ ê°™ì´ ì›ƒìŒê³¼ ê°ë™ì´ í•¨ê»˜ ìˆëŠ” ì˜í™”. ë¶€ë‹´ì—†ì´ ì‚¬ë‘í•˜ëŠ” ì‚¬ëŒê³¼ í•¨ê»˜ë³´ë©´ ì¢‹ì„ ì˜í™”. ì  ì¥. ì ë¡œë„ ë´ë„ ì •ë§ ê´œì°®ì€ ì˜í™”ë‹¤. ì•ˆë´¤ë‹¤ë©´ ê¼­ ì¶”ì²œë“œë¦¬ëŠ” ì˜í™”!
+êµ¬í…~ì•Œë¡œí•˜~ ì˜í™”ë³´ë‹¤ ì¬ë°ŒëŠ” ë³‘ë§›ë¦¬ë·° êµ¬ë¶ˆì…ë‹ˆë‹¤. ê·¼ë° ì´ê±° ë³‘ë§›ì´ì•¼? ëª…ì‘ì´ì•¼?ã…‹ã…‹ ì²«í‚¤ìŠ¤ë§Œ 50ë²ˆì§¸! 1plusSNR Blogë‹˜, Damkyung kimë‹˜, ê¹€ì„¸í¬ë‹˜, ë°”ë‚˜ë‚˜í‚¹ë‹˜, ì†œë¸Œë¼ë‹˜, ì •ì•½ì‚¬ì˜ê±´ê°•ë‚˜ëˆ”ë‹˜ì´ ìš”ì²­í•´ì£¼ì…¨ìŠµë‹ˆë‹¤. ì´ ë”ëŸ¬ìš´ ì•™ë§ˆë“¤! ì–´ë–»ê²Œ í‚¤ìŠ¤ë¥¼ ì˜¤ì‹­ë²ˆ í•˜ëŠ”ê±¸ ìš”ì²­í•  ìˆ˜ ê°€ìˆì–´ìš”?ã…‹ã…‹ã…‹ì•„ ë†ë‹´ì´ê³  ì˜í™”ê°€ ì¬ë°ŒëŠ”ë° ê°ë™ê¹Œì§€ ìˆì–´.ã…‹ã…‹ ì¶©ë¶„íˆ ì¶”ì²œí•´ë“œë¦´ë§Œí•œ ì˜í™”ë¼ê³  ìƒê°í•©ë‹ˆë‹¤. ì˜í™” í´ë¦­ì´ì „ì—ë„ ìƒŒë“¤ëŸ¬í˜•ì´ ì—¼ì†Œí˜•, ìƒ˜í˜•ì´ë‘ ì½¤ë¹„ë¥¼ ë³´ì—¬ì¤¬ëŠ”ë° ì•ìœ¼ë¡œë„ ì…‹ì´ ì¢‹ì€ ì˜í™” ë§Œë“¤ì–´ì¤¬ìœ¼ë©´ ì¢‹ê² ê³ ìš”. ì €ëŠ” ì´ ì˜í™”ë¥¼ ë³´ë©´ì„œ ë˜ ë§ì€ê²ƒì„ ë°°ìš°ê³  ê°€ë„¤ìš”. ê¸°ì–µì„ ìƒëŠ”ë‹¤ëŠ”ê²Œ ì•ˆì¢‹ì€ ê±°ì§€ë§Œ ì–´ë–»ê²Œ ë³´ë©´ ì¸ê°„ì´ ë§ê°ì˜ ë™ë¬¼ì´ê¸°ë•Œë¬¸ì— í–‰ë³µí•˜ê²Œ ì‚´ ìˆ˜ ìˆì§€ ì•Šë‚˜ ìƒê°ì´ ë“­ë‹ˆë‹¤. ì˜ˆì „ì— ì• ê¸°ë•Œ ì˜ëª»í•œê±° í‰ìƒê¸°ì–µí•˜ë©´ ë¶€ë„ëŸ¬ì›Œì„œ ì–´ë–»ê²Œ ì‚´ê² ì–´ìš”.ã…‹ã…‹
+ì œê°€ ì—°ì• ë¥¼ ëŠì€ì§€ê°€ ì˜¤ë˜ ëì§€ë§Œ ëŒ€ë¶€ë¶„ ì—°ì• ì˜ ì‹œì‘ë•ŒëŠ” ìƒëŒ€ë°©ì˜ ê²°ì ì´ í°ë¬¸ì œê°€ ë˜ì§€ ì•Šì–ì•„ìš”. ê·¸ë•Œì˜ ë§ˆìŒìœ¼ë¡œ ëŒì•„ê°„ë‹¤ë©´ ì‹¸ìš¸ì¼ì´ ìˆê² ì–´ìš”?ã…ã… ë‚œ ì œë°œ ì‹¸ìš°ëŠ” ìƒëŒ€ë¼ë„ ìˆì—ˆìœ¼ë©´ ì¢‹ê² ì–´. í‘í‘..ã…‹ã…‹ ì§€ê¸ˆ ëˆ„êµ°ê°€ì™€ ì„œë¡œ ì‚¬ë‘í•˜ê³  ê°€ì •ì„ ì´ë£¨ê³  ê³„ì‹  êµ¬ë¦°ì´ë“¤, ì•„ë‹ˆ ì•ìœ¼ë¡œ ëˆ„êµ°ê°€ì™€ ì‚¬ë‘í•˜ë©° ì§€ë‚¼ ëª¨ë“ ë¶„ë“¤ê»˜. ì„œë¡œ ì²˜ìŒ ì‚¬ë‘ì„ ê³ ë°±í• ë•Œ ê·¸ë•Œë¥¼ ì„¸ì´ë¸Œí¬ì¸íŠ¸ë¡œ ì§€ì •í•˜ê³  ê°€ë” ë‹¤ ìŠê³  ë‹¤ì‹œ ëŒì•„ê°€ ë³´ëŠ” ê²ƒì€ ì–´ë–¨ê¹Œìš”?
+í•˜ë£¨í•˜ë£¨ ë˜‘ê°™ì€ ì¼ìƒ, ë˜‘ê°™ì€ ìƒëŒ€, ìš°ë¦¬ëŠ” ì³‡ë°”í€´ë„ëŠ” ì‚¶ì„ ì‚¬ëŠ” ê²ƒ ê°™ì§€ë§Œ ì§€ê¸ˆ 1ë¶„ 1ì´ˆê°€ ì—¬ëŸ¬ë¶„ì—ê²Œ ë‹¤ì‹œ ë˜ëŒë¦¬ì§€ ëª»í•  ì˜í™”ì˜ ìƒˆì¥ë©´ê³  ì˜¤ëŠ˜ í•˜ëŠ” í‚¤ìŠ¤ë„ ë‹¤ì‹œëŠ” ëª» ì˜¬ ì²«í‚¤ìŠ¤ì…ë‹ˆë‹¤. ì¸ì§€í•˜ì§€ ëª»í–ˆì„ë¿ ì—¬ëŸ¬ë¶„ì´ í•´ì™”ë˜ ëª¨ë“  í‚¤ìŠ¤ëŠ” ëª¨ë‘ ì²«í‚¤ìŠ¤ë€ ë§ì…ë‹ˆë‹¤. ì˜¤ëŠ˜ë„ êµ¬ë¶ˆì´ ì‹«ì–´í•˜ëŠ” í‚¤ìŠ¤ë¥¼ í•˜ì‹œëŠ” ë‚˜ìœë¶„ë“¤ì´ ë§ê² ì§€ë§Œ ê¸°ì™• í•˜ì‹¤ê±°ë©´ ì˜¤ëŠ˜ë§Œí¼ì€ ì²«í‚¤ìŠ¤ì²˜ëŸ¼ í•´ë³´ëŠ”ê±´ ì–´ë–¨ê¹Œìš”?
+ì  ì¥, ë”ëŸ¬ìš´ í‚¤ìŠ¤ë¥¼ ì˜¤ì‹­ë²ˆì”©ì´ë‚˜ í•˜ëŠ” ê³µí¬ì˜í™”, ê·¸ëŸ¼ì—ë„ êµ¬ë¶ˆí•˜ê³  ì—¬ëŸ¬ë¶„ê»˜ ê¼­ ì¶”ì²œë“œë¦¬ëŠ”ì˜í™”, ì²«í‚¤ìŠ¤ë§Œ ì˜¤ì‹­ë²ˆì§¸ì˜€ìŠµë‹ˆë‹¤.
+êµ¬ë¦°ì´ë“¤.. ë½€ë½€ê¹Œê¹Œ?!
 "',null,null,null,'9bul@gmail.com','MR020',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','820','MR820','Ç×»ó Å°½º±îÁö¸¸ Çã¶ôÇÏ´Â ¿©ÀÚÄ£±¸ÀÇ ºñ¹Ğ','https://www.youtube.com/embed/pXrRjPs7LwI','" ·Î¸Ç½ºÀÇ Á¤¼®ÀÌ¶ó ºÒ¸®´Â ¿©·¯ ÀÛÇ° Áß¿¡, °¡º­¿ì¸é¼­ Àç¹Õ´Â.
-±×¸®°í ½Å¼±ÇÏÁö¸¸ ÀÍ¼÷ÇÑ, ÁÁÀº ÀÛÇ°ÀÔ´Ï´Ù.
-¹Ì±¹ ÄÚ¹Ìµğ ¹è¿ìÀÇ Àü¼³·Î ²ÅÈ÷´Â ¾Æ´ã »÷µé·¯¿Í, Àü¼º±â ¹Ì¸ğÀÇ µå·ù º£¸®¸ğ¾î¸¦ º¼ ¼ö ÀÖ´Â ¿µÈ­!
-¿À´Ã, ÀÌ ¿µÈ­ ¾î¶°¼¼¿ä?
-¸®ºä¸¦ ÇÏ¸é¼­ ÁÖ¿ä Àå¸é¹× °á¸»À» »© ³õ¾ÒÀ¸´Ï ²À ¿µÈ­¸¦ ½ÃÃ»ÇØº¸½Ã±æ ¹Ù¶ø´Ï´Ù! - ''¹«ºñÄÚ¸àÆ®''´Â À¯Æ©ºê¿¡¸¸ ¾÷·Îµå µË´Ï´Ù.
-¿µÈ­Á¦¸ñ : Ã¹Å°½º¸¸ 50¹øÂ° (2004)
-#·Î¸Ç½º¿µÈ­ #·Î¸ÇÆ½ÄÚ¹Ìµğ
-#¿µÈ­ÃßÃµ #¿µÈ­¸®ºä #¿µÈ­ÈÄ±â #¿µÈ­À¯Æ©ºê
-#¿µÈ­¸ñ¼Ò¸® #ÀÚÃë¹æ³²ÀÚ #¿µÈ­¼Ò°³ #±³ÈÆ¿µÈ­
-#Ã¹Å°½º¸¸ 50¹øÂ° #µå·ùº£¸®¸ğ¾î #Ã¹Å°½º¿µÈ­ #±â¾ï»ó½Ç #±â¾ï¿µÈ­
-#¾Æ´ã»÷µé·¯"',null,null,null,'aloneman@daum.net','MR020',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','821','MR821','´Ü±â ±â¾ï»ó½ÇÁõ¿¡ °É¸° ¿©ÀÚ°¡ ¿¬¾ÖÇÏ´Â ¹æ¹ı','https://www.youtube.com/embed/5NFK1-FbeEw','Ã¹ Å°½º¸¸ 50¹øÂ° (2004) ÁÖ¿¬ : µå·ù º£¸®¸ğ¾î, ¾Æ´ã »÷µé·¯',null,null,null,'jackkongs@hotmail.com','MR020',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','822','MR822','¸ÅÀÏ ±â¾ïÀ» ÀÒ¾î¹ö¸®´Â ¿©ÀÚ¿Í »ê´Ù´Â°Ç /Ã¹Å°½º¸¸ 50¹øÂ° [°á¸»Æ÷ÇÔ|¿µÈ­¼Ò°³]','https://www.youtube.com/embed/y1c-LbjBLFw','ÀÌ¹ø¿¡ ¼Ò°³ÇÑ ¿µÈ­´Â 2004³â¿¡ °³ºÀÇÑ ''Ã¹Å°½º¸¸ 50¹øÂ°''ÀÔ´Ï´Ù. ¸ÅÀÏ ¸ÅÀÏ ±â¾ïÀ» ÀÒ¾î¹ö¸®´Â »îÀ» »ì°ÔµÈ´Ù¸é ¾î¶»°Ô ±×³à¿¡°Ô ´Ù°¡°¥¼ö ÀÖÀ»±î¿ä? ±â¾ïÀ» ÀÒ¾ú´Ù´Â Çö½ÇÁ¶Â÷ ÀÎÁöÇÏÁö ¸øÇÏ°Ô ²Ù¸çÁÖ±â? ¾Æ´Ï¸é ¸ğµÎ´Ù ¾Ë·ÁÁÖ°í³ª¼­ ÀÚ½Å¸¸ÀÇ »îÀ» »ì¼öÀÖµµ·Ï µµ¿ÍÁÖ±â °ú¿¬ Çî¸®´Â ¾î¶² ¼±ÅÃÀ» ÇÏ°ÔµÉ±î¿ä ¿µÈ­´öÈÄ Ã¤³ÎÀº ¸ÅÁÖ ±İ¿äÀÏ ¿ÀÈÄ6½Ã¿¡ ¿µ»óÀ» ¾÷·ÎµåÇÒ ¿¹Á¤ÀÔ´Ï´Ù. ¿µÈ­¼Ò°³°¡ ±¦Âú¾Ò´Ù¸é ÁÁ¾Æ¿ä ±¸µ¶ ´ñ±Û ´­·¯ÁÖ½Ã¸é Á¤¸» °¨»çÇÕ´Ï´Ù. ³¡±îÁö ¿µ»ó ºÁÁÖ½Å ºĞµé ¸ğµÎ °¨»çµå·Á¿ä',null,null,null,'otaku@daum.net','MR020',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','823','MS823','°á±¹, ºÎÀÚµéÀº ¼¼»óÀ» Áö¹èÇßÀ¸¸ç ºó¹ÎÃş¸¸ÀÌ °íÅë¹Ş¾Æ¾ß Çß´Ù','https://www.youtube.com/embed/307sKZV7kcE',null,null,null,null,'mimi@naver.com','MS001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','824','MS824','2154³â, ·Îº¿¿¡ ÀÇÇØ ÅëÁ¦µÇ´Â ¹Ì·¡ Áö±¸(°á¸»Æ÷ÇÔ)','https://www.youtube.com/embed/voJPvpn5MsY',null,null,null,null,'girl@hotmail.com','MS001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','825','MS825','(¿µÈ­¸®ºä °á¸»Æ÷ÇÔ)°á¸»Æ÷ÇÔ ¿äÃ»ÀÌ °¡Àå ¸¹¾Ò´ø ¿µÈ­','https://www.youtube.com/embed/2eGJWLKSgGI','ÀÇ·áº¸ÇèÀÇ Áß¿ä¼º',null,null,null,'spoilerman99@hotmail.com','MS001',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','826','MS826','[¿µÈ­°¡ ÀüÇÏ°íÀÚ Çß´ø °Í][SFÁıÁßºĞ¼®#15](½ºÆ÷ÀÏ·¯)','https://www.youtube.com/embed/Iz6p0PnrA2o',null,null,null,null,'spoilerman99@hotmail.com','MS002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','827','MS827','ÀÎÅÍ½ºÅÚ¶ó','https://www.youtube.com/embed/IGXpRtfKaL0',null,null,null,null,'lookmun@daum.net','MS002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','828','MS828','ÀÎÅÍ½ºÅÚ¶ó ¿µÈ­ ¸®ºä (Film Interstellar Review)','https://www.youtube.com/embed/yshbEWiY3Ww',null,null,null,null,'core@yahoo.com','MS002',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','829','MS829','ÇØ±ºvs¿ìÁÖÀÎ','https://www.youtube.com/embed/izLc-P40vRk',null,null,null,null,'baebae@gmail.com','MS003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','830','MS830','¾î´À ³¯, ¹Ù´Ù ÇÑ°¡¿îµ¥ ¿Ü°è ±¸Á¶¹°ÀÌ Áö±¸¸¦ °ø°İÇÑ´Ù.','https://www.youtube.com/embed/cHtyagerwl4',null,null,null,null,'freeticket@yahoo.com','MS003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','831','MS831','ÀÎ·ùÀÇ ÃÊ´ë¸¦ ¹Ş°í Áö±¸·Î ¿Â ¿Ü°èÀÎÀÇ ÃÖÈÄ','https://www.youtube.com/embed/6dEm9RQff1I','ÃÊ´ëÇÒ¶© ¾ğÁ¦°í..',null,null,null,'freeticket@yahoo.com','MS003',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','832','MS832','´ë ÃÖ°íÀÇ ´öÁú°ú Ãß¾ïÆÈÀÌ! ²ŞÀ» ±×¸° ±âÀûÀÇ ¿µÈ­: ·¹µğ ÇÃ·¹ÀÌ¾î ¿ø','https://www.youtube.com/embed/e2TEztQPCuA','Àú±ŞÇÑ ´ëÁß¹®È­ ´öÈÄµéÀ» À§ÇÑ Ãß¾ïÆÈÀÌ ÇÑ¸¶´ç.',null,null,null,'liner@hotmail.com','MS004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','833','MS833','¶Ñ·ÇÇÑ ÀåÁ¡¸¸Å­ ÇÑ°èµµ ¸íÈ®ÇÑ ¡¸·¹µğ ÇÃ·¹ÀÌ¾î ¿ø¡¹ ¸®ºä','https://www.youtube.com/embed/sbMQfekVpDg','ÂªÀº Æò : ½ºÇÊ¹ö±×ÀÌ±â¿¡ ´õ ÀÇ¹ÌÀÖ¾ú´ø ´ëÁß¹®È­¸¦ ÇâÇÑ »ç¶û°í¹é, ÇÏÁö¸¸ ½ºÇÊ¹ö±×±â¿¡ ''Á¶±İ ´õ''¸¦ ¹Ù¶ó´Â °Ç °úÇÑ ±â´ëÀÏ±î?',null,null,null,'duna@daum.net','MS004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','834','MS834','·¹µğ ÇÃ·¹ÀÌ¾î ¿ø, ¿µÈ­°¡ ÁÁ´Ù','https://www.youtube.com/embed/vXTamvu9Lds','¿µÈ­°¡ ÁÁ´Ù(180505), 1+1, ·¹µğ ÇÃ·¹ÀÌ¾î ¿ø',null,null,null,'movieworld@yahoo.com','MS004',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','835','MS835','µ¿¸é¿¡¼­ ±ú¾î³ª ÀÎ°£°ú ¸¶ÁÖÄ£ ¿ùµîÇÑ °í´ë ÀÎ·ù','https://www.youtube.com/embed/POazQcWqW30','¿Ü°èÀÎÀÇ À¯ÀüÀÚ Á¶ÀÛÀ¸·Î Åº»ıÇÑ ÀÎ°£ÀÌ , Ã¢Á¶ÁÖÀÎ ¿Ü°èÀÎÀ» Ã£¾Æ³ª¼­ ÀÎ·ù ±â¿øÀÇ ºñ¹ĞÀ» ¹àÈ÷´Â...',null,null,null,'filmcasterian99@hotmail.com','MS005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','836','MS836','ÀÎ°£À» ¸¸µç°Ô ¿Ü°èÀÎÀÌ¶ó¸é?(ÇÁ·Î¸ŞÅ×¿ì½º','https://www.youtube.com/embed/LM9hLqk-4d0','-ÇÁ·Î¸ŞÅ×¿ì½º (Prometheus, 2012)',null,null,null,'dopan@daum.net','MS005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','837','MS837','¿µÈ­ [ÇÁ·Î¸ŞÅ×¿ì½º]ÀÇ Ãæ°İÀûÀÎ ¸Ş¼¼Áö(½ºÆ÷¸®ºä)','https://www.youtube.com/embed/Oxjh34nmeAQ',null,null,null,null,'sogaenam@naver.com','MS005',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','838','MS838','´Ü 10ÀÏ ¸¸¿¡ ºùÇÏ±â°¡ Ã£¾Æ¿Â Áö±¸ | Åõ¸ğ·Î¿ì | Àç³­ | Å³Å¸(Å³¸µÅ¸ÀÓ) | ¿µÈ­ÃßÃµ','https://www.youtube.com/embed/waoMEeFuqzs','- Åõ¸ğ·Î¿ì - °³ºÀ : 2004 Àå¸£ : µå¶ó¸¶, SF, ½º¸±·¯ °¨µ¶ : ·Ñ·£µå ¿¡¸Ó¸®È÷ Ãâ¿¬ : µ¥´Ï½º ÄùÀÌµå, Á¦ÀÌÅ© Áú·»ÇÒ, ÀÌ¾È È¨, ¿¡¹Ì ·Î¼¶',null,null,null,'killtarian131@yahoo.com','MS006',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','839','MS839','ºùÇÏ±â·Î µ¹¾Æ°£ Áö±¸ [°á¸»Æ÷ÇÔ]','https://www.youtube.com/embed/HZkETfxZh-A','¿©¸§Æ¯Áı ¿µÈ­ ''Åõ¸ğ·Î¿ì(2004)'' ÀÔ´Ï´Ù',null,null,null,'10movie@gmail.com','MS006',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','840','MS840','°ø·æÀ» ¸êÁ¾½ÃÅ² ºùÇÏ±â°¡ ´Ù½Ã Ã£¾Æ¿Â Áö±¸ÀÇ ÃÖÈÄ','https://www.youtube.com/embed/5jRuEaJxuGM',null,null,null,null,'shong@hotmail.com','MS006',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','841','MS841','160¹ø Á×¾î¾ß ÇÏ´Â ³²ÀÚ?','https://www.youtube.com/embed/v7MmEPmpI3o',null,null,null,null,'9bul@gmail.com','MS007',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','842','MS842','¿Ü°èÀÎÀÇ ÇÇ¸¦ Èí¼öÇÏ°í Á×Áö ¸øÇÏ´Â ³²ÀÚ!','https://www.youtube.com/embed/eE8KmXrZU7M','¿µÈ­ : ¿§Áö ¿Àºê Åõ¸ğ·Î¿ì (Edge of Tomorrow) °¨µ¶ : ´õ±× ¶óÀÌ¸¸ Á¦ÀÛ : 2014',null,null,null,'murf@gmail.com','MS007',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','843','MS843','¿Ü°èÀÎ°ú À¶ÇÕÇÑ ³²ÀÚ','https://www.youtube.com/embed/xfobC9Cm1qI','¿©·¯ºĞ ¾È³çÇÏ¼¼¿ä »ß¸ÇÀÔ´Ï´Ù. ¿À´ÃÀº ¿µÈ­ ''¿§Áö ¿Àºê Åõ¸¶·Î¿ì''¿¡ ´ëÇØ Á¤¸®ÇØ º¸·ÁÇÕ´Ï´Ù. ¾Æ¹«·± ±â´ëµµ ¾øÀÌ °ü¶÷Çß´ø ¿µÈ­ÀÎµ¥ ¹İÇØ ±× Àç¹Ì°¡ ¾öÃ»³ª¼­ °³ÀÎÀûÀ¸·Î Åè ¾ÆÀú¾¾ÀÇ ¿µÈ­µé Áß Top3 ¾È¿¡´Â µç´Ù°í »ı°¢ÇÕ´Ï´Ù.',null,null,null,'bman@yahoo.com','MS007',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','844','MS844','Á¦ÀÓ½º Ä«¸Ş·Ğµµ ¸°´Ù ÇØ¹ĞÅÏµµ ¿Ô´Âµ¥ ½º¸±Àº ¾îµğ·Î °¬³ª: ÅÍ¹Ì³×ÀÌÅÍ: ´ÙÅ©ÆäÀÌÆ® ¸®ºä','https://www.youtube.com/embed/Kx6fSDyHZ-k','°ú°¨ÇÏ°Ô ½Ã¸®Áî¸¦ ¸®ºÎÆ®ÇßÁö¸¸ Àç¹Ì¿Í ½º¸±Àº ¾îµğ·Î °¡°í Ãß¾ïÆÈÀÌ¸¸ ³²¾Ò³ª. ¶óÀÌ³Ê¿¡¼­ Á¦°øÇÏ´Â ÅÍ¹Ì³×ÀÌÅÍ: ´ÙÅ©ÆäÀÌÆ® ¸®ºäÀÔ´Ï´Ù',null,null,null,'liner@hotmail.com','MS008',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','845','MS845','ÅÍ¹Ì³×ÀÌÅÍ ´ÙÅ© ÆäÀÌÆ® ¸®ºä (°¨µ¶ Ä£ÇÊ ½ÎÀÎ ÇÇ±Ô¾î ÀÌº¥Æ®, ½ºÆ÷ Æ÷ÇÔ)','https://www.youtube.com/embed/j_13slAOO6k','ÅÍ¹Ì³×ÀÌÅÍ ÆÒÀÌ¶ó¸é ´ÙÅ© ÆäÀÌÆ® ¹İµå½Ã ²À º¸¼¼¿ä.',null,null,null,'minho@gmail.com','MS008',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','846','MS846','¿µÈ­ [ÅÍ¹Ì³×ÀÌÅÍ : ´ÙÅ© ÆäÀÌÆ®] ¸®ºä','https://www.youtube.com/embed/u207DOczUYM','ÅÍ¹Ì³×ÀÌÅÍ : ´ÙÅ© ÆäÀÌÆ® / 2019³â 10¿ù 30ÀÏ °¨µ¶ : ÆÀ ¹Ğ·¯ ¹è¿ì : ¸ÆÄËÁö µ¥ÀÌºñ½º, ¾Æ³îµå ½´¿ĞÁ¦³×°Å, ¸°´Ù ÇØ¹ĞÅÏ, ³ªÅ»¸®¾Æ ·¹ÀÌÁî',null,null,null,'ddaddasi@hotmail.com','MS008',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','847','MS847','ÇÑ ¼ø°£ÀÇ ¾Æ¸§´Ù¿òÀ» À§ÇØ ¼ÒºñµÇ´Â ½Ã°£µé: ÆÛ½ºÆ®¸Ç ¸®ºä','https://www.youtube.com/embed/FvC_5e9M2y4','²ŞÀ» ÂÑ´Â ³²ÀÚ, ´Ò ¾Ï½ºÆ®·Õ. ÀÎ·ù ÃÖÃÊ·Î ´Ş¿¡ °£ »ç³ªÀÌ. ¿ìÁÖ¿Í ´Ş. ÀÎ·ù. Áö±¸. ¾ĞµµÀûÀÎ ÀÌ¹ÌÁö, ¿µÈ­´Â ÀÌ¹ÌÁöÀÇ ¿¹¼úÀÌ¶ó´Â °Í.',null,null,null,'liner@hotmail.com','MS009',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','848','MS848','³î¶ó¿ï Á¤µµ·Î Áö·çÇÑ ¿µÈ­ : ''ÆÛ½ºÆ®¸Ç''¸®ºä','https://www.youtube.com/embed/4HphZDPvKjM','* º» ¿µ»óÀº ½ºÆ÷ÀÏ·¯°¡ ´Ù¼ö Æ÷ÇÔµÇ¾î ÀÖ½À´Ï´Ù *',null,null,null,'aloneman@daum.net','MS009',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','849','MS849','¶ó¶ó·£µå °¨µ¶ ¿µÈ­ ''ÆÛ½ºÆ®¸Ç'' ¼ÖÁ÷ °¨»ó ÈÄ±â','https://www.youtube.com/embed/_GYi8pkzYLE',null,null,null,null,'minho@gmail.com','MS009',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','850','MS850','±× ³²ÀÚÀÇ ±íÀÌ°¡ µå·¯³­, ¿ÃÇØ °¡Àå Ã¶ÇĞÀûÀÎ SF ¿µÈ­: ¾Öµå ¾Æ½ºÆ®¶ó ¸®ºä','https://www.youtube.com/embed/TmiAlrenUcc','ºê·¡µå ÇÇÆ®ÀÇ ¿ìÁÖ ¿µÈ­. ¿ÃÇØ °¡Àå Ã¶ÇĞÀûÀÎ SF ¿µÈ­. ¶Ç ÇÑ¹øÀÇ ±×·¡ºñÆ¼. Á¦ÀÓ½º ±×·¹ÀÌ °¨µ¶ÀÌ ÆîÄ¡´Â ±æ°í ´À¸®°í, ±íÀº ¿ìÁÖÀÇ ÀÌ¾ß±â.',null,null,null,'liner@hotmail.com','MS010',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','851','MS851','¾Öµå ¾Æ½ºÆ®¶ó °¡ÀÌµå ¸®ºä','https://www.youtube.com/embed/gZD9gIwbpiw',null,null,null,null,'nofootbird@gmail.com','MS010',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','852','MS852','¿ìÁÖ ³¡¿¡ µµ´ŞÇÏ¸é ¹ú¾îÁö´Â ÀÏ [¾Öµå¾Æ½ºÆ®¶ó¸®ºä]','https://www.youtube.com/embed/3Zo8HbrLL44','Á¦ÀÓ½º ±×·¹ÀÌ °¨µ¶, ºê·¡µå ÇÇµå ÁÖ¿¬ÀÇ ¿ìÁÖ SF ¿µÈ­ ¾Öµå¾Æ½ºÆ®¶ó ¸®ºäÀÔ´Ï´Ù.',null,null,null,'reviewang@gmail.com','MS010',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','853','MS853','È­¼º¿¡ È¦·Î ³²°ÜÁ® »ï½Ã¼¼³¢¸¦ Âï´Â ³²ÀÚ | ¸¶¼Ç | ¸ğÇè,SF | Å³Å¸(Å³¸µÅ¸ÀÓ) | ¿µÈ­ÃßÃµ','https://www.youtube.com/embed/EpgPSztcoWE',null,null,null,null,'killtarian131@yahoo.com','MS011',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','854','MS854','ÃµÀç ½Ä¹°ÇĞ ¹Ú»ç°¡ È­¼º¿¡ È¥ÀÚ ¶³¾îÁö¸é?','https://www.youtube.com/embed/vHuODKePk00','È­¼º¿¡¼­ »ì¾Æ³²±â',null,null,null,'dreamteller@daum.net','MS011',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','855','MS855','°¡ÀÌµå ¸®ºä - ¸¶¼Ç','https://www.youtube.com/embed/rTN4Meuzsqk','¿©·¯ºĞÀÌ ¸¶¼ÇÀ» °ü¶÷ÇÏ½Ç ¶§ ¶Ç´Â °ü¶÷À» °áÁ¤ÇÏ½Ç ¶§ Á¶±İÀÌ³ª¸¶ µµ¿òÀÌ µÆÀ¸¸é ÇÕ´Ï´Ù.',null,null,null,'nofootbird@gmail.com','MS011',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','856','MS856','°ÔÀÓ ¼Ó Ä³¸¯ÅÍ¸¦ Á÷Á¢ ¸¸³¯¼ö ÀÖ´Ù¸é?','https://www.youtube.com/embed/EDB9TS-mbBE','¿µÈ­ Á¦¸ñ: ÇÈ¼¿',null,null,null,'fallinfilm@hotmail.com','MS012',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','857','MS857','°íÀü°ÔÀÓÀÌ Çö½ÇÈ­µÇ¸é ¹ú¾îÁö´Â ÀÏ','https://www.youtube.com/embed/9yymmq4OWe0',null,null,null,null,'popcorncake@yahoo.com','MS012',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','858','MS858','ÇÈ¼¿ / ¿µÈ­ P¸®ºä','https://www.youtube.com/embed/PZP5h3c9Opc',null,null,null,null,'moviemonster@yahoo.com','MS012',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','859','MS859','¼¼°è ÃÖÃÊ »ìÀÎ ·Îº¿ÀÇ Åº»ı','https://www.youtube.com/embed/B0DWUjcok1I','Àú´Â ¾î¸±ÀûÀÇ ±â¾ïÀ» µÇ»ì·Á¼­, ÃÖ±Ù¿¡ ´Ù½Ã ºÃ½À´Ï´Ù. ¿ª½Ã´Â ¿ª½Ã´õ±º¿ä! 2004³â ÀÛÀÌ¶ó°í »ı°¢ÀÌ µéÁö ¾ÊÀ» ¸¸Å­ ¾öÃ»³­ ÀÛÇ°ÀÌ¾ú½À´Ï´Ù. ÀÛÇ° ¼Ó¿¡ ´ã°í ÀÖ´Â ÀÎ°øÁö´É¿¡ ´ëÇÑ °¨µ¶ÀÇ ÀÇ°ßÀÌ ¾ÆÁÖ Èï¹Ì·Î¿ü¾î¿ä! °Å±â´Ù°¡, Àª½º¹Ì½ºÀÇ ¼½½ÃÇÑ ¸ğ½À±îÁö °çµéÀÌ´Ï Á¤¸» ÁÁ¾Ò½À´Ï´Ù! ¸®ºä¸¦ ÇÏ¸é¼­ ÁÖ¿ä Àå¸é¹× °á¸»À» »© ³õ¾ÒÀ¸´Ï ²À ¿µÈ­¸¦ ½ÃÃ»ÇØº¸½Ã±æ ¹Ù¶ø´Ï´Ù!',null,null,null,'aloneman@daum.net','MS013',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','860','MS860','2035³â, ÀÎ·ù¸¦ À§ÇùÇÏ´Â ·Îº¿ [°á¸»Æ÷ÇÔ]','https://www.youtube.com/embed/fE-z-VWGg-M','Á¦¸ñ : ¾ÆÀÌ, ·Îº¿ (2004³â ÀÛÇ°)',null,null,null,'ezip@daum.net','MS013',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','861','MS861','·Îº¿ÀÌ ÁøÈ­¸¦ °ÅÃÄ ÀÎ°£À» Áö¹èÇÑ´Ù¸é?! | ¾ÆÀÌ·Îº¿ | SF | Å³Å¸(Å³¸µÅ¸ÀÓ) | ¿µÈ­ÃßÃµ','https://www.youtube.com/embed/lZAjmNQLwGM','- ¾ÆÀÌ·Îº¿ - °³ºÀ : 2004 Àå¸£ : SF,¾×¼Ç,¸ğÇè °¨µ¶ : ¾Ë·º½º ÇÁ·Î¾ß½º Ãâ¿¬ : Àª ½º¹Ì½º, ºê¸®Áş ¸ğÀÌ³ªÇÑ, ºê·ç½º ±×¸°¿ìµå',null,null,null,'killtarian131@yahoo.com','MS013',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','862','MS862','³²Àº ¼ö¸íÀ¸·Î Ä¿ÇÇ¸¦ »ç´Â ¹Ì·¡','https://www.youtube.com/embed/WDObEuXMGrA',null,null,null,null,'dreamteller@daum.net','MS014',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','863','MS863','ÀÎ°£ÀÇ ¼ö¸íÀ» »ç°íÆÈ ¼ö ÀÖ°Ô µÇ¾úÀ»¶§ ºÎÀÚµéÀÇ »î','https://www.youtube.com/embed/TufdhfNgl00',null,null,null,null,'please@naver.com','MS014',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','864','MS864','¡ºÀÎÅ¸ÀÓ ¿µÈ­¸®ºä¡» ºÎÀÚµéÀÌ »ç¶÷µéÀ» ÅëÁ¦ÇÏ´Â ¹æ¹ı','https://www.youtube.com/embed/Rv55AQNC15Q','¿µÈ­: ÀÎÅ¸ÀÓ(2011) °¨µ¶: ¾Øµå·ù ´ÏÄİ Ãâ¿¬: ¾Æ¸¸´Ù »çÀÌÇÁ¸®µå,Àú½ºÆ¾ ÆÀ¹ö·¹ÀÌÅ©',null,null,null,'boyboy@gmail.com','MS014',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','865','MS865','È¤¼ºÅ»Ãâ ½Ã¸®Áî ÃÑÁ¤¸®','https://www.youtube.com/embed/Xm8raayuDMI','°¡Àå ¼º°øÀûÀÎ ¸®ºÎÆ® ¿µÈ­ÀÌÀÚ °¡Àå °¨¼ºÀûÀÎ SF¿µÈ­, È¤¼ºÅ»Ãâ ½Ã¸®Áî. ´ë´Ü¿øÀÇ ¸¶Áö¸·À» Àå½ÄÇÒ 3Æí ''È¤¼ºÅ»Ãâ: Á¾ÀÇ ÀüÀï''ÀÌ 8¿ù 15ÀÏ °³ºÀÀ» ¾ÕµÎ°í ÀÖ½À´Ï´Ù. 1,2ÆíÀÇ ÁÖ¿ä ÁÙ°Å¸®¿Í È¤¼ºÅ»Ãâ ½Ã¸®ÁîÀÇ ÇÙ½ÉÀÌ¶ó ÇÒ ¼ö ÀÖ´Â ¸ğ¼ÇÄ¸ÃÄ, ½ÃÀú¸¦ ¿¬±âÇÑ ¾Øµğ ¼­Å°½º¿¡ ´ëÇØ ¾Ë¾Æº¾´Ï´Ù.',null,null,null,'gongu@yahoo.com','MS015',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','866','MS866','È¤¼ºÅ»Ãâ ½Ã¸®Áî ¿ÏÀüÁ¤º¹','https://www.youtube.com/embed/WlGGTqTFMaM','È¤¼ºÅ»ÃâÀÇ ¸ğµç °ÍÀ» ¾Ë¾Æº¸ÀÚ! (¼Ò¼³, ¿À¸®Áö³Î ½Ã¸®Áî, ÆÀ ¹öÆ° °¨µ¶ÀÇ È¤¼ºÅ»Ãâ, ¸®ºÎÆ® ½Ã¸®Áî)',null,null,null,'hipparachi@yahoo.com','MS015',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','867','MS867','È¤¼ºÅ»Ãâ Á¾ÀÇ ÀüÀï ¸®ºä : °í±ÍÇÑ ¿µ¿õÀÇ Ç°°İ ÀÖ´Â ÅğÀå - ¶óÀÌ³Ê','https://www.youtube.com/embed/LHrBJzZyNCU','È¤¼ºÅ»Ãâ »ïºÎÀÛÀ» ¸¶¹«¸®Áş´Â È¤¼ºÅ»Ãâ Á¾ÀÇ ÀüÀïÀÌ °³ºÀÇß½À´Ï´Ù. ÈçÄ¡ ¾ÊÀº SF ºí·Ï¹ö½ºÅÍ·Î¼­ ¼º°øÀûÀÎ ¸¶¹«¸®¸¦ ÇØ³½ Á¾ÀÇ ÀüÀï. ¶óÀÌ³Ê¿Í ÇÔ²² ÀÌ ¿µÈ­ÀÇ °¡Ä¡¿Í ³»¿ëÀ» »ìÆìº¸¼¼¿ä.',null,null,null,'liner@hotmail.com','MS015',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','868','MS868','[2001 ½ºÆäÀÌ½º ¿Àµğ¼¼ÀÌ] ½ºÅä¸®','https://www.youtube.com/embed/4yC7GJ4ZSXc',null,null,null,null,'contentplayer00@yahoo.com','MS016',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','869','MS869','[2001 ½ºÆäÀÌ½º ¿Àµğ¼¼ÀÌ] ½ºÅä¸® & Æ÷ÀÎÆ® ¸®ºä (2ºÎ)','https://www.youtube.com/embed/-ZaTr7zXX2s',null,null,null,null,'contentplayer00@yahoo.com','MS016',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','870','MS870','[2001 ½ºÆäÀÌ½º ¿Àµğ¼¼ÀÌ] ½ºÅä¸®&Æ÷ÀÎÆ® ¸®ºä (3ºÎ)','https://www.youtube.com/embed/dvz8SQFAKuA',null,null,null,null,'contentplayer00@yahoo.com','MS016',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','871','MS871','ÀÌÁ¦´Â ³õ¾ÆÁà¿ä. ±×¸®°í ´Ù½Ã ÀÏ¾î³ª, °É¾î¿ä: ±×·¡ºñÆ¼ ¸®ºä','https://www.youtube.com/embed/J9vrphPj2XY','Àç°³ºÀ ±â³äÀ¸·Î 8¿ù ¸»¿¡ ¿Ã·È´ø ±×·¡ºñÆ¼ ¸®ºäÀÔ´Ï´Ù.
-ÃÖ°íÀÇ ¿ìÁÖ ¿µÈ­.
-´õ ÀÌ»óÀÇ ÀÚ¼¼ÇÑ ¼³¸íÀº »ı·«ÇÕ´Ï´Ù.',null,null,null,'liner@hotmail.com','MS017',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','872','MS872','¿ª´ë ÃÖ°íÀÇ ¿ìÁÖ¿µÈ­','https://www.youtube.com/embed/sFmtwSOYLNQ','Æò´Ü°ú °ü°´À» ¸ğµÎ ¸¸Á·½ÃÅ² 21¼¼±â ÃÖ°íÀÇ ¿ìÁÖ¿µÈ­, ±×·¡ºñÆ¼ÀÇ Á¦ÀÛ ºñÇÏÀÎµå¸¦ ¾Ë¾Æº¾´Ï´Ù.',null,null,null,'gongu@yahoo.com','MS017',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','873','MS873','±×·¡ºñÆ¼ : ½ÇÁ¸ÁÖÀÇ·Î Ç®¾îº¸´Â ¿µÈ­ÀÇ Á¦¸ñ "Áß·Â"ÀÇ ÀÇ¹Ì [ÆËÄÜÆ®¸®]','https://www.youtube.com/embed/vnP9U2qWKuA','½ÇÁ¸ÁÖÀÇ¿Í ÀÎ°£¿¡ ´ëÇØ ¾Ë¾Æº¸°í
-¿µÈ­ ±×·¡ºñÆ¼ÀÇ ÀÇ¹Ì¸¦ ½ÇÁ¸ÁÖÀÇ·Î Ç®¾îº¸´Â ¿µ»óÀÔ´Ï´Ù.',null,null,null,'mypopcorntree@yahoo.com','MS017',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','874','MS874','Áö±¸ ÃÊÅäÈ­ ³¡ÆÇ¿Õ','https://www.youtube.com/embed/Hmzn71U8hms',null,null,null,null,'gongu@yahoo.com','MS018',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','875','MS875','[¹«ºñ¾î] ÀÎµğÆæ´ø½ºµ¥ÀÌ - ¸®½áÀü½º ¸®ºä','https://www.youtube.com/embed/0RBtlfciTtA',null,null,null,null,'jayque@daum.net','MS018',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','876','MS876','2016 ÀÎµğÆæ´ø½ºµ¥ÀÌ2:¸®½áÀü½º ¸®ºä ÀÔ´Ï´Ù. Independence Day: Resurgence REVIEW','https://www.youtube.com/embed/zh5Ww26zgXk',null,null,null,null,'suspect@gmail.com','MS018',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','877','MS877','¹Ì·¡ÀÇ ÀÎ·ù°¡ ÇÏ´Ã À§¿¡¼­ »ç´Â ÀÌÀ¯','https://www.youtube.com/embed/ccQi_KU8vn8',null,null,null,null,'mimi@naver.com','MS019',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','878','MS878','ÇÙÀüÀï 60³â ÀÌÈÄÀÇ Áö±¸','https://www.youtube.com/embed/1TFO0am6RPU','¿À´ÃÀº ¿µÈ­ ''¿Àºí¸®ºñ¾ğ''¿¡ ´ëÇØ¼­ ¾Ë¾Æº¸·Á°í ÇÕ´Ï´Ù. 2013³â °³ºÀÀÛÀ¸·Î ÁøºÎÇÑ ¿Ü°è»ı¹°Ã¼ vs ÀÎ°£ÀÇ ±¸µµ¸¦ °®°í ÀÖÁö¸¸, Æ¯ÀÌÇÑ ´ë¸³±¸Á¶¸¦ °®°í ÀÖ°í, °Å±â¿¡ ¾ğÁ¦ºÁµµ ¿¹¼ú°°Àº ±×·¡ÇÈÀº ¿ª´ë ¿µÈ­µé Áß¿¡¼­ °¡Àå ¾Æ¸§´ä´Ù°í ÇØµµ °ú¾ğÀÌ ¾Æ´Ñ °Í °°½À´Ï´Ù. ¹è¿ìµéÀÇ ¿¬±â, ¸Ş¼¼Áö ±×¸®°í ¿Ï¼ºµµ±îÁö ¸ğµÎ ÀâÀº ¿µÈ­ÀÔ´Ï´Ù. ²À ÇÑ¹ø Ã£¾Æº¸½Ã±â ¹Ù¶ø´Ï´Ù.',null,null,null,'bman@yahoo.com','MS019',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','879','MS879','ÇÙÀüÀï ÀÌÈÄ ¿Ü°èÀÎÀ¸·ÎºÎÅÍ Áö±¸¸¦ ÁöÅ°´Â ÇÑ ³²ÀÚ','https://www.youtube.com/embed/wofMniEuMSc','Åè Å©·çÁî,¸ğ°ÇÇÁ¸®¸Õ ÁÖ¿¬ÀÇ 2013 ¿Àºí¸®ºñ¾ğ ÀÔ´Ï´Ù.',null,null,null,'jum@hotmail.com','MS019',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','880','MS880','±¤È°ÇÑ ¿ìÁÖ ¼Ó¿¡ ³ª È¥ÀÚ ³²°Ô µÈ´Ù¸é ¹«¾ùÀ» ÇÒ±î','https://www.youtube.com/embed/FlsfG2kVtuo',null,null,null,null,'ddubuni@hotmail.com','MS020',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','881','MS881','ÀáÀÚ´Â ¹Ì³à¸¦ 90³â ÀÏÂï ±ú¿ì¸é »ı±â´Â ÀÏ![¿µÈ­¸®ºä]','https://www.youtube.com/embed/pTCawW51tlM',null,null,null,null,'suspect@gmail.com','MS020',to_date('20/02/19','RR/MM/DD'));
-Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','882','MS882','¿ìÁÖ¿¡ ³ª È¥ÀÚ ±ú¾î³µ´Ù¸é ¿µÈ­ ÆĞ½ÅÀú½º','https://www.youtube.com/embed/S2lwjijNaRs',null,null,null,null,'314@gmail.com','MS020',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','820','MR820','í•­ìƒ í‚¤ìŠ¤ê¹Œì§€ë§Œ í—ˆë½í•˜ëŠ” ì—¬ìì¹œêµ¬ì˜ ë¹„ë°€','https://www.youtube.com/embed/pXrRjPs7LwI','" ë¡œë§¨ìŠ¤ì˜ ì •ì„ì´ë¼ ë¶ˆë¦¬ëŠ” ì—¬ëŸ¬ ì‘í’ˆ ì¤‘ì—, ê°€ë²¼ìš°ë©´ì„œ ì¬ë°ŒëŠ”.
+ê·¸ë¦¬ê³  ì‹ ì„ í•˜ì§€ë§Œ ìµìˆ™í•œ, ì¢‹ì€ ì‘í’ˆì…ë‹ˆë‹¤.
+ë¯¸êµ­ ì½”ë¯¸ë”” ë°°ìš°ì˜ ì „ì„¤ë¡œ ê¼½íˆëŠ” ì•„ë‹´ ìƒŒë“¤ëŸ¬ì™€, ì „ì„±ê¸° ë¯¸ëª¨ì˜ ë“œë¥˜ ë² ë¦¬ëª¨ì–´ë¥¼ ë³¼ ìˆ˜ ìˆëŠ” ì˜í™”!
+ì˜¤ëŠ˜, ì´ ì˜í™” ì–´ë– ì„¸ìš”?
+ë¦¬ë·°ë¥¼ í•˜ë©´ì„œ ì£¼ìš” ì¥ë©´ë° ê²°ë§ì„ ë¹¼ ë†“ì•˜ìœ¼ë‹ˆ ê¼­ ì˜í™”ë¥¼ ì‹œì²­í•´ë³´ì‹œê¸¸ ë°”ëë‹ˆë‹¤! - ''ë¬´ë¹„ì½”ë©˜íŠ¸''ëŠ” ìœ íŠœë¸Œì—ë§Œ ì—…ë¡œë“œ ë©ë‹ˆë‹¤.
+ì˜í™”ì œëª© : ì²«í‚¤ìŠ¤ë§Œ 50ë²ˆì§¸ (2004)
+#ë¡œë§¨ìŠ¤ì˜í™” #ë¡œë§¨í‹±ì½”ë¯¸ë””
+#ì˜í™”ì¶”ì²œ #ì˜í™”ë¦¬ë·° #ì˜í™”í›„ê¸° #ì˜í™”ìœ íŠœë¸Œ
+#ì˜í™”ëª©ì†Œë¦¬ #ìì·¨ë°©ë‚¨ì #ì˜í™”ì†Œê°œ #êµí›ˆì˜í™”
+#ì²«í‚¤ìŠ¤ë§Œ 50ë²ˆì§¸ #ë“œë¥˜ë² ë¦¬ëª¨ì–´ #ì²«í‚¤ìŠ¤ì˜í™” #ê¸°ì–µìƒì‹¤ #ê¸°ì–µì˜í™”
+#ì•„ë‹´ìƒŒë“¤ëŸ¬"',null,null,null,'aloneman@daum.net','MR020',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','821','MR821','ë‹¨ê¸° ê¸°ì–µìƒì‹¤ì¦ì— ê±¸ë¦° ì—¬ìê°€ ì—°ì• í•˜ëŠ” ë°©ë²•','https://www.youtube.com/embed/5NFK1-FbeEw','ì²« í‚¤ìŠ¤ë§Œ 50ë²ˆì§¸ (2004) ì£¼ì—° : ë“œë¥˜ ë² ë¦¬ëª¨ì–´, ì•„ë‹´ ìƒŒë“¤ëŸ¬',null,null,null,'jackkongs@hotmail.com','MR020',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','R','822','MR822','ë§¤ì¼ ê¸°ì–µì„ ìƒì–´ë²„ë¦¬ëŠ” ì—¬ìì™€ ì‚°ë‹¤ëŠ”ê±´ /ì²«í‚¤ìŠ¤ë§Œ 50ë²ˆì§¸ [ê²°ë§í¬í•¨|ì˜í™”ì†Œê°œ]','https://www.youtube.com/embed/y1c-LbjBLFw','ì´ë²ˆì— ì†Œê°œí•œ ì˜í™”ëŠ” 2004ë…„ì— ê°œë´‰í•œ ''ì²«í‚¤ìŠ¤ë§Œ 50ë²ˆì§¸''ì…ë‹ˆë‹¤. ë§¤ì¼ ë§¤ì¼ ê¸°ì–µì„ ìƒì–´ë²„ë¦¬ëŠ” ì‚¶ì„ ì‚´ê²Œëœë‹¤ë©´ ì–´ë–»ê²Œ ê·¸ë…€ì—ê²Œ ë‹¤ê°€ê°ˆìˆ˜ ìˆì„ê¹Œìš”? ê¸°ì–µì„ ìƒì—ˆë‹¤ëŠ” í˜„ì‹¤ì¡°ì°¨ ì¸ì§€í•˜ì§€ ëª»í•˜ê²Œ ê¾¸ë©°ì£¼ê¸°? ì•„ë‹ˆë©´ ëª¨ë‘ë‹¤ ì•Œë ¤ì£¼ê³ ë‚˜ì„œ ìì‹ ë§Œì˜ ì‚¶ì„ ì‚´ìˆ˜ìˆë„ë¡ ë„ì™€ì£¼ê¸° ê³¼ì—° í—¨ë¦¬ëŠ” ì–´ë–¤ ì„ íƒì„ í•˜ê²Œë ê¹Œìš” ì˜í™”ë•í›„ ì±„ë„ì€ ë§¤ì£¼ ê¸ˆìš”ì¼ ì˜¤í›„6ì‹œì— ì˜ìƒì„ ì—…ë¡œë“œí•  ì˜ˆì •ì…ë‹ˆë‹¤. ì˜í™”ì†Œê°œê°€ ê´œì°®ì•˜ë‹¤ë©´ ì¢‹ì•„ìš” êµ¬ë… ëŒ“ê¸€ ëˆŒëŸ¬ì£¼ì‹œë©´ ì •ë§ ê°ì‚¬í•©ë‹ˆë‹¤. ëê¹Œì§€ ì˜ìƒ ë´ì£¼ì‹  ë¶„ë“¤ ëª¨ë‘ ê°ì‚¬ë“œë ¤ìš”',null,null,null,'otaku@daum.net','MR020',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','823','MS823','ê²°êµ­, ë¶€ìë“¤ì€ ì„¸ìƒì„ ì§€ë°°í–ˆìœ¼ë©° ë¹ˆë¯¼ì¸µë§Œì´ ê³ í†µë°›ì•„ì•¼ í–ˆë‹¤','https://www.youtube.com/embed/307sKZV7kcE',null,null,null,null,'mimi@naver.com','MS001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','824','MS824','2154ë…„, ë¡œë´‡ì— ì˜í•´ í†µì œë˜ëŠ” ë¯¸ë˜ ì§€êµ¬(ê²°ë§í¬í•¨)','https://www.youtube.com/embed/voJPvpn5MsY',null,null,null,null,'girl@hotmail.com','MS001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','825','MS825','(ì˜í™”ë¦¬ë·° ê²°ë§í¬í•¨)ê²°ë§í¬í•¨ ìš”ì²­ì´ ê°€ì¥ ë§ì•˜ë˜ ì˜í™”','https://www.youtube.com/embed/2eGJWLKSgGI','ì˜ë£Œë³´í—˜ì˜ ì¤‘ìš”ì„±',null,null,null,'spoilerman99@hotmail.com','MS001',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','826','MS826','[ì˜í™”ê°€ ì „í•˜ê³ ì í–ˆë˜ ê²ƒ][SFì§‘ì¤‘ë¶„ì„#15](ìŠ¤í¬ì¼ëŸ¬)','https://www.youtube.com/embed/Iz6p0PnrA2o',null,null,null,null,'spoilerman99@hotmail.com','MS002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','827','MS827','ì¸í„°ìŠ¤í…”ë¼','https://www.youtube.com/embed/IGXpRtfKaL0',null,null,null,null,'lookmun@daum.net','MS002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','828','MS828','ì¸í„°ìŠ¤í…”ë¼ ì˜í™” ë¦¬ë·° (Film Interstellar Review)','https://www.youtube.com/embed/yshbEWiY3Ww',null,null,null,null,'core@yahoo.com','MS002',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','829','MS829','í•´êµ°vsìš°ì£¼ì¸','https://www.youtube.com/embed/izLc-P40vRk',null,null,null,null,'baebae@gmail.com','MS003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','830','MS830','ì–´ëŠ ë‚ , ë°”ë‹¤ í•œê°€ìš´ë° ì™¸ê³„ êµ¬ì¡°ë¬¼ì´ ì§€êµ¬ë¥¼ ê³µê²©í•œë‹¤.','https://www.youtube.com/embed/cHtyagerwl4',null,null,null,null,'freeticket@yahoo.com','MS003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','831','MS831','ì¸ë¥˜ì˜ ì´ˆëŒ€ë¥¼ ë°›ê³  ì§€êµ¬ë¡œ ì˜¨ ì™¸ê³„ì¸ì˜ ìµœí›„','https://www.youtube.com/embed/6dEm9RQff1I','ì´ˆëŒ€í• ë• ì–¸ì œê³ ..',null,null,null,'freeticket@yahoo.com','MS003',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','832','MS832','ëŒ€ ìµœê³ ì˜ ë•ì§ˆê³¼ ì¶”ì–µíŒ”ì´! ê¿ˆì„ ê·¸ë¦° ê¸°ì ì˜ ì˜í™”: ë ˆë”” í”Œë ˆì´ì–´ ì›','https://www.youtube.com/embed/e2TEztQPCuA','ì €ê¸‰í•œ ëŒ€ì¤‘ë¬¸í™” ë•í›„ë“¤ì„ ìœ„í•œ ì¶”ì–µíŒ”ì´ í•œë§ˆë‹¹.',null,null,null,'liner@hotmail.com','MS004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','833','MS833','ëšœë ·í•œ ì¥ì ë§Œí¼ í•œê³„ë„ ëª…í™•í•œ ã€Œë ˆë”” í”Œë ˆì´ì–´ ì›ã€ ë¦¬ë·°','https://www.youtube.com/embed/sbMQfekVpDg','ì§§ì€ í‰ : ìŠ¤í•„ë²„ê·¸ì´ê¸°ì— ë” ì˜ë¯¸ìˆì—ˆë˜ ëŒ€ì¤‘ë¬¸í™”ë¥¼ í–¥í•œ ì‚¬ë‘ê³ ë°±, í•˜ì§€ë§Œ ìŠ¤í•„ë²„ê·¸ê¸°ì— ''ì¡°ê¸ˆ ë”''ë¥¼ ë°”ë¼ëŠ” ê±´ ê³¼í•œ ê¸°ëŒ€ì¼ê¹Œ?',null,null,null,'duna@daum.net','MS004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','834','MS834','ë ˆë”” í”Œë ˆì´ì–´ ì›, ì˜í™”ê°€ ì¢‹ë‹¤','https://www.youtube.com/embed/vXTamvu9Lds','ì˜í™”ê°€ ì¢‹ë‹¤(180505), 1+1, ë ˆë”” í”Œë ˆì´ì–´ ì›',null,null,null,'movieworld@yahoo.com','MS004',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','835','MS835','ë™ë©´ì—ì„œ ê¹¨ì–´ë‚˜ ì¸ê°„ê³¼ ë§ˆì£¼ì¹œ ì›”ë“±í•œ ê³ ëŒ€ ì¸ë¥˜','https://www.youtube.com/embed/POazQcWqW30','ì™¸ê³„ì¸ì˜ ìœ ì „ì ì¡°ì‘ìœ¼ë¡œ íƒ„ìƒí•œ ì¸ê°„ì´ , ì°½ì¡°ì£¼ì¸ ì™¸ê³„ì¸ì„ ì°¾ì•„ë‚˜ì„œ ì¸ë¥˜ ê¸°ì›ì˜ ë¹„ë°€ì„ ë°íˆëŠ”...',null,null,null,'filmcasterian99@hotmail.com','MS005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','836','MS836','ì¸ê°„ì„ ë§Œë“ ê²Œ ì™¸ê³„ì¸ì´ë¼ë©´?(í”„ë¡œë©”í…Œìš°ìŠ¤','https://www.youtube.com/embed/LM9hLqk-4d0','-í”„ë¡œë©”í…Œìš°ìŠ¤ (Prometheus, 2012)',null,null,null,'dopan@daum.net','MS005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','837','MS837','ì˜í™” [í”„ë¡œë©”í…Œìš°ìŠ¤]ì˜ ì¶©ê²©ì ì¸ ë©”ì„¸ì§€(ìŠ¤í¬ë¦¬ë·°)','https://www.youtube.com/embed/Oxjh34nmeAQ',null,null,null,null,'sogaenam@naver.com','MS005',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','838','MS838','ë‹¨ 10ì¼ ë§Œì— ë¹™í•˜ê¸°ê°€ ì°¾ì•„ì˜¨ ì§€êµ¬ | íˆ¬ëª¨ë¡œìš° | ì¬ë‚œ | í‚¬íƒ€(í‚¬ë§íƒ€ì„) | ì˜í™”ì¶”ì²œ','https://www.youtube.com/embed/waoMEeFuqzs','- íˆ¬ëª¨ë¡œìš° - ê°œë´‰ : 2004 ì¥ë¥´ : ë“œë¼ë§ˆ, SF, ìŠ¤ë¦´ëŸ¬ ê°ë… : ë¡¤ëœë“œ ì—ë¨¸ë¦¬íˆ ì¶œì—° : ë°ë‹ˆìŠ¤ í€˜ì´ë“œ, ì œì´í¬ ì§ˆë Œí• , ì´ì•ˆ í™ˆ, ì—ë¯¸ ë¡œì„¬',null,null,null,'killtarian131@yahoo.com','MS006',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','839','MS839','ë¹™í•˜ê¸°ë¡œ ëŒì•„ê°„ ì§€êµ¬ [ê²°ë§í¬í•¨]','https://www.youtube.com/embed/HZkETfxZh-A','ì—¬ë¦„íŠ¹ì§‘ ì˜í™” ''íˆ¬ëª¨ë¡œìš°(2004)'' ì…ë‹ˆë‹¤',null,null,null,'10movie@gmail.com','MS006',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','840','MS840','ê³µë£¡ì„ ë©¸ì¢…ì‹œí‚¨ ë¹™í•˜ê¸°ê°€ ë‹¤ì‹œ ì°¾ì•„ì˜¨ ì§€êµ¬ì˜ ìµœí›„','https://www.youtube.com/embed/5jRuEaJxuGM',null,null,null,null,'shong@hotmail.com','MS006',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','841','MS841','160ë²ˆ ì£½ì–´ì•¼ í•˜ëŠ” ë‚¨ì?','https://www.youtube.com/embed/v7MmEPmpI3o',null,null,null,null,'9bul@gmail.com','MS007',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','842','MS842','ì™¸ê³„ì¸ì˜ í”¼ë¥¼ í¡ìˆ˜í•˜ê³  ì£½ì§€ ëª»í•˜ëŠ” ë‚¨ì!','https://www.youtube.com/embed/eE8KmXrZU7M','ì˜í™” : ì—£ì§€ ì˜¤ë¸Œ íˆ¬ëª¨ë¡œìš° (Edge of Tomorrow) ê°ë… : ë”ê·¸ ë¼ì´ë§Œ ì œì‘ : 2014',null,null,null,'murf@gmail.com','MS007',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','843','MS843','ì™¸ê³„ì¸ê³¼ ìœµí•©í•œ ë‚¨ì','https://www.youtube.com/embed/xfobC9Cm1qI','ì—¬ëŸ¬ë¶„ ì•ˆë…•í•˜ì„¸ìš” ì‚ë§¨ì…ë‹ˆë‹¤. ì˜¤ëŠ˜ì€ ì˜í™” ''ì—£ì§€ ì˜¤ë¸Œ íˆ¬ë§ˆë¡œìš°''ì— ëŒ€í•´ ì •ë¦¬í•´ ë³´ë ¤í•©ë‹ˆë‹¤. ì•„ë¬´ëŸ° ê¸°ëŒ€ë„ ì—†ì´ ê´€ëŒí–ˆë˜ ì˜í™”ì¸ë° ë°˜í•´ ê·¸ ì¬ë¯¸ê°€ ì—„ì²­ë‚˜ì„œ ê°œì¸ì ìœ¼ë¡œ í†° ì•„ì €ì”¨ì˜ ì˜í™”ë“¤ ì¤‘ Top3 ì•ˆì—ëŠ” ë“ ë‹¤ê³  ìƒê°í•©ë‹ˆë‹¤.',null,null,null,'bman@yahoo.com','MS007',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','844','MS844','ì œì„ìŠ¤ ì¹´ë©”ë¡ ë„ ë¦°ë‹¤ í•´ë°€í„´ë„ ì™”ëŠ”ë° ìŠ¤ë¦´ì€ ì–´ë””ë¡œ ê°”ë‚˜: í„°ë¯¸ë„¤ì´í„°: ë‹¤í¬í˜ì´íŠ¸ ë¦¬ë·°','https://www.youtube.com/embed/Kx6fSDyHZ-k','ê³¼ê°í•˜ê²Œ ì‹œë¦¬ì¦ˆë¥¼ ë¦¬ë¶€íŠ¸í–ˆì§€ë§Œ ì¬ë¯¸ì™€ ìŠ¤ë¦´ì€ ì–´ë””ë¡œ ê°€ê³  ì¶”ì–µíŒ”ì´ë§Œ ë‚¨ì•˜ë‚˜. ë¼ì´ë„ˆì—ì„œ ì œê³µí•˜ëŠ” í„°ë¯¸ë„¤ì´í„°: ë‹¤í¬í˜ì´íŠ¸ ë¦¬ë·°ì…ë‹ˆë‹¤',null,null,null,'liner@hotmail.com','MS008',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','845','MS845','í„°ë¯¸ë„¤ì´í„° ë‹¤í¬ í˜ì´íŠ¸ ë¦¬ë·° (ê°ë… ì¹œí•„ ì‹¸ì¸ í”¼ê·œì–´ ì´ë²¤íŠ¸, ìŠ¤í¬ í¬í•¨)','https://www.youtube.com/embed/j_13slAOO6k','í„°ë¯¸ë„¤ì´í„° íŒ¬ì´ë¼ë©´ ë‹¤í¬ í˜ì´íŠ¸ ë°˜ë“œì‹œ ê¼­ ë³´ì„¸ìš”.',null,null,null,'minho@gmail.com','MS008',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','846','MS846','ì˜í™” [í„°ë¯¸ë„¤ì´í„° : ë‹¤í¬ í˜ì´íŠ¸] ë¦¬ë·°','https://www.youtube.com/embed/u207DOczUYM','í„°ë¯¸ë„¤ì´í„° : ë‹¤í¬ í˜ì´íŠ¸ / 2019ë…„ 10ì›” 30ì¼ ê°ë… : íŒ€ ë°€ëŸ¬ ë°°ìš° : ë§¥ì¼„ì§€ ë°ì´ë¹„ìŠ¤, ì•„ë†€ë“œ ìŠˆì™ˆì œë„¤ê±°, ë¦°ë‹¤ í•´ë°€í„´, ë‚˜íƒˆë¦¬ì•„ ë ˆì´ì¦ˆ',null,null,null,'ddaddasi@hotmail.com','MS008',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','847','MS847','í•œ ìˆœê°„ì˜ ì•„ë¦„ë‹¤ì›€ì„ ìœ„í•´ ì†Œë¹„ë˜ëŠ” ì‹œê°„ë“¤: í¼ìŠ¤íŠ¸ë§¨ ë¦¬ë·°','https://www.youtube.com/embed/FvC_5e9M2y4','ê¿ˆì„ ì«“ëŠ” ë‚¨ì, ë‹ ì•”ìŠ¤íŠ¸ë¡±. ì¸ë¥˜ ìµœì´ˆë¡œ ë‹¬ì— ê°„ ì‚¬ë‚˜ì´. ìš°ì£¼ì™€ ë‹¬. ì¸ë¥˜. ì§€êµ¬. ì••ë„ì ì¸ ì´ë¯¸ì§€, ì˜í™”ëŠ” ì´ë¯¸ì§€ì˜ ì˜ˆìˆ ì´ë¼ëŠ” ê²ƒ.',null,null,null,'liner@hotmail.com','MS009',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','848','MS848','ë†€ë¼ìš¸ ì •ë„ë¡œ ì§€ë£¨í•œ ì˜í™” : ''í¼ìŠ¤íŠ¸ë§¨''ë¦¬ë·°','https://www.youtube.com/embed/4HphZDPvKjM','* ë³¸ ì˜ìƒì€ ìŠ¤í¬ì¼ëŸ¬ê°€ ë‹¤ìˆ˜ í¬í•¨ë˜ì–´ ìˆìŠµë‹ˆë‹¤ *',null,null,null,'aloneman@daum.net','MS009',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','849','MS849','ë¼ë¼ëœë“œ ê°ë… ì˜í™” ''í¼ìŠ¤íŠ¸ë§¨'' ì†”ì§ ê°ìƒ í›„ê¸°','https://www.youtube.com/embed/_GYi8pkzYLE',null,null,null,null,'minho@gmail.com','MS009',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','850','MS850','ê·¸ ë‚¨ìì˜ ê¹Šì´ê°€ ë“œëŸ¬ë‚œ, ì˜¬í•´ ê°€ì¥ ì² í•™ì ì¸ SF ì˜í™”: ì• ë“œ ì•„ìŠ¤íŠ¸ë¼ ë¦¬ë·°','https://www.youtube.com/embed/TmiAlrenUcc','ë¸Œë˜ë“œ í”¼íŠ¸ì˜ ìš°ì£¼ ì˜í™”. ì˜¬í•´ ê°€ì¥ ì² í•™ì ì¸ SF ì˜í™”. ë˜ í•œë²ˆì˜ ê·¸ë˜ë¹„í‹°. ì œì„ìŠ¤ ê·¸ë ˆì´ ê°ë…ì´ í¼ì¹˜ëŠ” ê¸¸ê³  ëŠë¦¬ê³ , ê¹Šì€ ìš°ì£¼ì˜ ì´ì•¼ê¸°.',null,null,null,'liner@hotmail.com','MS010',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','851','MS851','ì• ë“œ ì•„ìŠ¤íŠ¸ë¼ ê°€ì´ë“œ ë¦¬ë·°','https://www.youtube.com/embed/gZD9gIwbpiw',null,null,null,null,'nofootbird@gmail.com','MS010',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','852','MS852','ìš°ì£¼ ëì— ë„ë‹¬í•˜ë©´ ë²Œì–´ì§€ëŠ” ì¼ [ì• ë“œì•„ìŠ¤íŠ¸ë¼ë¦¬ë·°]','https://www.youtube.com/embed/3Zo8HbrLL44','ì œì„ìŠ¤ ê·¸ë ˆì´ ê°ë…, ë¸Œë˜ë“œ í”¼ë“œ ì£¼ì—°ì˜ ìš°ì£¼ SF ì˜í™” ì• ë“œì•„ìŠ¤íŠ¸ë¼ ë¦¬ë·°ì…ë‹ˆë‹¤.',null,null,null,'reviewang@gmail.com','MS010',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','853','MS853','í™”ì„±ì— í™€ë¡œ ë‚¨ê²¨ì ¸ ì‚¼ì‹œì„¸ë¼ë¥¼ ì°ëŠ” ë‚¨ì | ë§ˆì…˜ | ëª¨í—˜,SF | í‚¬íƒ€(í‚¬ë§íƒ€ì„) | ì˜í™”ì¶”ì²œ','https://www.youtube.com/embed/EpgPSztcoWE',null,null,null,null,'killtarian131@yahoo.com','MS011',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','854','MS854','ì²œì¬ ì‹ë¬¼í•™ ë°•ì‚¬ê°€ í™”ì„±ì— í˜¼ì ë–¨ì–´ì§€ë©´?','https://www.youtube.com/embed/vHuODKePk00','í™”ì„±ì—ì„œ ì‚´ì•„ë‚¨ê¸°',null,null,null,'dreamteller@daum.net','MS011',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','855','MS855','ê°€ì´ë“œ ë¦¬ë·° - ë§ˆì…˜','https://www.youtube.com/embed/rTN4Meuzsqk','ì—¬ëŸ¬ë¶„ì´ ë§ˆì…˜ì„ ê´€ëŒí•˜ì‹¤ ë•Œ ë˜ëŠ” ê´€ëŒì„ ê²°ì •í•˜ì‹¤ ë•Œ ì¡°ê¸ˆì´ë‚˜ë§ˆ ë„ì›€ì´ ëìœ¼ë©´ í•©ë‹ˆë‹¤.',null,null,null,'nofootbird@gmail.com','MS011',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','856','MS856','ê²Œì„ ì† ìºë¦­í„°ë¥¼ ì§ì ‘ ë§Œë‚ ìˆ˜ ìˆë‹¤ë©´?','https://www.youtube.com/embed/EDB9TS-mbBE','ì˜í™” ì œëª©: í”½ì…€',null,null,null,'fallinfilm@hotmail.com','MS012',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','857','MS857','ê³ ì „ê²Œì„ì´ í˜„ì‹¤í™”ë˜ë©´ ë²Œì–´ì§€ëŠ” ì¼','https://www.youtube.com/embed/9yymmq4OWe0',null,null,null,null,'popcorncake@yahoo.com','MS012',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','858','MS858','í”½ì…€ / ì˜í™” Pë¦¬ë·°','https://www.youtube.com/embed/PZP5h3c9Opc',null,null,null,null,'moviemonster@yahoo.com','MS012',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','859','MS859','ì„¸ê³„ ìµœì´ˆ ì‚´ì¸ ë¡œë´‡ì˜ íƒ„ìƒ','https://www.youtube.com/embed/B0DWUjcok1I','ì €ëŠ” ì–´ë¦´ì ì˜ ê¸°ì–µì„ ë˜ì‚´ë ¤ì„œ, ìµœê·¼ì— ë‹¤ì‹œ ë´¤ìŠµë‹ˆë‹¤. ì—­ì‹œëŠ” ì—­ì‹œë”êµ°ìš”! 2004ë…„ ì‘ì´ë¼ê³  ìƒê°ì´ ë“¤ì§€ ì•Šì„ ë§Œí¼ ì—„ì²­ë‚œ ì‘í’ˆì´ì—ˆìŠµë‹ˆë‹¤. ì‘í’ˆ ì†ì— ë‹´ê³  ìˆëŠ” ì¸ê³µì§€ëŠ¥ì— ëŒ€í•œ ê°ë…ì˜ ì˜ê²¬ì´ ì•„ì£¼ í¥ë¯¸ë¡œì› ì–´ìš”! ê±°ê¸°ë‹¤ê°€, ìœŒìŠ¤ë¯¸ìŠ¤ì˜ ì„¹ì‹œí•œ ëª¨ìŠµê¹Œì§€ ê³ë“¤ì´ë‹ˆ ì •ë§ ì¢‹ì•˜ìŠµë‹ˆë‹¤! ë¦¬ë·°ë¥¼ í•˜ë©´ì„œ ì£¼ìš” ì¥ë©´ë° ê²°ë§ì„ ë¹¼ ë†“ì•˜ìœ¼ë‹ˆ ê¼­ ì˜í™”ë¥¼ ì‹œì²­í•´ë³´ì‹œê¸¸ ë°”ëë‹ˆë‹¤!',null,null,null,'aloneman@daum.net','MS013',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','860','MS860','2035ë…„, ì¸ë¥˜ë¥¼ ìœ„í˜‘í•˜ëŠ” ë¡œë´‡ [ê²°ë§í¬í•¨]','https://www.youtube.com/embed/fE-z-VWGg-M','ì œëª© : ì•„ì´, ë¡œë´‡ (2004ë…„ ì‘í’ˆ)',null,null,null,'ezip@daum.net','MS013',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','861','MS861','ë¡œë´‡ì´ ì§„í™”ë¥¼ ê±°ì³ ì¸ê°„ì„ ì§€ë°°í•œë‹¤ë©´?! | ì•„ì´ë¡œë´‡ | SF | í‚¬íƒ€(í‚¬ë§íƒ€ì„) | ì˜í™”ì¶”ì²œ','https://www.youtube.com/embed/lZAjmNQLwGM','- ì•„ì´ë¡œë´‡ - ê°œë´‰ : 2004 ì¥ë¥´ : SF,ì•¡ì…˜,ëª¨í—˜ ê°ë… : ì•Œë ‰ìŠ¤ í”„ë¡œì•¼ìŠ¤ ì¶œì—° : ìœŒ ìŠ¤ë¯¸ìŠ¤, ë¸Œë¦¬ì§“ ëª¨ì´ë‚˜í•œ, ë¸Œë£¨ìŠ¤ ê·¸ë¦°ìš°ë“œ',null,null,null,'killtarian131@yahoo.com','MS013',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','862','MS862','ë‚¨ì€ ìˆ˜ëª…ìœ¼ë¡œ ì»¤í”¼ë¥¼ ì‚¬ëŠ” ë¯¸ë˜','https://www.youtube.com/embed/WDObEuXMGrA',null,null,null,null,'dreamteller@daum.net','MS014',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','863','MS863','ì¸ê°„ì˜ ìˆ˜ëª…ì„ ì‚¬ê³ íŒ” ìˆ˜ ìˆê²Œ ë˜ì—ˆì„ë•Œ ë¶€ìë“¤ì˜ ì‚¶','https://www.youtube.com/embed/TufdhfNgl00',null,null,null,null,'please@naver.com','MS014',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','864','MS864','ã€ì¸íƒ€ì„ ì˜í™”ë¦¬ë·°ã€ ë¶€ìë“¤ì´ ì‚¬ëŒë“¤ì„ í†µì œí•˜ëŠ” ë°©ë²•','https://www.youtube.com/embed/Rv55AQNC15Q','ì˜í™”: ì¸íƒ€ì„(2011) ê°ë…: ì•¤ë“œë¥˜ ë‹ˆì½œ ì¶œì—°: ì•„ë§Œë‹¤ ì‚¬ì´í”„ë¦¬ë“œ,ì €ìŠ¤í‹´ íŒ€ë²„ë ˆì´í¬',null,null,null,'boyboy@gmail.com','MS014',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','865','MS865','í˜¹ì„±íƒˆì¶œ ì‹œë¦¬ì¦ˆ ì´ì •ë¦¬','https://www.youtube.com/embed/Xm8raayuDMI','ê°€ì¥ ì„±ê³µì ì¸ ë¦¬ë¶€íŠ¸ ì˜í™”ì´ì ê°€ì¥ ê°ì„±ì ì¸ SFì˜í™”, í˜¹ì„±íƒˆì¶œ ì‹œë¦¬ì¦ˆ. ëŒ€ë‹¨ì›ì˜ ë§ˆì§€ë§‰ì„ ì¥ì‹í•  3í¸ ''í˜¹ì„±íƒˆì¶œ: ì¢…ì˜ ì „ìŸ''ì´ 8ì›” 15ì¼ ê°œë´‰ì„ ì•ë‘ê³  ìˆìŠµë‹ˆë‹¤. 1,2í¸ì˜ ì£¼ìš” ì¤„ê±°ë¦¬ì™€ í˜¹ì„±íƒˆì¶œ ì‹œë¦¬ì¦ˆì˜ í•µì‹¬ì´ë¼ í•  ìˆ˜ ìˆëŠ” ëª¨ì…˜ìº¡ì³, ì‹œì €ë¥¼ ì—°ê¸°í•œ ì•¤ë”” ì„œí‚¤ìŠ¤ì— ëŒ€í•´ ì•Œì•„ë´…ë‹ˆë‹¤.',null,null,null,'gongu@yahoo.com','MS015',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','866','MS866','í˜¹ì„±íƒˆì¶œ ì‹œë¦¬ì¦ˆ ì™„ì „ì •ë³µ','https://www.youtube.com/embed/WlGGTqTFMaM','í˜¹ì„±íƒˆì¶œì˜ ëª¨ë“  ê²ƒì„ ì•Œì•„ë³´ì! (ì†Œì„¤, ì˜¤ë¦¬ì§€ë„ ì‹œë¦¬ì¦ˆ, íŒ€ ë²„íŠ¼ ê°ë…ì˜ í˜¹ì„±íƒˆì¶œ, ë¦¬ë¶€íŠ¸ ì‹œë¦¬ì¦ˆ)',null,null,null,'hipparachi@yahoo.com','MS015',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','867','MS867','í˜¹ì„±íƒˆì¶œ ì¢…ì˜ ì „ìŸ ë¦¬ë·° : ê³ ê·€í•œ ì˜ì›…ì˜ í’ˆê²© ìˆëŠ” í‡´ì¥ - ë¼ì´ë„ˆ','https://www.youtube.com/embed/LHrBJzZyNCU','í˜¹ì„±íƒˆì¶œ ì‚¼ë¶€ì‘ì„ ë§ˆë¬´ë¦¬ì§“ëŠ” í˜¹ì„±íƒˆì¶œ ì¢…ì˜ ì „ìŸì´ ê°œë´‰í–ˆìŠµë‹ˆë‹¤. í”ì¹˜ ì•Šì€ SF ë¸”ë¡ë²„ìŠ¤í„°ë¡œì„œ ì„±ê³µì ì¸ ë§ˆë¬´ë¦¬ë¥¼ í•´ë‚¸ ì¢…ì˜ ì „ìŸ. ë¼ì´ë„ˆì™€ í•¨ê»˜ ì´ ì˜í™”ì˜ ê°€ì¹˜ì™€ ë‚´ìš©ì„ ì‚´í´ë³´ì„¸ìš”.',null,null,null,'liner@hotmail.com','MS015',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','868','MS868','[2001 ìŠ¤í˜ì´ìŠ¤ ì˜¤ë””ì„¸ì´] ìŠ¤í† ë¦¬','https://www.youtube.com/embed/4yC7GJ4ZSXc',null,null,null,null,'contentplayer00@yahoo.com','MS016',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','869','MS869','[2001 ìŠ¤í˜ì´ìŠ¤ ì˜¤ë””ì„¸ì´] ìŠ¤í† ë¦¬ & í¬ì¸íŠ¸ ë¦¬ë·° (2ë¶€)','https://www.youtube.com/embed/-ZaTr7zXX2s',null,null,null,null,'contentplayer00@yahoo.com','MS016',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','870','MS870','[2001 ìŠ¤í˜ì´ìŠ¤ ì˜¤ë””ì„¸ì´] ìŠ¤í† ë¦¬&í¬ì¸íŠ¸ ë¦¬ë·° (3ë¶€)','https://www.youtube.com/embed/dvz8SQFAKuA',null,null,null,null,'contentplayer00@yahoo.com','MS016',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','871','MS871','ì´ì œëŠ” ë†“ì•„ì¤˜ìš”. ê·¸ë¦¬ê³  ë‹¤ì‹œ ì¼ì–´ë‚˜, ê±¸ì–´ìš”: ê·¸ë˜ë¹„í‹° ë¦¬ë·°','https://www.youtube.com/embed/J9vrphPj2XY','ì¬ê°œë´‰ ê¸°ë…ìœ¼ë¡œ 8ì›” ë§ì— ì˜¬ë ¸ë˜ ê·¸ë˜ë¹„í‹° ë¦¬ë·°ì…ë‹ˆë‹¤.
+ìµœê³ ì˜ ìš°ì£¼ ì˜í™”.
+ë” ì´ìƒì˜ ìì„¸í•œ ì„¤ëª…ì€ ìƒëµí•©ë‹ˆë‹¤.',null,null,null,'liner@hotmail.com','MS017',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','872','MS872','ì—­ëŒ€ ìµœê³ ì˜ ìš°ì£¼ì˜í™”','https://www.youtube.com/embed/sFmtwSOYLNQ','í‰ë‹¨ê³¼ ê´€ê°ì„ ëª¨ë‘ ë§Œì¡±ì‹œí‚¨ 21ì„¸ê¸° ìµœê³ ì˜ ìš°ì£¼ì˜í™”, ê·¸ë˜ë¹„í‹°ì˜ ì œì‘ ë¹„í•˜ì¸ë“œë¥¼ ì•Œì•„ë´…ë‹ˆë‹¤.',null,null,null,'gongu@yahoo.com','MS017',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','873','MS873','ê·¸ë˜ë¹„í‹° : ì‹¤ì¡´ì£¼ì˜ë¡œ í’€ì–´ë³´ëŠ” ì˜í™”ì˜ ì œëª© "ì¤‘ë ¥"ì˜ ì˜ë¯¸ [íŒì½˜íŠ¸ë¦¬]','https://www.youtube.com/embed/vnP9U2qWKuA','ì‹¤ì¡´ì£¼ì˜ì™€ ì¸ê°„ì— ëŒ€í•´ ì•Œì•„ë³´ê³ 
+ì˜í™” ê·¸ë˜ë¹„í‹°ì˜ ì˜ë¯¸ë¥¼ ì‹¤ì¡´ì£¼ì˜ë¡œ í’€ì–´ë³´ëŠ” ì˜ìƒì…ë‹ˆë‹¤.',null,null,null,'mypopcorntree@yahoo.com','MS017',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','874','MS874','ì§€êµ¬ ì´ˆí† í™” ëíŒì™•','https://www.youtube.com/embed/Hmzn71U8hms',null,null,null,null,'gongu@yahoo.com','MS018',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','875','MS875','[ë¬´ë¹„ì–´] ì¸ë””íœë˜ìŠ¤ë°ì´ - ë¦¬ì¨ì „ìŠ¤ ë¦¬ë·°','https://www.youtube.com/embed/0RBtlfciTtA',null,null,null,null,'jayque@daum.net','MS018',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','876','MS876','2016 ì¸ë””íœë˜ìŠ¤ë°ì´2:ë¦¬ì¨ì „ìŠ¤ ë¦¬ë·° ì…ë‹ˆë‹¤. Independence Day: Resurgence REVIEW','https://www.youtube.com/embed/zh5Ww26zgXk',null,null,null,null,'suspect@gmail.com','MS018',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','877','MS877','ë¯¸ë˜ì˜ ì¸ë¥˜ê°€ í•˜ëŠ˜ ìœ„ì—ì„œ ì‚¬ëŠ” ì´ìœ ','https://www.youtube.com/embed/ccQi_KU8vn8',null,null,null,null,'mimi@naver.com','MS019',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','878','MS878','í•µì „ìŸ 60ë…„ ì´í›„ì˜ ì§€êµ¬','https://www.youtube.com/embed/1TFO0am6RPU','ì˜¤ëŠ˜ì€ ì˜í™” ''ì˜¤ë¸”ë¦¬ë¹„ì–¸''ì— ëŒ€í•´ì„œ ì•Œì•„ë³´ë ¤ê³  í•©ë‹ˆë‹¤. 2013ë…„ ê°œë´‰ì‘ìœ¼ë¡œ ì§„ë¶€í•œ ì™¸ê³„ìƒë¬¼ì²´ vs ì¸ê°„ì˜ êµ¬ë„ë¥¼ ê°–ê³  ìˆì§€ë§Œ, íŠ¹ì´í•œ ëŒ€ë¦½êµ¬ì¡°ë¥¼ ê°–ê³  ìˆê³ , ê±°ê¸°ì— ì–¸ì œë´ë„ ì˜ˆìˆ ê°™ì€ ê·¸ë˜í”½ì€ ì—­ëŒ€ ì˜í™”ë“¤ ì¤‘ì—ì„œ ê°€ì¥ ì•„ë¦„ë‹µë‹¤ê³  í•´ë„ ê³¼ì–¸ì´ ì•„ë‹Œ ê²ƒ ê°™ìŠµë‹ˆë‹¤. ë°°ìš°ë“¤ì˜ ì—°ê¸°, ë©”ì„¸ì§€ ê·¸ë¦¬ê³  ì™„ì„±ë„ê¹Œì§€ ëª¨ë‘ ì¡ì€ ì˜í™”ì…ë‹ˆë‹¤. ê¼­ í•œë²ˆ ì°¾ì•„ë³´ì‹œê¸° ë°”ëë‹ˆë‹¤.',null,null,null,'bman@yahoo.com','MS019',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','879','MS879','í•µì „ìŸ ì´í›„ ì™¸ê³„ì¸ìœ¼ë¡œë¶€í„° ì§€êµ¬ë¥¼ ì§€í‚¤ëŠ” í•œ ë‚¨ì','https://www.youtube.com/embed/wofMniEuMSc','í†° í¬ë£¨ì¦ˆ,ëª¨ê±´í”„ë¦¬ë¨¼ ì£¼ì—°ì˜ 2013 ì˜¤ë¸”ë¦¬ë¹„ì–¸ ì…ë‹ˆë‹¤.',null,null,null,'jum@hotmail.com','MS019',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','880','MS880','ê´‘í™œí•œ ìš°ì£¼ ì†ì— ë‚˜ í˜¼ì ë‚¨ê²Œ ëœë‹¤ë©´ ë¬´ì—‡ì„ í• ê¹Œ','https://www.youtube.com/embed/FlsfG2kVtuo',null,null,null,null,'ddubuni@hotmail.com','MS020',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','881','MS881','ì ìëŠ” ë¯¸ë…€ë¥¼ 90ë…„ ì¼ì° ê¹¨ìš°ë©´ ìƒê¸°ëŠ” ì¼![ì˜í™”ë¦¬ë·°]','https://www.youtube.com/embed/pTCawW51tlM',null,null,null,null,'suspect@gmail.com','MS020',to_date('20/02/19','RR/MM/DD'));
+Insert into RETULIX.REVIEW (DIV,GENRE,NUM,IDX,TITLE,URL,INFO,GOOD,CLICK,ZZIM,EMAIL,T_IDX,WDATE) values ('M','S','882','MS882','ìš°ì£¼ì— ë‚˜ í˜¼ì ê¹¨ì–´ë‚¬ë‹¤ë©´ ì˜í™” íŒ¨ì‹ ì €ìŠ¤','https://www.youtube.com/embed/S2lwjijNaRs',null,null,null,null,'314@gmail.com','MS020',to_date('20/02/19','RR/MM/DD'));
 REM INSERTING into RETULIX.MEMBER
 SET DEFINE OFF;
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('admin@admin.com','123','admin','99',100,null,'noicon.png','nochimg.png',99);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('10000lv@naver.com','123','¸¸·¾½ºÇÍ','34',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ownerdd@google.com','123','Àåµ¶´ëÀå','41',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('moza@daum.net','123','±×»ñ°«','22',8000,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('zenokion@naver.com','123','Á¦³ëÅ°¿Â','46',450,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('gindi@google.com','123','Ä¥°î°£µğ','33',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mirror@daum.net','123','¹Ì·¯','43',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('kanghwa@naver.com','123','°­È­µµÁ¶¾à','37',4500,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('cityborn@google.com','123','½ÃÆ¼º»','24',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('merky@naver.com','123','¸Ö·Ï¿Õ¸ÓÅ°','37',5200,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('gamegood@google.com','123','°×ÀÚ·¡','27',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('qhdrlf1@gmail.com','123','±æºê·Î','45',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('vpdgk90@gmail.com','123','ÀÚÀÌ¾ğÆ® Æë¼ö','45',100000,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('rlarPfks@gmail.com','123','ºıºıÀÌ ¾ÆÀú¾¾','34',30000,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('Qnd123@gmail.com','123','»×»×ÀÌ','20',500,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('qjsrovkdnj@gmail.com','123','¹ø°³¸Ç','32',450,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('dnrkdnrk@gmail.com','123','¾Ë·» ½º¶ö','40',2000,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('dmscjdma@gmail.com','123','¸Å¹ÌÅ´TV','19',50,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('10000lv@naver.com','123','ë§Œë ™ìŠ¤í•','34',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ownerdd@google.com','123','ì¥ë…ëŒ€ì¥','41',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('moza@daum.net','123','ê·¸ì‚¿ê°“','22',8000,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('zenokion@naver.com','123','ì œë…¸í‚¤ì˜¨','46',450,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('gindi@google.com','123','ì¹ ê³¡ê°„ë””','33',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mirror@daum.net','123','ë¯¸ëŸ¬','43',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('kanghwa@naver.com','123','ê°•í™”ë„ì¡°ì•½','37',4500,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('cityborn@google.com','123','ì‹œí‹°ë³¸','24',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('merky@naver.com','123','ë©€ë¡ì™•ë¨¸í‚¤','37',5200,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('gamegood@google.com','123','ê²œìë˜','27',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('qhdrlf1@gmail.com','123','ê¸¸ë¸Œë¡œ','45',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('vpdgk90@gmail.com','123','ìì´ì–¸íŠ¸ í­ìˆ˜','45',100000,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('rlarPfks@gmail.com','123','ë¹¡ë¹¡ì´ ì•„ì €ì”¨','34',30000,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('Qnd123@gmail.com','123','ë¿¡ë¿¡ì´','20',500,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('qjsrovkdnj@gmail.com','123','ë²ˆê°œë§¨','32',450,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('dnrkdnrk@gmail.com','123','ì•Œë Œ ìŠ¤ë„','40',2000,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('dmscjdma@gmail.com','123','ë§¤ë¯¸í‚´TV','19',50,null,'noicon.png','nochimg.png',0);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('dkdldb123@gmail.com','123','IU','21',90000,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ahWlvlcl@gmail.com','123','¸ğÂîÇÇÄ¡','18',50000,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('zmfltmxkf@gmail.com','123','ÆÄ¿ö°Ô¸£¸¸','29',1500,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mnbvcxz@hotmail.com','123','¿À¼º±Ô','30',100000,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ny@gmail.com','123','³ª¿¬','27',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('jy123@gmail.com','123','Á¤¿¬','41',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mm@gmail.com','123','¸ğ¸ğ','49',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('sn@gmail.com','123','»ç³ª','33',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('jh@gmail.com','123','ÁöÈ¿','22',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mn@gmail.com','123','¹Ì³ª','25',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('dh@gmail.com','123','´ÙÇö','27',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('cy@gmail.com','123','Ã¤¿µ','48',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ct@gmail.com','123','ÂêÀ§','22',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('pang@gmail.com','123','ÆÎÀÌ¿ä','49',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('shin@gmail.com','123','½ÅÇØÁ¶','30',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('word@gmail.com','123','±ÛÀÚ³×','45',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('taktak@gmail.com','123','Á¾Å¹ÀÌ','22',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('hos@gmail.com','123','¹Îµé·¡','31',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('carman@gmail.com','123','Ä«¸Ç','38',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('danuk@gmail.com','123','º£³ª','30',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('kimSky@gmail.com','123','±èÇÏ´Ã','47',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ahWlvlcl@gmail.com','123','ëª¨ì°Œí”¼ì¹˜','18',50000,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('zmfltmxkf@gmail.com','123','íŒŒì›Œê²Œë¥´ë§Œ','29',1500,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mnbvcxz@hotmail.com','123','ì˜¤ì„±ê·œ','30',100000,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ny@gmail.com','123','ë‚˜ì—°','27',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('jy123@gmail.com','123','ì •ì—°','41',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mm@gmail.com','123','ëª¨ëª¨','49',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('sn@gmail.com','123','ì‚¬ë‚˜','33',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('jh@gmail.com','123','ì§€íš¨','22',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mn@gmail.com','123','ë¯¸ë‚˜','25',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('dh@gmail.com','123','ë‹¤í˜„','27',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('cy@gmail.com','123','ì±„ì˜','48',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ct@gmail.com','123','ì¯”ìœ„','22',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('pang@gmail.com','123','íŒ¡ì´ìš”','49',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('shin@gmail.com','123','ì‹ í•´ì¡°','30',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('word@gmail.com','123','ê¸€ìë„¤','45',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('taktak@gmail.com','123','ì¢…íƒì´','22',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('hos@gmail.com','123','ë¯¼ë“¤ë˜','31',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('carman@gmail.com','123','ì¹´ë§¨','38',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('danuk@gmail.com','123','ë² ë‚˜','30',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('kimSky@gmail.com','123','ê¹€í•˜ëŠ˜','47',100,null,'noicon.png','nochimg.png',0);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('Rynha@gmail.com','123','Rynah','49',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('icly@gmail.com','123','ÀÌÅ¬¸®ÇÇ¾Æ','44',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ggojong@gmail.com','123','²¿Á¾ÀÌ','19',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('trashmovie@gmail.com','123','¸ÁÀÛÆÇº°ÀÚ','38',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('johncancook@gmail.com','123','Á¸ÄµÄî','30',4000,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('gogomimimi@gmail.com','123','°í°í¹Ì¹Ì¹Ì','32',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('straightline@gmail.com','123','Á÷¼±À²','27',2000,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('icemint@gmail.com','123','¾ÆÀÌ½º¹ÎÆ®','25',300,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mechatok@gmail.com','123','¸ßÄ«ÅäÅ©','47',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('arcmak@gmail.com','123','¾ÆÅ©¸·','46',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('pigeonfly@gmail.com','123','ºñµÑ±âÇªµåµæ','46',1600,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('shamanism@gmail.com','123','¼ú»ç²¨³×¿ä','19',100,null,'noicon.png','nochimg.png',0);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('10movie@gmail.com','123','10¹«ºñ','27',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('314@gmail.com','123','3.14Ã¤³Î','32',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('icly@gmail.com','123','ì´í´ë¦¬í”¼ì•„','44',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ggojong@gmail.com','123','ê¼¬ì¢…ì´','19',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('trashmovie@gmail.com','123','ë§ì‘íŒë³„ì','38',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('johncancook@gmail.com','123','ì¡´ìº”ì¿¡','30',4000,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('gogomimimi@gmail.com','123','ê³ ê³ ë¯¸ë¯¸ë¯¸','32',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('straightline@gmail.com','123','ì§ì„ ìœ¨','27',2000,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('icemint@gmail.com','123','ì•„ì´ìŠ¤ë¯¼íŠ¸','25',300,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mechatok@gmail.com','123','ë©•ì¹´í† í¬','47',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('arcmak@gmail.com','123','ì•„í¬ë§‰','46',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('pigeonfly@gmail.com','123','ë¹„ë‘˜ê¸°í‘¸ë“œë“','46',1600,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('shamanism@gmail.com','123','ìˆ ì‚¬êº¼ë„¤ìš”','19',100,null,'noicon.png','nochimg.png',0);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('10movie@gmail.com','123','10ë¬´ë¹„','27',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('314@gmail.com','123','3.14ì±„ë„','32',100,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('9bul@gmail.com','123','9bul','49',8000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('noone@gmail.com','123','°ÅÀÇ¾ø´Ù','35',450,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('2ddudae@gmail.com','123','°ÔÀÓÀÎ ÀÌ¶Ñ´ë','32',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('gogomovie@gmail.com','123','°í°í¹«ºñ','26',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('gomong@gmail.com','123','°í¸ù','18',4500,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('edutrue@naver.com','123','±³À°Áø´ã','29',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('internationalbubu@naver.com','123','±¹Á¦ºÎºÎ','45',5200,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('horrrrror@naver.com','123','±â±«¹«ºñ','34',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('eyesonme@naver.com','123','±è½Ã¼±','32',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('extreammovie@naver.com','123','±èÁ¾Ã¶ÀÇ ÀÍ½ºÆ®¸²¹«ºñ','49',100000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mimi@naver.com','123','±èÈï¹Ì','47',30000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('9movie@daum.net','123','³ªÀÎ¹«ºñ','18',500,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('netvo@daum.net','123','³İº¸','20',450,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('iconictv@daum.net','123','´ëÇ¥ TV','47',2000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('duc@daum.net','123','´ö¹«ºñ','45',50,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('dopan@daum.net','123','µµÆÒ','44',90000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('videobang@daum.net','123','µ¿³×ºñµğ¿À¹æ','37',50000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('3bunoddugi@daum.net','123','µÎ¾ï½Ã´Ï 3ºĞ¿ä¾à','27',1500,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('duna@daum.net','123','µà³ª','35',100000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('dreamteller@daum.net','123','µå¸²ÅÚ·¯','28',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('dingo@daum.net','123','µù°í ¹«ºñ','40',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ddaddasi@hotmail.com','123','µûµû½Ã','44',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ddubuni@hotmail.com','123','¶°¹øÀÇ','23',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ddorol@hotmail.com','123','¶Ç·Ñ¹«ºñ','28',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ddingjal@hotmail.com','123','¶òÀß','31',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('liner@hotmail.com','123','¶óÀÌ³Ê','45',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('lak@hotmail.com','123','¶óÅ©¹«ºñ','20',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('lemong@hotmail.com','123','·¹¸ù','49',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('read@gmail.com','123','¸®µå¹«ºñ','20',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('reviewman@gmail.com','123','¸®ºä¸Ç','35',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('reviewang@gmail.com','123','¸®ºä¾ûÀÌ','28',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('riukun@gmail.com','123','¸®¿ì±ºÀÇ ´Ù¶ô¹æ','26',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('jy@gmail.com','123','¸®ÇÊµå Àç¿µ','39',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('murf@gmail.com','123','¸ÓÇÁ','28',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('muk@gmail.com','123','¸Ş¹Ğ¹¬µµ¸®','32',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('senior@gmail.com','123','¸íµ¿¼±¹è','36',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('freeticket@yahoo.com','123','¹«·áÀÌ¿ë','40',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('murmicine@yahoo.com','123','¹«¸£¹Ì¾¾³×','29',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('moviedochi@yahoo.com','123','¹«ºñµµÄ¡','22',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('moviemonster@yahoo.com','123','¹«ºñ¸ó½ºÅÍ','25',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('moviemovie@yahoo.com','123','¹«ºñ¹«ºñ','23',4000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('movieus@yahoo.com','123','¹«ºñ¿ì½º','37',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('movieworld@yahoo.com','123','¹«ºñ¿ùµå','50',2000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('moviekok@yahoo.com','123','¹«ºñÄÛÄÛ','42',300,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('taco@daum.net','123','¹«ºñÅ¸ÄÚ','32',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('teller@hotmail.com','123','¹«ºñÅÚ·¯','29',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('trip@hotmail.com','123','¹«ºñÆ®¸³','30',1600,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('hanjan@hotmail.com','123','¹«ºñÇÑÀÜ','22',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('choice@hotmail.com','123','¹®ÃÊÀÌ½º','36',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mupmup@hotmail.com','123','¹´¹´','33',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('middle@hotmail.com','123','¹Ìµé»·','47',8000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mix@gmail.com','123','¹Í½º¹«ºñ','29',450,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('minho@gmail.com','123','¹ÎÈ£Å¸¿ì¸£½º','24',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('byebye@gmail.com','123','¹Ù¹Ù¹«ºñ','29',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('nofootbird@gmail.com','123','¹ß¾ø´Â»õ','34',4500,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('baebae@gmail.com','123','¹è¹è','36',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('freeman@gmail.com','123','¹é¼ö°ñ¹æ','33',5200,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('bumti@gmail.com','123','¹üÆ¼','24',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('bear@gmail.com','123','º£¾î¹«ºñ','31',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('incheon@yahoo.com','123','ºÎÆò½Ã³×¸¶','49',100000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('bukbu@yahoo.com','123','ºÏºÎÀÇ ¿Õ','49',30000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('bitatalk@yahoo.com','123','ºñÅ¸ ÅäÅ©','37',500,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('gongu@yahoo.com','123','»¡°­µµ±úºñ','17',450,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('bman@yahoo.com','123','»ß¸Ç','33',2000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('sangung@yahoo.com','123','»ó±Ã','26',50,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('boxmovie@yahoo.com','123','»óÀÚ¹«ºñ¸®ºä','46',90000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('bbbbbreview@yahoo.com','123','¼­»ß»ßÀÇ ¿µÈ­¸®ºä','45',50000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('serin@naver.com','123','¼¼¸°','23',1500,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('sogaenam@naver.com','123','¼Ò°³³²','32',10000000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('please@naver.com','123','¼Ò°³ÇØÁÖ¾î','48',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('soso@naver.com','123','¼Ò¼ÒÆ¼ºñ','17',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('cottoncandy@naver.com','123','¼Ø»çÅÁ','47',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('shortcut@daum.net','123','¼ôÄÆ¸®ºä','45',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('chicken@daum.net','123','¼ø»è¿µÈ­','34',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('sunta@daum.net','123','¼øÅ¸','42',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('screen@daum.net','123','½ºÅ©¸°´ëÀå','37',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('heytv@gmail.com','123','½ÂÇìÀÌTV','36',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('senimapia@gmail.com','123','½Ã³×¸¶ÇÇ¾Æ','32',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('react@gmail.com','123','½É½ÉÇ®ÀÌ ¹İÀÀÃ¤³Î','22',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('hi@gmail.com','123','¾È¿ë','26',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('youknow@gmail.com','123','¾Ë·ÁÁÜ','47',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('egg@naver.com','123','¾Ë¾¾³×','38',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('yangyang@naver.com','123','¾çÀğ±îÀÇ','24',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('uppercut@naver.com','123','¾îÆÛÄÆ','24',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('unjun@naver.com','123','¾ûÁØ','23',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('everyview@naver.com','123','¿¡ºê¸®ºä','34',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('acut@naver.com','123','¿¡ÀÌÄÆ Æ¼ºñ','45',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ans@daum.net','123','¿£½º','36',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('younglove@daum.net','123','¿µ·´','25',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('youngmin@daum.net','123','¿µ¹ÎÇÏ´Ù','35',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('youngbotv@daum.net','123','¿µº¸TV','33',4000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('youngread@daum.net','123','¿µÀÏ³²','25',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('pause@daum.net','123','¿µÀá½Ã','48',2000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('makemovie@daum.net','123','¿µÈ­°øÀÛ¼Ò','19',300,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('endmovie@daum.net','123','¿µÈ­³¡¹«·Æ','30',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('otaku@daum.net','123','¿µÈ­´öÈÄ','43',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('yap@daum.net','123','¿µÈ­µµÀü','26',1600,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('girl@hotmail.com','123','¿µÈ­¼Ò³à','44',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('shong@hotmail.com','123','¿µÈ­¼ÒÈ¯»ç','28',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('about@hotmail.com','123','¿µÈ­¿¡ °üÇÏ¿©','46',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('drunk@hotmail.com','123','¿µÈ­¿¡ÃëÇÑ´Ù','42',8000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('tvshowshow@hotmail.com','123','¿µÈ­¿¹´ÉTV','36',450,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('tablemovie@hotmail.com','123','¿µÈ­ÀÇ ½ÄÅ¹','48',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('jjummer@hotmail.com','123','¿µÈ­Ã¤³Î ÂŞ¸Ó','48',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('drikdrik@gmail.com','123','¿À´Ãµµ µå¸¯µå¸¯','27',4500,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('tophome@gmail.com','123','¿ÁÅ¾¹æ¹«ºñ','34',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('suspect@gmail.com','123','¿ëÀÇÀÚ','37',5200,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('youtuberead@daum.net','123','À¯Æ©ºêÀĞ¾îÁÖ´Â³²ÀÚ','50',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('eeeki@daum.net','123','ÀÌ³¢¸ÇÀÇ ÁÁÀº ¿µÈ­ ÇØ¼®','47',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('esangcouple@daum.net','123','ÀÌ»óÄ¿ÇÃÀÇÀÌ»óÀûÀÎ¶óÀÌÇÁ','38',100000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('storyroom@daum.net','123','ÀÌ¾ß±â¹æ','34',30000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ezip@daum.net','123','ÀÌÁı¿µÈ­±¦Âú³×','20',500,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('aloneman@daum.net','123','ÀÚÃë¹æ³²ÀÚ','26',450,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('socheon@daum.net','123','Àå¼ÒÃµ','21',2000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('jackkongs@hotmail.com','123','ÀèÄá''s ¿µÈ­¸®ºä','22',50,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('jum@hotmail.com','123','Á¡·Ê','46',90000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('daymovie@hotmail.com','123','ÁÖ¸»ÀÇ ¶òÈ­','37',50000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('suenim@hotmail.com','123','Áß»ıÀÌ','41',1500,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('gmovie@hotmail.com','123','Áö¹«ºñ','22',10000000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('zto@hotmail.com','123','ÁöÅäTV','43',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('realtrue@hotmail.com','123','Áø¼ÖÇÑ¸®ºä','35',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('zipmovie@gmail.com','123','Áı¹«ºñ','31',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('windandrain@gmail.com','123','Ã¤³ÎÆøÇ³','32',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('genius@gmail.com','123','ÃµÀçÀÌ½Â±¹','20',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('boyboy@gmail.com','123','Ã¶ºÎÁö¿µÈ­','44',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('whereiam@gmail.com','123','Ã»³²µ¿','29',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('noboty@gmail.com','123','Ä£ÀıÇÑ³ë¹Ùµğ','23',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('karang@gmail.com','123','Ä«¶û','46',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('captainrami@gmail.com','123','Ä¸Æ¾¶ó¹Ì','40',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('cabletv@yahoo.com','123','ÄÉÀÌºíTV VOD','39',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('core@yahoo.com','123','ÄÚ¾î','33',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('contentplayer00@yahoo.com','123','ÄÜÅÙÃ÷ÇÃ·¹ÀÌ','45',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('killtarian131@yahoo.com','123','Å³Å¸','34',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('tunachamchi@yahoo.com','123','Æ©³ª','46',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('holemovie98@yahoo.com','123','Æ´»õ¿µÈ­','23',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('popcorncake@yahoo.com','123','ÆËÄÜÄÉÀÍ','41',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mypopcorntree@yahoo.com','123','ÆËÄÜÆ®¸®','40',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('postshare85@daum.net','123','Æ÷½ºÆ®½¦¾î','36',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('spoilerman99@hotmail.com','123','ÇÁ¸®ºä_°á¸»Æ÷ÇÔ','35',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('fictionworld24@hotmail.com','123','ÇÈ¼Ç¿ùµå','46',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('fallinfilm@hotmail.com','123','ÇÊ¸§¿¡ºüÁö´Ù','43',4000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('filmcasterian99@hotmail.com','123','ÇÊ¸§Ä³½ºÅÍ','50',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('helpyourself@hotmail.com','123','ÇÏ°í½ÍÀº°Å´ÙÇØ','47',2000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('whiteraccoon@hotmail.com','123','ÇÏ¾á³Ê±¸¸®','33',300,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('highlight7373@gmail.com','123','ÇÏÀÌ¶óÀÌÆ®','48',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('stephanhockingkk@gmail.com','123','ÇÏÅ·','33',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('kimchiman123@gmail.com','123','ÇÒÁş¾ø´Â±èÄ¡Âî°³','29',1600,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('hamlet_movies@gmail.com','123','ÇÜ¸´','39',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('heatherturning@gmail.com','123','Çì´õÀÇÅÍ´×ÆäÀÌÁö','29',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('hyundaicardmovie@gmail.com','123','Çö´ëÄ«µå','22',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ajhongmovie@gmail.com','123','È«ºí·¯Å¾°ñ±ØÀå','22',8000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('hongcinema@gmail.com','123','È«½Ã³×¸¶','35',450,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('fatic74@yahoo.com','123','È­Æ½','47',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('hipparachi@yahoo.com','123','È÷ÆÄ¶óÄ¡','29',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('noone@gmail.com','123','ê±°ì˜ì—†ë‹¤','35',450,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('2ddudae@gmail.com','123','ê²Œì„ì¸ ì´ëšœëŒ€','32',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('gogomovie@gmail.com','123','ê³ ê³ ë¬´ë¹„','26',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('gomong@gmail.com','123','ê³ ëª½','18',4500,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('edutrue@naver.com','123','êµìœ¡ì§„ë‹´','29',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('internationalbubu@naver.com','123','êµ­ì œë¶€ë¶€','45',5200,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('horrrrror@naver.com','123','ê¸°ê´´ë¬´ë¹„','34',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('eyesonme@naver.com','123','ê¹€ì‹œì„ ','32',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('extreammovie@naver.com','123','ê¹€ì¢…ì² ì˜ ìµìŠ¤íŠ¸ë¦¼ë¬´ë¹„','49',100000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mimi@naver.com','123','ê¹€í¥ë¯¸','47',30000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('9movie@daum.net','123','ë‚˜ì¸ë¬´ë¹„','18',500,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('netvo@daum.net','123','ë„·ë³´','20',450,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('iconictv@daum.net','123','ëŒ€í‘œ TV','47',2000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('duc@daum.net','123','ë•ë¬´ë¹„','45',50,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('dopan@daum.net','123','ë„íŒ¬','44',90000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('videobang@daum.net','123','ë™ë„¤ë¹„ë””ì˜¤ë°©','37',50000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('3bunoddugi@daum.net','123','ë‘ì–µì‹œë‹ˆ 3ë¶„ìš”ì•½','27',1500,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('duna@daum.net','123','ë“€ë‚˜','35',100000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('dreamteller@daum.net','123','ë“œë¦¼í…”ëŸ¬','28',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('dingo@daum.net','123','ë”©ê³  ë¬´ë¹„','40',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ddaddasi@hotmail.com','123','ë”°ë”°ì‹œ','44',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ddubuni@hotmail.com','123','ë– ë²ˆì˜','23',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ddorol@hotmail.com','123','ë˜ë¡¤ë¬´ë¹„','28',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ddingjal@hotmail.com','123','ëµì˜','31',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('liner@hotmail.com','123','ë¼ì´ë„ˆ','45',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('lak@hotmail.com','123','ë¼í¬ë¬´ë¹„','20',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('lemong@hotmail.com','123','ë ˆëª½','49',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('read@gmail.com','123','ë¦¬ë“œë¬´ë¹„','20',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('reviewman@gmail.com','123','ë¦¬ë·°ë§¨','35',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('reviewang@gmail.com','123','ë¦¬ë·°ì—‰ì´','28',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('riukun@gmail.com','123','ë¦¬ìš°êµ°ì˜ ë‹¤ë½ë°©','26',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('jy@gmail.com','123','ë¦¬í•„ë“œ ì¬ì˜','39',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('murf@gmail.com','123','ë¨¸í”„','28',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('muk@gmail.com','123','ë©”ë°€ë¬µë„ë¦¬','32',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('senior@gmail.com','123','ëª…ë™ì„ ë°°','36',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('freeticket@yahoo.com','123','ë¬´ë£Œì´ìš©','40',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('murmicine@yahoo.com','123','ë¬´ë¥´ë¯¸ì”¨ë„¤','29',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('moviedochi@yahoo.com','123','ë¬´ë¹„ë„ì¹˜','22',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('moviemonster@yahoo.com','123','ë¬´ë¹„ëª¬ìŠ¤í„°','25',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('moviemovie@yahoo.com','123','ë¬´ë¹„ë¬´ë¹„','23',4000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('movieus@yahoo.com','123','ë¬´ë¹„ìš°ìŠ¤','37',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('movieworld@yahoo.com','123','ë¬´ë¹„ì›”ë“œ','50',2000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('moviekok@yahoo.com','123','ë¬´ë¹„ì½•ì½•','42',300,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('taco@daum.net','123','ë¬´ë¹„íƒ€ì½”','32',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('teller@hotmail.com','123','ë¬´ë¹„í…”ëŸ¬','29',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('trip@hotmail.com','123','ë¬´ë¹„íŠ¸ë¦½','30',1600,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('hanjan@hotmail.com','123','ë¬´ë¹„í•œì”','22',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('choice@hotmail.com','123','ë¬¸ì´ˆì´ìŠ¤','36',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mupmup@hotmail.com','123','ë­…ë­…','33',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('middle@hotmail.com','123','ë¯¸ë“¤ë»”','47',8000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mix@gmail.com','123','ë¯¹ìŠ¤ë¬´ë¹„','29',450,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('minho@gmail.com','123','ë¯¼í˜¸íƒ€ìš°ë¥´ìŠ¤','24',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('byebye@gmail.com','123','ë°”ë°”ë¬´ë¹„','29',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('nofootbird@gmail.com','123','ë°œì—†ëŠ”ìƒˆ','34',4500,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('baebae@gmail.com','123','ë°°ë°°','36',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('freeman@gmail.com','123','ë°±ìˆ˜ê³¨ë°©','33',5200,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('bumti@gmail.com','123','ë²”í‹°','24',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('bear@gmail.com','123','ë² ì–´ë¬´ë¹„','31',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('incheon@yahoo.com','123','ë¶€í‰ì‹œë„¤ë§ˆ','49',100000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('bukbu@yahoo.com','123','ë¶ë¶€ì˜ ì™•','49',30000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('bitatalk@yahoo.com','123','ë¹„íƒ€ í† í¬','37',500,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('gongu@yahoo.com','123','ë¹¨ê°•ë„ê¹¨ë¹„','17',450,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('bman@yahoo.com','123','ì‚ë§¨','33',2000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('sangung@yahoo.com','123','ìƒê¶','26',50,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('boxmovie@yahoo.com','123','ìƒìë¬´ë¹„ë¦¬ë·°','46',90000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('bbbbbreview@yahoo.com','123','ì„œì‚ì‚ì˜ ì˜í™”ë¦¬ë·°','45',50000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('serin@naver.com','123','ì„¸ë¦°','23',1500,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('sogaenam@naver.com','123','ì†Œê°œë‚¨','32',10000000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('please@naver.com','123','ì†Œê°œí•´ì£¼ì–´','48',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('soso@naver.com','123','ì†Œì†Œí‹°ë¹„','17',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('cottoncandy@naver.com','123','ì†œì‚¬íƒ•','47',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('shortcut@daum.net','123','ìˆì»·ë¦¬ë·°','45',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('chicken@daum.net','123','ìˆœì‚­ì˜í™”','34',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('sunta@daum.net','123','ìˆœíƒ€','42',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('screen@daum.net','123','ìŠ¤í¬ë¦°ëŒ€ì¥','37',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('heytv@gmail.com','123','ìŠ¹í—¤ì´TV','36',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('senimapia@gmail.com','123','ì‹œë„¤ë§ˆí”¼ì•„','32',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('react@gmail.com','123','ì‹¬ì‹¬í’€ì´ ë°˜ì‘ì±„ë„','22',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('hi@gmail.com','123','ì•ˆìš©','26',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('youknow@gmail.com','123','ì•Œë ¤ì¤Œ','47',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('egg@naver.com','123','ì•Œì”¨ë„¤','38',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('yangyang@naver.com','123','ì–‘ìŸˆê¹Œì˜','24',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('uppercut@naver.com','123','ì–´í¼ì»·','24',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('unjun@naver.com','123','ì—‰ì¤€','23',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('everyview@naver.com','123','ì—ë¸Œë¦¬ë·°','34',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('acut@naver.com','123','ì—ì´ì»· í‹°ë¹„','45',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ans@daum.net','123','ì—”ìŠ¤','36',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('younglove@daum.net','123','ì˜ëŸ½','25',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('youngmin@daum.net','123','ì˜ë¯¼í•˜ë‹¤','35',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('youngbotv@daum.net','123','ì˜ë³´TV','33',4000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('youngread@daum.net','123','ì˜ì¼ë‚¨','25',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('pause@daum.net','123','ì˜ì ì‹œ','48',2000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('makemovie@daum.net','123','ì˜í™”ê³µì‘ì†Œ','19',300,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('endmovie@daum.net','123','ì˜í™”ëë¬´ë µ','30',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('otaku@daum.net','123','ì˜í™”ë•í›„','43',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('yap@daum.net','123','ì˜í™”ë„ì „','26',1600,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('girl@hotmail.com','123','ì˜í™”ì†Œë…€','44',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('shong@hotmail.com','123','ì˜í™”ì†Œí™˜ì‚¬','28',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('about@hotmail.com','123','ì˜í™”ì— ê´€í•˜ì—¬','46',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('drunk@hotmail.com','123','ì˜í™”ì—ì·¨í•œë‹¤','42',8000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('tvshowshow@hotmail.com','123','ì˜í™”ì˜ˆëŠ¥TV','36',450,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('tablemovie@hotmail.com','123','ì˜í™”ì˜ ì‹íƒ','48',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('jjummer@hotmail.com','123','ì˜í™”ì±„ë„ ì­ˆë¨¸','48',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('drikdrik@gmail.com','123','ì˜¤ëŠ˜ë„ ë“œë¦­ë“œë¦­','27',4500,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('tophome@gmail.com','123','ì˜¥íƒ‘ë°©ë¬´ë¹„','34',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('suspect@gmail.com','123','ìš©ì˜ì','37',5200,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('youtuberead@daum.net','123','ìœ íŠœë¸Œì½ì–´ì£¼ëŠ”ë‚¨ì','50',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('eeeki@daum.net','123','ì´ë¼ë§¨ì˜ ì¢‹ì€ ì˜í™” í•´ì„','47',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('esangcouple@daum.net','123','ì´ìƒì»¤í”Œì˜ì´ìƒì ì¸ë¼ì´í”„','38',100000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('storyroom@daum.net','123','ì´ì•¼ê¸°ë°©','34',30000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ezip@daum.net','123','ì´ì§‘ì˜í™”ê´œì°®ë„¤','20',500,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('aloneman@daum.net','123','ìì·¨ë°©ë‚¨ì','26',450,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('socheon@daum.net','123','ì¥ì†Œì²œ','21',2000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('jackkongs@hotmail.com','123','ì­ì½©''s ì˜í™”ë¦¬ë·°','22',50,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('jum@hotmail.com','123','ì ë¡€','46',90000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('daymovie@hotmail.com','123','ì£¼ë§ì˜ ëµí™”','37',50000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('suenim@hotmail.com','123','ì¤‘ìƒì´','41',1500,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('gmovie@hotmail.com','123','ì§€ë¬´ë¹„','22',10000000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('zto@hotmail.com','123','ì§€í† TV','43',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('realtrue@hotmail.com','123','ì§„ì†”í•œë¦¬ë·°','35',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('zipmovie@gmail.com','123','ì§‘ë¬´ë¹„','31',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('windandrain@gmail.com','123','ì±„ë„í­í’','32',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('genius@gmail.com','123','ì²œì¬ì´ìŠ¹êµ­','20',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('boyboy@gmail.com','123','ì² ë¶€ì§€ì˜í™”','44',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('whereiam@gmail.com','123','ì²­ë‚¨ë™','29',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('noboty@gmail.com','123','ì¹œì ˆí•œë…¸ë°”ë””','23',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('karang@gmail.com','123','ì¹´ë‘','46',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('captainrami@gmail.com','123','ìº¡í‹´ë¼ë¯¸','40',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('cabletv@yahoo.com','123','ì¼€ì´ë¸”TV VOD','39',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('core@yahoo.com','123','ì½”ì–´','33',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('contentplayer00@yahoo.com','123','ì½˜í…ì¸ í”Œë ˆì´','45',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('killtarian131@yahoo.com','123','í‚¬íƒ€','34',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('tunachamchi@yahoo.com','123','íŠœë‚˜','46',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('holemovie98@yahoo.com','123','í‹ˆìƒˆì˜í™”','23',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('popcorncake@yahoo.com','123','íŒì½˜ì¼€ìµ','41',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mypopcorntree@yahoo.com','123','íŒì½˜íŠ¸ë¦¬','40',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('postshare85@daum.net','123','í¬ìŠ¤íŠ¸ì‰ì–´','36',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('spoilerman99@hotmail.com','123','í”„ë¦¬ë·°_ê²°ë§í¬í•¨','35',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('fictionworld24@hotmail.com','123','í”½ì…˜ì›”ë“œ','46',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('fallinfilm@hotmail.com','123','í•„ë¦„ì—ë¹ ì§€ë‹¤','43',4000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('filmcasterian99@hotmail.com','123','í•„ë¦„ìºìŠ¤í„°','50',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('helpyourself@hotmail.com','123','í•˜ê³ ì‹¶ì€ê±°ë‹¤í•´','47',2000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('whiteraccoon@hotmail.com','123','í•˜ì–€ë„ˆêµ¬ë¦¬','33',300,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('highlight7373@gmail.com','123','í•˜ì´ë¼ì´íŠ¸','48',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('stephanhockingkk@gmail.com','123','í•˜í‚¹','33',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('kimchiman123@gmail.com','123','í• ì§“ì—†ëŠ”ê¹€ì¹˜ì°Œê°œ','29',1600,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('hamlet_movies@gmail.com','123','í–„ë¦¿','39',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('heatherturning@gmail.com','123','í—¤ë”ì˜í„°ë‹í˜ì´ì§€','29',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('hyundaicardmovie@gmail.com','123','í˜„ëŒ€ì¹´ë“œ','22',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ajhongmovie@gmail.com','123','í™ë¸”ëŸ¬íƒ‘ê³¨ê·¹ì¥','22',8000,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('hongcinema@gmail.com','123','í™ì‹œë„¤ë§ˆ','35',450,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('fatic74@yahoo.com','123','í™”í‹±','47',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('hipparachi@yahoo.com','123','íˆíŒŒë¼ì¹˜','29',100,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ajbros8080@yahoo.com','123','AJBrothers','41',4500,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('benhahnfeld@yahoo.com','123','Benjamin Hahnfeld','20',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('chvideochannel@yahoo.com','123','CH.ºñµğ¿À°¡°Ô','36',5200,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('chvideochannel@yahoo.com','123','CH.ë¹„ë””ì˜¤ê°€ê²Œ','36',5200,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('chrisstuckshit@hotmail.com','123','Chris Stuckmann','43',100,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('moonlightmuse@gmail.com','123','DALBITMUSE','31',100,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('falconcaptain@gmail.com','123','Falcon Review','29',100000,null,'noicon.png','nochimg.png',1);
@@ -1599,12 +1599,12 @@ Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) valu
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('gamemaster88@gmail.com','123','GM.STORY','28',500,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('highqutv@gmail.com','123','HIGHCUTV','46',450,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('netherlandman@gmail.com','123','Hollander Jo','29',2000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mootiqj@gmail.com','123','JÀÇ ¹«Æ¼²ô','35',50,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mootiqj@gmail.com','123','Jì˜ ë¬´í‹°ë„','35',50,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('tetris024@gmail.com','123','Jerald Podkowka','43',90000,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('jeremyking@yahoo.com','123','Jeremy Jahns','24',50000,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('jayque@daum.net','123','JQ','39',1500,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('rkdwns@daum.net','123','Jun Kang','47',10000000,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('kbs_antena@daum.net','123','KBS ¾ÈÅ×³ª','28',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('kbs_antena@daum.net','123','KBS ì•ˆí…Œë‚˜','28',100,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('lookmun@daum.net','123','Lookmun','22',100,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('redmonmov@daum.net','123','Movie RedMonster','36',100,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('codemovie@daum.net','123','MovieCode','37',100,null,'noicon.png','nochimg.png',1);
@@ -1616,53 +1616,53 @@ Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) valu
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('roleplayman@yahoo.com','123','Role Play','46',100,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('skmovies@daum.net','123','SK B tv','47',100,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('sonypictures@daum.net','123','sonypictureskr','31',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('duckplayer@daum.net','123','TV´öÇÃ','38',100,null,'noicon.png','nochimg.png',1);
-Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('kongtv@daum.net','123','TVÄá','33',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('duckplayer@daum.net','123','TVë•í”Œ','38',100,null,'noicon.png','nochimg.png',1);
+Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('kongtv@daum.net','123','TVì½©','33',100,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('uxxmovie@daum.net','123','Uxx','29',100,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('mybody@gmail.com','123','wembodyt','29',100,null,'noicon.png','nochimg.png',1);
 Insert into RETULIX.MEMBER (EMAIL,PWD,NAME,AGE,POINT,SUBS,ICON,CHIMG,STATE) values ('ysamo@yahoo.com','123','Ysamo Quind','20',100,null,'noicon.png','nochimg.png',1);
 REM INSERTING into RETULIX.NOTICE
 SET DEFINE OFF;
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (1,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (2,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (3,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (4,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (5,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (6,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (7,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (8,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (9,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (10,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (11,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (12,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (13,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (14,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (15,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (16,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (17,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (18,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (19,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (20,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (21,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (22,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (23,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (24,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (25,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (26,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (27,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (28,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (29,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (30,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (31,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (32,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (33,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (34,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (35,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (36,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (37,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (38,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (39,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
-Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (40,'Å×½ºÆ®','°øÁö»çÇ× Å×½ºÆ®',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (1,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (2,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (3,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (4,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (5,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (6,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (7,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (8,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (9,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (10,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (11,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (12,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (13,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (14,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (15,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (16,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (17,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (18,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (19,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (20,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (21,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (22,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (23,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (24,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (25,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (26,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (27,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (28,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (29,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (30,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (31,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (32,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (33,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (34,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (35,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (36,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (37,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (38,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (39,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
+Insert into RETULIX.NOTICE (IDX,TITLE,INFO,WDATE,CLICK,NAME) values (40,'í…ŒìŠ¤íŠ¸','ê³µì§€ì‚¬í•­ í…ŒìŠ¤íŠ¸',to_date('20/02/19','RR/MM/DD'),0,'admin');
 REM INSERTING into RETULIX.GOOD_REVIEW
 SET DEFINE OFF;
 REM INSERTING into RETULIX.HISTORY

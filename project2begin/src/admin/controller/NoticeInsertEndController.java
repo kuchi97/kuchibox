@@ -22,7 +22,7 @@ public class NoticeInsertEndController extends AbstractAction {
 		
 		int n= dao.insertNotice(vo);
 		
-		String msg= (n>0)?"°øÁö»çÇ× µî·Ï¼º°ø":"°øÁö»çÇ× µî·Ï½ÇÆÐ";
+		String msg= (n>0)?"ê³µì§€ì‚¬í•­ ë“±ë¡ì„±ê³µ":"ê³µì§€ì‚¬í•­ ë“±ë¡ì‹¤íŒ¨";
 		String loc= (n>0)?"noticeMain.do":"javascript:history.back()";
 		
 		req.setAttribute("msg", msg);

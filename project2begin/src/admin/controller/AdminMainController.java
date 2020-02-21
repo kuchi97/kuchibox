@@ -6,7 +6,7 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import admin.domain.ContentVO;
+import admin.domain.TrailerVO;
 import admin.domain.MemberContentVO;
 import admin.domain.MemberVO;
 import admin.domain.NoticeVO;
@@ -20,7 +20,7 @@ public class AdminMainController extends AbstractAction {
 
 	@Override
 	public void execute(HttpServletRequest req, HttpServletResponse res) throws Exception {
-		System.out.println("[AdminMainController] ## admin.do ¿¡¼­ ³Ñ¾î¿È");
+		System.out.println("[AdminMainController] ## admin.do ì—ì„œ ë„˜ì–´ì˜´");
 		
 		String cpageStr= req.getParameter("cpage");
 		if(cpageStr==null || cpageStr.trim().isEmpty()) {
@@ -29,8 +29,8 @@ public class AdminMainController extends AbstractAction {
 		int cpage= Integer.parseInt(cpageStr);
 		
 		PagingVO paging= new PagingVO(10,cpage, 5, 5);
-			//totalCount°ªÀ» °íÁ¤À¸·Î Áà¼­ °øÅëÀûÀ¸·Î ´Ù Ãâ·ÂÇÒ¼öÀÖ°ÔÇÔ
-			//(¾îÂ÷ÇÇ ¸ŞÀÎ¿¡ Ãâ·ÂÇÒ ¸ñ·ÏÀº 4°³¾¿ÀÌ´Ï±î)
+			//totalCountê°’ì„ ê³ ì •ìœ¼ë¡œ ì¤˜ì„œ ê³µí†µì ìœ¼ë¡œ ë‹¤ ì¶œë ¥í• ìˆ˜ìˆê²Œí•¨
+			//(ì–´ì°¨í”¼ ë©”ì¸ì— ì¶œë ¥í•  ëª©ë¡ì€ 4ê°œì”©ì´ë‹ˆê¹Œ)
 		int start= paging.getStart();
 		int end= paging.getEnd();
 		
@@ -39,7 +39,7 @@ public class AdminMainController extends AbstractAction {
 		List<MemberVO> memberArr= memberDAO.listMember(start, end);
 		
 		ContentDAO contentDAO= new ContentDAO();
-		List<ContentVO> contentArr= contentDAO.listContent(start, end);
+		List<TrailerVO> contentArr= contentDAO.listContent(start, end);
 
 		List<MemberContentVO> userContentArr= contentDAO.listAllMemberContent(start, end);
 		

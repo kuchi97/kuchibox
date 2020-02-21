@@ -13,7 +13,7 @@ public class NoticeInsertController extends AbstractAction {
 		
 		String name= req.getParameter("name");
 		if(name==null || name.trim().isEmpty()) {
-			String msg="Àß¸øµÈ Á¢±ÙÀÔ´Ï´Ù [parameter:none]";
+			String msg="ì˜ëª»ëœ ì ‘ê·¼ì…ë‹ˆë‹¤ [parameter:none]";
 			String loc="index.do";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);

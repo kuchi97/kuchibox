@@ -5,7 +5,7 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import admin.domain.ContentVO;
+import admin.domain.TrailerVO;
 import admin.domain.PagingVO;
 import admin.persistence.ContentDAO;
 import common.controller.AbstractAction;
@@ -14,7 +14,7 @@ public class ContentListController extends AbstractAction {
 
 	@Override
 	public void execute(HttpServletRequest req, HttpServletResponse res) throws Exception {
-		System.out.println("[ContentListController] ## contentList.do ø°º≠ ≥—æÓø»");
+		System.out.println("[ContentListController] ## contentList.do ÏóêÏÑú ÎÑòÏñ¥Ïò¥");
 		
 		String cpageStr= req.getParameter("cpage");
 		if(cpageStr==null) {
@@ -25,10 +25,10 @@ public class ContentListController extends AbstractAction {
 		ContentDAO dao= new ContentDAO();
 		PagingVO paging= new PagingVO(dao.getTotalContent(), cpage, 10, 10);
 		
-		List<ContentVO> arr= dao.listContent(paging.getStart(), paging.getEnd());
-		//¿Ø»øº∫
+		List<TrailerVO> arr= dao.listContent(paging.getStart(), paging.getEnd());
+		//Ïú†Ìö®ÏÑ±
 		if(arr.size()<=0) {
-			String msg="∏Ò∑œ¿ª √£¿ª ºˆ æ¯Ω¿¥œ¥Ÿ [result:none]";
+			String msg="Î™©Î°ùÏùÑ Ï∞æÏùÑ Ïàò ÏóÜÏäµÎãàÎã§ [result:none]";
 			String loc="javascript:history.back()";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);

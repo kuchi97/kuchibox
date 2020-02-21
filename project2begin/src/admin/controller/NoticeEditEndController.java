@@ -20,10 +20,10 @@ public class NoticeEditEndController extends AbstractAction {
 		String name= req.getParameter("name");
 		
 		NoticeDAO dao= new NoticeDAO();
-		//À¯È¿¼º
+		//ìœ íš¨ì„±
 		NoticeVO isNotice= dao.selectOneNotice(idx);
 		if(isNotice==null) {
-			String msg="Àß¸øµÈ Á¢±ÙÀÔ´Ï´Ù [parameter:none]";
+			String msg="ìž˜ëª»ëœ ì ‘ê·¼ìž…ë‹ˆë‹¤ [parameter:none]";
 			String loc="index.do";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);
@@ -35,7 +35,7 @@ public class NoticeEditEndController extends AbstractAction {
 		
 		int n= dao.updateNotice(notice);
 
-		String msg= (n>0)?"¼öÁ¤ ¼º°ø":"¼öÁ¤ ½ÇÆÐ";
+		String msg= (n>0)?"ìˆ˜ì • ì„±ê³µ":"ìˆ˜ì • ì‹¤íŒ¨";
 		String loc= (n>0)?"noticeMain.do":"javascript:history.back()";
 		
 		req.setAttribute("msg", msg);

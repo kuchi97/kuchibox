@@ -28,9 +28,9 @@ public class MemberContentController extends AbstractAction {
 		List<MemberContentVO> memberContent= dao.listMemberContent(email, paging.getStart(), paging.getEnd());
 		
 		
-		//ÀÛ¼ºÇÑ ³»¿ªÀÌ ¾øÀ»¶§
+		//ì‘ì„±í•œ ë‚´ì—­ì´ ì—†ì„ë•Œ
 		if(memberContent==null || memberContent.size()<=0) {
-			String msg="ÇØ´ç È¸¿øÀÌ ÀÛ¼ºÇÑ ³»¿ªÀº Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù";
+			String msg="í•´ë‹¹ íšŒì›ì´ ì‘ì„±í•œ ë‚´ì—­ì€ ì¡´ì¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤";
 			String loc="javascript:history.back()";
 			
 			req.setAttribute("msg", msg);

@@ -16,9 +16,9 @@ public class MemberEditEndController extends AbstractAction {
 		System.out.println("[MemberEditEndController] executed ####");
 		
 		String email= req.getParameter("email");
-		//À¯È¿¼º
+		//ìœ íš¨ì„±
 		if(email==null || email.trim().isEmpty()) {
-			String msg="Àß¸øµÈ °æ·ÎÀÔ´Ï´Ù";
+			String msg="ì˜ëª»ëœ ê²½ë¡œì…ë‹ˆë‹¤";
 			String loc="index.do";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);
@@ -27,7 +27,7 @@ public class MemberEditEndController extends AbstractAction {
 		}
 		MemberDAO dao= new MemberDAO();
 		
-		//³ª¸ÓÁö ÆÄ¶ó¹ÌÅÍ ¹Ş¾Æ¿À°í
+		//ë‚˜ë¨¸ì§€ íŒŒë¼ë¯¸í„° ë°›ì•„ì˜¤ê³ 
 		String pwd= req.getParameter("pwd");
 		String name= req.getParameter("name");
 		String year= req.getParameter("year");
@@ -35,22 +35,22 @@ public class MemberEditEndController extends AbstractAction {
 		String point= req.getParameter("point");
 		String state= req.getParameter("state");
 		String showState="";
-		//È¸¿ø»óÅÂº°·Î ¼ıÀÚ->ÅØ½ºÆ® ÀüÈ¯
+		//íšŒì›ìƒíƒœë³„ë¡œ ìˆ«ì->í…ìŠ¤íŠ¸ ì „í™˜
 		switch(state) {
 		case "0":
-			showState="ÀÏ¹İ";
+			showState="ì¼ë°˜";
 			break;
 		case "1":
-			showState="Æ¯º°";
+			showState="íŠ¹ë³„";
 			break;
 		case "-1":
-			showState="Á¤Áö";
+			showState="ì •ì§€";
 			break;
 		case "-2":
-			showState="Å»Åğ";
+			showState="íƒˆí‡´";
 			break;
 		case "99":
-			showState="°ü¸®ÀÚ";
+			showState="ê´€ë¦¬ì";
 			break;
 		}
 		

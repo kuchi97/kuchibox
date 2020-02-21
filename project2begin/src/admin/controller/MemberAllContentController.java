@@ -25,9 +25,9 @@ public class MemberAllContentController extends AbstractAction {
 		ContentDAO dao= new ContentDAO();
 		PagingVO paging= new PagingVO(dao.getTotalMemberAllContent(), cpage, 10, 5);
 		List<MemberContentVO> arr=dao.listAllMemberContent(paging.getStart(), paging.getEnd());
-		//À¯È¿¼º
+		//ìœ íš¨ì„±
 		if(arr.size()<=0) {
-			String msg="¸ñ·ÏÀ» Ã£À» ¼ö ¾ø½À´Ï´Ù [result:none]";
+			String msg="ëª©ë¡ì„ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤ [result:none]";
 			String loc="javascript:history.back()";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);

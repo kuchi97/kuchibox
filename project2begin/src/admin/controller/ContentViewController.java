@@ -3,7 +3,7 @@ package admin.controller;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import admin.domain.ContentVO;
+import admin.domain.TrailerVO;
 import admin.persistence.ContentDAO;
 import common.controller.AbstractAction;
 
@@ -15,7 +15,7 @@ public class ContentViewController extends AbstractAction {
 		
 		String idx= req.getParameter("idx");
 		if(idx==null || idx.trim().isEmpty()) {
-			String msg="°á°ú¸¦ Ã£À» ¼ö ¾ø½À´Ï´Ù [result:none]";
+			String msg="ê²°ê³¼ë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤ [result:none]";
 			String loc="javascript:history.back()";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);
@@ -24,10 +24,10 @@ public class ContentViewController extends AbstractAction {
 		}
 		
 		ContentDAO dao= new ContentDAO();
-		ContentVO content= dao.selectOneContent(idx);
-		//À¯È¿¼º
+		TrailerVO content= dao.selectOneContent(idx);
+		//ìœ íš¨ì„±
 		if(content==null) {
-			String msg="Àß¸øµÈ Á¢±ÙÀÔ´Ï´Ù [parameter:none]";
+			String msg="ì˜ëª»ëœ ì ‘ê·¼ì…ë‹ˆë‹¤ [parameter:none]";
 			String loc="index.do";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);

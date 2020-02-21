@@ -3,7 +3,7 @@ package admin.controller;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import admin.domain.ContentVO;
+import admin.domain.TrailerVO;
 import admin.persistence.ContentDAO;
 import common.controller.AbstractAction;
 
@@ -14,9 +14,9 @@ public class ContentEditPreviewController extends AbstractAction {
 		System.out.println("[ContentEditPreviewController] ## FROM. contentEditPreview.do");
 		
 		String idx= req.getParameter("idx");
-		//À¯È¿¼º
+		//ìœ íš¨ì„±
 		if(idx==null || idx.trim().isEmpty()) {
-			String msg="¸ñ·ÏÀ» Ã£À» ¼ö ¾ø½À´Ï´Ù [result:none]";
+			String msg="ëª©ë¡ì„ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤ [result:none]";
 			String loc="javascript:history.back()";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);
@@ -24,9 +24,9 @@ public class ContentEditPreviewController extends AbstractAction {
 			return;
 		}
 		ContentDAO dao= new ContentDAO();
-		ContentVO isContent= dao.selectOneContent(idx);
+		TrailerVO isContent= dao.selectOneContent(idx);
 		if(isContent==null) {
-			String msg="Àß¸øµÈ Á¢±ÙÀÔ´Ï´Ù [parameter:none]";
+			String msg="ì˜ëª»ëœ ì ‘ê·¼ì…ë‹ˆë‹¤ [parameter:none]";
 			String loc="index.do";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);
@@ -40,7 +40,7 @@ public class ContentEditPreviewController extends AbstractAction {
 		String info= req.getParameter("info");
 		
 		
-		ContentVO content= new ContentVO(idx, title, director, release, info);
+		TrailerVO content= new TrailerVO(idx, title, director, release, info);
 		req.setAttribute("content", content);
 		
 		this.setViewPage("admin/contentPreview.jsp");

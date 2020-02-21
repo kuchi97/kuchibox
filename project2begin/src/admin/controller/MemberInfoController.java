@@ -15,9 +15,9 @@ public class MemberInfoController extends AbstractAction {
 		System.out.println("[MemberInfoController] executed ####");
 		
 		String email= req.getParameter("email");
-		//À¯È¿¼º
+		//ìœ íš¨ì„±
 		if(email==null || email.trim().isEmpty()) {
-			String msg="Àß¸øµÈ °æ·ÎÀÔ´Ï´Ù";
+			String msg="ì˜ëª»ëœ ê²½ë¡œì…ë‹ˆë‹¤";
 			String loc="index.do";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);
@@ -27,11 +27,11 @@ public class MemberInfoController extends AbstractAction {
 		}
 		
 		MemberDAO dao= new MemberDAO();
-		//Àß¸øµÈ emailÀÔ·ÂµÈ °æ¿ì
+		//ì˜ëª»ëœ emailì…ë ¥ëœ ê²½ìš°
 		MemberVO ismember= dao.listOneMember(email);
 		System.out.println(ismember);
 		if(ismember==null) {
-			String msg="Àß¸øµÈ Á¢±ÙÀÔ´Ï´Ù";
+			String msg="ì˜ëª»ëœ ì ‘ê·¼ì…ë‹ˆë‹¤";
 			String loc="index.do";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);

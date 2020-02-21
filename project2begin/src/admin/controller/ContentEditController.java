@@ -3,7 +3,7 @@ package admin.controller;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import admin.domain.ContentVO;
+import admin.domain.TrailerVO;
 import admin.persistence.ContentDAO;
 import common.controller.AbstractAction;
 
@@ -14,9 +14,9 @@ public class ContentEditController extends AbstractAction {
 		System.out.println("[ContentEditController] executed ####");
 		
 		String idx= req.getParameter("idx");
-		//À¯È¿¼º
+		//ìœ íš¨ì„±
 		if(idx==null || idx.trim().isEmpty()) {
-			String msg="Àß¸øµÈ °æ·ÎÀÔ´Ï´Ù";
+			String msg="ì˜ëª»ëœ ê²½ë¡œì…ë‹ˆë‹¤";
 			String loc="javascript:history.back()";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);
@@ -28,10 +28,10 @@ public class ContentEditController extends AbstractAction {
 		}
 		
 		ContentDAO dao= new ContentDAO();
-		ContentVO content= dao.selectOneContent(idx);
-		//À¯È¿¼º-ÆÄ¶ó¹ÌÅÍÁ¶ÀÛ
+		TrailerVO content= dao.selectOneContent(idx);
+		//ìœ íš¨ì„±-íŒŒë¼ë¯¸í„°ì¡°ì‘
 		if(content==null) {
-			String msg="Àß¸øµÈ Á¢±ÙÀÔ´Ï´Ù [parameter:none]";
+			String msg="ì˜ëª»ëœ ì ‘ê·¼ì…ë‹ˆë‹¤ [parameter:none]";
 			String loc="index.do";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);

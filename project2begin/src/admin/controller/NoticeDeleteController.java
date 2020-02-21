@@ -15,7 +15,7 @@ public class NoticeDeleteController extends AbstractAction {
 		
 		String idx= req.getParameter("idx");
 		if(idx==null || idx.trim().isEmpty()) {
-			String msg="Àß¸øµÈ °æ·ÎÀÔ´Ï´Ù [parameter:none]";
+			String msg="ìž˜ëª»ëœ ê²½ë¡œìž…ë‹ˆë‹¤ [parameter:none]";
 			String loc="index.do";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);
@@ -24,10 +24,10 @@ public class NoticeDeleteController extends AbstractAction {
 		}
 		
 		NoticeDAO dao= new NoticeDAO();
-		//À¯È¿¼º(ÆÄ¶ó¹ÌÅÍ Á¶ÀÛ)
+		//ìœ íš¨ì„±(íŒŒë¼ë¯¸í„° ì¡°ìž‘)
 		NoticeVO notice= dao.selectOneNotice(idx);
 		if(notice==null) {
-			String msg="Àß¸øµÈ Á¢±ÙÀÔ´Ï´Ù [parameter:none]";
+			String msg="ìž˜ëª»ëœ ì ‘ê·¼ìž…ë‹ˆë‹¤ [parameter:none]";
 			String loc="index.do";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);
@@ -36,7 +36,7 @@ public class NoticeDeleteController extends AbstractAction {
 		}
 		int n= dao.deleteNotice(idx);
 		
-		String msg= (n>0)?"»èÁ¦ ¼º°ø":"»èÁ¦ ½ÇÆÐ";
+		String msg= (n>0)?"ì‚­ì œ ì„±ê³µ":"ì‚­ì œ ì‹¤íŒ¨";
 		String loc= (n>0)?"noticeMain.do":"javascript:history.back()";
 		
 		req.setAttribute("msg", msg);

@@ -29,7 +29,7 @@ public class NoticeSearchController extends AbstractAction {
 		paging.setTotalCount(dao.getTotalSearchNotice(paging.getSelectBox(),paging.getSearchInput()));
 		paging.init();
 		
-		/* input°ªÀÌ nullÀÏ¶§ - ÀüÃ¼¸®½ºÆ®·Î º¸³½´Ù */
+		/* inputê°’ì´ nullì¼ë•Œ - ì „ì²´ë¦¬ìŠ¤íŠ¸ë¡œ ë³´ë‚¸ë‹¤ */
 		if(paging.getSelectBox()==null || paging.getSelectBox().trim().isEmpty()) {
 			this.setViewPage("noticeMain.do");
 			this.setRedirect(true);
@@ -43,7 +43,7 @@ public class NoticeSearchController extends AbstractAction {
 		
 		List<NoticeVO> arr= dao.selectNotice(paging.getSelectBox(), paging.getSearchInput(), paging.getStart(), paging.getEnd());
 		if(arr.size()<=0) {
-			String msg="°Ë»ö°á°ú¸¦ Ã£À» ¼ö ¾ø½À´Ï´Ù [result:none]";
+			String msg="ê²€ìƒ‰ê²°ê³¼ë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤ [result:none]";
 			String loc="javascript:history.back()";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);

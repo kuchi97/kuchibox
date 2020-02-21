@@ -14,7 +14,7 @@ public class MemberListController extends AbstractAction {
 
 	@Override
 	public void execute(HttpServletRequest req, HttpServletResponse res) throws Exception {
-		System.out.println("[MemberListController] ## memberList.do¿¡¼­ ³Ñ¾î¿È");
+		System.out.println("[MemberListController] ## memberList.doì—ì„œ ë„˜ì–´ì˜´");
 		
 		String cpageStr= req.getParameter("cpage");
 		if(cpageStr==null) {
@@ -25,9 +25,9 @@ public class MemberListController extends AbstractAction {
 		MemberDAO dao= new MemberDAO();
 		PagingVO paging= new PagingVO(dao.getTotalMember(), cpage, 10, 5);
 		List<MemberVO> arr= dao.listMember(paging.getStart(), paging.getEnd());
-		//À¯È¿¼º
+		//ìœ íš¨ì„±
 		if(arr.size()<=0) {
-			String msg="È¸¿ø¸ñ·ÏÀ» °¡Á®¿À´Âµ¥ ½ÇÆĞÇß½À´Ï´Ù [result:none]";
+			String msg="íšŒì›ëª©ë¡ì„ ê°€ì ¸ì˜¤ëŠ”ë° ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤ [result:none]";
 			String loc="index.do";
 			req.setAttribute("msg", msg);
 			req.setAttribute("loc", loc);
