@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="spring.mapper.MemoMapper">
+
+	<!-- 테스트 -->
+	<select id="test" resultType="int">
+		select count(*) from tab
+	</select>
+	
+	<!-- insertMemo -->
+	<insert id="createMemo" parameterType="com.tis.memo.model.MemoVO">
+		<!-- 시퀀스를 selectKey로 가져옴 -->
+		<selectKey keyProperty="idx" order="BEFORE" resultType="int">
+			select memo_seq.nextval from dual
+		</selectKey>
+		insert into memo(idx, name, msg, wdate)
+		values(#{idx},#{name},#{msg},sysdate)
+	</insert>
+	<!-- listMemo -->
+	<select id="listMemo" resultType="Memo">
+		select * from memo order by idx desc
+	</select>
+	<!-- deleteMemo -->
+	<delete id="deleteMemo" parameterType="_int">
+		<!-- 기본자료형의 alias는 _int, 그냥 int는 Integer로 인식한다 -->
+		delete memo where idx=#{idx}
+	</delete>
+	
+</mapper>

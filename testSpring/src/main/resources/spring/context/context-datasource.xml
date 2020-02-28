@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mybatis-spring="http://mybatis.org/schema/mybatis-spring"
+	xsi:schemaLocation="http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring-1.2.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- 1. DataSource 등록
+			= DriverManagerDataSource
+			= JNDI 사용하는 방법		 -->
+	
+	<!-- 1.1. DriverManager로 등록하기 -->
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+		<property name="url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
+		<property name="username" value="scott"/>
+		<property name="password" value="tiger"/>
+	</bean>
+	<!-- 1.2. JNDI로 등록하기: server.xml에 등록되어있다는 전제하에 가능 -->
+	<bean id="jndiDataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiName" value="java:comp/env/myoracle/myshop"/>
+	</bean>
+	<!-- 1.3. 책에나온방법(p.83, 176): Hikary Connection Pool (pom.xml에 먼저 등록하자) -->
+	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+		<property name="jdbcUrl" value="jdbc:oracle:thin:@localhost:1521:XE"/>
+		<property name="username" value="myshop"/>
+		<property name="password" value="tiger"/>
+	</bean>
+	<bean id="hikariDataSource" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
+		<constructor-arg ref="hikariConfig"/>
+	</bean>
+	
+	<!-- ============================================================= -->
+	
+	<!-- 2. SqlSessionFactory Bean 등록 -->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="jndiDataSource"/>
+		<!-- sqlsessionfactory에서 데이터풀 쓰기위해 위에 등록한 dataSource를 인젝션한다
+			그래서 value 대신 ref 쓴거(참조유형) -->
+		<property name="configLocation" value="classpath:spring/config/mybatis-config.xml"/>
+		<!-- classpath: == src/resources/... -->
+	</bean>
+	
+	<!-- 3. SqlSessionTemplate 등록 : spring에서는 sqlsession을 템플릿으로 제공한다 -->
+	<bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg ref="sqlSessionFactory"/>
+		<!-- sqlSessionFactory를 가져와야한다 -->
+	</bean>
+	
+	<!-- 4. mybatis-spring:scan 설정 -->
+	<mybatis-spring:scan base-package="com.tis.user.mapper, com.tis.shop.mapper"/>
+	
+</beans>

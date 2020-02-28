@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.tis.shop.mapper.CartMapper">
+
+	<!-- 장바구니 품목의 수량 가져오기 -->
+	<select id="getCartCountByIdx" resultType="int" parameterType="Cart">
+		select count(cartNum) from cart 
+		where idx_fk=#{idx_fk} and pnum_fk=#{pnum_fk}
+	</select>
+	<!-- 장바구니 상품추가 -->
+	<insert id="addCart" parameterType="Cart">
+		<selectKey keyProperty="cartNum" order="BEFORE" resultType="int">
+			select cart_seq.nextval from dual
+		</selectKey>
+		insert into cart (cartNum, oqty,indate,idx_fk,pnum_fk)
+		values(#{cartNum},#{oqty},sysdate,#{idx_fk},#{pnum_fk})
+	</insert>
+	<!-- 장바구니에 담긴 수량 수정하기 -->
+	<update id="updateCartQty" parameterType="Cart">
+		update cart set oqty=oqty+#{oqty} where idx_fk=#{idx_fk} and pnum_fk=#{pnum_fk}
+	</update>
+	<!-- 장바구니 view (cartView)를 이용하여 장바구니 목록 가져오기 -->
+	<select id="selectCartView" resultType="Cart" parameterType="int">
+		select * from cartView where idx_fk=#{value}	
+	</select>
+	<!-- 장바구니에 담긴 상품정보 -->
+	<select id="getCartTotal" resultType="Cart" parameterType="int">
+		select 
+		 sum((oqty * saleprice)) cartTotalPrice,
+		 sum((oqty * point)) cartTotalPoint
+		from cartView where idx_fk= #{value}
+	</select>
+	
+	<!-- 특정회원의 장바구니 목록 가져오기(old) -->
+	<select id="selectCartView_old" resultType="Cart" parameterType="int">
+		select cartNum, c.idx_fk, c.pnum_fk, p.saleprice, c.oqty, p.pname, p.pimage1 pimage, p.point,
+			(saleprice * oqty) totalPrice, (point * oqty) totalPoint
+		from cart c join product p
+		on c.pnum_fk=p.pnum
+		where c.idx_fk=#{value}
+	</select>
+	<!-- 장바구니에 담긴 상품정보 (old)-->
+	<select id="getCartTotal_old" resultType="Cart" parameterType="int">
+		select 
+		 sum((oqty * (select saleprice from product where pnum=pnum_fk))) cartTotalPrice,
+		 sum((oqty * (select point from product where pnum=pnum_fk))) cartTotalPoint
+		from cart where idx_fk= #{value}
+	</select>
+	<!-- 장바구니 특정항목 수정 -->
+	<update id="editCart" parameterType="Cart">
+		update cart set oqty=#{oqty} where cartNum=#{cartNum}
+	</update>
+	<!-- 장바구니 특정항목 삭제 -->
+	<delete id="delCart" parameterType="int">
+		delete from cart where cartNum=#{value}
+	</delete>
+	<!-- 장바구니 주문상품 삭제-->
+	<delete id="delCartOrder" parameterType="map">
+		delete from cart where idx_fk=#{idx_fk} and pnum_fk=#{pnum_fk}
+	</delete>
+</mapper>

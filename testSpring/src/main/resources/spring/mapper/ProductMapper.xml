@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.tis.shop.mapper.ProductMapper">
+
+	<!-- 상위카테고리 등록 -->
+	<insert id="upCategoryInsert" parameterType="string">
+		insert into upCategory(upCgCode, upCgName)
+		 values(upCategory_seq.nextval, #{upCgName})
+	</insert>
+	
+	<!-- 상위카테고리 리스트 -->
+	<select id="listUpCategory" resultType="Category">
+		select * from upCategory order by 1
+	</select>
+	
+	<!-- 하위카테고리 등록 -->
+	<insert id="downCategoryInsert" parameterType="map">
+		insert into downCategory(upCgCode, downCgCode, downCgName)
+		 values(#{upCgCode}, downCategory_seq.nextval, #{downCgName})
+	</insert>
+	
+	<!-- 하위카테고리 리스트 -->
+	<select id="listDownCategory" resultType="Category" parameterType="string">
+		select downCgCode, downCgName from downCategory where upCgCode=#{upCgCode}
+	</select>
+	
+	<!-- product -->
+	<!-- 상품 등록 -->
+	<insert id="insertProduct" parameterType="Product">
+		<!-- mybatis에서는 시퀀스를 다르게줌: selectKey 이용 -->
+		<!-- sequence를 증가시켜 ProductVO의 프로퍼티에 할당 -->
+		<selectKey keyProperty="pnum" order="BEFORE" resultType="int">
+					<!-- keyProperty: 시퀀스 돌릴 컬럼
+						order: BEFORE: sql문 돌리기 전에 실행시킬것  <<>> AFTER
+						resultType: 시퀀스의 데이터타입 -->
+			select product_seq.nextval from dual
+		</selectKey>
+		insert into product 
+			values(#{pnum},#{pname},#{price:NUMERIC},
+				#{saleprice:NUMERIC},#{pcontent:VARCHAR},
+				#{pimage1:VARCHAR},#{pimage2:VARCHAR},#{pimage3:VARCHAR},#{pqty:NUMERIC},
+				#{point:NUMERIC},#{pcompany:VARCHAR},#{pspec},sysdate,#{upCgCode},#{downCgCode})
+	</insert>
+
+	<select id="listProduct" resultType="Product">
+		select * from product order by pnum desc
+	</select>
+	
+	<!-- pspec별로 상품을 진열 -->
+	<select id="selectByPspec" resultType="Product" parameterType="string">
+		select * from product where pspec=#{value} order by pnum desc
+	</select>
+	
+	<!-- 조각내기 -->
+	<sql id="allColumn">
+		pnum, pname, price, saleprice, pcontent,pqty, point, pcompany, pspec, pindate, upCgCode, downCgCode,
+		nvl(pimage1,'noimage.png') pimage1,
+		nvl(pimage2,'noimage.png') pimage2,
+		nvl(pimage2,'noimage.png') pimage3
+	</sql>
+	<!-- 제품상세정보 가져오는 메소드 -->
+	<select id="selectProduct" resultType="Product" parameterType="string">
+		select
+		<include refid="allColumn"/> 
+		from product where pnum=#{pnum}
+	</select>
+	<!-- 카테고리로 하위카테고리 목록 가져오기 -->
+	<select id="selectByCategory" resultType="Product" parameterType="string">
+		select 
+		<include refid="allColumn"/>
+		from product where downCgCode=#{value} order by pindate desc
+	</select>
+	<!-- pnum에 해당하는 상품정보 가져오기 -->
+	<select id="selectByPnum" resultType="Product" parameterType="int">
+		select 
+		<include refid="allColumn"/>
+		from product where pnum=#{value}
+	</select>
+	
+</mapper>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.tis.shop.mapper.OrderMapper">
+
+	<!-- 주문개요정보 입력 -->
+	<insert id="orderDescInsert" parameterType="Order">
+		insert into orderDesc values(#{onum},#{ototalPrice},#{ototalPoint},3000,
+		'미배송',#{opayway},#{opaystate},sysdate,#{opointuse},#{ordermemo:VARCHAR},#{idx_fk})
+	</insert>
+	<!-- 주문상품정보 insert -->
+	<insert id="orderProductInsert" parameterType="Product">
+		insert into orderProduct(pnum_fk, onum, pimage, oqty, opoint, saleprice)
+		values(#{pnum},#{onum},#{pimage1},#{pqty},#{point:NUMERIC},#{saleprice})
+	</insert>
+	<!-- 수령자정보 insert -->
+	<insert id="receiverInsert" parameterType="Order">
+		insert into receiver(onum, rcvname, hp1,hp2,hp3, post,addr1,addr2)
+		values(#{onum},#{receiver.rcvname},#{receiver.hp1},#{receiver.hp2},#{receiver.hp3},
+		#{receiver.post},#{receiver.addr1},#{receiver.addr2})
+		<!-- orderVO안에 receiverVO가 property로 존재하고, receiverVO의 프로퍼티를
+			가져오고싶을때 이렇게 꺼내온다 -->
+	</insert>
+	<!-- 주문정보 출력하기 -->
+	<select id="getOrderDesc" resultMap="OrderJoinMap" parameterType="string">
+		select a.onum, a.idx_fk, a.ototalPrice, a.ototalPoint, a.odeliver,
+		 a.opaystate, a.opayway, a.orderDate, a.opointuse, a.ordermemo,
+		b.pnum_fk, (select pname from product where pnum=b.pnum_fk) pname,
+		 b.pimage, b.oqty, b.saleprice, b.opoint, c.*
+		from orderDesc a join orderProduct b
+		on a.onum= b.onum
+		join receiver c
+		on b.onum=c.onum and a.onum=#{value}
+	</select>
+	<!-- join절에 사용할 mapping 정보: db에서 가져오는 컬럼명과 VO객체의 프로퍼티명을 매핑해주기 -->
+	<resultMap type="Order" id="OrderJoinMap">
+		<!-- PK를 id엘리먼트에 지정-->
+		<id property="onum" column="onum"/>
+			<!-- property: orderVO의 프로퍼티명, column은 DB의 컬럼명을 넣어준다 -->
+		<!-- pk아닌 컬럼은 result로 -->
+		<result property="onum" column="onum"/>
+		<result property="idx_fk" column="idx_fk"/>
+		<result property="ototalPrice" column="ototalPrice"/>
+		<result property="ototalPoint" column="ototalPoint"/>
+		<result property="odeliver" column="odeliver"/>
+		<result property="opaystate" column="opaystate"/>
+		<result property="opayway" column="opayway"/>
+		<result property="orderdate" column="orderdate"/>
+		<result property="opointuse" column="opointuse"/>
+		<result property="ordermemo" column="ordermemo"/>
+		
+		<!-- OrderVO has a ReceiverVO -->
+		<association property="receiver" javaType="Receiver">
+			<!-- PK지정 -->
+			<id property="onum" column="onum"/>
+			<result property="rcvname" column="rcvname"/>
+			<result property="hp1" column="hp1"/>
+			<result property="hp2" column="hp2"/>
+			<result property="hp3" column="hp3"/>
+			<result property="post" column="post"/>
+			<result property="addr1" column="addr1"/>
+			<result property="addr2" column="addr2"/>
+		</association>
+		<!-- OrderVO has List<ProductVO> -->
+		<collection property="orderList" javaType="java.util.ArrayList" ofType="Product">
+			<result property="pnum" column="pnum_fk"/>
+			<result property="pname" column="pname"/>
+			<result property="pimage1" column="pimage"/>
+			<result property="pqty" column="oqty"/>
+			<result property="saleprice" column="saleprice"/>
+			<result property="point" column="opoint"/>
+		</collection>
+	</resultMap>
+	
+</mapper>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee https://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+	<!-- The definition of the Root Spring Container shared by all Servlets and Filters -->
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<!-- 기존의 param value -->
+		<!-- <param-value>/WEB-INF/spring/root-context.xml</param-value> -->
+		<param-value>classpath:spring/context/context-*.xml</param-value>
+			<!-- dataSource, transaction, AOP관련 소스들이 이 폴더로 들어간다 -->
+	</context-param>
+	
+	<!-- Creates the Spring Container shared by all Servlets and Filters -->
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+
+	<!-- Processes application requests -->
+	<servlet>
+		<servlet-name>appServlet</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<!-- param value에 추가로 들어가는 context.xml을 추가해준다 -->
+			<param-value>
+				/WEB-INF/spring/appServlet/servlet-context.xml,<!-- command.properties의 역할 -->
+				/WEB-INF/spring/appServlet/test-context.xml
+			</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<!-- url경로구분자: /를 쓸거임(요즘 트렌드) -->
+	<servlet-mapping>
+		<servlet-name>appServlet</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+	
+	<!-- POST전송때 한글처리를 위한 인코딩필터 -->
+	<filter>
+		<description></description>
+		<display-name>SpringEncodeFilter</display-name>
+		<filter-name>SpringEncodeFilter</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>SpringEncodeFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+</web-app>

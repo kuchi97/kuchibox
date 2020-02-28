@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- doctype 선언문은 반드시 위에 설정한대로 되어있어야 한다 -->
+
+<configuration>
+	<!-- type alias 지정======================= -->
+
+	<!-- mapper 등록 -->
+</configuration>
